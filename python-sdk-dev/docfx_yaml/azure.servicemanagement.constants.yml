@@ -1,0 +1,8 @@
+items:
+- _type: module
+  children: []
+  module: azure.servicemanagement.constants
+  name: azure.servicemanagement.constants
+  summary: ''
+  type: Namespace
+  uid: azure.servicemanagement.constants

@@ -1,0 +1,545 @@
+items:
+- _type: module
+  children:
+  - azure.servicebus.servicebusservice.ServiceBusSASAuthentication
+  - azure.servicebus.servicebusservice.ServiceBusService
+  - azure.servicebus.servicebusservice.ServiceBusWrapTokenAuthentication
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice
+  summary: ''
+  type: Namespace
+  uid: azure.servicebus.servicebusservice
+- _type: class
+  children:
+  - azure.servicebus.servicebusservice.ServiceBusSASAuthentication.sign_request
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusSASAuthentication
+  summary: ''
+  type: Class
+  uid: azure.servicebus.servicebusservice.ServiceBusSASAuthentication
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusSASAuthentication
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusSASAuthentication.sign_request
+  summary: ''
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusSASAuthentication.sign_request
+- _type: class
+  children:
+  - azure.servicebus.servicebusservice.ServiceBusService.account_key
+  - azure.servicebus.servicebusservice.ServiceBusService.create_event_hub
+  - azure.servicebus.servicebusservice.ServiceBusService.create_queue
+  - azure.servicebus.servicebusservice.ServiceBusService.create_rule
+  - azure.servicebus.servicebusservice.ServiceBusService.create_subscription
+  - azure.servicebus.servicebusservice.ServiceBusService.create_topic
+  - azure.servicebus.servicebusservice.ServiceBusService.delete_event_hub
+  - azure.servicebus.servicebusservice.ServiceBusService.delete_queue
+  - azure.servicebus.servicebusservice.ServiceBusService.delete_queue_message
+  - azure.servicebus.servicebusservice.ServiceBusService.delete_rule
+  - azure.servicebus.servicebusservice.ServiceBusService.delete_subscription
+  - azure.servicebus.servicebusservice.ServiceBusService.delete_subscription_message
+  - azure.servicebus.servicebusservice.ServiceBusService.delete_topic
+  - azure.servicebus.servicebusservice.ServiceBusService.format_dead_letter_queue_name
+  - azure.servicebus.servicebusservice.ServiceBusService.format_dead_letter_subscription_name
+  - azure.servicebus.servicebusservice.ServiceBusService.get_event_hub
+  - azure.servicebus.servicebusservice.ServiceBusService.get_queue
+  - azure.servicebus.servicebusservice.ServiceBusService.get_rule
+  - azure.servicebus.servicebusservice.ServiceBusService.get_subscription
+  - azure.servicebus.servicebusservice.ServiceBusService.get_topic
+  - azure.servicebus.servicebusservice.ServiceBusService.issuer
+  - azure.servicebus.servicebusservice.ServiceBusService.list_queues
+  - azure.servicebus.servicebusservice.ServiceBusService.list_rules
+  - azure.servicebus.servicebusservice.ServiceBusService.list_subscriptions
+  - azure.servicebus.servicebusservice.ServiceBusService.list_topics
+  - azure.servicebus.servicebusservice.ServiceBusService.peek_lock_queue_message
+  - azure.servicebus.servicebusservice.ServiceBusService.peek_lock_subscription_message
+  - azure.servicebus.servicebusservice.ServiceBusService.read_delete_queue_message
+  - azure.servicebus.servicebusservice.ServiceBusService.read_delete_subscription_message
+  - azure.servicebus.servicebusservice.ServiceBusService.receive_queue_message
+  - azure.servicebus.servicebusservice.ServiceBusService.receive_subscription_message
+  - azure.servicebus.servicebusservice.ServiceBusService.renew_lock_queue_message
+  - azure.servicebus.servicebusservice.ServiceBusService.renew_lock_subscription_message
+  - azure.servicebus.servicebusservice.ServiceBusService.send_event
+  - azure.servicebus.servicebusservice.ServiceBusService.send_queue_message
+  - azure.servicebus.servicebusservice.ServiceBusService.send_topic_message
+  - azure.servicebus.servicebusservice.ServiceBusService.set_proxy
+  - azure.servicebus.servicebusservice.ServiceBusService.timeout
+  - azure.servicebus.servicebusservice.ServiceBusService.unlock_queue_message
+  - azure.servicebus.servicebusservice.ServiceBusService.unlock_subscription_message
+  - azure.servicebus.servicebusservice.ServiceBusService.update_event_hub
+  - azure.servicebus.servicebusservice.ServiceBusService.with_filter
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService
+  summary: "Initializes the service bus service for a namespace with the specified\n\
+    authentication settings (SAS or ACS).\n\nservice_namespace:\n    Service bus namespace,\
+    \ required for all operations. If None,\n    the value is set to the AZURE_SERVICEBUS_NAMESPACE\
+    \ env variable.\naccount_key:\n    ACS authentication account key. If None, the\
+    \ value is set to the\n    AZURE_SERVICEBUS_ACCESS_KEY env variable.\n    Note\
+    \ that if both SAS and ACS settings are specified, SAS is used.\nissuer:\n   \
+    \ ACS authentication issuer. If None, the value is set to the\n    AZURE_SERVICEBUS_ISSUER\
+    \ env variable.\n    Note that if both SAS and ACS settings are specified, SAS\
+    \ is used.\nx_ms_version:\n    Unused. Kept for backwards compatibility.\nhost_base:\n\
+    \    Optional. Live host base url. Defaults to Azure url. Override this\n    for\
+    \ on-premise.\nshared_access_key_name:\n    SAS authentication key name.\n   \
+    \ Note that if both SAS and ACS settings are specified, SAS is used.\nshared_access_key_value:\n\
+    \    SAS authentication key value.\n    Note that if both SAS and ACS settings\
+    \ are specified, SAS is used.\nauthentication:\n    Instance of authentication\
+    \ class. If this is specified, then\n    ACS and SAS parameters are ignored.\n\
+    timeout:\n    Optional. Timeout for the http request, in seconds.\nrequest_session:\n\
+    \    Optional. Session object to use for http requests.\n"
+  type: Class
+  uid: azure.servicebus.servicebusservice.ServiceBusService
+- _type: attribute
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.account_key
+  summary: ''
+  type: Attribute
+  uid: azure.servicebus.servicebusservice.ServiceBusService.account_key
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.create_event_hub
+  summary: "Creates a new Event Hub.\n\nhub_name:\n    Name of event hub.\nhub:\n\
+    \    Optional. Event hub properties. Instance of EventHub class.\nhub.message_retention_in_days:\n\
+    \    Number of days to retain the events for this Event Hub.\nhub.status: Status\
+    \ of the Event Hub (enabled or disabled).\nhub.user_metadata: User metadata.\n\
+    hub.partition_count: Number of shards on the Event Hub.\nfail_on_exist:\n    Specify\
+    \ whether to throw an exception when the event hub exists.\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.create_event_hub
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.create_queue
+  summary: "Creates a new queue. Once created, this queue's resource manifest is\n\
+    immutable.\n\nqueue_name:\n    Name of the queue to create.\nqueue:\n    Queue\
+    \ object to create.\nfail_on_exist:\n    Specify whether to throw an exception\
+    \ when the queue exists.\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.create_queue
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.create_rule
+  summary: "Creates a new rule. Once created, this rule's resource manifest is\nimmutable.\n\
+    \ntopic_name:\n    Name of the topic.\nsubscription_name:\n    Name of the subscription.\n\
+    rule_name:\n    Name of the rule.\nfail_on_exist:\n    Specify whether to throw\
+    \ an exception when the rule exists.\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.create_rule
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.create_subscription
+  summary: "Creates a new subscription. Once created, this subscription resource\n\
+    manifest is immutable.\n\ntopic_name:\n    Name of the topic.\nsubscription_name:\n\
+    \    Name of the subscription.\nfail_on_exist:\n    Specify whether throw exception\
+    \ when subscription exists.\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.create_subscription
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.create_topic
+  summary: "Creates a new topic. Once created, this topic resource manifest is\nimmutable.\n\
+    \ntopic_name:\n    Name of the topic to create.\ntopic:\n    Topic object to create.\n\
+    fail_on_exist:\n    Specify whether to throw an exception when the topic exists.\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.create_topic
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.delete_event_hub
+  summary: "Deletes an Event Hub. This operation will also remove all associated\n\
+    state.\n\nhub_name:\n    Name of the event hub to delete.\nfail_not_exist:\n \
+    \   Specify whether to throw an exception if the event hub doesn't exist.\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.delete_event_hub
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.delete_queue
+  summary: "Deletes an existing queue. This operation will also remove all\nassociated\
+    \ state including messages in the queue.\n\nqueue_name:\n    Name of the queue\
+    \ to delete.\nfail_not_exist:\n    Specify whether to throw an exception if the\
+    \ queue doesn't exist.\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.delete_queue
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.delete_queue_message
+  summary: "Completes processing on a locked message and delete it from the queue.\n\
+    This operation should only be called after processing a previously\nlocked message\
+    \ is successful to maintain At-Least-Once delivery\nassurances.\n\nqueue_name:\n\
+    \    Name of the queue.\nsequence_number:\n    The sequence number of the message\
+    \ to be deleted as returned in\n    BrokerProperties['SequenceNumber'] by the\
+    \ Peek Message operation.\nlock_token:\n    The ID of the lock as returned by\
+    \ the Peek Message operation in\n    BrokerProperties['LockToken']\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.delete_queue_message
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.delete_rule
+  summary: "Deletes an existing rule.\n\ntopic_name:\n    Name of the topic.\nsubscription_name:\n\
+    \    Name of the subscription.\nrule_name:\n    Name of the rule to delete.  DEFAULT_RULE_NAME=$Default.\n\
+    \    Use DEFAULT_RULE_NAME to delete default rule for the subscription.\nfail_not_exist:\n\
+    \    Specify whether throw exception when rule doesn't exist.\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.delete_rule
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.delete_subscription
+  summary: "Deletes an existing subscription.\n\ntopic_name:\n    Name of the topic.\n\
+    subscription_name:\n    Name of the subscription to delete.\nfail_not_exist:\n\
+    \    Specify whether to throw an exception when the subscription\n    doesn't\
+    \ exist.\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.delete_subscription
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.delete_subscription_message
+  summary: "Completes processing on a locked message and delete it from the\nsubscription.\
+    \ This operation should only be called after processing a\npreviously locked message\
+    \ is successful to maintain At-Least-Once\ndelivery assurances.\n\ntopic_name:\n\
+    \    Name of the topic.\nsubscription_name:\n    Name of the subscription.\nsequence_number:\n\
+    \    The sequence number of the message to be deleted as returned in\n    BrokerProperties['SequenceNumber']\
+    \ by the Peek Message operation.\nlock_token:\n    The ID of the lock as returned\
+    \ by the Peek Message operation in\n    BrokerProperties['LockToken']\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.delete_subscription_message
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.delete_topic
+  summary: "Deletes an existing topic. This operation will also remove all\nassociated\
+    \ state including associated subscriptions.\n\ntopic_name:\n    Name of the topic\
+    \ to delete.\nfail_not_exist:\n    Specify whether throw exception when topic\
+    \ doesn't exist.\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.delete_topic
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.format_dead_letter_queue_name
+  summary: 'Get the dead letter name of this queue
+
+    '
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.format_dead_letter_queue_name
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.format_dead_letter_subscription_name
+  summary: 'Get the dead letter name of this subscription
+
+    '
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.format_dead_letter_subscription_name
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.get_event_hub
+  summary: "Retrieves an existing event hub.\n\nhub_name:\n    Name of the event hub.\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.get_event_hub
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.get_queue
+  summary: "Retrieves an existing queue.\n\nqueue_name:\n    Name of the queue.\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.get_queue
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.get_rule
+  summary: "Retrieves the description for the specified rule.\n\ntopic_name:\n   \
+    \ Name of the topic.\nsubscription_name:\n    Name of the subscription.\nrule_name:\n\
+    \    Name of the rule.\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.get_rule
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.get_subscription
+  summary: "Gets an existing subscription.\n\ntopic_name:\n    Name of the topic.\n\
+    subscription_name:\n    Name of the subscription.\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.get_subscription
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.get_topic
+  summary: "Retrieves the description for the specified topic.\n\ntopic_name:\n  \
+    \  Name of the topic.\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.get_topic
+- _type: attribute
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.issuer
+  summary: ''
+  type: Attribute
+  uid: azure.servicebus.servicebusservice.ServiceBusService.issuer
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.list_queues
+  summary: 'Enumerates the queues in the service namespace.
+
+    '
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.list_queues
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.list_rules
+  summary: "Retrieves the rules that exist under the specified subscription.\n\ntopic_name:\n\
+    \    Name of the topic.\nsubscription_name:\n    Name of the subscription.\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.list_rules
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.list_subscriptions
+  summary: "Retrieves the subscriptions in the specified topic.\n\ntopic_name:\n \
+    \   Name of the topic.\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.list_subscriptions
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.list_topics
+  summary: 'Retrieves the topics in the service namespace.
+
+    '
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.list_topics
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.peek_lock_queue_message
+  summary: "Automically retrieves and locks a message from a queue for processing.\n\
+    The message is guaranteed not to be delivered to other receivers (on\nthe same\
+    \ subscription only) during the lock duration period specified\nin the queue description.\
+    \ Once the lock expires, the message will be\navailable to other receivers. In\
+    \ order to complete processing of the\nmessage, the receiver should issue a delete\
+    \ command with the lock ID\nreceived from this operation. To abandon processing\
+    \ of the message and\nunlock it for other receivers, an Unlock Message command\
+    \ should be\nissued, or the lock duration period can expire.\n\nqueue_name:\n\
+    \    Name of the queue.\ntimeout:\n    Optional. The timeout parameter is expressed\
+    \ in seconds.\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.peek_lock_queue_message
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.peek_lock_subscription_message
+  summary: "This operation is used to atomically retrieve and lock a message for\n\
+    processing. The message is guaranteed not to be delivered to other\nreceivers\
+    \ during the lock duration period specified in buffer\ndescription. Once the lock\
+    \ expires, the message will be available to\nother receivers (on the same subscription\
+    \ only) during the lock\nduration period specified in the topic description. Once\
+    \ the lock\nexpires, the message will be available to other receivers. In order\
+    \ to\ncomplete processing of the message, the receiver should issue a delete\n\
+    command with the lock ID received from this operation. To abandon\nprocessing\
+    \ of the message and unlock it for other receivers, an Unlock\nMessage command\
+    \ should be issued, or the lock duration period can\nexpire.\n\ntopic_name:\n\
+    \    Name of the topic.\nsubscription_name:\n    Name of the subscription.\ntimeout:\n\
+    \    Optional. The timeout parameter is expressed in seconds.\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.peek_lock_subscription_message
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.read_delete_queue_message
+  summary: "Reads and deletes a message from a queue as an atomic operation. This\n\
+    operation should be used when a best-effort guarantee is sufficient\nfor an application;\
+    \ that is, using this operation it is possible for\nmessages to be lost if processing\
+    \ fails.\n\nqueue_name:\n    Name of the queue.\ntimeout:\n    Optional. The timeout\
+    \ parameter is expressed in seconds.\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.read_delete_queue_message
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.read_delete_subscription_message
+  summary: "Read and delete a message from a subscription as an atomic operation.\n\
+    This operation should be used when a best-effort guarantee is\nsufficient for\
+    \ an application; that is, using this operation it is\npossible for messages to\
+    \ be lost if processing fails.\n\ntopic_name:\n    Name of the topic.\nsubscription_name:\n\
+    \    Name of the subscription.\ntimeout:\n    Optional. The timeout parameter\
+    \ is expressed in seconds.\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.read_delete_subscription_message
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.receive_queue_message
+  summary: "Receive a message from a queue for processing.\n\nqueue_name:\n    Name\
+    \ of the queue.\npeek_lock:\n    Optional. True to retrieve and lock the message.\
+    \ False to read and\n    delete the message. Default is True (lock).\ntimeout:\n\
+    \    Optional. The timeout parameter is expressed in seconds.\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.receive_queue_message
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.receive_subscription_message
+  summary: "Receive a message from a subscription for processing.\n\ntopic_name:\n\
+    \    Name of the topic.\nsubscription_name:\n    Name of the subscription.\npeek_lock:\n\
+    \    Optional. True to retrieve and lock the message. False to read and\n    delete\
+    \ the message. Default is True (lock).\ntimeout:\n    Optional. The timeout parameter\
+    \ is expressed in seconds.\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.receive_subscription_message
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.renew_lock_queue_message
+  summary: "Renew lock on an already locked message on a given\nqueue. A message must\
+    \ have first been locked by a\nreceiver before this operation is called.\n\nqueue_name:\n\
+    \    Name of the queue.\nsequence_number:\n    The sequence number of the message\
+    \ to be unlocked as returned in\n    BrokerProperties['SequenceNumber'] by the\
+    \ Peek Message operation.\nlock_token:\n    The ID of the lock as returned by\
+    \ the Peek Message operation in\n    BrokerProperties['LockToken']\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.renew_lock_queue_message
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.renew_lock_subscription_message
+  summary: "Renew the lock on an already locked message on a given\nsubscription.\
+    \ A message must have first been locked by a\nreceiver before this operation is\
+    \ called.\n\ntopic_name:\n    Name of the topic.\nsubscription_name:\n    Name\
+    \ of the subscription.\nsequence_number:\n    The sequence number of the message\
+    \ to be unlocked as returned in\n    BrokerProperties['SequenceNumber'] by the\
+    \ Peek Message operation.\nlock_token:\n    The ID of the lock as returned by\
+    \ the Peek Message operation in\n    BrokerProperties['LockToken']\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.renew_lock_subscription_message
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.send_event
+  summary: 'Sends a new message event to an Event Hub.
+
+    '
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.send_event
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.send_queue_message
+  summary: "Sends a message into the specified queue. The limit to the number of\n\
+    messages which may be present in the topic is governed by the message\nsize the\
+    \ MaxTopicSizeInMegaBytes. If this message will cause the queue\nto exceed its\
+    \ quota, a quota exceeded error is returned and the\nmessage will be rejected.\n\
+    \nqueue_name:\n    Name of the queue.\nmessage:\n    Message object containing\
+    \ message body and properties.\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.send_queue_message
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.send_topic_message
+  summary: "Enqueues a message into the specified topic. The limit to the number\n\
+    of messages which may be present in the topic is governed by the\nmessage size\
+    \ in MaxTopicSizeInBytes. If this message causes the topic\nto exceed its quota,\
+    \ a quota exceeded error is returned and the\nmessage will be rejected.\n\ntopic_name:\n\
+    \    Name of the topic.\nmessage:\n    Message object containing message body\
+    \ and properties.\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.send_topic_message
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.set_proxy
+  summary: "Sets the proxy server host and port for the HTTP CONNECT Tunnelling.\n\
+    \nhost:\n    Address of the proxy. Ex: '192.168.0.100'\nport:\n    Port of the\
+    \ proxy. Ex: 6000\nuser:\n    User for proxy authorization.\npassword:\n    Password\
+    \ for proxy authorization.\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.set_proxy
+- _type: attribute
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.timeout
+  summary: ''
+  type: Attribute
+  uid: azure.servicebus.servicebusservice.ServiceBusService.timeout
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.unlock_queue_message
+  summary: "Unlocks a message for processing by other receivers on a given\nqueue.\
+    \ This operation deletes the lock object, causing the\nmessage to be unlocked.\
+    \ A message must have first been locked by a\nreceiver before this operation is\
+    \ called.\n\nqueue_name:\n    Name of the queue.\nsequence_number:\n    The sequence\
+    \ number of the message to be unlocked as returned in\n    BrokerProperties['SequenceNumber']\
+    \ by the Peek Message operation.\nlock_token:\n    The ID of the lock as returned\
+    \ by the Peek Message operation in\n    BrokerProperties['LockToken']\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.unlock_queue_message
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.unlock_subscription_message
+  summary: "Unlock a message for processing by other receivers on a given\nsubscription.\
+    \ This operation deletes the lock object, causing the\nmessage to be unlocked.\
+    \ A message must have first been locked by a\nreceiver before this operation is\
+    \ called.\n\ntopic_name:\n    Name of the topic.\nsubscription_name:\n    Name\
+    \ of the subscription.\nsequence_number:\n    The sequence number of the message\
+    \ to be unlocked as returned in\n    BrokerProperties['SequenceNumber'] by the\
+    \ Peek Message operation.\nlock_token:\n    The ID of the lock as returned by\
+    \ the Peek Message operation in\n    BrokerProperties['LockToken']\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.unlock_subscription_message
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.update_event_hub
+  summary: "Updates an Event Hub.\n\nhub_name:\n    Name of event hub.\nhub:\n   \
+    \ Optional. Event hub properties. Instance of EventHub class.\nhub.message_retention_in_days:\n\
+    \    Number of days to retain the events for this Event Hub.\n"
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.update_event_hub
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusService
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusService.with_filter
+  summary: 'Returns a new service which will process requests with the specified
+
+    filter.  Filtering operations can include logging, automatic retrying,
+
+    etc...  The filter is a lambda which receives the HTTPRequest and
+
+    another lambda.  The filter can perform any pre-processing on the
+
+    request, pass it off to the next lambda, and then perform any
+
+    post-processing on the response.
+
+    '
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusService.with_filter
+- _type: class
+  children:
+  - azure.servicebus.servicebusservice.ServiceBusWrapTokenAuthentication.sign_request
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusWrapTokenAuthentication
+  summary: ''
+  type: Class
+  uid: azure.servicebus.servicebusservice.ServiceBusWrapTokenAuthentication
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusWrapTokenAuthentication
+  module: azure.servicebus.servicebusservice
+  name: azure.servicebus.servicebusservice.ServiceBusWrapTokenAuthentication.sign_request
+  summary: ''
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusWrapTokenAuthentication.sign_request

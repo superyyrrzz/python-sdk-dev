@@ -1,0 +1,535 @@
+items:
+- _type: module
+  children:
+  - azure.mgmt.notificationhubs.models.CheckAvailabilityParameters
+  - azure.mgmt.notificationhubs.models.Sku
+  - azure.mgmt.notificationhubs.models.CheckAvailabilityResult
+  - azure.mgmt.notificationhubs.models.NamespaceCreateOrUpdateParameters
+  - azure.mgmt.notificationhubs.models.NamespacePatchParameters
+  - azure.mgmt.notificationhubs.models.NamespaceResource
+  - azure.mgmt.notificationhubs.models.SharedAccessAuthorizationRuleProperties
+  - azure.mgmt.notificationhubs.models.SharedAccessAuthorizationRuleCreateOrUpdateParameters
+  - azure.mgmt.notificationhubs.models.SharedAccessAuthorizationRuleResource
+  - azure.mgmt.notificationhubs.models.ResourceListKeys
+  - azure.mgmt.notificationhubs.models.PolicykeyResource
+  - azure.mgmt.notificationhubs.models.ApnsCredential
+  - azure.mgmt.notificationhubs.models.WnsCredential
+  - azure.mgmt.notificationhubs.models.GcmCredential
+  - azure.mgmt.notificationhubs.models.MpnsCredential
+  - azure.mgmt.notificationhubs.models.AdmCredential
+  - azure.mgmt.notificationhubs.models.BaiduCredential
+  - azure.mgmt.notificationhubs.models.NotificationHubCreateOrUpdateParameters
+  - azure.mgmt.notificationhubs.models.NotificationHubResource
+  - azure.mgmt.notificationhubs.models.PnsCredentialsResource
+  - azure.mgmt.notificationhubs.models.Resource
+  - azure.mgmt.notificationhubs.models.SubResource
+  - azure.mgmt.notificationhubs.models.NamespaceResourcePaged
+  - azure.mgmt.notificationhubs.models.SharedAccessAuthorizationRuleResourcePaged
+  - azure.mgmt.notificationhubs.models.NotificationHubResourcePaged
+  - azure.mgmt.notificationhubs.models.SkuName
+  - azure.mgmt.notificationhubs.models.NamespaceType
+  - azure.mgmt.notificationhubs.models.AccessRights
+  module: azure.mgmt.notificationhubs.models
+  name: azure.mgmt.notificationhubs.models
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.notificationhubs.models
+- _type: class
+  children: []
+  module: azure.mgmt.notificationhubs.models
+  name: azure.mgmt.notificationhubs.models.CheckAvailabilityParameters
+  summary: "Parameters supplied to the Check Name Availability for Namespace and\n\
+    NotificationHubs.\n\nVariables are only populated by the server, and will be ignored\
+    \ when\nsending a request.\n\n:ivar id: Resource Id\n:vartype id: str\n:param\
+    \ name: Resource name\n:type name: str\n:ivar type: Resource type\n:vartype type:\
+    \ str\n:param location: Resource location\n:type location: str\n:param tags: Resource\
+    \ tags\n:type tags: dict\n:param sku: The sku of the created namespace\n:type\
+    \ sku: :class:`Sku <azure.mgmt.notificationhubs.models.Sku>`\n:param is_availiable:\
+    \ True if the name is available and can be used to\n create new Namespace/NotificationHub.\
+    \ Otherwise false.\n:type is_availiable: bool\n"
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.CheckAvailabilityParameters
+- _type: class
+  children: []
+  module: azure.mgmt.notificationhubs.models
+  name: azure.mgmt.notificationhubs.models.Sku
+  summary: "The Sku description for a namespace.\n\n:param name: Name of the notification\
+    \ hub sku. Possible values include:\n 'Free', 'Basic', 'Standard'\n:type name:\
+    \ str or :class:`SkuName\n <azure.mgmt.notificationhubs.models.SkuName>`\n:param\
+    \ tier: The tier of particular sku\n:type tier: str\n:param size: The Sku size\n\
+    :type size: str\n:param family: The Sku Family\n:type family: str\n:param capacity:\
+    \ The capacity of the resource\n:type capacity: int\n"
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.Sku
+- _type: class
+  children: []
+  module: azure.mgmt.notificationhubs.models
+  name: azure.mgmt.notificationhubs.models.CheckAvailabilityResult
+  summary: "Description of a CheckAvailibility resource.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar id: Resource\
+    \ Id\n:vartype id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type:\
+    \ Resource type\n:vartype type: str\n:param location: Resource location\n:type\
+    \ location: str\n:param tags: Resource tags\n:type tags: dict\n:param sku: The\
+    \ sku of the created namespace\n:type sku: :class:`Sku <azure.mgmt.notificationhubs.models.Sku>`\n\
+    :param is_availiable: True if the name is available and can be used to\n create\
+    \ new Namespace/NotificationHub. Otherwise false.\n:type is_availiable: bool\n"
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.CheckAvailabilityResult
+- _type: class
+  children: []
+  module: azure.mgmt.notificationhubs.models
+  name: azure.mgmt.notificationhubs.models.NamespaceCreateOrUpdateParameters
+  summary: "Parameters supplied to the CreateOrUpdate Namespace operation.\n\nVariables\
+    \ are only populated by the server, and will be ignored when\nsending a request.\n\
+    \n:ivar id: Resource Id\n:vartype id: str\n:ivar name: Resource name\n:vartype\
+    \ name: str\n:ivar type: Resource type\n:vartype type: str\n:param location: Resource\
+    \ location\n:type location: str\n:param tags: Resource tags\n:type tags: dict\n\
+    :param sku: The sku of the created namespace\n:type sku: :class:`Sku <azure.mgmt.notificationhubs.models.Sku>`\n\
+    :param namespace_create_or_update_parameters_name: The name of the\n namespace.\n\
+    :type namespace_create_or_update_parameters_name: str\n:param provisioning_state:\
+    \ Provisioning state of the Namespace.\n:type provisioning_state: str\n:param\
+    \ region: Specifies the targeted region in which the namespace\n should be created.\
+    \ It can be any of the following values: Australia\n EastAustralia SoutheastCentral\
+    \ USEast USEast US 2West USNorth Central\n USSouth Central USEast AsiaSoutheast\
+    \ AsiaBrazil SouthJapan EastJapan\n WestNorth EuropeWest Europe\n:type region:\
+    \ str\n:param status: Status of the namespace. It can be any of these values:1\
+    \ =\n Created/Active2 = Creating3 = Suspended4 = Deleting\n:type status: str\n\
+    :param created_at: The time the namespace was created.\n:type created_at: datetime\n\
+    :param service_bus_endpoint: Endpoint you can use to perform\n NotificationHub\
+    \ operations.\n:type service_bus_endpoint: str\n:param subscription_id: The Id\
+    \ of the Azure subscription associated with\n the namespace.\n:type subscription_id:\
+    \ str\n:param scale_unit: ScaleUnit where the namespace gets created\n:type scale_unit:\
+    \ str\n:param enabled: Whether or not the namespace is currently enabled.\n:type\
+    \ enabled: bool\n:param critical: Whether or not the namespace is set as Critical.\n\
+    :type critical: bool\n:param namespace_type: The namespace type. Possible values\
+    \ include:\n 'Messaging', 'NotificationHub'\n:type namespace_type: str or :class:`NamespaceType\n\
+    \ <azure.mgmt.notificationhubs.models.NamespaceType>`\n"
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.NamespaceCreateOrUpdateParameters
+- _type: class
+  children: []
+  module: azure.mgmt.notificationhubs.models
+  name: azure.mgmt.notificationhubs.models.NamespacePatchParameters
+  summary: 'Parameters supplied to the Patch Namespace operation.
+
+
+    :param tags: Resource tags
+
+    :type tags: dict
+
+    :param sku: The sku of the created namespace
+
+    :type sku: :class:`Sku <azure.mgmt.notificationhubs.models.Sku>`
+
+    '
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.NamespacePatchParameters
+- _type: class
+  children: []
+  module: azure.mgmt.notificationhubs.models
+  name: azure.mgmt.notificationhubs.models.NamespaceResource
+  summary: "Description of a Namespace resource.\n\nVariables are only populated by\
+    \ the server, and will be ignored when\nsending a request.\n\n:ivar id: Resource\
+    \ Id\n:vartype id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type:\
+    \ Resource type\n:vartype type: str\n:param location: Resource location\n:type\
+    \ location: str\n:param tags: Resource tags\n:type tags: dict\n:param sku: The\
+    \ sku of the created namespace\n:type sku: :class:`Sku <azure.mgmt.notificationhubs.models.Sku>`\n\
+    :param namespace_resource_name: The name of the namespace.\n:type namespace_resource_name:\
+    \ str\n:param provisioning_state: Provisioning state of the Namespace.\n:type\
+    \ provisioning_state: str\n:param region: Specifies the targeted region in which\
+    \ the namespace\n should be created. It can be any of the following values: Australia\n\
+    \ EastAustralia SoutheastCentral USEast USEast US 2West USNorth Central\n USSouth\
+    \ Central USEast AsiaSoutheast AsiaBrazil SouthJapan EastJapan\n WestNorth EuropeWest\
+    \ Europe\n:type region: str\n:param status: Status of the namespace. It can be\
+    \ any of these values:1 =\n Created/Active2 = Creating3 = Suspended4 = Deleting\n\
+    :type status: str\n:param created_at: The time the namespace was created.\n:type\
+    \ created_at: datetime\n:param service_bus_endpoint: Endpoint you can use to perform\n\
+    \ NotificationHub operations.\n:type service_bus_endpoint: str\n:param subscription_id:\
+    \ The Id of the Azure subscription associated with\n the namespace.\n:type subscription_id:\
+    \ str\n:param scale_unit: ScaleUnit where the namespace gets created\n:type scale_unit:\
+    \ str\n:param enabled: Whether or not the namespace is currently enabled.\n:type\
+    \ enabled: bool\n:param critical: Whether or not the namespace is set as Critical.\n\
+    :type critical: bool\n:param namespace_type: The namespace type. Possible values\
+    \ include:\n 'Messaging', 'NotificationHub'\n:type namespace_type: str or :class:`NamespaceType\n\
+    \ <azure.mgmt.notificationhubs.models.NamespaceType>`\n"
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.NamespaceResource
+- _type: class
+  children: []
+  module: azure.mgmt.notificationhubs.models
+  name: azure.mgmt.notificationhubs.models.SharedAccessAuthorizationRuleProperties
+  summary: "SharedAccessAuthorizationRule properties.\n\n:param rights: The rights\
+    \ associated with the rule.\n:type rights: list of str or :class:`AccessRights\n\
+    \ <azure.mgmt.notificationhubs.models.AccessRights>`\n"
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.SharedAccessAuthorizationRuleProperties
+- _type: class
+  children: []
+  module: azure.mgmt.notificationhubs.models
+  name: azure.mgmt.notificationhubs.models.SharedAccessAuthorizationRuleCreateOrUpdateParameters
+  summary: "Parameters supplied to the CreateOrUpdate Namespace AuthorizationRules.\n\
+    \nVariables are only populated by the server, and will be ignored when\nsending\
+    \ a request.\n\n:ivar id: Resource Id\n:vartype id: str\n:ivar name: Resource\
+    \ name\n:vartype name: str\n:ivar type: Resource type\n:vartype type: str\n:param\
+    \ location: Resource location\n:type location: str\n:param tags: Resource tags\n\
+    :type tags: dict\n:param sku: The sku of the created namespace\n:type sku: :class:`Sku\
+    \ <azure.mgmt.notificationhubs.models.Sku>`\n:param properties: Properties of\
+    \ the Namespace AuthorizationRules.\n:type properties: :class:`SharedAccessAuthorizationRuleProperties\n\
+    \ <azure.mgmt.notificationhubs.models.SharedAccessAuthorizationRuleProperties>`\n"
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.SharedAccessAuthorizationRuleCreateOrUpdateParameters
+- _type: class
+  children: []
+  module: azure.mgmt.notificationhubs.models
+  name: azure.mgmt.notificationhubs.models.SharedAccessAuthorizationRuleResource
+  summary: "Description of a Namespace AuthorizationRules.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar id: Resource\
+    \ Id\n:vartype id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type:\
+    \ Resource type\n:vartype type: str\n:param location: Resource location\n:type\
+    \ location: str\n:param tags: Resource tags\n:type tags: dict\n:param sku: The\
+    \ sku of the created namespace\n:type sku: :class:`Sku <azure.mgmt.notificationhubs.models.Sku>`\n\
+    :param rights: The rights associated with the rule.\n:type rights: list of str\
+    \ or :class:`AccessRights\n <azure.mgmt.notificationhubs.models.AccessRights>`\n"
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.SharedAccessAuthorizationRuleResource
+- _type: class
+  children: []
+  module: azure.mgmt.notificationhubs.models
+  name: azure.mgmt.notificationhubs.models.ResourceListKeys
+  summary: "Namespace/NotificationHub Connection String.\n\n:param primary_connection_string:\
+    \ PrimaryConnectionString of the\n AuthorizationRule.\n:type primary_connection_string:\
+    \ str\n:param secondary_connection_string: SecondaryConnectionString of the\n\
+    \ created AuthorizationRule\n:type secondary_connection_string: str\n:param primary_key:\
+    \ PrimaryKey of the created AuthorizationRule.\n:type primary_key: str\n:param\
+    \ secondary_key: SecondaryKey of the created AuthorizationRule\n:type secondary_key:\
+    \ str\n:param key_name: KeyName of the created AuthorizationRule\n:type key_name:\
+    \ str\n"
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.ResourceListKeys
+- _type: class
+  children: []
+  module: azure.mgmt.notificationhubs.models
+  name: azure.mgmt.notificationhubs.models.PolicykeyResource
+  summary: "Namespace/NotificationHub Regenerate Keys.\n\n:param policy_key: Name\
+    \ of the key that has to be regenerated for the\n Namespace/Notification Hub Authorization\
+    \ Rule. The value can be Primary\n Key/Secondary Key.\n:type policy_key: str\n"
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.PolicykeyResource
+- _type: class
+  children: []
+  module: azure.mgmt.notificationhubs.models
+  name: azure.mgmt.notificationhubs.models.ApnsCredential
+  summary: 'Description of a NotificationHub ApnsCredential.
+
+
+    :param apns_certificate: The APNS certificate.
+
+    :type apns_certificate: str
+
+    :param certificate_key: The certificate key.
+
+    :type certificate_key: str
+
+    :param endpoint: The endpoint of this credential.
+
+    :type endpoint: str
+
+    :param thumbprint: The Apns certificate Thumbprint
+
+    :type thumbprint: str
+
+    '
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.ApnsCredential
+- _type: class
+  children: []
+  module: azure.mgmt.notificationhubs.models
+  name: azure.mgmt.notificationhubs.models.WnsCredential
+  summary: 'Description of a NotificationHub WnsCredential.
+
+
+    :param package_sid: The package ID for this credential.
+
+    :type package_sid: str
+
+    :param secret_key: The secret key.
+
+    :type secret_key: str
+
+    :param windows_live_endpoint: The Windows Live endpoint.
+
+    :type windows_live_endpoint: str
+
+    '
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.WnsCredential
+- _type: class
+  children: []
+  module: azure.mgmt.notificationhubs.models
+  name: azure.mgmt.notificationhubs.models.GcmCredential
+  summary: 'Description of a NotificationHub GcmCredential.
+
+
+    :param gcm_endpoint: The GCM endpoint.
+
+    :type gcm_endpoint: str
+
+    :param google_api_key: The Google API key.
+
+    :type google_api_key: str
+
+    '
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.GcmCredential
+- _type: class
+  children: []
+  module: azure.mgmt.notificationhubs.models
+  name: azure.mgmt.notificationhubs.models.MpnsCredential
+  summary: 'Description of a NotificationHub MpnsCredential.
+
+
+    :param mpns_certificate: The MPNS certificate.
+
+    :type mpns_certificate: str
+
+    :param certificate_key: The certificate key for this credential.
+
+    :type certificate_key: str
+
+    :param thumbprint: The Mpns certificate Thumbprint
+
+    :type thumbprint: str
+
+    '
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.MpnsCredential
+- _type: class
+  children: []
+  module: azure.mgmt.notificationhubs.models
+  name: azure.mgmt.notificationhubs.models.AdmCredential
+  summary: 'Description of a NotificationHub AdmCredential.
+
+
+    :param client_id: The client identifier.
+
+    :type client_id: str
+
+    :param client_secret: The credential secret access key.
+
+    :type client_secret: str
+
+    :param auth_token_url: The URL of the authorization token.
+
+    :type auth_token_url: str
+
+    '
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.AdmCredential
+- _type: class
+  children: []
+  module: azure.mgmt.notificationhubs.models
+  name: azure.mgmt.notificationhubs.models.BaiduCredential
+  summary: 'Description of a NotificationHub BaiduCredential.
+
+
+    :param baidu_api_key: Baidu Api Key.
+
+    :type baidu_api_key: str
+
+    :param baidu_end_point: Baidu Endpoint.
+
+    :type baidu_end_point: str
+
+    :param baidu_secret_key: Baidu Secret Key
+
+    :type baidu_secret_key: str
+
+    '
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.BaiduCredential
+- _type: class
+  children: []
+  module: azure.mgmt.notificationhubs.models
+  name: azure.mgmt.notificationhubs.models.NotificationHubCreateOrUpdateParameters
+  summary: "Parameters supplied to the CreateOrUpdate NotificationHub operation.\n\
+    \nVariables are only populated by the server, and will be ignored when\nsending\
+    \ a request.\n\n:ivar id: Resource Id\n:vartype id: str\n:ivar name: Resource\
+    \ name\n:vartype name: str\n:ivar type: Resource type\n:vartype type: str\n:param\
+    \ location: Resource location\n:type location: str\n:param tags: Resource tags\n\
+    :type tags: dict\n:param sku: The sku of the created namespace\n:type sku: :class:`Sku\
+    \ <azure.mgmt.notificationhubs.models.Sku>`\n:param notification_hub_create_or_update_parameters_name:\
+    \ The\n NotificationHub name.\n:type notification_hub_create_or_update_parameters_name:\
+    \ str\n:param registration_ttl: The RegistrationTtl of the created\n NotificationHub\n\
+    :type registration_ttl: str\n:param authorization_rules: The AuthorizationRules\
+    \ of the created\n NotificationHub\n:type authorization_rules: list of\n :class:`SharedAccessAuthorizationRuleProperties\n\
+    \ <azure.mgmt.notificationhubs.models.SharedAccessAuthorizationRuleProperties>`\n\
+    :param apns_credential: The ApnsCredential of the created NotificationHub\n:type\
+    \ apns_credential: :class:`ApnsCredential\n <azure.mgmt.notificationhubs.models.ApnsCredential>`\n\
+    :param wns_credential: The WnsCredential of the created NotificationHub\n:type\
+    \ wns_credential: :class:`WnsCredential\n <azure.mgmt.notificationhubs.models.WnsCredential>`\n\
+    :param gcm_credential: The GcmCredential of the created NotificationHub\n:type\
+    \ gcm_credential: :class:`GcmCredential\n <azure.mgmt.notificationhubs.models.GcmCredential>`\n\
+    :param mpns_credential: The MpnsCredential of the created NotificationHub\n:type\
+    \ mpns_credential: :class:`MpnsCredential\n <azure.mgmt.notificationhubs.models.MpnsCredential>`\n\
+    :param adm_credential: The AdmCredential of the created NotificationHub\n:type\
+    \ adm_credential: :class:`AdmCredential\n <azure.mgmt.notificationhubs.models.AdmCredential>`\n\
+    :param baidu_credential: The BaiduCredential of the created\n NotificationHub\n\
+    :type baidu_credential: :class:`BaiduCredential\n <azure.mgmt.notificationhubs.models.BaiduCredential>`\n"
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.NotificationHubCreateOrUpdateParameters
+- _type: class
+  children: []
+  module: azure.mgmt.notificationhubs.models
+  name: azure.mgmt.notificationhubs.models.NotificationHubResource
+  summary: "Description of a NotificationHub Resource.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar id: Resource\
+    \ Id\n:vartype id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type:\
+    \ Resource type\n:vartype type: str\n:param location: Resource location\n:type\
+    \ location: str\n:param tags: Resource tags\n:type tags: dict\n:param sku: The\
+    \ sku of the created namespace\n:type sku: :class:`Sku <azure.mgmt.notificationhubs.models.Sku>`\n\
+    :param notification_hub_resource_name: The NotificationHub name.\n:type notification_hub_resource_name:\
+    \ str\n:param registration_ttl: The RegistrationTtl of the created\n NotificationHub\n\
+    :type registration_ttl: str\n:param authorization_rules: The AuthorizationRules\
+    \ of the created\n NotificationHub\n:type authorization_rules: list of\n :class:`SharedAccessAuthorizationRuleProperties\n\
+    \ <azure.mgmt.notificationhubs.models.SharedAccessAuthorizationRuleProperties>`\n\
+    :param apns_credential: The ApnsCredential of the created NotificationHub\n:type\
+    \ apns_credential: :class:`ApnsCredential\n <azure.mgmt.notificationhubs.models.ApnsCredential>`\n\
+    :param wns_credential: The WnsCredential of the created NotificationHub\n:type\
+    \ wns_credential: :class:`WnsCredential\n <azure.mgmt.notificationhubs.models.WnsCredential>`\n\
+    :param gcm_credential: The GcmCredential of the created NotificationHub\n:type\
+    \ gcm_credential: :class:`GcmCredential\n <azure.mgmt.notificationhubs.models.GcmCredential>`\n\
+    :param mpns_credential: The MpnsCredential of the created NotificationHub\n:type\
+    \ mpns_credential: :class:`MpnsCredential\n <azure.mgmt.notificationhubs.models.MpnsCredential>`\n\
+    :param adm_credential: The AdmCredential of the created NotificationHub\n:type\
+    \ adm_credential: :class:`AdmCredential\n <azure.mgmt.notificationhubs.models.AdmCredential>`\n\
+    :param baidu_credential: The BaiduCredential of the created\n NotificationHub\n\
+    :type baidu_credential: :class:`BaiduCredential\n <azure.mgmt.notificationhubs.models.BaiduCredential>`\n"
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.NotificationHubResource
+- _type: class
+  children: []
+  module: azure.mgmt.notificationhubs.models
+  name: azure.mgmt.notificationhubs.models.PnsCredentialsResource
+  summary: "Description of a NotificationHub PNS Credentials.\n\nVariables are only\
+    \ populated by the server, and will be ignored when\nsending a request.\n\n:ivar\
+    \ id: Resource Id\n:vartype id: str\n:ivar name: Resource name\n:vartype name:\
+    \ str\n:ivar type: Resource type\n:vartype type: str\n:param location: Resource\
+    \ location\n:type location: str\n:param tags: Resource tags\n:type tags: dict\n\
+    :param sku: The sku of the created namespace\n:type sku: :class:`Sku <azure.mgmt.notificationhubs.models.Sku>`\n\
+    :param apns_credential: The ApnsCredential of the created NotificationHub\n:type\
+    \ apns_credential: :class:`ApnsCredential\n <azure.mgmt.notificationhubs.models.ApnsCredential>`\n\
+    :param wns_credential: The WnsCredential of the created NotificationHub\n:type\
+    \ wns_credential: :class:`WnsCredential\n <azure.mgmt.notificationhubs.models.WnsCredential>`\n\
+    :param gcm_credential: The GcmCredential of the created NotificationHub\n:type\
+    \ gcm_credential: :class:`GcmCredential\n <azure.mgmt.notificationhubs.models.GcmCredential>`\n\
+    :param mpns_credential: The MpnsCredential of the created NotificationHub\n:type\
+    \ mpns_credential: :class:`MpnsCredential\n <azure.mgmt.notificationhubs.models.MpnsCredential>`\n\
+    :param adm_credential: The AdmCredential of the created NotificationHub\n:type\
+    \ adm_credential: :class:`AdmCredential\n <azure.mgmt.notificationhubs.models.AdmCredential>`\n\
+    :param baidu_credential: The BaiduCredential of the created\n NotificationHub\n\
+    :type baidu_credential: :class:`BaiduCredential\n <azure.mgmt.notificationhubs.models.BaiduCredential>`\n"
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.PnsCredentialsResource
+- _type: class
+  children: []
+  module: azure.mgmt.notificationhubs.models
+  name: azure.mgmt.notificationhubs.models.Resource
+  summary: 'Resource.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar id: Resource Id
+
+    :vartype id: str
+
+    :ivar name: Resource name
+
+    :vartype name: str
+
+    :ivar type: Resource type
+
+    :vartype type: str
+
+    :param location: Resource location
+
+    :type location: str
+
+    :param tags: Resource tags
+
+    :type tags: dict
+
+    :param sku: The sku of the created namespace
+
+    :type sku: :class:`Sku <azure.mgmt.notificationhubs.models.Sku>`
+
+    '
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.Resource
+- _type: class
+  children: []
+  module: azure.mgmt.notificationhubs.models
+  name: azure.mgmt.notificationhubs.models.SubResource
+  summary: 'SubResource.
+
+
+    :param id: Resource Id
+
+    :type id: str
+
+    '
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.SubResource
+- _type: class
+  children: []
+  module: azure.mgmt.notificationhubs.models
+  name: azure.mgmt.notificationhubs.models.NamespaceResourcePaged
+  summary: 'A paging container for iterating over a list of NamespaceResource object
+
+    '
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.NamespaceResourcePaged
+- _type: class
+  children: []
+  module: azure.mgmt.notificationhubs.models
+  name: azure.mgmt.notificationhubs.models.SharedAccessAuthorizationRuleResourcePaged
+  summary: 'A paging container for iterating over a list of SharedAccessAuthorizationRuleResource
+    object
+
+    '
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.SharedAccessAuthorizationRuleResourcePaged
+- _type: class
+  children: []
+  module: azure.mgmt.notificationhubs.models
+  name: azure.mgmt.notificationhubs.models.NotificationHubResourcePaged
+  summary: 'A paging container for iterating over a list of NotificationHubResource
+    object
+
+    '
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.NotificationHubResourcePaged
+- _type: class
+  children: []
+  module: azure.mgmt.notificationhubs.models
+  name: azure.mgmt.notificationhubs.models.SkuName
+  summary: ''
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.SkuName
+- _type: class
+  children: []
+  module: azure.mgmt.notificationhubs.models
+  name: azure.mgmt.notificationhubs.models.NamespaceType
+  summary: ''
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.NamespaceType
+- _type: class
+  children: []
+  module: azure.mgmt.notificationhubs.models
+  name: azure.mgmt.notificationhubs.models.AccessRights
+  summary: ''
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.AccessRights

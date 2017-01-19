@@ -1,0 +1,1433 @@
+items:
+- _type: module
+  children:
+  - azure.batch.operations.ApplicationOperations
+  - azure.batch.operations.PoolOperations
+  - azure.batch.operations.AccountOperations
+  - azure.batch.operations.JobOperations
+  - azure.batch.operations.CertificateOperations
+  - azure.batch.operations.FileOperations
+  - azure.batch.operations.JobScheduleOperations
+  - azure.batch.operations.TaskOperations
+  - azure.batch.operations.ComputeNodeOperations
+  module: azure.batch.operations
+  name: azure.batch.operations
+  summary: ''
+  type: Namespace
+  uid: azure.batch.operations
+- _type: class
+  children:
+  - azure.batch.operations.ApplicationOperations.get
+  - azure.batch.operations.ApplicationOperations.list
+  module: azure.batch.operations
+  name: azure.batch.operations.ApplicationOperations
+  summary: 'ApplicationOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    '
+  type: Class
+  uid: azure.batch.operations.ApplicationOperations
+- _type: method
+  class: azure.batch.operations.ApplicationOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.ApplicationOperations.get
+  summary: "Gets information about the specified application.\n\n:param application_id:\
+    \ The id of the application.\n:type application_id: str\n:param application_get_options:\
+    \ Additional parameters for the\n operation\n:type application_get_options: :class:`ApplicationGetOptions\n\
+    \ <azure.batch.models.ApplicationGetOptions>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ApplicationSummary\n\
+    \ <azure.batch.models.ApplicationSummary>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.ApplicationOperations.get
+- _type: method
+  class: azure.batch.operations.ApplicationOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.ApplicationOperations.list
+  summary: "Lists all of the applications available in the specified account.\n\n\
+    :param application_list_options: Additional parameters for the\n operation\n:type\
+    \ application_list_options: :class:`ApplicationListOptions\n <azure.batch.models.ApplicationListOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`ApplicationSummaryPaged\n <azure.batch.models.ApplicationSummaryPaged>`\n"
+  type: Method
+  uid: azure.batch.operations.ApplicationOperations.list
+- _type: class
+  children:
+  - azure.batch.operations.PoolOperations.add
+  - azure.batch.operations.PoolOperations.delete
+  - azure.batch.operations.PoolOperations.disable_auto_scale
+  - azure.batch.operations.PoolOperations.enable_auto_scale
+  - azure.batch.operations.PoolOperations.evaluate_auto_scale
+  - azure.batch.operations.PoolOperations.exists
+  - azure.batch.operations.PoolOperations.get
+  - azure.batch.operations.PoolOperations.get_all_pools_lifetime_statistics
+  - azure.batch.operations.PoolOperations.list
+  - azure.batch.operations.PoolOperations.list_pool_usage_metrics
+  - azure.batch.operations.PoolOperations.patch
+  - azure.batch.operations.PoolOperations.remove_nodes
+  - azure.batch.operations.PoolOperations.resize
+  - azure.batch.operations.PoolOperations.stop_resize
+  - azure.batch.operations.PoolOperations.update_properties
+  - azure.batch.operations.PoolOperations.upgrade_os
+  module: azure.batch.operations
+  name: azure.batch.operations.PoolOperations
+  summary: 'PoolOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    '
+  type: Class
+  uid: azure.batch.operations.PoolOperations
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.PoolOperations.add
+  summary: "Adds a pool to the specified account.\n\n:param pool: The pool to be added.\n\
+    :type pool: :class:`PoolAddParameter\n <azure.batch.models.PoolAddParameter>`\n\
+    :param pool_add_options: Additional parameters for the operation\n:type pool_add_options:\
+    \ :class:`PoolAddOptions\n <azure.batch.models.PoolAddOptions>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.add
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.PoolOperations.delete
+  summary: "Deletes a pool from the specified account.\n\n:param pool_id: The id of\
+    \ the pool to delete.\n:type pool_id: str\n:param pool_delete_options: Additional\
+    \ parameters for the operation\n:type pool_delete_options: :class:`PoolDeleteOptions\n\
+    \ <azure.batch.models.PoolDeleteOptions>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.delete
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.PoolOperations.disable_auto_scale
+  summary: "Disables automatic scaling for a pool.\n\n:param pool_id: The id of the\
+    \ pool on which to disable automatic\n scaling.\n:type pool_id: str\n:param pool_disable_auto_scale_options:\
+    \ Additional parameters for the\n operation\n:type pool_disable_auto_scale_options:\n\
+    \ :class:`PoolDisableAutoScaleOptions\n <azure.batch.models.PoolDisableAutoScaleOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.disable_auto_scale
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.PoolOperations.enable_auto_scale
+  summary: "Enables automatic scaling for a pool.\n\n:param pool_id: The id of the\
+    \ pool on which to enable automatic\n scaling.\n:type pool_id: str\n:param pool_enable_auto_scale_options:\
+    \ Additional parameters for the\n operation\n:type pool_enable_auto_scale_options:\n\
+    \ :class:`PoolEnableAutoScaleOptions\n <azure.batch.models.PoolEnableAutoScaleOptions>`\n\
+    :param auto_scale_formula: The formula for the desired number of\n compute nodes\
+    \ in the pool.\n:type auto_scale_formula: str\n:param auto_scale_evaluation_interval:\
+    \ A time interval for the\n desired autoscale evaluation period in the pool.\n\
+    :type auto_scale_evaluation_interval: timedelta\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.enable_auto_scale
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.PoolOperations.evaluate_auto_scale
+  summary: "Gets the result of evaluating an automatic scaling formula on the pool.\n\
+    \n:param pool_id: The id of the pool on which to evaluate the automatic\n scaling\
+    \ formula.\n:type pool_id: str\n:param auto_scale_formula: A formula for the desired\
+    \ number of\n compute nodes in the pool.\n:type auto_scale_formula: str\n:param\
+    \ pool_evaluate_auto_scale_options: Additional parameters for\n the operation\n\
+    :type pool_evaluate_auto_scale_options:\n :class:`PoolEvaluateAutoScaleOptions\n\
+    \ <azure.batch.models.PoolEvaluateAutoScaleOptions>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`AutoScaleRun\
+    \ <azure.batch.models.AutoScaleRun>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.evaluate_auto_scale
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.PoolOperations.exists
+  summary: "Gets basic properties of a pool.\n\n:param pool_id: The id of the pool\
+    \ to get.\n:type pool_id: str\n:param pool_exists_options: Additional parameters\
+    \ for the operation\n:type pool_exists_options: :class:`PoolExistsOptions\n <azure.batch.models.PoolExistsOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: bool\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.exists
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.PoolOperations.get
+  summary: "Gets information about the specified pool.\n\n:param pool_id: The id of\
+    \ the pool to get.\n:type pool_id: str\n:param pool_get_options: Additional parameters\
+    \ for the operation\n:type pool_get_options: :class:`PoolGetOptions\n <azure.batch.models.PoolGetOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`CloudPool <azure.batch.models.CloudPool>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.get
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.PoolOperations.get_all_pools_lifetime_statistics
+  summary: "Gets lifetime summary statistics for all of the pools in the specified\n\
+    account.\n\nStatistics are aggregated across all pools that have ever existed\
+    \ in\nthe account, from account creation to the last update time of the\nstatistics.\n\
+    \n:param pool_get_all_pools_lifetime_statistics_options: Additional\n parameters\
+    \ for the operation\n:type pool_get_all_pools_lifetime_statistics_options:\n :class:`PoolGetAllPoolsLifetimeStatisticsOptions\n\
+    \ <azure.batch.models.PoolGetAllPoolsLifetimeStatisticsOptions>`\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ :class:`PoolStatistics <azure.batch.models.PoolStatistics>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.get_all_pools_lifetime_statistics
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.PoolOperations.list
+  summary: "Lists all of the pools in the specified account.\n\n:param pool_list_options:\
+    \ Additional parameters for the operation\n:type pool_list_options: :class:`PoolListOptions\n\
+    \ <azure.batch.models.PoolListOptions>`\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`CloudPoolPaged <azure.batch.models.CloudPoolPaged>`\n"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.list
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.PoolOperations.list_pool_usage_metrics
+  summary: "Lists the usage metrics, aggregated by pool across individual time\nintervals,\
+    \ for the specified account.\n\n:param pool_list_pool_usage_metrics_options: Additional\
+    \ parameters\n for the operation\n:type pool_list_pool_usage_metrics_options:\n\
+    \ :class:`PoolListPoolUsageMetricsOptions\n <azure.batch.models.PoolListPoolUsageMetricsOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`PoolUsageMetricsPaged\n <azure.batch.models.PoolUsageMetricsPaged>`\n"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.list_pool_usage_metrics
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.PoolOperations.patch
+  summary: "Updates the properties of a pool.\n\n:param pool_id: The id of the pool\
+    \ to update.\n:type pool_id: str\n:param pool_patch_parameter: The parameters\
+    \ for the request.\n:type pool_patch_parameter: :class:`PoolPatchParameter\n <azure.batch.models.PoolPatchParameter>`\n\
+    :param pool_patch_options: Additional parameters for the operation\n:type pool_patch_options:\
+    \ :class:`PoolPatchOptions\n <azure.batch.models.PoolPatchOptions>`\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.patch
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.PoolOperations.remove_nodes
+  summary: "Removes compute nodes from the specified pool.\n\n:param pool_id: The\
+    \ id of the pool from which you want to remove\n nodes.\n:type pool_id: str\n\
+    :param node_remove_parameter: The parameters for the request.\n:type node_remove_parameter:\
+    \ :class:`NodeRemoveParameter\n <azure.batch.models.NodeRemoveParameter>`\n:param\
+    \ pool_remove_nodes_options: Additional parameters for the\n operation\n:type\
+    \ pool_remove_nodes_options: :class:`PoolRemoveNodesOptions\n <azure.batch.models.PoolRemoveNodesOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.remove_nodes
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.PoolOperations.resize
+  summary: "Changes the number of compute nodes that are assigned to a pool.\n\n:param\
+    \ pool_id: The id of the pool to resize.\n:type pool_id: str\n:param pool_resize_parameter:\
+    \ The parameters for the request.\n:type pool_resize_parameter: :class:`PoolResizeParameter\n\
+    \ <azure.batch.models.PoolResizeParameter>`\n:param pool_resize_options: Additional\
+    \ parameters for the operation\n:type pool_resize_options: :class:`PoolResizeOptions\n\
+    \ <azure.batch.models.PoolResizeOptions>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.resize
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.PoolOperations.stop_resize
+  summary: "Stops an ongoing resize operation on the pool.\n\nThis does not restore\
+    \ the pool to its previous state before the resize\noperation: it only stops any\
+    \ further changes being made, and the pool\nmaintains its current state.\n\n:param\
+    \ pool_id: The id of the pool whose resizing you want to stop.\n:type pool_id:\
+    \ str\n:param pool_stop_resize_options: Additional parameters for the\n operation\n\
+    :type pool_stop_resize_options: :class:`PoolStopResizeOptions\n <azure.batch.models.PoolStopResizeOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.stop_resize
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.PoolOperations.update_properties
+  summary: "Updates the properties of a pool.\n\n:param pool_id: The id of the pool\
+    \ to update.\n:type pool_id: str\n:param pool_update_properties_parameter: The\
+    \ parameters for the\n request.\n:type pool_update_properties_parameter:\n :class:`PoolUpdatePropertiesParameter\n\
+    \ <azure.batch.models.PoolUpdatePropertiesParameter>`\n:param pool_update_properties_options:\
+    \ Additional parameters for the\n operation\n:type pool_update_properties_options:\n\
+    \ :class:`PoolUpdatePropertiesOptions\n <azure.batch.models.PoolUpdatePropertiesOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.update_properties
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.PoolOperations.upgrade_os
+  summary: "Upgrades the operating system of the specified pool.\n\n:param pool_id:\
+    \ The id of the pool to upgrade.\n:type pool_id: str\n:param target_os_version:\
+    \ The Azure Guest OS version to be installed\n on the virtual machines in the\
+    \ pool.\n:type target_os_version: str\n:param pool_upgrade_os_options: Additional\
+    \ parameters for the\n operation\n:type pool_upgrade_os_options: :class:`PoolUpgradeOSOptions\n\
+    \ <azure.batch.models.PoolUpgradeOSOptions>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.upgrade_os
+- _type: class
+  children:
+  - azure.batch.operations.AccountOperations.list_node_agent_skus
+  module: azure.batch.operations
+  name: azure.batch.operations.AccountOperations
+  summary: 'AccountOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    '
+  type: Class
+  uid: azure.batch.operations.AccountOperations
+- _type: method
+  class: azure.batch.operations.AccountOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.AccountOperations.list_node_agent_skus
+  summary: "Lists all node agent SKUs supported by the Azure Batch service.\n\n:param\
+    \ account_list_node_agent_skus_options: Additional parameters\n for the operation\n\
+    :type account_list_node_agent_skus_options:\n :class:`AccountListNodeAgentSkusOptions\n\
+    \ <azure.batch.models.AccountListNodeAgentSkusOptions>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`NodeAgentSkuPaged\n\
+    \ <azure.batch.models.NodeAgentSkuPaged>`\n"
+  type: Method
+  uid: azure.batch.operations.AccountOperations.list_node_agent_skus
+- _type: class
+  children:
+  - azure.batch.operations.JobOperations.add
+  - azure.batch.operations.JobOperations.delete
+  - azure.batch.operations.JobOperations.disable
+  - azure.batch.operations.JobOperations.enable
+  - azure.batch.operations.JobOperations.get
+  - azure.batch.operations.JobOperations.get_all_jobs_lifetime_statistics
+  - azure.batch.operations.JobOperations.list
+  - azure.batch.operations.JobOperations.list_from_job_schedule
+  - azure.batch.operations.JobOperations.list_preparation_and_release_task_status
+  - azure.batch.operations.JobOperations.patch
+  - azure.batch.operations.JobOperations.terminate
+  - azure.batch.operations.JobOperations.update
+  module: azure.batch.operations
+  name: azure.batch.operations.JobOperations
+  summary: 'JobOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    '
+  type: Class
+  uid: azure.batch.operations.JobOperations
+- _type: method
+  class: azure.batch.operations.JobOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.JobOperations.add
+  summary: "Adds a job to the specified account.\n\n:param job: The job to be added.\n\
+    :type job: :class:`JobAddParameter\n <azure.batch.models.JobAddParameter>`\n:param\
+    \ job_add_options: Additional parameters for the operation\n:type job_add_options:\
+    \ :class:`JobAddOptions\n <azure.batch.models.JobAddOptions>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.JobOperations.add
+- _type: method
+  class: azure.batch.operations.JobOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.JobOperations.delete
+  summary: "Deletes a job.\n\n:param job_id: The id of the job to delete.\n:type job_id:\
+    \ str\n:param job_delete_options: Additional parameters for the operation\n:type\
+    \ job_delete_options: :class:`JobDeleteOptions\n <azure.batch.models.JobDeleteOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.JobOperations.delete
+- _type: method
+  class: azure.batch.operations.JobOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.JobOperations.disable
+  summary: "Disables the specified job, preventing new tasks from running.\n\n:param\
+    \ job_id: The id of the job to disable.\n:type job_id: str\n:param disable_tasks:\
+    \ What to do with active tasks associated with\n the job. Possible values include:\
+    \ 'requeue', 'terminate', 'wait'\n:type disable_tasks: str or :class:`DisableJobOption\n\
+    \ <azure.batch.models.DisableJobOption>`\n:param job_disable_options: Additional\
+    \ parameters for the operation\n:type job_disable_options: :class:`JobDisableOptions\n\
+    \ <azure.batch.models.JobDisableOptions>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.JobOperations.disable
+- _type: method
+  class: azure.batch.operations.JobOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.JobOperations.enable
+  summary: "Enables the specified job, allowing new tasks to run.\n\n:param job_id:\
+    \ The id of the job to enable.\n:type job_id: str\n:param job_enable_options:\
+    \ Additional parameters for the operation\n:type job_enable_options: :class:`JobEnableOptions\n\
+    \ <azure.batch.models.JobEnableOptions>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.JobOperations.enable
+- _type: method
+  class: azure.batch.operations.JobOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.JobOperations.get
+  summary: "Gets information about the specified job.\n\n:param job_id: The id of\
+    \ the job.\n:type job_id: str\n:param job_get_options: Additional parameters for\
+    \ the operation\n:type job_get_options: :class:`JobGetOptions\n <azure.batch.models.JobGetOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`CloudJob <azure.batch.models.CloudJob>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.JobOperations.get
+- _type: method
+  class: azure.batch.operations.JobOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.JobOperations.get_all_jobs_lifetime_statistics
+  summary: "Gets lifetime summary statistics for all of the jobs in the specified\n\
+    account.\n\nStatistics are aggregated across all jobs that have ever existed in\n\
+    the account, from account creation to the last update time of the\nstatistics.\n\
+    \n:param job_get_all_jobs_lifetime_statistics_options: Additional\n parameters\
+    \ for the operation\n:type job_get_all_jobs_lifetime_statistics_options:\n :class:`JobGetAllJobsLifetimeStatisticsOptions\n\
+    \ <azure.batch.models.JobGetAllJobsLifetimeStatisticsOptions>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`JobStatistics\
+    \ <azure.batch.models.JobStatistics>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.JobOperations.get_all_jobs_lifetime_statistics
+- _type: method
+  class: azure.batch.operations.JobOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.JobOperations.list
+  summary: "Lists all of the jobs in the specified account.\n\n:param job_list_options:\
+    \ Additional parameters for the operation\n:type job_list_options: :class:`JobListOptions\n\
+    \ <azure.batch.models.JobListOptions>`\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`CloudJobPaged <azure.batch.models.CloudJobPaged>`\n"
+  type: Method
+  uid: azure.batch.operations.JobOperations.list
+- _type: method
+  class: azure.batch.operations.JobOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.JobOperations.list_from_job_schedule
+  summary: "Lists the jobs that have been created under the specified job schedule.\n\
+    \n:param job_schedule_id: The id of the job schedule from which you\n want to\
+    \ get a list of jobs.\n:type job_schedule_id: str\n:param job_list_from_job_schedule_options:\
+    \ Additional parameters for\n the operation\n:type job_list_from_job_schedule_options:\n\
+    \ :class:`JobListFromJobScheduleOptions\n <azure.batch.models.JobListFromJobScheduleOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`CloudJobPaged <azure.batch.models.CloudJobPaged>`\n"
+  type: Method
+  uid: azure.batch.operations.JobOperations.list_from_job_schedule
+- _type: method
+  class: azure.batch.operations.JobOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.JobOperations.list_preparation_and_release_task_status
+  summary: "Lists the execution status of the Job Preparation and Job Release task\n\
+    for the specified job across the compute nodes where the job has run.\n\n:param\
+    \ job_id: The id of the job.\n:type job_id: str\n:param job_list_preparation_and_release_task_status_options:\n\
+    \ Additional parameters for the operation\n:type job_list_preparation_and_release_task_status_options:\n\
+    \ :class:`JobListPreparationAndReleaseTaskStatusOptions\n <azure.batch.models.JobListPreparationAndReleaseTaskStatusOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`JobPreparationAndReleaseTaskExecutionInformationPaged\n <azure.batch.models.JobPreparationAndReleaseTaskExecutionInformationPaged>`\n"
+  type: Method
+  uid: azure.batch.operations.JobOperations.list_preparation_and_release_task_status
+- _type: method
+  class: azure.batch.operations.JobOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.JobOperations.patch
+  summary: "Updates the properties of a job.\n\n:param job_id: The id of the job whose\
+    \ properties you want to update.\n:type job_id: str\n:param job_patch_parameter:\
+    \ The parameters for the request.\n:type job_patch_parameter: :class:`JobPatchParameter\n\
+    \ <azure.batch.models.JobPatchParameter>`\n:param job_patch_options: Additional\
+    \ parameters for the operation\n:type job_patch_options: :class:`JobPatchOptions\n\
+    \ <azure.batch.models.JobPatchOptions>`\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.JobOperations.patch
+- _type: method
+  class: azure.batch.operations.JobOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.JobOperations.terminate
+  summary: "Terminates the specified job, marking it as completed.\n\n:param job_id:\
+    \ The id of the job to terminate.\n:type job_id: str\n:param job_terminate_options:\
+    \ Additional parameters for the operation\n:type job_terminate_options: :class:`JobTerminateOptions\n\
+    \ <azure.batch.models.JobTerminateOptions>`\n:param terminate_reason: The text\
+    \ you want to appear as the job's\n TerminateReason. The default is 'UserTerminate'.\n\
+    :type terminate_reason: str\n:param dict custom_headers: headers that will be\
+    \ added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.JobOperations.terminate
+- _type: method
+  class: azure.batch.operations.JobOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.JobOperations.update
+  summary: "Updates the properties of a job.\n\n:param job_id: The id of the job whose\
+    \ properties you want to update.\n:type job_id: str\n:param job_update_parameter:\
+    \ The parameters for the request.\n:type job_update_parameter: :class:`JobUpdateParameter\n\
+    \ <azure.batch.models.JobUpdateParameter>`\n:param job_update_options: Additional\
+    \ parameters for the operation\n:type job_update_options: :class:`JobUpdateOptions\n\
+    \ <azure.batch.models.JobUpdateOptions>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.JobOperations.update
+- _type: class
+  children:
+  - azure.batch.operations.CertificateOperations.add
+  - azure.batch.operations.CertificateOperations.cancel_deletion
+  - azure.batch.operations.CertificateOperations.delete
+  - azure.batch.operations.CertificateOperations.get
+  - azure.batch.operations.CertificateOperations.list
+  module: azure.batch.operations
+  name: azure.batch.operations.CertificateOperations
+  summary: 'CertificateOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    '
+  type: Class
+  uid: azure.batch.operations.CertificateOperations
+- _type: method
+  class: azure.batch.operations.CertificateOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.CertificateOperations.add
+  summary: "Adds a certificate to the specified account.\n\n:param certificate: The\
+    \ certificate to be added.\n:type certificate: :class:`CertificateAddParameter\n\
+    \ <azure.batch.models.CertificateAddParameter>`\n:param certificate_add_options:\
+    \ Additional parameters for the\n operation\n:type certificate_add_options: :class:`CertificateAddOptions\n\
+    \ <azure.batch.models.CertificateAddOptions>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.CertificateOperations.add
+- _type: method
+  class: azure.batch.operations.CertificateOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.CertificateOperations.cancel_deletion
+  summary: "Cancels a failed deletion of a certificate from the specified account.\n\
+    \n:param thumbprint_algorithm: The algorithm used to derive the\n thumbprint parameter.\
+    \ This must be sha1.\n:type thumbprint_algorithm: str\n:param thumbprint: The\
+    \ thumbprint of the certificate being deleted.\n:type thumbprint: str\n:param\
+    \ certificate_cancel_deletion_options: Additional parameters for\n the operation\n\
+    :type certificate_cancel_deletion_options:\n :class:`CertificateCancelDeletionOptions\n\
+    \ <azure.batch.models.CertificateCancelDeletionOptions>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.CertificateOperations.cancel_deletion
+- _type: method
+  class: azure.batch.operations.CertificateOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.CertificateOperations.delete
+  summary: "Deletes a certificate from the specified account.\n\n:param thumbprint_algorithm:\
+    \ The algorithm used to derive the\n thumbprint parameter. This must be sha1.\n\
+    :type thumbprint_algorithm: str\n:param thumbprint: The thumbprint of the certificate\
+    \ to be deleted.\n:type thumbprint: str\n:param certificate_delete_options: Additional\
+    \ parameters for the\n operation\n:type certificate_delete_options: :class:`CertificateDeleteOptions\n\
+    \ <azure.batch.models.CertificateDeleteOptions>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.CertificateOperations.delete
+- _type: method
+  class: azure.batch.operations.CertificateOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.CertificateOperations.get
+  summary: "Gets information about the specified certificate.\n\n:param thumbprint_algorithm:\
+    \ The algorithm used to derive the\n thumbprint parameter. This must be sha1.\n\
+    :type thumbprint_algorithm: str\n:param thumbprint: The thumbprint of the certificate\
+    \ to get.\n:type thumbprint: str\n:param certificate_get_options: Additional parameters\
+    \ for the\n operation\n:type certificate_get_options: :class:`CertificateGetOptions\n\
+    \ <azure.batch.models.CertificateGetOptions>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`Certificate\
+    \ <azure.batch.models.Certificate>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.CertificateOperations.get
+- _type: method
+  class: azure.batch.operations.CertificateOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.CertificateOperations.list
+  summary: "Lists all of the certificates that have been added to the specified\n\
+    account.\n\n:param certificate_list_options: Additional parameters for the\n operation\n\
+    :type certificate_list_options: :class:`CertificateListOptions\n <azure.batch.models.CertificateListOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`CertificatePaged\n <azure.batch.models.CertificatePaged>`\n"
+  type: Method
+  uid: azure.batch.operations.CertificateOperations.list
+- _type: class
+  children:
+  - azure.batch.operations.FileOperations.delete_from_compute_node
+  - azure.batch.operations.FileOperations.delete_from_task
+  - azure.batch.operations.FileOperations.get_from_compute_node
+  - azure.batch.operations.FileOperations.get_from_task
+  - azure.batch.operations.FileOperations.get_node_file_properties_from_compute_node
+  - azure.batch.operations.FileOperations.get_node_file_properties_from_task
+  - azure.batch.operations.FileOperations.list_from_compute_node
+  - azure.batch.operations.FileOperations.list_from_task
+  module: azure.batch.operations
+  name: azure.batch.operations.FileOperations
+  summary: 'FileOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    '
+  type: Class
+  uid: azure.batch.operations.FileOperations
+- _type: method
+  class: azure.batch.operations.FileOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.FileOperations.delete_from_compute_node
+  summary: "Deletes the specified task file from the compute node.\n\n:param pool_id:\
+    \ The id of the pool that contains the compute node.\n:type pool_id: str\n:param\
+    \ node_id: The id of the compute node from which you want to\n delete the file.\n\
+    :type node_id: str\n:param file_name: The path to the file that you want to delete.\n\
+    :type file_name: str\n:param recursive: Whether to delete children of a directory.\
+    \ If the\n fileName parameter represents a directory instead of a file, you can\n\
+    \ set Recursive to true to delete the directory and all of the files\n and subdirectories\
+    \ in it. If Recursive is false then the directory\n must be empty or deletion\
+    \ will fail.\n:type recursive: bool\n:param file_delete_from_compute_node_options:\
+    \ Additional parameters\n for the operation\n:type file_delete_from_compute_node_options:\n\
+    \ :class:`FileDeleteFromComputeNodeOptions\n <azure.batch.models.FileDeleteFromComputeNodeOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.FileOperations.delete_from_compute_node
+- _type: method
+  class: azure.batch.operations.FileOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.FileOperations.delete_from_task
+  summary: "Deletes the specified task file from the compute node where the task\n\
+    ran.\n\n:param job_id: The id of the job that contains the task.\n:type job_id:\
+    \ str\n:param task_id: The id of the task whose file you want to delete.\n:type\
+    \ task_id: str\n:param file_name: The path to the task file that you want to delete.\n\
+    :type file_name: str\n:param recursive: Whether to delete children of a directory.\
+    \ If the\n fileName parameter represents a directory instead of a file, you can\n\
+    \ set Recursive to true to delete the directory and all of the files\n and subdirectories\
+    \ in it. If Recursive is false then the directory\n must be empty or deletion\
+    \ will fail.\n:type recursive: bool\n:param file_delete_from_task_options: Additional\
+    \ parameters for the\n operation\n:type file_delete_from_task_options:\n :class:`FileDeleteFromTaskOptions\
+    \ <azure.batch.models.FileDeleteFromTaskOptions>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.FileOperations.delete_from_task
+- _type: method
+  class: azure.batch.operations.FileOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.FileOperations.get_from_compute_node
+  summary: "Returns the content of the specified task file.\n\n:param pool_id: The\
+    \ id of the pool that contains the compute node.\n:type pool_id: str\n:param node_id:\
+    \ The id of the compute node that contains the file.\n:type node_id: str\n:param\
+    \ file_name: The path to the task file that you want to get the\n content of.\n\
+    :type file_name: str\n:param file_get_from_compute_node_options: Additional parameters\
+    \ for\n the operation\n:type file_get_from_compute_node_options:\n :class:`FileGetFromComputeNodeOptions\n\
+    \ <azure.batch.models.FileGetFromComputeNodeOptions>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param callback: When specified,\
+    \ will be called with each chunk of\n data that is streamed. The callback should\
+    \ take two arguments, the\n bytes of the current chunk of data and the response\
+    \ object. If the\n data is uploading, response will be None.\n:type callback:\
+    \ Callable[Bytes, response=None]\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: Generator\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.FileOperations.get_from_compute_node
+- _type: method
+  class: azure.batch.operations.FileOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.FileOperations.get_from_task
+  summary: "Returns the content of the specified task file.\n\n:param job_id: The\
+    \ id of the job that contains the task.\n:type job_id: str\n:param task_id: The\
+    \ id of the task whose file you want to retrieve.\n:type task_id: str\n:param\
+    \ file_name: The path to the task file that you want to get the\n content of.\n\
+    :type file_name: str\n:param file_get_from_task_options: Additional parameters\
+    \ for the\n operation\n:type file_get_from_task_options: :class:`FileGetFromTaskOptions\n\
+    \ <azure.batch.models.FileGetFromTaskOptions>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param callback: When specified, will\
+    \ be called with each chunk of\n data that is streamed. The callback should take\
+    \ two arguments, the\n bytes of the current chunk of data and the response object.\
+    \ If the\n data is uploading, response will be None.\n:type callback: Callable[Bytes,\
+    \ response=None]\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: Generator\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.FileOperations.get_from_task
+- _type: method
+  class: azure.batch.operations.FileOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.FileOperations.get_node_file_properties_from_compute_node
+  summary: "Gets the properties of the specified compute node file.\n\n:param pool_id:\
+    \ The id of the pool that contains the compute node.\n:type pool_id: str\n:param\
+    \ node_id: The id of the compute node that contains the file.\n:type node_id:\
+    \ str\n:param file_name: The path to the compute node file that you want to\n\
+    \ get the properties of.\n:type file_name: str\n:param file_get_node_file_properties_from_compute_node_options:\n\
+    \ Additional parameters for the operation\n:type file_get_node_file_properties_from_compute_node_options:\n\
+    \ :class:`FileGetNodeFilePropertiesFromComputeNodeOptions\n <azure.batch.models.FileGetNodeFilePropertiesFromComputeNodeOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.FileOperations.get_node_file_properties_from_compute_node
+- _type: method
+  class: azure.batch.operations.FileOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.FileOperations.get_node_file_properties_from_task
+  summary: "Gets the properties of the specified task file.\n\n:param job_id: The\
+    \ id of the job that contains the task.\n:type job_id: str\n:param task_id: The\
+    \ id of the task whose file you want to get the\n properties of.\n:type task_id:\
+    \ str\n:param file_name: The path to the task file that you want to get the\n\
+    \ properties of.\n:type file_name: str\n:param file_get_node_file_properties_from_task_options:\
+    \ Additional\n parameters for the operation\n:type file_get_node_file_properties_from_task_options:\n\
+    \ :class:`FileGetNodeFilePropertiesFromTaskOptions\n <azure.batch.models.FileGetNodeFilePropertiesFromTaskOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.FileOperations.get_node_file_properties_from_task
+- _type: method
+  class: azure.batch.operations.FileOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.FileOperations.list_from_compute_node
+  summary: "Lists all of the files in task directories on the specified compute\n\
+    node.\n\n:param pool_id: The id of the pool that contains the compute node.\n\
+    :type pool_id: str\n:param node_id: The id of the compute node whose files you\
+    \ want to\n list.\n:type node_id: str\n:param recursive: Whether to list children\
+    \ of a directory.\n:type recursive: bool\n:param file_list_from_compute_node_options:\
+    \ Additional parameters for\n the operation\n:type file_list_from_compute_node_options:\n\
+    \ :class:`FileListFromComputeNodeOptions\n <azure.batch.models.FileListFromComputeNodeOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`NodeFilePaged <azure.batch.models.NodeFilePaged>`\n"
+  type: Method
+  uid: azure.batch.operations.FileOperations.list_from_compute_node
+- _type: method
+  class: azure.batch.operations.FileOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.FileOperations.list_from_task
+  summary: "Lists the files in a task's directory on its compute node.\n\n:param job_id:\
+    \ The id of the job that contains the task.\n:type job_id: str\n:param task_id:\
+    \ The id of the task whose files you want to list.\n:type task_id: str\n:param\
+    \ recursive: Whether to list children of a directory.\n:type recursive: bool\n\
+    :param file_list_from_task_options: Additional parameters for the\n operation\n\
+    :type file_list_from_task_options: :class:`FileListFromTaskOptions\n <azure.batch.models.FileListFromTaskOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`NodeFilePaged <azure.batch.models.NodeFilePaged>`\n"
+  type: Method
+  uid: azure.batch.operations.FileOperations.list_from_task
+- _type: class
+  children:
+  - azure.batch.operations.JobScheduleOperations.add
+  - azure.batch.operations.JobScheduleOperations.delete
+  - azure.batch.operations.JobScheduleOperations.disable
+  - azure.batch.operations.JobScheduleOperations.enable
+  - azure.batch.operations.JobScheduleOperations.exists
+  - azure.batch.operations.JobScheduleOperations.get
+  - azure.batch.operations.JobScheduleOperations.list
+  - azure.batch.operations.JobScheduleOperations.patch
+  - azure.batch.operations.JobScheduleOperations.terminate
+  - azure.batch.operations.JobScheduleOperations.update
+  module: azure.batch.operations
+  name: azure.batch.operations.JobScheduleOperations
+  summary: 'JobScheduleOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    '
+  type: Class
+  uid: azure.batch.operations.JobScheduleOperations
+- _type: method
+  class: azure.batch.operations.JobScheduleOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.JobScheduleOperations.add
+  summary: "Adds a job schedule to the specified account.\n\n:param cloud_job_schedule:\
+    \ The job schedule to be added.\n:type cloud_job_schedule: :class:`JobScheduleAddParameter\n\
+    \ <azure.batch.models.JobScheduleAddParameter>`\n:param job_schedule_add_options:\
+    \ Additional parameters for the\n operation\n:type job_schedule_add_options: :class:`JobScheduleAddOptions\n\
+    \ <azure.batch.models.JobScheduleAddOptions>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.JobScheduleOperations.add
+- _type: method
+  class: azure.batch.operations.JobScheduleOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.JobScheduleOperations.delete
+  summary: "Deletes a job schedule from the specified account.\n\n:param job_schedule_id:\
+    \ The id of the job schedule to delete.\n:type job_schedule_id: str\n:param job_schedule_delete_options:\
+    \ Additional parameters for the\n operation\n:type job_schedule_delete_options:\
+    \ :class:`JobScheduleDeleteOptions\n <azure.batch.models.JobScheduleDeleteOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.JobScheduleOperations.delete
+- _type: method
+  class: azure.batch.operations.JobScheduleOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.JobScheduleOperations.disable
+  summary: "Disables a job schedule.\n\n:param job_schedule_id: The id of the job\
+    \ schedule to disable.\n:type job_schedule_id: str\n:param job_schedule_disable_options:\
+    \ Additional parameters for the\n operation\n:type job_schedule_disable_options:\
+    \ :class:`JobScheduleDisableOptions\n <azure.batch.models.JobScheduleDisableOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.JobScheduleOperations.disable
+- _type: method
+  class: azure.batch.operations.JobScheduleOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.JobScheduleOperations.enable
+  summary: "Enables a job schedule.\n\n:param job_schedule_id: The id of the job schedule\
+    \ to enable.\n:type job_schedule_id: str\n:param job_schedule_enable_options:\
+    \ Additional parameters for the\n operation\n:type job_schedule_enable_options:\
+    \ :class:`JobScheduleEnableOptions\n <azure.batch.models.JobScheduleEnableOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.JobScheduleOperations.enable
+- _type: method
+  class: azure.batch.operations.JobScheduleOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.JobScheduleOperations.exists
+  summary: "Checks the specified job schedule exists.\n\n:param job_schedule_id: The\
+    \ id of the job schedule which you want to\n check.\n:type job_schedule_id: str\n\
+    :param job_schedule_exists_options: Additional parameters for the\n operation\n\
+    :type job_schedule_exists_options: :class:`JobScheduleExistsOptions\n <azure.batch.models.JobScheduleExistsOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: bool\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.JobScheduleOperations.exists
+- _type: method
+  class: azure.batch.operations.JobScheduleOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.JobScheduleOperations.get
+  summary: "Gets information about the specified job schedule.\n\n:param job_schedule_id:\
+    \ The id of the job schedule to get.\n:type job_schedule_id: str\n:param job_schedule_get_options:\
+    \ Additional parameters for the\n operation\n:type job_schedule_get_options: :class:`JobScheduleGetOptions\n\
+    \ <azure.batch.models.JobScheduleGetOptions>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`CloudJobSchedule\n\
+    \ <azure.batch.models.CloudJobSchedule>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.JobScheduleOperations.get
+- _type: method
+  class: azure.batch.operations.JobScheduleOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.JobScheduleOperations.list
+  summary: "Lists all of the job schedules in the specified account.\n\n:param job_schedule_list_options:\
+    \ Additional parameters for the\n operation\n:type job_schedule_list_options:\
+    \ :class:`JobScheduleListOptions\n <azure.batch.models.JobScheduleListOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`CloudJobSchedulePaged\n <azure.batch.models.CloudJobSchedulePaged>`\n"
+  type: Method
+  uid: azure.batch.operations.JobScheduleOperations.list
+- _type: method
+  class: azure.batch.operations.JobScheduleOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.JobScheduleOperations.patch
+  summary: "Updates the properties of the specified job schedule.\n\n:param job_schedule_id:\
+    \ The id of the job schedule to update.\n:type job_schedule_id: str\n:param job_schedule_patch_parameter:\
+    \ The parameters for the request.\n:type job_schedule_patch_parameter: :class:`JobSchedulePatchParameter\n\
+    \ <azure.batch.models.JobSchedulePatchParameter>`\n:param job_schedule_patch_options:\
+    \ Additional parameters for the\n operation\n:type job_schedule_patch_options:\
+    \ :class:`JobSchedulePatchOptions\n <azure.batch.models.JobSchedulePatchOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.JobScheduleOperations.patch
+- _type: method
+  class: azure.batch.operations.JobScheduleOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.JobScheduleOperations.terminate
+  summary: "Terminates a job schedule.\n\n:param job_schedule_id: The id of the job\
+    \ schedule to terminates.\n:type job_schedule_id: str\n:param job_schedule_terminate_options:\
+    \ Additional parameters for the\n operation\n:type job_schedule_terminate_options:\n\
+    \ :class:`JobScheduleTerminateOptions\n <azure.batch.models.JobScheduleTerminateOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.JobScheduleOperations.terminate
+- _type: method
+  class: azure.batch.operations.JobScheduleOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.JobScheduleOperations.update
+  summary: "Updates the properties of the specified job schedule.\n\n:param job_schedule_id:\
+    \ The id of the job schedule to update.\n:type job_schedule_id: str\n:param job_schedule_update_parameter:\
+    \ The parameters for the request.\n:type job_schedule_update_parameter:\n :class:`JobScheduleUpdateParameter\n\
+    \ <azure.batch.models.JobScheduleUpdateParameter>`\n:param job_schedule_update_options:\
+    \ Additional parameters for the\n operation\n:type job_schedule_update_options:\
+    \ :class:`JobScheduleUpdateOptions\n <azure.batch.models.JobScheduleUpdateOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.JobScheduleOperations.update
+- _type: class
+  children:
+  - azure.batch.operations.TaskOperations.add
+  - azure.batch.operations.TaskOperations.add_collection
+  - azure.batch.operations.TaskOperations.delete
+  - azure.batch.operations.TaskOperations.get
+  - azure.batch.operations.TaskOperations.list
+  - azure.batch.operations.TaskOperations.list_subtasks
+  - azure.batch.operations.TaskOperations.terminate
+  - azure.batch.operations.TaskOperations.update
+  module: azure.batch.operations
+  name: azure.batch.operations.TaskOperations
+  summary: 'TaskOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    '
+  type: Class
+  uid: azure.batch.operations.TaskOperations
+- _type: method
+  class: azure.batch.operations.TaskOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.TaskOperations.add
+  summary: "Adds a task to the specified job.\n\n:param job_id: The id of the job\
+    \ to which the task is to be added.\n:type job_id: str\n:param task: The task\
+    \ to be added.\n:type task: :class:`TaskAddParameter\n <azure.batch.models.TaskAddParameter>`\n\
+    :param task_add_options: Additional parameters for the operation\n:type task_add_options:\
+    \ :class:`TaskAddOptions\n <azure.batch.models.TaskAddOptions>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.TaskOperations.add
+- _type: method
+  class: azure.batch.operations.TaskOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.TaskOperations.add_collection
+  summary: "Adds a collection of tasks to the specified job.\n\n:param job_id: The\
+    \ id of the job to which the task collection is to\n be added.\n:type job_id:\
+    \ str\n:param value: The collection of tasks to add.\n:type value: list of :class:`TaskAddParameter\n\
+    \ <azure.batch.models.TaskAddParameter>`\n:param task_add_collection_options:\
+    \ Additional parameters for the\n operation\n:type task_add_collection_options:\
+    \ :class:`TaskAddCollectionOptions\n <azure.batch.models.TaskAddCollectionOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`TaskAddCollectionResult\n <azure.batch.models.TaskAddCollectionResult>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.TaskOperations.add_collection
+- _type: method
+  class: azure.batch.operations.TaskOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.TaskOperations.delete
+  summary: "Deletes a task from the specified job.\n\n:param job_id: The id of the\
+    \ job from which to delete the task.\n:type job_id: str\n:param task_id: The id\
+    \ of the task to delete.\n:type task_id: str\n:param task_delete_options: Additional\
+    \ parameters for the operation\n:type task_delete_options: :class:`TaskDeleteOptions\n\
+    \ <azure.batch.models.TaskDeleteOptions>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.TaskOperations.delete
+- _type: method
+  class: azure.batch.operations.TaskOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.TaskOperations.get
+  summary: "Gets information about the specified task.\n\n:param job_id: The id of\
+    \ the job that contains the task.\n:type job_id: str\n:param task_id: The id of\
+    \ the task to get information about.\n:type task_id: str\n:param task_get_options:\
+    \ Additional parameters for the operation\n:type task_get_options: :class:`TaskGetOptions\n\
+    \ <azure.batch.models.TaskGetOptions>`\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`CloudTask <azure.batch.models.CloudTask>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.TaskOperations.get
+- _type: method
+  class: azure.batch.operations.TaskOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.TaskOperations.list
+  summary: "Lists all of the tasks that are associated with the specified job.\n\n\
+    :param job_id: The id of the job.\n:type job_id: str\n:param task_list_options:\
+    \ Additional parameters for the operation\n:type task_list_options: :class:`TaskListOptions\n\
+    \ <azure.batch.models.TaskListOptions>`\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`CloudTaskPaged <azure.batch.models.CloudTaskPaged>`\n"
+  type: Method
+  uid: azure.batch.operations.TaskOperations.list
+- _type: method
+  class: azure.batch.operations.TaskOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.TaskOperations.list_subtasks
+  summary: "Lists all of the subtasks that are associated with the specified\nmulti-instance\
+    \ task.\n\n:param job_id: The id of the job.\n:type job_id: str\n:param task_id:\
+    \ The id of the task.\n:type task_id: str\n:param task_list_subtasks_options:\
+    \ Additional parameters for the\n operation\n:type task_list_subtasks_options:\
+    \ :class:`TaskListSubtasksOptions\n <azure.batch.models.TaskListSubtasksOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`CloudTaskListSubtasksResult\n <azure.batch.models.CloudTaskListSubtasksResult>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.TaskOperations.list_subtasks
+- _type: method
+  class: azure.batch.operations.TaskOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.TaskOperations.terminate
+  summary: "Terminates the specified task.\n\n:param job_id: The id of the job containing\
+    \ the task.\n:type job_id: str\n:param task_id: The id of the task to terminate.\n\
+    :type task_id: str\n:param task_terminate_options: Additional parameters for the\
+    \ operation\n:type task_terminate_options: :class:`TaskTerminateOptions\n <azure.batch.models.TaskTerminateOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.TaskOperations.terminate
+- _type: method
+  class: azure.batch.operations.TaskOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.TaskOperations.update
+  summary: "Updates the properties of the specified task.\n\n:param job_id: The id\
+    \ of the job containing the task.\n:type job_id: str\n:param task_id: The id of\
+    \ the task to update.\n:type task_id: str\n:param task_update_options: Additional\
+    \ parameters for the operation\n:type task_update_options: :class:`TaskUpdateOptions\n\
+    \ <azure.batch.models.TaskUpdateOptions>`\n:param constraints: Constraints that\
+    \ apply to this task. If omitted,\n the task is given the default constraints.\n\
+    :type constraints: :class:`TaskConstraints\n <azure.batch.models.TaskConstraints>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.TaskOperations.update
+- _type: class
+  children:
+  - azure.batch.operations.ComputeNodeOperations.add_user
+  - azure.batch.operations.ComputeNodeOperations.delete_user
+  - azure.batch.operations.ComputeNodeOperations.disable_scheduling
+  - azure.batch.operations.ComputeNodeOperations.enable_scheduling
+  - azure.batch.operations.ComputeNodeOperations.get
+  - azure.batch.operations.ComputeNodeOperations.get_remote_desktop
+  - azure.batch.operations.ComputeNodeOperations.get_remote_login_settings
+  - azure.batch.operations.ComputeNodeOperations.list
+  - azure.batch.operations.ComputeNodeOperations.reboot
+  - azure.batch.operations.ComputeNodeOperations.reimage
+  - azure.batch.operations.ComputeNodeOperations.update_user
+  module: azure.batch.operations
+  name: azure.batch.operations.ComputeNodeOperations
+  summary: 'ComputeNodeOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    '
+  type: Class
+  uid: azure.batch.operations.ComputeNodeOperations
+- _type: method
+  class: azure.batch.operations.ComputeNodeOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.ComputeNodeOperations.add_user
+  summary: "Adds a user account to the specified compute node.\n\n:param pool_id:\
+    \ The id of the pool that contains the compute node.\n:type pool_id: str\n:param\
+    \ node_id: The id of the machine on which you want to create a\n user account.\n\
+    :type node_id: str\n:param user: The user account to be created.\n:type user:\
+    \ :class:`ComputeNodeUser\n <azure.batch.models.ComputeNodeUser>`\n:param compute_node_add_user_options:\
+    \ Additional parameters for the\n operation\n:type compute_node_add_user_options:\n\
+    \ :class:`ComputeNodeAddUserOptions <azure.batch.models.ComputeNodeAddUserOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.ComputeNodeOperations.add_user
+- _type: method
+  class: azure.batch.operations.ComputeNodeOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.ComputeNodeOperations.delete_user
+  summary: "Deletes a user account from the specified compute node.\n\n:param pool_id:\
+    \ The id of the pool that contains the compute node.\n:type pool_id: str\n:param\
+    \ node_id: The id of the machine on which you want to delete a\n user account.\n\
+    :type node_id: str\n:param user_name: The name of the user account to delete.\n\
+    :type user_name: str\n:param compute_node_delete_user_options: Additional parameters\
+    \ for\n the operation\n:type compute_node_delete_user_options:\n :class:`ComputeNodeDeleteUserOptions\n\
+    \ <azure.batch.models.ComputeNodeDeleteUserOptions>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.ComputeNodeOperations.delete_user
+- _type: method
+  class: azure.batch.operations.ComputeNodeOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.ComputeNodeOperations.disable_scheduling
+  summary: "Disables task scheduling on the specified compute node.\n\n:param pool_id:\
+    \ The id of the pool that contains the compute node.\n:type pool_id: str\n:param\
+    \ node_id: The id of the compute node on which you want to\n disable task scheduling.\n\
+    :type node_id: str\n:param compute_node_disable_scheduling_options: Additional\
+    \ parameters\n for the operation\n:type compute_node_disable_scheduling_options:\n\
+    \ :class:`ComputeNodeDisableSchedulingOptions\n <azure.batch.models.ComputeNodeDisableSchedulingOptions>`\n\
+    :param node_disable_scheduling_option: What to do with currently\n running tasks\
+    \ when disable task scheduling on the compute node. The\n default value is requeue.\
+    \ Possible values include: 'requeue',\n 'terminate', 'taskcompletion'\n:type node_disable_scheduling_option:\
+    \ str or\n :class:`DisableComputeNodeSchedulingOption\n <azure.batch.models.DisableComputeNodeSchedulingOption>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.ComputeNodeOperations.disable_scheduling
+- _type: method
+  class: azure.batch.operations.ComputeNodeOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.ComputeNodeOperations.enable_scheduling
+  summary: "Enables task scheduling on the specified compute node.\n\n:param pool_id:\
+    \ The id of the pool that contains the compute node.\n:type pool_id: str\n:param\
+    \ node_id: The id of the compute node on which you want to\n enable task scheduling.\n\
+    :type node_id: str\n:param compute_node_enable_scheduling_options: Additional\
+    \ parameters\n for the operation\n:type compute_node_enable_scheduling_options:\n\
+    \ :class:`ComputeNodeEnableSchedulingOptions\n <azure.batch.models.ComputeNodeEnableSchedulingOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.ComputeNodeOperations.enable_scheduling
+- _type: method
+  class: azure.batch.operations.ComputeNodeOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.ComputeNodeOperations.get
+  summary: "Gets information about the specified compute node.\n\n:param pool_id:\
+    \ The id of the pool that contains the compute node.\n:type pool_id: str\n:param\
+    \ node_id: The id of the compute node that you want to get\n information about.\n\
+    :type node_id: str\n:param compute_node_get_options: Additional parameters for\
+    \ the\n operation\n:type compute_node_get_options: :class:`ComputeNodeGetOptions\n\
+    \ <azure.batch.models.ComputeNodeGetOptions>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ComputeNode\
+    \ <azure.batch.models.ComputeNode>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.ComputeNodeOperations.get
+- _type: method
+  class: azure.batch.operations.ComputeNodeOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.ComputeNodeOperations.get_remote_desktop
+  summary: "Gets the Remote Desktop Protocol file for the specified compute node.\n\
+    \n:param pool_id: The id of the pool that contains the compute node.\n:type pool_id:\
+    \ str\n:param node_id: The id of the compute node for which you want to get\n\
+    \ the Remote Desktop Protocol file.\n:type node_id: str\n:param compute_node_get_remote_desktop_options:\
+    \ Additional parameters\n for the operation\n:type compute_node_get_remote_desktop_options:\n\
+    \ :class:`ComputeNodeGetRemoteDesktopOptions\n <azure.batch.models.ComputeNodeGetRemoteDesktopOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param callback: When specified, will be called with each chunk of\n data that\
+    \ is streamed. The callback should take two arguments, the\n bytes of the current\
+    \ chunk of data and the response object. If the\n data is uploading, response\
+    \ will be None.\n:type callback: Callable[Bytes, response=None]\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ Generator\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.ComputeNodeOperations.get_remote_desktop
+- _type: method
+  class: azure.batch.operations.ComputeNodeOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.ComputeNodeOperations.get_remote_login_settings
+  summary: "Gets the settings required for remote login to a compute node.\n\n:param\
+    \ pool_id: The id of the pool that contains the compute node.\n:type pool_id:\
+    \ str\n:param node_id: The id of the compute node for which to obtain the\n remote\
+    \ login settings.\n:type node_id: str\n:param compute_node_get_remote_login_settings_options:\
+    \ Additional\n parameters for the operation\n:type compute_node_get_remote_login_settings_options:\n\
+    \ :class:`ComputeNodeGetRemoteLoginSettingsOptions\n <azure.batch.models.ComputeNodeGetRemoteLoginSettingsOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`ComputeNodeGetRemoteLoginSettingsResult\n <azure.batch.models.ComputeNodeGetRemoteLoginSettingsResult>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.ComputeNodeOperations.get_remote_login_settings
+- _type: method
+  class: azure.batch.operations.ComputeNodeOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.ComputeNodeOperations.list
+  summary: "Lists the compute nodes in the specified pool.\n\n:param pool_id: The\
+    \ id of the pool from which you want to list nodes.\n:type pool_id: str\n:param\
+    \ compute_node_list_options: Additional parameters for the\n operation\n:type\
+    \ compute_node_list_options: :class:`ComputeNodeListOptions\n <azure.batch.models.ComputeNodeListOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`ComputeNodePaged\n <azure.batch.models.ComputeNodePaged>`\n"
+  type: Method
+  uid: azure.batch.operations.ComputeNodeOperations.list
+- _type: method
+  class: azure.batch.operations.ComputeNodeOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.ComputeNodeOperations.reboot
+  summary: "Restarts the specified compute node.\n\n:param pool_id: The id of the\
+    \ pool that contains the compute node.\n:type pool_id: str\n:param node_id: The\
+    \ id of the compute node that you want to restart.\n:type node_id: str\n:param\
+    \ compute_node_reboot_options: Additional parameters for the\n operation\n:type\
+    \ compute_node_reboot_options: :class:`ComputeNodeRebootOptions\n <azure.batch.models.ComputeNodeRebootOptions>`\n\
+    :param node_reboot_option: When to reboot the compute node and what\n to do with\
+    \ currently running tasks. The default value is requeue.\n Possible values include:\
+    \ 'requeue', 'terminate', 'taskcompletion',\n 'retaineddata'\n:type node_reboot_option:\
+    \ str or :class:`ComputeNodeRebootOption\n <azure.batch.models.ComputeNodeRebootOption>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.ComputeNodeOperations.reboot
+- _type: method
+  class: azure.batch.operations.ComputeNodeOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.ComputeNodeOperations.reimage
+  summary: "Reinstalls the operating system on the specified compute node.\n\n:param\
+    \ pool_id: The id of the pool that contains the compute node.\n:type pool_id:\
+    \ str\n:param node_id: The id of the compute node that you want to restart.\n\
+    :type node_id: str\n:param compute_node_reimage_options: Additional parameters\
+    \ for the\n operation\n:type compute_node_reimage_options: :class:`ComputeNodeReimageOptions\n\
+    \ <azure.batch.models.ComputeNodeReimageOptions>`\n:param node_reimage_option:\
+    \ When to reimage the compute node and what\n to do with currently running tasks.\
+    \ The default value is requeue.\n Possible values include: 'requeue', 'terminate',\
+    \ 'taskcompletion',\n 'retaineddata'\n:type node_reimage_option: str or :class:`ComputeNodeReimageOption\n\
+    \ <azure.batch.models.ComputeNodeReimageOption>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.ComputeNodeOperations.reimage
+- _type: method
+  class: azure.batch.operations.ComputeNodeOperations
+  module: azure.batch.operations
+  name: azure.batch.operations.ComputeNodeOperations.update_user
+  summary: "Updates the password or expiration time of a user account on the\nspecified\
+    \ compute node.\n\n:param pool_id: The id of the pool that contains the compute\
+    \ node.\n:type pool_id: str\n:param node_id: The id of the machine on which you\
+    \ want to update a\n user account.\n:type node_id: str\n:param user_name: The\
+    \ name of the user account to update.\n:type user_name: str\n:param node_update_user_parameter:\
+    \ The parameters for the request.\n:type node_update_user_parameter: :class:`NodeUpdateUserParameter\n\
+    \ <azure.batch.models.NodeUpdateUserParameter>`\n:param compute_node_update_user_options:\
+    \ Additional parameters for\n the operation\n:type compute_node_update_user_options:\n\
+    \ :class:`ComputeNodeUpdateUserOptions\n <azure.batch.models.ComputeNodeUpdateUserOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.batch.operations.ComputeNodeOperations.update_user

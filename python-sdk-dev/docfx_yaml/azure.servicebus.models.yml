@@ -1,0 +1,134 @@
+items:
+- _type: module
+  children:
+  - azure.servicebus.models.AuthorizationRule
+  - azure.servicebus.models.AzureServiceBusPeekLockError
+  - azure.servicebus.models.AzureServiceBusResourceNotFound
+  - azure.servicebus.models.EventHub
+  - azure.servicebus.models.Message
+  - azure.servicebus.models.Queue
+  - azure.servicebus.models.Rule
+  - azure.servicebus.models.Subscription
+  - azure.servicebus.models.Topic
+  module: azure.servicebus.models
+  name: azure.servicebus.models
+  summary: ''
+  type: Namespace
+  uid: azure.servicebus.models
+- _type: class
+  children: []
+  module: azure.servicebus.models
+  name: azure.servicebus.models.AuthorizationRule
+  summary: ''
+  type: Class
+  uid: azure.servicebus.models.AuthorizationRule
+- _type: exception
+  module: azure.servicebus.models
+  name: azure.servicebus.models.AzureServiceBusPeekLockError
+  summary: 'Indicates that peek-lock is required for this operation.
+
+    '
+  type: Exception
+  uid: azure.servicebus.models.AzureServiceBusPeekLockError
+- _type: exception
+  module: azure.servicebus.models
+  name: azure.servicebus.models.AzureServiceBusResourceNotFound
+  summary: 'Indicates that the resource doesn''t exist.
+
+    '
+  type: Exception
+  uid: azure.servicebus.models.AzureServiceBusResourceNotFound
+- _type: class
+  children: []
+  module: azure.servicebus.models
+  name: azure.servicebus.models.EventHub
+  summary: ''
+  type: Class
+  uid: azure.servicebus.models.EventHub
+- _type: class
+  children:
+  - azure.servicebus.models.Message.add_headers
+  - azure.servicebus.models.Message.delete
+  - azure.servicebus.models.Message.renew_lock
+  - azure.servicebus.models.Message.unlock
+  module: azure.servicebus.models
+  name: azure.servicebus.models.Message
+  summary: "Message class that used in send message/get mesage apis. \n"
+  type: Class
+  uid: azure.servicebus.models.Message
+- _type: method
+  class: azure.servicebus.models.Message
+  module: azure.servicebus.models
+  name: azure.servicebus.models.Message.add_headers
+  summary: 'add addtional headers to request for message request.
+
+    '
+  type: Method
+  uid: azure.servicebus.models.Message.add_headers
+- _type: method
+  class: azure.servicebus.models.Message
+  module: azure.servicebus.models
+  name: azure.servicebus.models.Message.delete
+  summary: "Deletes itself if find queue name or topic name and subscription\nname.\
+    \ \n"
+  type: Method
+  uid: azure.servicebus.models.Message.delete
+- _type: method
+  class: azure.servicebus.models.Message
+  module: azure.servicebus.models
+  name: azure.servicebus.models.Message.renew_lock
+  summary: "Renew lock on itself if find queue name or topic name and subscription\n\
+    name. \n"
+  type: Method
+  uid: azure.servicebus.models.Message.renew_lock
+- _type: method
+  class: azure.servicebus.models.Message
+  module: azure.servicebus.models
+  name: azure.servicebus.models.Message.unlock
+  summary: "Unlocks itself if find queue name or topic name and subscription\nname.\
+    \ \n"
+  type: Method
+  uid: azure.servicebus.models.Message.unlock
+- _type: class
+  children: []
+  module: azure.servicebus.models
+  name: azure.servicebus.models.Queue
+  summary: 'Queue class corresponding to Queue Description:
+
+    http://msdn.microsoft.com/en-us/library/windowsazure/hh780773
+
+    '
+  type: Class
+  uid: azure.servicebus.models.Queue
+- _type: class
+  children: []
+  module: azure.servicebus.models
+  name: azure.servicebus.models.Rule
+  summary: "Rule class corresponding to Rule Description:\nhttp://msdn.microsoft.com/en-us/library/windowsazure/hh780753.\
+    \ \n"
+  type: Class
+  uid: azure.servicebus.models.Rule
+- _type: class
+  children: []
+  module: azure.servicebus.models
+  name: azure.servicebus.models.Subscription
+  summary: "Subscription class corresponding to Subscription Description:\nhttp://msdn.microsoft.com/en-us/library/windowsazure/hh780763.\
+    \ \n"
+  type: Class
+  uid: azure.servicebus.models.Subscription
+- _type: class
+  children:
+  - azure.servicebus.models.Topic.max_size_in_mega_bytes
+  module: azure.servicebus.models
+  name: azure.servicebus.models.Topic
+  summary: "Topic class corresponding to Topic Description:\nhttp://msdn.microsoft.com/en-us/library/windowsazure/hh780749.\
+    \ \n"
+  type: Class
+  uid: azure.servicebus.models.Topic
+- _type: attribute
+  class: azure.servicebus.models.Topic
+  module: azure.servicebus.models
+  name: azure.servicebus.models.Topic.max_size_in_mega_bytes
+  summary: ''
+  type: Attribute
+  uid: azure.servicebus.models.Topic.max_size_in_mega_bytes

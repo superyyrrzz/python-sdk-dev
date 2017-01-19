@@ -1,0 +1,36 @@
+items:
+- _type: module
+  children:
+  - azure.common.AzureConflictHttpError
+  - azure.common.AzureException
+  - azure.common.AzureHttpError
+  - azure.common.AzureMissingResourceHttpError
+  module: azure.common
+  name: azure.common
+  summary: ''
+  type: Namespace
+  uid: azure.common
+- _type: exception
+  module: azure.common
+  name: azure.common.AzureConflictHttpError
+  summary: ''
+  type: Exception
+  uid: azure.common.AzureConflictHttpError
+- _type: exception
+  module: azure.common
+  name: azure.common.AzureException
+  summary: ''
+  type: Exception
+  uid: azure.common.AzureException
+- _type: exception
+  module: azure.common
+  name: azure.common.AzureHttpError
+  summary: ''
+  type: Exception
+  uid: azure.common.AzureHttpError
+- _type: exception
+  module: azure.common
+  name: azure.common.AzureMissingResourceHttpError
+  summary: ''
+  type: Exception
+  uid: azure.common.AzureMissingResourceHttpError

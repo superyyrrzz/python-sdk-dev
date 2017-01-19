@@ -1,0 +1,604 @@
+items:
+- _type: module
+  children:
+  - azure.graphrbac.operations.ObjectsOperations
+  - azure.graphrbac.operations.ApplicationsOperations
+  - azure.graphrbac.operations.GroupsOperations
+  - azure.graphrbac.operations.ServicePrincipalsOperations
+  - azure.graphrbac.operations.UsersOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations
+  summary: ''
+  type: Namespace
+  uid: azure.graphrbac.operations
+- _type: class
+  children:
+  - azure.graphrbac.operations.ObjectsOperations.get_current_user
+  - azure.graphrbac.operations.ObjectsOperations.get_objects_by_object_ids
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.ObjectsOperations
+  summary: 'ObjectsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    '
+  type: Class
+  uid: azure.graphrbac.operations.ObjectsOperations
+- _type: method
+  class: azure.graphrbac.operations.ObjectsOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.ObjectsOperations.get_current_user
+  summary: "Gets the details for the currently logged-in user.\n\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`AADObject\
+    \ <azure.graphrbac.models.AADObject>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.ObjectsOperations.get_current_user
+- _type: method
+  class: azure.graphrbac.operations.ObjectsOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.ObjectsOperations.get_objects_by_object_ids
+  summary: "Gets AD group membership for the specified AD object IDs.\n\n:param parameters:\
+    \ Objects filtering parameters.\n:type parameters: :class:`GetObjectsParameters\n\
+    \ <azure.graphrbac.models.GetObjectsParameters>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`AADObjectPaged\n\
+    \ <azure.graphrbac.models.AADObjectPaged>`\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.ObjectsOperations.get_objects_by_object_ids
+- _type: class
+  children:
+  - azure.graphrbac.operations.ApplicationsOperations.create
+  - azure.graphrbac.operations.ApplicationsOperations.delete
+  - azure.graphrbac.operations.ApplicationsOperations.get
+  - azure.graphrbac.operations.ApplicationsOperations.list
+  - azure.graphrbac.operations.ApplicationsOperations.list_key_credentials
+  - azure.graphrbac.operations.ApplicationsOperations.list_password_credentials
+  - azure.graphrbac.operations.ApplicationsOperations.patch
+  - azure.graphrbac.operations.ApplicationsOperations.update_key_credentials
+  - azure.graphrbac.operations.ApplicationsOperations.update_password_credentials
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.ApplicationsOperations
+  summary: 'ApplicationsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    :ivar api_version: Client API version. Constant value: "1.6".
+
+    '
+  type: Class
+  uid: azure.graphrbac.operations.ApplicationsOperations
+- _type: method
+  class: azure.graphrbac.operations.ApplicationsOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.ApplicationsOperations.create
+  summary: "Create a new application.\n\n:param parameters: The parameters for creating\
+    \ an application.\n:type parameters: :class:`ApplicationCreateParameters\n <azure.graphrbac.models.ApplicationCreateParameters>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`Application <azure.graphrbac.models.Application>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.ApplicationsOperations.create
+- _type: method
+  class: azure.graphrbac.operations.ApplicationsOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.ApplicationsOperations.delete
+  summary: "Delete an application.\n\n:param application_object_id: Application object\
+    \ ID.\n:type application_object_id: str\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.ApplicationsOperations.delete
+- _type: method
+  class: azure.graphrbac.operations.ApplicationsOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.ApplicationsOperations.get
+  summary: "Get an application by object ID.\n\n:param application_object_id: Application\
+    \ object ID.\n:type application_object_id: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`Application\
+    \ <azure.graphrbac.models.Application>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.ApplicationsOperations.get
+- _type: method
+  class: azure.graphrbac.operations.ApplicationsOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.ApplicationsOperations.list
+  summary: "Lists applications by filter parameters.\n\n:param filter: The filters\
+    \ to apply to the operation.\n:type filter: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ApplicationPaged\n\
+    \ <azure.graphrbac.models.ApplicationPaged>`\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.ApplicationsOperations.list
+- _type: method
+  class: azure.graphrbac.operations.ApplicationsOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.ApplicationsOperations.list_key_credentials
+  summary: "Get the keyCredentials associated with an application.\n\n:param application_object_id:\
+    \ Application object ID.\n:type application_object_id: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`KeyCredentialPaged\n\
+    \ <azure.graphrbac.models.KeyCredentialPaged>`\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.ApplicationsOperations.list_key_credentials
+- _type: method
+  class: azure.graphrbac.operations.ApplicationsOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.ApplicationsOperations.list_password_credentials
+  summary: "Get the passwordCredentials associated with an application.\n\n:param\
+    \ application_object_id: Application object ID.\n:type application_object_id:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`PasswordCredentialPaged\n <azure.graphrbac.models.PasswordCredentialPaged>`\n\
+    :raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.ApplicationsOperations.list_password_credentials
+- _type: method
+  class: azure.graphrbac.operations.ApplicationsOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.ApplicationsOperations.patch
+  summary: "Update an existing application.\n\n:param application_object_id: Application\
+    \ object ID.\n:type application_object_id: str\n:param parameters: Parameters\
+    \ to update an existing application.\n:type parameters: :class:`ApplicationUpdateParameters\n\
+    \ <azure.graphrbac.models.ApplicationUpdateParameters>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.ApplicationsOperations.patch
+- _type: method
+  class: azure.graphrbac.operations.ApplicationsOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.ApplicationsOperations.update_key_credentials
+  summary: "Update the keyCredentials associated with an application.\n\n:param application_object_id:\
+    \ Application object ID.\n:type application_object_id: str\n:param value: A collection\
+    \ of KeyCredentials.\n:type value: list of :class:`KeyCredential\n <azure.graphrbac.models.KeyCredential>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.ApplicationsOperations.update_key_credentials
+- _type: method
+  class: azure.graphrbac.operations.ApplicationsOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.ApplicationsOperations.update_password_credentials
+  summary: "Update passwordCredentials associated with an application.\n\n:param application_object_id:\
+    \ Application object ID.\n:type application_object_id: str\n:param value: A collection\
+    \ of PasswordCredentials.\n:type value: list of :class:`PasswordCredential\n <azure.graphrbac.models.PasswordCredential>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.ApplicationsOperations.update_password_credentials
+- _type: class
+  children:
+  - azure.graphrbac.operations.GroupsOperations.add_member
+  - azure.graphrbac.operations.GroupsOperations.create
+  - azure.graphrbac.operations.GroupsOperations.delete
+  - azure.graphrbac.operations.GroupsOperations.get
+  - azure.graphrbac.operations.GroupsOperations.get_group_members
+  - azure.graphrbac.operations.GroupsOperations.get_member_groups
+  - azure.graphrbac.operations.GroupsOperations.is_member_of
+  - azure.graphrbac.operations.GroupsOperations.list
+  - azure.graphrbac.operations.GroupsOperations.remove_member
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.GroupsOperations
+  summary: 'GroupsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    :ivar api_version: Client API version. Constant value: "1.6".
+
+    '
+  type: Class
+  uid: azure.graphrbac.operations.GroupsOperations
+- _type: method
+  class: azure.graphrbac.operations.GroupsOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.GroupsOperations.add_member
+  summary: "Add a member to a group.\n\n:param group_object_id: The object ID of the\
+    \ group to which to add the\n member.\n:type group_object_id: str\n:param url:\
+    \ A member object URL, such as\n \"https://graph.windows.net/0b1f9851-1bf0-433f-aec3-cb9272f093dc/directoryObjects/f260bbc4-c254-447b-94cf-293b5ec434dd\"\
+    ,\n where \"0b1f9851-1bf0-433f-aec3-cb9272f093dc\" is the tenantId and\n \"f260bbc4-c254-447b-94cf-293b5ec434dd\"\
+    \ is the objectId of the member\n (user, application, servicePrincipal, group)\
+    \ to be added.\n:type url: str\n:param dict custom_headers: headers that will\
+    \ be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.GroupsOperations.add_member
+- _type: method
+  class: azure.graphrbac.operations.GroupsOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.GroupsOperations.create
+  summary: "Create a group in the directory.\n\n:param display_name: Group display\
+    \ name\n:type display_name: str\n:param mail_nickname: Mail nickname\n:type mail_nickname:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`ADGroup <azure.graphrbac.models.ADGroup>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.GroupsOperations.create
+- _type: method
+  class: azure.graphrbac.operations.GroupsOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.GroupsOperations.delete
+  summary: "Delete a group from the directory.\n\n:param group_object_id: The object\
+    \ ID of the group to delete.\n:type group_object_id: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.GroupsOperations.delete
+- _type: method
+  class: azure.graphrbac.operations.GroupsOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.GroupsOperations.get
+  summary: "Gets group information from the directory.\n\n:param object_id: The object\
+    \ ID of the user for which to get group\n information.\n:type object_id: str\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`ADGroup <azure.graphrbac.models.ADGroup>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.GroupsOperations.get
+- _type: method
+  class: azure.graphrbac.operations.GroupsOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.GroupsOperations.get_group_members
+  summary: "Gets the members of a group.\n\n:param object_id: The object ID of the\
+    \ group whose members should be\n retrieved.\n:type object_id: str\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ :class:`AADObjectPaged\n <azure.graphrbac.models.AADObjectPaged>`\n:raises:\n\
+    \ :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.GroupsOperations.get_group_members
+- _type: method
+  class: azure.graphrbac.operations.GroupsOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.GroupsOperations.get_member_groups
+  summary: "Gets a collection of object IDs of groups of which the specified group\n\
+    is a member.\n\n:param object_id: The object ID of the group for which to get\
+    \ group\n membership.\n:type object_id: str\n:param security_enabled_only: If\
+    \ true, only membership in\n security-enabled groups should be checked. Otherwise,\
+    \ membership in\n all groups should be checked.\n:type security_enabled_only:\
+    \ bool\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`StrPaged <azure.graphrbac.models.StrPaged>`\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.GroupsOperations.get_member_groups
+- _type: method
+  class: azure.graphrbac.operations.GroupsOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.GroupsOperations.is_member_of
+  summary: "Checks whether the specified user, group, contact, or service principal\n\
+    is a direct or transitive member of the specified group.\n\n:param group_id: The\
+    \ object ID of the group to check.\n:type group_id: str\n:param member_id: The\
+    \ object ID of the contact, group, user, or\n service principal to check for membership\
+    \ in the specified group.\n:type member_id: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`CheckGroupMembershipResult\n\
+    \ <azure.graphrbac.models.CheckGroupMembershipResult>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.GroupsOperations.is_member_of
+- _type: method
+  class: azure.graphrbac.operations.GroupsOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.GroupsOperations.list
+  summary: "Gets list of groups for the current tenant.\n\n:param filter: The filter\
+    \ to apply to the operation.\n:type filter: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ADGroupPaged\
+    \ <azure.graphrbac.models.ADGroupPaged>`\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.GroupsOperations.list
+- _type: method
+  class: azure.graphrbac.operations.GroupsOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.GroupsOperations.remove_member
+  summary: "Remove a member from a group.\n\n:param group_object_id: The object ID\
+    \ of the group from which to\n remove the member.\n:type group_object_id: str\n\
+    :param member_object_id: Member object id\n:type member_object_id: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.GroupsOperations.remove_member
+- _type: class
+  children:
+  - azure.graphrbac.operations.ServicePrincipalsOperations.create
+  - azure.graphrbac.operations.ServicePrincipalsOperations.delete
+  - azure.graphrbac.operations.ServicePrincipalsOperations.get
+  - azure.graphrbac.operations.ServicePrincipalsOperations.list
+  - azure.graphrbac.operations.ServicePrincipalsOperations.list_key_credentials
+  - azure.graphrbac.operations.ServicePrincipalsOperations.list_password_credentials
+  - azure.graphrbac.operations.ServicePrincipalsOperations.update_key_credentials
+  - azure.graphrbac.operations.ServicePrincipalsOperations.update_password_credentials
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.ServicePrincipalsOperations
+  summary: 'ServicePrincipalsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    :ivar api_version: Client API version. Constant value: "1.6".
+
+    '
+  type: Class
+  uid: azure.graphrbac.operations.ServicePrincipalsOperations
+- _type: method
+  class: azure.graphrbac.operations.ServicePrincipalsOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.ServicePrincipalsOperations.create
+  summary: "Creates a service principal in the directory.\n\n:param parameters: Parameters\
+    \ to create a service principal.\n:type parameters: :class:`ServicePrincipalCreateParameters\n\
+    \ <azure.graphrbac.models.ServicePrincipalCreateParameters>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ServicePrincipal\n\
+    \ <azure.graphrbac.models.ServicePrincipal>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.ServicePrincipalsOperations.create
+- _type: method
+  class: azure.graphrbac.operations.ServicePrincipalsOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.ServicePrincipalsOperations.delete
+  summary: "Deletes a service principal from the directory.\n\n:param object_id: The\
+    \ object ID of the service principal to delete.\n:type object_id: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.ServicePrincipalsOperations.delete
+- _type: method
+  class: azure.graphrbac.operations.ServicePrincipalsOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.ServicePrincipalsOperations.get
+  summary: "Gets service principal information from the directory.\n\n:param object_id:\
+    \ The object ID of the service principal to get.\n:type object_id: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`ServicePrincipal\n <azure.graphrbac.models.ServicePrincipal>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.ServicePrincipalsOperations.get
+- _type: method
+  class: azure.graphrbac.operations.ServicePrincipalsOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.ServicePrincipalsOperations.list
+  summary: "Gets a list of service principals from the current tenant.\n\n:param filter:\
+    \ The filter to apply to the operation.\n:type filter: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ServicePrincipalPaged\n\
+    \ <azure.graphrbac.models.ServicePrincipalPaged>`\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.ServicePrincipalsOperations.list
+- _type: method
+  class: azure.graphrbac.operations.ServicePrincipalsOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.ServicePrincipalsOperations.list_key_credentials
+  summary: "Get the keyCredentials associated with the specified service principal.\n\
+    \n:param object_id: The object ID of the service principal for which to\n get\
+    \ keyCredentials.\n:type object_id: str\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`KeyCredentialPaged\n\
+    \ <azure.graphrbac.models.KeyCredentialPaged>`\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.ServicePrincipalsOperations.list_key_credentials
+- _type: method
+  class: azure.graphrbac.operations.ServicePrincipalsOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.ServicePrincipalsOperations.list_password_credentials
+  summary: "Gets the passwordCredentials associated with a service principal.\n\n\
+    :param object_id: The object ID of the service principal.\n:type object_id: str\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`PasswordCredentialPaged\n <azure.graphrbac.models.PasswordCredentialPaged>`\n\
+    :raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.ServicePrincipalsOperations.list_password_credentials
+- _type: method
+  class: azure.graphrbac.operations.ServicePrincipalsOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.ServicePrincipalsOperations.update_key_credentials
+  summary: "Update the keyCredentials associated with a service principal.\n\n:param\
+    \ object_id: The object ID for which to get service principal\n information.\n\
+    :type object_id: str\n:param value: A collection of KeyCredentials.\n:type value:\
+    \ list of :class:`KeyCredential\n <azure.graphrbac.models.KeyCredential>`\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.ServicePrincipalsOperations.update_key_credentials
+- _type: method
+  class: azure.graphrbac.operations.ServicePrincipalsOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.ServicePrincipalsOperations.update_password_credentials
+  summary: "Updates the passwordCredentials associated with a service principal.\n\
+    \n:param object_id: The object ID of the service principal.\n:type object_id:\
+    \ str\n:param value: A collection of PasswordCredentials.\n:type value: list of\
+    \ :class:`PasswordCredential\n <azure.graphrbac.models.PasswordCredential>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.ServicePrincipalsOperations.update_password_credentials
+- _type: class
+  children:
+  - azure.graphrbac.operations.UsersOperations.create
+  - azure.graphrbac.operations.UsersOperations.delete
+  - azure.graphrbac.operations.UsersOperations.get
+  - azure.graphrbac.operations.UsersOperations.get_member_groups
+  - azure.graphrbac.operations.UsersOperations.list
+  - azure.graphrbac.operations.UsersOperations.update
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.UsersOperations
+  summary: 'UsersOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    :ivar api_version: Client API version. Constant value: "1.6".
+
+    '
+  type: Class
+  uid: azure.graphrbac.operations.UsersOperations
+- _type: method
+  class: azure.graphrbac.operations.UsersOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.UsersOperations.create
+  summary: "Create a new user.\n\n:param parameters: Parameters to create a user.\n\
+    :type parameters: :class:`UserCreateParameters\n <azure.graphrbac.models.UserCreateParameters>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`User <azure.graphrbac.models.User>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.UsersOperations.create
+- _type: method
+  class: azure.graphrbac.operations.UsersOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.UsersOperations.delete
+  summary: "Delete a user.\n\n:param upn_or_object_id: The object ID or principal\
+    \ name of the user\n to delete.\n:type upn_or_object_id: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.UsersOperations.delete
+- _type: method
+  class: azure.graphrbac.operations.UsersOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.UsersOperations.get
+  summary: "Gets user information from the directory.\n\n:param upn_or_object_id:\
+    \ The object ID or principal name of the user\n for which to get information.\n\
+    :type upn_or_object_id: str\n:param dict custom_headers: headers that will be\
+    \ added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`User <azure.graphrbac.models.User>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.UsersOperations.get
+- _type: method
+  class: azure.graphrbac.operations.UsersOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.UsersOperations.get_member_groups
+  summary: "Gets a collection that contains the object IDs of the groups of which\n\
+    the user is a member.\n\n:param object_id: The object ID of the user for which\
+    \ to get group\n membership.\n:type object_id: str\n:param security_enabled_only:\
+    \ If true, only membership in\n security-enabled groups should be checked. Otherwise,\
+    \ membership in\n all groups should be checked.\n:type security_enabled_only:\
+    \ bool\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`StrPaged <azure.graphrbac.models.StrPaged>`\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.UsersOperations.get_member_groups
+- _type: method
+  class: azure.graphrbac.operations.UsersOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.UsersOperations.list
+  summary: "Gets list of users for the current tenant.\n\n:param filter: The filter\
+    \ to apply to the operation.\n:type filter: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`UserPaged\
+    \ <azure.graphrbac.models.UserPaged>`\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.UsersOperations.list
+- _type: method
+  class: azure.graphrbac.operations.UsersOperations
+  module: azure.graphrbac.operations
+  name: azure.graphrbac.operations.UsersOperations.update
+  summary: "Updates a user.\n\n:param upn_or_object_id: The object ID or principal\
+    \ name of the user\n to update.\n:type upn_or_object_id: str\n:param parameters:\
+    \ Parameters to update an existing user.\n:type parameters: :class:`UserUpdateParameters\n\
+    \ <azure.graphrbac.models.UserUpdateParameters>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`\n"
+  type: Method
+  uid: azure.graphrbac.operations.UsersOperations.update

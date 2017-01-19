@@ -1,0 +1,941 @@
+items:
+- _type: module
+  children:
+  - azure.mgmt.devtestlabs.models.ApplyArtifactsRequest
+  - azure.mgmt.devtestlabs.models.ArtifactInstallProperties
+  - azure.mgmt.devtestlabs.models.ArtifactParameterProperties
+  - azure.mgmt.devtestlabs.models.ArmTemplateInfo
+  - azure.mgmt.devtestlabs.models.Artifact
+  - azure.mgmt.devtestlabs.models.ArtifactDeploymentStatusProperties
+  - azure.mgmt.devtestlabs.models.ArtifactSource
+  - azure.mgmt.devtestlabs.models.Cost
+  - azure.mgmt.devtestlabs.models.CostPerDayProperties
+  - azure.mgmt.devtestlabs.models.ResourceCostProperties
+  - azure.mgmt.devtestlabs.models.CustomImage
+  - azure.mgmt.devtestlabs.models.CustomImagePropertiesFromVm
+  - azure.mgmt.devtestlabs.models.WindowsOsInfo
+  - azure.mgmt.devtestlabs.models.LinuxOsInfo
+  - azure.mgmt.devtestlabs.models.CustomImagePropertiesCustom
+  - azure.mgmt.devtestlabs.models.DayDetails
+  - azure.mgmt.devtestlabs.models.EvaluatePoliciesProperties
+  - azure.mgmt.devtestlabs.models.EvaluatePoliciesRequest
+  - azure.mgmt.devtestlabs.models.EvaluatePoliciesResponse
+  - azure.mgmt.devtestlabs.models.PolicySetResult
+  - azure.mgmt.devtestlabs.models.PolicyViolation
+  - azure.mgmt.devtestlabs.models.Formula
+  - azure.mgmt.devtestlabs.models.LabVirtualMachine
+  - azure.mgmt.devtestlabs.models.GalleryImageReference
+  - azure.mgmt.devtestlabs.models.FormulaPropertiesFromVm
+  - azure.mgmt.devtestlabs.models.GalleryImage
+  - azure.mgmt.devtestlabs.models.GenerateArmTemplateRequest
+  - azure.mgmt.devtestlabs.models.ParameterInfo
+  - azure.mgmt.devtestlabs.models.GenerateUploadUriParameter
+  - azure.mgmt.devtestlabs.models.GenerateUploadUriResponse
+  - azure.mgmt.devtestlabs.models.HourDetails
+  - azure.mgmt.devtestlabs.models.Lab
+  - azure.mgmt.devtestlabs.models.LabVhd
+  - azure.mgmt.devtestlabs.models.Policy
+  - azure.mgmt.devtestlabs.models.Schedule
+  - azure.mgmt.devtestlabs.models.WeekDetails
+  - azure.mgmt.devtestlabs.models.VirtualNetwork
+  - azure.mgmt.devtestlabs.models.Subnet
+  - azure.mgmt.devtestlabs.models.SubnetOverride
+  - azure.mgmt.devtestlabs.models.SubscriptionNotification
+  - azure.mgmt.devtestlabs.models.SubscriptionNotificationProperties
+  - azure.mgmt.devtestlabs.models.LabPaged
+  - azure.mgmt.devtestlabs.models.LabVhdPaged
+  - azure.mgmt.devtestlabs.models.ArtifactSourcePaged
+  - azure.mgmt.devtestlabs.models.ArtifactPaged
+  - azure.mgmt.devtestlabs.models.CustomImagePaged
+  - azure.mgmt.devtestlabs.models.FormulaPaged
+  - azure.mgmt.devtestlabs.models.GalleryImagePaged
+  - azure.mgmt.devtestlabs.models.PolicyPaged
+  - azure.mgmt.devtestlabs.models.SchedulePaged
+  - azure.mgmt.devtestlabs.models.LabVirtualMachinePaged
+  - azure.mgmt.devtestlabs.models.VirtualNetworkPaged
+  - azure.mgmt.devtestlabs.models.SourceControlType
+  - azure.mgmt.devtestlabs.models.EnableStatus
+  - azure.mgmt.devtestlabs.models.LabCostType
+  - azure.mgmt.devtestlabs.models.WindowsOsState
+  - azure.mgmt.devtestlabs.models.LinuxOsState
+  - azure.mgmt.devtestlabs.models.CustomImageOsType
+  - azure.mgmt.devtestlabs.models.LabStorageType
+  - azure.mgmt.devtestlabs.models.PolicyStatus
+  - azure.mgmt.devtestlabs.models.PolicyFactName
+  - azure.mgmt.devtestlabs.models.PolicyEvaluatorType
+  - azure.mgmt.devtestlabs.models.UsagePermissionType
+  - azure.mgmt.devtestlabs.models.SubscriptionNotificationState
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.devtestlabs.models
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.ApplyArtifactsRequest
+  summary: "Request body for applying artifacts to a virtual machine.\n\n:param artifacts:\
+    \ The list of artifacts to apply.\n:type artifacts: list of :class:`ArtifactInstallProperties\n\
+    \ <azure.mgmt.devtestlabs.models.ArtifactInstallProperties>`\n"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.ApplyArtifactsRequest
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.ArtifactInstallProperties
+  summary: "Properties of an artifact.\n\n:param artifact_id: The artifact's identifier.\n\
+    :type artifact_id: str\n:param parameters: The parameters of the artifact.\n:type\
+    \ parameters: list of :class:`ArtifactParameterProperties\n <azure.mgmt.devtestlabs.models.ArtifactParameterProperties>`\n"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.ArtifactInstallProperties
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.ArtifactParameterProperties
+  summary: 'Properties of an artifact parameter.
+
+
+    :param name: The name of the artifact parameter.
+
+    :type name: str
+
+    :param value: The value of the artifact parameter.
+
+    :type value: str
+
+    '
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.ArtifactParameterProperties
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.ArmTemplateInfo
+  summary: 'Information about a generated ARM template.
+
+
+    :param template: The template''s contents.
+
+    :type template: object
+
+    :param parameters: The parameters of the ARM template.
+
+    :type parameters: object
+
+    '
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.ArmTemplateInfo
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.Artifact
+  summary: 'An artifact.
+
+
+    :param title: The title of the artifact.
+
+    :type title: str
+
+    :param description: The description of the artifact.
+
+    :type description: str
+
+    :param file_path: The file path of the artifact.
+
+    :type file_path: str
+
+    :param icon: The icon of the artifact.
+
+    :type icon: str
+
+    :param target_os_type: Gets or sets the type of the target os.
+
+    :type target_os_type: str
+
+    :param parameters: The parameters of the artifact.
+
+    :type parameters: object
+
+    :param id: The identifier of the resource.
+
+    :type id: str
+
+    :param name: The name of the resource.
+
+    :type name: str
+
+    :param type: The type of the resource.
+
+    :type type: str
+
+    :param location: The location of the resource.
+
+    :type location: str
+
+    :param tags: The tags of the resource.
+
+    :type tags: dict
+
+    '
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.Artifact
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.ArtifactDeploymentStatusProperties
+  summary: "Properties of an artifact deployment.\n\n:param deployment_status: The\
+    \ deployment status of the artifact.\n:type deployment_status: str\n:param artifacts_applied:\
+    \ The total count of the artifacts that were\n successfully applied.\n:type artifacts_applied:\
+    \ int\n:param total_artifacts: The total count of the artifacts that were\n tentatively\
+    \ applied.\n:type total_artifacts: int\n"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.ArtifactDeploymentStatusProperties
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.ArtifactSource
+  summary: "Properties of an artifact source.\n\n:param display_name: The display\
+    \ name of the artifact source.\n:type display_name: str\n:param uri: The URI of\
+    \ the artifact source.\n:type uri: str\n:param source_type: The type of the artifact\
+    \ source. Possible values\n include: 'VsoGit', 'GitHub'\n:type source_type: str\
+    \ or :class:`SourceControlType\n <azure.mgmt.devtestlabs.models.SourceControlType>`\n\
+    :param folder_path: The folder path of the artifact source.\n:type folder_path:\
+    \ str\n:param branch_ref: The branch reference of the artifact source.\n:type\
+    \ branch_ref: str\n:param security_token: The security token of the artifact source.\n\
+    :type security_token: str\n:param status: The status of the artifact source. Possible\
+    \ values include:\n 'Enabled', 'Disabled'\n:type status: str or :class:`EnableStatus\n\
+    \ <azure.mgmt.devtestlabs.models.EnableStatus>`\n:param provisioning_state: The\
+    \ provisioning status of the resource.\n:type provisioning_state: str\n:param\
+    \ unique_identifier: The unique immutable identifier of a resource\n (Guid).\n\
+    :type unique_identifier: str\n:param id: The identifier of the resource.\n:type\
+    \ id: str\n:param name: The name of the resource.\n:type name: str\n:param type:\
+    \ The type of the resource.\n:type type: str\n:param location: The location of\
+    \ the resource.\n:type location: str\n:param tags: The tags of the resource.\n\
+    :type tags: dict\n"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.ArtifactSource
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.Cost
+  summary: "A cost item.\n\n:param currency_code: The currency code of the cost.\n\
+    :type currency_code: str\n:param costs: The lab cost component of the cost data.\n\
+    :type costs: list of :class:`CostPerDayProperties\n <azure.mgmt.devtestlabs.models.CostPerDayProperties>`\n\
+    :param resource_costs: The resource cost component of the cost data.\n:type resource_costs:\
+    \ list of :class:`ResourceCostProperties\n <azure.mgmt.devtestlabs.models.ResourceCostProperties>`\n\
+    :param id: The identifier of the resource.\n:type id: str\n:param name: The name\
+    \ of the resource.\n:type name: str\n:param type: The type of the resource.\n\
+    :type type: str\n:param location: The location of the resource.\n:type location:\
+    \ str\n:param tags: The tags of the resource.\n:type tags: dict\n"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.Cost
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.CostPerDayProperties
+  summary: "The properties of a lab cost item.\n\n:param date_property: The date of\
+    \ the cost item.\n:type date_property: datetime\n:param cost: The cost component\
+    \ of the cost item.\n:type cost: float\n:param cost_type: The type of the cost.\
+    \ Possible values include:\n 'Unavailable', 'Reported', 'Projected'\n:type cost_type:\
+    \ str or :class:`LabCostType\n <azure.mgmt.devtestlabs.models.LabCostType>`\n"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.CostPerDayProperties
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.ResourceCostProperties
+  summary: "The properties of a resource cost item.\n\n:param resourcename: The name\
+    \ of the resource.\n:type resourcename: str\n:param resource_group_name: The name\
+    \ of the resource group.\n:type resource_group_name: str\n:param resource_cost:\
+    \ The cost component of the resource cost item.\n:type resource_cost: float\n\
+    :param owner: The email address of the owner of the resource\n:type owner: str\n\
+    :param category: The category of the resource. For VM this will be set to\n its\
+    \ size, for storage account it will be set to standard or premium\n:type category:\
+    \ str\n:param exists: Whether the resource still exists or not\n:type exists:\
+    \ bool\n:param resource_type: The logical resource type (ex. virtualmachine,\n\
+    \ storageaccount)\n:type resource_type: str\n"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.ResourceCostProperties
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.CustomImage
+  summary: "A custom image.\n\n:param vm:\n:type vm: :class:`CustomImagePropertiesFromVm\n\
+    \ <azure.mgmt.devtestlabs.models.CustomImagePropertiesFromVm>`\n:param vhd: The\
+    \ VHD from which the image is to be created.\n:type vhd: :class:`CustomImagePropertiesCustom\n\
+    \ <azure.mgmt.devtestlabs.models.CustomImagePropertiesCustom>`\n:param description:\
+    \ The description of the custom image.\n:type description: str\n:param author:\
+    \ The author of the custom image.\n:type author: str\n:param creation_date: The\
+    \ creation date of the custom image.\n:type creation_date: datetime\n:param provisioning_state:\
+    \ The provisioning status of the resource.\n:type provisioning_state: str\n:param\
+    \ unique_identifier: The unique immutable identifier of a resource\n (Guid).\n\
+    :type unique_identifier: str\n:param id: The identifier of the resource.\n:type\
+    \ id: str\n:param name: The name of the resource.\n:type name: str\n:param type:\
+    \ The type of the resource.\n:type type: str\n:param location: The location of\
+    \ the resource.\n:type location: str\n:param tags: The tags of the resource.\n\
+    :type tags: dict\n"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.CustomImage
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.CustomImagePropertiesFromVm
+  summary: "Properties for creating a custom image from a virtual machine.\n\n:param\
+    \ source_vm_id: The source vm identifier.\n:type source_vm_id: str\n:param windows_os_info:\
+    \ The Windows OS information of the VM.\n:type windows_os_info: :class:`WindowsOsInfo\n\
+    \ <azure.mgmt.devtestlabs.models.WindowsOsInfo>`\n:param linux_os_info: The Linux\
+    \ OS information of the VM.\n:type linux_os_info: :class:`LinuxOsInfo\n <azure.mgmt.devtestlabs.models.LinuxOsInfo>`\n"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.CustomImagePropertiesFromVm
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.WindowsOsInfo
+  summary: "Information about a Windows OS.\n\n:param windows_os_state: The state\
+    \ of the Windows OS. Possible values\n include: 'NonSysprepped', 'SysprepRequested',\
+    \ 'SysprepApplied'\n:type windows_os_state: str or :class:`WindowsOsState\n <azure.mgmt.devtestlabs.models.WindowsOsState>`\n"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.WindowsOsInfo
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.LinuxOsInfo
+  summary: "Information about a Linux OS.\n\n:param linux_os_state: The state of the\
+    \ Linux OS. Possible values include:\n 'NonDeprovisioned', 'DeprovisionRequested',\
+    \ 'DeprovisionApplied'\n:type linux_os_state: str or :class:`LinuxOsState\n <azure.mgmt.devtestlabs.models.LinuxOsState>`\n"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.LinuxOsInfo
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.CustomImagePropertiesCustom
+  summary: "Properties for creating a custom image from a VHD.\n\n:param image_name:\
+    \ The image name.\n:type image_name: str\n:param sys_prep: Indicates whether sysprep\
+    \ has been run on the VHD.\n:type sys_prep: bool\n:param os_type: The OS type\
+    \ of the custom image. Possible values include:\n 'Windows', 'Linux', 'None'\n\
+    :type os_type: str or :class:`CustomImageOsType\n <azure.mgmt.devtestlabs.models.CustomImageOsType>`\n"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.CustomImagePropertiesCustom
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.DayDetails
+  summary: 'Properties of a daily schedule.
+
+
+    :param time:
+
+    :type time: str
+
+    '
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.DayDetails
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.EvaluatePoliciesProperties
+  summary: 'Properties for evaluating a policy set.
+
+
+    :param fact_name: The fact name.
+
+    :type fact_name: str
+
+    :param fact_data: The fact data.
+
+    :type fact_data: str
+
+    :param value_offset: The value offset.
+
+    :type value_offset: str
+
+    '
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.EvaluatePoliciesProperties
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.EvaluatePoliciesRequest
+  summary: "Request body for evaluating a policy set.\n\n:param policies: Policies\
+    \ to evaluate.\n:type policies: list of :class:`EvaluatePoliciesProperties\n <azure.mgmt.devtestlabs.models.EvaluatePoliciesProperties>`\n"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.EvaluatePoliciesRequest
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.EvaluatePoliciesResponse
+  summary: "Response body for evaluating a policy set.\n\n:param results: Results\
+    \ of evaluating a policy set.\n:type results: list of :class:`PolicySetResult\n\
+    \ <azure.mgmt.devtestlabs.models.PolicySetResult>`\n"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.EvaluatePoliciesResponse
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.PolicySetResult
+  summary: "Result of a policy set evaluation.\n\n:param has_error: A value indicating\
+    \ whether this policy set evaluation\n has discovered violations.\n:type has_error:\
+    \ bool\n:param policy_violations: The list of policy violations.\n:type policy_violations:\
+    \ list of :class:`PolicyViolation\n <azure.mgmt.devtestlabs.models.PolicyViolation>`\n"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.PolicySetResult
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.PolicyViolation
+  summary: 'Policy violation.
+
+
+    :param code: The code of the policy violation.
+
+    :type code: str
+
+    :param message: The message of the policy violation.
+
+    :type message: str
+
+    '
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.PolicyViolation
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.Formula
+  summary: "A formula.\n\n:param description: The description of the formula.\n:type\
+    \ description: str\n:param author: The author of the formula.\n:type author: str\n\
+    :param os_type: The OS type of the formula.\n:type os_type: str\n:param creation_date:\
+    \ The creation date of the formula.\n:type creation_date: datetime\n:param formula_content:\
+    \ The content of the formula.\n:type formula_content: :class:`LabVirtualMachine\n\
+    \ <azure.mgmt.devtestlabs.models.LabVirtualMachine>`\n:param vm: Information about\
+    \ a VM from which a formula is to be created.\n:type vm: :class:`FormulaPropertiesFromVm\n\
+    \ <azure.mgmt.devtestlabs.models.FormulaPropertiesFromVm>`\n:param provisioning_state:\
+    \ The provisioning status of the resource.\n:type provisioning_state: str\n:param\
+    \ unique_identifier: The unique immutable identifier of a resource\n (Guid).\n\
+    :type unique_identifier: str\n:param id: The identifier of the resource.\n:type\
+    \ id: str\n:param name: The name of the resource.\n:type name: str\n:param type:\
+    \ The type of the resource.\n:type type: str\n:param location: The location of\
+    \ the resource.\n:type location: str\n:param tags: The tags of the resource.\n\
+    :type tags: dict\n"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.Formula
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.LabVirtualMachine
+  summary: "A virtual machine.\n\n:param notes: The notes of the virtual machine.\n\
+    :type notes: str\n:param owner_object_id: The object identifier of the owner of\
+    \ the virtual\n machine.\n:type owner_object_id: str\n:param created_by_user_id:\
+    \ The object identifier of the creator of the\n virtual machine.\n:type created_by_user_id:\
+    \ str\n:param created_by_user: The email address of creator of the virtual\n machine.\n\
+    :type created_by_user: str\n:param compute_id: The resource identifier (Microsoft.Compute)\
+    \ of the\n virtual machine.\n:type compute_id: str\n:param custom_image_id: The\
+    \ custom image identifier of the virtual\n machine.\n:type custom_image_id: str\n\
+    :param os_type: The OS type of the virtual machine.\n:type os_type: str\n:param\
+    \ size: The size of the virtual machine.\n:type size: str\n:param user_name: The\
+    \ user name of the virtual machine.\n:type user_name: str\n:param password: The\
+    \ password of the virtual machine administrator.\n:type password: str\n:param\
+    \ ssh_key: The SSH key of the virtual machine administrator.\n:type ssh_key: str\n\
+    :param is_authentication_with_ssh_key: A value indicating whether this\n virtual\
+    \ machine uses an SSH key for authentication.\n:type is_authentication_with_ssh_key:\
+    \ bool\n:param fqdn: The fully-qualified domain name of the virtual machine.\n\
+    :type fqdn: str\n:param lab_subnet_name: The lab subnet name of the virtual machine.\n\
+    :type lab_subnet_name: str\n:param lab_virtual_network_id: The lab virtual network\
+    \ identifier of the\n virtual machine.\n:type lab_virtual_network_id: str\n:param\
+    \ disallow_public_ip_address: Indicates whether the virtual machine\n is to be\
+    \ created without a public IP address.\n:type disallow_public_ip_address: bool\n\
+    :param artifacts: The artifacts to be installed on the virtual machine.\n:type\
+    \ artifacts: list of :class:`ArtifactInstallProperties\n <azure.mgmt.devtestlabs.models.ArtifactInstallProperties>`\n\
+    :param artifact_deployment_status: The artifact deployment status for the\n virtual\
+    \ machine.\n:type artifact_deployment_status:\n :class:`ArtifactDeploymentStatusProperties\n\
+    \ <azure.mgmt.devtestlabs.models.ArtifactDeploymentStatusProperties>`\n:param\
+    \ gallery_image_reference: The Microsoft Azure Marketplace image\n reference of\
+    \ the virtual machine.\n:type gallery_image_reference: :class:`GalleryImageReference\n\
+    \ <azure.mgmt.devtestlabs.models.GalleryImageReference>`\n:param provisioning_state:\
+    \ The provisioning status of the resource.\n:type provisioning_state: str\n:param\
+    \ unique_identifier: The unique immutable identifier of a resource\n (Guid).\n\
+    :type unique_identifier: str\n:param id: The identifier of the resource.\n:type\
+    \ id: str\n:param name: The name of the resource.\n:type name: str\n:param type:\
+    \ The type of the resource.\n:type type: str\n:param location: The location of\
+    \ the resource.\n:type location: str\n:param tags: The tags of the resource.\n\
+    :type tags: dict\n"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.LabVirtualMachine
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.GalleryImageReference
+  summary: 'The reference information for an Azure Marketplace image.
+
+
+    :param offer: The offer of the gallery image.
+
+    :type offer: str
+
+    :param publisher: The publisher of the gallery image.
+
+    :type publisher: str
+
+    :param sku: The SKU of the gallery image.
+
+    :type sku: str
+
+    :param os_type: The OS type of the gallery image.
+
+    :type os_type: str
+
+    :param version: The version of the gallery image.
+
+    :type version: str
+
+    '
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.GalleryImageReference
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.FormulaPropertiesFromVm
+  summary: "Information about a VM from which a formula is to be created.\n\n:param\
+    \ lab_vm_id: The identifier of the VM from which a formula is to be\n created.\n\
+    :type lab_vm_id: str\n"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.FormulaPropertiesFromVm
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.GalleryImage
+  summary: "A gallery image.\n\n:param author: The author of the gallery image.\n\
+    :type author: str\n:param created_date: The creation date of the gallery image.\n\
+    :type created_date: datetime\n:param description: The description of the gallery\
+    \ image.\n:type description: str\n:param image_reference: The image reference\
+    \ of the gallery image.\n:type image_reference: :class:`GalleryImageReference\n\
+    \ <azure.mgmt.devtestlabs.models.GalleryImageReference>`\n:param icon: The icon\
+    \ of the gallery image.\n:type icon: str\n:param enabled: Indicates whether this\
+    \ gallery image is enabled.\n:type enabled: bool\n:param id: The identifier of\
+    \ the resource.\n:type id: str\n:param name: The name of the resource.\n:type\
+    \ name: str\n:param type: The type of the resource.\n:type type: str\n:param location:\
+    \ The location of the resource.\n:type location: str\n:param tags: The tags of\
+    \ the resource.\n:type tags: dict\n"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.GalleryImage
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.GenerateArmTemplateRequest
+  summary: "Parameters for generating an ARM template for deploying artifacts.\n\n\
+    :param virtual_machine_name: The resource name of the virtual machine.\n:type\
+    \ virtual_machine_name: str\n:param parameters: The parameters of the ARM template.\n\
+    :type parameters: list of :class:`ParameterInfo\n <azure.mgmt.devtestlabs.models.ParameterInfo>`\n\
+    :param location: The location of the virtual machine.\n:type location: str\n"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.GenerateArmTemplateRequest
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.ParameterInfo
+  summary: 'ParameterInfo.
+
+
+    :param name:
+
+    :type name: str
+
+    :param value:
+
+    :type value: str
+
+    '
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.ParameterInfo
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.GenerateUploadUriParameter
+  summary: 'Properties for generating an upload URI.
+
+
+    :param blob_name: The blob name of the upload URI.
+
+    :type blob_name: str
+
+    '
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.GenerateUploadUriParameter
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.GenerateUploadUriResponse
+  summary: 'Reponse body for generating an upload URI.
+
+
+    :param upload_uri: The upload URI for the VHD.
+
+    :type upload_uri: str
+
+    '
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.GenerateUploadUriResponse
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.HourDetails
+  summary: 'Properties of an hourly schedule.
+
+
+    :param minute: Minutes of the hour the schedule will run.
+
+    :type minute: int
+
+    '
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.HourDetails
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.Lab
+  summary: "A lab.\n\n:param default_storage_account: The lab's default storage account.\n\
+    :type default_storage_account: str\n:param artifacts_storage_account: The artifact\
+    \ storage account of the lab.\n:type artifacts_storage_account: str\n:param vault_name:\
+    \ The name of the key vault of the lab.\n:type vault_name: str\n:param lab_storage_type:\
+    \ The type of the lab storage. Possible values\n include: 'Standard', 'Premium'\n\
+    :type lab_storage_type: str or :class:`LabStorageType\n <azure.mgmt.devtestlabs.models.LabStorageType>`\n\
+    :param created_date: The creation date of the lab.\n:type created_date: datetime\n\
+    :param provisioning_state: The provisioning status of the resource.\n:type provisioning_state:\
+    \ str\n:param unique_identifier: The unique immutable identifier of a resource\n\
+    \ (Guid).\n:type unique_identifier: str\n:param id: The identifier of the resource.\n\
+    :type id: str\n:param name: The name of the resource.\n:type name: str\n:param\
+    \ type: The type of the resource.\n:type type: str\n:param location: The location\
+    \ of the resource.\n:type location: str\n:param tags: The tags of the resource.\n\
+    :type tags: dict\n"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.Lab
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.LabVhd
+  summary: 'Properties of a VHD in the lab.
+
+
+    :param id: The absolute URI of the VHD.
+
+    :type id: str
+
+    '
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.LabVhd
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.Policy
+  summary: "A Policy.\n\n:param description: The description of the policy.\n:type\
+    \ description: str\n:param status: The status of the policy. Possible values include:\n\
+    \ 'Enabled', 'Disabled'\n:type status: str or :class:`PolicyStatus\n <azure.mgmt.devtestlabs.models.PolicyStatus>`\n\
+    :param fact_name: The fact name of the policy. Possible values include:\n 'UserOwnedLabVmCount',\
+    \ 'LabVmCount', 'LabVmSize', 'GalleryImage',\n 'UserOwnedLabVmCountInSubnet'\n\
+    :type fact_name: str or :class:`PolicyFactName\n <azure.mgmt.devtestlabs.models.PolicyFactName>`\n\
+    :param fact_data: The fact data of the policy.\n:type fact_data: str\n:param threshold:\
+    \ The threshold of the policy.\n:type threshold: str\n:param evaluator_type: The\
+    \ evaluator type of the policy. Possible values\n include: 'AllowedValuesPolicy',\
+    \ 'MaxValuePolicy'\n:type evaluator_type: str or :class:`PolicyEvaluatorType\n\
+    \ <azure.mgmt.devtestlabs.models.PolicyEvaluatorType>`\n:param provisioning_state:\
+    \ The provisioning status of the resource.\n:type provisioning_state: str\n:param\
+    \ unique_identifier: The unique immutable identifier of a resource\n (Guid).\n\
+    :type unique_identifier: str\n:param id: The identifier of the resource.\n:type\
+    \ id: str\n:param name: The name of the resource.\n:type name: str\n:param type:\
+    \ The type of the resource.\n:type type: str\n:param location: The location of\
+    \ the resource.\n:type location: str\n:param tags: The tags of the resource.\n\
+    :type tags: dict\n"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.Policy
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.Schedule
+  summary: "A schedule.\n\n:param status: The status of the schedule. Possible values\
+    \ include:\n 'Enabled', 'Disabled'\n:type status: str or :class:`EnableStatus\n\
+    \ <azure.mgmt.devtestlabs.models.EnableStatus>`\n:param task_type: The task type\
+    \ of the schedule.\n:type task_type: str\n:param weekly_recurrence: The weekly\
+    \ recurrence of the schedule.\n:type weekly_recurrence: :class:`WeekDetails\n\
+    \ <azure.mgmt.devtestlabs.models.WeekDetails>`\n:param daily_recurrence: The daily\
+    \ recurrence of the schedule.\n:type daily_recurrence: :class:`DayDetails\n <azure.mgmt.devtestlabs.models.DayDetails>`\n\
+    :param hourly_recurrence: The hourly recurrence of the schedule.\n:type hourly_recurrence:\
+    \ :class:`HourDetails\n <azure.mgmt.devtestlabs.models.HourDetails>`\n:param time_zone_id:\
+    \ The time zone id.\n:type time_zone_id: str\n:param provisioning_state: The provisioning\
+    \ status of the resource.\n:type provisioning_state: str\n:param unique_identifier:\
+    \ The unique immutable identifier of a resource\n (Guid).\n:type unique_identifier:\
+    \ str\n:param id: The identifier of the resource.\n:type id: str\n:param name:\
+    \ The name of the resource.\n:type name: str\n:param type: The type of the resource.\n\
+    :type type: str\n:param location: The location of the resource.\n:type location:\
+    \ str\n:param tags: The tags of the resource.\n:type tags: dict\n"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.Schedule
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.WeekDetails
+  summary: 'Properties of a weekly schedule.
+
+
+    :param weekdays: The days of the week.
+
+    :type weekdays: list of str
+
+    :param time: The time of the day.
+
+    :type time: str
+
+    '
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.WeekDetails
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.VirtualNetwork
+  summary: "A virtual network.\n\n:param allowed_subnets: The allowed subnets of the\
+    \ virtual network.\n:type allowed_subnets: list of :class:`Subnet\n <azure.mgmt.devtestlabs.models.Subnet>`\n\
+    :param description: The description of the virtual network.\n:type description:\
+    \ str\n:param external_provider_resource_id: The Microsoft.Network resource\n\
+    \ identifier of the virtual network.\n:type external_provider_resource_id: str\n\
+    :param subnet_overrides: The subnet overrides of the virtual network.\n:type subnet_overrides:\
+    \ list of :class:`SubnetOverride\n <azure.mgmt.devtestlabs.models.SubnetOverride>`\n\
+    :param provisioning_state: The provisioning status of the resource.\n:type provisioning_state:\
+    \ str\n:param unique_identifier: The unique immutable identifier of a resource\n\
+    \ (Guid).\n:type unique_identifier: str\n:param id: The identifier of the resource.\n\
+    :type id: str\n:param name: The name of the resource.\n:type name: str\n:param\
+    \ type: The type of the resource.\n:type type: str\n:param location: The location\
+    \ of the resource.\n:type location: str\n:param tags: The tags of the resource.\n\
+    :type tags: dict\n"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.VirtualNetwork
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.Subnet
+  summary: "Subnet.\n\n:param resource_id:\n:type resource_id: str\n:param lab_subnet_name:\n\
+    :type lab_subnet_name: str\n:param allow_public_ip: Possible values include: 'Default',\
+    \ 'Deny',\n 'Allow'\n:type allow_public_ip: str or :class:`UsagePermissionType\n\
+    \ <azure.mgmt.devtestlabs.models.UsagePermissionType>`\n"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.Subnet
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.SubnetOverride
+  summary: "Property overrides on a subnet of a virtual network.\n\n:param resource_id:\
+    \ The resource identifier of the subnet.\n:type resource_id: str\n:param lab_subnet_name:\
+    \ The name given to the subnet within the lab.\n:type lab_subnet_name: str\n:param\
+    \ use_in_vm_creation_permission: Indicates whether this subnet can be\n used during\
+    \ virtual machine creation. Possible values include: 'Default',\n 'Deny', 'Allow'\n\
+    :type use_in_vm_creation_permission: str or :class:`UsagePermissionType\n <azure.mgmt.devtestlabs.models.UsagePermissionType>`\n\
+    :param use_public_ip_address_permission: Indicates whether public IP\n addresses\
+    \ can be assigned to virtual machines on this subnet. Possible\n values include:\
+    \ 'Default', 'Deny', 'Allow'\n:type use_public_ip_address_permission: str or :class:`UsagePermissionType\n\
+    \ <azure.mgmt.devtestlabs.models.UsagePermissionType>`\n"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.SubnetOverride
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.SubscriptionNotification
+  summary: "SubscriptionNotification.\n\n:param registration_date:\n:type registration_date:\
+    \ str\n:param state: Possible values include: 'NotDefined', 'Registered',\n 'Unregistered',\
+    \ 'Warned', 'Suspended', 'Deleted'\n:type state: str or :class:`SubscriptionNotificationState\n\
+    \ <azure.mgmt.devtestlabs.models.SubscriptionNotificationState>`\n:param properties:\n\
+    :type properties: :class:`SubscriptionNotificationProperties\n <azure.mgmt.devtestlabs.models.SubscriptionNotificationProperties>`\n"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.SubscriptionNotification
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.SubscriptionNotificationProperties
+  summary: 'SubscriptionNotificationProperties.
+
+
+    :param tenant_id:
+
+    :type tenant_id: str
+
+    '
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.SubscriptionNotificationProperties
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.LabPaged
+  summary: 'A paging container for iterating over a list of Lab object
+
+    '
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.LabPaged
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.LabVhdPaged
+  summary: 'A paging container for iterating over a list of LabVhd object
+
+    '
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.LabVhdPaged
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.ArtifactSourcePaged
+  summary: 'A paging container for iterating over a list of ArtifactSource object
+
+    '
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.ArtifactSourcePaged
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.ArtifactPaged
+  summary: 'A paging container for iterating over a list of Artifact object
+
+    '
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.ArtifactPaged
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.CustomImagePaged
+  summary: 'A paging container for iterating over a list of CustomImage object
+
+    '
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.CustomImagePaged
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.FormulaPaged
+  summary: 'A paging container for iterating over a list of Formula object
+
+    '
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.FormulaPaged
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.GalleryImagePaged
+  summary: 'A paging container for iterating over a list of GalleryImage object
+
+    '
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.GalleryImagePaged
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.PolicyPaged
+  summary: 'A paging container for iterating over a list of Policy object
+
+    '
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.PolicyPaged
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.SchedulePaged
+  summary: 'A paging container for iterating over a list of Schedule object
+
+    '
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.SchedulePaged
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.LabVirtualMachinePaged
+  summary: 'A paging container for iterating over a list of LabVirtualMachine object
+
+    '
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.LabVirtualMachinePaged
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.VirtualNetworkPaged
+  summary: 'A paging container for iterating over a list of VirtualNetwork object
+
+    '
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.VirtualNetworkPaged
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.SourceControlType
+  summary: ''
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.SourceControlType
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.EnableStatus
+  summary: ''
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.EnableStatus
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.LabCostType
+  summary: ''
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.LabCostType
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.WindowsOsState
+  summary: ''
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.WindowsOsState
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.LinuxOsState
+  summary: ''
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.LinuxOsState
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.CustomImageOsType
+  summary: ''
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.CustomImageOsType
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.LabStorageType
+  summary: ''
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.LabStorageType
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.PolicyStatus
+  summary: ''
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.PolicyStatus
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.PolicyFactName
+  summary: ''
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.PolicyFactName
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.PolicyEvaluatorType
+  summary: ''
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.PolicyEvaluatorType
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.UsagePermissionType
+  summary: ''
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.UsagePermissionType
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs.models
+  name: azure.mgmt.devtestlabs.models.SubscriptionNotificationState
+  summary: ''
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.SubscriptionNotificationState

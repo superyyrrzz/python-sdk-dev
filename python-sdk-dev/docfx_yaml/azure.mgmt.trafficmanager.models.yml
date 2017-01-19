@@ -1,0 +1,175 @@
+items:
+- _type: module
+  children:
+  - azure.mgmt.trafficmanager.models.Endpoint
+  - azure.mgmt.trafficmanager.models.CheckTrafficManagerRelativeDnsNameAvailabilityParameters
+  - azure.mgmt.trafficmanager.models.DnsConfig
+  - azure.mgmt.trafficmanager.models.MonitorConfig
+  - azure.mgmt.trafficmanager.models.Profile
+  - azure.mgmt.trafficmanager.models.TrafficManagerNameAvailability
+  - azure.mgmt.trafficmanager.models.Resource
+  - azure.mgmt.trafficmanager.models.ProfilePaged
+  module: azure.mgmt.trafficmanager.models
+  name: azure.mgmt.trafficmanager.models
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.trafficmanager.models
+- _type: class
+  children: []
+  module: azure.mgmt.trafficmanager.models
+  name: azure.mgmt.trafficmanager.models.Endpoint
+  summary: "Class representing a Traffic Manager endpoint.\n\n:param id: Gets or sets\
+    \ the ID of the Traffic Manager endpoint.\n:type id: str\n:param name: Gets or\
+    \ sets the name of the Traffic Manager endpoint.\n:type name: str\n:param type:\
+    \ Gets or sets the endpoint type of the Traffic Manager\n endpoint.\n:type type:\
+    \ str\n:param target_resource_id: Gets or sets the Azure Resource URI of the of\n\
+    \ the endpoint.  Not applicable to endpoints of type 'ExternalEndpoints'.\n:type\
+    \ target_resource_id: str\n:param target: Gets or sets the fully-qualified DNS\
+    \ name of the endpoint.\n Traffic Manager returns this value in DNS responses\
+    \ to direct traffic\n to this endpoint.\n:type target: str\n:param endpoint_status:\
+    \ Gets or sets the status of the endpoint..  If the\n endpoint is Enabled, it\
+    \ is probed for endpoint health and is included in\n the traffic routing method.\
+    \  Possible values are 'Enabled' and\n 'Disabled'.\n:type endpoint_status: str\n\
+    :param weight: Gets or sets the weight of this endpoint when using the\n 'Weighted'\
+    \ traffic routing method. Possible values are from 1 to 1000.\n:type weight: long\n\
+    :param priority: Gets or sets the priority of this endpoint when using\n the \u2018\
+    Priority\u2019 traffic routing method. Possible values are from 1 to\n 1000, lower\
+    \ values represent higher priority. This is an optional\n parameter.  If specified,\
+    \ it must be specified on all endpoints, and no\n two endpoints can share the\
+    \ same priority value.\n:type priority: long\n:param endpoint_location: Specifies\
+    \ the location of the external or\n nested endpoints when using the \u2018Performance\u2019\
+    \ traffic routing method.\n:type endpoint_location: str\n:param endpoint_monitor_status:\
+    \ Gets or sets the monitoring status of the\n endpoint.\n:type endpoint_monitor_status:\
+    \ str\n:param min_child_endpoints: Gets or sets the minimum number of endpoints\n\
+    \ that must be available in the child profile in order for the parent\n profile\
+    \ to be considered available. Only applicable to endpoint of type\n 'NestedEndpoints'.\n\
+    :type min_child_endpoints: long\n"
+  type: Class
+  uid: azure.mgmt.trafficmanager.models.Endpoint
+- _type: class
+  children: []
+  module: azure.mgmt.trafficmanager.models
+  name: azure.mgmt.trafficmanager.models.CheckTrafficManagerRelativeDnsNameAvailabilityParameters
+  summary: 'Parameters supplied to check Traffic Manager name operation.
+
+
+    :param name: Gets or sets the name of the resource.
+
+    :type name: str
+
+    :param type: Gets or sets the type of the resource.
+
+    :type type: str
+
+    '
+  type: Class
+  uid: azure.mgmt.trafficmanager.models.CheckTrafficManagerRelativeDnsNameAvailabilityParameters
+- _type: class
+  children: []
+  module: azure.mgmt.trafficmanager.models
+  name: azure.mgmt.trafficmanager.models.DnsConfig
+  summary: "Class containing DNS settings in a Traffic Manager profile.\n\n:param\
+    \ relative_name: Gets or sets the relative DNS name provided by this\n Traffic\
+    \ Manager profile.  This value is combined with the DNS domain\n name used by\
+    \ Azure Traffic Manager to form the fully-qualified domain\n name (FQDN) of the\
+    \ profile.\n:type relative_name: str\n:param fqdn: Gets or sets the fully-qualified\
+    \ domain name (FQDN) of the\n Traffic Manager profile.  This is formed from the\
+    \ concatenation of the\n RelativeName with the DNS domain used by Azure Traffic\
+    \ Manager.\n:type fqdn: str\n:param ttl: Gets or sets the DNS Ttime-To-Live (TTL),\
+    \ in seconds.  This\n informs the local DNS resolvers and DNS clients how long\
+    \ to cache DNS\n responses provided by this Traffic Manager profile.\n:type ttl:\
+    \ long\n"
+  type: Class
+  uid: azure.mgmt.trafficmanager.models.DnsConfig
+- _type: class
+  children: []
+  module: azure.mgmt.trafficmanager.models
+  name: azure.mgmt.trafficmanager.models.MonitorConfig
+  summary: "Class containing endpoint monitoring settings in a Traffic Manager profile.\n\
+    \n:param profile_monitor_status: Gets or sets the profile-level monitoring\n status\
+    \ of the Traffic Manager profile.\n:type profile_monitor_status: str\n:param protocol:\
+    \ Gets or sets the protocol (HTTP or HTTPS) used to probe\n for endpoint health.\n\
+    :type protocol: str\n:param port: Gets or sets the TCP port used to probe for\
+    \ endpoint health.\n:type port: long\n:param path: Gets or sets the path relative\
+    \ to the endpoint domain name\n used to probe for endpoint health.\n:type path:\
+    \ str\n"
+  type: Class
+  uid: azure.mgmt.trafficmanager.models.MonitorConfig
+- _type: class
+  children: []
+  module: azure.mgmt.trafficmanager.models
+  name: azure.mgmt.trafficmanager.models.Profile
+  summary: "Class representing a Traffic Manager profile.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar id: Resource\
+    \ Id\n:vartype id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type:\
+    \ Resource type\n:vartype type: str\n:param location: Resource location\n:type\
+    \ location: str\n:param tags: Resource tags\n:type tags: dict\n:param profile_status:\
+    \ Gets or sets the status of the Traffic Manager\n profile.  Possible values are\
+    \ 'Enabled' and 'Disabled'.\n:type profile_status: str\n:param traffic_routing_method:\
+    \ Gets or sets the traffic routing method of\n the Traffic Manager profile.  Possible\
+    \ values are 'Performance',\n 'Weighted', or 'Priority'.\n:type traffic_routing_method:\
+    \ str\n:param dns_config: Gets or sets the DNS settings of the Traffic Manager\n\
+    \ profile.\n:type dns_config: :class:`DnsConfig\n <azure.mgmt.trafficmanager.models.DnsConfig>`\n\
+    :param monitor_config: Gets or sets the endpoint monitoring settings of\n the\
+    \ Traffic Manager profile.\n:type monitor_config: :class:`MonitorConfig\n <azure.mgmt.trafficmanager.models.MonitorConfig>`\n\
+    :param endpoints: Gets or sets the list of endpoints in the Traffic\n Manager\
+    \ profile.\n:type endpoints: list of :class:`Endpoint\n <azure.mgmt.trafficmanager.models.Endpoint>`\n"
+  type: Class
+  uid: azure.mgmt.trafficmanager.models.Profile
+- _type: class
+  children: []
+  module: azure.mgmt.trafficmanager.models
+  name: azure.mgmt.trafficmanager.models.TrafficManagerNameAvailability
+  summary: "Class representing a Traffic Manager Name Availability response.\n\n:param\
+    \ name: The relative name.\n:type name: str\n:param type: Traffic Manager profile\
+    \ resource type.\n:type type: str\n:param name_available: Describes whether the\
+    \ relative name is available\n or not.\n:type name_available: bool\n:param reason:\
+    \ The reason why the name is not available, when applicable.\n:type reason: str\n\
+    :param message: Descriptive message that explains why the name is not\n available,\
+    \ when applicable.\n:type message: str\n"
+  type: Class
+  uid: azure.mgmt.trafficmanager.models.TrafficManagerNameAvailability
+- _type: class
+  children: []
+  module: azure.mgmt.trafficmanager.models
+  name: azure.mgmt.trafficmanager.models.Resource
+  summary: 'Resource.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar id: Resource Id
+
+    :vartype id: str
+
+    :ivar name: Resource name
+
+    :vartype name: str
+
+    :ivar type: Resource type
+
+    :vartype type: str
+
+    :param location: Resource location
+
+    :type location: str
+
+    :param tags: Resource tags
+
+    :type tags: dict
+
+    '
+  type: Class
+  uid: azure.mgmt.trafficmanager.models.Resource
+- _type: class
+  children: []
+  module: azure.mgmt.trafficmanager.models
+  name: azure.mgmt.trafficmanager.models.ProfilePaged
+  summary: 'A paging container for iterating over a list of Profile object
+
+    '
+  type: Class
+  uid: azure.mgmt.trafficmanager.models.ProfilePaged

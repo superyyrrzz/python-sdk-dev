@@ -1,0 +1,607 @@
+items:
+- _type: module
+  children:
+  - azure.mgmt.iothub.models.SharedAccessSignatureAuthorizationRule
+  - azure.mgmt.iothub.models.IpFilterRule
+  - azure.mgmt.iothub.models.EventHubProperties
+  - azure.mgmt.iothub.models.StorageEndpointProperties
+  - azure.mgmt.iothub.models.MessagingEndpointProperties
+  - azure.mgmt.iothub.models.FeedbackProperties
+  - azure.mgmt.iothub.models.CloudToDeviceProperties
+  - azure.mgmt.iothub.models.OperationsMonitoringProperties
+  - azure.mgmt.iothub.models.IotHubProperties
+  - azure.mgmt.iothub.models.IotHubSkuInfo
+  - azure.mgmt.iothub.models.IotHubDescription
+  - azure.mgmt.iothub.models.Resource
+  - azure.mgmt.iothub.models.ErrorDetails
+  - azure.mgmt.iothub.models.ErrorDetailsException
+  - azure.mgmt.iothub.models.IotHubQuotaMetricInfo
+  - azure.mgmt.iothub.models.RegistryStatistics
+  - azure.mgmt.iothub.models.JobResponse
+  - azure.mgmt.iothub.models.IotHubCapacity
+  - azure.mgmt.iothub.models.IotHubSkuDescription
+  - azure.mgmt.iothub.models.EventHubConsumerGroupInfo
+  - azure.mgmt.iothub.models.OperationInputs
+  - azure.mgmt.iothub.models.IotHubNameAvailabilityInfo
+  - azure.mgmt.iothub.models.ExportDevicesRequest
+  - azure.mgmt.iothub.models.ImportDevicesRequest
+  - azure.mgmt.iothub.models.IotHubDescriptionPaged
+  - azure.mgmt.iothub.models.IotHubSkuDescriptionPaged
+  - azure.mgmt.iothub.models.StrPaged
+  - azure.mgmt.iothub.models.JobResponsePaged
+  - azure.mgmt.iothub.models.IotHubQuotaMetricInfoPaged
+  - azure.mgmt.iothub.models.SharedAccessSignatureAuthorizationRulePaged
+  - azure.mgmt.iothub.models.AccessRights
+  - azure.mgmt.iothub.models.IpFilterActionType
+  - azure.mgmt.iothub.models.OperationMonitoringLevel
+  - azure.mgmt.iothub.models.Capabilities
+  - azure.mgmt.iothub.models.IotHubSku
+  - azure.mgmt.iothub.models.IotHubSkuTier
+  - azure.mgmt.iothub.models.JobType
+  - azure.mgmt.iothub.models.JobStatus
+  - azure.mgmt.iothub.models.IotHubScaleType
+  - azure.mgmt.iothub.models.IotHubNameUnavailabilityReason
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.iothub.models
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.SharedAccessSignatureAuthorizationRule
+  summary: "The properties of an IoT hub shared access policy.\n\n:param key_name:\
+    \ The name of the shared access policy.\n:type key_name: str\n:param primary_key:\
+    \ The primary key.\n:type primary_key: str\n:param secondary_key: The secondary\
+    \ key.\n:type secondary_key: str\n:param rights: The permissions assigned to the\
+    \ shared access policy.\n Possible values include: 'RegistryRead', 'RegistryWrite',\n\
+    \ 'ServiceConnect', 'DeviceConnect', 'RegistryRead, RegistryWrite',\n 'RegistryRead,\
+    \ ServiceConnect', 'RegistryRead, DeviceConnect',\n 'RegistryWrite, ServiceConnect',\
+    \ 'RegistryWrite, DeviceConnect',\n 'ServiceConnect, DeviceConnect', 'RegistryRead,\
+    \ RegistryWrite,\n ServiceConnect', 'RegistryRead, RegistryWrite, DeviceConnect',\n\
+    \ 'RegistryRead, ServiceConnect, DeviceConnect', 'RegistryWrite,\n ServiceConnect,\
+    \ DeviceConnect', 'RegistryRead, RegistryWrite,\n ServiceConnect, DeviceConnect'\n\
+    :type rights: str or :class:`AccessRights\n <azure.mgmt.iothub.models.AccessRights>`\n"
+  type: Class
+  uid: azure.mgmt.iothub.models.SharedAccessSignatureAuthorizationRule
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.IpFilterRule
+  summary: "The IP filter rules for the IoT hub.\n\n:param filter_name: The name of\
+    \ the IP filter rule.\n:type filter_name: str\n:param action: The desired action\
+    \ for requests captured by this rule.\n Possible values include: 'Accept', 'Reject'\n\
+    :type action: str or :class:`IpFilterActionType\n <azure.mgmt.iothub.models.IpFilterActionType>`\n\
+    :param ip_mask: A string that contains the IP address range in CIDR\n notation\
+    \ for the rule.\n:type ip_mask: str\n"
+  type: Class
+  uid: azure.mgmt.iothub.models.IpFilterRule
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.EventHubProperties
+  summary: "The properties of the provisioned Event Hub-compatible endpoint used by\
+    \ the\nIoT hub.\n\nVariables are only populated by the server, and will be ignored\
+    \ when\nsending a request.\n\n:param retention_time_in_days: The retention time\
+    \ for device-to-cloud\n messages in days. See:\n https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messaging#device-to-cloud-messages\n\
+    :type retention_time_in_days: long\n:param partition_count: The number of paritions\
+    \ for receiving\n device-to-cloud messages in the Event Hub-compatible endpoint.\
+    \ See:\n https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messaging#device-to-cloud-messages.\n\
+    :type partition_count: int\n:ivar partition_ids: The partition ids in the Event\
+    \ Hub-compatible\n endpoint.\n:vartype partition_ids: list of str\n:ivar path:\
+    \ The Event Hub-compatible name.\n:vartype path: str\n:ivar endpoint: The Event\
+    \ Hub-compatible endpoint.\n:vartype endpoint: str\n"
+  type: Class
+  uid: azure.mgmt.iothub.models.EventHubProperties
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.StorageEndpointProperties
+  summary: "The properties of the Azure Storage endpoint for file upload.\n\n:param\
+    \ sas_ttl_as_iso8601: The period of time for which the the SAS URI\n generated\
+    \ by IoT Hub for file upload is valid. See:\n https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-file-upload#file-upload-notification-configuration-options.\n\
+    :type sas_ttl_as_iso8601: timedelta\n:param connection_string: The connection\
+    \ string for the Azure Storage\n account to which files are uploaded.\n:type connection_string:\
+    \ str\n:param container_name: The name of the root container where you upload\n\
+    \ files. The container need not exist but should be creatable using the\n connectionString\
+    \ specified.\n:type container_name: str\n"
+  type: Class
+  uid: azure.mgmt.iothub.models.StorageEndpointProperties
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.MessagingEndpointProperties
+  summary: "The properties of the messaging endpoints used by this IoT hub.\n\n:param\
+    \ lock_duration_as_iso8601: The lock duration. See:\n https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-file-upload.\n\
+    :type lock_duration_as_iso8601: timedelta\n:param ttl_as_iso8601: The period of\
+    \ time for which a message is available\n to consume before it is expired by the\
+    \ IoT hub. See:\n https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-file-upload.\n\
+    :type ttl_as_iso8601: timedelta\n:param max_delivery_count: The number of times\
+    \ the IoT hub attempts to\n deliver a message. See:\n https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-file-upload.\n\
+    :type max_delivery_count: int\n"
+  type: Class
+  uid: azure.mgmt.iothub.models.MessagingEndpointProperties
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.FeedbackProperties
+  summary: "The properties of the feedback queue for cloud-to-device messages.\n\n\
+    :param lock_duration_as_iso8601: The lock duration for the feedback queue.\n See:\n\
+    \ https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messaging#cloud-to-device-messages.\n\
+    :type lock_duration_as_iso8601: timedelta\n:param ttl_as_iso8601: The period of\
+    \ time for which a message is available\n to consume before it is expired by the\
+    \ IoT hub. See:\n https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messaging#cloud-to-device-messages.\n\
+    :type ttl_as_iso8601: timedelta\n:param max_delivery_count: The number of times\
+    \ the IoT hub attempts to\n deliver a message on the feedback queue. See:\n https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messaging#cloud-to-device-messages.\n\
+    :type max_delivery_count: int\n"
+  type: Class
+  uid: azure.mgmt.iothub.models.FeedbackProperties
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.CloudToDeviceProperties
+  summary: "The IoT hub cloud-to-device messaging properties.\n\n:param max_delivery_count:\
+    \ The max delivery count for cloud-to-device\n messages in the device queue. See:\n\
+    \ https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messaging#cloud-to-device-messages.\n\
+    :type max_delivery_count: int\n:param default_ttl_as_iso8601: The default time\
+    \ to live for\n cloud-to-device messages in the device queue. See:\n https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messaging#cloud-to-device-messages.\n\
+    :type default_ttl_as_iso8601: timedelta\n:param feedback:\n:type feedback: :class:`FeedbackProperties\n\
+    \ <azure.mgmt.iothub.models.FeedbackProperties>`\n"
+  type: Class
+  uid: azure.mgmt.iothub.models.CloudToDeviceProperties
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.OperationsMonitoringProperties
+  summary: 'The operations monitoring properties for the IoT hub. The possible keys
+    to
+
+    the dictionary are Connections, DeviceTelemetry, C2DCommands,
+
+    DeviceIdentityOperations, FileUploadOperations.
+
+
+    :param events:
+
+    :type events: dict
+
+    '
+  type: Class
+  uid: azure.mgmt.iothub.models.OperationsMonitoringProperties
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.IotHubProperties
+  summary: "The properties of an IoT hub.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:param authorization_policies:\
+    \ The shared access policies you can use to\n secure a connection to the IoT hub.\n\
+    :type authorization_policies: list of\n :class:`SharedAccessSignatureAuthorizationRule\n\
+    \ <azure.mgmt.iothub.models.SharedAccessSignatureAuthorizationRule>`\n:param ip_filter_rules:\
+    \ The IP filter rules.\n:type ip_filter_rules: list of :class:`IpFilterRule\n\
+    \ <azure.mgmt.iothub.models.IpFilterRule>`\n:ivar provisioning_state: The provisioning\
+    \ state.\n:vartype provisioning_state: str\n:ivar host_name: The name of the host.\n\
+    :vartype host_name: str\n:param event_hub_endpoints: The Event Hub-compatible\
+    \ endpoint properties.\n The possible keys to this dictionary are events and\n\
+    \ operationsMonitoringEvents. Both of these keys have to be present in the\n dictionary\
+    \ while making create or update calls for the IoT hub.\n:type event_hub_endpoints:\
+    \ dict\n:param storage_endpoints: The list of Azure Storage endpoints where you\n\
+    \ can upload files. Currently you can configure only one Azure Storage\n account\
+    \ and that MUST have its key as $default. Specifying more than one\n storage account\
+    \ causes an error to be thrown. Not specifying a value for\n this property when\
+    \ the enableFileUploadNotifications property is set to\n True, causes an error\
+    \ to be thrown.\n:type storage_endpoints: dict\n:param messaging_endpoints: The\
+    \ messaging endpoint properties for the file\n upload notification queue.\n:type\
+    \ messaging_endpoints: dict\n:param enable_file_upload_notifications: If True,\
+    \ file upload\n notifications are enabled.\n:type enable_file_upload_notifications:\
+    \ bool\n:param cloud_to_device:\n:type cloud_to_device: :class:`CloudToDeviceProperties\n\
+    \ <azure.mgmt.iothub.models.CloudToDeviceProperties>`\n:param comments: Comments.\n\
+    :type comments: str\n:param operations_monitoring_properties:\n:type operations_monitoring_properties:\n\
+    \ :class:`OperationsMonitoringProperties\n <azure.mgmt.iothub.models.OperationsMonitoringProperties>`\n\
+    :param features: The capabilities and features enabled for the IoT hub.\n Possible\
+    \ values include: 'None', 'DeviceManagement'\n:type features: str or :class:`Capabilities\n\
+    \ <azure.mgmt.iothub.models.Capabilities>`\n"
+  type: Class
+  uid: azure.mgmt.iothub.models.IotHubProperties
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.IotHubSkuInfo
+  summary: "Information about the SKU of the IoT hub.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:param name:\
+    \ The name of the SKU. Possible values include: 'F1', 'S1',\n 'S2', 'S3'\n:type\
+    \ name: str or :class:`IotHubSku <azure.mgmt.iothub.models.IotHubSku>`\n:ivar\
+    \ tier: The billing tier for the IoT hub. Possible values include:\n 'Free', 'Standard'\n\
+    :vartype tier: str or :class:`IotHubSkuTier\n <azure.mgmt.iothub.models.IotHubSkuTier>`\n\
+    :param capacity: The number of provisioned IoT Hub units. See:\n https://docs.microsoft.com/azure/azure-subscription-service-limits#iot-hub-limits.\n\
+    :type capacity: long\n"
+  type: Class
+  uid: azure.mgmt.iothub.models.IotHubSkuInfo
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.IotHubDescription
+  summary: "The description of the IoT hub.\n\nVariables are only populated by the\
+    \ server, and will be ignored when\nsending a request.\n\n:ivar id: The resource\
+    \ identifier.\n:vartype id: str\n:ivar name: The resource name.\n:vartype name:\
+    \ str\n:ivar type: The resource type.\n:vartype type: str\n:param location: The\
+    \ resource location.\n:type location: str\n:param tags: The resource tags.\n:type\
+    \ tags: dict\n:param subscriptionid: The subscription identifier.\n:type subscriptionid:\
+    \ str\n:param resourcegroup: The name of the resource group that contains the\
+    \ IoT\n hub. A resource group name uniquely identifies the resource group within\n\
+    \ the subscription.\n:type resourcegroup: str\n:param etag: The Etag field is\
+    \ *not* required. If it is provided in the\n response body, it must also be provided\
+    \ as a header per the normal ETag\n convention.\n:type etag: str\n:param properties:\n\
+    :type properties: :class:`IotHubProperties\n <azure.mgmt.iothub.models.IotHubProperties>`\n\
+    :param sku:\n:type sku: :class:`IotHubSkuInfo <azure.mgmt.iothub.models.IotHubSkuInfo>`\n"
+  type: Class
+  uid: azure.mgmt.iothub.models.IotHubDescription
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.Resource
+  summary: 'Resource.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar id: The resource identifier.
+
+    :vartype id: str
+
+    :ivar name: The resource name.
+
+    :vartype name: str
+
+    :ivar type: The resource type.
+
+    :vartype type: str
+
+    :param location: The resource location.
+
+    :type location: str
+
+    :param tags: The resource tags.
+
+    :type tags: dict
+
+    '
+  type: Class
+  uid: azure.mgmt.iothub.models.Resource
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.ErrorDetails
+  summary: 'Error details.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar code: The error code.
+
+    :vartype code: str
+
+    :ivar http_status_code: The HTTP status code.
+
+    :vartype http_status_code: str
+
+    :ivar message: The error message.
+
+    :vartype message: str
+
+    :ivar details: The error details.
+
+    :vartype details: str
+
+    '
+  type: Class
+  uid: azure.mgmt.iothub.models.ErrorDetails
+- _type: exception
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.ErrorDetailsException
+  summary: 'Server responsed with exception of type: ''ErrorDetails''.
+
+
+    :param deserialize: A deserializer
+
+    :param response: Server response to be deserialized.
+
+    '
+  type: Exception
+  uid: azure.mgmt.iothub.models.ErrorDetailsException
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.IotHubQuotaMetricInfo
+  summary: 'Quota metrics properties.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar name: The name of the quota metric.
+
+    :vartype name: str
+
+    :ivar current_value: The current value for the quota metric.
+
+    :vartype current_value: long
+
+    :ivar max_value: The maximum value of the quota metric.
+
+    :vartype max_value: long
+
+    '
+  type: Class
+  uid: azure.mgmt.iothub.models.IotHubQuotaMetricInfo
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.RegistryStatistics
+  summary: "Identity registry statistics.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:ivar total_device_count: The\
+    \ total count of devices in the identity\n registry.\n:vartype total_device_count:\
+    \ long\n:ivar enabled_device_count: The count of enabled devices in the identity\n\
+    \ registry.\n:vartype enabled_device_count: long\n:ivar disabled_device_count:\
+    \ The count of disabled devices in the identity\n registry.\n:vartype disabled_device_count:\
+    \ long\n"
+  type: Class
+  uid: azure.mgmt.iothub.models.RegistryStatistics
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.JobResponse
+  summary: "The properties of the Job Response object.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar job_id:\
+    \ The job identifier.\n:vartype job_id: str\n:ivar start_time_utc: The start time\
+    \ of the Job.\n:vartype start_time_utc: datetime\n:ivar end_time_utc: The time\
+    \ the job stopped processing.\n:vartype end_time_utc: datetime\n:ivar type: The\
+    \ type of the job. Possible values include: 'unknown',\n 'export', 'import', 'backup',\
+    \ 'readDeviceProperties',\n 'writeDeviceProperties', 'updateDeviceConfiguration',\
+    \ 'rebootDevice',\n 'factoryResetDevice', 'firmwareUpdate'\n:vartype type: str\
+    \ or :class:`JobType <azure.mgmt.iothub.models.JobType>`\n:ivar status: The status\
+    \ of the job. Possible values include: 'unknown',\n 'enqueued', 'running', 'completed',\
+    \ 'failed', 'cancelled'\n:vartype status: str or :class:`JobStatus\n <azure.mgmt.iothub.models.JobStatus>`\n\
+    :ivar failure_reason: If status == failed, this string containing the\n reason\
+    \ for the failure.\n:vartype failure_reason: str\n:ivar status_message: The status\
+    \ message for the job.\n:vartype status_message: str\n:ivar parent_job_id: The\
+    \ job identifier of the parent job, if any.\n:vartype parent_job_id: str\n"
+  type: Class
+  uid: azure.mgmt.iothub.models.JobResponse
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.IotHubCapacity
+  summary: "IoT Hub capacity information.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:ivar minimum: The minimum number\
+    \ of units.\n:vartype minimum: long\n:ivar maximum: The maximum number of units.\n\
+    :vartype maximum: long\n:ivar default: The default number of units.\n:vartype\
+    \ default: long\n:ivar scale_type: The type of the scaling enabled. Possible values\n\
+    \ include: 'Automatic', 'Manual', 'None'\n:vartype scale_type: str or :class:`IotHubScaleType\n\
+    \ <azure.mgmt.iothub.models.IotHubScaleType>`\n"
+  type: Class
+  uid: azure.mgmt.iothub.models.IotHubCapacity
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.IotHubSkuDescription
+  summary: "SKU properties.\n\nVariables are only populated by the server, and will\
+    \ be ignored when\nsending a request.\n\n:ivar resource_type: The type of the\
+    \ resource.\n:vartype resource_type: str\n:param sku:\n:type sku: :class:`IotHubSkuInfo\
+    \ <azure.mgmt.iothub.models.IotHubSkuInfo>`\n:param capacity:\n:type capacity:\
+    \ :class:`IotHubCapacity\n <azure.mgmt.iothub.models.IotHubCapacity>`\n"
+  type: Class
+  uid: azure.mgmt.iothub.models.IotHubSkuDescription
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.EventHubConsumerGroupInfo
+  summary: 'The properties of the EventHubConsumerGroupInfo object.
+
+
+    :param tags: The tags.
+
+    :type tags: dict
+
+    :param id: The Event Hub-compatible consumer group identifier.
+
+    :type id: str
+
+    :param name: The Event Hub-compatible consumer group name.
+
+    :type name: str
+
+    '
+  type: Class
+  uid: azure.mgmt.iothub.models.EventHubConsumerGroupInfo
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.OperationInputs
+  summary: 'Input values.
+
+
+    :param name: The name of the IoT hub to check.
+
+    :type name: str
+
+    '
+  type: Class
+  uid: azure.mgmt.iothub.models.OperationInputs
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.IotHubNameAvailabilityInfo
+  summary: "The properties indicating whether a given IoT hub name is available.\n\
+    \nVariables are only populated by the server, and will be ignored when\nsending\
+    \ a request.\n\n:ivar name_available: The value which indicates whether the provided\
+    \ name\n is available.\n:vartype name_available: bool\n:ivar reason: The reason\
+    \ for unavailability. Possible values include:\n 'Invalid', 'AlreadyExists'\n\
+    :vartype reason: str or :class:`IotHubNameUnavailabilityReason\n <azure.mgmt.iothub.models.IotHubNameUnavailabilityReason>`\n\
+    :param message: The detailed reason message.\n:type message: str\n"
+  type: Class
+  uid: azure.mgmt.iothub.models.IotHubNameAvailabilityInfo
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.ExportDevicesRequest
+  summary: "Use to provide parameters when requesting an export of all devices in\
+    \ the\nIoT hub.\n\n:param export_blob_container_uri: The export blob container\
+    \ URI.\n:type export_blob_container_uri: str\n:param exclude_keys: The value indicating\
+    \ whether keys should be excluded\n during export.\n:type exclude_keys: bool\n"
+  type: Class
+  uid: azure.mgmt.iothub.models.ExportDevicesRequest
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.ImportDevicesRequest
+  summary: 'Use to provide parameters when requesting an import of all devices in
+    the
+
+    hub.
+
+
+    :param input_blob_container_uri: The input blob container URI.
+
+    :type input_blob_container_uri: str
+
+    :param output_blob_container_uri: The output blob container URI.
+
+    :type output_blob_container_uri: str
+
+    '
+  type: Class
+  uid: azure.mgmt.iothub.models.ImportDevicesRequest
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.IotHubDescriptionPaged
+  summary: 'A paging container for iterating over a list of IotHubDescription object
+
+    '
+  type: Class
+  uid: azure.mgmt.iothub.models.IotHubDescriptionPaged
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.IotHubSkuDescriptionPaged
+  summary: 'A paging container for iterating over a list of IotHubSkuDescription object
+
+    '
+  type: Class
+  uid: azure.mgmt.iothub.models.IotHubSkuDescriptionPaged
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.StrPaged
+  summary: 'A paging container for iterating over a list of str object
+
+    '
+  type: Class
+  uid: azure.mgmt.iothub.models.StrPaged
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.JobResponsePaged
+  summary: 'A paging container for iterating over a list of JobResponse object
+
+    '
+  type: Class
+  uid: azure.mgmt.iothub.models.JobResponsePaged
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.IotHubQuotaMetricInfoPaged
+  summary: 'A paging container for iterating over a list of IotHubQuotaMetricInfo
+    object
+
+    '
+  type: Class
+  uid: azure.mgmt.iothub.models.IotHubQuotaMetricInfoPaged
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.SharedAccessSignatureAuthorizationRulePaged
+  summary: 'A paging container for iterating over a list of SharedAccessSignatureAuthorizationRule
+    object
+
+    '
+  type: Class
+  uid: azure.mgmt.iothub.models.SharedAccessSignatureAuthorizationRulePaged
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.AccessRights
+  summary: ''
+  type: Class
+  uid: azure.mgmt.iothub.models.AccessRights
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.IpFilterActionType
+  summary: ''
+  type: Class
+  uid: azure.mgmt.iothub.models.IpFilterActionType
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.OperationMonitoringLevel
+  summary: ''
+  type: Class
+  uid: azure.mgmt.iothub.models.OperationMonitoringLevel
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.Capabilities
+  summary: ''
+  type: Class
+  uid: azure.mgmt.iothub.models.Capabilities
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.IotHubSku
+  summary: ''
+  type: Class
+  uid: azure.mgmt.iothub.models.IotHubSku
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.IotHubSkuTier
+  summary: ''
+  type: Class
+  uid: azure.mgmt.iothub.models.IotHubSkuTier
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.JobType
+  summary: ''
+  type: Class
+  uid: azure.mgmt.iothub.models.JobType
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.JobStatus
+  summary: ''
+  type: Class
+  uid: azure.mgmt.iothub.models.JobStatus
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.IotHubScaleType
+  summary: ''
+  type: Class
+  uid: azure.mgmt.iothub.models.IotHubScaleType
+- _type: class
+  children: []
+  module: azure.mgmt.iothub.models
+  name: azure.mgmt.iothub.models.IotHubNameUnavailabilityReason
+  summary: ''
+  type: Class
+  uid: azure.mgmt.iothub.models.IotHubNameUnavailabilityReason

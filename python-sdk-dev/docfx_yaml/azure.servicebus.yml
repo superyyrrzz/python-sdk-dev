@@ -1,0 +1,8 @@
+items:
+- _type: module
+  children: []
+  module: azure.servicebus
+  name: azure.servicebus
+  summary: ''
+  type: Namespace
+  uid: azure.servicebus
