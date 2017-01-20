@@ -1,8 +1,0 @@
-items:
-- _type: module
-  children: []
-  module: azure.servicebus.constants
-  name: azure.servicebus.constants
-  summary: ''
-  type: Namespace
-  uid: azure.servicebus.constants
