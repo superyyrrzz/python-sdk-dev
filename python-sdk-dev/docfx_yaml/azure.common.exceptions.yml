@@ -1,8 +1,0 @@
-items:
-- _type: module
-  children: []
-  module: azure.common.exceptions
-  name: azure.common.exceptions
-  summary: ''
-  type: Namespace
-  uid: azure.common.exceptions
