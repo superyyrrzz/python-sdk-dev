@@ -1,0 +1,557 @@
+items:
+- _type: module
+  children:
+  - azure.mgmt.servermanager.models.Resource
+  - azure.mgmt.servermanager.models.GatewayResource
+  - azure.mgmt.servermanager.models.GatewayStatus
+  - azure.mgmt.servermanager.models.EncryptionJwkResource
+  - azure.mgmt.servermanager.models.GatewayProfile
+  - azure.mgmt.servermanager.models.GatewayParameters
+  - azure.mgmt.servermanager.models.NodeResource
+  - azure.mgmt.servermanager.models.NodeParameters
+  - azure.mgmt.servermanager.models.SessionResource
+  - azure.mgmt.servermanager.models.SessionParameters
+  - azure.mgmt.servermanager.models.PowerShellSessionResource
+  - azure.mgmt.servermanager.models.Version
+  - azure.mgmt.servermanager.models.PowerShellCommandStatus
+  - azure.mgmt.servermanager.models.PowerShellCommandResults
+  - azure.mgmt.servermanager.models.PowerShellCommandResult
+  - azure.mgmt.servermanager.models.PromptFieldDescription
+  - azure.mgmt.servermanager.models.PowerShellSessionResources
+  - azure.mgmt.servermanager.models.PowerShellCommandParameters
+  - azure.mgmt.servermanager.models.PromptMessageResponse
+  - azure.mgmt.servermanager.models.PowerShellTabCompletionParameters
+  - azure.mgmt.servermanager.models.PowerShellTabCompletionResults
+  - azure.mgmt.servermanager.models.Error
+  - azure.mgmt.servermanager.models.ErrorException
+  - azure.mgmt.servermanager.models.GatewayResourcePaged
+  - azure.mgmt.servermanager.models.NodeResourcePaged
+  - azure.mgmt.servermanager.models.upgradeMode
+  - azure.mgmt.servermanager.models.retentionPeriod
+  - azure.mgmt.servermanager.models.credentialDataFormat
+  - azure.mgmt.servermanager.models.PromptFieldType
+  - azure.mgmt.servermanager.models.GatewayExpandOption
+  - azure.mgmt.servermanager.models.PowerShellExpandOption
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.servermanager.models
+- _type: class
+  children: []
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models.Resource
+  summary: 'Resource Manager Resource Information.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar id: Resource Manager Resource ID.
+
+    :vartype id: str
+
+    :ivar type: Resource Manager Resource Type.
+
+    :vartype type: str
+
+    :ivar name: Resource Manager Resource Name.
+
+    :vartype name: str
+
+    :ivar location: Resource Manager Resource Location.
+
+    :vartype location: str
+
+    :param tags: Resource Manager Resource Tags.
+
+    :type tags: dict
+
+    :param etag:
+
+    :type etag: str
+
+    '
+  type: Class
+  uid: azure.mgmt.servermanager.models.Resource
+- _type: class
+  children: []
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models.GatewayResource
+  summary: "Data model for an arm gateway resource.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar id: Resource\
+    \ Manager Resource ID.\n:vartype id: str\n:ivar type: Resource Manager Resource\
+    \ Type.\n:vartype type: str\n:ivar name: Resource Manager Resource Name.\n:vartype\
+    \ name: str\n:ivar location: Resource Manager Resource Location.\n:vartype location:\
+    \ str\n:param tags: Resource Manager Resource Tags.\n:type tags: dict\n:param\
+    \ etag:\n:type etag: str\n:param created: UTC date and time when gateway was first\
+    \ added to\n management service.\n:type created: datetime\n:param updated: UTC\
+    \ date and time when node was last updated.\n:type updated: datetime\n:param upgrade_mode:\
+    \ The upgradeMode property gives the flexibility to\n gateway to auto upgrade\
+    \ itself. If properties value not specified, then we\n assume upgradeMode = Automatic.\
+    \ Possible values include: 'Manual',\n 'Automatic'\n:type upgrade_mode: str or\
+    \ :class:`upgradeMode\n <azure.mgmt.servermanager.models.upgradeMode>`\n:param\
+    \ desired_version: Latest available MSI version.\n:type desired_version: str\n\
+    :param instances: Names of the nodes in the gateway.\n:type instances: list of\
+    \ :class:`GatewayStatus\n <azure.mgmt.servermanager.models.GatewayStatus>`\n:param\
+    \ active_message_count: Number of active messages.\n:type active_message_count:\
+    \ int\n:param latest_published_msi_version: Last published MSI version.\n:type\
+    \ latest_published_msi_version: str\n:param published_time_utc: The date/time\
+    \ of the last published gateway.\n:type published_time_utc: datetime\n:ivar installer_download:\
+    \ Installer download uri.\n:vartype installer_download: str\n:ivar minimum_version:\
+    \ Minimum gateway version.\n:vartype minimum_version: str\n"
+  type: Class
+  uid: azure.mgmt.servermanager.models.GatewayResource
+- _type: class
+  children: []
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models.GatewayStatus
+  summary: "Expanded gateway status information.\n\n:param available_memory_mbyte:\
+    \ The available memory on the gateway host\n machine in megabytes.\n:type available_memory_mbyte:\
+    \ float\n:param gateway_cpu_utilization_percent: The CPU utilization of the gateway\n\
+    \ process (numeric value between 0 and 100).\n:type gateway_cpu_utilization_percent:\
+    \ float\n:param total_cpu_utilization_percent: CPU Utilization of the whole system.\n\
+    :type total_cpu_utilization_percent: float\n:param gateway_version: The version\
+    \ of the gateway that is installed on\n the system.\n:type gateway_version: str\n\
+    :param friendly_os_name: The Plaintext description of the OS on the\n gateway.\n\
+    :type friendly_os_name: str\n:param installed_date: The date the gateway was installed.\n\
+    :type installed_date: datetime\n:param logical_processor_count: Number of logical\
+    \ processors in the\n gateway system.\n:type logical_processor_count: int\n:param\
+    \ name: The computer name of the gateway system.\n:type name: str\n:param gateway_id:\
+    \ The gateway resource ID.\n:type gateway_id: str\n:param gateway_working_set_mbyte:\
+    \ The working set size of the gateway\n process in megabytes.\n:type gateway_working_set_mbyte:\
+    \ float\n:param status_updated: UTC date and time when gateway status was last\n\
+    \ updated.\n:type status_updated: datetime\n:param group_policy_error: The group\
+    \ policy error.\n:type group_policy_error: str\n:param allow_gateway_group_policy_status:\
+    \ Status of the\n allowGatewayGroupPolicy setting.\n:type allow_gateway_group_policy_status:\
+    \ bool\n:param require_mfa_group_policy_status: Status of the\n requireMfaGroupPolicy\
+    \ setting.\n:type require_mfa_group_policy_status: bool\n:param encryption_certificate_thumbprint:\
+    \ Thumbprint of the encryption\n certificate.\n:type encryption_certificate_thumbprint:\
+    \ str\n:param secondary_encryption_certificate_thumbprint: Secondary thumbprint\n\
+    \ of the encryption certificate.\n:type secondary_encryption_certificate_thumbprint:\
+    \ str\n:param encryption_jwk: The encryption certificate key.\n:type encryption_jwk:\
+    \ :class:`EncryptionJwkResource\n <azure.mgmt.servermanager.models.EncryptionJwkResource>`\n\
+    :param secondary_encryption_jwk: The secondary encryption certificate key.\n:type\
+    \ secondary_encryption_jwk: :class:`EncryptionJwkResource\n <azure.mgmt.servermanager.models.EncryptionJwkResource>`\n\
+    :param active_message_count: Active message count.\n:type active_message_count:\
+    \ int\n:param latest_published_msi_version: Latest published version of the\n\
+    \ gateway install MSI.\n:type latest_published_msi_version: str\n:param published_time_utc:\
+    \ Gateway install MSI published time.\n:type published_time_utc: datetime\n"
+  type: Class
+  uid: azure.mgmt.servermanager.models.GatewayStatus
+- _type: class
+  children: []
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models.EncryptionJwkResource
+  summary: 'The public key of the gateway.
+
+
+    :param kty:
+
+    :type kty: str
+
+    :param alg:
+
+    :type alg: str
+
+    :param e:
+
+    :type e: str
+
+    :param n:
+
+    :type n: str
+
+    '
+  type: Class
+  uid: azure.mgmt.servermanager.models.EncryptionJwkResource
+- _type: class
+  children: []
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models.GatewayProfile
+  summary: "JSON properties that the gateway service uses know how to communicate\
+    \ with\nthe resource.\n\n:param data_plane_service_base_address: The Dataplane\
+    \ connection URL.\n:type data_plane_service_base_address: str\n:param gateway_id:\
+    \ The ID of the gateway.\n:type gateway_id: str\n:param environment: The environment\
+    \ for the gateway (DEV, DogFood, or\n Production).\n:type environment: str\n:param\
+    \ upgrade_manifest_url: Gateway upgrade manifest URL.\n:type upgrade_manifest_url:\
+    \ str\n:param messaging_namespace: Messaging namespace.\n:type messaging_namespace:\
+    \ str\n:param messaging_account: Messaging Account.\n:type messaging_account:\
+    \ str\n:param messaging_key: Messaging Key.\n:type messaging_key: str\n:param\
+    \ request_queue: Request queue name.\n:type request_queue: str\n:param response_topic:\
+    \ Response topic name.\n:type response_topic: str\n:param status_blob_signature:\
+    \ The gateway status blob SAS URL.\n:type status_blob_signature: str\n"
+  type: Class
+  uid: azure.mgmt.servermanager.models.GatewayProfile
+- _type: class
+  children: []
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models.GatewayParameters
+  summary: "Collection of parameters for operations on a gateway resource.\n\n:param\
+    \ location: Location of the resource.\n:type location: str\n:param tags: Resource\
+    \ tags.\n:type tags: object\n:param upgrade_mode: The upgradeMode property gives\
+    \ the flexibility to\n gateway to auto upgrade itself. If properties value not\
+    \ specified, then we\n assume upgradeMode = Automatic. Possible values include:\
+    \ 'Manual',\n 'Automatic'\n:type upgrade_mode: str or :class:`upgradeMode\n <azure.mgmt.servermanager.models.upgradeMode>`\n"
+  type: Class
+  uid: azure.mgmt.servermanager.models.GatewayParameters
+- _type: class
+  children: []
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models.NodeResource
+  summary: "A Node Resource.\n\nVariables are only populated by the server, and will\
+    \ be ignored when\nsending a request.\n\n:ivar id: Resource Manager Resource ID.\n\
+    :vartype id: str\n:ivar type: Resource Manager Resource Type.\n:vartype type:\
+    \ str\n:ivar name: Resource Manager Resource Name.\n:vartype name: str\n:ivar\
+    \ location: Resource Manager Resource Location.\n:vartype location: str\n:param\
+    \ tags: Resource Manager Resource Tags.\n:type tags: dict\n:param etag:\n:type\
+    \ etag: str\n:param gateway_id: ID of the gateway.\n:type gateway_id: str\n:param\
+    \ connection_name: myhost.domain.com\n:type connection_name: str\n:param created:\
+    \ UTC date and time when node was first added to management\n service.\n:type\
+    \ created: datetime\n:param updated: UTC date and time when node was last updated.\n\
+    :type updated: datetime\n"
+  type: Class
+  uid: azure.mgmt.servermanager.models.NodeResource
+- _type: class
+  children: []
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models.NodeParameters
+  summary: 'Parameter collection for operations on arm node resource.
+
+
+    :param location: Location of the resource.
+
+    :type location: str
+
+    :param tags: Resource tags.
+
+    :type tags: object
+
+    :param gateway_id: Gateway ID which will manage this node.
+
+    :type gateway_id: str
+
+    :param connection_name: myhost.domain.com
+
+    :type connection_name: str
+
+    :param user_name: User name to be used to connect to node.
+
+    :type user_name: str
+
+    :param password: Password associated with user name.
+
+    :type password: str
+
+    '
+  type: Class
+  uid: azure.mgmt.servermanager.models.NodeParameters
+- _type: class
+  children: []
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models.SessionResource
+  summary: "The session object.\n\nVariables are only populated by the server, and\
+    \ will be ignored when\nsending a request.\n\n:ivar id: Resource Manager Resource\
+    \ ID.\n:vartype id: str\n:ivar type: Resource Manager Resource Type.\n:vartype\
+    \ type: str\n:ivar name: Resource Manager Resource Name.\n:vartype name: str\n\
+    :ivar location: Resource Manager Resource Location.\n:vartype location: str\n\
+    :param tags: Resource Manager Resource Tags.\n:type tags: dict\n:param etag:\n\
+    :type etag: str\n:param user_name: The username connecting to the session.\n:type\
+    \ user_name: str\n:param created: UTC date and time when node was first added\
+    \ to management\n service.\n:type created: datetime\n:param updated: UTC date\
+    \ and time when node was last updated.\n:type updated: datetime\n"
+  type: Class
+  uid: azure.mgmt.servermanager.models.SessionResource
+- _type: class
+  children: []
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models.SessionParameters
+  summary: "Parameter collection for creation and other operations on sessions.\n\n\
+    :param user_name: Encrypted User name to be used to connect to node.\n:type user_name:\
+    \ str\n:param password: Encrypted Password associated with user name.\n:type password:\
+    \ str\n:param retention_period: Session retention period. Possible values\n include:\
+    \ 'Session', 'Persistent'\n:type retention_period: str or :class:`retentionPeriod\n\
+    \ <azure.mgmt.servermanager.models.retentionPeriod>`\n:param credential_data_format:\
+    \ Credential data format. Possible values\n include: 'RsaEncrypted'\n:type credential_data_format:\
+    \ str or :class:`credentialDataFormat\n <azure.mgmt.servermanager.models.credentialDataFormat>`\n\
+    :param encryption_certificate_thumbprint: Encryption certificate\n thumbprint.\n\
+    :type encryption_certificate_thumbprint: str\n"
+  type: Class
+  uid: azure.mgmt.servermanager.models.SessionParameters
+- _type: class
+  children: []
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models.PowerShellSessionResource
+  summary: "A PowerShell session resource (practically equivalent to a runspace\n\
+    instance).\n\nVariables are only populated by the server, and will be ignored\
+    \ when\nsending a request.\n\n:ivar id: Resource Manager Resource ID.\n:vartype\
+    \ id: str\n:ivar type: Resource Manager Resource Type.\n:vartype type: str\n:ivar\
+    \ name: Resource Manager Resource Name.\n:vartype name: str\n:ivar location: Resource\
+    \ Manager Resource Location.\n:vartype location: str\n:param tags: Resource Manager\
+    \ Resource Tags.\n:type tags: dict\n:param etag:\n:type etag: str\n:param session_id:\
+    \ The PowerShell Session ID.\n:type session_id: str\n:param state: The runspace\
+    \ state.\n:type state: str\n:param runspace_availability: The availability of\
+    \ the runspace.\n:type runspace_availability: str\n:param disconnected_on: Timestamp\
+    \ of last time the service disconnected\n from the runspace.\n:type disconnected_on:\
+    \ datetime\n:param expires_on: Timestamp when the runspace expires.\n:type expires_on:\
+    \ datetime\n:param version:\n:type version: :class:`Version <azure.mgmt.servermanager.models.Version>`\n\
+    :param power_shell_session_resource_name: Name of the runspace.\n:type power_shell_session_resource_name:\
+    \ str\n"
+  type: Class
+  uid: azure.mgmt.servermanager.models.PowerShellSessionResource
+- _type: class
+  children: []
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models.Version
+  summary: 'A multipart-numeric version number.
+
+
+    :param major: The leftmost number of the version.
+
+    :type major: int
+
+    :param minor: The second leftmost number of the version.
+
+    :type minor: int
+
+    :param build: The third number of the version.
+
+    :type build: int
+
+    :param revision: The fourth number of the version.
+
+    :type revision: int
+
+    :param major_revision: The MSW of the fourth part.
+
+    :type major_revision: int
+
+    :param minor_revision: The LSW of the fourth part.
+
+    :type minor_revision: int
+
+    '
+  type: Class
+  uid: azure.mgmt.servermanager.models.Version
+- _type: class
+  children: []
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models.PowerShellCommandStatus
+  summary: "Result status from invoking a PowerShell command.\n\nVariables are only\
+    \ populated by the server, and will be ignored when\nsending a request.\n\n:ivar\
+    \ id: Resource Manager Resource ID.\n:vartype id: str\n:ivar type: Resource Manager\
+    \ Resource Type.\n:vartype type: str\n:ivar name: Resource Manager Resource Name.\n\
+    :vartype name: str\n:ivar location: Resource Manager Resource Location.\n:vartype\
+    \ location: str\n:param tags: Resource Manager Resource Tags.\n:type tags: dict\n\
+    :param etag:\n:type etag: str\n:param results:\n:type results: list of :class:`PowerShellCommandResult\n\
+    \ <azure.mgmt.servermanager.models.PowerShellCommandResult>`\n:param pssession:\n\
+    :type pssession: str\n:param command:\n:type command: str\n:param completed:\n\
+    :type completed: bool\n"
+  type: Class
+  uid: azure.mgmt.servermanager.models.PowerShellCommandStatus
+- _type: class
+  children: []
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models.PowerShellCommandResults
+  summary: "A collection of results from a PowerShell command.\n\n:param results:\n\
+    :type results: list of :class:`PowerShellCommandResult\n <azure.mgmt.servermanager.models.PowerShellCommandResult>`\n\
+    :param pssession:\n:type pssession: str\n:param command:\n:type command: str\n\
+    :param completed:\n:type completed: bool\n"
+  type: Class
+  uid: azure.mgmt.servermanager.models.PowerShellCommandResults
+- _type: class
+  children: []
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models.PowerShellCommandResult
+  summary: "Results from invoking a PowerShell command.\n\n:param message_type: The\
+    \ type of message.\n:type message_type: int\n:param foreground_color: The HTML\
+    \ color string representing the foreground\n color.\n:type foreground_color: str\n\
+    :param background_color: The HTML color string representing the background\n color.\n\
+    :type background_color: str\n:param value: Actual result text from the PowerShell\
+    \ Command.\n:type value: str\n:param prompt: The interactive prompt message.\n\
+    :type prompt: str\n:param exit_code: The exit code from a executable that was\
+    \ called from\n PowerShell.\n:type exit_code: int\n:param id: ID of the prompt\
+    \ message.\n:type id: int\n:param caption: Text that precedes the prompt.\n:type\
+    \ caption: str\n:param message: Text of the prompt.\n:type message: str\n:param\
+    \ descriptions: Collection of PromptFieldDescription objects that\n contains the\
+    \ user input.\n:type descriptions: list of :class:`PromptFieldDescription\n <azure.mgmt.servermanager.models.PromptFieldDescription>`\n"
+  type: Class
+  uid: azure.mgmt.servermanager.models.PowerShellCommandResult
+- _type: class
+  children: []
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models.PromptFieldDescription
+  summary: "Field description for the implementation of PSHostUserInterface.Prompt.\n\
+    \n:param name: The name of the prompt.\n:type name: str\n:param label: The label\
+    \ text of the prompt.\n:type label: str\n:param help_message: The help message\
+    \ of the prompt.\n:type help_message: str\n:param prompt_field_type_is_list: When\
+    \ set to 'true' the prompt field type\n is a list of values.\n:type prompt_field_type_is_list:\
+    \ bool\n:param prompt_field_type: Possible values include: 'String',\n 'SecureString',\
+    \ 'Credential'\n:type prompt_field_type: str or :class:`PromptFieldType\n <azure.mgmt.servermanager.models.PromptFieldType>`\n"
+  type: Class
+  uid: azure.mgmt.servermanager.models.PromptFieldDescription
+- _type: class
+  children: []
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models.PowerShellSessionResources
+  summary: "A collection of PowerShell session resources.\n\n:param value: Collection\
+    \ of PowerShell session resources.\n:type value: list of :class:`PowerShellSessionResource\n\
+    \ <azure.mgmt.servermanager.models.PowerShellSessionResource>`\n:param next_link:\
+    \ The URL to the next set of resources.\n:type next_link: str\n"
+  type: Class
+  uid: azure.mgmt.servermanager.models.PowerShellSessionResources
+- _type: class
+  children: []
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models.PowerShellCommandParameters
+  summary: 'The parameters to a PowerShell script execution command.
+
+
+    :param command: Script to execute.
+
+    :type command: str
+
+    '
+  type: Class
+  uid: azure.mgmt.servermanager.models.PowerShellCommandParameters
+- _type: class
+  children: []
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models.PromptMessageResponse
+  summary: 'The response to a prompt message.
+
+
+    :param response: The list of responses a cmdlet expects.
+
+    :type response: list of str
+
+    '
+  type: Class
+  uid: azure.mgmt.servermanager.models.PromptMessageResponse
+- _type: class
+  children: []
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models.PowerShellTabCompletionParameters
+  summary: 'Collection of parameters for PowerShell tab completion.
+
+
+    :param command: Command to get tab completion for.
+
+    :type command: str
+
+    '
+  type: Class
+  uid: azure.mgmt.servermanager.models.PowerShellTabCompletionParameters
+- _type: class
+  children: []
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models.PowerShellTabCompletionResults
+  summary: 'An array of strings representing the different values that can be selected
+
+    through.
+
+
+    :param results:
+
+    :type results: list of str
+
+    '
+  type: Class
+  uid: azure.mgmt.servermanager.models.PowerShellTabCompletionResults
+- _type: class
+  children: []
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models.Error
+  summary: 'Error message.
+
+
+    :param code:
+
+    :type code: int
+
+    :param message:
+
+    :type message: str
+
+    :param fields:
+
+    :type fields: str
+
+    '
+  type: Class
+  uid: azure.mgmt.servermanager.models.Error
+- _type: exception
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models.ErrorException
+  summary: 'Server responsed with exception of type: ''Error''.
+
+
+    :param deserialize: A deserializer
+
+    :param response: Server response to be deserialized.
+
+    '
+  type: Class
+  uid: azure.mgmt.servermanager.models.ErrorException
+- _type: class
+  children: []
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models.GatewayResourcePaged
+  summary: 'A paging container for iterating over a list of GatewayResource object
+
+    '
+  type: Class
+  uid: azure.mgmt.servermanager.models.GatewayResourcePaged
+- _type: class
+  children: []
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models.NodeResourcePaged
+  summary: 'A paging container for iterating over a list of NodeResource object
+
+    '
+  type: Class
+  uid: azure.mgmt.servermanager.models.NodeResourcePaged
+- _type: class
+  children: []
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models.upgradeMode
+  summary: ''
+  type: Class
+  uid: azure.mgmt.servermanager.models.upgradeMode
+- _type: class
+  children: []
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models.retentionPeriod
+  summary: ''
+  type: Class
+  uid: azure.mgmt.servermanager.models.retentionPeriod
+- _type: class
+  children: []
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models.credentialDataFormat
+  summary: ''
+  type: Class
+  uid: azure.mgmt.servermanager.models.credentialDataFormat
+- _type: class
+  children: []
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models.PromptFieldType
+  summary: ''
+  type: Class
+  uid: azure.mgmt.servermanager.models.PromptFieldType
+- _type: class
+  children: []
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models.GatewayExpandOption
+  summary: ''
+  type: Class
+  uid: azure.mgmt.servermanager.models.GatewayExpandOption
+- _type: class
+  children: []
+  module: azure.mgmt.servermanager.models
+  name: azure.mgmt.servermanager.models.PowerShellExpandOption
+  summary: ''
+  type: Class
+  uid: azure.mgmt.servermanager.models.PowerShellExpandOption

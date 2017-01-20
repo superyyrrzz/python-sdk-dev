@@ -1,0 +1,8 @@
+items:
+- _type: module
+  children: []
+  module: azure.mgmt
+  name: azure.mgmt
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt

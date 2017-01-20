@@ -1,0 +1,274 @@
+items:
+- _type: module
+  children:
+  - azure.mgmt.authorization.models.RoleAssignmentFilter
+  - azure.mgmt.authorization.models.RoleDefinitionFilter
+  - azure.mgmt.authorization.models.ClassicAdministratorProperties
+  - azure.mgmt.authorization.models.ClassicAdministrator
+  - azure.mgmt.authorization.models.Permission
+  - azure.mgmt.authorization.models.ProviderOperation
+  - azure.mgmt.authorization.models.ResourceType
+  - azure.mgmt.authorization.models.ProviderOperationsMetadata
+  - azure.mgmt.authorization.models.RoleAssignmentPropertiesWithScope
+  - azure.mgmt.authorization.models.RoleAssignment
+  - azure.mgmt.authorization.models.RoleAssignmentProperties
+  - azure.mgmt.authorization.models.RoleAssignmentCreateParameters
+  - azure.mgmt.authorization.models.RoleDefinitionProperties
+  - azure.mgmt.authorization.models.RoleDefinition
+  - azure.mgmt.authorization.models.ClassicAdministratorPaged
+  - azure.mgmt.authorization.models.PermissionPaged
+  - azure.mgmt.authorization.models.ProviderOperationsMetadataPaged
+  - azure.mgmt.authorization.models.RoleAssignmentPaged
+  - azure.mgmt.authorization.models.RoleDefinitionPaged
+  module: azure.mgmt.authorization.models
+  name: azure.mgmt.authorization.models
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.authorization.models
+- _type: class
+  children: []
+  module: azure.mgmt.authorization.models
+  name: azure.mgmt.authorization.models.RoleAssignmentFilter
+  summary: 'Role Assignments filter.
+
+
+    :param principal_id: Returns role assignment of the specific principal.
+
+    :type principal_id: str
+
+    '
+  type: Class
+  uid: azure.mgmt.authorization.models.RoleAssignmentFilter
+- _type: class
+  children: []
+  module: azure.mgmt.authorization.models
+  name: azure.mgmt.authorization.models.RoleDefinitionFilter
+  summary: 'Role Definitions filter.
+
+
+    :param role_name: Returns role definition with the specific name.
+
+    :type role_name: str
+
+    '
+  type: Class
+  uid: azure.mgmt.authorization.models.RoleDefinitionFilter
+- _type: class
+  children: []
+  module: azure.mgmt.authorization.models
+  name: azure.mgmt.authorization.models.ClassicAdministratorProperties
+  summary: 'Classic Administrator properties.
+
+
+    :param email_address: The email address of the administrator.
+
+    :type email_address: str
+
+    :param role: The role of the administrator.
+
+    :type role: str
+
+    '
+  type: Class
+  uid: azure.mgmt.authorization.models.ClassicAdministratorProperties
+- _type: class
+  children: []
+  module: azure.mgmt.authorization.models
+  name: azure.mgmt.authorization.models.ClassicAdministrator
+  summary: "Classic Administrators.\n\n:param id: The ID of the administrator.\n:type\
+    \ id: str\n:param name: The name of the administrator.\n:type name: str\n:param\
+    \ type: The type of the administrator.\n:type type: str\n:param properties: Properties\
+    \ for the classic administrator.\n:type properties: :class:`ClassicAdministratorProperties\n\
+    \ <azure.mgmt.authorization.models.ClassicAdministratorProperties>`\n"
+  type: Class
+  uid: azure.mgmt.authorization.models.ClassicAdministrator
+- _type: class
+  children: []
+  module: azure.mgmt.authorization.models
+  name: azure.mgmt.authorization.models.Permission
+  summary: 'Role definition permissions.
+
+
+    :param actions: Allowed actions.
+
+    :type actions: list of str
+
+    :param not_actions: Denied actions.
+
+    :type not_actions: list of str
+
+    '
+  type: Class
+  uid: azure.mgmt.authorization.models.Permission
+- _type: class
+  children: []
+  module: azure.mgmt.authorization.models
+  name: azure.mgmt.authorization.models.ProviderOperation
+  summary: 'Operation.
+
+
+    :param name: The operation name.
+
+    :type name: str
+
+    :param display_name: The operation display name.
+
+    :type display_name: str
+
+    :param description: The operation description.
+
+    :type description: str
+
+    :param origin: The operation origin.
+
+    :type origin: str
+
+    :param properties: The operation properties.
+
+    :type properties: object
+
+    '
+  type: Class
+  uid: azure.mgmt.authorization.models.ProviderOperation
+- _type: class
+  children: []
+  module: azure.mgmt.authorization.models
+  name: azure.mgmt.authorization.models.ResourceType
+  summary: "Resource Type.\n\n:param name: The resource type name.\n:type name: str\n\
+    :param display_name: The resource type display name.\n:type display_name: str\n\
+    :param operations: The resource type operations.\n:type operations: list of :class:`ProviderOperation\n\
+    \ <azure.mgmt.authorization.models.ProviderOperation>`\n"
+  type: Class
+  uid: azure.mgmt.authorization.models.ResourceType
+- _type: class
+  children: []
+  module: azure.mgmt.authorization.models
+  name: azure.mgmt.authorization.models.ProviderOperationsMetadata
+  summary: "Provider Operations metadata.\n\n:param id: The provider id.\n:type id:\
+    \ str\n:param name: The provider name.\n:type name: str\n:param type: The provider\
+    \ type.\n:type type: str\n:param display_name: The provider display name.\n:type\
+    \ display_name: str\n:param resource_types: The provider resource types\n:type\
+    \ resource_types: list of :class:`ResourceType\n <azure.mgmt.authorization.models.ResourceType>`\n\
+    :param operations: The provider operations.\n:type operations: list of :class:`ProviderOperation\n\
+    \ <azure.mgmt.authorization.models.ProviderOperation>`\n"
+  type: Class
+  uid: azure.mgmt.authorization.models.ProviderOperationsMetadata
+- _type: class
+  children: []
+  module: azure.mgmt.authorization.models
+  name: azure.mgmt.authorization.models.RoleAssignmentPropertiesWithScope
+  summary: 'Role assignment properties with scope.
+
+
+    :param scope: The role assignment scope.
+
+    :type scope: str
+
+    :param role_definition_id: The role definition ID.
+
+    :type role_definition_id: str
+
+    :param principal_id: The principal ID.
+
+    :type principal_id: str
+
+    '
+  type: Class
+  uid: azure.mgmt.authorization.models.RoleAssignmentPropertiesWithScope
+- _type: class
+  children: []
+  module: azure.mgmt.authorization.models
+  name: azure.mgmt.authorization.models.RoleAssignment
+  summary: "Role Assignments.\n\n:param id: The role assignment ID.\n:type id: str\n\
+    :param name: The role assignment name.\n:type name: str\n:param type: The role\
+    \ assignment type.\n:type type: str\n:param properties: Role assignment properties.\n\
+    :type properties: :class:`RoleAssignmentPropertiesWithScope\n <azure.mgmt.authorization.models.RoleAssignmentPropertiesWithScope>`\n"
+  type: Class
+  uid: azure.mgmt.authorization.models.RoleAssignment
+- _type: class
+  children: []
+  module: azure.mgmt.authorization.models
+  name: azure.mgmt.authorization.models.RoleAssignmentProperties
+  summary: "Role assignment properties.\n\n:param role_definition_id: The role definition\
+    \ ID used in the role\n assignment.\n:type role_definition_id: str\n:param principal_id:\
+    \ The principal ID assigned to the role. This maps to\n the ID inside the Active\
+    \ Directory. It can point to a user, service\n principal, or security group.\n\
+    :type principal_id: str\n"
+  type: Class
+  uid: azure.mgmt.authorization.models.RoleAssignmentProperties
+- _type: class
+  children: []
+  module: azure.mgmt.authorization.models
+  name: azure.mgmt.authorization.models.RoleAssignmentCreateParameters
+  summary: "Role assignment create parameters.\n\n:param properties: Role assignment\
+    \ properties.\n:type properties: :class:`RoleAssignmentProperties\n <azure.mgmt.authorization.models.RoleAssignmentProperties>`\n"
+  type: Class
+  uid: azure.mgmt.authorization.models.RoleAssignmentCreateParameters
+- _type: class
+  children: []
+  module: azure.mgmt.authorization.models
+  name: azure.mgmt.authorization.models.RoleDefinitionProperties
+  summary: "Role definition properties.\n\n:param role_name: The role name.\n:type\
+    \ role_name: str\n:param description: The role definition description.\n:type\
+    \ description: str\n:param type: The role type.\n:type type: str\n:param permissions:\
+    \ Role definition permissions.\n:type permissions: list of :class:`Permission\n\
+    \ <azure.mgmt.authorization.models.Permission>`\n:param assignable_scopes: Role\
+    \ definition assignable scopes.\n:type assignable_scopes: list of str\n"
+  type: Class
+  uid: azure.mgmt.authorization.models.RoleDefinitionProperties
+- _type: class
+  children: []
+  module: azure.mgmt.authorization.models
+  name: azure.mgmt.authorization.models.RoleDefinition
+  summary: "Role definition.\n\n:param id: The role definition ID.\n:type id: str\n\
+    :param name: The role definition name.\n:type name: str\n:param type: The role\
+    \ definition type.\n:type type: str\n:param properties: Role definition properties.\n\
+    :type properties: :class:`RoleDefinitionProperties\n <azure.mgmt.authorization.models.RoleDefinitionProperties>`\n"
+  type: Class
+  uid: azure.mgmt.authorization.models.RoleDefinition
+- _type: class
+  children: []
+  module: azure.mgmt.authorization.models
+  name: azure.mgmt.authorization.models.ClassicAdministratorPaged
+  summary: 'A paging container for iterating over a list of ClassicAdministrator object
+
+    '
+  type: Class
+  uid: azure.mgmt.authorization.models.ClassicAdministratorPaged
+- _type: class
+  children: []
+  module: azure.mgmt.authorization.models
+  name: azure.mgmt.authorization.models.PermissionPaged
+  summary: 'A paging container for iterating over a list of Permission object
+
+    '
+  type: Class
+  uid: azure.mgmt.authorization.models.PermissionPaged
+- _type: class
+  children: []
+  module: azure.mgmt.authorization.models
+  name: azure.mgmt.authorization.models.ProviderOperationsMetadataPaged
+  summary: 'A paging container for iterating over a list of ProviderOperationsMetadata
+    object
+
+    '
+  type: Class
+  uid: azure.mgmt.authorization.models.ProviderOperationsMetadataPaged
+- _type: class
+  children: []
+  module: azure.mgmt.authorization.models
+  name: azure.mgmt.authorization.models.RoleAssignmentPaged
+  summary: 'A paging container for iterating over a list of RoleAssignment object
+
+    '
+  type: Class
+  uid: azure.mgmt.authorization.models.RoleAssignmentPaged
+- _type: class
+  children: []
+  module: azure.mgmt.authorization.models
+  name: azure.mgmt.authorization.models.RoleDefinitionPaged
+  summary: 'A paging container for iterating over a list of RoleDefinition object
+
+    '
+  type: Class
+  uid: azure.mgmt.authorization.models.RoleDefinitionPaged

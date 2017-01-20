@@ -1,0 +1,359 @@
+items:
+- _type: module
+  children:
+  - azure.mgmt.datalake.analytics.account.models.StorageAccountInfo
+  - azure.mgmt.datalake.analytics.account.models.StorageContainer
+  - azure.mgmt.datalake.analytics.account.models.SasTokenInfo
+  - azure.mgmt.datalake.analytics.account.models.DataLakeStoreAccountInfo
+  - azure.mgmt.datalake.analytics.account.models.AddDataLakeStoreParameters
+  - azure.mgmt.datalake.analytics.account.models.AddStorageAccountParameters
+  - azure.mgmt.datalake.analytics.account.models.UpdateStorageAccountParameters
+  - azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccountUpdateParameters
+  - azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccount
+  - azure.mgmt.datalake.analytics.account.models.ErrorDetails
+  - azure.mgmt.datalake.analytics.account.models.Resource
+  - azure.mgmt.datalake.analytics.account.models.SubResource
+  - azure.mgmt.datalake.analytics.account.models.StorageContainerPaged
+  - azure.mgmt.datalake.analytics.account.models.SasTokenInfoPaged
+  - azure.mgmt.datalake.analytics.account.models.StorageAccountInfoPaged
+  - azure.mgmt.datalake.analytics.account.models.DataLakeStoreAccountInfoPaged
+  - azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccountPaged
+  - azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccountStatus
+  - azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccountState
+  - azure.mgmt.datalake.analytics.account.models.TierType
+  module: azure.mgmt.datalake.analytics.account.models
+  name: azure.mgmt.datalake.analytics.account.models
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.datalake.analytics.account.models
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.account.models
+  name: azure.mgmt.datalake.analytics.account.models.StorageAccountInfo
+  summary: "Azure Storage account information.\n\nVariables are only populated by\
+    \ the server, and will be ignored when\nsending a request.\n\n:ivar id: Resource\
+    \ Id\n:vartype id: str\n:param name: Resource name\n:type name: str\n:ivar type:\
+    \ Resource type\n:vartype type: str\n:param access_key: the access key associated\
+    \ with this Azure Storage\n account that will be used to connect to it.\n:type\
+    \ access_key: str\n:param suffix: the optional suffix for the storage account.\n\
+    :type suffix: str\n"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.account.models.StorageAccountInfo
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.account.models
+  name: azure.mgmt.datalake.analytics.account.models.StorageContainer
+  summary: 'Azure Storage blob container information.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar name: the name of the blob container.
+
+    :vartype name: str
+
+    :ivar id: the unique identifier of the blob container.
+
+    :vartype id: str
+
+    :ivar type: the type of the blob container.
+
+    :vartype type: str
+
+    :ivar last_modified_time: the last modified time of the blob container.
+
+    :vartype last_modified_time: datetime
+
+    '
+  type: Class
+  uid: azure.mgmt.datalake.analytics.account.models.StorageContainer
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.account.models
+  name: azure.mgmt.datalake.analytics.account.models.SasTokenInfo
+  summary: "SAS token information.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:ivar access_token: the access\
+    \ token for the associated Azure Storage\n Container.\n:vartype access_token:\
+    \ str\n"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.account.models.SasTokenInfo
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.account.models
+  name: azure.mgmt.datalake.analytics.account.models.DataLakeStoreAccountInfo
+  summary: 'Data Lake Store account information.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar id: Resource Id
+
+    :vartype id: str
+
+    :param name: Resource name
+
+    :type name: str
+
+    :ivar type: Resource type
+
+    :vartype type: str
+
+    :param suffix: the optional suffix for the Data Lake Store account.
+
+    :type suffix: str
+
+    '
+  type: Class
+  uid: azure.mgmt.datalake.analytics.account.models.DataLakeStoreAccountInfo
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.account.models
+  name: azure.mgmt.datalake.analytics.account.models.AddDataLakeStoreParameters
+  summary: 'Additional Data Lake Store parameters.
+
+
+    :param suffix: the optional suffix for the Data Lake Store account.
+
+    :type suffix: str
+
+    '
+  type: Class
+  uid: azure.mgmt.datalake.analytics.account.models.AddDataLakeStoreParameters
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.account.models
+  name: azure.mgmt.datalake.analytics.account.models.AddStorageAccountParameters
+  summary: "Storage account parameters for a storage account being added to a Data\
+    \ Lake\nAnalytics account.\n\n:param access_key: the access key associated with\
+    \ this Azure Storage\n account that will be used to connect to it.\n:type access_key:\
+    \ str\n:param suffix: the optional suffix for the storage account.\n:type suffix:\
+    \ str\n"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.account.models.AddStorageAccountParameters
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.account.models
+  name: azure.mgmt.datalake.analytics.account.models.UpdateStorageAccountParameters
+  summary: "Storage account parameters for a storage account being updated in a Data\n\
+    Lake Analytics account.\n\n:param access_key: the updated access key associated\
+    \ with this Azure\n Storage account that will be used to connect to it.\n:type\
+    \ access_key: str\n:param suffix: the optional suffix for the storage account.\n\
+    :type suffix: str\n"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.account.models.UpdateStorageAccountParameters
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.account.models
+  name: azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccountUpdateParameters
+  summary: "The parameters that can be used to update an existing Data Lake Analytics\n\
+    account.\n\n:param tags: Resource tags\n:type tags: dict\n:param max_degree_of_parallelism:\
+    \ the maximum supported degree of\n parallelism for this account.\n:type max_degree_of_parallelism:\
+    \ int\n:param query_store_retention: the number of days that job metadata is\n\
+    \ retained.\n:type query_store_retention: int\n:param max_job_count: the maximum\
+    \ supported jobs running under the account\n at the same time.\n:type max_job_count:\
+    \ int\n:param new_tier: the commitment tier to use for next month. Possible\n\
+    \ values include: 'Consumption', 'Commitment_100AUHours',\n 'Commitment_500AUHours',\
+    \ 'Commitment_1000AUHours',\n 'Commitment_5000AUHours', 'Commitment_10000AUHours',\n\
+    \ 'Commitment_50000AUHours', 'Commitment_100000AUHours',\n 'Commitment_500000AUHours'\n\
+    :type new_tier: str or :class:`TierType\n <azure.mgmt.datalake.analytics.account.models.TierType>`\n"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccountUpdateParameters
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.account.models
+  name: azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccount
+  summary: "A Data Lake Analytics account object, containing all information associated\n\
+    with the named Data Lake Analytics account.\n\nVariables are only populated by\
+    \ the server, and will be ignored when\nsending a request.\n\n:ivar id: Resource\
+    \ Id\n:vartype id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type:\
+    \ Resource type\n:vartype type: str\n:param location: Resource location\n:type\
+    \ location: str\n:param tags: Resource tags\n:type tags: dict\n:ivar provisioning_state:\
+    \ the provisioning status of the Data Lake\n Analytics account. Possible values\
+    \ include: 'Failed', 'Creating',\n 'Running', 'Succeeded', 'Patching', 'Suspending',\
+    \ 'Resuming', 'Deleting',\n 'Deleted'\n:vartype provisioning_state: str or :class:`DataLakeAnalyticsAccountStatus\n\
+    \ <azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccountStatus>`\n\
+    :ivar state: the state of the Data Lake Analytics account. Possible values\n include:\
+    \ 'Active', 'Suspended'\n:vartype state: str or :class:`DataLakeAnalyticsAccountState\n\
+    \ <azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccountState>`\n\
+    :param default_data_lake_store_account: the default data lake storage\n account\
+    \ associated with this Data Lake Analytics account.\n:type default_data_lake_store_account:\
+    \ str\n:param max_degree_of_parallelism: the maximum supported degree of\n parallelism\
+    \ for this account. Default value: 30 .\n:type max_degree_of_parallelism: int\n\
+    :param query_store_retention: the number of days that job metadata is\n retained.\
+    \ Default value: 30 .\n:type query_store_retention: int\n:param max_job_count:\
+    \ the maximum supported jobs running under the account\n at the same time. Default\
+    \ value: 3 .\n:type max_job_count: int\n:ivar system_max_degree_of_parallelism:\
+    \ the system defined maximum\n supported degree of parallelism for this account,\
+    \ which restricts the\n maximum value of parallelism the user can set for the\
+    \ account..\n:vartype system_max_degree_of_parallelism: int\n:ivar system_max_job_count:\
+    \ the system defined maximum supported jobs\n running under the account at the\
+    \ same time, which restricts the maximum\n number of running jobs the user can\
+    \ set for the account.\n:vartype system_max_job_count: int\n:param data_lake_store_accounts:\
+    \ the list of Data Lake storage accounts\n associated with this account.\n:type\
+    \ data_lake_store_accounts: list of :class:`DataLakeStoreAccountInfo\n <azure.mgmt.datalake.analytics.account.models.DataLakeStoreAccountInfo>`\n\
+    :param storage_accounts: the list of Azure Blob storage accounts\n associated\
+    \ with this account.\n:type storage_accounts: list of :class:`StorageAccountInfo\n\
+    \ <azure.mgmt.datalake.analytics.account.models.StorageAccountInfo>`\n:ivar creation_time:\
+    \ the account creation time.\n:vartype creation_time: datetime\n:ivar last_modified_time:\
+    \ the account last modified time.\n:vartype last_modified_time: datetime\n:ivar\
+    \ endpoint: the full CName endpoint for this account.\n:vartype endpoint: str\n\
+    :param new_tier: the commitment tier for the next month. Possible values\n include:\
+    \ 'Consumption', 'Commitment_100AUHours', 'Commitment_500AUHours',\n 'Commitment_1000AUHours',\
+    \ 'Commitment_5000AUHours',\n 'Commitment_10000AUHours', 'Commitment_50000AUHours',\n\
+    \ 'Commitment_100000AUHours', 'Commitment_500000AUHours'\n:type new_tier: str\
+    \ or :class:`TierType\n <azure.mgmt.datalake.analytics.account.models.TierType>`\n\
+    :ivar current_tier: the commitment tier in use for the current month.\n Possible\
+    \ values include: 'Consumption', 'Commitment_100AUHours',\n 'Commitment_500AUHours',\
+    \ 'Commitment_1000AUHours',\n 'Commitment_5000AUHours', 'Commitment_10000AUHours',\n\
+    \ 'Commitment_50000AUHours', 'Commitment_100000AUHours',\n 'Commitment_500000AUHours'\n\
+    :vartype current_tier: str or :class:`TierType\n <azure.mgmt.datalake.analytics.account.models.TierType>`\n"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccount
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.account.models
+  name: azure.mgmt.datalake.analytics.account.models.ErrorDetails
+  summary: "Generic resource error details information.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar code: the\
+    \ HTTP status code or error code associated with this error\n:vartype code: str\n\
+    :ivar message: the error message localized based on Accept-Language\n:vartype\
+    \ message: str\n:ivar target: the target of the particular error (for example,\
+    \ the name of\n the property in error).\n:vartype target: str\n"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.account.models.ErrorDetails
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.account.models
+  name: azure.mgmt.datalake.analytics.account.models.Resource
+  summary: 'The Resource model definition.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar id: Resource Id
+
+    :vartype id: str
+
+    :ivar name: Resource name
+
+    :vartype name: str
+
+    :ivar type: Resource type
+
+    :vartype type: str
+
+    :param location: Resource location
+
+    :type location: str
+
+    :param tags: Resource tags
+
+    :type tags: dict
+
+    '
+  type: Class
+  uid: azure.mgmt.datalake.analytics.account.models.Resource
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.account.models
+  name: azure.mgmt.datalake.analytics.account.models.SubResource
+  summary: 'The Sub Resource model definition.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar id: Resource Id
+
+    :vartype id: str
+
+    :param name: Resource name
+
+    :type name: str
+
+    :ivar type: Resource type
+
+    :vartype type: str
+
+    '
+  type: Class
+  uid: azure.mgmt.datalake.analytics.account.models.SubResource
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.account.models
+  name: azure.mgmt.datalake.analytics.account.models.StorageContainerPaged
+  summary: 'A paging container for iterating over a list of StorageContainer object
+
+    '
+  type: Class
+  uid: azure.mgmt.datalake.analytics.account.models.StorageContainerPaged
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.account.models
+  name: azure.mgmt.datalake.analytics.account.models.SasTokenInfoPaged
+  summary: 'A paging container for iterating over a list of SasTokenInfo object
+
+    '
+  type: Class
+  uid: azure.mgmt.datalake.analytics.account.models.SasTokenInfoPaged
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.account.models
+  name: azure.mgmt.datalake.analytics.account.models.StorageAccountInfoPaged
+  summary: 'A paging container for iterating over a list of StorageAccountInfo object
+
+    '
+  type: Class
+  uid: azure.mgmt.datalake.analytics.account.models.StorageAccountInfoPaged
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.account.models
+  name: azure.mgmt.datalake.analytics.account.models.DataLakeStoreAccountInfoPaged
+  summary: 'A paging container for iterating over a list of DataLakeStoreAccountInfo
+    object
+
+    '
+  type: Class
+  uid: azure.mgmt.datalake.analytics.account.models.DataLakeStoreAccountInfoPaged
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.account.models
+  name: azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccountPaged
+  summary: 'A paging container for iterating over a list of DataLakeAnalyticsAccount
+    object
+
+    '
+  type: Class
+  uid: azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccountPaged
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.account.models
+  name: azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccountStatus
+  summary: ''
+  type: Class
+  uid: azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccountStatus
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.account.models
+  name: azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccountState
+  summary: ''
+  type: Class
+  uid: azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccountState
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.account.models
+  name: azure.mgmt.datalake.analytics.account.models.TierType
+  summary: ''
+  type: Class
+  uid: azure.mgmt.datalake.analytics.account.models.TierType

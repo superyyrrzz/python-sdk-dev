@@ -1,0 +1,147 @@
+items:
+- _type: module
+  children:
+  - azure.mgmt.keyvault.models.Sku
+  - azure.mgmt.keyvault.models.AccessPolicyEntry
+  - azure.mgmt.keyvault.models.Permissions
+  - azure.mgmt.keyvault.models.VaultProperties
+  - azure.mgmt.keyvault.models.VaultCreateOrUpdateParameters
+  - azure.mgmt.keyvault.models.Vault
+  - azure.mgmt.keyvault.models.Resource
+  - azure.mgmt.keyvault.models.VaultPaged
+  - azure.mgmt.keyvault.models.SkuName
+  - azure.mgmt.keyvault.models.KeyPermissions
+  - azure.mgmt.keyvault.models.SecretPermissions
+  module: azure.mgmt.keyvault.models
+  name: azure.mgmt.keyvault.models
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.keyvault.models
+- _type: class
+  children: []
+  module: azure.mgmt.keyvault.models
+  name: azure.mgmt.keyvault.models.Sku
+  summary: "SKU details.\n\nVariables are only populated by the server, and will be\
+    \ ignored when\nsending a request.\n\n:ivar family: SKU family name. Default value:\
+    \ \"A\" .\n:vartype family: str\n:param name: SKU name to specify whether the\
+    \ key vault is a standard\n vault or a premium vault. Possible values include:\
+    \ 'standard', 'premium'\n:type name: str or :class:`SkuName <azure.keyvault.models.SkuName>`\n"
+  type: Class
+  uid: azure.mgmt.keyvault.models.Sku
+- _type: class
+  children: []
+  module: azure.mgmt.keyvault.models
+  name: azure.mgmt.keyvault.models.AccessPolicyEntry
+  summary: "An array of 0 to 16 identities that have access to the key vault. All\n\
+    identities in the array must use the same tenant ID as the key vault's\ntenant\
+    \ ID.\n\n:param tenant_id: The Azure Active Directory tenant ID that should be\n\
+    \ used for authenticating requests to the key vault.\n:type tenant_id: str\n:param\
+    \ object_id: The object ID of a user or service principal in the\n Azure Active\
+    \ Directory tenant for the vault. The object ID must be\n unique for the list\
+    \ of access policies.\n:type object_id: str\n:param application_id:  Application\
+    \ ID of the client making request on\n behalf of a principal\n:type application_id:\
+    \ str\n:param permissions: Permissions the identity has for keys and secrets\n\
+    :type permissions: :class:`Permissions\n <azure.keyvault.models.Permissions>`\n"
+  type: Class
+  uid: azure.mgmt.keyvault.models.AccessPolicyEntry
+- _type: class
+  children: []
+  module: azure.mgmt.keyvault.models
+  name: azure.mgmt.keyvault.models.Permissions
+  summary: "Permissions the identity has for keys and secrets.\n\n:param keys: Permissions\
+    \ to keys\n:type keys: list of str or :class:`KeyPermissions\n <azure.keyvault.models.KeyPermissions>`\n\
+    :param secrets: Permissions to secrets\n:type secrets: list of str or :class:`SecretPermissions\n\
+    \ <azure.keyvault.models.SecretPermissions>`\n"
+  type: Class
+  uid: azure.mgmt.keyvault.models.Permissions
+- _type: class
+  children: []
+  module: azure.mgmt.keyvault.models
+  name: azure.mgmt.keyvault.models.VaultProperties
+  summary: "Properties of the vault.\n\n:param vault_uri: The URI of the vault for\
+    \ performing operations on keys\n and secrets.\n:type vault_uri: str\n:param tenant_id:\
+    \ The Azure Active Directory tenant ID that should be\n used for authenticating\
+    \ requests to the key vault.\n:type tenant_id: str\n:param sku: SKU details\n\
+    :type sku: :class:`Sku <azure.keyvault.models.Sku>`\n:param access_policies: An\
+    \ array of 0 to 16 identities that have access\n to the key vault. All identities\
+    \ in the array must use the same tenant\n ID as the key vault's tenant ID.\n:type\
+    \ access_policies: list of :class:`AccessPolicyEntry\n <azure.keyvault.models.AccessPolicyEntry>`\n\
+    :param enabled_for_deployment: Property to specify whether Azure Virtual\n Machines\
+    \ are permitted to retrieve certificates stored as secrets from\n the key vault.\n\
+    :type enabled_for_deployment: bool\n:param enabled_for_disk_encryption: Property\
+    \ to specify whether Azure\n Disk Encryption is permitted to retrieve secrets\
+    \ from the vault and\n unwrap keys.\n:type enabled_for_disk_encryption: bool\n\
+    :param enabled_for_template_deployment: Property to specify whether Azure\n Resource\
+    \ Manager is permitted to retrieve secrets from the key vault.\n:type enabled_for_template_deployment:\
+    \ bool\n"
+  type: Class
+  uid: azure.mgmt.keyvault.models.VaultProperties
+- _type: class
+  children: []
+  module: azure.mgmt.keyvault.models
+  name: azure.mgmt.keyvault.models.VaultCreateOrUpdateParameters
+  summary: "Parameters for creating or updating a vault.\n\n:param location: The supported\
+    \ Azure location where the key vault should\n be created.\n:type location: str\n\
+    :param tags: The tags that will be assigned to the key vault.\n:type tags: dict\n\
+    :param properties: Properties of the vault\n:type properties: :class:`VaultProperties\n\
+    \ <azure.keyvault.models.VaultProperties>`\n"
+  type: Class
+  uid: azure.mgmt.keyvault.models.VaultCreateOrUpdateParameters
+- _type: class
+  children: []
+  module: azure.mgmt.keyvault.models
+  name: azure.mgmt.keyvault.models.Vault
+  summary: "Resource information with extended details.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar id: The\
+    \ Azure Resource Manager resource ID for the key vault.\n:vartype id: str\n:param\
+    \ name: The name of the key vault.\n:type name: str\n:ivar type: The resource\
+    \ type of the key vault.\n:vartype type: str\n:param location: The supported Azure\
+    \ location where the key vault should\n be created.\n:type location: str\n:param\
+    \ tags: The tags that will be assigned to the key vault.\n:type tags: dict\n:param\
+    \ properties: Properties of the vault\n:type properties: :class:`VaultProperties\n\
+    \ <azure.keyvault.models.VaultProperties>`\n"
+  type: Class
+  uid: azure.mgmt.keyvault.models.Vault
+- _type: class
+  children: []
+  module: azure.mgmt.keyvault.models
+  name: azure.mgmt.keyvault.models.Resource
+  summary: "Key Vault resource.\n\nVariables are only populated by the server, and\
+    \ will be ignored when\nsending a request.\n\n:ivar id: The Azure Resource Manager\
+    \ resource ID for the key vault.\n:vartype id: str\n:param name: The name of the\
+    \ key vault.\n:type name: str\n:ivar type: The resource type of the key vault.\n\
+    :vartype type: str\n:param location: The supported Azure location where the key\
+    \ vault should\n be created.\n:type location: str\n:param tags: The tags that\
+    \ will be assigned to the key vault.\n:type tags: dict\n"
+  type: Class
+  uid: azure.mgmt.keyvault.models.Resource
+- _type: class
+  children: []
+  module: azure.mgmt.keyvault.models
+  name: azure.mgmt.keyvault.models.VaultPaged
+  summary: 'A paging container for iterating over a list of Vault object
+
+    '
+  type: Class
+  uid: azure.mgmt.keyvault.models.VaultPaged
+- _type: class
+  children: []
+  module: azure.mgmt.keyvault.models
+  name: azure.mgmt.keyvault.models.SkuName
+  summary: ''
+  type: Class
+  uid: azure.mgmt.keyvault.models.SkuName
+- _type: class
+  children: []
+  module: azure.mgmt.keyvault.models
+  name: azure.mgmt.keyvault.models.KeyPermissions
+  summary: ''
+  type: Class
+  uid: azure.mgmt.keyvault.models.KeyPermissions
+- _type: class
+  children: []
+  module: azure.mgmt.keyvault.models
+  name: azure.mgmt.keyvault.models.SecretPermissions
+  summary: ''
+  type: Class
+  uid: azure.mgmt.keyvault.models.SecretPermissions

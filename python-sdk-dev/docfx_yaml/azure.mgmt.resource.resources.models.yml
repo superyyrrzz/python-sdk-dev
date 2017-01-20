@@ -1,0 +1,733 @@
+items:
+- _type: module
+  children:
+  - azure.mgmt.resource.resources.models.DeploymentExtendedFilter
+  - azure.mgmt.resource.resources.models.GenericResourceFilter
+  - azure.mgmt.resource.resources.models.ResourceGroupFilter
+  - azure.mgmt.resource.resources.models.TemplateLink
+  - azure.mgmt.resource.resources.models.ParametersLink
+  - azure.mgmt.resource.resources.models.DeploymentProperties
+  - azure.mgmt.resource.resources.models.DebugSetting
+  - azure.mgmt.resource.resources.models.Deployment
+  - azure.mgmt.resource.resources.models.DeploymentExportResult
+  - azure.mgmt.resource.resources.models.ResourceManagementErrorWithDetails
+  - azure.mgmt.resource.resources.models.AliasPathType
+  - azure.mgmt.resource.resources.models.AliasType
+  - azure.mgmt.resource.resources.models.ProviderResourceType
+  - azure.mgmt.resource.resources.models.Provider
+  - azure.mgmt.resource.resources.models.BasicDependency
+  - azure.mgmt.resource.resources.models.Dependency
+  - azure.mgmt.resource.resources.models.DeploymentPropertiesExtended
+  - azure.mgmt.resource.resources.models.DeploymentValidateResult
+  - azure.mgmt.resource.resources.models.DeploymentExtended
+  - azure.mgmt.resource.resources.models.GenericResource
+  - azure.mgmt.resource.resources.models.Plan
+  - azure.mgmt.resource.resources.models.Sku
+  - azure.mgmt.resource.resources.models.Identity
+  - azure.mgmt.resource.resources.models.ResourceGroup
+  - azure.mgmt.resource.resources.models.ResourceGroupProperties
+  - azure.mgmt.resource.resources.models.ResourcesMoveInfo
+  - azure.mgmt.resource.resources.models.ExportTemplateRequest
+  - azure.mgmt.resource.resources.models.TagCount
+  - azure.mgmt.resource.resources.models.TagValue
+  - azure.mgmt.resource.resources.models.TagDetails
+  - azure.mgmt.resource.resources.models.TargetResource
+  - azure.mgmt.resource.resources.models.HttpMessage
+  - azure.mgmt.resource.resources.models.DeploymentOperationProperties
+  - azure.mgmt.resource.resources.models.DeploymentOperation
+  - azure.mgmt.resource.resources.models.ResourceProviderOperationDisplayProperties
+  - azure.mgmt.resource.resources.models.ResourceModel
+  - azure.mgmt.resource.resources.models.SubResource
+  - azure.mgmt.resource.resources.models.ResourceGroupExportResult
+  - azure.mgmt.resource.resources.models.DeploymentExtendedPaged
+  - azure.mgmt.resource.resources.models.ProviderPaged
+  - azure.mgmt.resource.resources.models.GenericResourcePaged
+  - azure.mgmt.resource.resources.models.ResourceGroupPaged
+  - azure.mgmt.resource.resources.models.TagDetailsPaged
+  - azure.mgmt.resource.resources.models.DeploymentOperationPaged
+  - azure.mgmt.resource.resources.models.DeploymentMode
+  - azure.mgmt.resource.resources.models.ResourceIdentityType
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.resource.resources.models
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.DeploymentExtendedFilter
+  summary: 'Deployment filter.
+
+
+    :param provisioning_state: The provisioning state.
+
+    :type provisioning_state: str
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.resources.models.DeploymentExtendedFilter
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.GenericResourceFilter
+  summary: 'Resource filter.
+
+
+    :param resource_type: The resource type.
+
+    :type resource_type: str
+
+    :param tagname: The tag name.
+
+    :type tagname: str
+
+    :param tagvalue: The tag value.
+
+    :type tagvalue: str
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.resources.models.GenericResourceFilter
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.ResourceGroupFilter
+  summary: 'Resource group filter.
+
+
+    :param tag_name: The tag name.
+
+    :type tag_name: str
+
+    :param tag_value: The tag value.
+
+    :type tag_value: str
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.resources.models.ResourceGroupFilter
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.TemplateLink
+  summary: "Entity representing the reference to the template.\n\n:param uri: URI\
+    \ referencing the template.\n:type uri: str\n:param content_version: If included\
+    \ it must match the ContentVersion in\n the template.\n:type content_version:\
+    \ str\n"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.TemplateLink
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.ParametersLink
+  summary: "Entity representing the reference to the deployment paramaters.\n\n:param\
+    \ uri: URI referencing the template.\n:type uri: str\n:param content_version:\
+    \ If included it must match the ContentVersion in\n the template.\n:type content_version:\
+    \ str\n"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.ParametersLink
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.DeploymentProperties
+  summary: "Deployment properties.\n\n:param template: The template content. It can\
+    \ be a JObject or a well\n formed JSON string. Use only one of Template or TemplateLink.\n\
+    :type template: object\n:param template_link: The template URI. Use only one of\
+    \ Template or\n TemplateLink.\n:type template_link: :class:`TemplateLink\n <azure.mgmt.resource.resources.models.TemplateLink>`\n\
+    :param parameters: Deployment parameters. It can be a JObject or a well\n formed\
+    \ JSON string. Use only one of Parameters or ParametersLink.\n:type parameters:\
+    \ object\n:param parameters_link: The parameters URI. Use only one of Parameters\
+    \ or\n ParametersLink.\n:type parameters_link: :class:`ParametersLink\n <azure.mgmt.resource.resources.models.ParametersLink>`\n\
+    :param mode: The deployment mode. Possible values include: 'Incremental',\n 'Complete'\n\
+    :type mode: str or :class:`DeploymentMode\n <azure.mgmt.resource.resources.models.DeploymentMode>`\n\
+    :param debug_setting: The debug setting of the deployment.\n:type debug_setting:\
+    \ :class:`DebugSetting\n <azure.mgmt.resource.resources.models.DebugSetting>`\n"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.DeploymentProperties
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.DebugSetting
+  summary: 'DebugSetting.
+
+
+    :param detail_level: The debug detail level.
+
+    :type detail_level: str
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.resources.models.DebugSetting
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.Deployment
+  summary: "Deployment operation parameters.\n\n:param properties: The deployment\
+    \ properties.\n:type properties: :class:`DeploymentProperties\n <azure.mgmt.resource.resources.models.DeploymentProperties>`\n"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.Deployment
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.DeploymentExportResult
+  summary: 'DeploymentExportResult.
+
+
+    :param template: The template content.
+
+    :type template: object
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.resources.models.DeploymentExportResult
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.ResourceManagementErrorWithDetails
+  summary: "ResourceManagementErrorWithDetails.\n\n:param code: The error code returned\
+    \ from the server.\n:type code: str\n:param message: The error message returned\
+    \ from the server.\n:type message: str\n:param target: The target of the error.\n\
+    :type target: str\n:param details: Validation error.\n:type details: list of :class:`ResourceManagementErrorWithDetails\n\
+    \ <azure.mgmt.resource.resources.models.ResourceManagementErrorWithDetails>`\n"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.ResourceManagementErrorWithDetails
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.AliasPathType
+  summary: 'AliasPathType.
+
+
+    :param path: The path of an alias.
+
+    :type path: str
+
+    :param api_versions: The api versions.
+
+    :type api_versions: list of str
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.resources.models.AliasPathType
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.AliasType
+  summary: "AliasType.\n\n:param name: The alias name.\n:type name: str\n:param paths:\
+    \ The paths for an alias.\n:type paths: list of :class:`AliasPathType\n <azure.mgmt.resource.resources.models.AliasPathType>`\n"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.AliasType
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.ProviderResourceType
+  summary: "Resource type managed by the resource provider.\n\n:param resource_type:\
+    \ The resource type.\n:type resource_type: str\n:param locations: The collection\
+    \ of locations where this resource type\n can be created in.\n:type locations:\
+    \ list of str\n:param aliases: The aliases that are supported by this resource\
+    \ type.\n:type aliases: list of :class:`AliasType\n <azure.mgmt.resource.resources.models.AliasType>`\n\
+    :param api_versions: The api version.\n:type api_versions: list of str\n:param\
+    \ properties: The properties.\n:type properties: dict\n"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.ProviderResourceType
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.Provider
+  summary: "Resource provider information.\n\n:param id: The provider id.\n:type id:\
+    \ str\n:param namespace: The namespace of the provider.\n:type namespace: str\n\
+    :param registration_state: The registration state of the provider.\n:type registration_state:\
+    \ str\n:param resource_types: The collection of provider resource types.\n:type\
+    \ resource_types: list of :class:`ProviderResourceType\n <azure.mgmt.resource.resources.models.ProviderResourceType>`\n"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.Provider
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.BasicDependency
+  summary: 'Deployment dependency information.
+
+
+    :param id: The ID of the dependency.
+
+    :type id: str
+
+    :param resource_type: The dependency resource type.
+
+    :type resource_type: str
+
+    :param resource_name: The dependency resource name.
+
+    :type resource_name: str
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.resources.models.BasicDependency
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.Dependency
+  summary: "Deployment dependency information.\n\n:param depends_on: The list of dependencies.\n\
+    :type depends_on: list of :class:`BasicDependency\n <azure.mgmt.resource.resources.models.BasicDependency>`\n\
+    :param id: The ID of the dependency.\n:type id: str\n:param resource_type: The\
+    \ dependency resource type.\n:type resource_type: str\n:param resource_name: The\
+    \ dependency resource name.\n:type resource_name: str\n"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.Dependency
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.DeploymentPropertiesExtended
+  summary: "Deployment properties with additional details.\n\n:param provisioning_state:\
+    \ The state of the provisioning.\n:type provisioning_state: str\n:param correlation_id:\
+    \ The correlation ID of the deployment.\n:type correlation_id: str\n:param timestamp:\
+    \ The timestamp of the template deployment.\n:type timestamp: datetime\n:param\
+    \ outputs: Key/value pairs that represent deploymentoutput.\n:type outputs: object\n\
+    :param providers: The list of resource providers needed for the\n deployment.\n\
+    :type providers: list of :class:`Provider\n <azure.mgmt.resource.resources.models.Provider>`\n\
+    :param dependencies: The list of deployment dependencies.\n:type dependencies:\
+    \ list of :class:`Dependency\n <azure.mgmt.resource.resources.models.Dependency>`\n\
+    :param template: The template content. Use only one of Template or\n TemplateLink.\n\
+    :type template: object\n:param template_link: The URI referencing the template.\
+    \ Use only one of\n Template or TemplateLink.\n:type template_link: :class:`TemplateLink\n\
+    \ <azure.mgmt.resource.resources.models.TemplateLink>`\n:param parameters: Deployment\
+    \ parameters. Use only one of Parameters or\n ParametersLink.\n:type parameters:\
+    \ object\n:param parameters_link: The URI referencing the parameters. Use only\
+    \ one\n of Parameters or ParametersLink.\n:type parameters_link: :class:`ParametersLink\n\
+    \ <azure.mgmt.resource.resources.models.ParametersLink>`\n:param mode: The deployment\
+    \ mode. Possible values include: 'Incremental',\n 'Complete'\n:type mode: str\
+    \ or :class:`DeploymentMode\n <azure.mgmt.resource.resources.models.DeploymentMode>`\n\
+    :param debug_setting: The debug setting of the deployment.\n:type debug_setting:\
+    \ :class:`DebugSetting\n <azure.mgmt.resource.resources.models.DebugSetting>`\n"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.DeploymentPropertiesExtended
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.DeploymentValidateResult
+  summary: "Information from validate template deployment response.\n\n:param error:\
+    \ Validation error.\n:type error: :class:`ResourceManagementErrorWithDetails\n\
+    \ <azure.mgmt.resource.resources.models.ResourceManagementErrorWithDetails>`\n\
+    :param properties: The template deployment properties.\n:type properties: :class:`DeploymentPropertiesExtended\n\
+    \ <azure.mgmt.resource.resources.models.DeploymentPropertiesExtended>`\n"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.DeploymentValidateResult
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.DeploymentExtended
+  summary: "Deployment information.\n\n:param id: The ID of the deployment.\n:type\
+    \ id: str\n:param name: The name of the deployment.\n:type name: str\n:param properties:\
+    \ Deployment properties.\n:type properties: :class:`DeploymentPropertiesExtended\n\
+    \ <azure.mgmt.resource.resources.models.DeploymentPropertiesExtended>`\n"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.DeploymentExtended
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.GenericResource
+  summary: "Resource information.\n\nVariables are only populated by the server, and\
+    \ will be ignored when\nsending a request.\n\n:ivar id: Resource Id\n:vartype\
+    \ id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type: Resource\
+    \ type\n:vartype type: str\n:param location: Resource location\n:type location:\
+    \ str\n:param tags: Resource tags\n:type tags: dict\n:param plan: The plan of\
+    \ the resource.\n:type plan: :class:`Plan <azure.mgmt.resource.resources.models.Plan>`\n\
+    :param properties: The resource properties.\n:type properties: object\n:param\
+    \ kind: The kind of the resource.\n:type kind: str\n:param managed_by: Id of the\
+    \ resource that manages this resource.\n:type managed_by: str\n:param sku: The\
+    \ sku of the resource.\n:type sku: :class:`Sku <azure.mgmt.resource.resources.models.Sku>`\n\
+    :param identity: The identity of the resource.\n:type identity: :class:`Identity\n\
+    \ <azure.mgmt.resource.resources.models.Identity>`\n"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.GenericResource
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.Plan
+  summary: 'Plan for the resource.
+
+
+    :param name: The plan ID.
+
+    :type name: str
+
+    :param publisher: The publisher ID.
+
+    :type publisher: str
+
+    :param product: The offer ID.
+
+    :type product: str
+
+    :param promotion_code: The promotion code.
+
+    :type promotion_code: str
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.resources.models.Plan
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.Sku
+  summary: 'Sku for the resource.
+
+
+    :param name: The sku name.
+
+    :type name: str
+
+    :param tier: The sku tier.
+
+    :type tier: str
+
+    :param size: The sku size.
+
+    :type size: str
+
+    :param family: The sku family.
+
+    :type family: str
+
+    :param model: The sku model.
+
+    :type model: str
+
+    :param capacity: The sku capacity.
+
+    :type capacity: int
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.resources.models.Sku
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.Identity
+  summary: "Identity for the resource.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:ivar principal_id: The principal\
+    \ id of resource identity.\n:vartype principal_id: str\n:ivar tenant_id: The tenant\
+    \ id of resource.\n:vartype tenant_id: str\n:param type: The identity type. Possible\
+    \ values include: 'SystemAssigned'\n:type type: str or :class:`ResourceIdentityType\n\
+    \ <azure.mgmt.resource.resources.models.ResourceIdentityType>`\n"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.Identity
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.ResourceGroup
+  summary: "Resource group information.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:ivar id: The ID of the resource\
+    \ group.\n:vartype id: str\n:param name: The Name of the resource group.\n:type\
+    \ name: str\n:param properties:\n:type properties: :class:`ResourceGroupProperties\n\
+    \ <azure.mgmt.resource.resources.models.ResourceGroupProperties>`\n:param location:\
+    \ The location of the resource group. It cannot be changed\n after the resource\
+    \ group has been created. Has to be one of the\n supported Azure Locations, such\
+    \ as West US, East US, West Europe, East\n Asia, etc.\n:type location: str\n:param\
+    \ tags: The tags attached to the resource group.\n:type tags: dict\n"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.ResourceGroup
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.ResourceGroupProperties
+  summary: 'The resource group properties.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar provisioning_state: The provisioning state.
+
+    :vartype provisioning_state: str
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.resources.models.ResourceGroupProperties
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.ResourcesMoveInfo
+  summary: 'Parameters of move resources.
+
+
+    :param resources: The ids of the resources.
+
+    :type resources: list of str
+
+    :param target_resource_group: The target resource group.
+
+    :type target_resource_group: str
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.resources.models.ResourcesMoveInfo
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.ExportTemplateRequest
+  summary: "Export resource group template request parameters.\n\n:param resources:\
+    \ The ids of the resources. The only supported string\n currently is '*' (all\
+    \ resources). Future api updates will support\n exporting specific resources.\n\
+    :type resources: list of str\n:param options: The export template options. Supported\
+    \ values include\n 'IncludeParameterDefaultValue', 'IncludeComments' or\n 'IncludeParameterDefaultValue,\
+    \ IncludeComments\n:type options: str\n"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.ExportTemplateRequest
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.TagCount
+  summary: 'Tag count.
+
+
+    :param type: Type of count.
+
+    :type type: str
+
+    :param value: Value of count.
+
+    :type value: str
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.resources.models.TagCount
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.TagValue
+  summary: "Tag information.\n\n:param id: The tag ID.\n:type id: str\n:param tag_value:\
+    \ The tag value.\n:type tag_value: str\n:param count: The tag value count.\n:type\
+    \ count: :class:`TagCount\n <azure.mgmt.resource.resources.models.TagCount>`\n"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.TagValue
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.TagDetails
+  summary: "Tag details.\n\n:param id: The tag ID.\n:type id: str\n:param tag_name:\
+    \ The tag name.\n:type tag_name: str\n:param count: The tag count.\n:type count:\
+    \ :class:`TagCount\n <azure.mgmt.resource.resources.models.TagCount>`\n:param\
+    \ values: The list of tag values.\n:type values: list of :class:`TagValue\n <azure.mgmt.resource.resources.models.TagValue>`\n"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.TagDetails
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.TargetResource
+  summary: 'Target resource.
+
+
+    :param id: The ID of the resource.
+
+    :type id: str
+
+    :param resource_name: The name of the resource.
+
+    :type resource_name: str
+
+    :param resource_type: The type of the resource.
+
+    :type resource_type: str
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.resources.models.TargetResource
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.HttpMessage
+  summary: 'HttpMessage.
+
+
+    :param content: HTTP message content.
+
+    :type content: object
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.resources.models.HttpMessage
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.DeploymentOperationProperties
+  summary: "Deployment operation properties.\n\n:param provisioning_state: The state\
+    \ of the provisioning.\n:type provisioning_state: str\n:param timestamp: The date\
+    \ and time of the operation.\n:type timestamp: datetime\n:param service_request_id:\
+    \ Deployment operation service request id.\n:type service_request_id: str\n:param\
+    \ status_code: Operation status code.\n:type status_code: str\n:param status_message:\
+    \ Operation status message.\n:type status_message: object\n:param target_resource:\
+    \ The target resource.\n:type target_resource: :class:`TargetResource\n <azure.mgmt.resource.resources.models.TargetResource>`\n\
+    :param request: The HTTP request message.\n:type request: :class:`HttpMessage\n\
+    \ <azure.mgmt.resource.resources.models.HttpMessage>`\n:param response: The HTTP\
+    \ response message.\n:type response: :class:`HttpMessage\n <azure.mgmt.resource.resources.models.HttpMessage>`\n"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.DeploymentOperationProperties
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.DeploymentOperation
+  summary: "Deployment operation information.\n\n:param id: Full deployment operation\
+    \ id.\n:type id: str\n:param operation_id: Deployment operation id.\n:type operation_id:\
+    \ str\n:param properties: Deployment properties.\n:type properties: :class:`DeploymentOperationProperties\n\
+    \ <azure.mgmt.resource.resources.models.DeploymentOperationProperties>`\n"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.DeploymentOperation
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.ResourceProviderOperationDisplayProperties
+  summary: 'Resource provider operation''s display properties.
+
+
+    :param publisher: Operation description.
+
+    :type publisher: str
+
+    :param provider: Operation provider.
+
+    :type provider: str
+
+    :param resource: Operation resource.
+
+    :type resource: str
+
+    :param operation: Operation.
+
+    :type operation: str
+
+    :param description: Operation description.
+
+    :type description: str
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.resources.models.ResourceProviderOperationDisplayProperties
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.ResourceModel
+  summary: 'ResourceModel.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar id: Resource Id
+
+    :vartype id: str
+
+    :ivar name: Resource name
+
+    :vartype name: str
+
+    :ivar type: Resource type
+
+    :vartype type: str
+
+    :param location: Resource location
+
+    :type location: str
+
+    :param tags: Resource tags
+
+    :type tags: dict
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.resources.models.ResourceModel
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.SubResource
+  summary: 'SubResource.
+
+
+    :param id: Resource Id
+
+    :type id: str
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.resources.models.SubResource
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.ResourceGroupExportResult
+  summary: "ResourceGroupExportResult.\n\n:param template: The template content.\n\
+    :type template: object\n:param error: The error.\n:type error: :class:`ResourceManagementErrorWithDetails\n\
+    \ <azure.mgmt.resource.resources.models.ResourceManagementErrorWithDetails>`\n"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.ResourceGroupExportResult
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.DeploymentExtendedPaged
+  summary: 'A paging container for iterating over a list of DeploymentExtended object
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.resources.models.DeploymentExtendedPaged
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.ProviderPaged
+  summary: 'A paging container for iterating over a list of Provider object
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.resources.models.ProviderPaged
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.GenericResourcePaged
+  summary: 'A paging container for iterating over a list of GenericResource object
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.resources.models.GenericResourcePaged
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.ResourceGroupPaged
+  summary: 'A paging container for iterating over a list of ResourceGroup object
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.resources.models.ResourceGroupPaged
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.TagDetailsPaged
+  summary: 'A paging container for iterating over a list of TagDetails object
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.resources.models.TagDetailsPaged
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.DeploymentOperationPaged
+  summary: 'A paging container for iterating over a list of DeploymentOperation object
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.resources.models.DeploymentOperationPaged
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.DeploymentMode
+  summary: ''
+  type: Class
+  uid: azure.mgmt.resource.resources.models.DeploymentMode
+- _type: class
+  children: []
+  module: azure.mgmt.resource.resources.models
+  name: azure.mgmt.resource.resources.models.ResourceIdentityType
+  summary: ''
+  type: Class
+  uid: azure.mgmt.resource.resources.models.ResourceIdentityType

@@ -1,0 +1,241 @@
+items:
+- _type: module
+  children:
+  - azure.mgmt.media.models.ApiEndpoint
+  - azure.mgmt.media.models.ApiError
+  - azure.mgmt.media.models.ApiErrorException
+  - azure.mgmt.media.models.CheckNameAvailabilityInput
+  - azure.mgmt.media.models.CheckNameAvailabilityOutput
+  - azure.mgmt.media.models.StorageAccount
+  - azure.mgmt.media.models.MediaService
+  - azure.mgmt.media.models.RegenerateKeyInput
+  - azure.mgmt.media.models.RegenerateKeyOutput
+  - azure.mgmt.media.models.Resource
+  - azure.mgmt.media.models.ServiceKeys
+  - azure.mgmt.media.models.SyncStorageKeysInput
+  - azure.mgmt.media.models.MediaServicePaged
+  - azure.mgmt.media.models.ResourceType
+  - azure.mgmt.media.models.EntityNameUnavailabilityReason
+  - azure.mgmt.media.models.KeyType
+  module: azure.mgmt.media.models
+  name: azure.mgmt.media.models
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.media.models
+- _type: class
+  children: []
+  module: azure.mgmt.media.models
+  name: azure.mgmt.media.models.ApiEndpoint
+  summary: 'The properties for a Media Services REST API endpoint.
+
+
+    :param endpoint: The Media Services REST endpoint.
+
+    :type endpoint: str
+
+    :param major_version: The version of Media Services REST API.
+
+    :type major_version: str
+
+    '
+  type: Class
+  uid: azure.mgmt.media.models.ApiEndpoint
+- _type: class
+  children: []
+  module: azure.mgmt.media.models
+  name: azure.mgmt.media.models.ApiError
+  summary: 'The error returned from a failed Media Services REST API call.
+
+
+    :param code: Error code.
+
+    :type code: str
+
+    :param message: Error message.
+
+    :type message: str
+
+    '
+  type: Class
+  uid: azure.mgmt.media.models.ApiError
+- _type: exception
+  module: azure.mgmt.media.models
+  name: azure.mgmt.media.models.ApiErrorException
+  summary: 'Server responsed with exception of type: ''ApiError''.
+
+
+    :param deserialize: A deserializer
+
+    :param response: Server response to be deserialized.
+
+    '
+  type: Class
+  uid: azure.mgmt.media.models.ApiErrorException
+- _type: class
+  children: []
+  module: azure.mgmt.media.models
+  name: azure.mgmt.media.models.CheckNameAvailabilityInput
+  summary: "The request body for CheckNameAvailability API.\n\nVariables are only\
+    \ populated by the server, and will be ignored when\nsending a request.\n\n:param\
+    \ name: The name of the resource. A name must be globally unique.\n:type name:\
+    \ str\n:ivar type: The type of the resource - mediaservices. Default value:\n\
+    \ \"mediaservices\" .\n:vartype type: str\n"
+  type: Class
+  uid: azure.mgmt.media.models.CheckNameAvailabilityInput
+- _type: class
+  children: []
+  module: azure.mgmt.media.models
+  name: azure.mgmt.media.models.CheckNameAvailabilityOutput
+  summary: "The response body for CheckNameAvailability API.\n\n:param name_available:\
+    \ Specifies if the name is available.\n:type name_available: bool\n:param reason:\
+    \ Specifies the reason if the name is not available. Possible\n values include:\
+    \ 'None', 'Invalid', 'AlreadyExists'\n:type reason: str or :class:`EntityNameUnavailabilityReason\n\
+    \ <azure.mgmt.media.models.EntityNameUnavailabilityReason>`\n:param message: Specifies\
+    \ the detailed reason if the name is not\n available.\n:type message: str\n"
+  type: Class
+  uid: azure.mgmt.media.models.CheckNameAvailabilityOutput
+- _type: class
+  children: []
+  module: azure.mgmt.media.models
+  name: azure.mgmt.media.models.StorageAccount
+  summary: "The properties of a storage account associated with this resource.\n\n\
+    :param id: The id of the storage account resource. Media Services relies\n on\
+    \ tables and queues as well as blobs, so the primary storage account must\n be\
+    \ a Standard Storage account (either Microsoft.ClassicStorage or\n Microsoft.Storage).\
+    \ Blob only storage accounts can be added as secondary\n storage accounts (isPrimary\
+    \ false).\n:type id: str\n:param is_primary: Is this storage account resource\
+    \ the primary storage\n account for the Media Service resource. Blob only storage\
+    \ must set this to\n false.\n:type is_primary: bool\n"
+  type: Class
+  uid: azure.mgmt.media.models.StorageAccount
+- _type: class
+  children: []
+  module: azure.mgmt.media.models
+  name: azure.mgmt.media.models.MediaService
+  summary: "The properties of a Media Service resource.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar id: The\
+    \ id of the resource.\n:vartype id: str\n:ivar name: The name of the resource.\n\
+    :vartype name: str\n:ivar type: The type of the resource\n:vartype type: str\n\
+    :param location: The geographic location of the resource. This must be one\n of\
+    \ the supported and registered Azure Geo Regions (for example, West US,\n East\
+    \ US, Southeast Asia, and so forth).\n:type location: str\n:param tags: Tags to\
+    \ help categorize the resource in the Azure portal.\n:type tags: dict\n:ivar api_endpoints:\
+    \ Read-only property that lists the Media Services REST\n API endpoints for this\
+    \ resource. If supplied on a PUT or PATCH, the value\n will be ignored.\n:vartype\
+    \ api_endpoints: list of :class:`ApiEndpoint\n <azure.mgmt.media.models.ApiEndpoint>`\n\
+    :param storage_accounts: The storage accounts for this resource.\n:type storage_accounts:\
+    \ list of :class:`StorageAccount\n <azure.mgmt.media.models.StorageAccount>`\n"
+  type: Class
+  uid: azure.mgmt.media.models.MediaService
+- _type: class
+  children: []
+  module: azure.mgmt.media.models
+  name: azure.mgmt.media.models.RegenerateKeyInput
+  summary: "The request body for a RegenerateKey API.\n\n:param key_type: The keyType\
+    \ indicating which key you want to regenerate,\n Primary or Secondary. Possible\
+    \ values include: 'Primary', 'Secondary'\n:type key_type: str or :class:`KeyType\
+    \ <azure.mgmt.media.models.KeyType>`\n"
+  type: Class
+  uid: azure.mgmt.media.models.RegenerateKeyInput
+- _type: class
+  children: []
+  module: azure.mgmt.media.models
+  name: azure.mgmt.media.models.RegenerateKeyOutput
+  summary: 'The response body for a RegenerateKey API.
+
+
+    :param key: The new value of either the primary or secondary key.
+
+    :type key: str
+
+    '
+  type: Class
+  uid: azure.mgmt.media.models.RegenerateKeyOutput
+- _type: class
+  children: []
+  module: azure.mgmt.media.models
+  name: azure.mgmt.media.models.Resource
+  summary: "The Azure Resource Manager resource.\n\nVariables are only populated by\
+    \ the server, and will be ignored when\nsending a request.\n\n:ivar id: The id\
+    \ of the resource.\n:vartype id: str\n:ivar name: The name of the resource.\n\
+    :vartype name: str\n:ivar type: The type of the resource\n:vartype type: str\n\
+    :param location: The geographic location of the resource. This must be one\n of\
+    \ the supported and registered Azure Geo Regions (for example, West US,\n East\
+    \ US, Southeast Asia, and so forth).\n:type location: str\n:param tags: Tags to\
+    \ help categorize the resource in the Azure portal.\n:type tags: dict\n"
+  type: Class
+  uid: azure.mgmt.media.models.Resource
+- _type: class
+  children: []
+  module: azure.mgmt.media.models
+  name: azure.mgmt.media.models.ServiceKeys
+  summary: 'The response body for a ListKeys API.
+
+
+    :param primary_auth_endpoint: The primary authorization endpoint.
+
+    :type primary_auth_endpoint: str
+
+    :param secondary_auth_endpoint: The secondary authorization endpoint.
+
+    :type secondary_auth_endpoint: str
+
+    :param primary_key: The primary key for the Media Service resource.
+
+    :type primary_key: str
+
+    :param secondary_key: The secondary key for the Media Service resource.
+
+    :type secondary_key: str
+
+    :param scope: The authorization scope.
+
+    :type scope: str
+
+    '
+  type: Class
+  uid: azure.mgmt.media.models.ServiceKeys
+- _type: class
+  children: []
+  module: azure.mgmt.media.models
+  name: azure.mgmt.media.models.SyncStorageKeysInput
+  summary: 'The request  body for a SyncStorageKeys API.
+
+
+    :param id: The id of the storage account resource.
+
+    :type id: str
+
+    '
+  type: Class
+  uid: azure.mgmt.media.models.SyncStorageKeysInput
+- _type: class
+  children: []
+  module: azure.mgmt.media.models
+  name: azure.mgmt.media.models.MediaServicePaged
+  summary: 'A paging container for iterating over a list of MediaService object
+
+    '
+  type: Class
+  uid: azure.mgmt.media.models.MediaServicePaged
+- _type: class
+  children: []
+  module: azure.mgmt.media.models
+  name: azure.mgmt.media.models.ResourceType
+  summary: ''
+  type: Class
+  uid: azure.mgmt.media.models.ResourceType
+- _type: class
+  children: []
+  module: azure.mgmt.media.models
+  name: azure.mgmt.media.models.EntityNameUnavailabilityReason
+  summary: ''
+  type: Class
+  uid: azure.mgmt.media.models.EntityNameUnavailabilityReason
+- _type: class
+  children: []
+  module: azure.mgmt.media.models
+  name: azure.mgmt.media.models.KeyType
+  summary: ''
+  type: Class
+  uid: azure.mgmt.media.models.KeyType

@@ -1,0 +1,748 @@
+items:
+- _type: module
+  children:
+  - azure.mgmt.monitor.models.Resource
+  - azure.mgmt.monitor.models.ScaleCapacity
+  - azure.mgmt.monitor.models.MetricTrigger
+  - azure.mgmt.monitor.models.ScaleAction
+  - azure.mgmt.monitor.models.ScaleRule
+  - azure.mgmt.monitor.models.TimeWindow
+  - azure.mgmt.monitor.models.RecurrentSchedule
+  - azure.mgmt.monitor.models.Recurrence
+  - azure.mgmt.monitor.models.AutoscaleProfile
+  - azure.mgmt.monitor.models.EmailNotification
+  - azure.mgmt.monitor.models.WebhookNotification
+  - azure.mgmt.monitor.models.AutoscaleNotification
+  - azure.mgmt.monitor.models.AutoscaleSettingResource
+  - azure.mgmt.monitor.models.RetentionPolicy
+  - azure.mgmt.monitor.models.MetricSettings
+  - azure.mgmt.monitor.models.LogSettings
+  - azure.mgmt.monitor.models.ServiceDiagnosticSettings
+  - azure.mgmt.monitor.models.ServiceDiagnosticSettingsResource
+  - azure.mgmt.monitor.models.RuleCondition
+  - azure.mgmt.monitor.models.RuleDataSource
+  - azure.mgmt.monitor.models.RuleMetricDataSource
+  - azure.mgmt.monitor.models.RuleManagementEventClaimsDataSource
+  - azure.mgmt.monitor.models.RuleManagementEventDataSource
+  - azure.mgmt.monitor.models.ThresholdRuleCondition
+  - azure.mgmt.monitor.models.LocationThresholdRuleCondition
+  - azure.mgmt.monitor.models.ManagementEventAggregationCondition
+  - azure.mgmt.monitor.models.ManagementEventRuleCondition
+  - azure.mgmt.monitor.models.RuleAction
+  - azure.mgmt.monitor.models.RuleEmailAction
+  - azure.mgmt.monitor.models.RuleWebhookAction
+  - azure.mgmt.monitor.models.AlertRuleResource
+  - azure.mgmt.monitor.models.Incident
+  - azure.mgmt.monitor.models.LogProfileProperties
+  - azure.mgmt.monitor.models.LogProfileResource
+  - azure.mgmt.monitor.models.AutoscaleSettingResourcePaged
+  - azure.mgmt.monitor.models.AlertRuleResourcePaged
+  - azure.mgmt.monitor.models.IncidentPaged
+  - azure.mgmt.monitor.models.LogProfileResourcePaged
+  - azure.mgmt.monitor.models.MetricStatisticType
+  - azure.mgmt.monitor.models.TimeAggregationType
+  - azure.mgmt.monitor.models.ComparisonOperationType
+  - azure.mgmt.monitor.models.ScaleDirection
+  - azure.mgmt.monitor.models.ScaleType
+  - azure.mgmt.monitor.models.RecurrenceFrequency
+  - azure.mgmt.monitor.models.ConditionOperator
+  - azure.mgmt.monitor.models.TimeAggregationOperator
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.monitor.models
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.Resource
+  summary: 'An azure resource object.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar id: Azure resource Id
+
+    :vartype id: str
+
+    :param name: Azure resource name
+
+    :type name: str
+
+    :ivar type: Azure resource type
+
+    :vartype type: str
+
+    :param location: Resource location
+
+    :type location: str
+
+    :param tags: Resource tags
+
+    :type tags: dict
+
+    '
+  type: Class
+  uid: azure.mgmt.monitor.models.Resource
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.ScaleCapacity
+  summary: "The number of instances that can be used during this profile.\n\n:param\
+    \ minimum: the minimum number of instances for the resource.\n:type minimum: str\n\
+    :param maximum: the maximum number of instances for the resource. The\n actual\
+    \ maximum number of instances is limited by the cores that are\n available in\
+    \ the subscription.\n:type maximum: str\n:param default: the number of instances\
+    \ that will be set if metrics are\n not available for evaluation. The default\
+    \ is only used if the current\n instance count is lower than the default.\n:type\
+    \ default: str\n"
+  type: Class
+  uid: azure.mgmt.monitor.models.ScaleCapacity
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.MetricTrigger
+  summary: "The trigger that results in a scaling action.\n\n:param metric_name: the\
+    \ name of the metric that defines what the rule\n monitors.\n:type metric_name:\
+    \ str\n:param metric_resource_uri: the resource identifier of the resource the\n\
+    \ rule monitors.\n:type metric_resource_uri: str\n:param time_grain: the granularity\
+    \ of metrics the rule monitors. Must be\n one of the predefined values returned\
+    \ from metric definitions for the\n metric. Must be between 12 hours and 1 minute.\n\
+    :type time_grain: timedelta\n:param statistic: the metric statistic type. How\
+    \ the metrics from multiple\n instances are combined. Possible values include:\
+    \ 'Average', 'Min', 'Max',\n 'Sum'\n:type statistic: str or :class:`MetricStatisticType\n\
+    \ <azure.mgmt.monitor.models.MetricStatisticType>`\n:param time_window: the range\
+    \ of time in which instance data is collected.\n This value must be greater than\
+    \ the delay in metric collection, which can\n vary from resource-to-resource.\
+    \ Must be between 12 hours and 5 minutes.\n:type time_window: timedelta\n:param\
+    \ time_aggregation: time aggregation type. How the data that is\n collected should\
+    \ be combined over time. The default value is Average.\n Possible values include:\
+    \ 'Average', 'Minimum', 'Maximum', 'Total', 'Count'\n:type time_aggregation: str\
+    \ or :class:`TimeAggregationType\n <azure.mgmt.monitor.models.TimeAggregationType>`\n\
+    :param operator: the operator that is used to compare the metric data and\n the\
+    \ threshold. Possible values include: 'Equals', 'NotEquals',\n 'GreaterThan',\
+    \ 'GreaterThanOrEqual', 'LessThan', 'LessThanOrEqual'\n:type operator: str or\
+    \ :class:`ComparisonOperationType\n <azure.mgmt.monitor.models.ComparisonOperationType>`\n\
+    :param threshold: the threshold of the metric that triggers the scale\n action.\n\
+    :type threshold: float\n"
+  type: Class
+  uid: azure.mgmt.monitor.models.MetricTrigger
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.ScaleAction
+  summary: "The parameters for the scaling action.\n\n:param direction: the scale\
+    \ direction. Whether the scaling action\n increases or decreases the number of\
+    \ instances. Possible values include:\n 'None', 'Increase', 'Decrease'\n:type\
+    \ direction: str or :class:`ScaleDirection\n <azure.mgmt.monitor.models.ScaleDirection>`\n\
+    :param type: the type of action that should occur when the scale rule\n fires.\
+    \ Possible values include: 'ChangeCount', 'PercentChangeCount',\n 'ExactCount'\n\
+    :type type: str or :class:`ScaleType\n <azure.mgmt.monitor.models.ScaleType>`\n\
+    :param value: the number of instances that are involved in the scaling\n action.\
+    \ This value must be 1 or greater. The default value is 1. Default\n value: \"\
+    1\" .\n:type value: str\n:param cooldown: the amount of time to wait since the\
+    \ last scaling action\n before this action occurs. It must be between 1 week and\
+    \ 1 minute in ISO\n 8601 format.\n:type cooldown: timedelta\n"
+  type: Class
+  uid: azure.mgmt.monitor.models.ScaleAction
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.ScaleRule
+  summary: "A rule that provide the triggers and parameters for the scaling action.\n\
+    \n:param metric_trigger: the trigger that results in a scaling action.\n:type\
+    \ metric_trigger: :class:`MetricTrigger\n <azure.mgmt.monitor.models.MetricTrigger>`\n\
+    :param scale_action: the parameters for the scaling action.\n:type scale_action:\
+    \ :class:`ScaleAction\n <azure.mgmt.monitor.models.ScaleAction>`\n"
+  type: Class
+  uid: azure.mgmt.monitor.models.ScaleRule
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.TimeWindow
+  summary: "A specific date-time for the profile.\n\n:param time_zone: the time zone\
+    \ of the start and end times for the\n profile. See examples of valid timezone\
+    \ ids over here:\n https://msdn.microsoft.com/en-us/library/azure/dn931928.aspx\n\
+    :type time_zone: str\n:param start: the start time for the profile in ISO 8601\
+    \ format.\n:type start: datetime\n:param end: the end time for the profile in\
+    \ ISO 8601 format.\n:type end: datetime\n"
+  type: Class
+  uid: azure.mgmt.monitor.models.TimeWindow
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.RecurrentSchedule
+  summary: "The scheduling constraints for when the profile begins.\n\n:param time_zone:\
+    \ the time zone for the hours of the profile. See examples\n of valid timezone\
+    \ are: Dateline Standard Time, UTC-11, Hawaiian Standard\n Time, Alaskan Standard\
+    \ Time, Pacific Standard Time (Mexico), Pacific\n Standard Time, US Mountain Standard\
+    \ Time, Mountain Standard Time (Mexico),\n Mountain Standard Time, Central America\
+    \ Standard Time, Central Standard\n Time, Central Standard Time (Mexico), Canada\
+    \ Central Standard Time, SA\n Pacific Standard Time, Eastern Standard Time, US\
+    \ Eastern Standard Time,\n Venezuela Standard Time, Paraguay Standard Time, Atlantic\
+    \ Standard Time,\n Central Brazilian Standard Time, SA Western Standard Time,\
+    \ Pacific SA\n Standard Time, Newfoundland Standard Time, E. South America Standard\
+    \ Time,\n Argentina Standard Time, SA Eastern Standard Time, Greenland Standard\n\
+    \ Time, Montevideo Standard Time, Bahia Standard Time, UTC-02, Mid-Atlantic\n\
+    \ Standard Time, Azores Standard Time, Cape Verde Standard Time, Morocco\n Standard\
+    \ Time, UTC, GMT Standard Time, Greenwich Standard Time, W. Europe\n Standard\
+    \ Time, Central Europe Standard Time, Romance Standard Time,\n Central European\
+    \ Standard Time, W. Central Africa Standard Time, Namibia\n Standard Time, Jordan\
+    \ Standard Time, GTB Standard Time, Middle East\n Standard Time, Egypt Standard\
+    \ Time, Syria Standard Time, E. Europe\n Standard Time, South Africa Standard\
+    \ Time, FLE Standard Time, Turkey\n Standard Time, Israel Standard Time, Kaliningrad\
+    \ Standard Time, Libya\n Standard Time, Arabic Standard Time, Arab Standard Time,\
+    \ Belarus Standard\n Time, Russian Standard Time, E. Africa Standard Time, Iran\
+    \ Standard Time,\n Arabian Standard Time, Azerbaijan Standard Time, Russia Time\
+    \ Zone 3,\n Mauritius Standard Time, Georgian Standard Time, Caucasus Standard\
+    \ Time,\n Afghanistan Standard Time, West Asia Standard Time, Ekaterinburg Standard\n\
+    \ Time, Pakistan Standard Time, India Standard Time, Sri Lanka Standard\n Time,\
+    \ Nepal Standard Time, Central Asia Standard Time, Bangladesh Standard\n Time,\
+    \ N. Central Asia Standard Time, Myanmar Standard Time, SE Asia\n Standard Time,\
+    \ North Asia Standard Time, China Standard Time, North Asia\n East Standard Time,\
+    \ Singapore Standard Time, W. Australia Standard Time,\n Taipei Standard Time,\
+    \ Ulaanbaatar Standard Time, Tokyo Standard Time,\n Korea Standard Time, Yakutsk\
+    \ Standard Time, Cen. Australia Standard Time,\n AUS Central Standard Time, E.\
+    \ Australia Standard Time, AUS Eastern\n Standard Time, West Pacific Standard\
+    \ Time, Tasmania Standard Time, Magadan\n Standard Time, Vladivostok Standard\
+    \ Time, Russia Time Zone 10, Central\n Pacific Standard Time, Russia Time Zone\
+    \ 11, New Zealand Standard Time,\n UTC+12, Fiji Standard Time, Kamchatka Standard\
+    \ Time, Tonga Standard Time,\n Samoa Standard Time, Line Islands Standard Time\n\
+    :type time_zone: str\n:param days: the collection of days that the profile takes\
+    \ effect on.\n Possible values are Sunday through Saturday.\n:type days: list\
+    \ of str\n:param hours: A collection of hours that the profile takes effect on.\n\
+    \ Values supported are 0 to 23 on the 24-hour clock (AM/PM times are not\n supported).\n\
+    :type hours: list of int\n:param minutes: A collection of minutes at which the\
+    \ profile takes effect\n at.\n:type minutes: list of int\n"
+  type: Class
+  uid: azure.mgmt.monitor.models.RecurrentSchedule
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.Recurrence
+  summary: "The repeating times at which this profile begins. This element is not\
+    \ used\nif the FixedDate element is used.\n\n:param frequency: the recurrence\
+    \ frequency. How often the schedule profile\n should take effect. This value must\
+    \ be Week, meaning each week will have\n the same set of profiles. Possible values\
+    \ include: 'None', 'Second',\n 'Minute', 'Hour', 'Day', 'Week', 'Month', 'Year'\n\
+    :type frequency: str or :class:`RecurrenceFrequency\n <azure.mgmt.monitor.models.RecurrenceFrequency>`\n\
+    :param schedule: the scheduling constraints for when the profile begins.\n:type\
+    \ schedule: :class:`RecurrentSchedule\n <azure.mgmt.monitor.models.RecurrentSchedule>`\n"
+  type: Class
+  uid: azure.mgmt.monitor.models.Recurrence
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.AutoscaleProfile
+  summary: "Autoscale profile.\n\n:param name: the name of the profile.\n:type name:\
+    \ str\n:param capacity: the number of instances that can be used during this\n\
+    \ profile.\n:type capacity: :class:`ScaleCapacity\n <azure.mgmt.monitor.models.ScaleCapacity>`\n\
+    :param rules: the collection of rules that provide the triggers and\n parameters\
+    \ for the scaling action. A maximum of 10 rules can be specified.\n:type rules:\
+    \ list of :class:`ScaleRule\n <azure.mgmt.monitor.models.ScaleRule>`\n:param fixed_date:\
+    \ the specific date-time for the profile. This element is\n not used if the Recurrence\
+    \ element is used.\n:type fixed_date: :class:`TimeWindow\n <azure.mgmt.monitor.models.TimeWindow>`\n\
+    :param recurrence: the repeating times at which this profile begins. This\n element\
+    \ is not used if the FixedDate element is used.\n:type recurrence: :class:`Recurrence\n\
+    \ <azure.mgmt.monitor.models.Recurrence>`\n"
+  type: Class
+  uid: azure.mgmt.monitor.models.AutoscaleProfile
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.EmailNotification
+  summary: "Email notification of an autoscale event.\n\n:param send_to_subscription_administrator:\
+    \ a value indicating whether to\n send email to subscription administrator.\n\
+    :type send_to_subscription_administrator: bool\n:param send_to_subscription_co_administrators:\
+    \ a value indicating whether\n to send email to subscription co-administrators.\n\
+    :type send_to_subscription_co_administrators: bool\n:param custom_emails: the\
+    \ custom e-mails list. This value can be null or\n empty, in which case this attribute\
+    \ will be ignored.\n:type custom_emails: list of str\n"
+  type: Class
+  uid: azure.mgmt.monitor.models.EmailNotification
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.WebhookNotification
+  summary: 'Webhook notification of an autoscale event.
+
+
+    :param service_uri: the service address to receive the notification.
+
+    :type service_uri: str
+
+    :param properties: a property bag of settings. This value can be empty.
+
+    :type properties: dict
+
+    '
+  type: Class
+  uid: azure.mgmt.monitor.models.WebhookNotification
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.AutoscaleNotification
+  summary: "Autoscale notification.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:ivar operation: the operation\
+    \ associated with the notification and its\n value must be \"scale\". Default\
+    \ value: \"Scale\" .\n:vartype operation: str\n:param email: the email notification.\n\
+    :type email: :class:`EmailNotification\n <azure.mgmt.monitor.models.EmailNotification>`\n\
+    :param webhooks: the collection of webhook notifications.\n:type webhooks: list\
+    \ of :class:`WebhookNotification\n <azure.mgmt.monitor.models.WebhookNotification>`\n"
+  type: Class
+  uid: azure.mgmt.monitor.models.AutoscaleNotification
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.AutoscaleSettingResource
+  summary: "The autoscale setting resource.\n\nVariables are only populated by the\
+    \ server, and will be ignored when\nsending a request.\n\n:ivar id: Azure resource\
+    \ Id\n:vartype id: str\n:param name: Azure resource name\n:type name: str\n:ivar\
+    \ type: Azure resource type\n:vartype type: str\n:param location: Resource location\n\
+    :type location: str\n:param tags: Resource tags\n:type tags: dict\n:param profiles:\
+    \ the collection of automatic scaling profiles that specify\n different scaling\
+    \ parameters for different time periods. A maximum of 20\n profiles can be specified.\n\
+    :type profiles: list of :class:`AutoscaleProfile\n <azure.mgmt.monitor.models.AutoscaleProfile>`\n\
+    :param notifications: the collection of notifications.\n:type notifications: list\
+    \ of :class:`AutoscaleNotification\n <azure.mgmt.monitor.models.AutoscaleNotification>`\n\
+    :param enabled: the enabled flag. Specifies whether automatic scaling is\n enabled\
+    \ for the resource. The default value is 'true'. Default value: True\n .\n:type\
+    \ enabled: bool\n:param autoscale_setting_resource_name: the name of the autoscale\
+    \ setting.\n:type autoscale_setting_resource_name: str\n:param target_resource_uri:\
+    \ the resource identifier of the resource that\n the autoscale setting should\
+    \ be added to.\n:type target_resource_uri: str\n"
+  type: Class
+  uid: azure.mgmt.monitor.models.AutoscaleSettingResource
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.RetentionPolicy
+  summary: "Specifies the retention policy for the log.\n\n:param enabled: a value\
+    \ indicating whether the retention policy is\n enabled.\n:type enabled: bool\n\
+    :param days: the number of days for the retention in days. A value of 0\n will\
+    \ retain the events indefinitely.\n:type days: int\n"
+  type: Class
+  uid: azure.mgmt.monitor.models.RetentionPolicy
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.MetricSettings
+  summary: "Part of MultiTenantDiagnosticSettings. Specifies the settings for a\n\
+    particular metric.\n\n:param time_grain: the timegrain of the metric in ISO8601\
+    \ format.\n:type time_grain: timedelta\n:param enabled: a value indicating whether\
+    \ this timegrain is enabled.\n:type enabled: bool\n:param retention_policy: the\
+    \ retention policy for this timegrain.\n:type retention_policy: :class:`RetentionPolicy\n\
+    \ <azure.mgmt.monitor.models.RetentionPolicy>`\n"
+  type: Class
+  uid: azure.mgmt.monitor.models.MetricSettings
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.LogSettings
+  summary: "Part of MultiTenantDiagnosticSettings. Specifies the settings for a\n\
+    particular log.\n\n:param category: Name of a Diagnostic Log category for a resource\
+    \ type\n this setting is applied to. To obtain the list of Diagnostic Log\n categories\
+    \ for a resource, first perform a GET diagnostic settings\n operation.\n:type\
+    \ category: str\n:param enabled: a value indicating whether this log is enabled.\n\
+    :type enabled: bool\n:param retention_policy: the retention policy for this log.\n\
+    :type retention_policy: :class:`RetentionPolicy\n <azure.mgmt.monitor.models.RetentionPolicy>`\n"
+  type: Class
+  uid: azure.mgmt.monitor.models.LogSettings
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.ServiceDiagnosticSettings
+  summary: "The diagnostic settings for service.\n\n:param storage_account_id: The\
+    \ resource ID of the storage account to which\n you would like to send Diagnostic\
+    \ Logs.\n:type storage_account_id: str\n:param service_bus_rule_id: The service\
+    \ bus rule ID of the service bus\n namespace in which you would like to have Event\
+    \ Hubs created for streaming\n Diagnostic Logs. The rule ID is of the format:\
+    \ '{service bus resource\n ID}/authorizationrules/{key name}'.\n:type service_bus_rule_id:\
+    \ str\n:param metrics: the list of metric settings.\n:type metrics: list of :class:`MetricSettings\n\
+    \ <azure.mgmt.monitor.models.MetricSettings>`\n:param logs: the list of logs settings.\n\
+    :type logs: list of :class:`LogSettings\n <azure.mgmt.monitor.models.LogSettings>`\n\
+    :param workspace_id: The workspace ID (resource ID of a Log Analytics\n workspace)\
+    \ for a Log Analytics workspace to which you would like to send\n Diagnostic Logs.\
+    \ Example:\n /subscriptions/4b9e8510-67ab-4e9a-95a9-e2f1e570ea9c/resourceGroups/insights-integration/providers/Microsoft.OperationalInsights/workspaces/viruela2\n\
+    :type workspace_id: str\n"
+  type: Class
+  uid: azure.mgmt.monitor.models.ServiceDiagnosticSettings
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.ServiceDiagnosticSettingsResource
+  summary: "Description of a service diagnostic setting.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar id: Azure\
+    \ resource Id\n:vartype id: str\n:param name: Azure resource name\n:type name:\
+    \ str\n:ivar type: Azure resource type\n:vartype type: str\n:param location: Resource\
+    \ location\n:type location: str\n:param tags: Resource tags\n:type tags: dict\n\
+    :param storage_account_id: The resource ID of the storage account to which\n you\
+    \ would like to send Diagnostic Logs.\n:type storage_account_id: str\n:param service_bus_rule_id:\
+    \ The service bus rule ID of the service bus\n namespace in which you would like\
+    \ to have Event Hubs created for streaming\n Diagnostic Logs. The rule ID is of\
+    \ the format: '{service bus resource\n ID}/authorizationrules/{key name}'.\n:type\
+    \ service_bus_rule_id: str\n:param metrics: the list of metric settings.\n:type\
+    \ metrics: list of :class:`MetricSettings\n <azure.mgmt.monitor.models.MetricSettings>`\n\
+    :param logs: the list of logs settings.\n:type logs: list of :class:`LogSettings\n\
+    \ <azure.mgmt.monitor.models.LogSettings>`\n:param workspace_id: The workspace\
+    \ ID (resource ID of a Log Analytics\n workspace) for a Log Analytics workspace\
+    \ to which you would like to send\n Diagnostic Logs. Example:\n /subscriptions/4b9e8510-67ab-4e9a-95a9-e2f1e570ea9c/resourceGroups/insights-integration/providers/Microsoft.OperationalInsights/workspaces/viruela2\n\
+    :type workspace_id: str\n"
+  type: Class
+  uid: azure.mgmt.monitor.models.ServiceDiagnosticSettingsResource
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.RuleCondition
+  summary: 'The condition that results in the alert rule being activated.
+
+
+    :param odatatype: Polymorphic Discriminator
+
+    :type odatatype: str
+
+    '
+  type: Class
+  uid: azure.mgmt.monitor.models.RuleCondition
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.RuleDataSource
+  summary: 'The resource from which the rule collects its data.
+
+
+    :param odatatype: Polymorphic Discriminator
+
+    :type odatatype: str
+
+    '
+  type: Class
+  uid: azure.mgmt.monitor.models.RuleDataSource
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.RuleMetricDataSource
+  summary: "A rule metric data source. The discriminator value is always\nRuleMetricDataSource\
+    \ in this case.\n\n:param odatatype: Polymorphic Discriminator\n:type odatatype:\
+    \ str\n:param resource_uri: the resource identifier of the resource the rule\n\
+    \ monitors.\n:type resource_uri: str\n:param metric_name: the name of the metric\
+    \ that defines what the rule\n monitors.\n:type metric_name: str\n"
+  type: Class
+  uid: azure.mgmt.monitor.models.RuleMetricDataSource
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.RuleManagementEventClaimsDataSource
+  summary: 'The claims for a rule management event data source.
+
+
+    :param email_address: the email address.
+
+    :type email_address: str
+
+    '
+  type: Class
+  uid: azure.mgmt.monitor.models.RuleManagementEventClaimsDataSource
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.RuleManagementEventDataSource
+  summary: "A rule management event data source. The discriminator fields is always\n\
+    RuleManagementEventDataSource in this case.\n\n:param odatatype: Polymorphic Discriminator\n\
+    :type odatatype: str\n:param event_name: the event name.\n:type event_name: str\n\
+    :param event_source: the event source.\n:type event_source: str\n:param level:\
+    \ the level.\n:type level: str\n:param operation_name: The name of the operation\
+    \ that should be checked\n for. If no name is provided, any operation will match.\n\
+    :type operation_name: str\n:param resource_group_name: the resource group name.\n\
+    :type resource_group_name: str\n:param resource_provider_name: the resource provider\
+    \ name.\n:type resource_provider_name: str\n:param resource_uri: the resource\
+    \ uri.\n:type resource_uri: str\n:param status: The status of the operation that\
+    \ should be checked for. If\n no status is provided, any status will match.\n\
+    :type status: str\n:param sub_status: the substatus.\n:type sub_status: str\n\
+    :param claims: the claims.\n:type claims: :class:`RuleManagementEventClaimsDataSource\n\
+    \ <azure.mgmt.monitor.models.RuleManagementEventClaimsDataSource>`\n"
+  type: Class
+  uid: azure.mgmt.monitor.models.RuleManagementEventDataSource
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.ThresholdRuleCondition
+  summary: "A rule condition based on a metric crossing a threshold.\n\n:param odatatype:\
+    \ Polymorphic Discriminator\n:type odatatype: str\n:param data_source: the resource\
+    \ from which the rule collects its data.\n For this type dataSource will always\
+    \ be of type RuleMetricDataSource.\n:type data_source: :class:`RuleDataSource\n\
+    \ <azure.mgmt.monitor.models.RuleDataSource>`\n:param operator: the operator used\
+    \ to compare the data and the threshold.\n Possible values include: 'GreaterThan',\
+    \ 'GreaterThanOrEqual', 'LessThan',\n 'LessThanOrEqual'\n:type operator: str or\
+    \ :class:`ConditionOperator\n <azure.mgmt.monitor.models.ConditionOperator>`\n\
+    :param threshold: the threshold value that activates the alert.\n:type threshold:\
+    \ float\n:param window_size: the period of time (in ISO 8601 duration format)\
+    \ that\n is used to monitor alert activity based on the threshold. If specified\n\
+    \ then it must be between 5 minutes and 1 day.\n:type window_size: timedelta\n\
+    :param time_aggregation: the time aggregation operator. How the data that\n are\
+    \ collected should be combined over time. The default value is the\n PrimaryAggregationType\
+    \ of the Metric. Possible values include: 'Average',\n 'Minimum', 'Maximum', 'Total',\
+    \ 'Last'\n:type time_aggregation: str or :class:`TimeAggregationOperator\n <azure.mgmt.monitor.models.TimeAggregationOperator>`\n"
+  type: Class
+  uid: azure.mgmt.monitor.models.ThresholdRuleCondition
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.LocationThresholdRuleCondition
+  summary: "A rule condition based on a certain number of locations failing.\n\n:param\
+    \ odatatype: Polymorphic Discriminator\n:type odatatype: str\n:param data_source:\
+    \ the resource from which the rule collects its data.\n For this type dataSource\
+    \ will always be of type RuleMetricDataSource.\n:type data_source: :class:`RuleDataSource\n\
+    \ <azure.mgmt.monitor.models.RuleDataSource>`\n:param window_size: the period\
+    \ of time (in ISO 8601 duration format) that\n is used to monitor alert activity\
+    \ based on the threshold. If specified\n then it must be between 5 minutes and\
+    \ 1 day.\n:type window_size: timedelta\n:param failed_location_count: the number\
+    \ of locations that must fail to\n activate the alert.\n:type failed_location_count:\
+    \ int\n"
+  type: Class
+  uid: azure.mgmt.monitor.models.LocationThresholdRuleCondition
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.ManagementEventAggregationCondition
+  summary: "How the data that is collected should be combined over time.\n\n:param\
+    \ operator: the condition operator. Possible values include:\n 'GreaterThan',\
+    \ 'GreaterThanOrEqual', 'LessThan', 'LessThanOrEqual'\n:type operator: str or\
+    \ :class:`ConditionOperator\n <azure.mgmt.monitor.models.ConditionOperator>`\n\
+    :param threshold: The threshold value that activates the alert.\n:type threshold:\
+    \ float\n:param window_size: the period of time (in ISO 8601 duration format)\
+    \ that\n is used to monitor alert activity based on the threshold. If specified\n\
+    \ then it must be between 5 minutes and 1 day.\n:type window_size: timedelta\n"
+  type: Class
+  uid: azure.mgmt.monitor.models.ManagementEventAggregationCondition
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.ManagementEventRuleCondition
+  summary: "A management event rule condition.\n\n:param odatatype: Polymorphic Discriminator\n\
+    :type odatatype: str\n:param data_source: the resource from which the rule collects\
+    \ its data.\n For this type dataSource will always be of type\n RuleManagementEventDataSource.\n\
+    :type data_source: :class:`RuleDataSource\n <azure.mgmt.monitor.models.RuleDataSource>`\n\
+    :param aggregation: How the data that is collected should be combined over\n time\
+    \ and when the alert is activated. Note that for management event\n alerts aggregation\
+    \ is optional \u2013 if it is not provided then any event will\n cause the alert\
+    \ to activate.\n:type aggregation: :class:`ManagementEventAggregationCondition\n\
+    \ <azure.mgmt.monitor.models.ManagementEventAggregationCondition>`\n"
+  type: Class
+  uid: azure.mgmt.monitor.models.ManagementEventRuleCondition
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.RuleAction
+  summary: 'The action that is performed when the alert rule becomes active, and when
+
+    an alert condition is resolved.
+
+
+    :param odatatype: Polymorphic Discriminator
+
+    :type odatatype: str
+
+    '
+  type: Class
+  uid: azure.mgmt.monitor.models.RuleAction
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.RuleEmailAction
+  summary: "Specifies the action to send email when the rule condition is evaluated.\n\
+    The discriminator is always RuleEmailAction in this case.\n\n:param odatatype:\
+    \ Polymorphic Discriminator\n:type odatatype: str\n:param send_to_service_owners:\
+    \ Whether the administrators (service and\n co-adiminstrators) of the service\
+    \ should be notified when the alert is\n activated.\n:type send_to_service_owners:\
+    \ bool\n:param custom_emails: the list of administrator's custom email addresses\n\
+    \ notifiy of the activation of the alert.\n:type custom_emails: list of str\n"
+  type: Class
+  uid: azure.mgmt.monitor.models.RuleEmailAction
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.RuleWebhookAction
+  summary: "Specifies the action to post to service when the rule condition is\nevaluated.\
+    \ The discriminator is always RuleWebhookAction in this case.\n\n:param odatatype:\
+    \ Polymorphic Discriminator\n:type odatatype: str\n:param service_uri: the service\
+    \ uri to Post the notitication when the\n alert activates or resolves.\n:type\
+    \ service_uri: str\n:param properties: the dictionary of custom properties to\
+    \ include with the\n post operation. These data are appended to the webhook payload.\n\
+    :type properties: dict\n"
+  type: Class
+  uid: azure.mgmt.monitor.models.RuleWebhookAction
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.AlertRuleResource
+  summary: "The alert rule resource.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:ivar id: Azure resource Id\n\
+    :vartype id: str\n:param name: Azure resource name\n:type name: str\n:ivar type:\
+    \ Azure resource type\n:vartype type: str\n:param location: Resource location\n\
+    :type location: str\n:param tags: Resource tags\n:type tags: dict\n:param alert_rule_resource_name:\
+    \ the name of the alert rule.\n:type alert_rule_resource_name: str\n:param description:\
+    \ the description of the alert rule that will be\n included in the alert email.\n\
+    :type description: str\n:param is_enabled: the flag that indicates whether the\
+    \ alert rule is\n enabled.\n:type is_enabled: bool\n:param condition: the condition\
+    \ that results in the alert rule being\n activated.\n:type condition: :class:`RuleCondition\n\
+    \ <azure.mgmt.monitor.models.RuleCondition>`\n:param actions: the array of actions\
+    \ that are performed when the alert\n rule becomes active, and when an alert condition\
+    \ is resolved.\n:type actions: list of :class:`RuleAction\n <azure.mgmt.monitor.models.RuleAction>`\n\
+    :ivar last_updated_time: Last time the rule was updated in ISO8601 format.\n:vartype\
+    \ last_updated_time: datetime\n"
+  type: Class
+  uid: azure.mgmt.monitor.models.AlertRuleResource
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.Incident
+  summary: "An alert incident indicates the activation status of an alert rule.\n\n\
+    Variables are only populated by the server, and will be ignored when\nsending\
+    \ a request.\n\n:ivar name: Incident name.\n:vartype name: str\n:ivar rule_name:\
+    \ Rule name that is associated with the incident.\n:vartype rule_name: str\n:ivar\
+    \ is_active: A boolean to indicate whether the incident is active or\n resolved.\n\
+    :vartype is_active: bool\n:ivar activated_time: The time at which the incident\
+    \ was activated in\n ISO8601 format.\n:vartype activated_time: datetime\n:ivar\
+    \ resolved_time: The time at which the incident was resolved in\n ISO8601 format.\
+    \ If null, it means the incident is still active.\n:vartype resolved_time: datetime\n"
+  type: Class
+  uid: azure.mgmt.monitor.models.Incident
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.LogProfileProperties
+  summary: "The log profile properties.\n\n:param storage_account_id: the resource\
+    \ id of the storage account to which\n you would like to send the Activity Log.\n\
+    :type storage_account_id: str\n:param service_bus_rule_id: The service bus rule\
+    \ ID of the service bus\n namespace in which you would like to have Event Hubs\
+    \ created for streaming\n the Activity Log. The rule ID is of the format: '{service\
+    \ bus resource\n ID}/authorizationrules/{key name}'.\n:type service_bus_rule_id:\
+    \ str\n:param locations: List of regions for which Activity Log events should\
+    \ be\n stored or streamed. It is a comma separated list of valid ARM locations\n\
+    \ including the 'global' location.\n:type locations: list of str\n:param categories:\
+    \ the categories of the logs. These categories are\n created as is convenient\
+    \ to the user. Some values are: 'Write', 'Delete',\n and/or 'Action.'\n:type categories:\
+    \ list of str\n:param retention_policy: the retention policy for the events in\
+    \ the log.\n:type retention_policy: :class:`RetentionPolicy\n <azure.mgmt.monitor.models.RetentionPolicy>`\n"
+  type: Class
+  uid: azure.mgmt.monitor.models.LogProfileProperties
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.LogProfileResource
+  summary: "The log profile resource.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:ivar id: Azure resource Id\n\
+    :vartype id: str\n:param name: Azure resource name\n:type name: str\n:ivar type:\
+    \ Azure resource type\n:vartype type: str\n:param location: Resource location\n\
+    :type location: str\n:param tags: Resource tags\n:type tags: dict\n:param storage_account_id:\
+    \ the resource id of the storage account to which\n you would like to send the\
+    \ Activity Log.\n:type storage_account_id: str\n:param service_bus_rule_id: The\
+    \ service bus rule ID of the service bus\n namespace in which you would like to\
+    \ have Event Hubs created for streaming\n the Activity Log. The rule ID is of\
+    \ the format: '{service bus resource\n ID}/authorizationrules/{key name}'.\n:type\
+    \ service_bus_rule_id: str\n:param locations: List of regions for which Activity\
+    \ Log events should be\n stored or streamed. It is a comma separated list of valid\
+    \ ARM locations\n including the 'global' location.\n:type locations: list of str\n\
+    :param categories: the categories of the logs. These categories are\n created\
+    \ as is convenient to the user. Some values are: 'Write', 'Delete',\n and/or 'Action.'\n\
+    :type categories: list of str\n:param retention_policy: the retention policy for\
+    \ the events in the log.\n:type retention_policy: :class:`RetentionPolicy\n <azure.mgmt.monitor.models.RetentionPolicy>`\n"
+  type: Class
+  uid: azure.mgmt.monitor.models.LogProfileResource
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.AutoscaleSettingResourcePaged
+  summary: 'A paging container for iterating over a list of AutoscaleSettingResource
+    object
+
+    '
+  type: Class
+  uid: azure.mgmt.monitor.models.AutoscaleSettingResourcePaged
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.AlertRuleResourcePaged
+  summary: 'A paging container for iterating over a list of AlertRuleResource object
+
+    '
+  type: Class
+  uid: azure.mgmt.monitor.models.AlertRuleResourcePaged
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.IncidentPaged
+  summary: 'A paging container for iterating over a list of Incident object
+
+    '
+  type: Class
+  uid: azure.mgmt.monitor.models.IncidentPaged
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.LogProfileResourcePaged
+  summary: 'A paging container for iterating over a list of LogProfileResource object
+
+    '
+  type: Class
+  uid: azure.mgmt.monitor.models.LogProfileResourcePaged
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.MetricStatisticType
+  summary: ''
+  type: Class
+  uid: azure.mgmt.monitor.models.MetricStatisticType
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.TimeAggregationType
+  summary: ''
+  type: Class
+  uid: azure.mgmt.monitor.models.TimeAggregationType
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.ComparisonOperationType
+  summary: ''
+  type: Class
+  uid: azure.mgmt.monitor.models.ComparisonOperationType
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.ScaleDirection
+  summary: ''
+  type: Class
+  uid: azure.mgmt.monitor.models.ScaleDirection
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.ScaleType
+  summary: ''
+  type: Class
+  uid: azure.mgmt.monitor.models.ScaleType
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.RecurrenceFrequency
+  summary: ''
+  type: Class
+  uid: azure.mgmt.monitor.models.RecurrenceFrequency
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.ConditionOperator
+  summary: ''
+  type: Class
+  uid: azure.mgmt.monitor.models.ConditionOperator
+- _type: class
+  children: []
+  module: azure.mgmt.monitor.models
+  name: azure.mgmt.monitor.models.TimeAggregationOperator
+  summary: ''
+  type: Class
+  uid: azure.mgmt.monitor.models.TimeAggregationOperator

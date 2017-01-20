@@ -1,0 +1,588 @@
+items:
+- _type: module
+  children:
+  - azure.mgmt.scheduler.models.JobCollectionDefinition
+  - azure.mgmt.scheduler.models.JobCollectionProperties
+  - azure.mgmt.scheduler.models.Sku
+  - azure.mgmt.scheduler.models.JobCollectionQuota
+  - azure.mgmt.scheduler.models.JobMaxRecurrence
+  - azure.mgmt.scheduler.models.JobDefinition
+  - azure.mgmt.scheduler.models.JobProperties
+  - azure.mgmt.scheduler.models.JobAction
+  - azure.mgmt.scheduler.models.HttpRequest
+  - azure.mgmt.scheduler.models.HttpAuthentication
+  - azure.mgmt.scheduler.models.StorageQueueMessage
+  - azure.mgmt.scheduler.models.ServiceBusQueueMessage
+  - azure.mgmt.scheduler.models.ServiceBusTopicMessage
+  - azure.mgmt.scheduler.models.RetryPolicy
+  - azure.mgmt.scheduler.models.JobErrorAction
+  - azure.mgmt.scheduler.models.JobRecurrence
+  - azure.mgmt.scheduler.models.JobRecurrenceSchedule
+  - azure.mgmt.scheduler.models.JobRecurrenceScheduleMonthlyOccurrence
+  - azure.mgmt.scheduler.models.JobStatus
+  - azure.mgmt.scheduler.models.JobHistoryDefinition
+  - azure.mgmt.scheduler.models.JobHistoryDefinitionProperties
+  - azure.mgmt.scheduler.models.ClientCertAuthentication
+  - azure.mgmt.scheduler.models.BasicAuthentication
+  - azure.mgmt.scheduler.models.OAuthAuthentication
+  - azure.mgmt.scheduler.models.ServiceBusMessage
+  - azure.mgmt.scheduler.models.ServiceBusAuthentication
+  - azure.mgmt.scheduler.models.ServiceBusBrokeredMessageProperties
+  - azure.mgmt.scheduler.models.JobStateFilter
+  - azure.mgmt.scheduler.models.JobHistoryFilter
+  - azure.mgmt.scheduler.models.JobCollectionDefinitionPaged
+  - azure.mgmt.scheduler.models.JobDefinitionPaged
+  - azure.mgmt.scheduler.models.JobHistoryDefinitionPaged
+  - azure.mgmt.scheduler.models.SkuDefinition
+  - azure.mgmt.scheduler.models.JobCollectionState
+  - azure.mgmt.scheduler.models.RecurrenceFrequency
+  - azure.mgmt.scheduler.models.JobActionType
+  - azure.mgmt.scheduler.models.HttpAuthenticationType
+  - azure.mgmt.scheduler.models.RetryType
+  - azure.mgmt.scheduler.models.DayOfWeek
+  - azure.mgmt.scheduler.models.JobScheduleDay
+  - azure.mgmt.scheduler.models.JobState
+  - azure.mgmt.scheduler.models.JobHistoryActionName
+  - azure.mgmt.scheduler.models.JobExecutionStatus
+  - azure.mgmt.scheduler.models.ServiceBusAuthenticationType
+  - azure.mgmt.scheduler.models.ServiceBusTransportType
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.scheduler.models
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.JobCollectionDefinition
+  summary: "JobCollectionDefinition.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:ivar id: Gets the job collection\
+    \ resource identifier.\n:vartype id: str\n:ivar type: Gets the job collection\
+    \ resource type.\n:vartype type: str\n:param name: Gets or sets the job collection\
+    \ resource name.\n:type name: str\n:param location: Gets or sets the storage account\
+    \ location.\n:type location: str\n:param tags: Gets or sets the tags.\n:type tags:\
+    \ dict\n:param properties: Gets or sets the job collection properties.\n:type\
+    \ properties: :class:`JobCollectionProperties\n <azure.mgmt.scheduler.models.JobCollectionProperties>`\n"
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobCollectionDefinition
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.JobCollectionProperties
+  summary: "JobCollectionProperties.\n\n:param sku: Gets or sets the SKU.\n:type sku:\
+    \ :class:`Sku <azure.mgmt.scheduler.models.Sku>`\n:param state: Gets or sets the\
+    \ state. Possible values include: 'Enabled',\n 'Disabled', 'Suspended', 'Deleted'\n\
+    :type state: str or :class:`JobCollectionState\n <azure.mgmt.scheduler.models.JobCollectionState>`\n\
+    :param quota: Gets or sets the job collection quota.\n:type quota: :class:`JobCollectionQuota\n\
+    \ <azure.mgmt.scheduler.models.JobCollectionQuota>`\n"
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobCollectionProperties
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.Sku
+  summary: "Sku.\n\n:param name: Gets or set the SKU. Possible values include: 'Standard',\n\
+    \ 'Free', 'P10Premium', 'P20Premium'\n:type name: str or :class:`SkuDefinition\n\
+    \ <azure.mgmt.scheduler.models.SkuDefinition>`\n"
+  type: Class
+  uid: azure.mgmt.scheduler.models.Sku
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.JobCollectionQuota
+  summary: "JobCollectionQuota.\n\n:param max_job_count: Gets or set the maximum job\
+    \ count.\n:type max_job_count: int\n:param max_job_occurrence: Gets or sets the\
+    \ maximum job occurrence.\n:type max_job_occurrence: int\n:param max_recurrence:\
+    \ Gets or set the maximum recurrence.\n:type max_recurrence: :class:`JobMaxRecurrence\n\
+    \ <azure.mgmt.scheduler.models.JobMaxRecurrence>`\n"
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobCollectionQuota
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.JobMaxRecurrence
+  summary: "JobMaxRecurrence.\n\n:param frequency: Gets or sets the frequency of recurrence\
+    \ (second,\n minute, hour, day, week, month). Possible values include: 'Minute',\n\
+    \ 'Hour', 'Day', 'Week', 'Month'\n:type frequency: str or :class:`RecurrenceFrequency\n\
+    \ <azure.mgmt.scheduler.models.RecurrenceFrequency>`\n:param interval: Gets or\
+    \ sets the interval between retries.\n:type interval: int\n"
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobMaxRecurrence
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.JobDefinition
+  summary: "JobDefinition.\n\nVariables are only populated by the server, and will\
+    \ be ignored when\nsending a request.\n\n:ivar id: Gets the job resource identifier.\n\
+    :vartype id: str\n:ivar type: Gets the job resource type.\n:vartype type: str\n\
+    :ivar name: Gets the job resource name.\n:vartype name: str\n:param properties:\
+    \ Gets or sets the job properties.\n:type properties: :class:`JobProperties\n\
+    \ <azure.mgmt.scheduler.models.JobProperties>`\n"
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobDefinition
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.JobProperties
+  summary: "JobProperties.\n\nVariables are only populated by the server, and will\
+    \ be ignored when\nsending a request.\n\n:param start_time: Gets or sets the job\
+    \ start time.\n:type start_time: datetime\n:param action: Gets or sets the job\
+    \ action.\n:type action: :class:`JobAction <azure.mgmt.scheduler.models.JobAction>`\n\
+    :param recurrence: Gets or sets the job recurrence.\n:type recurrence: :class:`JobRecurrence\n\
+    \ <azure.mgmt.scheduler.models.JobRecurrence>`\n:param state: Gets or set the\
+    \ job state. Possible values include:\n 'Enabled', 'Disabled', 'Faulted', 'Completed'\n\
+    :type state: str or :class:`JobState\n <azure.mgmt.scheduler.models.JobState>`\n\
+    :ivar status: Gets the job status.\n:vartype status: :class:`JobStatus\n <azure.mgmt.scheduler.models.JobStatus>`\n"
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobProperties
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.JobAction
+  summary: "JobAction.\n\n:param type: Gets or sets the job action type. Possible\
+    \ values include:\n 'Http', 'Https', 'StorageQueue', 'ServiceBusQueue', 'ServiceBusTopic'\n\
+    :type type: str or :class:`JobActionType\n <azure.mgmt.scheduler.models.JobActionType>`\n\
+    :param request: Gets or sets the http requests.\n:type request: :class:`HttpRequest\n\
+    \ <azure.mgmt.scheduler.models.HttpRequest>`\n:param queue_message: Gets or sets\
+    \ the storage queue message.\n:type queue_message: :class:`StorageQueueMessage\n\
+    \ <azure.mgmt.scheduler.models.StorageQueueMessage>`\n:param service_bus_queue_message:\
+    \ Gets or sets the service bus queue\n message.\n:type service_bus_queue_message:\
+    \ :class:`ServiceBusQueueMessage\n <azure.mgmt.scheduler.models.ServiceBusQueueMessage>`\n\
+    :param service_bus_topic_message: Gets or sets the service bus topic\n message.\n\
+    :type service_bus_topic_message: :class:`ServiceBusTopicMessage\n <azure.mgmt.scheduler.models.ServiceBusTopicMessage>`\n\
+    :param retry_policy: Gets or sets the retry policy.\n:type retry_policy: :class:`RetryPolicy\n\
+    \ <azure.mgmt.scheduler.models.RetryPolicy>`\n:param error_action: Gets or sets\
+    \ the error action.\n:type error_action: :class:`JobErrorAction\n <azure.mgmt.scheduler.models.JobErrorAction>`\n"
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobAction
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.HttpRequest
+  summary: "HttpRequest.\n\n:param authentication: Gets or sets the http authentication.\n\
+    :type authentication: :class:`HttpAuthentication\n <azure.mgmt.scheduler.models.HttpAuthentication>`\n\
+    :param uri: Gets or sets the Uri.\n:type uri: str\n:param method: Gets or sets\
+    \ the method of the request.\n:type method: str\n:param body: Gets or sets the\
+    \ request body.\n:type body: str\n:param headers: Gets or sets the headers.\n\
+    :type headers: dict\n"
+  type: Class
+  uid: azure.mgmt.scheduler.models.HttpRequest
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.HttpAuthentication
+  summary: "HttpAuthentication.\n\n:param type: Gets or sets the http authentication\
+    \ type. Possible values\n include: 'NotSpecified', 'ClientCertificate', 'ActiveDirectoryOAuth',\n\
+    \ 'Basic'\n:type type: str or :class:`HttpAuthenticationType\n <azure.mgmt.scheduler.models.HttpAuthenticationType>`\n"
+  type: Class
+  uid: azure.mgmt.scheduler.models.HttpAuthentication
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.StorageQueueMessage
+  summary: 'StorageQueueMessage.
+
+
+    :param storage_account: Gets or sets the storage account name.
+
+    :type storage_account: str
+
+    :param queue_name: Gets or sets the queue name.
+
+    :type queue_name: str
+
+    :param sas_token: Gets or sets the SAS key.
+
+    :type sas_token: str
+
+    :param message: Gets or sets the message.
+
+    :type message: str
+
+    '
+  type: Class
+  uid: azure.mgmt.scheduler.models.StorageQueueMessage
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.ServiceBusQueueMessage
+  summary: "ServiceBusQueueMessage.\n\n:param authentication: Gets or sets the authentication.\n\
+    :type authentication: :class:`ServiceBusAuthentication\n <azure.mgmt.scheduler.models.ServiceBusAuthentication>`\n\
+    :param brokered_message_properties: Gets or sets the brokered message\n properties.\n\
+    :type brokered_message_properties:\n :class:`ServiceBusBrokeredMessageProperties\n\
+    \ <azure.mgmt.scheduler.models.ServiceBusBrokeredMessageProperties>`\n:param custom_message_properties:\
+    \ Gets or sets the custom message\n properties.\n:type custom_message_properties:\
+    \ dict\n:param message: Gets or sets the message.\n:type message: str\n:param\
+    \ namespace: Gets or sets the namespace.\n:type namespace: str\n:param transport_type:\
+    \ Gets or sets the transport type. Possible values\n include: 'NotSpecified',\
+    \ 'NetMessaging', 'AMQP'\n:type transport_type: str or :class:`ServiceBusTransportType\n\
+    \ <azure.mgmt.scheduler.models.ServiceBusTransportType>`\n:param queue_name: Gets\
+    \ or sets the queue name.\n:type queue_name: str\n"
+  type: Class
+  uid: azure.mgmt.scheduler.models.ServiceBusQueueMessage
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.ServiceBusTopicMessage
+  summary: "ServiceBusTopicMessage.\n\n:param authentication: Gets or sets the authentication.\n\
+    :type authentication: :class:`ServiceBusAuthentication\n <azure.mgmt.scheduler.models.ServiceBusAuthentication>`\n\
+    :param brokered_message_properties: Gets or sets the brokered message\n properties.\n\
+    :type brokered_message_properties:\n :class:`ServiceBusBrokeredMessageProperties\n\
+    \ <azure.mgmt.scheduler.models.ServiceBusBrokeredMessageProperties>`\n:param custom_message_properties:\
+    \ Gets or sets the custom message\n properties.\n:type custom_message_properties:\
+    \ dict\n:param message: Gets or sets the message.\n:type message: str\n:param\
+    \ namespace: Gets or sets the namespace.\n:type namespace: str\n:param transport_type:\
+    \ Gets or sets the transport type. Possible values\n include: 'NotSpecified',\
+    \ 'NetMessaging', 'AMQP'\n:type transport_type: str or :class:`ServiceBusTransportType\n\
+    \ <azure.mgmt.scheduler.models.ServiceBusTransportType>`\n:param topic_path: Gets\
+    \ or sets the topic path.\n:type topic_path: str\n"
+  type: Class
+  uid: azure.mgmt.scheduler.models.ServiceBusTopicMessage
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.RetryPolicy
+  summary: "RetryPolicy.\n\n:param retry_type: Gets or sets the retry strategy to\
+    \ be used. Possible\n values include: 'None', 'Fixed'\n:type retry_type: str or\
+    \ :class:`RetryType\n <azure.mgmt.scheduler.models.RetryType>`\n:param retry_interval:\
+    \ Gets or sets the retry interval between retries.\n:type retry_interval: timedelta\n\
+    :param retry_count: Gets or sets the number of times a retry should be\n attempted.\n\
+    :type retry_count: int\n"
+  type: Class
+  uid: azure.mgmt.scheduler.models.RetryPolicy
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.JobErrorAction
+  summary: "JobErrorAction.\n\n:param type: Gets or sets the job error action type.\
+    \ Possible values\n include: 'Http', 'Https', 'StorageQueue', 'ServiceBusQueue',\n\
+    \ 'ServiceBusTopic'\n:type type: str or :class:`JobActionType\n <azure.mgmt.scheduler.models.JobActionType>`\n\
+    :param request: Gets or sets the http requests.\n:type request: :class:`HttpRequest\n\
+    \ <azure.mgmt.scheduler.models.HttpRequest>`\n:param queue_message: Gets or sets\
+    \ the storage queue message.\n:type queue_message: :class:`StorageQueueMessage\n\
+    \ <azure.mgmt.scheduler.models.StorageQueueMessage>`\n:param service_bus_queue_message:\
+    \ Gets or sets the service bus queue\n message.\n:type service_bus_queue_message:\
+    \ :class:`ServiceBusQueueMessage\n <azure.mgmt.scheduler.models.ServiceBusQueueMessage>`\n\
+    :param service_bus_topic_message: Gets or sets the service bus topic\n message.\n\
+    :type service_bus_topic_message: :class:`ServiceBusTopicMessage\n <azure.mgmt.scheduler.models.ServiceBusTopicMessage>`\n\
+    :param retry_policy: Gets or sets the retry policy.\n:type retry_policy: :class:`RetryPolicy\n\
+    \ <azure.mgmt.scheduler.models.RetryPolicy>`\n"
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobErrorAction
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.JobRecurrence
+  summary: "JobRecurrence.\n\n:param frequency: Gets or sets the frequency of recurrence\
+    \ (second,\n minute, hour, day, week, month). Possible values include: 'Minute',\n\
+    \ 'Hour', 'Day', 'Week', 'Month'\n:type frequency: str or :class:`RecurrenceFrequency\n\
+    \ <azure.mgmt.scheduler.models.RecurrenceFrequency>`\n:param interval: Gets or\
+    \ sets the interval between retries.\n:type interval: int\n:param count: Gets\
+    \ or sets the maximum number of times that the job\n should run.\n:type count:\
+    \ int\n:param end_time: Gets or sets the time at which the job will complete.\n\
+    :type end_time: datetime\n:param schedule:\n:type schedule: :class:`JobRecurrenceSchedule\n\
+    \ <azure.mgmt.scheduler.models.JobRecurrenceSchedule>`\n"
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobRecurrence
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.JobRecurrenceSchedule
+  summary: "JobRecurrenceSchedule.\n\n:param week_days: Gets or sets the days of the\
+    \ week that the job should\n execute on.\n:type week_days: list of str or :class:`DayOfWeek\n\
+    \ <azure.mgmt.scheduler.models.DayOfWeek>`\n:param hours: Gets or sets the hours\
+    \ of the day that the job should\n execute at.\n:type hours: list of int\n:param\
+    \ minutes: Gets or sets the minutes of the hour that the job should\n execute\
+    \ at.\n:type minutes: list of int\n:param month_days: Gets or sets the days of\
+    \ the month that the job should\n execute on. Must be between 1 and 31.\n:type\
+    \ month_days: list of int\n:param monthly_occurrences: Gets or sets the occurrences\
+    \ of days within a\n month.\n:type monthly_occurrences: list of\n :class:`JobRecurrenceScheduleMonthlyOccurrence\n\
+    \ <azure.mgmt.scheduler.models.JobRecurrenceScheduleMonthlyOccurrence>`\n"
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobRecurrenceSchedule
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.JobRecurrenceScheduleMonthlyOccurrence
+  summary: "JobRecurrenceScheduleMonthlyOccurrence.\n\n:param day: Gets or sets the\
+    \ day. Must be one of monday, tuesday,\n wednesday, thursday, friday, saturday,\
+    \ sunday. Possible values include:\n 'Monday', 'Tuesday', 'Wednesday', 'Thursday',\
+    \ 'Friday', 'Saturday',\n 'Sunday'\n:type day: str or :class:`JobScheduleDay\n\
+    \ <azure.mgmt.scheduler.models.JobScheduleDay>`\n:param occurrence: Gets or sets\
+    \ the occurrence. Must be between -5 and 5.\n:type occurrence: int\n"
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobRecurrenceScheduleMonthlyOccurrence
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.JobStatus
+  summary: "JobStatus.\n\nVariables are only populated by the server, and will be\
+    \ ignored when\nsending a request.\n\n:ivar execution_count: Gets the number of\
+    \ times this job has executed.\n:vartype execution_count: int\n:ivar failure_count:\
+    \ Gets the number of times this job has failed.\n:vartype failure_count: int\n\
+    :ivar faulted_count: Gets the number of faulted occurrences (occurrences\n that\
+    \ were retried and failed as many times as the retry policy states).\n:vartype\
+    \ faulted_count: int\n:ivar last_execution_time: Gets the time the last occurrence\
+    \ executed in\n ISO-8601 format.  Could be empty if job has not run yet.\n:vartype\
+    \ last_execution_time: datetime\n:ivar next_execution_time: Gets the time of the\
+    \ next occurrence in\n ISO-8601 format. Could be empty if the job is completed.\n\
+    :vartype next_execution_time: datetime\n"
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobStatus
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.JobHistoryDefinition
+  summary: "JobHistoryDefinition.\n\nVariables are only populated by the server, and\
+    \ will be ignored when\nsending a request.\n\n:ivar id: Gets the job history identifier.\n\
+    :vartype id: str\n:ivar type: Gets the job history resource type.\n:vartype type:\
+    \ str\n:ivar name: Gets the job history name.\n:vartype name: str\n:ivar properties:\
+    \ Gets or sets the job history properties.\n:vartype properties: :class:`JobHistoryDefinitionProperties\n\
+    \ <azure.mgmt.scheduler.models.JobHistoryDefinitionProperties>`\n"
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobHistoryDefinition
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.JobHistoryDefinitionProperties
+  summary: "JobHistoryDefinitionProperties.\n\nVariables are only populated by the\
+    \ server, and will be ignored when\nsending a request.\n\n:ivar start_time: Gets\
+    \ the start time for this job.\n:vartype start_time: datetime\n:ivar end_time:\
+    \ Gets the end time for this job.\n:vartype end_time: datetime\n:ivar expected_execution_time:\
+    \ Gets the expected execution time for this\n job.\n:vartype expected_execution_time:\
+    \ datetime\n:ivar action_name: Gets the job history action name. Possible values\n\
+    \ include: 'MainAction', 'ErrorAction'\n:vartype action_name: str or :class:`JobHistoryActionName\n\
+    \ <azure.mgmt.scheduler.models.JobHistoryActionName>`\n:ivar status: Gets the\
+    \ job history status. Possible values include:\n 'Completed', 'Failed', 'Postponed'\n\
+    :vartype status: str or :class:`JobExecutionStatus\n <azure.mgmt.scheduler.models.JobExecutionStatus>`\n\
+    :ivar message: Gets the message for the job history.\n:vartype message: str\n\
+    :ivar retry_count: Gets the retry count for job.\n:vartype retry_count: int\n\
+    :ivar repeat_count: Gets the repeat count for the job.\n:vartype repeat_count:\
+    \ int\n"
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobHistoryDefinitionProperties
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.ClientCertAuthentication
+  summary: "ClientCertAuthentication.\n\n:param type: Gets or sets the http authentication\
+    \ type. Possible values\n include: 'NotSpecified', 'ClientCertificate', 'ActiveDirectoryOAuth',\n\
+    \ 'Basic'\n:type type: str or :class:`HttpAuthenticationType\n <azure.mgmt.scheduler.models.HttpAuthenticationType>`\n\
+    :param password: Gets or sets the password.\n:type password: str\n:param pfx:\
+    \ Gets or sets the pfx.\n:type pfx: str\n:param certificate_thumbprint: Gets or\
+    \ sets the certificate thumbprint.\n:type certificate_thumbprint: str\n:param\
+    \ certificate_expiration_date: Gets or sets the certificate\n expiration date.\n\
+    :type certificate_expiration_date: datetime\n:param certificate_subject_name:\
+    \ Gets or sets the certificate subject\n name.\n:type certificate_subject_name:\
+    \ str\n"
+  type: Class
+  uid: azure.mgmt.scheduler.models.ClientCertAuthentication
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.BasicAuthentication
+  summary: "BasicAuthentication.\n\n:param type: Gets or sets the http authentication\
+    \ type. Possible values\n include: 'NotSpecified', 'ClientCertificate', 'ActiveDirectoryOAuth',\n\
+    \ 'Basic'\n:type type: str or :class:`HttpAuthenticationType\n <azure.mgmt.scheduler.models.HttpAuthenticationType>`\n\
+    :param username: Gets or sets the username.\n:type username: str\n:param password:\
+    \ Gets or sets the password.\n:type password: str\n"
+  type: Class
+  uid: azure.mgmt.scheduler.models.BasicAuthentication
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.OAuthAuthentication
+  summary: "OAuthAuthentication.\n\n:param type: Gets or sets the http authentication\
+    \ type. Possible values\n include: 'NotSpecified', 'ClientCertificate', 'ActiveDirectoryOAuth',\n\
+    \ 'Basic'\n:type type: str or :class:`HttpAuthenticationType\n <azure.mgmt.scheduler.models.HttpAuthenticationType>`\n\
+    :param secret: Gets or sets the secret.\n:type secret: str\n:param tenant: Gets\
+    \ or sets the tenant.\n:type tenant: str\n:param audience: Gets or sets the audience.\n\
+    :type audience: str\n:param client_id: Gets or sets the client identifier.\n:type\
+    \ client_id: str\n"
+  type: Class
+  uid: azure.mgmt.scheduler.models.OAuthAuthentication
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.ServiceBusMessage
+  summary: "ServiceBusMessage.\n\n:param authentication: Gets or sets the authentication.\n\
+    :type authentication: :class:`ServiceBusAuthentication\n <azure.mgmt.scheduler.models.ServiceBusAuthentication>`\n\
+    :param brokered_message_properties: Gets or sets the brokered message\n properties.\n\
+    :type brokered_message_properties:\n :class:`ServiceBusBrokeredMessageProperties\n\
+    \ <azure.mgmt.scheduler.models.ServiceBusBrokeredMessageProperties>`\n:param custom_message_properties:\
+    \ Gets or sets the custom message\n properties.\n:type custom_message_properties:\
+    \ dict\n:param message: Gets or sets the message.\n:type message: str\n:param\
+    \ namespace: Gets or sets the namespace.\n:type namespace: str\n:param transport_type:\
+    \ Gets or sets the transport type. Possible values\n include: 'NotSpecified',\
+    \ 'NetMessaging', 'AMQP'\n:type transport_type: str or :class:`ServiceBusTransportType\n\
+    \ <azure.mgmt.scheduler.models.ServiceBusTransportType>`\n"
+  type: Class
+  uid: azure.mgmt.scheduler.models.ServiceBusMessage
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.ServiceBusAuthentication
+  summary: "ServiceBusAuthentication.\n\n:param sas_key: Gets or sets the SAS key.\n\
+    :type sas_key: str\n:param sas_key_name: Gets or sets the SAS key name.\n:type\
+    \ sas_key_name: str\n:param type: Gets or sets the authentication type. Possible\
+    \ values\n include: 'NotSpecified', 'SharedAccessKey'\n:type type: str or :class:`ServiceBusAuthenticationType\n\
+    \ <azure.mgmt.scheduler.models.ServiceBusAuthenticationType>`\n"
+  type: Class
+  uid: azure.mgmt.scheduler.models.ServiceBusAuthentication
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.ServiceBusBrokeredMessageProperties
+  summary: "ServiceBusBrokeredMessageProperties.\n\n:param content_type: Gets or sets\
+    \ the content type.\n:type content_type: str\n:param correlation_id: Gets or sets\
+    \ the correlation id.\n:type correlation_id: str\n:param force_persistence: Gets\
+    \ or sets the force persistence.\n:type force_persistence: bool\n:param label:\
+    \ Gets or sets the label.\n:type label: str\n:param message_id: Gets or sets the\
+    \ message id.\n:type message_id: str\n:param partition_key: Gets or sets the partition\
+    \ key.\n:type partition_key: str\n:param reply_to: Gets or sets the reply to.\n\
+    :type reply_to: str\n:param reply_to_session_id: Gets or sets the reply to session\
+    \ id.\n:type reply_to_session_id: str\n:param scheduled_enqueue_time_utc: Gets\
+    \ or sets the scheduled enqueue\n time UTC.\n:type scheduled_enqueue_time_utc:\
+    \ datetime\n:param session_id: Gets or sets the session id.\n:type session_id:\
+    \ str\n:param time_to_live: Gets or sets the time to live.\n:type time_to_live:\
+    \ datetime\n:param to: Gets or sets the to.\n:type to: str\n:param via_partition_key:\
+    \ Gets or sets the via partition key.\n:type via_partition_key: str\n"
+  type: Class
+  uid: azure.mgmt.scheduler.models.ServiceBusBrokeredMessageProperties
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.JobStateFilter
+  summary: "JobStateFilter.\n\n:param state: Gets or sets the job state. Possible\
+    \ values include:\n 'Enabled', 'Disabled', 'Faulted', 'Completed'\n:type state:\
+    \ str or :class:`JobState\n <azure.mgmt.scheduler.models.JobState>`\n"
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobStateFilter
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.JobHistoryFilter
+  summary: "JobHistoryFilter.\n\n:param status: Gets or sets the job execution status.\
+    \ Possible values\n include: 'Completed', 'Failed', 'Postponed'\n:type status:\
+    \ str or :class:`JobExecutionStatus\n <azure.mgmt.scheduler.models.JobExecutionStatus>`\n"
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobHistoryFilter
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.JobCollectionDefinitionPaged
+  summary: 'A paging container for iterating over a list of JobCollectionDefinition
+    object
+
+    '
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobCollectionDefinitionPaged
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.JobDefinitionPaged
+  summary: 'A paging container for iterating over a list of JobDefinition object
+
+    '
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobDefinitionPaged
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.JobHistoryDefinitionPaged
+  summary: 'A paging container for iterating over a list of JobHistoryDefinition object
+
+    '
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobHistoryDefinitionPaged
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.SkuDefinition
+  summary: ''
+  type: Class
+  uid: azure.mgmt.scheduler.models.SkuDefinition
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.JobCollectionState
+  summary: ''
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobCollectionState
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.RecurrenceFrequency
+  summary: ''
+  type: Class
+  uid: azure.mgmt.scheduler.models.RecurrenceFrequency
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.JobActionType
+  summary: ''
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobActionType
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.HttpAuthenticationType
+  summary: ''
+  type: Class
+  uid: azure.mgmt.scheduler.models.HttpAuthenticationType
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.RetryType
+  summary: ''
+  type: Class
+  uid: azure.mgmt.scheduler.models.RetryType
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.DayOfWeek
+  summary: ''
+  type: Class
+  uid: azure.mgmt.scheduler.models.DayOfWeek
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.JobScheduleDay
+  summary: ''
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobScheduleDay
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.JobState
+  summary: ''
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobState
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.JobHistoryActionName
+  summary: ''
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobHistoryActionName
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.JobExecutionStatus
+  summary: ''
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobExecutionStatus
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.ServiceBusAuthenticationType
+  summary: ''
+  type: Class
+  uid: azure.mgmt.scheduler.models.ServiceBusAuthenticationType
+- _type: class
+  children: []
+  module: azure.mgmt.scheduler.models
+  name: azure.mgmt.scheduler.models.ServiceBusTransportType
+  summary: ''
+  type: Class
+  uid: azure.mgmt.scheduler.models.ServiceBusTransportType

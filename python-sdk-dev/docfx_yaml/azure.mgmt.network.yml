@@ -1,0 +1,76 @@
+items:
+- _type: module
+  children:
+  - azure.mgmt.network.NetworkManagementClient
+  module: azure.mgmt.network
+  name: azure.mgmt.network
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.network
+- _type: class
+  children:
+  - azure.mgmt.network.NetworkManagementClient.check_dns_name_availability
+  module: azure.mgmt.network
+  name: azure.mgmt.network.NetworkManagementClient
+  summary: "The Microsoft Azure Network management API provides a RESTful set of web\
+    \ services that interact with Microsoft Azure Networks service to manage your\
+    \ network resources. The API has entities that capture the relationship between\
+    \ an end user and the Microsoft Azure Networks service.\n\n:ivar config: Configuration\
+    \ for client.\n:vartype config: NetworkManagementClientConfiguration\n\n:ivar\
+    \ application_gateways: ApplicationGateways operations\n:vartype application_gateways:\
+    \ .operations.ApplicationGatewaysOperations\n:ivar express_route_circuit_authorizations:\
+    \ ExpressRouteCircuitAuthorizations operations\n:vartype express_route_circuit_authorizations:\
+    \ .operations.ExpressRouteCircuitAuthorizationsOperations\n:ivar express_route_circuit_peerings:\
+    \ ExpressRouteCircuitPeerings operations\n:vartype express_route_circuit_peerings:\
+    \ .operations.ExpressRouteCircuitPeeringsOperations\n:ivar express_route_circuits:\
+    \ ExpressRouteCircuits operations\n:vartype express_route_circuits: .operations.ExpressRouteCircuitsOperations\n\
+    :ivar express_route_service_providers: ExpressRouteServiceProviders operations\n\
+    :vartype express_route_service_providers: .operations.ExpressRouteServiceProvidersOperations\n\
+    :ivar load_balancers: LoadBalancers operations\n:vartype load_balancers: .operations.LoadBalancersOperations\n\
+    :ivar local_network_gateways: LocalNetworkGateways operations\n:vartype local_network_gateways:\
+    \ .operations.LocalNetworkGatewaysOperations\n:ivar network_interfaces: NetworkInterfaces\
+    \ operations\n:vartype network_interfaces: .operations.NetworkInterfacesOperations\n\
+    :ivar network_security_groups: NetworkSecurityGroups operations\n:vartype network_security_groups:\
+    \ .operations.NetworkSecurityGroupsOperations\n:ivar public_ip_addresses: PublicIPAddresses\
+    \ operations\n:vartype public_ip_addresses: .operations.PublicIPAddressesOperations\n\
+    :ivar route_tables: RouteTables operations\n:vartype route_tables: .operations.RouteTablesOperations\n\
+    :ivar routes: Routes operations\n:vartype routes: .operations.RoutesOperations\n\
+    :ivar security_rules: SecurityRules operations\n:vartype security_rules: .operations.SecurityRulesOperations\n\
+    :ivar subnets: Subnets operations\n:vartype subnets: .operations.SubnetsOperations\n\
+    :ivar virtual_network_peerings: VirtualNetworkPeerings operations\n:vartype virtual_network_peerings:\
+    \ .operations.VirtualNetworkPeeringsOperations\n:ivar usages: Usages operations\n\
+    :vartype usages: .operations.UsagesOperations\n:ivar virtual_network_gateway_connections:\
+    \ VirtualNetworkGatewayConnections operations\n:vartype virtual_network_gateway_connections:\
+    \ .operations.VirtualNetworkGatewayConnectionsOperations\n:ivar virtual_network_gateways:\
+    \ VirtualNetworkGateways operations\n:vartype virtual_network_gateways: .operations.VirtualNetworkGatewaysOperations\n\
+    :ivar virtual_networks: VirtualNetworks operations\n:vartype virtual_networks:\
+    \ .operations.VirtualNetworksOperations\n\n:param credentials: Credentials needed\
+    \ for the client to connect to Azure.\n:type credentials: :mod:`A msrestazure\
+    \ Credentials\n object<msrestazure.azure_active_directory>`\n:param subscription_id:\
+    \ Gets subscription credentials which uniquely\n identify Microsoft Azure subscription.\
+    \ The subscription ID forms part of\n the URI for every service call.\n:type subscription_id:\
+    \ str\n:param api_version: Client Api Version.\n:type api_version: str\n:param\
+    \ accept_language: Gets or sets the preferred language for the\n response.\n:type\
+    \ accept_language: str\n:param long_running_operation_retry_timeout: Gets or sets\
+    \ the retry\n timeout in seconds for Long Running Operations. Default value is\
+    \ 30.\n:type long_running_operation_retry_timeout: int\n:param generate_client_request_id:\
+    \ When set to true a unique\n x-ms-client-request-id value is generated and included\
+    \ in each request.\n Default is true.\n:type generate_client_request_id: bool\n\
+    :param str base_url: Service URL\n:param str filepath: Existing config\n"
+  type: Class
+  uid: azure.mgmt.network.NetworkManagementClient
+- _type: method
+  class: azure.mgmt.network.NetworkManagementClient
+  module: azure.mgmt.network
+  name: azure.mgmt.network.NetworkManagementClient.check_dns_name_availability
+  summary: "Checks whether a domain name in the cloudapp.net zone is available for\n\
+    use.\n\n:param location: The location of the domain name\n:type location: str\n\
+    :param domain_name_label: The domain name to be verified. It must\n conform to\
+    \ the following regular expression:\n ^[a-z][a-z0-9-]{1,61}[a-z0-9]$.\n:type domain_name_label:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`DnsNameAvailabilityResult\n <azure.mgmt.network.models.DnsNameAvailabilityResult>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n"
+  type: Method
+  uid: azure.mgmt.network.NetworkManagementClient.check_dns_name_availability
