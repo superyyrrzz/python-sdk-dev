@@ -130,5 +130,5 @@ items:
   module: azure.servicebus.models
   name: azure.servicebus.models.Topic.max_size_in_mega_bytes
   summary: ''
-  type: Attribute
+  type: Property
   uid: azure.servicebus.models.Topic.max_size_in_mega_bytes

@@ -94,7 +94,7 @@ items:
   module: azure.servicebus.servicebusservice
   name: azure.servicebus.servicebusservice.ServiceBusService.account_key
   summary: ''
-  type: Attribute
+  type: Property
   uid: azure.servicebus.servicebusservice.ServiceBusService.account_key
 - _type: method
   class: azure.servicebus.servicebusservice.ServiceBusService
@@ -284,7 +284,7 @@ items:
   module: azure.servicebus.servicebusservice
   name: azure.servicebus.servicebusservice.ServiceBusService.issuer
   summary: ''
-  type: Attribute
+  type: Property
   uid: azure.servicebus.servicebusservice.ServiceBusService.issuer
 - _type: method
   class: azure.servicebus.servicebusservice.ServiceBusService
@@ -471,7 +471,7 @@ items:
   module: azure.servicebus.servicebusservice
   name: azure.servicebus.servicebusservice.ServiceBusService.timeout
   summary: ''
-  type: Attribute
+  type: Property
   uid: azure.servicebus.servicebusservice.ServiceBusService.timeout
 - _type: method
   class: azure.servicebus.servicebusservice.ServiceBusService
