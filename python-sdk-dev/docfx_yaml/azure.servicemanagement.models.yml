@@ -220,7 +220,7 @@ items:
   summary: 'Indicates that a batch operation failed
 
     '
-  type: Exception
+  type: Class
   uid: azure.servicemanagement.models.AzureAsyncOperationHttpError
 - _type: class
   children: []

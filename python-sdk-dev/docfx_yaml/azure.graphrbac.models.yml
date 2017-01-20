@@ -67,7 +67,7 @@ items:
     :param response: Server response to be deserialized.
 
     '
-  type: Exception
+  type: Class
   uid: azure.graphrbac.models.GraphErrorException
 - _type: class
   children: []

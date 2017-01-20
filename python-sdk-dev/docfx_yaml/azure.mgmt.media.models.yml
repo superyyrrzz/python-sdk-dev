@@ -69,7 +69,7 @@ items:
     :param response: Server response to be deserialized.
 
     '
-  type: Exception
+  type: Class
   uid: azure.mgmt.media.models.ApiErrorException
 - _type: class
   children: []

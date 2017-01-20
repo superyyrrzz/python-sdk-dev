@@ -1719,7 +1719,7 @@ items:
     :param response: Server response to be deserialized.
 
     '
-  type: Exception
+  type: Class
   uid: azure.batch.models.BatchErrorException
 - _type: class
   children: []

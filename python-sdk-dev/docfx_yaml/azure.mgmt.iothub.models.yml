@@ -312,7 +312,7 @@ items:
     :param response: Server response to be deserialized.
 
     '
-  type: Exception
+  type: Class
   uid: azure.mgmt.iothub.models.ErrorDetailsException
 - _type: class
   children: []

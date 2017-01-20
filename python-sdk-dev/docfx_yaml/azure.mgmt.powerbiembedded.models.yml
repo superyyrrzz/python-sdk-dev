@@ -47,7 +47,7 @@ items:
     :param response: Server response to be deserialized.
 
     '
-  type: Exception
+  type: Class
   uid: azure.mgmt.powerbiembedded.models.ErrorException
 - _type: class
   children: []

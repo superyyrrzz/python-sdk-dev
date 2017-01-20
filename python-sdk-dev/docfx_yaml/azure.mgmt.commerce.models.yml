@@ -186,7 +186,7 @@ items:
     :param response: Server response to be deserialized.
 
     '
-  type: Exception
+  type: Class
   uid: azure.mgmt.commerce.models.ErrorResponseException
 - _type: class
   children: []

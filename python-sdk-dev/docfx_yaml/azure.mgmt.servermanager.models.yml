@@ -493,7 +493,7 @@ items:
     :param response: Server response to be deserialized.
 
     '
-  type: Exception
+  type: Class
   uid: azure.mgmt.servermanager.models.ErrorException
 - _type: class
   children: []

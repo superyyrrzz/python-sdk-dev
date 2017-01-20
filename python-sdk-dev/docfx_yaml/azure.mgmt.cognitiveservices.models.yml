@@ -188,7 +188,7 @@ items:
     :param response: Server response to be deserialized.
 
     '
-  type: Exception
+  type: Class
   uid: azure.mgmt.cognitiveservices.models.ErrorException
 - _type: class
   children: []

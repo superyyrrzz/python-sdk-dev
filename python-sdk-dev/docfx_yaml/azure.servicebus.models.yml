@@ -28,7 +28,7 @@ items:
   summary: 'Indicates that peek-lock is required for this operation.
 
     '
-  type: Exception
+  type: Class
   uid: azure.servicebus.models.AzureServiceBusPeekLockError
 - _type: exception
   module: azure.servicebus.models
@@ -36,7 +36,7 @@ items:
   summary: 'Indicates that the resource doesn''t exist.
 
     '
-  type: Exception
+  type: Class
   uid: azure.servicebus.models.AzureServiceBusResourceNotFound
 - _type: class
   children: []
