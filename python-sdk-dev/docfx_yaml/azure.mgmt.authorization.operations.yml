@@ -12,6 +12,13 @@ items:
   type: Namespace
   uid: azure.mgmt.authorization.operations
 - _type: class
+  children: []
+  module: azure.mgmt.authorization.operations
+  name: azure.mgmt.authorization.operations.Global
+  summary: Proxy object to hold module level functions
+  type: Class
+  uid: azure.mgmt.authorization.operations.Global
+- _type: class
   children:
   - azure.mgmt.authorization.operations.ClassicAdministratorsOperations.list
   module: azure.mgmt.authorization.operations
