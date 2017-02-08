@@ -1,0 +1,37 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - azure.mgmt.resource.features.FeatureClient
+  module: azure.mgmt.resource.features
+  name: azure.mgmt.resource.features
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.resource.features
+- _type: class
+  children: []
+  module: azure.mgmt.resource.features
+  name: azure.mgmt.resource.features.Global
+  summary: Proxy object to hold module level functions
+  type: Class
+  uid: azure.mgmt.resource.features.Global
+- _type: class
+  children: []
+  module: azure.mgmt.resource.features
+  name: azure.mgmt.resource.features.FeatureClient
+  summary: ":ivar config: Configuration for client.\n:vartype config: FeatureClientConfiguration\n\
+    \n:ivar features: Features operations\n:vartype features: .operations.FeaturesOperations\n\
+    \n:param credentials: Credentials needed for the client to connect to Azure.\n\
+    :type credentials: :mod:`A msrestazure Credentials\n object<msrestazure.azure_active_directory>`\n\
+    :param subscription_id: Gets subscription credentials which uniquely\n identify\
+    \ Microsoft Azure subscription. The subscription ID forms part of\n the URI for\
+    \ every service call.\n:type subscription_id: str\n:param api_version: Client\
+    \ Api Version.\n:type api_version: str\n:param accept_language: Gets or sets the\
+    \ preferred language for the\n response.\n:type accept_language: str\n:param long_running_operation_retry_timeout:\
+    \ Gets or sets the retry\n timeout in seconds for Long Running Operations. Default\
+    \ value is 30.\n:type long_running_operation_retry_timeout: int\n:param generate_client_request_id:\
+    \ When set to true a unique\n x-ms-client-request-id value is generated and included\
+    \ in each request.\n Default is true.\n:type generate_client_request_id: bool\n\
+    :param str base_url: Service URL\n:param str filepath: Existing config\n"
+  type: Class
+  uid: azure.mgmt.resource.features.FeatureClient

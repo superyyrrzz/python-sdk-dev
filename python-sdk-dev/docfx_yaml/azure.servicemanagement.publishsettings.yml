@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: module
+  children: []
+  module: azure.servicemanagement.publishsettings
+  name: azure.servicemanagement.publishsettings
+  summary: ''
+  type: Namespace
+  uid: azure.servicemanagement.publishsettings
+- _type: class
+  children:
+  - azure.servicemanagement.publishsettings.get_certificate_from_publish_settings
+  module: azure.servicemanagement.publishsettings
+  name: azure.servicemanagement.publishsettings.Global
+  summary: Proxy object to hold module level functions
+  type: Class
+  uid: azure.servicemanagement.publishsettings.Global
+- _type: function
+  module: azure.servicemanagement.publishsettings
+  name: azure.servicemanagement.publishsettings.get_certificate_from_publish_settings
+  summary: "Writes a certificate file to the specified location.  This can then be\
+    \ used \nto instantiate ServiceManagementService.  Returns the subscription ID.\n\
+    \npublish_settings_path: \n    Path to subscription file downloaded from \n  \
+    \  http://go.microsoft.com/fwlink/?LinkID=301775\npath_to_write_certificate:\n\
+    \    Path to write the certificate file.\nsubscription_id:\n    (optional)  Provide\
+    \ a subscription id here if you wish to use a \n    specific subscription under\
+    \ the publish settings file.\n"
+  type: Method
+  uid: azure.servicemanagement.publishsettings.get_certificate_from_publish_settings

@@ -1,0 +1,773 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.datalake.analytics.catalog.operations
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.Global
+  summary: Proxy object to hold module level functions
+  type: Class
+  uid: azure.mgmt.datalake.analytics.catalog.operations.Global
+- _type: class
+  children:
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.create_credential
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.create_secret
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.delete_all_secrets
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.delete_credential
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.delete_secret
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_assembly
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_credential
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_database
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_external_data_source
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_procedure
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_schema
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_secret
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_table
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_table_partition
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_table_statistic
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_table_type
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_table_valued_function
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_view
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_assemblies
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_credentials
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_databases
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_external_data_sources
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_procedures
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_schemas
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_table_partitions
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_table_statistics
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_table_types
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_table_valued_functions
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_tables
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_types
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_views
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.update_credential
+  - azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.update_secret
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  summary: 'CatalogOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    '
+  type: Class
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.create_credential
+  summary: "Creates the specified credential for use with external data sources in\n\
+    the specified database.\n\n:param account_name: The Azure Data Lake Analytics\
+    \ account upon which\n to execute catalog operations.\n:type account_name: str\n\
+    :param database_name: The name of the database in which to create the\n credential.\n\
+    :type database_name: str\n:param credential_name: The name of the credential.\n\
+    :type credential_name: str\n:param parameters: The parameters required to create\
+    \ the credential\n (name and password)\n:type parameters:\n :class:`DataLakeAnalyticsCatalogCredentialCreateParameters\n\
+    \ <azure.mgmt.datalake.analytics.catalog.models.DataLakeAnalyticsCatalogCredentialCreateParameters>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.create_credential
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.create_secret
+  summary: "Creates the specified secret for use with external data sources in the\n\
+    specified database. This is deprecated and will be removed in the next\nrelease.\
+    \ Please use CreateCredential instead.\n\n:param account_name: The Azure Data\
+    \ Lake Analytics account upon which\n to execute catalog operations.\n:type account_name:\
+    \ str\n:param database_name: The name of the database in which to create the\n\
+    \ secret.\n:type database_name: str\n:param secret_name: The name of the secret.\n\
+    :type secret_name: str\n:param password: the password for the secret to pass in\n\
+    :type password: str\n:param uri: the URI identifier for the secret in the format\n\
+    \ <hostname>:<port>\n:type uri: str\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.create_secret
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.delete_all_secrets
+  summary: "Deletes all secrets in the specified database. This is deprecated and\n\
+    will be removed in the next release. In the future, please only drop\nindividual\
+    \ credentials using DeleteCredential.\n\n:param account_name: The Azure Data Lake\
+    \ Analytics account upon which\n to execute catalog operations.\n:type account_name:\
+    \ str\n:param database_name: The name of the database containing the secret.\n\
+    :type database_name: str\n:param dict custom_headers: headers that will be added\
+    \ to the request\n:param bool raw: returns the direct response alongside the\n\
+    \ deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.delete_all_secrets
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.delete_credential
+  summary: "Deletes the specified credential in the specified database.\n\n:param\
+    \ account_name: The Azure Data Lake Analytics account upon which\n to execute\
+    \ catalog operations.\n:type account_name: str\n:param database_name: The name\
+    \ of the database containing the\n credential.\n:type database_name: str\n:param\
+    \ credential_name: The name of the credential to delete\n:type credential_name:\
+    \ str\n:param cascade: Indicates if the delete should be a cascading delete\n\
+    \ (which deletes all resources dependent on the credential as well as\n the credential)\
+    \ or not. If false will fail if there are any resources\n relying on the credential.\n\
+    :type cascade: bool\n:param password: the current password for the credential\
+    \ and user with\n access to the data source. This is required if the requester\
+    \ is not\n the account owner.\n:type password: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.delete_credential
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.delete_secret
+  summary: "Deletes the specified secret in the specified database. This is\ndeprecated\
+    \ and will be removed in the next release. Please use\nDeleteCredential instead.\n\
+    \n:param account_name: The Azure Data Lake Analytics account upon which\n to execute\
+    \ catalog operations.\n:type account_name: str\n:param database_name: The name\
+    \ of the database containing the secret.\n:type database_name: str\n:param secret_name:\
+    \ The name of the secret to delete\n:type secret_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.delete_secret
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_assembly
+  summary: "Retrieves the specified assembly from the Data Lake Analytics catalog.\n\
+    \n:param account_name: The Azure Data Lake Analytics account upon which\n to execute\
+    \ catalog operations.\n:type account_name: str\n:param database_name: The name\
+    \ of the database containing the\n assembly.\n:type database_name: str\n:param\
+    \ assembly_name: The name of the assembly.\n:type assembly_name: str\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ :class:`USqlAssembly\n <azure.mgmt.datalake.analytics.catalog.models.USqlAssembly>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_assembly
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_credential
+  summary: "Retrieves the specified credential from the Data Lake Analytics\ncatalog.\n\
+    \n:param account_name: The Azure Data Lake Analytics account upon which\n to execute\
+    \ catalog operations.\n:type account_name: str\n:param database_name: The name\
+    \ of the database containing the schema.\n:type database_name: str\n:param credential_name:\
+    \ The name of the credential.\n:type credential_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`USqlCredential\n\
+    \ <azure.mgmt.datalake.analytics.catalog.models.USqlCredential>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_credential
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_database
+  summary: "Retrieves the specified database from the Data Lake Analytics catalog.\n\
+    \n:param account_name: The Azure Data Lake Analytics account upon which\n to execute\
+    \ catalog operations.\n:type account_name: str\n:param database_name: The name\
+    \ of the database.\n:type database_name: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`USqlDatabase\n\
+    \ <azure.mgmt.datalake.analytics.catalog.models.USqlDatabase>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_database
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_external_data_source
+  summary: "Retrieves the specified external data source from the Data Lake\nAnalytics\
+    \ catalog.\n\n:param account_name: The Azure Data Lake Analytics account upon\
+    \ which\n to execute catalog operations.\n:type account_name: str\n:param database_name:\
+    \ The name of the database containing the external\n data source.\n:type database_name:\
+    \ str\n:param external_data_source_name: The name of the external data\n source.\n\
+    :type external_data_source_name: str\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`USqlExternalDataSource\n\
+    \ <azure.mgmt.datalake.analytics.catalog.models.USqlExternalDataSource>`\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_external_data_source
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_procedure
+  summary: "Retrieves the specified procedure from the Data Lake Analytics catalog.\n\
+    \n:param account_name: The Azure Data Lake Analytics account upon which\n to execute\
+    \ catalog operations.\n:type account_name: str\n:param database_name: The name\
+    \ of the database containing the\n procedure.\n:type database_name: str\n:param\
+    \ schema_name: The name of the schema containing the procedure.\n:type schema_name:\
+    \ str\n:param procedure_name: The name of the procedure.\n:type procedure_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`USqlProcedure\n <azure.mgmt.datalake.analytics.catalog.models.USqlProcedure>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_procedure
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_schema
+  summary: "Retrieves the specified schema from the Data Lake Analytics catalog.\n\
+    \n:param account_name: The Azure Data Lake Analytics account upon which\n to execute\
+    \ catalog operations.\n:type account_name: str\n:param database_name: The name\
+    \ of the database containing the schema.\n:type database_name: str\n:param schema_name:\
+    \ The name of the schema.\n:type schema_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`USqlSchema\n\
+    \ <azure.mgmt.datalake.analytics.catalog.models.USqlSchema>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_schema
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_secret
+  summary: "Gets the specified secret in the specified database. This is deprecated\n\
+    and will be removed in the next release. Please use GetCredential\ninstead.\n\n\
+    :param account_name: The Azure Data Lake Analytics account upon which\n to execute\
+    \ catalog operations.\n:type account_name: str\n:param database_name: The name\
+    \ of the database containing the secret.\n:type database_name: str\n:param secret_name:\
+    \ The name of the secret to get\n:type secret_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`USqlSecret\n\
+    \ <azure.mgmt.datalake.analytics.catalog.models.USqlSecret>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_secret
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_table
+  summary: "Retrieves the specified table from the Data Lake Analytics catalog.\n\n\
+    :param account_name: The Azure Data Lake Analytics account upon which\n to execute\
+    \ catalog operations.\n:type account_name: str\n:param database_name: The name\
+    \ of the database containing the table.\n:type database_name: str\n:param schema_name:\
+    \ The name of the schema containing the table.\n:type schema_name: str\n:param\
+    \ table_name: The name of the table.\n:type table_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`USqlTable\n\
+    \ <azure.mgmt.datalake.analytics.catalog.models.USqlTable>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_table
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_table_partition
+  summary: "Retrieves the specified table partition from the Data Lake Analytics\n\
+    catalog.\n\n:param account_name: The Azure Data Lake Analytics account upon which\n\
+    \ to execute catalog operations.\n:type account_name: str\n:param database_name:\
+    \ The name of the database containing the\n partition.\n:type database_name: str\n\
+    :param schema_name: The name of the schema containing the partition.\n:type schema_name:\
+    \ str\n:param table_name: The name of the table containing the partition.\n:type\
+    \ table_name: str\n:param partition_name: The name of the table partition.\n:type\
+    \ partition_name: str\n:param dict custom_headers: headers that will be added\
+    \ to the request\n:param bool raw: returns the direct response alongside the\n\
+    \ deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`USqlTablePartition\n\
+    \ <azure.mgmt.datalake.analytics.catalog.models.USqlTablePartition>`\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_table_partition
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_table_statistic
+  summary: "Retrieves the specified table statistics from the Data Lake Analytics\n\
+    catalog.\n\n:param account_name: The Azure Data Lake Analytics account upon which\n\
+    \ to execute catalog operations.\n:type account_name: str\n:param database_name:\
+    \ The name of the database containing the\n statistics.\n:type database_name:\
+    \ str\n:param schema_name: The name of the schema containing the statistics.\n\
+    :type schema_name: str\n:param table_name: The name of the table containing the\
+    \ statistics.\n:type table_name: str\n:param statistics_name: The name of the\
+    \ table statistics.\n:type statistics_name: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`USqlTableStatistics\n\
+    \ <azure.mgmt.datalake.analytics.catalog.models.USqlTableStatistics>`\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_table_statistic
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_table_type
+  summary: "Retrieves the specified table type from the Data Lake Analytics\ncatalog.\n\
+    \n:param account_name: The Azure Data Lake Analytics account upon which\n to execute\
+    \ catalog operations.\n:type account_name: str\n:param database_name: The name\
+    \ of the database containing the table\n type.\n:type database_name: str\n:param\
+    \ schema_name: The name of the schema containing the table type.\n:type schema_name:\
+    \ str\n:param table_type_name: The name of the table type to retrieve.\n:type\
+    \ table_type_name: str\n:param dict custom_headers: headers that will be added\
+    \ to the request\n:param bool raw: returns the direct response alongside the\n\
+    \ deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`USqlTableType\n <azure.mgmt.datalake.analytics.catalog.models.USqlTableType>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_table_type
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_table_valued_function
+  summary: "Retrieves the specified table valued function from the Data Lake\nAnalytics\
+    \ catalog.\n\n:param account_name: The Azure Data Lake Analytics account upon\
+    \ which\n to execute catalog operations.\n:type account_name: str\n:param database_name:\
+    \ The name of the database containing the table\n valued function.\n:type database_name:\
+    \ str\n:param schema_name: The name of the schema containing the table valued\n\
+    \ function.\n:type schema_name: str\n:param table_valued_function_name: The name\
+    \ of the\n tableValuedFunction.\n:type table_valued_function_name: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`USqlTableValuedFunction\n <azure.mgmt.datalake.analytics.catalog.models.USqlTableValuedFunction>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_table_valued_function
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_view
+  summary: "Retrieves the specified view from the Data Lake Analytics catalog.\n\n\
+    :param account_name: The Azure Data Lake Analytics account upon which\n to execute\
+    \ catalog operations.\n:type account_name: str\n:param database_name: The name\
+    \ of the database containing the view.\n:type database_name: str\n:param schema_name:\
+    \ The name of the schema containing the view.\n:type schema_name: str\n:param\
+    \ view_name: The name of the view.\n:type view_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`USqlView\n\
+    \ <azure.mgmt.datalake.analytics.catalog.models.USqlView>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.get_view
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_assemblies
+  summary: "Retrieves the list of assemblies from the Data Lake Analytics catalog.\n\
+    \n:param account_name: The Azure Data Lake Analytics account upon which\n to execute\
+    \ catalog operations.\n:type account_name: str\n:param database_name: The name\
+    \ of the database containing the\n assembly.\n:type database_name: str\n:param\
+    \ filter: OData filter. Optional.\n:type filter: str\n:param top: The number of\
+    \ items to return. Optional.\n:type top: int\n:param skip: The number of items\
+    \ to skip over before returning\n elements. Optional.\n:type skip: int\n:param\
+    \ select: OData Select statement. Limits the properties on each\n entry to just\
+    \ those requested, e.g.\n Categories?$select=CategoryName,Description. Optional.\n\
+    :type select: str\n:param orderby: OrderBy clause. One or more comma-separated\n\
+    \ expressions with an optional \"asc\" (the default) or \"desc\" depending\n on\
+    \ the order you'd like the values sorted, e.g.\n Categories?$orderby=CategoryName\
+    \ desc. Optional.\n:type orderby: str\n:param count: The Boolean value of true\
+    \ or false to request a count of\n the matching resources included with the resources\
+    \ in the response,\n e.g. Categories?$count=true. Optional.\n:type count: bool\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`USqlAssemblyClrPaged\n <azure.mgmt.datalake.analytics.catalog.models.USqlAssemblyClrPaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_assemblies
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_credentials
+  summary: "Retrieves the list of credentials from the Data Lake Analytics catalog.\n\
+    \n:param account_name: The Azure Data Lake Analytics account upon which\n to execute\
+    \ catalog operations.\n:type account_name: str\n:param database_name: The name\
+    \ of the database containing the schema.\n:type database_name: str\n:param filter:\
+    \ OData filter. Optional.\n:type filter: str\n:param top: The number of items\
+    \ to return. Optional.\n:type top: int\n:param skip: The number of items to skip\
+    \ over before returning\n elements. Optional.\n:type skip: int\n:param select:\
+    \ OData Select statement. Limits the properties on each\n entry to just those\
+    \ requested, e.g.\n Categories?$select=CategoryName,Description. Optional.\n:type\
+    \ select: str\n:param orderby: OrderBy clause. One or more comma-separated\n expressions\
+    \ with an optional \"asc\" (the default) or \"desc\" depending\n on the order\
+    \ you'd like the values sorted, e.g.\n Categories?$orderby=CategoryName desc.\
+    \ Optional.\n:type orderby: str\n:param count: The Boolean value of true or false\
+    \ to request a count of\n the matching resources included with the resources in\
+    \ the response,\n e.g. Categories?$count=true. Optional.\n:type count: bool\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`USqlCredentialPaged\n <azure.mgmt.datalake.analytics.catalog.models.USqlCredentialPaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_credentials
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_databases
+  summary: "Retrieves the list of databases from the Data Lake Analytics catalog.\n\
+    \n:param account_name: The Azure Data Lake Analytics account upon which\n to execute\
+    \ catalog operations.\n:type account_name: str\n:param filter: OData filter. Optional.\n\
+    :type filter: str\n:param top: The number of items to return. Optional.\n:type\
+    \ top: int\n:param skip: The number of items to skip over before returning\n elements.\
+    \ Optional.\n:type skip: int\n:param select: OData Select statement. Limits the\
+    \ properties on each\n entry to just those requested, e.g.\n Categories?$select=CategoryName,Description.\
+    \ Optional.\n:type select: str\n:param orderby: OrderBy clause. One or more comma-separated\n\
+    \ expressions with an optional \"asc\" (the default) or \"desc\" depending\n on\
+    \ the order you'd like the values sorted, e.g.\n Categories?$orderby=CategoryName\
+    \ desc. Optional.\n:type orderby: str\n:param count: The Boolean value of true\
+    \ or false to request a count of\n the matching resources included with the resources\
+    \ in the response,\n e.g. Categories?$count=true. Optional.\n:type count: bool\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`USqlDatabasePaged\n <azure.mgmt.datalake.analytics.catalog.models.USqlDatabasePaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_databases
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_external_data_sources
+  summary: "Retrieves the list of external data sources from the Data Lake\nAnalytics\
+    \ catalog.\n\n:param account_name: The Azure Data Lake Analytics account upon\
+    \ which\n to execute catalog operations.\n:type account_name: str\n:param database_name:\
+    \ The name of the database containing the external\n data sources.\n:type database_name:\
+    \ str\n:param filter: OData filter. Optional.\n:type filter: str\n:param top:\
+    \ The number of items to return. Optional.\n:type top: int\n:param skip: The number\
+    \ of items to skip over before returning\n elements. Optional.\n:type skip: int\n\
+    :param select: OData Select statement. Limits the properties on each\n entry to\
+    \ just those requested, e.g.\n Categories?$select=CategoryName,Description. Optional.\n\
+    :type select: str\n:param orderby: OrderBy clause. One or more comma-separated\n\
+    \ expressions with an optional \"asc\" (the default) or \"desc\" depending\n on\
+    \ the order you'd like the values sorted, e.g.\n Categories?$orderby=CategoryName\
+    \ desc. Optional.\n:type orderby: str\n:param count: The Boolean value of true\
+    \ or false to request a count of\n the matching resources included with the resources\
+    \ in the response,\n e.g. Categories?$count=true. Optional.\n:type count: bool\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`USqlExternalDataSourcePaged\n <azure.mgmt.datalake.analytics.catalog.models.USqlExternalDataSourcePaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_external_data_sources
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_procedures
+  summary: "Retrieves the list of procedures from the Data Lake Analytics catalog.\n\
+    \n:param account_name: The Azure Data Lake Analytics account upon which\n to execute\
+    \ catalog operations.\n:type account_name: str\n:param database_name: The name\
+    \ of the database containing the\n procedures.\n:type database_name: str\n:param\
+    \ schema_name: The name of the schema containing the procedures.\n:type schema_name:\
+    \ str\n:param filter: OData filter. Optional.\n:type filter: str\n:param top:\
+    \ The number of items to return. Optional.\n:type top: int\n:param skip: The number\
+    \ of items to skip over before returning\n elements. Optional.\n:type skip: int\n\
+    :param select: OData Select statement. Limits the properties on each\n entry to\
+    \ just those requested, e.g.\n Categories?$select=CategoryName,Description. Optional.\n\
+    :type select: str\n:param orderby: OrderBy clause. One or more comma-separated\n\
+    \ expressions with an optional \"asc\" (the default) or \"desc\" depending\n on\
+    \ the order you'd like the values sorted, e.g.\n Categories?$orderby=CategoryName\
+    \ desc. Optional.\n:type orderby: str\n:param count: The Boolean value of true\
+    \ or false to request a count of\n the matching resources included with the resources\
+    \ in the response,\n e.g. Categories?$count=true. Optional.\n:type count: bool\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`USqlProcedurePaged\n <azure.mgmt.datalake.analytics.catalog.models.USqlProcedurePaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_procedures
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_schemas
+  summary: "Retrieves the list of schemas from the Data Lake Analytics catalog.\n\n\
+    :param account_name: The Azure Data Lake Analytics account upon which\n to execute\
+    \ catalog operations.\n:type account_name: str\n:param database_name: The name\
+    \ of the database containing the schema.\n:type database_name: str\n:param filter:\
+    \ OData filter. Optional.\n:type filter: str\n:param top: The number of items\
+    \ to return. Optional.\n:type top: int\n:param skip: The number of items to skip\
+    \ over before returning\n elements. Optional.\n:type skip: int\n:param select:\
+    \ OData Select statement. Limits the properties on each\n entry to just those\
+    \ requested, e.g.\n Categories?$select=CategoryName,Description. Optional.\n:type\
+    \ select: str\n:param orderby: OrderBy clause. One or more comma-separated\n expressions\
+    \ with an optional \"asc\" (the default) or \"desc\" depending\n on the order\
+    \ you'd like the values sorted, e.g.\n Categories?$orderby=CategoryName desc.\
+    \ Optional.\n:type orderby: str\n:param count: The Boolean value of true or false\
+    \ to request a count of\n the matching resources included with the resources in\
+    \ the response,\n e.g. Categories?$count=true. Optional.\n:type count: bool\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`USqlSchemaPaged\n <azure.mgmt.datalake.analytics.catalog.models.USqlSchemaPaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_schemas
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_table_partitions
+  summary: "Retrieves the list of table partitions from the Data Lake Analytics\n\
+    catalog.\n\n:param account_name: The Azure Data Lake Analytics account upon which\n\
+    \ to execute catalog operations.\n:type account_name: str\n:param database_name:\
+    \ The name of the database containing the\n partitions.\n:type database_name:\
+    \ str\n:param schema_name: The name of the schema containing the partitions.\n\
+    :type schema_name: str\n:param table_name: The name of the table containing the\
+    \ partitions.\n:type table_name: str\n:param filter: OData filter. Optional.\n\
+    :type filter: str\n:param top: The number of items to return. Optional.\n:type\
+    \ top: int\n:param skip: The number of items to skip over before returning\n elements.\
+    \ Optional.\n:type skip: int\n:param select: OData Select statement. Limits the\
+    \ properties on each\n entry to just those requested, e.g.\n Categories?$select=CategoryName,Description.\
+    \ Optional.\n:type select: str\n:param orderby: OrderBy clause. One or more comma-separated\n\
+    \ expressions with an optional \"asc\" (the default) or \"desc\" depending\n on\
+    \ the order you'd like the values sorted, e.g.\n Categories?$orderby=CategoryName\
+    \ desc. Optional.\n:type orderby: str\n:param count: The Boolean value of true\
+    \ or false to request a count of\n the matching resources included with the resources\
+    \ in the response,\n e.g. Categories?$count=true. Optional.\n:type count: bool\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`USqlTablePartitionPaged\n <azure.mgmt.datalake.analytics.catalog.models.USqlTablePartitionPaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_table_partitions
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_table_statistics
+  summary: "Retrieves the list of table statistics from the Data Lake Analytics\n\
+    catalog.\n\n:param account_name: The Azure Data Lake Analytics account upon which\n\
+    \ to execute catalog operations.\n:type account_name: str\n:param database_name:\
+    \ The name of the database containing the\n statistics.\n:type database_name:\
+    \ str\n:param schema_name: The name of the schema containing the statistics.\n\
+    :type schema_name: str\n:param table_name: The name of the table containing the\
+    \ statistics.\n:type table_name: str\n:param filter: OData filter. Optional.\n\
+    :type filter: str\n:param top: The number of items to return. Optional.\n:type\
+    \ top: int\n:param skip: The number of items to skip over before returning\n elements.\
+    \ Optional.\n:type skip: int\n:param select: OData Select statement. Limits the\
+    \ properties on each\n entry to just those requested, e.g.\n Categories?$select=CategoryName,Description.\
+    \ Optional.\n:type select: str\n:param orderby: OrderBy clause. One or more comma-separated\n\
+    \ expressions with an optional \"asc\" (the default) or \"desc\" depending\n on\
+    \ the order you'd like the values sorted, e.g.\n Categories?$orderby=CategoryName\
+    \ desc. Optional.\n:type orderby: str\n:param count: The Boolean value of true\
+    \ or false to request a count of\n the matching resources included with the resources\
+    \ in the response,\n e.g. Categories?$count=true. Optional.\n:type count: bool\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`USqlTableStatisticsPaged\n <azure.mgmt.datalake.analytics.catalog.models.USqlTableStatisticsPaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_table_statistics
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_table_types
+  summary: "Retrieves the list of table types from the Data Lake Analytics catalog.\n\
+    \n:param account_name: The Azure Data Lake Analytics account upon which\n to execute\
+    \ catalog operations.\n:type account_name: str\n:param database_name: The name\
+    \ of the database containing the table\n types.\n:type database_name: str\n:param\
+    \ schema_name: The name of the schema containing the table types.\n:type schema_name:\
+    \ str\n:param filter: OData filter. Optional.\n:type filter: str\n:param top:\
+    \ The number of items to return. Optional.\n:type top: int\n:param skip: The number\
+    \ of items to skip over before returning\n elements. Optional.\n:type skip: int\n\
+    :param select: OData Select statement. Limits the properties on each\n entry to\
+    \ just those requested, e.g.\n Categories?$select=CategoryName,Description. Optional.\n\
+    :type select: str\n:param orderby: OrderBy clause. One or more comma-separated\n\
+    \ expressions with an optional \"asc\" (the default) or \"desc\" depending\n on\
+    \ the order you'd like the values sorted, e.g.\n Categories?$orderby=CategoryName\
+    \ desc. Optional.\n:type orderby: str\n:param count: The Boolean value of true\
+    \ or false to request a count of\n the matching resources included with the resources\
+    \ in the response,\n e.g. Categories?$count=true. Optional.\n:type count: bool\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`USqlTableTypePaged\n <azure.mgmt.datalake.analytics.catalog.models.USqlTableTypePaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_table_types
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_table_valued_functions
+  summary: "Retrieves the list of table valued functions from the Data Lake\nAnalytics\
+    \ catalog.\n\n:param account_name: The Azure Data Lake Analytics account upon\
+    \ which\n to execute catalog operations.\n:type account_name: str\n:param database_name:\
+    \ The name of the database containing the table\n valued functions.\n:type database_name:\
+    \ str\n:param schema_name: The name of the schema containing the table valued\n\
+    \ functions.\n:type schema_name: str\n:param filter: OData filter. Optional.\n\
+    :type filter: str\n:param top: The number of items to return. Optional.\n:type\
+    \ top: int\n:param skip: The number of items to skip over before returning\n elements.\
+    \ Optional.\n:type skip: int\n:param select: OData Select statement. Limits the\
+    \ properties on each\n entry to just those requested, e.g.\n Categories?$select=CategoryName,Description.\
+    \ Optional.\n:type select: str\n:param orderby: OrderBy clause. One or more comma-separated\n\
+    \ expressions with an optional \"asc\" (the default) or \"desc\" depending\n on\
+    \ the order you'd like the values sorted, e.g.\n Categories?$orderby=CategoryName\
+    \ desc. Optional.\n:type orderby: str\n:param count: The Boolean value of true\
+    \ or false to request a count of\n the matching resources included with the resources\
+    \ in the response,\n e.g. Categories?$count=true. Optional.\n:type count: bool\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`USqlTableValuedFunctionPaged\n <azure.mgmt.datalake.analytics.catalog.models.USqlTableValuedFunctionPaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_table_valued_functions
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_tables
+  summary: "Retrieves the list of tables from the Data Lake Analytics catalog.\n\n\
+    :param account_name: The Azure Data Lake Analytics account upon which\n to execute\
+    \ catalog operations.\n:type account_name: str\n:param database_name: The name\
+    \ of the database containing the tables.\n:type database_name: str\n:param schema_name:\
+    \ The name of the schema containing the tables.\n:type schema_name: str\n:param\
+    \ filter: OData filter. Optional.\n:type filter: str\n:param top: The number of\
+    \ items to return. Optional.\n:type top: int\n:param skip: The number of items\
+    \ to skip over before returning\n elements. Optional.\n:type skip: int\n:param\
+    \ select: OData Select statement. Limits the properties on each\n entry to just\
+    \ those requested, e.g.\n Categories?$select=CategoryName,Description. Optional.\n\
+    :type select: str\n:param orderby: OrderBy clause. One or more comma-separated\n\
+    \ expressions with an optional \"asc\" (the default) or \"desc\" depending\n on\
+    \ the order you'd like the values sorted, e.g.\n Categories?$orderby=CategoryName\
+    \ desc. Optional.\n:type orderby: str\n:param count: The Boolean value of true\
+    \ or false to request a count of\n the matching resources included with the resources\
+    \ in the response,\n e.g. Categories?$count=true. Optional.\n:type count: bool\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`USqlTablePaged\n <azure.mgmt.datalake.analytics.catalog.models.USqlTablePaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_tables
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_types
+  summary: "Retrieves the list of types within the specified database and schema\n\
+    from the Data Lake Analytics catalog.\n\n:param account_name: The Azure Data Lake\
+    \ Analytics account upon which\n to execute catalog operations.\n:type account_name:\
+    \ str\n:param database_name: The name of the database containing the types.\n\
+    :type database_name: str\n:param schema_name: The name of the schema containing\
+    \ the types.\n:type schema_name: str\n:param filter: OData filter. Optional.\n\
+    :type filter: str\n:param top: The number of items to return. Optional.\n:type\
+    \ top: int\n:param skip: The number of items to skip over before returning\n elements.\
+    \ Optional.\n:type skip: int\n:param select: OData Select statement. Limits the\
+    \ properties on each\n entry to just those requested, e.g.\n Categories?$select=CategoryName,Description.\
+    \ Optional.\n:type select: str\n:param orderby: OrderBy clause. One or more comma-separated\n\
+    \ expressions with an optional \"asc\" (the default) or \"desc\" depending\n on\
+    \ the order you'd like the values sorted, e.g.\n Categories?$orderby=CategoryName\
+    \ desc. Optional.\n:type orderby: str\n:param count: The Boolean value of true\
+    \ or false to request a count of\n the matching resources included with the resources\
+    \ in the response,\n e.g. Categories?$count=true. Optional.\n:type count: bool\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`USqlTypePaged\n <azure.mgmt.datalake.analytics.catalog.models.USqlTypePaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_types
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_views
+  summary: "Retrieves the list of views from the Data Lake Analytics catalog.\n\n\
+    :param account_name: The Azure Data Lake Analytics account upon which\n to execute\
+    \ catalog operations.\n:type account_name: str\n:param database_name: The name\
+    \ of the database containing the views.\n:type database_name: str\n:param schema_name:\
+    \ The name of the schema containing the views.\n:type schema_name: str\n:param\
+    \ filter: OData filter. Optional.\n:type filter: str\n:param top: The number of\
+    \ items to return. Optional.\n:type top: int\n:param skip: The number of items\
+    \ to skip over before returning\n elements. Optional.\n:type skip: int\n:param\
+    \ select: OData Select statement. Limits the properties on each\n entry to just\
+    \ those requested, e.g.\n Categories?$select=CategoryName,Description. Optional.\n\
+    :type select: str\n:param orderby: OrderBy clause. One or more comma-separated\n\
+    \ expressions with an optional \"asc\" (the default) or \"desc\" depending\n on\
+    \ the order you'd like the values sorted, e.g.\n Categories?$orderby=CategoryName\
+    \ desc. Optional.\n:type orderby: str\n:param count: The Boolean value of true\
+    \ or false to request a count of\n the matching resources included with the resources\
+    \ in the response,\n e.g. Categories?$count=true. Optional.\n:type count: bool\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`USqlViewPaged\n <azure.mgmt.datalake.analytics.catalog.models.USqlViewPaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.list_views
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.update_credential
+  summary: "Modifies the specified credential for use with external data sources in\n\
+    the specified database.\n\n:param account_name: The Azure Data Lake Analytics\
+    \ account upon which\n to execute catalog operations.\n:type account_name: str\n\
+    :param database_name: The name of the database containing the\n credential.\n\
+    :type database_name: str\n:param credential_name: The name of the credential.\n\
+    :type credential_name: str\n:param parameters: The parameters required to modify\
+    \ the credential\n (name and password)\n:type parameters:\n :class:`DataLakeAnalyticsCatalogCredentialUpdateParameters\n\
+    \ <azure.mgmt.datalake.analytics.catalog.models.DataLakeAnalyticsCatalogCredentialUpdateParameters>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.update_credential
+- _type: method
+  class: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations
+  module: azure.mgmt.datalake.analytics.catalog.operations
+  name: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.update_secret
+  summary: "Modifies the specified secret for use with external data sources in the\n\
+    specified database. This is deprecated and will be removed in the next\nrelease.\
+    \ Please use UpdateCredential instead.\n\n:param account_name: The Azure Data\
+    \ Lake Analytics account upon which\n to execute catalog operations.\n:type account_name:\
+    \ str\n:param database_name: The name of the database containing the secret.\n\
+    :type database_name: str\n:param secret_name: The name of the secret.\n:type secret_name:\
+    \ str\n:param password: the password for the secret to pass in\n:type password:\
+    \ str\n:param uri: the URI identifier for the secret in the format\n <hostname>:<port>\n\
+    :type uri: str\n:param dict custom_headers: headers that will be added to the\
+    \ request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.catalog.operations.CatalogOperations.update_secret

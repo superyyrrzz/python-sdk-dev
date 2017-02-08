@@ -1,0 +1,38 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - azure.mgmt.commerce.UsageManagementClient
+  module: azure.mgmt.commerce
+  name: azure.mgmt.commerce
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.commerce
+- _type: class
+  children: []
+  module: azure.mgmt.commerce
+  name: azure.mgmt.commerce.Global
+  summary: Proxy object to hold module level functions
+  type: Class
+  uid: azure.mgmt.commerce.Global
+- _type: class
+  children: []
+  module: azure.mgmt.commerce
+  name: azure.mgmt.commerce.UsageManagementClient
+  summary: ":ivar config: Configuration for client.\n:vartype config: UsageManagementClientConfiguration\n\
+    \n:ivar usage_aggregates: UsageAggregates operations\n:vartype usage_aggregates:\
+    \ .operations.UsageAggregatesOperations\n:ivar rate_card: RateCard operations\n\
+    :vartype rate_card: .operations.RateCardOperations\n\n:param credentials: Credentials\
+    \ needed for the client to connect to Azure.\n:type credentials: :mod:`A msrestazure\
+    \ Credentials\n object<msrestazure.azure_active_directory>`\n:param subscription_id:\
+    \ It uniquely identifies Microsoft Azure\n subscription. The subscription ID forms\
+    \ part of the URI for every\n service call.\n:type subscription_id: str\n:param\
+    \ api_version: Client Api Version.\n:type api_version: str\n:param accept_language:\
+    \ Gets or sets the preferred language for the\n response.\n:type accept_language:\
+    \ str\n:param long_running_operation_retry_timeout: Gets or sets the retry\n timeout\
+    \ in seconds for Long Running Operations. Default value is 30.\n:type long_running_operation_retry_timeout:\
+    \ int\n:param generate_client_request_id: When set to true a unique\n x-ms-client-request-id\
+    \ value is generated and included in each request.\n Default is true.\n:type generate_client_request_id:\
+    \ bool\n:param str base_url: Service URL\n:param str filepath: Existing config\n"
+  type: Class
+  uid: azure.mgmt.commerce.UsageManagementClient

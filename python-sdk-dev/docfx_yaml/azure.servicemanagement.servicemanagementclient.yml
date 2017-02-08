@@ -1,0 +1,23 @@
+api_name: []
+items:
+- _type: module
+  children: []
+  module: azure.servicemanagement.servicemanagementclient
+  name: azure.servicemanagement.servicemanagementclient
+  summary: ''
+  type: Namespace
+  uid: azure.servicemanagement.servicemanagementclient
+- _type: class
+  children:
+  - azure.servicemanagement.servicemanagementclient.parse_response_for_async_op
+  module: azure.servicemanagement.servicemanagementclient
+  name: azure.servicemanagement.servicemanagementclient.Global
+  summary: Proxy object to hold module level functions
+  type: Class
+  uid: azure.servicemanagement.servicemanagementclient.Global
+- _type: function
+  module: azure.servicemanagement.servicemanagementclient
+  name: azure.servicemanagement.servicemanagementclient.parse_response_for_async_op
+  summary: "Extracts request id from response header. \n"
+  type: Method
+  uid: azure.servicemanagement.servicemanagementclient.parse_response_for_async_op

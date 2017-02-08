@@ -1,0 +1,245 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - azure.mgmt.cognitiveservices.models.Sku
+  - azure.mgmt.cognitiveservices.models.CognitiveServicesAccountCreateParameters
+  - azure.mgmt.cognitiveservices.models.CognitiveServicesAccountUpdateParameters
+  - azure.mgmt.cognitiveservices.models.CognitiveServicesAccount
+  - azure.mgmt.cognitiveservices.models.CognitiveServicesAccountKeys
+  - azure.mgmt.cognitiveservices.models.RegenerateKeyParameters
+  - azure.mgmt.cognitiveservices.models.CognitiveServicesResourceAndSku
+  - azure.mgmt.cognitiveservices.models.CognitiveServicesAccountEnumerateSkusResult
+  - azure.mgmt.cognitiveservices.models.ErrorBody
+  - azure.mgmt.cognitiveservices.models.Error
+  - azure.mgmt.cognitiveservices.models.ErrorException
+  - azure.mgmt.cognitiveservices.models.CognitiveServicesAccountPaged
+  - azure.mgmt.cognitiveservices.models.SkuName
+  - azure.mgmt.cognitiveservices.models.SkuTier
+  - azure.mgmt.cognitiveservices.models.Kind
+  - azure.mgmt.cognitiveservices.models.ProvisioningState
+  - azure.mgmt.cognitiveservices.models.KeyName
+  module: azure.mgmt.cognitiveservices.models
+  name: azure.mgmt.cognitiveservices.models
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.cognitiveservices.models
+- _type: class
+  children: []
+  module: azure.mgmt.cognitiveservices.models
+  name: azure.mgmt.cognitiveservices.models.Global
+  summary: Proxy object to hold module level functions
+  type: Class
+  uid: azure.mgmt.cognitiveservices.models.Global
+- _type: class
+  children: []
+  module: azure.mgmt.cognitiveservices.models
+  name: azure.mgmt.cognitiveservices.models.Sku
+  summary: "The SKU of the cognitive services account.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:param name:\
+    \ Gets or sets the sku name. Required for account creation,\n optional for update.\
+    \ Possible values include: 'F0', 'P0', 'P1', 'P2',\n 'S0', 'S1', 'S2', 'S3', 'S4',\
+    \ 'S5', 'S6'\n:type name: str or :class:`SkuName\n <azure.mgmt.cognitiveservices.models.SkuName>`\n\
+    :ivar tier: Gets the sku tier. This is based on the SKU name. Possible\n values\
+    \ include: 'Free', 'Standard', 'Premium'\n:vartype tier: str or :class:`SkuTier\n\
+    \ <azure.mgmt.cognitiveservices.models.SkuTier>`\n"
+  type: Class
+  uid: azure.mgmt.cognitiveservices.models.Sku
+- _type: class
+  children: []
+  module: azure.mgmt.cognitiveservices.models
+  name: azure.mgmt.cognitiveservices.models.CognitiveServicesAccountCreateParameters
+  summary: "The parameters to provide for the account.\n\n:param sku:\n:type sku:\
+    \ :class:`Sku <azure.mgmt.cognitiveservices.models.Sku>`\n:param kind: Required.\
+    \ Indicates the type of cognitive service account.\n Possible values include:\
+    \ 'Academic', 'Bing.Autosuggest', 'Bing.Search',\n 'Bing.Speech', 'Bing.SpellCheck',\
+    \ 'ComputerVision', 'ContentModerator',\n 'Emotion', 'Face', 'LUIS', 'Recommendations',\
+    \ 'SpeakerRecognition',\n 'Speech', 'SpeechTranslation', 'TextAnalytics', 'TextTranslation',\
+    \ 'WebLM'\n:type kind: str or :class:`Kind\n <azure.mgmt.cognitiveservices.models.Kind>`\n\
+    :param location: Required. Gets or sets the location of the resource. This\n will\
+    \ be one of the supported and registered Azure Geo Regions (e.g. West\n US, East\
+    \ US, Southeast Asia, etc.). The geo region of a resource cannot be\n changed\
+    \ once it is created, but if an identical geo region is specified on\n update\
+    \ the request will succeed.\n:type location: str\n:param tags: Gets or sets a\
+    \ list of key value pairs that describe the\n resource. These tags can be used\
+    \ in viewing and grouping this resource\n (across resource groups). A maximum\
+    \ of 15 tags can be provided for a\n resource. Each tag must have a key no greater\
+    \ than 128 characters and\n value no greater than 256 characters.\n:type tags:\
+    \ dict\n:param properties: Must exist in the request. Must not be null.\n:type\
+    \ properties: object\n"
+  type: Class
+  uid: azure.mgmt.cognitiveservices.models.CognitiveServicesAccountCreateParameters
+- _type: class
+  children: []
+  module: azure.mgmt.cognitiveservices.models
+  name: azure.mgmt.cognitiveservices.models.CognitiveServicesAccountUpdateParameters
+  summary: "The parameters to provide for the account.\n\n:param sku:\n:type sku:\
+    \ :class:`Sku <azure.mgmt.cognitiveservices.models.Sku>`\n:param tags: Gets or\
+    \ sets a list of key value pairs that describe the\n resource. These tags can\
+    \ be used in viewing and grouping this resource\n (across resource groups). A\
+    \ maximum of 15 tags can be provided for a\n resource. Each tag must have a key\
+    \ no greater than 128 characters and\n value no greater than 256 characters.\n\
+    :type tags: dict\n"
+  type: Class
+  uid: azure.mgmt.cognitiveservices.models.CognitiveServicesAccountUpdateParameters
+- _type: class
+  children: []
+  module: azure.mgmt.cognitiveservices.models
+  name: azure.mgmt.cognitiveservices.models.CognitiveServicesAccount
+  summary: "Cognitive Services Account is an Azure resource representing the\nprovisioned\
+    \ account, its type, location and SKU.\n\nVariables are only populated by the\
+    \ server, and will be ignored when\nsending a request.\n\n:param etag: Entity\
+    \ Tag\n:type etag: str\n:param id: The id of the created account\n:type id: str\n\
+    :param kind: Type of cognitive service account.\n:type kind: str\n:param location:\
+    \ The location of the resource\n:type location: str\n:param name: The name of\
+    \ the created account\n:type name: str\n:ivar provisioning_state: Gets the status\
+    \ of the cognitive services\n account at the time the operation was called. Possible\
+    \ values include:\n 'Creating', 'ResolvingDNS', 'Succeeded', 'Failed'\n:vartype\
+    \ provisioning_state: str or :class:`ProvisioningState\n <azure.mgmt.cognitiveservices.models.ProvisioningState>`\n\
+    :param endpoint: Endpoint of the created account\n:type endpoint: str\n:param\
+    \ sku:\n:type sku: :class:`Sku <azure.mgmt.cognitiveservices.models.Sku>`\n:param\
+    \ tags: Gets or sets a list of key value pairs that describe the\n resource. These\
+    \ tags can be used in viewing and grouping this resource\n (across resource groups).\
+    \ A maximum of 15 tags can be provided for a\n resource. Each tag must have a\
+    \ key no greater than 128 characters and\n value no greater than 256 characters.\n\
+    :type tags: dict\n:param type: Resource type\n:type type: str\n"
+  type: Class
+  uid: azure.mgmt.cognitiveservices.models.CognitiveServicesAccount
+- _type: class
+  children: []
+  module: azure.mgmt.cognitiveservices.models
+  name: azure.mgmt.cognitiveservices.models.CognitiveServicesAccountKeys
+  summary: 'The access keys for the cognitive services account.
+
+
+    :param key1: Gets the value of key 1.
+
+    :type key1: str
+
+    :param key2: Gets the value of key 2.
+
+    :type key2: str
+
+    '
+  type: Class
+  uid: azure.mgmt.cognitiveservices.models.CognitiveServicesAccountKeys
+- _type: class
+  children: []
+  module: azure.mgmt.cognitiveservices.models
+  name: azure.mgmt.cognitiveservices.models.RegenerateKeyParameters
+  summary: "Regenerate key parameters.\n\n:param key_name: key name to generate (Key1|Key2).\
+    \ Possible values\n include: 'Key1', 'Key2'\n:type key_name: str or :class:`KeyName\n\
+    \ <azure.mgmt.cognitiveservices.models.KeyName>`\n"
+  type: Class
+  uid: azure.mgmt.cognitiveservices.models.RegenerateKeyParameters
+- _type: class
+  children: []
+  module: azure.mgmt.cognitiveservices.models
+  name: azure.mgmt.cognitiveservices.models.CognitiveServicesResourceAndSku
+  summary: 'CognitiveServicesResourceAndSku.
+
+
+    :param resource_type: Resource Namespace and Type
+
+    :type resource_type: str
+
+    :param sku:
+
+    :type sku: :class:`Sku <azure.mgmt.cognitiveservices.models.Sku>`
+
+    '
+  type: Class
+  uid: azure.mgmt.cognitiveservices.models.CognitiveServicesResourceAndSku
+- _type: class
+  children: []
+  module: azure.mgmt.cognitiveservices.models
+  name: azure.mgmt.cognitiveservices.models.CognitiveServicesAccountEnumerateSkusResult
+  summary: "The list of cognitive services accounts operation response.\n\nVariables\
+    \ are only populated by the server, and will be ignored when\nsending a request.\n\
+    \n:ivar value: Gets the list of Cognitive Services accounts and their\n properties.\n\
+    :vartype value: list of :class:`CognitiveServicesResourceAndSku\n <azure.mgmt.cognitiveservices.models.CognitiveServicesResourceAndSku>`\n"
+  type: Class
+  uid: azure.mgmt.cognitiveservices.models.CognitiveServicesAccountEnumerateSkusResult
+- _type: class
+  children: []
+  module: azure.mgmt.cognitiveservices.models
+  name: azure.mgmt.cognitiveservices.models.ErrorBody
+  summary: 'ErrorBody.
+
+
+    :param code: error code
+
+    :type code: str
+
+    :param message: error message
+
+    :type message: str
+
+    '
+  type: Class
+  uid: azure.mgmt.cognitiveservices.models.ErrorBody
+- _type: class
+  children: []
+  module: azure.mgmt.cognitiveservices.models
+  name: azure.mgmt.cognitiveservices.models.Error
+  summary: "Error.\n\n:param error:\n:type error: :class:`ErrorBody\n <azure.mgmt.cognitiveservices.models.ErrorBody>`\n"
+  type: Class
+  uid: azure.mgmt.cognitiveservices.models.Error
+- _type: exception
+  module: azure.mgmt.cognitiveservices.models
+  name: azure.mgmt.cognitiveservices.models.ErrorException
+  summary: 'Server responsed with exception of type: ''Error''.
+
+
+    :param deserialize: A deserializer
+
+    :param response: Server response to be deserialized.
+
+    '
+  type: Class
+  uid: azure.mgmt.cognitiveservices.models.ErrorException
+- _type: class
+  children: []
+  module: azure.mgmt.cognitiveservices.models
+  name: azure.mgmt.cognitiveservices.models.CognitiveServicesAccountPaged
+  summary: 'A paging container for iterating over a list of CognitiveServicesAccount
+    object
+
+    '
+  type: Class
+  uid: azure.mgmt.cognitiveservices.models.CognitiveServicesAccountPaged
+- _type: class
+  children: []
+  module: azure.mgmt.cognitiveservices.models
+  name: azure.mgmt.cognitiveservices.models.SkuName
+  summary: ''
+  type: Class
+  uid: azure.mgmt.cognitiveservices.models.SkuName
+- _type: class
+  children: []
+  module: azure.mgmt.cognitiveservices.models
+  name: azure.mgmt.cognitiveservices.models.SkuTier
+  summary: ''
+  type: Class
+  uid: azure.mgmt.cognitiveservices.models.SkuTier
+- _type: class
+  children: []
+  module: azure.mgmt.cognitiveservices.models
+  name: azure.mgmt.cognitiveservices.models.Kind
+  summary: ''
+  type: Class
+  uid: azure.mgmt.cognitiveservices.models.Kind
+- _type: class
+  children: []
+  module: azure.mgmt.cognitiveservices.models
+  name: azure.mgmt.cognitiveservices.models.ProvisioningState
+  summary: ''
+  type: Class
+  uid: azure.mgmt.cognitiveservices.models.ProvisioningState
+- _type: class
+  children: []
+  module: azure.mgmt.cognitiveservices.models
+  name: azure.mgmt.cognitiveservices.models.KeyName
+  summary: ''
+  type: Class
+  uid: azure.mgmt.cognitiveservices.models.KeyName

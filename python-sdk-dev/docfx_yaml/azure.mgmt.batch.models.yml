@@ -1,0 +1,325 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - azure.mgmt.batch.models.AutoStorageBaseProperties
+  - azure.mgmt.batch.models.BatchAccountCreateParameters
+  - azure.mgmt.batch.models.AutoStorageProperties
+  - azure.mgmt.batch.models.AccountResource
+  - azure.mgmt.batch.models.BatchAccountUpdateParameters
+  - azure.mgmt.batch.models.BatchAccountRegenerateKeyParameters
+  - azure.mgmt.batch.models.BatchAccountRegenerateKeyResult
+  - azure.mgmt.batch.models.BatchAccountListKeyResult
+  - azure.mgmt.batch.models.ActivateApplicationPackageParameters
+  - azure.mgmt.batch.models.AddApplicationParameters
+  - azure.mgmt.batch.models.AddApplicationPackageResult
+  - azure.mgmt.batch.models.ApplicationPackage
+  - azure.mgmt.batch.models.Application
+  - azure.mgmt.batch.models.GetApplicationPackageResult
+  - azure.mgmt.batch.models.UpdateApplicationParameters
+  - azure.mgmt.batch.models.SubscriptionQuotasGetResult
+  - azure.mgmt.batch.models.Resource
+  - azure.mgmt.batch.models.AccountResourcePaged
+  - azure.mgmt.batch.models.ApplicationPaged
+  - azure.mgmt.batch.models.AccountProvisioningState
+  - azure.mgmt.batch.models.AccountKeyType
+  - azure.mgmt.batch.models.PackageState
+  module: azure.mgmt.batch.models
+  name: azure.mgmt.batch.models
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.batch.models
+- _type: class
+  children: []
+  module: azure.mgmt.batch.models
+  name: azure.mgmt.batch.models.Global
+  summary: Proxy object to hold module level functions
+  type: Class
+  uid: azure.mgmt.batch.models.Global
+- _type: class
+  children: []
+  module: azure.mgmt.batch.models
+  name: azure.mgmt.batch.models.AutoStorageBaseProperties
+  summary: "The properties related to auto storage account.\n\n:param storage_account_id:\
+    \ The resource id of the storage account to be\n used for auto storage account.\n\
+    :type storage_account_id: str\n"
+  type: Class
+  uid: azure.mgmt.batch.models.AutoStorageBaseProperties
+- _type: class
+  children: []
+  module: azure.mgmt.batch.models
+  name: azure.mgmt.batch.models.BatchAccountCreateParameters
+  summary: "Parameters supplied to the Create operation.\n\n:param location: The region\
+    \ in which the account is created.\n:type location: str\n:param tags: The user\
+    \ specified tags associated with the account.\n:type tags: dict\n:param auto_storage:\
+    \ The properties related to auto storage account.\n:type auto_storage: :class:`AutoStorageBaseProperties\n\
+    \ <azure.mgmt.batch.models.AutoStorageBaseProperties>`\n"
+  type: Class
+  uid: azure.mgmt.batch.models.BatchAccountCreateParameters
+- _type: class
+  children: []
+  module: azure.mgmt.batch.models
+  name: azure.mgmt.batch.models.AutoStorageProperties
+  summary: "Contains information about the auto storage account associated with a\n\
+    Batch account.\n\n:param storage_account_id: The resource id of the storage account\
+    \ to be\n used for auto storage account.\n:type storage_account_id: str\n:param\
+    \ last_key_sync: The UTC time at which storage keys were last\n synchronized with\
+    \ the Batch account.\n:type last_key_sync: datetime\n"
+  type: Class
+  uid: azure.mgmt.batch.models.AutoStorageProperties
+- _type: class
+  children: []
+  module: azure.mgmt.batch.models
+  name: azure.mgmt.batch.models.AccountResource
+  summary: "Contains information about an Azure Batch account.\n\nVariables are only\
+    \ populated by the server, and will be ignored when\nsending a request.\n\n:ivar\
+    \ id: The id of the resource\n:vartype id: str\n:ivar name: The name of the resource\n\
+    :vartype name: str\n:ivar type: The type of the resource\n:vartype type: str\n\
+    :param location: The location of the resource\n:type location: str\n:param tags:\
+    \ The tags of the resource\n:type tags: dict\n:param account_endpoint: The endpoint\
+    \ used by this account to interact\n with the Batch services.\n:type account_endpoint:\
+    \ str\n:param provisioning_state: The provisioned state of the resource.\n Possible\
+    \ values include: 'Invalid', 'Creating', 'Deleting', 'Succeeded',\n 'Failed',\
+    \ 'Cancelled'\n:type provisioning_state: str or :class:`AccountProvisioningState\n\
+    \ <azure.mgmt.batch.models.AccountProvisioningState>`\n:param auto_storage: The\
+    \ properties and status of any auto storage\n account associated with the account.\n\
+    :type auto_storage: :class:`AutoStorageProperties\n <azure.mgmt.batch.models.AutoStorageProperties>`\n\
+    :param core_quota: The core quota for this Batch account.\n:type core_quota: int\n\
+    :param pool_quota: The pool quota for this Batch account.\n:type pool_quota: int\n\
+    :param active_job_and_job_schedule_quota: The active job and job schedule\n quota\
+    \ for this Batch account.\n:type active_job_and_job_schedule_quota: int\n"
+  type: Class
+  uid: azure.mgmt.batch.models.AccountResource
+- _type: class
+  children: []
+  module: azure.mgmt.batch.models
+  name: azure.mgmt.batch.models.BatchAccountUpdateParameters
+  summary: "Parameters supplied to the Update operation.\n\n:param tags: The user\
+    \ specified tags associated with the account.\n:type tags: dict\n:param auto_storage:\
+    \ The properties related to auto storage account.\n:type auto_storage: :class:`AutoStorageBaseProperties\n\
+    \ <azure.mgmt.batch.models.AutoStorageBaseProperties>`\n"
+  type: Class
+  uid: azure.mgmt.batch.models.BatchAccountUpdateParameters
+- _type: class
+  children: []
+  module: azure.mgmt.batch.models
+  name: azure.mgmt.batch.models.BatchAccountRegenerateKeyParameters
+  summary: "Parameters supplied to the RegenerateKey operation.\n\n:param key_name:\
+    \ The type of account key to regenerate. Possible values\n include: 'Primary',\
+    \ 'Secondary'\n:type key_name: str or :class:`AccountKeyType\n <azure.mgmt.batch.models.AccountKeyType>`\n"
+  type: Class
+  uid: azure.mgmt.batch.models.BatchAccountRegenerateKeyParameters
+- _type: class
+  children: []
+  module: azure.mgmt.batch.models
+  name: azure.mgmt.batch.models.BatchAccountRegenerateKeyResult
+  summary: 'Values returned by the RegenerateKey operation.
+
+
+    :param primary: The primary key associated with the account.
+
+    :type primary: str
+
+    :param secondary: The secondary key associated with the account.
+
+    :type secondary: str
+
+    '
+  type: Class
+  uid: azure.mgmt.batch.models.BatchAccountRegenerateKeyResult
+- _type: class
+  children: []
+  module: azure.mgmt.batch.models
+  name: azure.mgmt.batch.models.BatchAccountListKeyResult
+  summary: 'Values returned by the GetKeys operation.
+
+
+    :param primary: The primary key associated with the account.
+
+    :type primary: str
+
+    :param secondary: The secondary key associated with the account.
+
+    :type secondary: str
+
+    '
+  type: Class
+  uid: azure.mgmt.batch.models.BatchAccountListKeyResult
+- _type: class
+  children: []
+  module: azure.mgmt.batch.models
+  name: azure.mgmt.batch.models.ActivateApplicationPackageParameters
+  summary: 'Parameters for an ApplicationOperations.ActivateApplicationPackage request.
+
+
+    :param format: The format of the application package binary file.
+
+    :type format: str
+
+    '
+  type: Class
+  uid: azure.mgmt.batch.models.ActivateApplicationPackageParameters
+- _type: class
+  children: []
+  module: azure.mgmt.batch.models
+  name: azure.mgmt.batch.models.AddApplicationParameters
+  summary: "Parameters for an ApplicationOperations.AddApplication request.\n\n:param\
+    \ allow_updates: A value indicating whether packages within the\n application\
+    \ may be overwritten using the same version string.\n:type allow_updates: bool\n\
+    :param display_name: The display name for the application.\n:type display_name:\
+    \ str\n"
+  type: Class
+  uid: azure.mgmt.batch.models.AddApplicationParameters
+- _type: class
+  children: []
+  module: azure.mgmt.batch.models
+  name: azure.mgmt.batch.models.AddApplicationPackageResult
+  summary: "Response to an ApplicationOperations.AddApplicationPackage request.\n\n\
+    :param id: The id of the application.\n:type id: str\n:param version: The version\
+    \ of the application.\n:type version: str\n:param storage_url: The URL to which\
+    \ the application package binary file\n should be uploaded.\n:type storage_url:\
+    \ str\n:param storage_url_expiry: The UTC time at which the storage URL will\n\
+    \ expire.\n:type storage_url_expiry: datetime\n"
+  type: Class
+  uid: azure.mgmt.batch.models.AddApplicationPackageResult
+- _type: class
+  children: []
+  module: azure.mgmt.batch.models
+  name: azure.mgmt.batch.models.ApplicationPackage
+  summary: "Contains information about an application package.\n\n:param version:\
+    \ The version of the application package.\n:type version: str\n:param state: The\
+    \ current state of the application package. Possible\n values include: 'pending',\
+    \ 'active', 'unmapped'\n:type state: str or :class:`PackageState\n <azure.mgmt.batch.models.PackageState>`\n\
+    :param format: The format of the application package, if the package has\n been\
+    \ activated.\n:type format: str\n:param last_activation_time: The time at which\
+    \ the package was last\n activated, if the package is active.\n:type last_activation_time:\
+    \ datetime\n"
+  type: Class
+  uid: azure.mgmt.batch.models.ApplicationPackage
+- _type: class
+  children: []
+  module: azure.mgmt.batch.models
+  name: azure.mgmt.batch.models.Application
+  summary: "Contains information about an application in a Batch account.\n\n:param\
+    \ id: A string that uniquely identifies the application within the\n account.\n\
+    :type id: str\n:param display_name: The display name for the application.\n:type\
+    \ display_name: str\n:param packages: The list of packages under this application.\n\
+    :type packages: list of :class:`ApplicationPackage\n <azure.mgmt.batch.models.ApplicationPackage>`\n\
+    :param allow_updates: A value indicating whether packages within the\n application\
+    \ may be overwritten using the same version string.\n:type allow_updates: bool\n\
+    :param default_version: The package to use if a client requests the\n application\
+    \ but does not specify a version.\n:type default_version: str\n"
+  type: Class
+  uid: azure.mgmt.batch.models.Application
+- _type: class
+  children: []
+  module: azure.mgmt.batch.models
+  name: azure.mgmt.batch.models.GetApplicationPackageResult
+  summary: "Response to an ApplicationOperations.GetApplicationPackage request.\n\n\
+    :param id: The id of the application.\n:type id: str\n:param version: The version\
+    \ of the application package.\n:type version: str\n:param state: The current state\
+    \ of the application package. Possible\n values include: 'pending', 'active',\
+    \ 'unmapped'\n:type state: str or :class:`PackageState\n <azure.mgmt.batch.models.PackageState>`\n\
+    :param format: The format of the application package, if the package is\n active.\n\
+    :type format: str\n:param storage_url: The storage URL at which the application\
+    \ package is\n stored.\n:type storage_url: str\n:param storage_url_expiry: The\
+    \ UTC time at which the storage URL will\n expire.\n:type storage_url_expiry:\
+    \ datetime\n:param last_activation_time: The time at which the package was last\n\
+    \ activated, if the package is active.\n:type last_activation_time: datetime\n"
+  type: Class
+  uid: azure.mgmt.batch.models.GetApplicationPackageResult
+- _type: class
+  children: []
+  module: azure.mgmt.batch.models
+  name: azure.mgmt.batch.models.UpdateApplicationParameters
+  summary: "Parameters for an ApplicationOperations.UpdateApplication request.\n\n\
+    :param allow_updates: A value indicating whether packages within the\n application\
+    \ may be overwritten using the same version string.\n:type allow_updates: bool\n\
+    :param default_version: The package to use if a client requests the\n application\
+    \ but does not specify a version.\n:type default_version: str\n:param display_name:\
+    \ The display name for the application.\n:type display_name: str\n"
+  type: Class
+  uid: azure.mgmt.batch.models.UpdateApplicationParameters
+- _type: class
+  children: []
+  module: azure.mgmt.batch.models
+  name: azure.mgmt.batch.models.SubscriptionQuotasGetResult
+  summary: "Values returned by the Get Subscription Quotas operation.\n\n:param account_quota:\
+    \ The number of Batch accounts that may be created\n under the subscription in\
+    \ the specified region.\n:type account_quota: int\n"
+  type: Class
+  uid: azure.mgmt.batch.models.SubscriptionQuotasGetResult
+- _type: class
+  children: []
+  module: azure.mgmt.batch.models
+  name: azure.mgmt.batch.models.Resource
+  summary: 'Resource.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar id: The id of the resource
+
+    :vartype id: str
+
+    :ivar name: The name of the resource
+
+    :vartype name: str
+
+    :ivar type: The type of the resource
+
+    :vartype type: str
+
+    :param location: The location of the resource
+
+    :type location: str
+
+    :param tags: The tags of the resource
+
+    :type tags: dict
+
+    '
+  type: Class
+  uid: azure.mgmt.batch.models.Resource
+- _type: class
+  children: []
+  module: azure.mgmt.batch.models
+  name: azure.mgmt.batch.models.AccountResourcePaged
+  summary: 'A paging container for iterating over a list of AccountResource object
+
+    '
+  type: Class
+  uid: azure.mgmt.batch.models.AccountResourcePaged
+- _type: class
+  children: []
+  module: azure.mgmt.batch.models
+  name: azure.mgmt.batch.models.ApplicationPaged
+  summary: 'A paging container for iterating over a list of Application object
+
+    '
+  type: Class
+  uid: azure.mgmt.batch.models.ApplicationPaged
+- _type: class
+  children: []
+  module: azure.mgmt.batch.models
+  name: azure.mgmt.batch.models.AccountProvisioningState
+  summary: ''
+  type: Class
+  uid: azure.mgmt.batch.models.AccountProvisioningState
+- _type: class
+  children: []
+  module: azure.mgmt.batch.models
+  name: azure.mgmt.batch.models.AccountKeyType
+  summary: ''
+  type: Class
+  uid: azure.mgmt.batch.models.AccountKeyType
+- _type: class
+  children: []
+  module: azure.mgmt.batch.models
+  name: azure.mgmt.batch.models.PackageState
+  summary: ''
+  type: Class
+  uid: azure.mgmt.batch.models.PackageState

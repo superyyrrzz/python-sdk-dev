@@ -1,0 +1,300 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - azure.mgmt.powerbiembedded.models.Error
+  - azure.mgmt.powerbiembedded.models.ErrorException
+  - azure.mgmt.powerbiembedded.models.ErrorDetail
+  - azure.mgmt.powerbiembedded.models.WorkspaceCollection
+  - azure.mgmt.powerbiembedded.models.AzureSku
+  - azure.mgmt.powerbiembedded.models.AzureSku
+  - azure.mgmt.powerbiembedded.models.Workspace
+  - azure.mgmt.powerbiembedded.models.OperationList
+  - azure.mgmt.powerbiembedded.models.Operation
+  - azure.mgmt.powerbiembedded.models.Display
+  - azure.mgmt.powerbiembedded.models.WorkspaceCollectionAccessKeys
+  - azure.mgmt.powerbiembedded.models.WorkspaceCollectionAccessKey
+  - azure.mgmt.powerbiembedded.models.CreateWorkspaceCollectionRequest
+  - azure.mgmt.powerbiembedded.models.UpdateWorkspaceCollectionRequest
+  - azure.mgmt.powerbiembedded.models.CheckNameRequest
+  - azure.mgmt.powerbiembedded.models.CheckNameResponse
+  - azure.mgmt.powerbiembedded.models.MigrateWorkspaceCollectionRequest
+  - azure.mgmt.powerbiembedded.models.WorkspaceCollectionPaged
+  - azure.mgmt.powerbiembedded.models.WorkspacePaged
+  - azure.mgmt.powerbiembedded.models.AccessKeyName
+  - azure.mgmt.powerbiembedded.models.CheckNameReason
+  module: azure.mgmt.powerbiembedded.models
+  name: azure.mgmt.powerbiembedded.models
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.powerbiembedded.models
+- _type: class
+  children: []
+  module: azure.mgmt.powerbiembedded.models
+  name: azure.mgmt.powerbiembedded.models.Global
+  summary: Proxy object to hold module level functions
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.Global
+- _type: class
+  children: []
+  module: azure.mgmt.powerbiembedded.models
+  name: azure.mgmt.powerbiembedded.models.Error
+  summary: "Error.\n\n:param code:\n:type code: str\n:param message:\n:type message:\
+    \ str\n:param target:\n:type target: str\n:param details:\n:type details: list\
+    \ of :class:`ErrorDetail\n <azure.mgmt.powerbiembedded.models.ErrorDetail>`\n"
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.Error
+- _type: exception
+  module: azure.mgmt.powerbiembedded.models
+  name: azure.mgmt.powerbiembedded.models.ErrorException
+  summary: 'Server responsed with exception of type: ''Error''.
+
+
+    :param deserialize: A deserializer
+
+    :param response: Server response to be deserialized.
+
+    '
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.ErrorException
+- _type: class
+  children: []
+  module: azure.mgmt.powerbiembedded.models
+  name: azure.mgmt.powerbiembedded.models.ErrorDetail
+  summary: 'ErrorDetail.
+
+
+    :param code:
+
+    :type code: str
+
+    :param message:
+
+    :type message: str
+
+    :param target:
+
+    :type target: str
+
+    '
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.ErrorDetail
+- _type: class
+  children: []
+  module: azure.mgmt.powerbiembedded.models
+  name: azure.mgmt.powerbiembedded.models.WorkspaceCollection
+  summary: "WorkspaceCollection.\n\nVariables are only populated by the server, and\
+    \ will be ignored when\nsending a request.\n\n:param id: Resource id\n:type id:\
+    \ str\n:param name: Workspace collection name\n:type name: str\n:param type: Resource\
+    \ type\n:type type: str\n:param location: Azure location\n:type location: str\n\
+    :param tags:\n:type tags: dict\n:ivar sku:\n:vartype sku: :class:`AzureSku\n <azure.mgmt.powerbiembedded.models.AzureSku>`\n\
+    :param properties: Properties\n:type properties: object\n"
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.WorkspaceCollection
+- _type: class
+  children: []
+  module: azure.mgmt.powerbiembedded.models
+  name: azure.mgmt.powerbiembedded.models.AzureSku
+  summary: 'AzureSku.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar name: SKU name. Default value: "S1" .
+
+    :vartype name: str
+
+    :ivar tier: SKU tier. Default value: "Standard" .
+
+    :vartype tier: str
+
+    '
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.AzureSku
+- _type: class
+  children: []
+  module: azure.mgmt.powerbiembedded.models
+  name: azure.mgmt.powerbiembedded.models.AzureSku
+  summary: 'Allow attribute setting via kwargs on initialization.
+
+    '
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.AzureSku
+- _type: class
+  children: []
+  module: azure.mgmt.powerbiembedded.models
+  name: azure.mgmt.powerbiembedded.models.Workspace
+  summary: 'Workspace.
+
+
+    :param id: Workspace id
+
+    :type id: str
+
+    :param name: Workspace name
+
+    :type name: str
+
+    :param type: Resource type
+
+    :type type: str
+
+    :param properties: Property bag
+
+    :type properties: object
+
+    '
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.Workspace
+- _type: class
+  children: []
+  module: azure.mgmt.powerbiembedded.models
+  name: azure.mgmt.powerbiembedded.models.OperationList
+  summary: "OperationList.\n\n:param value:\n:type value: list of :class:`Operation\n\
+    \ <azure.mgmt.powerbiembedded.models.Operation>`\n"
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.OperationList
+- _type: class
+  children: []
+  module: azure.mgmt.powerbiembedded.models
+  name: azure.mgmt.powerbiembedded.models.Operation
+  summary: "Operation.\n\n:param name: The name of the operation being performed on\
+    \ this particular\n object. This name should match the action name that appears\
+    \ in RBAC /\n the event service.\n:type name: str\n:param display:\n:type display:\
+    \ :class:`Display\n <azure.mgmt.powerbiembedded.models.Display>`\n"
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.Operation
+- _type: class
+  children: []
+  module: azure.mgmt.powerbiembedded.models
+  name: azure.mgmt.powerbiembedded.models.Display
+  summary: "Display.\n\n:param provider: The localized friendly form of the resource\
+    \ provider\n name. This form is also expected to include the publisher/company\n\
+    \ responsible. Use Title Casing. Begin with \u201CMicrosoft\u201D for 1st party\n\
+    \ services.\n:type provider: str\n:param resource: The localized friendly form\
+    \ of the resource type related\n to this action/operation. This form should match\
+    \ the public\n documentation for the resource provider. Use Title Casing. For\
+    \ examples,\n refer to the \u201Cname\u201D section.\n:type resource: str\n:param\
+    \ operation: The localized friendly name for the operation as shown\n to the user.\
+    \ This name should be concise (to fit in drop downs), but\n clear (self-documenting).\
+    \ Use Title Casing and include the\n entity/resource to which it applies.\n:type\
+    \ operation: str\n:param description: The localized friendly description for the\
+    \ operation\n as shown to the user. This description should be thorough, yet concise.\n\
+    \ It will be used in tool-tips and detailed views.\n:type description: str\n:param\
+    \ origin: The intended executor of the operation; governs the\n display of the\
+    \ operation in the RBAC UX and the audit logs UX. Default\n value is 'user,system'\n\
+    :type origin: str\n"
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.Display
+- _type: class
+  children: []
+  module: azure.mgmt.powerbiembedded.models
+  name: azure.mgmt.powerbiembedded.models.WorkspaceCollectionAccessKeys
+  summary: 'WorkspaceCollectionAccessKeys.
+
+
+    :param key1: Access key 1
+
+    :type key1: str
+
+    :param key2: Access key 2
+
+    :type key2: str
+
+    '
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.WorkspaceCollectionAccessKeys
+- _type: class
+  children: []
+  module: azure.mgmt.powerbiembedded.models
+  name: azure.mgmt.powerbiembedded.models.WorkspaceCollectionAccessKey
+  summary: "WorkspaceCollectionAccessKey.\n\n:param key_name: Key name. Possible values\
+    \ include: 'key1', 'key2'\n:type key_name: str or :class:`AccessKeyName\n <azure.mgmt.powerbiembedded.models.AccessKeyName>`\n"
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.WorkspaceCollectionAccessKey
+- _type: class
+  children: []
+  module: azure.mgmt.powerbiembedded.models
+  name: azure.mgmt.powerbiembedded.models.CreateWorkspaceCollectionRequest
+  summary: "CreateWorkspaceCollectionRequest.\n\nVariables are only populated by the\
+    \ server, and will be ignored when\nsending a request.\n\n:param location: Azure\
+    \ location\n:type location: str\n:param tags:\n:type tags: dict\n:ivar sku:\n\
+    :vartype sku: :class:`AzureSku\n <azure.mgmt.powerbiembedded.models.AzureSku>`\n"
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.CreateWorkspaceCollectionRequest
+- _type: class
+  children: []
+  module: azure.mgmt.powerbiembedded.models
+  name: azure.mgmt.powerbiembedded.models.UpdateWorkspaceCollectionRequest
+  summary: "UpdateWorkspaceCollectionRequest.\n\nVariables are only populated by the\
+    \ server, and will be ignored when\nsending a request.\n\n:param tags:\n:type\
+    \ tags: dict\n:ivar sku:\n:vartype sku: :class:`AzureSku\n <azure.mgmt.powerbiembedded.models.AzureSku>`\n"
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.UpdateWorkspaceCollectionRequest
+- _type: class
+  children: []
+  module: azure.mgmt.powerbiembedded.models
+  name: azure.mgmt.powerbiembedded.models.CheckNameRequest
+  summary: "CheckNameRequest.\n\n:param name: Workspace collection name\n:type name:\
+    \ str\n:param type: Resource type. Default value:\n \"Microsoft.PowerBI/workspaceCollections\"\
+    \ .\n:type type: str\n"
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.CheckNameRequest
+- _type: class
+  children: []
+  module: azure.mgmt.powerbiembedded.models
+  name: azure.mgmt.powerbiembedded.models.CheckNameResponse
+  summary: "CheckNameResponse.\n\n:param name_available: Specifies a Boolean value\
+    \ that indicates whether\n the specified Power BI Workspace Collection name is\
+    \ available to use.\n:type name_available: bool\n:param reason: Reason why the\
+    \ workspace collection name cannot be used.\n Possible values include: 'Unavailable',\
+    \ 'Invalid'\n:type reason: str or :class:`CheckNameReason\n <azure.mgmt.powerbiembedded.models.CheckNameReason>`\n\
+    :param message: Message indicating an unavailable name due to a conflict,\n or\
+    \ a description of the naming rules that are violated.\n:type message: str\n"
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.CheckNameResponse
+- _type: class
+  children: []
+  module: azure.mgmt.powerbiembedded.models
+  name: azure.mgmt.powerbiembedded.models.MigrateWorkspaceCollectionRequest
+  summary: "MigrateWorkspaceCollectionRequest.\n\n:param target_resource_group: Name\
+    \ of the resource group the Power BI\n workspace collections will be migrated\
+    \ to.\n:type target_resource_group: str\n:param resources:\n:type resources: list\
+    \ of str\n"
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.MigrateWorkspaceCollectionRequest
+- _type: class
+  children: []
+  module: azure.mgmt.powerbiembedded.models
+  name: azure.mgmt.powerbiembedded.models.WorkspaceCollectionPaged
+  summary: 'A paging container for iterating over a list of WorkspaceCollection object
+
+    '
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.WorkspaceCollectionPaged
+- _type: class
+  children: []
+  module: azure.mgmt.powerbiembedded.models
+  name: azure.mgmt.powerbiembedded.models.WorkspacePaged
+  summary: 'A paging container for iterating over a list of Workspace object
+
+    '
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.WorkspacePaged
+- _type: class
+  children: []
+  module: azure.mgmt.powerbiembedded.models
+  name: azure.mgmt.powerbiembedded.models.AccessKeyName
+  summary: ''
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.AccessKeyName
+- _type: class
+  children: []
+  module: azure.mgmt.powerbiembedded.models
+  name: azure.mgmt.powerbiembedded.models.CheckNameReason
+  summary: ''
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.CheckNameReason

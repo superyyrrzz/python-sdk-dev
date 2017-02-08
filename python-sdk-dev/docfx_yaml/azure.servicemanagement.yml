@@ -1,0 +1,16 @@
+api_name: []
+items:
+- _type: module
+  children: []
+  module: azure.servicemanagement
+  name: azure.servicemanagement
+  summary: ''
+  type: Namespace
+  uid: azure.servicemanagement
+- _type: class
+  children: []
+  module: azure.servicemanagement
+  name: azure.servicemanagement.Global
+  summary: Proxy object to hold module level functions
+  type: Class
+  uid: azure.servicemanagement.Global

@@ -1,0 +1,47 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - azure.mgmt.devtestlabs.DevTestLabsClient
+  module: azure.mgmt.devtestlabs
+  name: azure.mgmt.devtestlabs
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.devtestlabs
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs
+  name: azure.mgmt.devtestlabs.Global
+  summary: Proxy object to hold module level functions
+  type: Class
+  uid: azure.mgmt.devtestlabs.Global
+- _type: class
+  children: []
+  module: azure.mgmt.devtestlabs
+  name: azure.mgmt.devtestlabs.DevTestLabsClient
+  summary: "Azure DevTest Labs REST API.\n\n:ivar config: Configuration for client.\n\
+    :vartype config: DevTestLabsClientConfiguration\n\n:ivar lab: Lab operations\n\
+    :vartype lab: .operations.LabOperations\n:ivar artifact_source: ArtifactSource\
+    \ operations\n:vartype artifact_source: .operations.ArtifactSourceOperations\n\
+    :ivar artifact: Artifact operations\n:vartype artifact: .operations.ArtifactOperations\n\
+    :ivar cost: Cost operations\n:vartype cost: .operations.CostOperations\n:ivar\
+    \ custom_image: CustomImage operations\n:vartype custom_image: .operations.CustomImageOperations\n\
+    :ivar formula: Formula operations\n:vartype formula: .operations.FormulaOperations\n\
+    :ivar gallery_image: GalleryImage operations\n:vartype gallery_image: .operations.GalleryImageOperations\n\
+    :ivar policy_set: PolicySet operations\n:vartype policy_set: .operations.PolicySetOperations\n\
+    :ivar policy: Policy operations\n:vartype policy: .operations.PolicyOperations\n\
+    :ivar schedule: Schedule operations\n:vartype schedule: .operations.ScheduleOperations\n\
+    :ivar virtual_machine: VirtualMachine operations\n:vartype virtual_machine: .operations.VirtualMachineOperations\n\
+    :ivar virtual_network: VirtualNetwork operations\n:vartype virtual_network: .operations.VirtualNetworkOperations\n\
+    \n:param credentials: Credentials needed for the client to connect to Azure.\n\
+    :type credentials: :mod:`A msrestazure Credentials\n object<msrestazure.azure_active_directory>`\n\
+    :param api_version: Client API version.\n:type api_version: str\n:param subscription_id:\
+    \ The subscription ID.\n:type subscription_id: str\n:param accept_language: Gets\
+    \ or sets the preferred language for the\n response.\n:type accept_language: str\n\
+    :param long_running_operation_retry_timeout: Gets or sets the retry\n timeout\
+    \ in seconds for Long Running Operations. Default value is 30.\n:type long_running_operation_retry_timeout:\
+    \ int\n:param generate_client_request_id: When set to true a unique\n x-ms-client-request-id\
+    \ value is generated and included in each request.\n Default is true.\n:type generate_client_request_id:\
+    \ bool\n:param str base_url: Service URL\n:param str filepath: Existing config\n"
+  type: Class
+  uid: azure.mgmt.devtestlabs.DevTestLabsClient

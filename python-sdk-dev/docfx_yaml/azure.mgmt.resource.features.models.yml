@@ -1,0 +1,161 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - azure.mgmt.resource.features.models.DeploymentExtendedFilter
+  - azure.mgmt.resource.features.models.GenericResourceFilter
+  - azure.mgmt.resource.features.models.ResourceGroupFilter
+  - azure.mgmt.resource.features.models.FeatureProperties
+  - azure.mgmt.resource.features.models.FeatureResult
+  - azure.mgmt.resource.features.models.ResourceModel
+  - azure.mgmt.resource.features.models.SubResource
+  - azure.mgmt.resource.features.models.FeatureResultPaged
+  module: azure.mgmt.resource.features.models
+  name: azure.mgmt.resource.features.models
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.resource.features.models
+- _type: class
+  children: []
+  module: azure.mgmt.resource.features.models
+  name: azure.mgmt.resource.features.models.Global
+  summary: Proxy object to hold module level functions
+  type: Class
+  uid: azure.mgmt.resource.features.models.Global
+- _type: class
+  children: []
+  module: azure.mgmt.resource.features.models
+  name: azure.mgmt.resource.features.models.DeploymentExtendedFilter
+  summary: 'Deployment filter.
+
+
+    :param provisioning_state: Gets or sets the provisioning state.
+
+    :type provisioning_state: str
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.features.models.DeploymentExtendedFilter
+- _type: class
+  children: []
+  module: azure.mgmt.resource.features.models
+  name: azure.mgmt.resource.features.models.GenericResourceFilter
+  summary: 'Resource filter.
+
+
+    :param resource_type: Gets or sets the resource type.
+
+    :type resource_type: str
+
+    :param tagname: Gets or sets the tag name.
+
+    :type tagname: str
+
+    :param tagvalue: Gets or sets the tag value.
+
+    :type tagvalue: str
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.features.models.GenericResourceFilter
+- _type: class
+  children: []
+  module: azure.mgmt.resource.features.models
+  name: azure.mgmt.resource.features.models.ResourceGroupFilter
+  summary: 'Resource group filter.
+
+
+    :param tag_name: Gets or sets the tag name.
+
+    :type tag_name: str
+
+    :param tag_value: Gets or sets the tag value.
+
+    :type tag_value: str
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.features.models.ResourceGroupFilter
+- _type: class
+  children: []
+  module: azure.mgmt.resource.features.models
+  name: azure.mgmt.resource.features.models.FeatureProperties
+  summary: 'Previewed feature information.
+
+
+    :param state: Gets or sets the state of the previewed feature.
+
+    :type state: str
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.features.models.FeatureProperties
+- _type: class
+  children: []
+  module: azure.mgmt.resource.features.models
+  name: azure.mgmt.resource.features.models.FeatureResult
+  summary: "Previewed feature information.\n\n:param name: Gets or sets the name of\
+    \ the feature.\n:type name: str\n:param properties: Gets or sets the properties\
+    \ of the previewed feature.\n:type properties: :class:`FeatureProperties\n <azure.mgmt.resource.feature.models.FeatureProperties>`\n\
+    :param id: Gets or sets the Id of the feature.\n:type id: str\n:param type: Gets\
+    \ or sets the type of the feature.\n:type type: str\n"
+  type: Class
+  uid: azure.mgmt.resource.features.models.FeatureResult
+- _type: class
+  children: []
+  module: azure.mgmt.resource.features.models
+  name: azure.mgmt.resource.features.models.ResourceModel
+  summary: 'ResourceModel.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar id: Resource Id
+
+    :vartype id: str
+
+    :ivar name: Resource name
+
+    :vartype name: str
+
+    :ivar type: Resource type
+
+    :vartype type: str
+
+    :param location: Resource location
+
+    :type location: str
+
+    :param tags: Resource tags
+
+    :type tags: dict
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.features.models.ResourceModel
+- _type: class
+  children: []
+  module: azure.mgmt.resource.features.models
+  name: azure.mgmt.resource.features.models.SubResource
+  summary: 'SubResource.
+
+
+    :param id: Resource Id
+
+    :type id: str
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.features.models.SubResource
+- _type: class
+  children: []
+  module: azure.mgmt.resource.features.models
+  name: azure.mgmt.resource.features.models.FeatureResultPaged
+  summary: 'A paging container for iterating over a list of FeatureResult object
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.features.models.FeatureResultPaged

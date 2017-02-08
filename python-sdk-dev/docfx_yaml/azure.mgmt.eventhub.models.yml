@@ -1,0 +1,385 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - azure.mgmt.eventhub.models.Resource
+  - azure.mgmt.eventhub.models.Sku
+  - azure.mgmt.eventhub.models.NamespaceCreateOrUpdateParameters
+  - azure.mgmt.eventhub.models.NamespaceResource
+  - azure.mgmt.eventhub.models.SharedAccessAuthorizationRuleCreateOrUpdateParameters
+  - azure.mgmt.eventhub.models.SharedAccessAuthorizationRuleResource
+  - azure.mgmt.eventhub.models.ResourceListKeys
+  - azure.mgmt.eventhub.models.RegenerateKeysParameters
+  - azure.mgmt.eventhub.models.EventHubCreateOrUpdateParameters
+  - azure.mgmt.eventhub.models.EventHubResource
+  - azure.mgmt.eventhub.models.ConsumerGroupCreateOrUpdateParameters
+  - azure.mgmt.eventhub.models.ConsumerGroupResource
+  - azure.mgmt.eventhub.models.NamespaceResourcePaged
+  - azure.mgmt.eventhub.models.SharedAccessAuthorizationRuleResourcePaged
+  - azure.mgmt.eventhub.models.EventHubResourcePaged
+  - azure.mgmt.eventhub.models.ConsumerGroupResourcePaged
+  - azure.mgmt.eventhub.models.SkuName
+  - azure.mgmt.eventhub.models.SkuTier
+  - azure.mgmt.eventhub.models.NamespaceState
+  - azure.mgmt.eventhub.models.AccessRights
+  - azure.mgmt.eventhub.models.Policykey
+  - azure.mgmt.eventhub.models.EntityStatus
+  module: azure.mgmt.eventhub.models
+  name: azure.mgmt.eventhub.models
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.eventhub.models
+- _type: class
+  children: []
+  module: azure.mgmt.eventhub.models
+  name: azure.mgmt.eventhub.models.Global
+  summary: Proxy object to hold module level functions
+  type: Class
+  uid: azure.mgmt.eventhub.models.Global
+- _type: class
+  children: []
+  module: azure.mgmt.eventhub.models
+  name: azure.mgmt.eventhub.models.Resource
+  summary: 'Resource.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar id: Resource Id
+
+    :vartype id: str
+
+    :ivar name: Resource name
+
+    :vartype name: str
+
+    :ivar type: Resource type
+
+    :vartype type: str
+
+    :param location: Resource location
+
+    :type location: str
+
+    :param tags: Resource tags
+
+    :type tags: dict
+
+    '
+  type: Class
+  uid: azure.mgmt.eventhub.models.Resource
+- _type: class
+  children: []
+  module: azure.mgmt.eventhub.models
+  name: azure.mgmt.eventhub.models.Sku
+  summary: "SKU of the namespace.\n\n:param name: Name of this SKU. Possible values\
+    \ include: 'Basic',\n 'Standard', 'Premium'\n:type name: str or :class:`SkuName\
+    \ <azure.mgmt.eventhub.models.SkuName>`\n:param tier: The billing tier of this\
+    \ particular SKU. Possible values\n include: 'Basic', 'Standard', 'Premium'\n\
+    :type tier: str or :class:`SkuTier <azure.mgmt.eventhub.models.SkuTier>`\n:param\
+    \ capacity: The Event Hubs throughput units.\n:type capacity: int\n"
+  type: Class
+  uid: azure.mgmt.eventhub.models.Sku
+- _type: class
+  children: []
+  module: azure.mgmt.eventhub.models
+  name: azure.mgmt.eventhub.models.NamespaceCreateOrUpdateParameters
+  summary: "Parameters supplied to the Create Or Update Namespace operation.\n\n:param\
+    \ location: Namespace location.\n:type location: str\n:param sku:\n:type sku:\
+    \ :class:`Sku <azure.mgmt.eventhub.models.Sku>`\n:param tags: Namespace tags.\n\
+    :type tags: dict\n:param provisioning_state: Provisioning state of the namespace.\n\
+    :type provisioning_state: str\n:param status: State of the namespace. Possible\
+    \ values include: 'Unknown',\n 'Creating', 'Created', 'Activating', 'Enabling',\
+    \ 'Active', 'Disabling',\n 'Disabled', 'SoftDeleting', 'SoftDeleted', 'Removing',\
+    \ 'Removed', 'Failed'\n:type status: str or :class:`NamespaceState\n <azure.mgmt.eventhub.models.NamespaceState>`\n\
+    :param created_at: The time the namespace was created.\n:type created_at: datetime\n\
+    :param updated_at: The time the namespace was updated.\n:type updated_at: datetime\n\
+    :param service_bus_endpoint: Endpoint you can use to perform Service Bus\n operations.\n\
+    :type service_bus_endpoint: str\n:param create_acs_namespace: Indicates whether\
+    \ to create an ACS namespace.\n:type create_acs_namespace: bool\n:param enabled:\
+    \ Specifies whether this instance is enabled.\n:type enabled: bool\n"
+  type: Class
+  uid: azure.mgmt.eventhub.models.NamespaceCreateOrUpdateParameters
+- _type: class
+  children: []
+  module: azure.mgmt.eventhub.models
+  name: azure.mgmt.eventhub.models.NamespaceResource
+  summary: "Description of a namespace resource.\n\nVariables are only populated by\
+    \ the server, and will be ignored when\nsending a request.\n\n:ivar id: Resource\
+    \ Id\n:vartype id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type:\
+    \ Resource type\n:vartype type: str\n:param location: Resource location\n:type\
+    \ location: str\n:param tags: Resource tags\n:type tags: dict\n:param sku:\n:type\
+    \ sku: :class:`Sku <azure.mgmt.eventhub.models.Sku>`\n:param provisioning_state:\
+    \ Provisioning state of the namespace.\n:type provisioning_state: str\n:param\
+    \ status: State of the namespace. Possible values include: 'Unknown',\n 'Creating',\
+    \ 'Created', 'Activating', 'Enabling', 'Active', 'Disabling',\n 'Disabled', 'SoftDeleting',\
+    \ 'SoftDeleted', 'Removing', 'Removed', 'Failed'\n:type status: str or :class:`NamespaceState\n\
+    \ <azure.mgmt.eventhub.models.NamespaceState>`\n:param created_at: The time the\
+    \ namespace was created.\n:type created_at: datetime\n:param updated_at: The time\
+    \ the namespace was updated.\n:type updated_at: datetime\n:param service_bus_endpoint:\
+    \ Endpoint you can use to perform Service Bus\n operations.\n:type service_bus_endpoint:\
+    \ str\n:param create_acs_namespace: Indicates whether to create an ACS namespace.\n\
+    :type create_acs_namespace: bool\n:param enabled: Specifies whether this instance\
+    \ is enabled.\n:type enabled: bool\n"
+  type: Class
+  uid: azure.mgmt.eventhub.models.NamespaceResource
+- _type: class
+  children: []
+  module: azure.mgmt.eventhub.models
+  name: azure.mgmt.eventhub.models.SharedAccessAuthorizationRuleCreateOrUpdateParameters
+  summary: "Parameters supplied to the Create Or Update Authorization Rules operation.\n\
+    \n:param location: Data center location.\n:type location: str\n:param name: Name\
+    \ of the authorization rule.\n:type name: str\n:param rights: The rights associated\
+    \ with the rule.\n:type rights: list of str or :class:`AccessRights\n <azure.mgmt.eventhub.models.AccessRights>`\n"
+  type: Class
+  uid: azure.mgmt.eventhub.models.SharedAccessAuthorizationRuleCreateOrUpdateParameters
+- _type: class
+  children: []
+  module: azure.mgmt.eventhub.models
+  name: azure.mgmt.eventhub.models.SharedAccessAuthorizationRuleResource
+  summary: "Description of a namespace authorization rule.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar id: Resource\
+    \ Id\n:vartype id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type:\
+    \ Resource type\n:vartype type: str\n:param location: Resource location\n:type\
+    \ location: str\n:param tags: Resource tags\n:type tags: dict\n:param rights:\
+    \ The rights associated with the rule.\n:type rights: list of str or :class:`AccessRights\n\
+    \ <azure.mgmt.eventhub.models.AccessRights>`\n"
+  type: Class
+  uid: azure.mgmt.eventhub.models.SharedAccessAuthorizationRuleResource
+- _type: class
+  children: []
+  module: azure.mgmt.eventhub.models
+  name: azure.mgmt.eventhub.models.ResourceListKeys
+  summary: "Namespace/EventHub Connection String.\n\n:param primary_connection_string:\
+    \ Primary connection string of the created\n namespace authorization rule.\n:type\
+    \ primary_connection_string: str\n:param secondary_connection_string: Secondary\
+    \ connection string of the\n created namespace authorization rule.\n:type secondary_connection_string:\
+    \ str\n:param primary_key: A base64-encoded 256-bit primary key for signing and\n\
+    \ validating the SAS token.\n:type primary_key: str\n:param secondary_key: A base64-encoded\
+    \ 256-bit primary key for signing and\n validating the SAS token.\n:type secondary_key:\
+    \ str\n:param key_name: A string that describes the authorization rule.\n:type\
+    \ key_name: str\n"
+  type: Class
+  uid: azure.mgmt.eventhub.models.ResourceListKeys
+- _type: class
+  children: []
+  module: azure.mgmt.eventhub.models
+  name: azure.mgmt.eventhub.models.RegenerateKeysParameters
+  summary: "Parameters supplied to the Regenerate Authorization Rule operation.\n\n\
+    :param policykey: Key that needs to be regenerated. Possible values\n include:\
+    \ 'PrimaryKey', 'SecondaryKey'\n:type policykey: str or :class:`Policykey\n <azure.mgmt.eventhub.models.Policykey>`\n"
+  type: Class
+  uid: azure.mgmt.eventhub.models.RegenerateKeysParameters
+- _type: class
+  children: []
+  module: azure.mgmt.eventhub.models
+  name: azure.mgmt.eventhub.models.EventHubCreateOrUpdateParameters
+  summary: "Parameters supplied to the Create Or Update Event Hub operation.\n\n:param\
+    \ location: Location of the resource.\n:type location: str\n:param type: ARM type\
+    \ of the namespace.\n:type type: str\n:param name: Name of the Event Hub.\n:type\
+    \ name: str\n:param created_at: Exact time the Event Hub was created.\n:type created_at:\
+    \ datetime\n:param message_retention_in_days: Number of days to retain the events\
+    \ for\n this Event Hub.\n:type message_retention_in_days: long\n:param partition_count:\
+    \ Number of partitions created for the Event Hub.\n:type partition_count: long\n\
+    :param partition_ids: Current number of shards on the Event Hub.\n:type partition_ids:\
+    \ list of str\n:param status: Enumerates the possible values for the status of\
+    \ the Event\n Hub. Possible values include: 'Active', 'Disabled', 'Restoring',\n\
+    \ 'SendDisabled', 'ReceiveDisabled', 'Creating', 'Deleting', 'Renaming',\n 'Unknown'\n\
+    :type status: str or :class:`EntityStatus\n <azure.mgmt.eventhub.models.EntityStatus>`\n\
+    :param updated_at: The exact time the message was updated.\n:type updated_at:\
+    \ datetime\n"
+  type: Class
+  uid: azure.mgmt.eventhub.models.EventHubCreateOrUpdateParameters
+- _type: class
+  children: []
+  module: azure.mgmt.eventhub.models
+  name: azure.mgmt.eventhub.models.EventHubResource
+  summary: "Description of the Event Hub resource.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar id: Resource\
+    \ Id\n:vartype id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type:\
+    \ Resource type\n:vartype type: str\n:param location: Resource location\n:type\
+    \ location: str\n:param tags: Resource tags\n:type tags: dict\n:param created_at:\
+    \ Exact time the Event Hub was created.\n:type created_at: datetime\n:param message_retention_in_days:\
+    \ Number of days to retain the events for\n this Event Hub.\n:type message_retention_in_days:\
+    \ long\n:param partition_count: Number of partitions created for the Event Hub.\n\
+    :type partition_count: long\n:param partition_ids: Current number of shards on\
+    \ the Event Hub.\n:type partition_ids: list of str\n:param status: Enumerates\
+    \ the possible values for the status of the Event\n Hub. Possible values include:\
+    \ 'Active', 'Disabled', 'Restoring',\n 'SendDisabled', 'ReceiveDisabled', 'Creating',\
+    \ 'Deleting', 'Renaming',\n 'Unknown'\n:type status: str or :class:`EntityStatus\n\
+    \ <azure.mgmt.eventhub.models.EntityStatus>`\n:param updated_at: The exact time\
+    \ the message was updated.\n:type updated_at: datetime\n"
+  type: Class
+  uid: azure.mgmt.eventhub.models.EventHubResource
+- _type: class
+  children: []
+  module: azure.mgmt.eventhub.models
+  name: azure.mgmt.eventhub.models.ConsumerGroupCreateOrUpdateParameters
+  summary: 'Parameters supplied to the Create Or Update Consumer Group operation.
+
+
+    :param location: Location of the resource.
+
+    :type location: str
+
+    :param type: ARM type of the namespace.
+
+    :type type: str
+
+    :param name: Name of the consumer group.
+
+    :type name: str
+
+    :param created_at: Exact time the message was created.
+
+    :type created_at: datetime
+
+    :param event_hub_path: The path of the Event Hub.
+
+    :type event_hub_path: str
+
+    :param updated_at: The exact time the message was updated.
+
+    :type updated_at: datetime
+
+    :param user_metadata: The user metadata.
+
+    :type user_metadata: str
+
+    '
+  type: Class
+  uid: azure.mgmt.eventhub.models.ConsumerGroupCreateOrUpdateParameters
+- _type: class
+  children: []
+  module: azure.mgmt.eventhub.models
+  name: azure.mgmt.eventhub.models.ConsumerGroupResource
+  summary: 'Description of the consumer group resource.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar id: Resource Id
+
+    :vartype id: str
+
+    :ivar name: Resource name
+
+    :vartype name: str
+
+    :ivar type: Resource type
+
+    :vartype type: str
+
+    :param location: Resource location
+
+    :type location: str
+
+    :param tags: Resource tags
+
+    :type tags: dict
+
+    :param created_at: Exact time the message was created.
+
+    :type created_at: datetime
+
+    :param event_hub_path: The path of the Event Hub.
+
+    :type event_hub_path: str
+
+    :param updated_at: The exact time the message was updated.
+
+    :type updated_at: datetime
+
+    :param user_metadata: The user metadata.
+
+    :type user_metadata: str
+
+    '
+  type: Class
+  uid: azure.mgmt.eventhub.models.ConsumerGroupResource
+- _type: class
+  children: []
+  module: azure.mgmt.eventhub.models
+  name: azure.mgmt.eventhub.models.NamespaceResourcePaged
+  summary: 'A paging container for iterating over a list of NamespaceResource object
+
+    '
+  type: Class
+  uid: azure.mgmt.eventhub.models.NamespaceResourcePaged
+- _type: class
+  children: []
+  module: azure.mgmt.eventhub.models
+  name: azure.mgmt.eventhub.models.SharedAccessAuthorizationRuleResourcePaged
+  summary: 'A paging container for iterating over a list of SharedAccessAuthorizationRuleResource
+    object
+
+    '
+  type: Class
+  uid: azure.mgmt.eventhub.models.SharedAccessAuthorizationRuleResourcePaged
+- _type: class
+  children: []
+  module: azure.mgmt.eventhub.models
+  name: azure.mgmt.eventhub.models.EventHubResourcePaged
+  summary: 'A paging container for iterating over a list of EventHubResource object
+
+    '
+  type: Class
+  uid: azure.mgmt.eventhub.models.EventHubResourcePaged
+- _type: class
+  children: []
+  module: azure.mgmt.eventhub.models
+  name: azure.mgmt.eventhub.models.ConsumerGroupResourcePaged
+  summary: 'A paging container for iterating over a list of ConsumerGroupResource
+    object
+
+    '
+  type: Class
+  uid: azure.mgmt.eventhub.models.ConsumerGroupResourcePaged
+- _type: class
+  children: []
+  module: azure.mgmt.eventhub.models
+  name: azure.mgmt.eventhub.models.SkuName
+  summary: ''
+  type: Class
+  uid: azure.mgmt.eventhub.models.SkuName
+- _type: class
+  children: []
+  module: azure.mgmt.eventhub.models
+  name: azure.mgmt.eventhub.models.SkuTier
+  summary: ''
+  type: Class
+  uid: azure.mgmt.eventhub.models.SkuTier
+- _type: class
+  children: []
+  module: azure.mgmt.eventhub.models
+  name: azure.mgmt.eventhub.models.NamespaceState
+  summary: ''
+  type: Class
+  uid: azure.mgmt.eventhub.models.NamespaceState
+- _type: class
+  children: []
+  module: azure.mgmt.eventhub.models
+  name: azure.mgmt.eventhub.models.AccessRights
+  summary: ''
+  type: Class
+  uid: azure.mgmt.eventhub.models.AccessRights
+- _type: class
+  children: []
+  module: azure.mgmt.eventhub.models
+  name: azure.mgmt.eventhub.models.Policykey
+  summary: ''
+  type: Class
+  uid: azure.mgmt.eventhub.models.Policykey
+- _type: class
+  children: []
+  module: azure.mgmt.eventhub.models
+  name: azure.mgmt.eventhub.models.EntityStatus
+  summary: ''
+  type: Class
+  uid: azure.mgmt.eventhub.models.EntityStatus

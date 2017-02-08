@@ -1,0 +1,236 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - azure.mgmt.trafficmanager.operations.EndpointsOperations
+  - azure.mgmt.trafficmanager.operations.ProfilesOperations
+  module: azure.mgmt.trafficmanager.operations
+  name: azure.mgmt.trafficmanager.operations
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.trafficmanager.operations
+- _type: class
+  children: []
+  module: azure.mgmt.trafficmanager.operations
+  name: azure.mgmt.trafficmanager.operations.Global
+  summary: Proxy object to hold module level functions
+  type: Class
+  uid: azure.mgmt.trafficmanager.operations.Global
+- _type: class
+  children:
+  - azure.mgmt.trafficmanager.operations.EndpointsOperations.create_or_update
+  - azure.mgmt.trafficmanager.operations.EndpointsOperations.delete
+  - azure.mgmt.trafficmanager.operations.EndpointsOperations.get
+  - azure.mgmt.trafficmanager.operations.EndpointsOperations.update
+  module: azure.mgmt.trafficmanager.operations
+  name: azure.mgmt.trafficmanager.operations.EndpointsOperations
+  summary: 'EndpointsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    '
+  type: Class
+  uid: azure.mgmt.trafficmanager.operations.EndpointsOperations
+- _type: method
+  class: azure.mgmt.trafficmanager.operations.EndpointsOperations
+  module: azure.mgmt.trafficmanager.operations
+  name: azure.mgmt.trafficmanager.operations.EndpointsOperations.create_or_update
+  summary: "Create or update a Traffic Manager endpoint.\n\n:param resource_group_name:\
+    \ The name of the resource group containing\n the Traffic Manager endpoint to\
+    \ be created or updated.\n:type resource_group_name: str\n:param profile_name:\
+    \ The name of the Traffic Manager profile.\n:type profile_name: str\n:param endpoint_type:\
+    \ The type of the Traffic Manager endpoint to be\n created or updated.\n:type\
+    \ endpoint_type: str\n:param endpoint_name: The name of the Traffic Manager endpoint\
+    \ to be\n created or updated.\n:type endpoint_name: str\n:param parameters: The\
+    \ Traffic Manager endpoint parameters supplied\n to the CreateOrUpdate operation.\n\
+    :type parameters: :class:`Endpoint\n <azure.mgmt.trafficmanager.models.Endpoint>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`Endpoint <azure.mgmt.trafficmanager.models.Endpoint>`\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n"
+  type: Method
+  uid: azure.mgmt.trafficmanager.operations.EndpointsOperations.create_or_update
+- _type: method
+  class: azure.mgmt.trafficmanager.operations.EndpointsOperations
+  module: azure.mgmt.trafficmanager.operations
+  name: azure.mgmt.trafficmanager.operations.EndpointsOperations.delete
+  summary: "Deletes a Traffic Manager endpoint.\n\n:param resource_group_name: The\
+    \ name of the resource group containing\n the Traffic Manager endpoint to be deleted.\n\
+    :type resource_group_name: str\n:param profile_name: The name of the Traffic Manager\
+    \ profile.\n:type profile_name: str\n:param endpoint_type: The type of the Traffic\
+    \ Manager endpoint to be\n deleted.\n:type endpoint_type: str\n:param endpoint_name:\
+    \ The name of the Traffic Manager endpoint to be\n deleted.\n:type endpoint_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.mgmt.trafficmanager.operations.EndpointsOperations.delete
+- _type: method
+  class: azure.mgmt.trafficmanager.operations.EndpointsOperations
+  module: azure.mgmt.trafficmanager.operations
+  name: azure.mgmt.trafficmanager.operations.EndpointsOperations.get
+  summary: "Gets a Traffic Manager endpoint.\n\n:param resource_group_name: The name\
+    \ of the resource group containing\n the Traffic Manager endpoint.\n:type resource_group_name:\
+    \ str\n:param profile_name: The name of the Traffic Manager profile.\n:type profile_name:\
+    \ str\n:param endpoint_type: The type of the Traffic Manager endpoint.\n:type\
+    \ endpoint_type: str\n:param endpoint_name: The name of the Traffic Manager endpoint.\n\
+    :type endpoint_name: str\n:param dict custom_headers: headers that will be added\
+    \ to the request\n:param bool raw: returns the direct response alongside the\n\
+    \ deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`Endpoint <azure.mgmt.trafficmanager.models.Endpoint>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n"
+  type: Method
+  uid: azure.mgmt.trafficmanager.operations.EndpointsOperations.get
+- _type: method
+  class: azure.mgmt.trafficmanager.operations.EndpointsOperations
+  module: azure.mgmt.trafficmanager.operations
+  name: azure.mgmt.trafficmanager.operations.EndpointsOperations.update
+  summary: "Update a Traffic Manager endpoint.\n\n:param resource_group_name: The\
+    \ name of the resource group containing\n the Traffic Manager endpoint to be updated.\n\
+    :type resource_group_name: str\n:param profile_name: The name of the Traffic Manager\
+    \ profile.\n:type profile_name: str\n:param endpoint_type: The type of the Traffic\
+    \ Manager endpoint to be\n updated.\n:type endpoint_type: str\n:param endpoint_name:\
+    \ The name of the Traffic Manager endpoint to be\n updated.\n:type endpoint_name:\
+    \ str\n:param parameters: The Traffic Manager endpoint parameters supplied\n to\
+    \ the Update operation.\n:type parameters: :class:`Endpoint\n <azure.mgmt.trafficmanager.models.Endpoint>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`Endpoint <azure.mgmt.trafficmanager.models.Endpoint>`\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n"
+  type: Method
+  uid: azure.mgmt.trafficmanager.operations.EndpointsOperations.update
+- _type: class
+  children:
+  - azure.mgmt.trafficmanager.operations.ProfilesOperations.check_traffic_manager_relative_dns_name_availability
+  - azure.mgmt.trafficmanager.operations.ProfilesOperations.create_or_update
+  - azure.mgmt.trafficmanager.operations.ProfilesOperations.delete
+  - azure.mgmt.trafficmanager.operations.ProfilesOperations.get
+  - azure.mgmt.trafficmanager.operations.ProfilesOperations.list_all
+  - azure.mgmt.trafficmanager.operations.ProfilesOperations.list_all_in_resource_group
+  - azure.mgmt.trafficmanager.operations.ProfilesOperations.update
+  module: azure.mgmt.trafficmanager.operations
+  name: azure.mgmt.trafficmanager.operations.ProfilesOperations
+  summary: 'ProfilesOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    '
+  type: Class
+  uid: azure.mgmt.trafficmanager.operations.ProfilesOperations
+- _type: method
+  class: azure.mgmt.trafficmanager.operations.ProfilesOperations
+  module: azure.mgmt.trafficmanager.operations
+  name: azure.mgmt.trafficmanager.operations.ProfilesOperations.check_traffic_manager_relative_dns_name_availability
+  summary: "Checks the availability of a Traffic Manager Relative DNS name.\n\n:param\
+    \ name: Gets or sets the name of the resource.\n:type name: str\n:param type:\
+    \ Gets or sets the type of the resource.\n:type type: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`TrafficManagerNameAvailability\n\
+    \ <azure.mgmt.trafficmanager.models.TrafficManagerNameAvailability>`\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n"
+  type: Method
+  uid: azure.mgmt.trafficmanager.operations.ProfilesOperations.check_traffic_manager_relative_dns_name_availability
+- _type: method
+  class: azure.mgmt.trafficmanager.operations.ProfilesOperations
+  module: azure.mgmt.trafficmanager.operations
+  name: azure.mgmt.trafficmanager.operations.ProfilesOperations.create_or_update
+  summary: "Create or update a Traffic Manager profile.\n\n:param resource_group_name:\
+    \ The name of the resource group containing\n the Traffic Manager profile.\n:type\
+    \ resource_group_name: str\n:param profile_name: The name of the Traffic Manager\
+    \ profile.\n:type profile_name: str\n:param parameters: The Traffic Manager profile\
+    \ parameters supplied to\n the CreateOrUpdate operation.\n:type parameters: :class:`Profile\n\
+    \ <azure.mgmt.trafficmanager.models.Profile>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`Profile\
+    \ <azure.mgmt.trafficmanager.models.Profile>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.mgmt.trafficmanager.operations.ProfilesOperations.create_or_update
+- _type: method
+  class: azure.mgmt.trafficmanager.operations.ProfilesOperations
+  module: azure.mgmt.trafficmanager.operations
+  name: azure.mgmt.trafficmanager.operations.ProfilesOperations.delete
+  summary: "Deletes a Traffic Manager profile.\n\n:param resource_group_name: The\
+    \ name of the resource group containing\n the Traffic Manager profile to be deleted.\n\
+    :type resource_group_name: str\n:param profile_name: The name of the Traffic Manager\
+    \ profile to be\n deleted.\n:type profile_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n"
+  type: Method
+  uid: azure.mgmt.trafficmanager.operations.ProfilesOperations.delete
+- _type: method
+  class: azure.mgmt.trafficmanager.operations.ProfilesOperations
+  module: azure.mgmt.trafficmanager.operations
+  name: azure.mgmt.trafficmanager.operations.ProfilesOperations.get
+  summary: "Gets a Traffic Manager profile.\n\n:param resource_group_name: The name\
+    \ of the resource group containing\n the Traffic Manager profile.\n:type resource_group_name:\
+    \ str\n:param profile_name: The name of the Traffic Manager profile.\n:type profile_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`Profile <azure.mgmt.trafficmanager.models.Profile>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.mgmt.trafficmanager.operations.ProfilesOperations.get
+- _type: method
+  class: azure.mgmt.trafficmanager.operations.ProfilesOperations
+  module: azure.mgmt.trafficmanager.operations
+  name: azure.mgmt.trafficmanager.operations.ProfilesOperations.list_all
+  summary: "Lists all Traffic Manager profiles within a subscription.\n\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ :class:`ProfilePaged\n <azure.mgmt.trafficmanager.models.ProfilePaged>`\n"
+  type: Method
+  uid: azure.mgmt.trafficmanager.operations.ProfilesOperations.list_all
+- _type: method
+  class: azure.mgmt.trafficmanager.operations.ProfilesOperations
+  module: azure.mgmt.trafficmanager.operations
+  name: azure.mgmt.trafficmanager.operations.ProfilesOperations.list_all_in_resource_group
+  summary: "Lists all Traffic Manager profiles within a resource group.\n\n:param\
+    \ resource_group_name: The name of the resource group containing\n the Traffic\
+    \ Manager profiles to be listed.\n:type resource_group_name: str\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ :class:`ProfilePaged\n <azure.mgmt.trafficmanager.models.ProfilePaged>`\n"
+  type: Method
+  uid: azure.mgmt.trafficmanager.operations.ProfilesOperations.list_all_in_resource_group
+- _type: method
+  class: azure.mgmt.trafficmanager.operations.ProfilesOperations
+  module: azure.mgmt.trafficmanager.operations
+  name: azure.mgmt.trafficmanager.operations.ProfilesOperations.update
+  summary: "Update a Traffic Manager profile.\n\n:param resource_group_name: The name\
+    \ of the resource group containing\n the Traffic Manager profile.\n:type resource_group_name:\
+    \ str\n:param profile_name: The name of the Traffic Manager profile.\n:type profile_name:\
+    \ str\n:param parameters: The Traffic Manager profile parameters supplied to\n\
+    \ the Update operation.\n:type parameters: :class:`Profile\n <azure.mgmt.trafficmanager.models.Profile>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`Profile <azure.mgmt.trafficmanager.models.Profile>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n"
+  type: Method
+  uid: azure.mgmt.trafficmanager.operations.ProfilesOperations.update

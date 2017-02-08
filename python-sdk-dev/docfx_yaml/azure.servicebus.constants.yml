@@ -1,0 +1,16 @@
+api_name: []
+items:
+- _type: module
+  children: []
+  module: azure.servicebus.constants
+  name: azure.servicebus.constants
+  summary: ''
+  type: Namespace
+  uid: azure.servicebus.constants
+- _type: class
+  children: []
+  module: azure.servicebus.constants
+  name: azure.servicebus.constants.Global
+  summary: Proxy object to hold module level functions
+  type: Class
+  uid: azure.servicebus.constants.Global

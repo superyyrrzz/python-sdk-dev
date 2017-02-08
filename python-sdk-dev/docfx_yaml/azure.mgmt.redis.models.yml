@@ -1,0 +1,347 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - azure.mgmt.redis.models.Sku
+  - azure.mgmt.redis.models.RedisProperties
+  - azure.mgmt.redis.models.Resource
+  - azure.mgmt.redis.models.RedisCreateOrUpdateParameters
+  - azure.mgmt.redis.models.RedisAccessKeys
+  - azure.mgmt.redis.models.RedisResourceWithAccessKey
+  - azure.mgmt.redis.models.RedisResource
+  - azure.mgmt.redis.models.RedisListKeysResult
+  - azure.mgmt.redis.models.RedisRegenerateKeyParameters
+  - azure.mgmt.redis.models.RedisRebootParameters
+  - azure.mgmt.redis.models.ExportRDBParameters
+  - azure.mgmt.redis.models.ImportRDBParameters
+  - azure.mgmt.redis.models.ScheduleEntry
+  - azure.mgmt.redis.models.RedisPatchSchedulesRequest
+  - azure.mgmt.redis.models.RedisPatchSchedulesResponse
+  - azure.mgmt.redis.models.RedisResourcePaged
+  - azure.mgmt.redis.models.SkuName
+  - azure.mgmt.redis.models.SkuFamily
+  - azure.mgmt.redis.models.RedisKeyType
+  - azure.mgmt.redis.models.RebootType
+  - azure.mgmt.redis.models.DayOfWeek
+  module: azure.mgmt.redis.models
+  name: azure.mgmt.redis.models
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.redis.models
+- _type: class
+  children: []
+  module: azure.mgmt.redis.models
+  name: azure.mgmt.redis.models.Global
+  summary: Proxy object to hold module level functions
+  type: Class
+  uid: azure.mgmt.redis.models.Global
+- _type: class
+  children: []
+  module: azure.mgmt.redis.models
+  name: azure.mgmt.redis.models.Sku
+  summary: "Sku parameters supplied to the create redis operation.\n\n:param name:\
+    \ What type of redis cache to deploy. Valid values: (Basic,\n Standard, Premium).\
+    \ Possible values include: 'Basic', 'Standard',\n 'Premium'\n:type name: str or\
+    \ :class:`SkuName <azure.mgmt.redis.models.SkuName>`\n:param family: Which family\
+    \ to use. Valid values: (C, P). Possible values\n include: 'C', 'P'\n:type family:\
+    \ str or :class:`SkuFamily\n <azure.mgmt.redis.models.SkuFamily>`\n:param capacity:\
+    \ What size of redis cache to deploy. Valid values: for C\n family (0, 1, 2, 3,\
+    \ 4, 5, 6), for P family (1, 2, 3, 4)\n:type capacity: int\n"
+  type: Class
+  uid: azure.mgmt.redis.models.Sku
+- _type: class
+  children: []
+  module: azure.mgmt.redis.models
+  name: azure.mgmt.redis.models.RedisProperties
+  summary: "Properties supplied to CreateOrUpdate redis operation.\n\n:param redis_version:\
+    \ RedisVersion parameter has been deprecated. As\n such, it is no longer necessary\
+    \ to provide this parameter and any value\n specified is ignored.\n:type redis_version:\
+    \ str\n:param sku: What sku of redis cache to deploy.\n:type sku: :class:`Sku\
+    \ <azure.mgmt.redis.models.Sku>`\n:param redis_configuration: All Redis Settings.\
+    \ Few possible keys:\n rdb-backup-enabled,rdb-storage-connection-string,rdb-backup-frequency,maxmemory-delta,maxmemory-policy,notify-keyspace-events,maxmemory-samples,slowlog-log-slower-than,slowlog-max-len,list-max-ziplist-entries,list-max-ziplist-value,hash-max-ziplist-entries,hash-max-ziplist-value,set-max-intset-entries,zset-max-ziplist-entries,zset-max-ziplist-value\n\
+    \ etc.\n:type redis_configuration: dict\n:param enable_non_ssl_port: If the value\
+    \ is true, then the non-ssl redis\n server port (6379) will be enabled.\n:type\
+    \ enable_non_ssl_port: bool\n:param tenant_settings: tenantSettings\n:type tenant_settings:\
+    \ dict\n:param shard_count: The number of shards to be created on a Premium\n\
+    \ Cluster Cache.\n:type shard_count: int\n:param subnet_id: The full resource\
+    \ ID of a subnet in a virtual network\n to deploy the redis cache in. Example\
+    \ format:\n /subscriptions/{subid}/resourceGroups/{resourceGroupName}/Microsoft.{Network|ClassicNetwork}/VirtualNetworks/vnet1/subnets/subnet1\n\
+    :type subnet_id: str\n:param static_ip: Required when deploying a redis cache\
+    \ inside an\n existing Azure Virtual Network.\n:type static_ip: str\n"
+  type: Class
+  uid: azure.mgmt.redis.models.RedisProperties
+- _type: class
+  children: []
+  module: azure.mgmt.redis.models
+  name: azure.mgmt.redis.models.Resource
+  summary: 'Resource.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar id: Resource Id
+
+    :vartype id: str
+
+    :ivar name: Resource name
+
+    :vartype name: str
+
+    :ivar type: Resource type
+
+    :vartype type: str
+
+    :param location: Resource location
+
+    :type location: str
+
+    :param tags: Resource tags
+
+    :type tags: dict
+
+    '
+  type: Class
+  uid: azure.mgmt.redis.models.Resource
+- _type: class
+  children: []
+  module: azure.mgmt.redis.models
+  name: azure.mgmt.redis.models.RedisCreateOrUpdateParameters
+  summary: "Parameters supplied to the CreateOrUpdate Redis operation.\n\nVariables\
+    \ are only populated by the server, and will be ignored when\nsending a request.\n\
+    \n:ivar id: Resource Id\n:vartype id: str\n:ivar name: Resource name\n:vartype\
+    \ name: str\n:ivar type: Resource type\n:vartype type: str\n:param location: Resource\
+    \ location\n:type location: str\n:param tags: Resource tags\n:type tags: dict\n\
+    :param redis_version: RedisVersion parameter has been deprecated. As\n such, it\
+    \ is no longer necessary to provide this parameter and any value\n specified is\
+    \ ignored.\n:type redis_version: str\n:param sku: What sku of redis cache to deploy.\n\
+    :type sku: :class:`Sku <azure.mgmt.redis.models.Sku>`\n:param redis_configuration:\
+    \ All Redis Settings. Few possible keys:\n rdb-backup-enabled,rdb-storage-connection-string,rdb-backup-frequency,maxmemory-delta,maxmemory-policy,notify-keyspace-events,maxmemory-samples,slowlog-log-slower-than,slowlog-max-len,list-max-ziplist-entries,list-max-ziplist-value,hash-max-ziplist-entries,hash-max-ziplist-value,set-max-intset-entries,zset-max-ziplist-entries,zset-max-ziplist-value\n\
+    \ etc.\n:type redis_configuration: dict\n:param enable_non_ssl_port: If the value\
+    \ is true, then the non-ssl redis\n server port (6379) will be enabled.\n:type\
+    \ enable_non_ssl_port: bool\n:param tenant_settings: tenantSettings\n:type tenant_settings:\
+    \ dict\n:param shard_count: The number of shards to be created on a Premium\n\
+    \ Cluster Cache.\n:type shard_count: int\n:param subnet_id: The full resource\
+    \ ID of a subnet in a virtual network\n to deploy the redis cache in. Example\
+    \ format:\n /subscriptions/{subid}/resourceGroups/{resourceGroupName}/Microsoft.{Network|ClassicNetwork}/VirtualNetworks/vnet1/subnets/subnet1\n\
+    :type subnet_id: str\n:param static_ip: Required when deploying a redis cache\
+    \ inside an\n existing Azure Virtual Network.\n:type static_ip: str\n"
+  type: Class
+  uid: azure.mgmt.redis.models.RedisCreateOrUpdateParameters
+- _type: class
+  children: []
+  module: azure.mgmt.redis.models
+  name: azure.mgmt.redis.models.RedisAccessKeys
+  summary: "Redis cache access keys.\n\n:param primary_key: The current primary key\
+    \ that clients can use to\n authenticate with redis cache.\n:type primary_key:\
+    \ str\n:param secondary_key: The current secondary key that clients can use to\n\
+    \ authenticate with redis cache.\n:type secondary_key: str\n"
+  type: Class
+  uid: azure.mgmt.redis.models.RedisAccessKeys
+- _type: class
+  children: []
+  module: azure.mgmt.redis.models
+  name: azure.mgmt.redis.models.RedisResourceWithAccessKey
+  summary: "A redis item in CreateOrUpdate Operation response.\n\nVariables are only\
+    \ populated by the server, and will be ignored when\nsending a request.\n\n:ivar\
+    \ id: Resource Id\n:vartype id: str\n:ivar name: Resource name\n:vartype name:\
+    \ str\n:ivar type: Resource type\n:vartype type: str\n:param location: Resource\
+    \ location\n:type location: str\n:param tags: Resource tags\n:type tags: dict\n\
+    :param redis_version: RedisVersion parameter has been deprecated. As\n such, it\
+    \ is no longer necessary to provide this parameter and any value\n specified is\
+    \ ignored.\n:type redis_version: str\n:param sku: What sku of redis cache to deploy.\n\
+    :type sku: :class:`Sku <azure.mgmt.redis.models.Sku>`\n:param redis_configuration:\
+    \ All Redis Settings. Few possible keys:\n rdb-backup-enabled,rdb-storage-connection-string,rdb-backup-frequency,maxmemory-delta,maxmemory-policy,notify-keyspace-events,maxmemory-samples,slowlog-log-slower-than,slowlog-max-len,list-max-ziplist-entries,list-max-ziplist-value,hash-max-ziplist-entries,hash-max-ziplist-value,set-max-intset-entries,zset-max-ziplist-entries,zset-max-ziplist-value\n\
+    \ etc.\n:type redis_configuration: dict\n:param enable_non_ssl_port: If the value\
+    \ is true, then the non-ssl redis\n server port (6379) will be enabled.\n:type\
+    \ enable_non_ssl_port: bool\n:param tenant_settings: tenantSettings\n:type tenant_settings:\
+    \ dict\n:param shard_count: The number of shards to be created on a Premium\n\
+    \ Cluster Cache.\n:type shard_count: int\n:param subnet_id: The full resource\
+    \ ID of a subnet in a virtual network\n to deploy the redis cache in. Example\
+    \ format:\n /subscriptions/{subid}/resourceGroups/{resourceGroupName}/Microsoft.{Network|ClassicNetwork}/VirtualNetworks/vnet1/subnets/subnet1\n\
+    :type subnet_id: str\n:param static_ip: Required when deploying a redis cache\
+    \ inside an\n existing Azure Virtual Network.\n:type static_ip: str\n:param provisioning_state:\
+    \ Redis instance provisioning status\n:type provisioning_state: str\n:param host_name:\
+    \ Redis host name\n:type host_name: str\n:param port: Redis non-ssl port\n:type\
+    \ port: int\n:param ssl_port: Redis ssl port\n:type ssl_port: int\n:param access_keys:\
+    \ Redis cache access keys.\n:type access_keys: :class:`RedisAccessKeys\n <azure.mgmt.redis.models.RedisAccessKeys>`\n"
+  type: Class
+  uid: azure.mgmt.redis.models.RedisResourceWithAccessKey
+- _type: class
+  children: []
+  module: azure.mgmt.redis.models
+  name: azure.mgmt.redis.models.RedisResource
+  summary: "A single redis item in List or Get Operation.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar id: Resource\
+    \ Id\n:vartype id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type:\
+    \ Resource type\n:vartype type: str\n:param location: Resource location\n:type\
+    \ location: str\n:param tags: Resource tags\n:type tags: dict\n:param redis_version:\
+    \ RedisVersion parameter has been deprecated. As\n such, it is no longer necessary\
+    \ to provide this parameter and any value\n specified is ignored.\n:type redis_version:\
+    \ str\n:param sku: What sku of redis cache to deploy.\n:type sku: :class:`Sku\
+    \ <azure.mgmt.redis.models.Sku>`\n:param redis_configuration: All Redis Settings.\
+    \ Few possible keys:\n rdb-backup-enabled,rdb-storage-connection-string,rdb-backup-frequency,maxmemory-delta,maxmemory-policy,notify-keyspace-events,maxmemory-samples,slowlog-log-slower-than,slowlog-max-len,list-max-ziplist-entries,list-max-ziplist-value,hash-max-ziplist-entries,hash-max-ziplist-value,set-max-intset-entries,zset-max-ziplist-entries,zset-max-ziplist-value\n\
+    \ etc.\n:type redis_configuration: dict\n:param enable_non_ssl_port: If the value\
+    \ is true, then the non-ssl redis\n server port (6379) will be enabled.\n:type\
+    \ enable_non_ssl_port: bool\n:param tenant_settings: tenantSettings\n:type tenant_settings:\
+    \ dict\n:param shard_count: The number of shards to be created on a Premium\n\
+    \ Cluster Cache.\n:type shard_count: int\n:param subnet_id: The full resource\
+    \ ID of a subnet in a virtual network\n to deploy the redis cache in. Example\
+    \ format:\n /subscriptions/{subid}/resourceGroups/{resourceGroupName}/Microsoft.{Network|ClassicNetwork}/VirtualNetworks/vnet1/subnets/subnet1\n\
+    :type subnet_id: str\n:param static_ip: Required when deploying a redis cache\
+    \ inside an\n existing Azure Virtual Network.\n:type static_ip: str\n:param provisioning_state:\
+    \ Redis instance provisioning status\n:type provisioning_state: str\n:param host_name:\
+    \ Redis host name\n:type host_name: str\n:param port: Redis non-ssl port\n:type\
+    \ port: int\n:param ssl_port: Redis ssl port\n:type ssl_port: int\n"
+  type: Class
+  uid: azure.mgmt.redis.models.RedisResource
+- _type: class
+  children: []
+  module: azure.mgmt.redis.models
+  name: azure.mgmt.redis.models.RedisListKeysResult
+  summary: "The response of redis list keys operation.\n\n:param primary_key: The\
+    \ current primary key that clients can use to\n authenticate with redis cache.\n\
+    :type primary_key: str\n:param secondary_key: The current secondary key that clients\
+    \ can use to\n authenticate with redis cache.\n:type secondary_key: str\n"
+  type: Class
+  uid: azure.mgmt.redis.models.RedisListKeysResult
+- _type: class
+  children: []
+  module: azure.mgmt.redis.models
+  name: azure.mgmt.redis.models.RedisRegenerateKeyParameters
+  summary: "Specifies which redis access keys to reset.\n\n:param key_type: Which\
+    \ redis access key to reset. Possible values\n include: 'Primary', 'Secondary'\n\
+    :type key_type: str or :class:`RedisKeyType\n <azure.mgmt.redis.models.RedisKeyType>`\n"
+  type: Class
+  uid: azure.mgmt.redis.models.RedisRegenerateKeyParameters
+- _type: class
+  children: []
+  module: azure.mgmt.redis.models
+  name: azure.mgmt.redis.models.RedisRebootParameters
+  summary: "Specifies which redis node(s) to reboot.\n\n:param reboot_type: Which\
+    \ redis node(s) to reboot. Depending on this\n value data loss is possible. Possible\
+    \ values include: 'PrimaryNode',\n 'SecondaryNode', 'AllNodes'\n:type reboot_type:\
+    \ str or :class:`RebootType\n <azure.mgmt.redis.models.RebootType>`\n:param shard_id:\
+    \ In case of cluster cache, this specifies shard id which\n should be rebooted.\n\
+    :type shard_id: int\n"
+  type: Class
+  uid: azure.mgmt.redis.models.RedisRebootParameters
+- _type: class
+  children: []
+  module: azure.mgmt.redis.models
+  name: azure.mgmt.redis.models.ExportRDBParameters
+  summary: 'Parameters for redis export operation.
+
+
+    :param format: File format.
+
+    :type format: str
+
+    :param prefix: Prifix to use for exported files.
+
+    :type prefix: str
+
+    :param container: Container name to export to.
+
+    :type container: str
+
+    '
+  type: Class
+  uid: azure.mgmt.redis.models.ExportRDBParameters
+- _type: class
+  children: []
+  module: azure.mgmt.redis.models
+  name: azure.mgmt.redis.models.ImportRDBParameters
+  summary: 'Parameters for redis import operation.
+
+
+    :param format: File format.
+
+    :type format: str
+
+    :param files: files to import
+
+    :type files: list of str
+
+    '
+  type: Class
+  uid: azure.mgmt.redis.models.ImportRDBParameters
+- _type: class
+  children: []
+  module: azure.mgmt.redis.models
+  name: azure.mgmt.redis.models.ScheduleEntry
+  summary: "ScheduleEntry.\n\n:param day_of_week: Day of week when cache can be patched.\
+    \ Possible\n values include: 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday',\n\
+    \ 'Saturday', 'Sunday'\n:type day_of_week: str or :class:`DayOfWeek\n <azure.mgmt.redis.models.DayOfWeek>`\n\
+    :param start_hour_utc: Start hour after which cache patching can start.\n:type\
+    \ start_hour_utc: int\n:param maintenance_window: ISO8601 timespan specifying\
+    \ how much time\n cache patching can take.\n:type maintenance_window: timedelta\n"
+  type: Class
+  uid: azure.mgmt.redis.models.ScheduleEntry
+- _type: class
+  children: []
+  module: azure.mgmt.redis.models
+  name: azure.mgmt.redis.models.RedisPatchSchedulesRequest
+  summary: "Parameters to set patch schedules for redis cache.\n\n:param schedule_entries:\
+    \ List of patch schedules for redis cache.\n:type schedule_entries: list of :class:`ScheduleEntry\n\
+    \ <azure.mgmt.redis.models.ScheduleEntry>`\n"
+  type: Class
+  uid: azure.mgmt.redis.models.RedisPatchSchedulesRequest
+- _type: class
+  children: []
+  module: azure.mgmt.redis.models
+  name: azure.mgmt.redis.models.RedisPatchSchedulesResponse
+  summary: "Response to put/get patch schedules for redis cache.\n\nVariables are\
+    \ only populated by the server, and will be ignored when\nsending a request.\n\
+    \n:ivar id: Resource Id\n:vartype id: str\n:ivar name: Resource name\n:vartype\
+    \ name: str\n:ivar type: Resource type\n:vartype type: str\n:param location: Resource\
+    \ location\n:type location: str\n:param schedule_entries: List of patch schedules\
+    \ for redis cache.\n:type schedule_entries: list of :class:`ScheduleEntry\n <azure.mgmt.redis.models.ScheduleEntry>`\n"
+  type: Class
+  uid: azure.mgmt.redis.models.RedisPatchSchedulesResponse
+- _type: class
+  children: []
+  module: azure.mgmt.redis.models
+  name: azure.mgmt.redis.models.RedisResourcePaged
+  summary: 'A paging container for iterating over a list of RedisResource object
+
+    '
+  type: Class
+  uid: azure.mgmt.redis.models.RedisResourcePaged
+- _type: class
+  children: []
+  module: azure.mgmt.redis.models
+  name: azure.mgmt.redis.models.SkuName
+  summary: ''
+  type: Class
+  uid: azure.mgmt.redis.models.SkuName
+- _type: class
+  children: []
+  module: azure.mgmt.redis.models
+  name: azure.mgmt.redis.models.SkuFamily
+  summary: ''
+  type: Class
+  uid: azure.mgmt.redis.models.SkuFamily
+- _type: class
+  children: []
+  module: azure.mgmt.redis.models
+  name: azure.mgmt.redis.models.RedisKeyType
+  summary: ''
+  type: Class
+  uid: azure.mgmt.redis.models.RedisKeyType
+- _type: class
+  children: []
+  module: azure.mgmt.redis.models
+  name: azure.mgmt.redis.models.RebootType
+  summary: ''
+  type: Class
+  uid: azure.mgmt.redis.models.RebootType
+- _type: class
+  children: []
+  module: azure.mgmt.redis.models
+  name: azure.mgmt.redis.models.DayOfWeek
+  summary: ''
+  type: Class
+  uid: azure.mgmt.redis.models.DayOfWeek

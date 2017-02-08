@@ -1,0 +1,75 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - azure.mgmt.resource.policy.models.PolicyDefinition
+  - azure.mgmt.resource.policy.models.PolicyAssignment
+  - azure.mgmt.resource.policy.models.PolicyAssignmentPaged
+  - azure.mgmt.resource.policy.models.PolicyDefinitionPaged
+  - azure.mgmt.resource.policy.models.policyType
+  module: azure.mgmt.resource.policy.models
+  name: azure.mgmt.resource.policy.models
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.resource.policy.models
+- _type: class
+  children: []
+  module: azure.mgmt.resource.policy.models
+  name: azure.mgmt.resource.policy.models.Global
+  summary: Proxy object to hold module level functions
+  type: Class
+  uid: azure.mgmt.resource.policy.models.Global
+- _type: class
+  children: []
+  module: azure.mgmt.resource.policy.models
+  name: azure.mgmt.resource.policy.models.PolicyDefinition
+  summary: "The policy definition.\n\n:param policy_type: Gets or sets policy definition\
+    \ policy type. Possible\n values include: 'NotSpecified', 'BuiltIn', 'Custom'\n\
+    :type policy_type: str or :class:`policyType\n <azure.mgmt.resource.policy.models.policyType>`\n\
+    :param display_name: Gets or sets the policy definition display name.\n:type display_name:\
+    \ str\n:param description: Gets or sets the policy definition description.\n:type\
+    \ description: str\n:param policy_rule: Gets or sets the policy rule.\n:type policy_rule:\
+    \ object\n:param id: Gets or sets the Id of the policy definition.\n:type id:\
+    \ str\n:param name: Gets or sets the name of the policy definition.\n:type name:\
+    \ str\n"
+  type: Class
+  uid: azure.mgmt.resource.policy.models.PolicyDefinition
+- _type: class
+  children: []
+  module: azure.mgmt.resource.policy.models
+  name: azure.mgmt.resource.policy.models.PolicyAssignment
+  summary: "The policy definition.\n\n:param display_name: Gets or sets the policy\
+    \ assignment display name.\n:type display_name: str\n:param policy_definition_id:\
+    \ Gets or sets the policy definition Id.\n:type policy_definition_id: str\n:param\
+    \ scope: Gets or sets the scope at which the policy assignment\n exists.\n:type\
+    \ scope: str\n:param id: Gets or sets the Id of the policy assignment.\n:type\
+    \ id: str\n:param type: Gets or sets the type of the policy assignment.\n:type\
+    \ type: str\n:param name: Gets or sets the name of the policy assignment.\n:type\
+    \ name: str\n"
+  type: Class
+  uid: azure.mgmt.resource.policy.models.PolicyAssignment
+- _type: class
+  children: []
+  module: azure.mgmt.resource.policy.models
+  name: azure.mgmt.resource.policy.models.PolicyAssignmentPaged
+  summary: 'A paging container for iterating over a list of PolicyAssignment object
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.policy.models.PolicyAssignmentPaged
+- _type: class
+  children: []
+  module: azure.mgmt.resource.policy.models
+  name: azure.mgmt.resource.policy.models.PolicyDefinitionPaged
+  summary: 'A paging container for iterating over a list of PolicyDefinition object
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.policy.models.PolicyDefinitionPaged
+- _type: class
+  children: []
+  module: azure.mgmt.resource.policy.models
+  name: azure.mgmt.resource.policy.models.policyType
+  summary: ''
+  type: Class
+  uid: azure.mgmt.resource.policy.models.policyType

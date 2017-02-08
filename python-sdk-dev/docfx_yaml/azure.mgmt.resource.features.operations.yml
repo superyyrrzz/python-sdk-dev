@@ -1,0 +1,90 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - azure.mgmt.resource.features.operations.FeaturesOperations
+  module: azure.mgmt.resource.features.operations
+  name: azure.mgmt.resource.features.operations
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.resource.features.operations
+- _type: class
+  children: []
+  module: azure.mgmt.resource.features.operations
+  name: azure.mgmt.resource.features.operations.Global
+  summary: Proxy object to hold module level functions
+  type: Class
+  uid: azure.mgmt.resource.features.operations.Global
+- _type: class
+  children:
+  - azure.mgmt.resource.features.operations.FeaturesOperations.get
+  - azure.mgmt.resource.features.operations.FeaturesOperations.list
+  - azure.mgmt.resource.features.operations.FeaturesOperations.list_all
+  - azure.mgmt.resource.features.operations.FeaturesOperations.register
+  module: azure.mgmt.resource.features.operations
+  name: azure.mgmt.resource.features.operations.FeaturesOperations
+  summary: 'FeaturesOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.features.operations.FeaturesOperations
+- _type: method
+  class: azure.mgmt.resource.features.operations.FeaturesOperations
+  module: azure.mgmt.resource.features.operations
+  name: azure.mgmt.resource.features.operations.FeaturesOperations.get
+  summary: "Get all features under the subscription.\n\n:param resource_provider_namespace:\
+    \ Namespace of the resource\n provider.\n:type resource_provider_namespace: str\n\
+    :param feature_name: Previewed feature name in the resource provider.\n:type feature_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`FeatureResult\n <azure.mgmt.resource.feature.models.FeatureResult>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n"
+  type: Method
+  uid: azure.mgmt.resource.features.operations.FeaturesOperations.get
+- _type: method
+  class: azure.mgmt.resource.features.operations.FeaturesOperations
+  module: azure.mgmt.resource.features.operations
+  name: azure.mgmt.resource.features.operations.FeaturesOperations.list
+  summary: "Gets a list of previewed features of a resource provider.\n\n:param resource_provider_namespace:\
+    \ The namespace of the resource\n provider.\n:type resource_provider_namespace:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`FeatureResultPaged\n <azure.mgmt.resource.feature.models.FeatureResultPaged>`\n"
+  type: Method
+  uid: azure.mgmt.resource.features.operations.FeaturesOperations.list
+- _type: method
+  class: azure.mgmt.resource.features.operations.FeaturesOperations
+  module: azure.mgmt.resource.features.operations
+  name: azure.mgmt.resource.features.operations.FeaturesOperations.list_all
+  summary: "Gets a list of previewed features for all the providers in the current\n\
+    subscription.\n\n:param dict custom_headers: headers that will be added to the\
+    \ request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`FeatureResultPaged\n <azure.mgmt.resource.feature.models.FeatureResultPaged>`\n"
+  type: Method
+  uid: azure.mgmt.resource.features.operations.FeaturesOperations.list_all
+- _type: method
+  class: azure.mgmt.resource.features.operations.FeaturesOperations
+  module: azure.mgmt.resource.features.operations
+  name: azure.mgmt.resource.features.operations.FeaturesOperations.register
+  summary: "Registers for a previewed feature of a resource provider.\n\n:param resource_provider_namespace:\
+    \ Namespace of the resource\n provider.\n:type resource_provider_namespace: str\n\
+    :param feature_name: Previewed feature name in the resource provider.\n:type feature_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`FeatureResult\n <azure.mgmt.resource.feature.models.FeatureResult>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n"
+  type: Method
+  uid: azure.mgmt.resource.features.operations.FeaturesOperations.register

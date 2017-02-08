@@ -1,0 +1,181 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  module: azure.servicemanagement.schedulermanagementservice
+  name: azure.servicemanagement.schedulermanagementservice
+  summary: ''
+  type: Namespace
+  uid: azure.servicemanagement.schedulermanagementservice
+- _type: class
+  children: []
+  module: azure.servicemanagement.schedulermanagementservice
+  name: azure.servicemanagement.schedulermanagementservice.Global
+  summary: Proxy object to hold module level functions
+  type: Class
+  uid: azure.servicemanagement.schedulermanagementservice.Global
+- _type: class
+  children:
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.check_job_collection_name
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.create_cloud_service
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.create_job
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.create_job_collection
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.delete_cloud_service
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.delete_job
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.delete_job_collection
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.get_all_jobs
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.get_cloud_service
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.get_job
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.get_job_collection
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.list_cloud_services
+  module: azure.servicemanagement.schedulermanagementservice
+  name: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  summary: 'Note that this class is a preliminary work on Scheduler
+
+    management. Since it lack a lot a features, final version
+
+    can be slightly different from the current one.
+
+    '
+  type: Class
+  uid: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+- _type: class
+  children: []
+  module: azure.servicemanagement.schedulermanagementservice
+  name: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  summary: "Initializes the scheduler management service.\n\nsubscription_id:\n  \
+    \  Subscription to manage.\ncert_file:\n    Path to .pem certificate file (httplib),\
+    \ or location of the\n    certificate in your Personal certificate store (winhttp)\
+    \ in the\n    CURRENT_USER\\my\\CertificateName format.\n    If a request_session\
+    \ is specified, then this is unused.\nhost:\n    Live ServiceClient URL. Defaults\
+    \ to Azure public cloud.\nrequest_session:\n    Session object to use for http\
+    \ requests. If this is specified, it\n    replaces the default use of httplib\
+    \ or winhttp. Also, the cert_file\n    parameter is unused when a session is passed\
+    \ in.\n    The session object handles authentication, and as such can support\n\
+    \    multiple types of authentication: .pem certificate, oauth.\n    For example,\
+    \ you can pass in a Session instance from the requests\n    library. To use .pem\
+    \ certificate authentication with requests\n    library, set the path to the .pem\
+    \ file on the session.cert\n    attribute.\ntimeout:\n    Optional. Timeout for\
+    \ the http request, in seconds.\n"
+  type: Class
+  uid: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+- _type: method
+  class: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  module: azure.servicemanagement.schedulermanagementservice
+  name: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.check_job_collection_name
+  summary: "The Check Name Availability operation checks if a new job collection with\n\
+    the given name may be created, or if it is unavailable. The result of the\noperation\
+    \ is a Boolean true or false.\n\ncloud_service_id:\n    The cloud service id\n\
+    job_collection_id:\n    The name of the job_collection_id.\n"
+  type: Method
+  uid: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.check_job_collection_name
+- _type: method
+  class: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  module: azure.servicemanagement.schedulermanagementservice
+  name: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.create_cloud_service
+  summary: "The Create Cloud Service request creates a new cloud service. When job\n\
+    collections are created, they are hosted within a cloud service.\nA cloud service\
+    \ groups job collections together in a given region.\nOnce a cloud service has\
+    \ been created, job collections can then be\ncreated and contained within it.\n\
+    \ncloud_service_id:\n    The cloud service id\nlabel:\n    The name of the cloud\
+    \ service.\ndescription:\n    The description of the cloud service.\ngeo_region:\n\
+    \    The geographical region of the webspace that will be created.\n"
+  type: Method
+  uid: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.create_cloud_service
+- _type: method
+  class: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  module: azure.servicemanagement.schedulermanagementservice
+  name: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.create_job
+  summary: "The Create Job request creates a new job.\ncloud_service_id:\n    The\
+    \ cloud service id\njob_collection_id:\n    Name of the hosted service.\njob_id:\n\
+    \    The job id you wish to create.\njob:\n    A dictionary of the payload\n"
+  type: Method
+  uid: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.create_job
+- _type: method
+  class: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  module: azure.servicemanagement.schedulermanagementservice
+  name: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.create_job_collection
+  summary: "The Create Job Collection request is specified as follows. Replace <subscription-id>\n\
+    with your subscription ID, <cloud-service-id> with your cloud service ID, and\n\
+    <job-collection-id> with the ID of the job collection you'd like to create.\n\
+    There are no \"default\" pre-existing job collections every job collection\nmust\
+    \ be manually created.\n\ncloud_service_id:\n    The cloud service id\njob_collection_id:\n\
+    \    Name of the hosted service.\n"
+  type: Method
+  uid: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.create_job_collection
+- _type: method
+  class: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  module: azure.servicemanagement.schedulermanagementservice
+  name: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.delete_cloud_service
+  summary: "The Get Cloud Service operation gets all the resources (job collections)\n\
+    in the cloud service.\n\ncloud_service_id:\n    The cloud service id\n"
+  type: Method
+  uid: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.delete_cloud_service
+- _type: method
+  class: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  module: azure.servicemanagement.schedulermanagementservice
+  name: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.delete_job
+  summary: "The Delete Job request creates a new job.\ncloud_service_id:\n    The\
+    \ cloud service id\njob_collection_id:\n    Name of the hosted service.\njob_id:\n\
+    \    The job id you wish to create.\n"
+  type: Method
+  uid: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.delete_job
+- _type: method
+  class: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  module: azure.servicemanagement.schedulermanagementservice
+  name: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.delete_job_collection
+  summary: "The Delete Job Collection request is specified as follows. Replace <subscription-id>\n\
+    with your subscription ID, <cloud-service-id> with your cloud service ID, and\n\
+    <job-collection-id> with the ID of the job collection you'd like to delete.\n\n\
+    cloud_service_id:\n    The cloud service id\njob_collection_id:\n    Name of the\
+    \ hosted service.\n"
+  type: Method
+  uid: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.delete_job_collection
+- _type: method
+  class: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  module: azure.servicemanagement.schedulermanagementservice
+  name: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.get_all_jobs
+  summary: "The Get All Jobs operation gets all the jobs in a job collection.\nThe\
+    \ full list of jobs can be accessed by excluding any job ID in the\nGET call (i.e.\
+    \ /jobs.)\n\nThe return type is\n\ncloud_service_id:\n    The cloud service id\n\
+    job_collection_id:\n    Name of the hosted service.\n"
+  type: Method
+  uid: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.get_all_jobs
+- _type: method
+  class: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  module: azure.servicemanagement.schedulermanagementservice
+  name: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.get_cloud_service
+  summary: "The Get Cloud Service operation gets all the resources (job collections)\n\
+    in the cloud service.\n\ncloud_service_id:\n    The cloud service id\n"
+  type: Method
+  uid: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.get_cloud_service
+- _type: method
+  class: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  module: azure.servicemanagement.schedulermanagementservice
+  name: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.get_job
+  summary: "The Get Job operation gets the details (including the current job status)\n\
+    of the specified job from the specified job collection.\n\nThe return type is\n\
+    \ncloud_service_id:\n    The cloud service id\njob_collection_id:\n    Name of\
+    \ the hosted service.\njob_id:\n    The job id you wish to create.\n"
+  type: Method
+  uid: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.get_job
+- _type: method
+  class: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  module: azure.servicemanagement.schedulermanagementservice
+  name: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.get_job_collection
+  summary: "The Get Job Collection operation gets the details of a job collection\n\
+    \ncloud_service_id:\n    The cloud service id\njob_collection_id:\n    Name of\
+    \ the hosted service.\n"
+  type: Method
+  uid: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.get_job_collection
+- _type: method
+  class: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  module: azure.servicemanagement.schedulermanagementservice
+  name: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.list_cloud_services
+  summary: 'List the cloud services for scheduling defined on the account.
+
+    '
+  type: Method
+  uid: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.list_cloud_services

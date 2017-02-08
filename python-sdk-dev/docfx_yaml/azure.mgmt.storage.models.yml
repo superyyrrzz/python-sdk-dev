@@ -1,0 +1,460 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - azure.mgmt.storage.models.StorageAccountCheckNameAvailabilityParameters
+  - azure.mgmt.storage.models.CheckNameAvailabilityResult
+  - azure.mgmt.storage.models.Sku
+  - azure.mgmt.storage.models.CustomDomain
+  - azure.mgmt.storage.models.EncryptionService
+  - azure.mgmt.storage.models.EncryptionServices
+  - azure.mgmt.storage.models.Encryption
+  - azure.mgmt.storage.models.StorageAccountCreateParameters
+  - azure.mgmt.storage.models.Endpoints
+  - azure.mgmt.storage.models.StorageAccount
+  - azure.mgmt.storage.models.StorageAccountKey
+  - azure.mgmt.storage.models.StorageAccountListKeysResult
+  - azure.mgmt.storage.models.StorageAccountRegenerateKeyParameters
+  - azure.mgmt.storage.models.StorageAccountUpdateParameters
+  - azure.mgmt.storage.models.UsageName
+  - azure.mgmt.storage.models.Usage
+  - azure.mgmt.storage.models.Resource
+  - azure.mgmt.storage.models.StorageAccountPaged
+  - azure.mgmt.storage.models.UsagePaged
+  - azure.mgmt.storage.models.Reason
+  - azure.mgmt.storage.models.SkuName
+  - azure.mgmt.storage.models.SkuTier
+  - azure.mgmt.storage.models.AccessTier
+  - azure.mgmt.storage.models.Kind
+  - azure.mgmt.storage.models.ProvisioningState
+  - azure.mgmt.storage.models.AccountStatus
+  - azure.mgmt.storage.models.KeyPermission
+  - azure.mgmt.storage.models.UsageUnit
+  module: azure.mgmt.storage.models
+  name: azure.mgmt.storage.models
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.storage.models
+- _type: class
+  children: []
+  module: azure.mgmt.storage.models
+  name: azure.mgmt.storage.models.Global
+  summary: Proxy object to hold module level functions
+  type: Class
+  uid: azure.mgmt.storage.models.Global
+- _type: class
+  children: []
+  module: azure.mgmt.storage.models
+  name: azure.mgmt.storage.models.StorageAccountCheckNameAvailabilityParameters
+  summary: 'StorageAccountCheckNameAvailabilityParameters.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :param name:
+
+    :type name: str
+
+    :ivar type:  Default value: "Microsoft.Storage/storageAccounts" .
+
+    :vartype type: str
+
+    '
+  type: Class
+  uid: azure.mgmt.storage.models.StorageAccountCheckNameAvailabilityParameters
+- _type: class
+  children: []
+  module: azure.mgmt.storage.models
+  name: azure.mgmt.storage.models.CheckNameAvailabilityResult
+  summary: "The CheckNameAvailability operation response.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar name_available:\
+    \ Gets a boolean value that indicates whether the\n name is available for you\
+    \ to use. If true, the name is available. If\n false, the name has already been\
+    \ taken or invalid and cannot be used.\n:vartype name_available: bool\n:ivar reason:\
+    \ Gets the reason that a storage account name could not be\n used. The Reason\
+    \ element is only returned if NameAvailable is false.\n Possible values include:\
+    \ 'AccountNameInvalid', 'AlreadyExists'\n:vartype reason: str or :class:`Reason\
+    \ <azure.mgmt.storage.models.Reason>`\n:ivar message: Gets an error message explaining\
+    \ the Reason value in more\n detail.\n:vartype message: str\n"
+  type: Class
+  uid: azure.mgmt.storage.models.CheckNameAvailabilityResult
+- _type: class
+  children: []
+  module: azure.mgmt.storage.models
+  name: azure.mgmt.storage.models.Sku
+  summary: "The SKU of the storage account.\n\nVariables are only populated by the\
+    \ server, and will be ignored when\nsending a request.\n\n:param name: Gets or\
+    \ sets the sku name. Required for account creation,\n optional for update. Note\
+    \ that in older versions, sku name was called\n accountType. Possible values include:\
+    \ 'Standard_LRS', 'Standard_GRS',\n 'Standard_RAGRS', 'Standard_ZRS', 'Premium_LRS'\n\
+    :type name: str or :class:`SkuName <azure.mgmt.storage.models.SkuName>`\n:ivar\
+    \ tier: Gets the sku tier. This is based on the SKU name. Possible\n values include:\
+    \ 'Standard', 'Premium'\n:vartype tier: str or :class:`SkuTier <azure.mgmt.storage.models.SkuTier>`\n"
+  type: Class
+  uid: azure.mgmt.storage.models.Sku
+- _type: class
+  children: []
+  module: azure.mgmt.storage.models
+  name: azure.mgmt.storage.models.CustomDomain
+  summary: "The custom domain assigned to this storage account. This can be set via\n\
+    Update.\n\n:param name: Gets or sets the custom domain name. Name is the CNAME\n\
+    \ source.\n:type name: str\n:param use_sub_domain: Indicates whether indirect\
+    \ CName validation is\n enabled. Default value is false. This should only be set\
+    \ on updates\n:type use_sub_domain: bool\n"
+  type: Class
+  uid: azure.mgmt.storage.models.CustomDomain
+- _type: class
+  children: []
+  module: azure.mgmt.storage.models
+  name: azure.mgmt.storage.models.EncryptionService
+  summary: "An encrypted service.\n\nVariables are only populated by the server, and\
+    \ will be ignored when\nsending a request.\n\n:param enabled: A boolean indicating\
+    \ whether or not the service is\n encrypted.\n:type enabled: bool\n:ivar last_enabled_time:\
+    \ Gets a time value indicating when was the\n encryption enabled by the user last\
+    \ time. We return this value only when\n encryption is enabled. There might be\
+    \ some unencrypted blobs which were\n written after this time. This time is just\
+    \ to give a rough estimate of\n when encryption was enabled.\n:vartype last_enabled_time:\
+    \ datetime\n"
+  type: Class
+  uid: azure.mgmt.storage.models.EncryptionService
+- _type: class
+  children: []
+  module: azure.mgmt.storage.models
+  name: azure.mgmt.storage.models.EncryptionServices
+  summary: "The encrypted services.\n\n:param blob: The blob service.\n:type blob:\
+    \ :class:`EncryptionService\n <azure.mgmt.storage.models.EncryptionService>`\n"
+  type: Class
+  uid: azure.mgmt.storage.models.EncryptionServices
+- _type: class
+  children: []
+  module: azure.mgmt.storage.models
+  name: azure.mgmt.storage.models.Encryption
+  summary: "The encryption settings on the account.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:param services:\
+    \ Gets the services which are encrypted.\n:type services: :class:`EncryptionServices\n\
+    \ <azure.mgmt.storage.models.EncryptionServices>`\n:ivar key_source: Gets the\
+    \ encryption keySource(provider). Possible\n values (case-insensitive):  Microsoft.Storage.\
+    \ Default value:\n \"Microsoft.Storage\" .\n:vartype key_source: str\n"
+  type: Class
+  uid: azure.mgmt.storage.models.Encryption
+- _type: class
+  children: []
+  module: azure.mgmt.storage.models
+  name: azure.mgmt.storage.models.StorageAccountCreateParameters
+  summary: "The parameters to provide for the account.\n\n:param sku: Required. Gets\
+    \ or sets the sku type.\n:type sku: :class:`Sku <azure.mgmt.storage.models.Sku>`\n\
+    :param kind: Required. Indicates the type of storage account. Possible\n values\
+    \ include: 'Storage', 'BlobStorage'\n:type kind: str or :class:`Kind <azure.mgmt.storage.models.Kind>`\n\
+    :param location: Required. Gets or sets the location of the resource.\n This will\
+    \ be one of the supported and registered Azure Geo Regions (e.g.\n West US, East\
+    \ US, Southeast Asia, etc.). The geo region of a resource\n cannot be changed\
+    \ once it is created, but if an identical geo region is\n specified on update\
+    \ the request will succeed.\n:type location: str\n:param tags: Gets or sets a\
+    \ list of key value pairs that describe the\n resource. These tags can be used\
+    \ in viewing and grouping this resource\n (across resource groups). A maximum\
+    \ of 15 tags can be provided for a\n resource. Each tag must have a key no greater\
+    \ than 128 characters and\n value no greater than 256 characters.\n:type tags:\
+    \ dict\n:param custom_domain: User domain assigned to the storage account. Name\n\
+    \ is the CNAME source. Only one custom domain is supported per storage\n account\
+    \ at this time. To clear the existing custom domain, use an empty\n string for\
+    \ the custom domain name property.\n:type custom_domain: :class:`CustomDomain\n\
+    \ <azure.mgmt.storage.models.CustomDomain>`\n:param encryption: Provides the encryption\
+    \ settings on the account. If\n left unspecified the account encryption settings\
+    \ will remain. The\n default setting is unencrypted.\n:type encryption: :class:`Encryption\n\
+    \ <azure.mgmt.storage.models.Encryption>`\n:param access_tier: Required for StandardBlob\
+    \ accounts. The access tier\n used for billing. Access tier cannot be changed\
+    \ more than once every 7\n days (168 hours). Access tier cannot be set for StandardLRS,\n\
+    \ StandardGRS, StandardRAGRS, or PremiumLRS account types. Possible values\n include:\
+    \ 'Hot', 'Cool'\n:type access_tier: str or :class:`AccessTier\n <azure.mgmt.storage.models.AccessTier>`\n"
+  type: Class
+  uid: azure.mgmt.storage.models.StorageAccountCreateParameters
+- _type: class
+  children: []
+  module: azure.mgmt.storage.models
+  name: azure.mgmt.storage.models.Endpoints
+  summary: 'The URIs that are used to perform a retrieval of a public blob, queue
+    or
+
+    table object.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar blob: Gets the blob endpoint.
+
+    :vartype blob: str
+
+    :ivar queue: Gets the queue endpoint.
+
+    :vartype queue: str
+
+    :ivar table: Gets the table endpoint.
+
+    :vartype table: str
+
+    :ivar file: Gets the file endpoint.
+
+    :vartype file: str
+
+    '
+  type: Class
+  uid: azure.mgmt.storage.models.Endpoints
+- _type: class
+  children: []
+  module: azure.mgmt.storage.models
+  name: azure.mgmt.storage.models.StorageAccount
+  summary: "The storage account.\n\nVariables are only populated by the server, and\
+    \ will be ignored when\nsending a request.\n\n:ivar id: Resource Id\n:vartype\
+    \ id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type: Resource\
+    \ type\n:vartype type: str\n:param location: Resource location\n:type location:\
+    \ str\n:param tags: Resource tags\n:type tags: dict\n:ivar sku: Gets the SKU.\n\
+    :vartype sku: :class:`Sku <azure.mgmt.storage.models.Sku>`\n:ivar kind: Gets the\
+    \ Kind. Possible values include: 'Storage',\n 'BlobStorage'\n:vartype kind: str\
+    \ or :class:`Kind <azure.mgmt.storage.models.Kind>`\n:ivar provisioning_state:\
+    \ Gets the status of the storage account at the\n time the operation was called.\
+    \ Possible values include: 'Creating',\n 'ResolvingDNS', 'Succeeded'\n:vartype\
+    \ provisioning_state: str or :class:`ProvisioningState\n <azure.mgmt.storage.models.ProvisioningState>`\n\
+    :ivar primary_endpoints: Gets the URLs that are used to perform a\n retrieval\
+    \ of a public blob, queue or table object.Note that StandardZRS\n and PremiumLRS\
+    \ accounts only return the blob endpoint.\n:vartype primary_endpoints: :class:`Endpoints\n\
+    \ <azure.mgmt.storage.models.Endpoints>`\n:ivar primary_location: Gets the location\
+    \ of the primary for the storage\n account.\n:vartype primary_location: str\n\
+    :ivar status_of_primary: Gets the status indicating whether the primary\n location\
+    \ of the storage account is available or unavailable. Possible\n values include:\
+    \ 'Available', 'Unavailable'\n:vartype status_of_primary: str or :class:`AccountStatus\n\
+    \ <azure.mgmt.storage.models.AccountStatus>`\n:ivar last_geo_failover_time: Gets\
+    \ the timestamp of the most recent\n instance of a failover to the secondary location.\
+    \ Only the most recent\n timestamp is retained. This element is not returned if\
+    \ there has never\n been a failover instance. Only available if the accountType\
+    \ is\n StandardGRS or StandardRAGRS.\n:vartype last_geo_failover_time: datetime\n\
+    :ivar secondary_location: Gets the location of the geo replicated\n secondary\
+    \ for the storage account. Only available if the accountType is\n StandardGRS\
+    \ or StandardRAGRS.\n:vartype secondary_location: str\n:ivar status_of_secondary:\
+    \ Gets the status indicating whether the\n secondary location of the storage account\
+    \ is available or unavailable.\n Only available if the accountType is StandardGRS\
+    \ or StandardRAGRS.\n Possible values include: 'Available', 'Unavailable'\n:vartype\
+    \ status_of_secondary: str or :class:`AccountStatus\n <azure.mgmt.storage.models.AccountStatus>`\n\
+    :ivar creation_time: Gets the creation date and time of the storage\n account\
+    \ in UTC.\n:vartype creation_time: datetime\n:ivar custom_domain: Gets the user\
+    \ assigned custom domain assigned to\n this storage account.\n:vartype custom_domain:\
+    \ :class:`CustomDomain\n <azure.mgmt.storage.models.CustomDomain>`\n:ivar secondary_endpoints:\
+    \ Gets the URLs that are used to perform a\n retrieval of a public blob, queue\
+    \ or table object from the secondary\n location of the storage account. Only available\
+    \ if the accountType is\n StandardRAGRS.\n:vartype secondary_endpoints: :class:`Endpoints\n\
+    \ <azure.mgmt.storage.models.Endpoints>`\n:ivar encryption: Gets the encryption\
+    \ settings on the account. If\n unspecified the account is unencrypted.\n:vartype\
+    \ encryption: :class:`Encryption\n <azure.mgmt.storage.models.Encryption>`\n:ivar\
+    \ access_tier: The access tier used for billing. Access tier cannot\n be changed\
+    \ more than once every 7 days (168 hours). Access tier cannot\n be set for StandardLRS,\
+    \ StandardGRS, StandardRAGRS, or PremiumLRS\n account types. Possible values include:\
+    \ 'Hot', 'Cool'\n:vartype access_tier: str or :class:`AccessTier\n <azure.mgmt.storage.models.AccessTier>`\n"
+  type: Class
+  uid: azure.mgmt.storage.models.StorageAccount
+- _type: class
+  children: []
+  module: azure.mgmt.storage.models
+  name: azure.mgmt.storage.models.StorageAccountKey
+  summary: "An access key for the storage account.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar key_name:\
+    \ Name of the key.\n:vartype key_name: str\n:ivar value: Base 64 encoded value\
+    \ of the key.\n:vartype value: str\n:ivar permissions: Permissions for the key.\
+    \ Possible values include:\n 'READ', 'FULL'\n:vartype permissions: str or :class:`KeyPermission\n\
+    \ <azure.mgmt.storage.models.KeyPermission>`\n"
+  type: Class
+  uid: azure.mgmt.storage.models.StorageAccountKey
+- _type: class
+  children: []
+  module: azure.mgmt.storage.models
+  name: azure.mgmt.storage.models.StorageAccountListKeysResult
+  summary: "The ListKeys operation response.\n\nVariables are only populated by the\
+    \ server, and will be ignored when\nsending a request.\n\n:ivar keys: Gets the\
+    \ list of account keys and their properties.\n:vartype keys: list of :class:`StorageAccountKey\n\
+    \ <azure.mgmt.storage.models.StorageAccountKey>`\n"
+  type: Class
+  uid: azure.mgmt.storage.models.StorageAccountListKeysResult
+- _type: class
+  children: []
+  module: azure.mgmt.storage.models
+  name: azure.mgmt.storage.models.StorageAccountRegenerateKeyParameters
+  summary: 'StorageAccountRegenerateKeyParameters.
+
+
+    :param key_name:
+
+    :type key_name: str
+
+    '
+  type: Class
+  uid: azure.mgmt.storage.models.StorageAccountRegenerateKeyParameters
+- _type: class
+  children: []
+  module: azure.mgmt.storage.models
+  name: azure.mgmt.storage.models.StorageAccountUpdateParameters
+  summary: "The parameters to provide for the account.\n\n:param sku: Gets or sets\
+    \ the sku type. Note that sku cannot be updated to\n StandardZRS or ProvisionedLRS,\
+    \ nor can accounts of that sku type be\n updated to any other value.\n:type sku:\
+    \ :class:`Sku <azure.mgmt.storage.models.Sku>`\n:param tags: Gets or sets a list\
+    \ of key value pairs that describe the\n resource. These tags can be used in viewing\
+    \ and grouping this resource\n (across resource groups). A maximum of 15 tags\
+    \ can be provided for a\n resource. Each tag must have a key no greater than 128\
+    \ characters and\n value no greater than 256 characters.\n:type tags: dict\n:param\
+    \ custom_domain: User domain assigned to the storage account. Name\n is the CNAME\
+    \ source. Only one custom domain is supported per storage\n account at this time.\
+    \ To clear the existing custom domain, use an empty\n string for the custom domain\
+    \ name property.\n:type custom_domain: :class:`CustomDomain\n <azure.mgmt.storage.models.CustomDomain>`\n\
+    :param encryption: Provides the encryption settings on the account. The\n default\
+    \ setting is unencrypted.\n:type encryption: :class:`Encryption\n <azure.mgmt.storage.models.Encryption>`\n\
+    :param access_tier: The access tier used for billing. Access tier cannot\n be\
+    \ changed more than once every 7 days (168 hours). Access tier cannot\n be set\
+    \ for StandardLRS, StandardGRS, StandardRAGRS, or PremiumLRS\n account types.\
+    \ Possible values include: 'Hot', 'Cool'\n:type access_tier: str or :class:`AccessTier\n\
+    \ <azure.mgmt.storage.models.AccessTier>`\n"
+  type: Class
+  uid: azure.mgmt.storage.models.StorageAccountUpdateParameters
+- _type: class
+  children: []
+  module: azure.mgmt.storage.models
+  name: azure.mgmt.storage.models.UsageName
+  summary: "The Usage Names.\n\nVariables are only populated by the server, and will\
+    \ be ignored when\nsending a request.\n\n:ivar value: Gets a string describing\
+    \ the resource name.\n:vartype value: str\n:ivar localized_value: Gets a localized\
+    \ string describing the resource\n name.\n:vartype localized_value: str\n"
+  type: Class
+  uid: azure.mgmt.storage.models.UsageName
+- _type: class
+  children: []
+  module: azure.mgmt.storage.models
+  name: azure.mgmt.storage.models.Usage
+  summary: "Describes Storage Resource Usage.\n\nVariables are only populated by the\
+    \ server, and will be ignored when\nsending a request.\n\n:ivar unit: Gets the\
+    \ unit of measurement. Possible values include:\n 'Count', 'Bytes', 'Seconds',\
+    \ 'Percent', 'CountsPerSecond',\n 'BytesPerSecond'\n:vartype unit: str or :class:`UsageUnit\n\
+    \ <azure.mgmt.storage.models.UsageUnit>`\n:ivar current_value: Gets the current\
+    \ count of the allocated resources in\n the subscription.\n:vartype current_value:\
+    \ int\n:ivar limit: Gets the maximum count of the resources that can be\n allocated\
+    \ in the subscription.\n:vartype limit: int\n:ivar name: Gets the name of the\
+    \ type of usage.\n:vartype name: :class:`UsageName <azure.mgmt.storage.models.UsageName>`\n"
+  type: Class
+  uid: azure.mgmt.storage.models.Usage
+- _type: class
+  children: []
+  module: azure.mgmt.storage.models
+  name: azure.mgmt.storage.models.Resource
+  summary: 'Resource.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar id: Resource Id
+
+    :vartype id: str
+
+    :ivar name: Resource name
+
+    :vartype name: str
+
+    :ivar type: Resource type
+
+    :vartype type: str
+
+    :param location: Resource location
+
+    :type location: str
+
+    :param tags: Resource tags
+
+    :type tags: dict
+
+    '
+  type: Class
+  uid: azure.mgmt.storage.models.Resource
+- _type: class
+  children: []
+  module: azure.mgmt.storage.models
+  name: azure.mgmt.storage.models.StorageAccountPaged
+  summary: 'A paging container for iterating over a list of StorageAccount object
+
+    '
+  type: Class
+  uid: azure.mgmt.storage.models.StorageAccountPaged
+- _type: class
+  children: []
+  module: azure.mgmt.storage.models
+  name: azure.mgmt.storage.models.UsagePaged
+  summary: 'A paging container for iterating over a list of Usage object
+
+    '
+  type: Class
+  uid: azure.mgmt.storage.models.UsagePaged
+- _type: class
+  children: []
+  module: azure.mgmt.storage.models
+  name: azure.mgmt.storage.models.Reason
+  summary: ''
+  type: Class
+  uid: azure.mgmt.storage.models.Reason
+- _type: class
+  children: []
+  module: azure.mgmt.storage.models
+  name: azure.mgmt.storage.models.SkuName
+  summary: ''
+  type: Class
+  uid: azure.mgmt.storage.models.SkuName
+- _type: class
+  children: []
+  module: azure.mgmt.storage.models
+  name: azure.mgmt.storage.models.SkuTier
+  summary: ''
+  type: Class
+  uid: azure.mgmt.storage.models.SkuTier
+- _type: class
+  children: []
+  module: azure.mgmt.storage.models
+  name: azure.mgmt.storage.models.AccessTier
+  summary: ''
+  type: Class
+  uid: azure.mgmt.storage.models.AccessTier
+- _type: class
+  children: []
+  module: azure.mgmt.storage.models
+  name: azure.mgmt.storage.models.Kind
+  summary: ''
+  type: Class
+  uid: azure.mgmt.storage.models.Kind
+- _type: class
+  children: []
+  module: azure.mgmt.storage.models
+  name: azure.mgmt.storage.models.ProvisioningState
+  summary: ''
+  type: Class
+  uid: azure.mgmt.storage.models.ProvisioningState
+- _type: class
+  children: []
+  module: azure.mgmt.storage.models
+  name: azure.mgmt.storage.models.AccountStatus
+  summary: ''
+  type: Class
+  uid: azure.mgmt.storage.models.AccountStatus
+- _type: class
+  children: []
+  module: azure.mgmt.storage.models
+  name: azure.mgmt.storage.models.KeyPermission
+  summary: ''
+  type: Class
+  uid: azure.mgmt.storage.models.KeyPermission
+- _type: class
+  children: []
+  module: azure.mgmt.storage.models
+  name: azure.mgmt.storage.models.UsageUnit
+  summary: ''
+  type: Class
+  uid: azure.mgmt.storage.models.UsageUnit

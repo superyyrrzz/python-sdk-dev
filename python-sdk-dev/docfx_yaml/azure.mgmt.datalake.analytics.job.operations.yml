@@ -1,0 +1,159 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - azure.mgmt.datalake.analytics.job.operations.JobOperations
+  module: azure.mgmt.datalake.analytics.job.operations
+  name: azure.mgmt.datalake.analytics.job.operations
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.datalake.analytics.job.operations
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.job.operations
+  name: azure.mgmt.datalake.analytics.job.operations.Global
+  summary: Proxy object to hold module level functions
+  type: Class
+  uid: azure.mgmt.datalake.analytics.job.operations.Global
+- _type: class
+  children:
+  - azure.mgmt.datalake.analytics.job.operations.JobOperations.build
+  - azure.mgmt.datalake.analytics.job.operations.JobOperations.cancel
+  - azure.mgmt.datalake.analytics.job.operations.JobOperations.create
+  - azure.mgmt.datalake.analytics.job.operations.JobOperations.get
+  - azure.mgmt.datalake.analytics.job.operations.JobOperations.get_debug_data_path
+  - azure.mgmt.datalake.analytics.job.operations.JobOperations.get_statistics
+  - azure.mgmt.datalake.analytics.job.operations.JobOperations.list
+  module: azure.mgmt.datalake.analytics.job.operations
+  name: azure.mgmt.datalake.analytics.job.operations.JobOperations
+  summary: 'JobOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    '
+  type: Class
+  uid: azure.mgmt.datalake.analytics.job.operations.JobOperations
+- _type: method
+  class: azure.mgmt.datalake.analytics.job.operations.JobOperations
+  module: azure.mgmt.datalake.analytics.job.operations
+  name: azure.mgmt.datalake.analytics.job.operations.JobOperations.build
+  summary: "Builds (compiles) the specified job in the specified Data Lake\nAnalytics\
+    \ account for job correctness and validation.\n\n:param account_name: The Azure\
+    \ Data Lake Analytics account to execute\n job operations on.\n:type account_name:\
+    \ str\n:param parameters: The parameters to build a job.\n:type parameters: :class:`JobInformation\n\
+    \ <azure.mgmt.datalake.analytics.job.models.JobInformation>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`JobInformation\n\
+    \ <azure.mgmt.datalake.analytics.job.models.JobInformation>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.job.operations.JobOperations.build
+- _type: method
+  class: azure.mgmt.datalake.analytics.job.operations.JobOperations
+  module: azure.mgmt.datalake.analytics.job.operations
+  name: azure.mgmt.datalake.analytics.job.operations.JobOperations.cancel
+  summary: "Cancels the running job specified by the job ID.\n\n:param account_name:\
+    \ The Azure Data Lake Analytics account to execute\n job operations on.\n:type\
+    \ account_name: str\n:param job_identity: JobInfo ID to cancel.\n:type job_identity:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.job.operations.JobOperations.cancel
+- _type: method
+  class: azure.mgmt.datalake.analytics.job.operations.JobOperations
+  module: azure.mgmt.datalake.analytics.job.operations
+  name: azure.mgmt.datalake.analytics.job.operations.JobOperations.create
+  summary: "Submits a job to the specified Data Lake Analytics account.\n\n:param\
+    \ account_name: The Azure Data Lake Analytics account to execute\n job operations\
+    \ on.\n:type account_name: str\n:param job_identity: The job ID (a GUID) for the\
+    \ job being submitted.\n:type job_identity: str\n:param parameters: The parameters\
+    \ to submit a job.\n:type parameters: :class:`JobInformation\n <azure.mgmt.datalake.analytics.job.models.JobInformation>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`JobInformation\n <azure.mgmt.datalake.analytics.job.models.JobInformation>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.job.operations.JobOperations.create
+- _type: method
+  class: azure.mgmt.datalake.analytics.job.operations.JobOperations
+  module: azure.mgmt.datalake.analytics.job.operations
+  name: azure.mgmt.datalake.analytics.job.operations.JobOperations.get
+  summary: "Gets the job information for the specified job ID.\n\n:param account_name:\
+    \ The Azure Data Lake Analytics account to execute\n job operations on.\n:type\
+    \ account_name: str\n:param job_identity: JobInfo ID.\n:type job_identity: str\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`JobInformation\n <azure.mgmt.datalake.analytics.job.models.JobInformation>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.job.operations.JobOperations.get
+- _type: method
+  class: azure.mgmt.datalake.analytics.job.operations.JobOperations
+  module: azure.mgmt.datalake.analytics.job.operations
+  name: azure.mgmt.datalake.analytics.job.operations.JobOperations.get_debug_data_path
+  summary: "Gets the job debug data information specified by the job ID.\n\n:param\
+    \ account_name: The Azure Data Lake Analytics account to execute\n job operations\
+    \ on.\n:type account_name: str\n:param job_identity: JobInfo ID.\n:type job_identity:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`JobDataPath\n <azure.mgmt.datalake.analytics.job.models.JobDataPath>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.job.operations.JobOperations.get_debug_data_path
+- _type: method
+  class: azure.mgmt.datalake.analytics.job.operations.JobOperations
+  module: azure.mgmt.datalake.analytics.job.operations
+  name: azure.mgmt.datalake.analytics.job.operations.JobOperations.get_statistics
+  summary: "Gets statistics of the specified job.\n\n:param account_name: The Azure\
+    \ Data Lake Analytics account to execute\n job operations on.\n:type account_name:\
+    \ str\n:param job_identity: Job Information ID.\n:type job_identity: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`JobStatistics\n <azure.mgmt.datalake.analytics.job.models.JobStatistics>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.job.operations.JobOperations.get_statistics
+- _type: method
+  class: azure.mgmt.datalake.analytics.job.operations.JobOperations
+  module: azure.mgmt.datalake.analytics.job.operations
+  name: azure.mgmt.datalake.analytics.job.operations.JobOperations.list
+  summary: "Lists the jobs, if any, associated with the specified Data Lake\nAnalytics\
+    \ account. The response includes a link to the next page of\nresults, if any.\n\
+    \n:param account_name: The Azure Data Lake Analytics account to execute\n job\
+    \ operations on.\n:type account_name: str\n:param filter: OData filter. Optional.\n\
+    :type filter: str\n:param top: The number of items to return. Optional.\n:type\
+    \ top: int\n:param skip: The number of items to skip over before returning\n elements.\
+    \ Optional.\n:type skip: int\n:param select: OData Select statement. Limits the\
+    \ properties on each\n entry to just those requested, e.g.\n Categories?$select=CategoryName,Description.\
+    \ Optional.\n:type select: str\n:param orderby: OrderBy clause. One or more comma-separated\n\
+    \ expressions with an optional \"asc\" (the default) or \"desc\" depending\n on\
+    \ the order you'd like the values sorted, e.g.\n Categories?$orderby=CategoryName\
+    \ desc. Optional.\n:type orderby: str\n:param count: The Boolean value of true\
+    \ or false to request a count of\n the matching resources included with the resources\
+    \ in the response,\n e.g. Categories?$count=true. Optional.\n:type count: bool\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`JobInformationPaged\n <azure.mgmt.datalake.analytics.job.models.JobInformationPaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`\n"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.job.operations.JobOperations.list

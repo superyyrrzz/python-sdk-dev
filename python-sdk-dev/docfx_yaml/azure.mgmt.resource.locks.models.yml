@@ -1,0 +1,156 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - azure.mgmt.resource.locks.models.DeploymentExtendedFilter
+  - azure.mgmt.resource.locks.models.GenericResourceFilter
+  - azure.mgmt.resource.locks.models.ResourceGroupFilter
+  - azure.mgmt.resource.locks.models.ManagementLockObject
+  - azure.mgmt.resource.locks.models.ResourceModel
+  - azure.mgmt.resource.locks.models.SubResource
+  - azure.mgmt.resource.locks.models.ManagementLockObjectPaged
+  - azure.mgmt.resource.locks.models.LockLevel
+  module: azure.mgmt.resource.locks.models
+  name: azure.mgmt.resource.locks.models
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.resource.locks.models
+- _type: class
+  children: []
+  module: azure.mgmt.resource.locks.models
+  name: azure.mgmt.resource.locks.models.Global
+  summary: Proxy object to hold module level functions
+  type: Class
+  uid: azure.mgmt.resource.locks.models.Global
+- _type: class
+  children: []
+  module: azure.mgmt.resource.locks.models
+  name: azure.mgmt.resource.locks.models.DeploymentExtendedFilter
+  summary: 'Deployment filter.
+
+
+    :param provisioning_state: Gets or sets the provisioning state.
+
+    :type provisioning_state: str
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.locks.models.DeploymentExtendedFilter
+- _type: class
+  children: []
+  module: azure.mgmt.resource.locks.models
+  name: azure.mgmt.resource.locks.models.GenericResourceFilter
+  summary: 'Resource filter.
+
+
+    :param resource_type: Gets or sets the resource type.
+
+    :type resource_type: str
+
+    :param tagname: Gets or sets the tag name.
+
+    :type tagname: str
+
+    :param tagvalue: Gets or sets the tag value.
+
+    :type tagvalue: str
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.locks.models.GenericResourceFilter
+- _type: class
+  children: []
+  module: azure.mgmt.resource.locks.models
+  name: azure.mgmt.resource.locks.models.ResourceGroupFilter
+  summary: 'Resource group filter.
+
+
+    :param tag_name: Gets or sets the tag name.
+
+    :type tag_name: str
+
+    :param tag_value: Gets or sets the tag value.
+
+    :type tag_value: str
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.locks.models.ResourceGroupFilter
+- _type: class
+  children: []
+  module: azure.mgmt.resource.locks.models
+  name: azure.mgmt.resource.locks.models.ManagementLockObject
+  summary: "Management lock information.\n\n:param level: Gets or sets the lock level\
+    \ of the management lock.\n Possible values include: 'NotSpecified', 'CanNotDelete',\
+    \ 'ReadOnly'\n:type level: str or :class:`LockLevel\n <azure.mgmt.resource.locks.models.LockLevel>`\n\
+    :param notes: Gets or sets the notes of the management lock.\n:type notes: str\n\
+    :param id: Gets or sets the Id of the lock.\n:type id: str\n:param type: Gets\
+    \ or sets the type of the lock.\n:type type: str\n:param name: Gets or sets the\
+    \ name of the lock.\n:type name: str\n"
+  type: Class
+  uid: azure.mgmt.resource.locks.models.ManagementLockObject
+- _type: class
+  children: []
+  module: azure.mgmt.resource.locks.models
+  name: azure.mgmt.resource.locks.models.ResourceModel
+  summary: 'ResourceModel.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar id: Resource Id
+
+    :vartype id: str
+
+    :ivar name: Resource name
+
+    :vartype name: str
+
+    :ivar type: Resource type
+
+    :vartype type: str
+
+    :param location: Resource location
+
+    :type location: str
+
+    :param tags: Resource tags
+
+    :type tags: dict
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.locks.models.ResourceModel
+- _type: class
+  children: []
+  module: azure.mgmt.resource.locks.models
+  name: azure.mgmt.resource.locks.models.SubResource
+  summary: 'SubResource.
+
+
+    :param id: Resource Id
+
+    :type id: str
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.locks.models.SubResource
+- _type: class
+  children: []
+  module: azure.mgmt.resource.locks.models
+  name: azure.mgmt.resource.locks.models.ManagementLockObjectPaged
+  summary: 'A paging container for iterating over a list of ManagementLockObject object
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.locks.models.ManagementLockObjectPaged
+- _type: class
+  children: []
+  module: azure.mgmt.resource.locks.models
+  name: azure.mgmt.resource.locks.models.LockLevel
+  summary: ''
+  type: Class
+  uid: azure.mgmt.resource.locks.models.LockLevel

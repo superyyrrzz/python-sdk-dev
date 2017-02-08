@@ -1,0 +1,126 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - azure.mgmt.resource.subscriptions.models.Location
+  - azure.mgmt.resource.subscriptions.models.Subscription
+  - azure.mgmt.resource.subscriptions.models.SubscriptionPolicies
+  - azure.mgmt.resource.subscriptions.models.TenantIdDescription
+  - azure.mgmt.resource.subscriptions.models.LocationPaged
+  - azure.mgmt.resource.subscriptions.models.SubscriptionPaged
+  - azure.mgmt.resource.subscriptions.models.TenantIdDescriptionPaged
+  - azure.mgmt.resource.subscriptions.models.SubscriptionState
+  - azure.mgmt.resource.subscriptions.models.spendingLimit
+  module: azure.mgmt.resource.subscriptions.models
+  name: azure.mgmt.resource.subscriptions.models
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.resource.subscriptions.models
+- _type: class
+  children: []
+  module: azure.mgmt.resource.subscriptions.models
+  name: azure.mgmt.resource.subscriptions.models.Global
+  summary: Proxy object to hold module level functions
+  type: Class
+  uid: azure.mgmt.resource.subscriptions.models.Global
+- _type: class
+  children: []
+  module: azure.mgmt.resource.subscriptions.models
+  name: azure.mgmt.resource.subscriptions.models.Location
+  summary: "Location information.\n\nVariables are only populated by the server, and\
+    \ will be ignored when\nsending a request.\n\n:ivar id: The fully qualified Id\
+    \ of the location. For example,\n /subscriptions/00000000-0000-0000-0000-000000000000/locations/westus.\n\
+    :vartype id: str\n:ivar subscription_id: The subscription Id.\n:vartype subscription_id:\
+    \ str\n:ivar name: The location name.\n:vartype name: str\n:ivar display_name:\
+    \ The display name of the location.\n:vartype display_name: str\n:ivar latitude:\
+    \ The latitude of the location.\n:vartype latitude: str\n:ivar longitude: The\
+    \ longitude of the location.\n:vartype longitude: str\n"
+  type: Class
+  uid: azure.mgmt.resource.subscriptions.models.Location
+- _type: class
+  children: []
+  module: azure.mgmt.resource.subscriptions.models
+  name: azure.mgmt.resource.subscriptions.models.Subscription
+  summary: "Subscription information.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:ivar id: The fully qualified\
+    \ Id. For example,\n /subscriptions/00000000-0000-0000-0000-000000000000.\n:vartype\
+    \ id: str\n:ivar subscription_id: The subscription Id.\n:vartype subscription_id:\
+    \ str\n:ivar tenant_id: The tenant Id.\n:vartype tenant_id: str\n:ivar display_name:\
+    \ The subscription display name.\n:vartype display_name: str\n:ivar state: The\
+    \ subscription state. Possible values include: 'Enabled',\n 'Warned', 'PastDue',\
+    \ 'Disabled', 'Deleted'\n:vartype state: str or :class:`SubscriptionState\n <azure.mgmt.resource.subscriptions.models.SubscriptionState>`\n\
+    :param subscription_policies: The subscription policies.\n:type subscription_policies:\
+    \ :class:`SubscriptionPolicies\n <azure.mgmt.resource.subscriptions.models.SubscriptionPolicies>`\n\
+    :param authorization_source: The authorization source of the request.\n Valid\
+    \ values are one or more combinations of Legacy, RoleBased,\n Bypassed, Direct\
+    \ and Management. For example, 'Legacy, RoleBased'.\n:type authorization_source:\
+    \ str\n"
+  type: Class
+  uid: azure.mgmt.resource.subscriptions.models.Subscription
+- _type: class
+  children: []
+  module: azure.mgmt.resource.subscriptions.models
+  name: azure.mgmt.resource.subscriptions.models.SubscriptionPolicies
+  summary: "Subscription policies.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:ivar location_placement_id:\
+    \ The subscription location placement Id. The\n Id indicates which regions are\
+    \ visible for a subscription. For example,\n a subscription with a location placement\
+    \ Id of Public_2014-09-01 has\n access to Azure public regions.\n:vartype location_placement_id:\
+    \ str\n:ivar quota_id: The subscription quota Id.\n:vartype quota_id: str\n:ivar\
+    \ spending_limit: The subscription spending limit. Possible values\n include:\
+    \ 'On', 'Off', 'CurrentPeriodOff'\n:vartype spending_limit: str or :class:`spendingLimit\n\
+    \ <azure.mgmt.resource.subscriptions.models.spendingLimit>`\n"
+  type: Class
+  uid: azure.mgmt.resource.subscriptions.models.SubscriptionPolicies
+- _type: class
+  children: []
+  module: azure.mgmt.resource.subscriptions.models
+  name: azure.mgmt.resource.subscriptions.models.TenantIdDescription
+  summary: "Tenant Id information.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:ivar id: The fully qualified\
+    \ Id. For example,\n /tenants/00000000-0000-0000-0000-000000000000.\n:vartype\
+    \ id: str\n:ivar tenant_id: The tenantId. For example,\n 00000000-0000-0000-0000-000000000000.\n\
+    :vartype tenant_id: str\n"
+  type: Class
+  uid: azure.mgmt.resource.subscriptions.models.TenantIdDescription
+- _type: class
+  children: []
+  module: azure.mgmt.resource.subscriptions.models
+  name: azure.mgmt.resource.subscriptions.models.LocationPaged
+  summary: 'A paging container for iterating over a list of Location object
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.subscriptions.models.LocationPaged
+- _type: class
+  children: []
+  module: azure.mgmt.resource.subscriptions.models
+  name: azure.mgmt.resource.subscriptions.models.SubscriptionPaged
+  summary: 'A paging container for iterating over a list of Subscription object
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.subscriptions.models.SubscriptionPaged
+- _type: class
+  children: []
+  module: azure.mgmt.resource.subscriptions.models
+  name: azure.mgmt.resource.subscriptions.models.TenantIdDescriptionPaged
+  summary: 'A paging container for iterating over a list of TenantIdDescription object
+
+    '
+  type: Class
+  uid: azure.mgmt.resource.subscriptions.models.TenantIdDescriptionPaged
+- _type: class
+  children: []
+  module: azure.mgmt.resource.subscriptions.models
+  name: azure.mgmt.resource.subscriptions.models.SubscriptionState
+  summary: ''
+  type: Class
+  uid: azure.mgmt.resource.subscriptions.models.SubscriptionState
+- _type: class
+  children: []
+  module: azure.mgmt.resource.subscriptions.models
+  name: azure.mgmt.resource.subscriptions.models.spendingLimit
+  summary: ''
+  type: Class
+  uid: azure.mgmt.resource.subscriptions.models.spendingLimit

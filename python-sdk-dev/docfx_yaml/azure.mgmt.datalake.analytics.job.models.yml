@@ -1,0 +1,382 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - azure.mgmt.datalake.analytics.job.models.JobStatisticsVertexStage
+  - azure.mgmt.datalake.analytics.job.models.JobStatistics
+  - azure.mgmt.datalake.analytics.job.models.JobDataPath
+  - azure.mgmt.datalake.analytics.job.models.JobStateAuditRecord
+  - azure.mgmt.datalake.analytics.job.models.JobResource
+  - azure.mgmt.datalake.analytics.job.models.Diagnostics
+  - azure.mgmt.datalake.analytics.job.models.USqlJobProperties
+  - azure.mgmt.datalake.analytics.job.models.HiveJobProperties
+  - azure.mgmt.datalake.analytics.job.models.JobProperties
+  - azure.mgmt.datalake.analytics.job.models.JobInnerError
+  - azure.mgmt.datalake.analytics.job.models.JobErrorDetails
+  - azure.mgmt.datalake.analytics.job.models.JobInformation
+  - azure.mgmt.datalake.analytics.job.models.JobInformationPaged
+  - azure.mgmt.datalake.analytics.job.models.JobResourceType
+  - azure.mgmt.datalake.analytics.job.models.SeverityTypes
+  - azure.mgmt.datalake.analytics.job.models.CompileMode
+  - azure.mgmt.datalake.analytics.job.models.JobType
+  - azure.mgmt.datalake.analytics.job.models.JobState
+  - azure.mgmt.datalake.analytics.job.models.JobResult
+  module: azure.mgmt.datalake.analytics.job.models
+  name: azure.mgmt.datalake.analytics.job.models
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.datalake.analytics.job.models
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.job.models
+  name: azure.mgmt.datalake.analytics.job.models.Global
+  summary: Proxy object to hold module level functions
+  type: Class
+  uid: azure.mgmt.datalake.analytics.job.models.Global
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.job.models
+  name: azure.mgmt.datalake.analytics.job.models.JobStatisticsVertexStage
+  summary: "The Data Lake Analytics job statistics vertex stage information.\n\nVariables\
+    \ are only populated by the server, and will be ignored when\nsending a request.\n\
+    \n:ivar data_read: the amount of data read, in bytes.\n:vartype data_read: long\n\
+    :ivar data_read_cross_pod: the amount of data read across multiple pods,\n in\
+    \ bytes.\n:vartype data_read_cross_pod: long\n:ivar data_read_intra_pod: the amount\
+    \ of data read in one pod, in bytes.\n:vartype data_read_intra_pod: long\n:ivar\
+    \ data_to_read: the amount of data remaining to be read, in bytes.\n:vartype data_to_read:\
+    \ long\n:ivar data_written: the amount of data written, in bytes.\n:vartype data_written:\
+    \ long\n:ivar duplicate_discard_count: the number of duplicates that were\n discarded.\n\
+    :vartype duplicate_discard_count: int\n:ivar failed_count: the number of failures\
+    \ that occured in this stage.\n:vartype failed_count: int\n:ivar max_vertex_data_read:\
+    \ the maximum amount of data read in a single\n vertex, in bytes.\n:vartype max_vertex_data_read:\
+    \ long\n:ivar min_vertex_data_read: the minimum amount of data read in a single\n\
+    \ vertex, in bytes.\n:vartype min_vertex_data_read: long\n:ivar read_failure_count:\
+    \ the number of read failures in this stage.\n:vartype read_failure_count: int\n\
+    :ivar revocation_count: the number of vertices that were revoked during\n this\
+    \ stage.\n:vartype revocation_count: int\n:ivar running_count: the number of currently\
+    \ running vertices in this\n stage.\n:vartype running_count: int\n:ivar scheduled_count:\
+    \ the number of currently scheduled vertices in this\n stage\n:vartype scheduled_count:\
+    \ int\n:ivar stage_name: the name of this stage in job execution.\n:vartype stage_name:\
+    \ str\n:ivar succeeded_count: the number of vertices that succeeded in this\n\
+    \ stage.\n:vartype succeeded_count: int\n:ivar temp_data_written: the amount of\
+    \ temporary data written, in bytes.\n:vartype temp_data_written: long\n:ivar total_count:\
+    \ the total vertex count for this stage.\n:vartype total_count: int\n:ivar total_failed_time:\
+    \ the amount of time that failed vertices took up\n in this stage.\n:vartype total_failed_time:\
+    \ timedelta\n:ivar total_progress: the current progress of this stage, as a percentage.\n\
+    :vartype total_progress: int\n:ivar total_succeeded_time: the amount of time all\
+    \ successful vertices\n took in this stage.\n:vartype total_succeeded_time: timedelta\n"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.job.models.JobStatisticsVertexStage
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.job.models
+  name: azure.mgmt.datalake.analytics.job.models.JobStatistics
+  summary: "The Data Lake Analytics job execution statistics.\n\nVariables are only\
+    \ populated by the server, and will be ignored when\nsending a request.\n\n:ivar\
+    \ last_update_time_utc: the last update time for the statistics.\n:vartype last_update_time_utc:\
+    \ datetime\n:ivar finalizing_time_utc: the job finalizing start time.\n:vartype\
+    \ finalizing_time_utc: datetime\n:ivar stages: the list of stages for the job.\n\
+    :vartype stages: list of :class:`JobStatisticsVertexStage\n <azure.mgmt.datalake.analytics.job.models.JobStatisticsVertexStage>`\n"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.job.models.JobStatistics
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.job.models
+  name: azure.mgmt.datalake.analytics.job.models.JobDataPath
+  summary: 'A Data Lake Analytics job data path item.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar job_id: the id of the job this data is for.
+
+    :vartype job_id: str
+
+    :ivar command: the command that this job data relates to.
+
+    :vartype command: str
+
+    :ivar paths: the list of paths to all of the job data.
+
+    :vartype paths: list of str
+
+    '
+  type: Class
+  uid: azure.mgmt.datalake.analytics.job.models.JobDataPath
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.job.models
+  name: azure.mgmt.datalake.analytics.job.models.JobStateAuditRecord
+  summary: 'The Data Lake Analytics job state audit records for tracking the lifecycle
+
+    of a job.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar new_state: the new state the job is in.
+
+    :vartype new_state: str
+
+    :ivar time_stamp: the time stamp that the state change took place.
+
+    :vartype time_stamp: datetime
+
+    :ivar requested_by_user: the user who requests the change.
+
+    :vartype requested_by_user: str
+
+    :ivar details:  the details of the audit log.
+
+    :vartype details: str
+
+    '
+  type: Class
+  uid: azure.mgmt.datalake.analytics.job.models.JobStateAuditRecord
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.job.models
+  name: azure.mgmt.datalake.analytics.job.models.JobResource
+  summary: "The Data Lake Analytics job resources.\n\n:param name: the name of the\
+    \ resource.\n:type name: str\n:param resource_path: the path to the resource.\n\
+    :type resource_path: str\n:param type: the job resource type. Possible values\
+    \ include:\n 'VertexResource', 'JobManagerResource', 'StatisticsResource',\n 'VertexResourceInUserFolder',\
+    \ 'JobManagerResourceInUserFolder',\n 'StatisticsResourceInUserFolder'\n:type\
+    \ type: str or :class:`JobResourceType\n <azure.mgmt.datalake.analytics.job.models.JobResourceType>`\n"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.job.models.JobResource
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.job.models
+  name: azure.mgmt.datalake.analytics.job.models.Diagnostics
+  summary: "Error diagnostic information for failed jobs.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar column_number:\
+    \ the column where the error occured.\n:vartype column_number: int\n:ivar end:\
+    \ the ending index of the error.\n:vartype end: int\n:ivar line_number: the line\
+    \ number the error occured on.\n:vartype line_number: int\n:ivar message: the\
+    \ error message.\n:vartype message: str\n:ivar severity: the severity of the error.\
+    \ Possible values include:\n 'Warning', 'Error', 'Info', 'SevereWarning', 'Deprecated',\
+    \ 'UserWarning'\n:vartype severity: str or :class:`SeverityTypes\n <azure.mgmt.datalake.analytics.job.models.SeverityTypes>`\n\
+    :ivar start: the starting index of the error.\n:vartype start: int\n"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.job.models.Diagnostics
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.job.models
+  name: azure.mgmt.datalake.analytics.job.models.USqlJobProperties
+  summary: "U-SQL job properties used when submitting and retrieving U-SQL jobs.\n\
+    \nVariables are only populated by the server, and will be ignored when\nsending\
+    \ a request.\n\n:param runtime_version: the runtime version of the Data Lake Analytics\n\
+    \ engine to use for the specific type of job being run.\n:type runtime_version:\
+    \ str\n:param script: the script to run\n:type script: str\n:param type: Polymorphic\
+    \ Discriminator\n:type type: str\n:param resources: the list of resources that\
+    \ are required by the job\n:type resources: list of :class:`JobResource\n <azure.mgmt.datalake.analytics.job.models.JobResource>`\n\
+    :param statistics: the job specific statistics.\n:type statistics: :class:`JobStatistics\n\
+    \ <azure.mgmt.datalake.analytics.job.models.JobStatistics>`\n:param debug_data:\
+    \ the job specific debug data locations.\n:type debug_data: :class:`JobDataPath\n\
+    \ <azure.mgmt.datalake.analytics.job.models.JobDataPath>`\n:param diagnostics:\
+    \ the diagnostics for the job.\n:type diagnostics: list of :class:`Diagnostics\n\
+    \ <azure.mgmt.datalake.analytics.job.models.Diagnostics>`\n:ivar algebra_file_path:\
+    \ the algebra file path after the job has completed\n:vartype algebra_file_path:\
+    \ str\n:ivar total_compilation_time: the total time this job spent compiling.\n\
+    \ This value should not be set by the user and will be ignored if it is.\n:vartype\
+    \ total_compilation_time: timedelta\n:ivar total_pause_time: the total time this\
+    \ job spent paused. This value\n should not be set by the user and will be ignored\
+    \ if it is.\n:vartype total_pause_time: timedelta\n:ivar total_queued_time: the\
+    \ total time this job spent queued. This value\n should not be set by the user\
+    \ and will be ignored if it is.\n:vartype total_queued_time: timedelta\n:ivar\
+    \ total_running_time: the total time this job spent executing. This\n value should\
+    \ not be set by the user and will be ignored if it is.\n:vartype total_running_time:\
+    \ timedelta\n:ivar root_process_node_id: the ID used to identify the job manager\n\
+    \ coordinating job execution. This value should not be set by the user and\n will\
+    \ be ignored if it is.\n:vartype root_process_node_id: str\n:ivar yarn_application_id:\
+    \ the ID used to identify the yarn application\n executing the job. This value\
+    \ should not be set by the user and will be\n ignored if it is.\n:vartype yarn_application_id:\
+    \ str\n:ivar yarn_application_time_stamp: the timestamp (in ticks) for the yarn\n\
+    \ application executing the job. This value should not be set by the user\n and\
+    \ will be ignored if it is.\n:vartype yarn_application_time_stamp: long\n:param\
+    \ compile_mode: Optionally enforces a specific compilation mode for\n the job\
+    \ during execution. If this is not specified during submission, the\n server will\
+    \ determine the optimal compilation mode. Possible values\n include: 'Semantic',\
+    \ 'Full', 'SingleBox'\n:type compile_mode: str or :class:`CompileMode\n <azure.mgmt.datalake.analytics.job.models.CompileMode>`\n"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.job.models.USqlJobProperties
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.job.models
+  name: azure.mgmt.datalake.analytics.job.models.HiveJobProperties
+  summary: "Hive job properties used when submitting and retrieving Hive jobs.\n\n\
+    Variables are only populated by the server, and will be ignored when\nsending\
+    \ a request.\n\n:param runtime_version: the runtime version of the Data Lake Analytics\n\
+    \ engine to use for the specific type of job being run.\n:type runtime_version:\
+    \ str\n:param script: the script to run\n:type script: str\n:param type: Polymorphic\
+    \ Discriminator\n:type type: str\n:ivar logs_location: the Hive logs location\n\
+    :vartype logs_location: str\n:ivar output_location: the location of Hive job output\
+    \ files (both\n execution output and results)\n:vartype output_location: str\n\
+    :ivar statement_count: the number of statements that will be run based on\n the\
+    \ script\n:vartype statement_count: int\n:ivar executed_statement_count: the number\
+    \ of statements that have been\n run based on the script\n:vartype executed_statement_count:\
+    \ int\n"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.job.models.HiveJobProperties
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.job.models
+  name: azure.mgmt.datalake.analytics.job.models.JobProperties
+  summary: "The common Data Lake Analytics job properties.\n\n:param runtime_version:\
+    \ the runtime version of the Data Lake Analytics\n engine to use for the specific\
+    \ type of job being run.\n:type runtime_version: str\n:param script: the script\
+    \ to run\n:type script: str\n:param type: Polymorphic Discriminator\n:type type:\
+    \ str\n"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.job.models.JobProperties
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.job.models
+  name: azure.mgmt.datalake.analytics.job.models.JobInnerError
+  summary: "The Data Lake Analytics job error details.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar diagnostic_code:\
+    \ the diagnostic error code.\n:vartype diagnostic_code: int\n:ivar severity: the\
+    \ severity level of the failure. Possible values\n include: 'Warning', 'Error',\
+    \ 'Info', 'SevereWarning', 'Deprecated',\n 'UserWarning'\n:vartype severity: str\
+    \ or :class:`SeverityTypes\n <azure.mgmt.datalake.analytics.job.models.SeverityTypes>`\n\
+    :ivar details: the details of the error message.\n:vartype details: str\n:ivar\
+    \ component: the component that failed.\n:vartype component: str\n:ivar error_id:\
+    \ the specific identifier for the type of error encountered\n in the job.\n:vartype\
+    \ error_id: str\n:ivar help_link: the link to MSDN or Azure help for this type\
+    \ of error, if\n any.\n:vartype help_link: str\n:ivar internal_diagnostics: the\
+    \ internal diagnostic stack trace if the\n user requesting the job error details\
+    \ has sufficient permissions it will\n be retrieved, otherwise it will be empty.\n\
+    :vartype internal_diagnostics: str\n:ivar message: the user friendly error message\
+    \ for the failure.\n:vartype message: str\n:ivar resolution: the recommended resolution\
+    \ for the failure, if any.\n:vartype resolution: str\n:ivar source: the ultimate\
+    \ source of the failure (usually either SYSTEM or\n USER).\n:vartype source: str\n\
+    :ivar description: the error message description\n:vartype description: str\n"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.job.models.JobInnerError
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.job.models
+  name: azure.mgmt.datalake.analytics.job.models.JobErrorDetails
+  summary: "The Data Lake Analytics job error details.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar description:\
+    \ the error message description\n:vartype description: str\n:ivar details: the\
+    \ details of the error message.\n:vartype details: str\n:ivar end_offset: the\
+    \ end offset in the job where the error was found.\n:vartype end_offset: int\n\
+    :ivar error_id: the specific identifier for the type of error encountered\n in\
+    \ the job.\n:vartype error_id: str\n:ivar file_path: the path to any supplemental\
+    \ error files, if any.\n:vartype file_path: str\n:ivar help_link: the link to\
+    \ MSDN or Azure help for this type of error, if\n any.\n:vartype help_link: str\n\
+    :ivar internal_diagnostics: the internal diagnostic stack trace if the\n user\
+    \ requesting the job error details has sufficient permissions it will\n be retrieved,\
+    \ otherwise it will be empty.\n:vartype internal_diagnostics: str\n:ivar line_number:\
+    \ the specific line number in the job where the error\n occured.\n:vartype line_number:\
+    \ int\n:ivar message: the user friendly error message for the failure.\n:vartype\
+    \ message: str\n:ivar resolution: the recommended resolution for the failure,\
+    \ if any.\n:vartype resolution: str\n:ivar inner_error: the inner error of this\
+    \ specific job error message, if\n any.\n:vartype inner_error: :class:`JobInnerError\n\
+    \ <azure.mgmt.datalake.analytics.job.models.JobInnerError>`\n:ivar severity: the\
+    \ severity level of the failure. Possible values\n include: 'Warning', 'Error',\
+    \ 'Info', 'SevereWarning', 'Deprecated',\n 'UserWarning'\n:vartype severity: str\
+    \ or :class:`SeverityTypes\n <azure.mgmt.datalake.analytics.job.models.SeverityTypes>`\n\
+    :ivar source: the ultimate source of the failure (usually either SYSTEM or\n USER).\n\
+    :vartype source: str\n:ivar start_offset: the start offset in the job where the\
+    \ error was found\n:vartype start_offset: int\n"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.job.models.JobErrorDetails
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.job.models
+  name: azure.mgmt.datalake.analytics.job.models.JobInformation
+  summary: "The common Data Lake Analytics job information properties.\n\nVariables\
+    \ are only populated by the server, and will be ignored when\nsending a request.\n\
+    \n:ivar job_id: the job's unique identifier (a GUID).\n:vartype job_id: str\n\
+    :param name: the friendly name of the job.\n:type name: str\n:param type: the\
+    \ job type of the current job (Hive or USql). Possible\n values include: 'USql',\
+    \ 'Hive'\n:type type: str or :class:`JobType\n <azure.mgmt.datalake.analytics.job.models.JobType>`\n\
+    :ivar submitter: the user or account that submitted the job.\n:vartype submitter:\
+    \ str\n:ivar error_message: the error message details for the job, if the job\n\
+    \ failed.\n:vartype error_message: list of :class:`JobErrorDetails\n <azure.mgmt.datalake.analytics.job.models.JobErrorDetails>`\n\
+    :param degree_of_parallelism: the degree of parallelism used for this job.\n This\
+    \ must be greater than 0. Default value: 1 .\n:type degree_of_parallelism: int\n\
+    :param priority: the priority value for the current job. Lower numbers\n have\
+    \ a higher priority. By default, a job has a priority of 1000. This\n must be\
+    \ greater than 0.\n:type priority: int\n:ivar submit_time: the time the job was\
+    \ submitted to the service.\n:vartype submit_time: datetime\n:ivar start_time:\
+    \ the start time of the job.\n:vartype start_time: datetime\n:ivar end_time: the\
+    \ completion time of the job.\n:vartype end_time: datetime\n:ivar state: the job\
+    \ state. When the job is in the Ended state, refer to\n Result and ErrorMessage\
+    \ for details. Possible values include: 'Accepted',\n 'Compiling', 'Ended', 'New',\
+    \ 'Queued', 'Running', 'Scheduling',\n 'Starting', 'Paused', 'WaitingForCapacity'\n\
+    :vartype state: str or :class:`JobState\n <azure.mgmt.datalake.analytics.job.models.JobState>`\n\
+    :ivar result: the result of job execution or the current result of the\n running\
+    \ job. Possible values include: 'None', 'Succeeded', 'Cancelled',\n 'Failed'\n\
+    :vartype result: str or :class:`JobResult\n <azure.mgmt.datalake.analytics.job.models.JobResult>`\n\
+    :ivar log_folder: the log folder path to use in the following format:\n adl://<accountName>.azuredatalakestore.net/system/jobservice/jobs/Usql/2016/03/13/17/18/5fe51957-93bc-4de0-8ddc-c5a4753b068b/logs/.\n\
+    :vartype log_folder: str\n:param log_file_patterns: the list of log file name\
+    \ patterns to find in\n the logFolder. '*' is the only matching character allowed.\
+    \ Example format:\n jobExecution*.log or *mylog*.txt\n:type log_file_patterns:\
+    \ list of str\n:ivar state_audit_records: the job state audit records, indicating\
+    \ when\n various operations have been performed on this job.\n:vartype state_audit_records:\
+    \ list of :class:`JobStateAuditRecord\n <azure.mgmt.datalake.analytics.job.models.JobStateAuditRecord>`\n\
+    :param properties: the job specific properties.\n:type properties: :class:`JobProperties\n\
+    \ <azure.mgmt.datalake.analytics.job.models.JobProperties>`\n"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.job.models.JobInformation
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.job.models
+  name: azure.mgmt.datalake.analytics.job.models.JobInformationPaged
+  summary: 'A paging container for iterating over a list of JobInformation object
+
+    '
+  type: Class
+  uid: azure.mgmt.datalake.analytics.job.models.JobInformationPaged
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.job.models
+  name: azure.mgmt.datalake.analytics.job.models.JobResourceType
+  summary: ''
+  type: Class
+  uid: azure.mgmt.datalake.analytics.job.models.JobResourceType
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.job.models
+  name: azure.mgmt.datalake.analytics.job.models.SeverityTypes
+  summary: ''
+  type: Class
+  uid: azure.mgmt.datalake.analytics.job.models.SeverityTypes
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.job.models
+  name: azure.mgmt.datalake.analytics.job.models.CompileMode
+  summary: ''
+  type: Class
+  uid: azure.mgmt.datalake.analytics.job.models.CompileMode
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.job.models
+  name: azure.mgmt.datalake.analytics.job.models.JobType
+  summary: ''
+  type: Class
+  uid: azure.mgmt.datalake.analytics.job.models.JobType
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.job.models
+  name: azure.mgmt.datalake.analytics.job.models.JobState
+  summary: ''
+  type: Class
+  uid: azure.mgmt.datalake.analytics.job.models.JobState
+- _type: class
+  children: []
+  module: azure.mgmt.datalake.analytics.job.models
+  name: azure.mgmt.datalake.analytics.job.models.JobResult
+  summary: ''
+  type: Class
+  uid: azure.mgmt.datalake.analytics.job.models.JobResult

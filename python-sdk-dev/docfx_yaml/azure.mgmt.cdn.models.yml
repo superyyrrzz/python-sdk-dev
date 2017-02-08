@@ -1,0 +1,625 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - azure.mgmt.cdn.models.Sku
+  - azure.mgmt.cdn.models.Profile
+  - azure.mgmt.cdn.models.ProfileUpdateParameters
+  - azure.mgmt.cdn.models.SsoUri
+  - azure.mgmt.cdn.models.DeepCreatedOrigin
+  - azure.mgmt.cdn.models.Endpoint
+  - azure.mgmt.cdn.models.GeoFilter
+  - azure.mgmt.cdn.models.EndpointUpdateParameters
+  - azure.mgmt.cdn.models.PurgeParameters
+  - azure.mgmt.cdn.models.LoadParameters
+  - azure.mgmt.cdn.models.Origin
+  - azure.mgmt.cdn.models.OriginUpdateParameters
+  - azure.mgmt.cdn.models.CustomDomain
+  - azure.mgmt.cdn.models.CustomDomainParameters
+  - azure.mgmt.cdn.models.ValidateCustomDomainInput
+  - azure.mgmt.cdn.models.ValidateCustomDomainOutput
+  - azure.mgmt.cdn.models.CheckNameAvailabilityInput
+  - azure.mgmt.cdn.models.CheckNameAvailabilityOutput
+  - azure.mgmt.cdn.models.ResourceUsage
+  - azure.mgmt.cdn.models.OperationDisplay
+  - azure.mgmt.cdn.models.Operation
+  - azure.mgmt.cdn.models.CidrIpAddress
+  - azure.mgmt.cdn.models.IpAddressGroup
+  - azure.mgmt.cdn.models.EdgeNode
+  - azure.mgmt.cdn.models.EdgenodeResult
+  - azure.mgmt.cdn.models.Resource
+  - azure.mgmt.cdn.models.ErrorResponse
+  - azure.mgmt.cdn.models.ErrorResponseException
+  - azure.mgmt.cdn.models.ProfilePaged
+  - azure.mgmt.cdn.models.ResourceUsagePaged
+  - azure.mgmt.cdn.models.EndpointPaged
+  - azure.mgmt.cdn.models.OriginPaged
+  - azure.mgmt.cdn.models.CustomDomainPaged
+  - azure.mgmt.cdn.models.OperationPaged
+  - azure.mgmt.cdn.models.SkuName
+  - azure.mgmt.cdn.models.ProfileResourceState
+  - azure.mgmt.cdn.models.EndpointResourceState
+  - azure.mgmt.cdn.models.QueryStringCachingBehavior
+  - azure.mgmt.cdn.models.GeoFilterActions
+  - azure.mgmt.cdn.models.OriginResourceState
+  - azure.mgmt.cdn.models.CustomDomainResourceState
+  - azure.mgmt.cdn.models.ResourceType
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.cdn.models
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.Global
+  summary: Proxy object to hold module level functions
+  type: Class
+  uid: azure.mgmt.cdn.models.Global
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.Sku
+  summary: "The pricing tier (defines a CDN provider, feature list and rate) of the\
+    \ CDN\nprofile.\n\n:param name: Name of the pricing tier. Possible values include:\n\
+    \ 'Standard_Verizon', 'Premium_Verizon', 'Custom_Verizon',\n 'Standard_Akamai',\
+    \ 'Standard_ChinaCdn'\n:type name: str or :class:`SkuName <azure.mgmt.cdn.models.SkuName>`\n"
+  type: Class
+  uid: azure.mgmt.cdn.models.Sku
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.Profile
+  summary: "CDN profile represents the top level resource and the entry point into\
+    \ the\nCDN API. This allows users to set up a logical grouping of endpoints in\n\
+    addition to creating shared configuration settings and selecting pricing\ntiers\
+    \ and providers.\n\nVariables are only populated by the server, and will be ignored\
+    \ when\nsending a request.\n\n:ivar id: Resource ID.\n:vartype id: str\n:ivar\
+    \ name: Resource name.\n:vartype name: str\n:ivar type: Resource type.\n:vartype\
+    \ type: str\n:param location: Resource location.\n:type location: str\n:param\
+    \ tags: Resource tags.\n:type tags: dict\n:param sku: The pricing tier (defines\
+    \ a CDN provider, feature list and\n rate) of the CDN profile.\n:type sku: :class:`Sku\
+    \ <azure.mgmt.cdn.models.Sku>`\n:ivar resource_state: Resource status of the profile.\
+    \ Possible values\n include: 'Creating', 'Active', 'Deleting', 'Disabled'\n:vartype\
+    \ resource_state: str or :class:`ProfileResourceState\n <azure.mgmt.cdn.models.ProfileResourceState>`\n\
+    :ivar provisioning_state: Provisioning status of the profile.\n:vartype provisioning_state:\
+    \ str\n"
+  type: Class
+  uid: azure.mgmt.cdn.models.Profile
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.ProfileUpdateParameters
+  summary: 'Properties required to update a profile.
+
+
+    :param tags: Profile tags
+
+    :type tags: dict
+
+    '
+  type: Class
+  uid: azure.mgmt.cdn.models.ProfileUpdateParameters
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.SsoUri
+  summary: 'SSO URI required to login to the supplemental portal.
+
+
+    :param sso_uri_value: The URI used to login to the supplemental portal.
+
+    :type sso_uri_value: str
+
+    '
+  type: Class
+  uid: azure.mgmt.cdn.models.SsoUri
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.DeepCreatedOrigin
+  summary: "Origin to be added when creating a CDN endpoint.\n\n:param name: Origin\
+    \ name\n:type name: str\n:param host_name: The address of the origin. It can be\
+    \ a domain names,\n IPv4 address, or IPv6 address.\n:type host_name: str\n:param\
+    \ http_port: The value of the HTTP port. Must be between 1 and 65535\n:type http_port:\
+    \ int\n:param https_port: The value of the HTTPS port. Must be between 1 and\n\
+    \ 65535\n:type https_port: int\n"
+  type: Class
+  uid: azure.mgmt.cdn.models.DeepCreatedOrigin
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.Endpoint
+  summary: "CDN endpoint is the entity within a CDN profile containing configuration\n\
+    information such as origin, protocol, content caching and delivery\nbehavior.\
+    \ The CDN endpoint uses the URL format\n<endpointname>.azureedge.net.\n\nVariables\
+    \ are only populated by the server, and will be ignored when\nsending a request.\n\
+    \n:ivar id: Resource ID.\n:vartype id: str\n:ivar name: Resource name.\n:vartype\
+    \ name: str\n:ivar type: Resource type.\n:vartype type: str\n:param location:\
+    \ Resource location.\n:type location: str\n:param tags: Resource tags.\n:type\
+    \ tags: dict\n:param origin_host_header: The host header CDN sends along with\
+    \ content\n requests to origin. The default value is the host name of the origin.\n\
+    :type origin_host_header: str\n:param origin_path: The path used when CDN sends\
+    \ request to origin.\n:type origin_path: str\n:param content_types_to_compress:\
+    \ List of content types on which\n compression applies. The value should be a\
+    \ valid MIME type.\n:type content_types_to_compress: list of str\n:param is_compression_enabled:\
+    \ Indicates whether content compression is\n enabled on CDN. Default value is\
+    \ false. If compression is enabled, content\n will be served as compressed if\
+    \ user requests for a compressed version.\n Content won't be compressed on CDN\
+    \ when requested content is smaller than\n 1 byte or larger than 1 MB.\n:type\
+    \ is_compression_enabled: bool\n:param is_http_allowed: Indicates whether HTTP\
+    \ traffic is allowed on the\n endpoint. Default value is true. At least one protocol\
+    \ (HTTP or HTTPS)\n must be allowed.\n:type is_http_allowed: bool\n:param is_https_allowed:\
+    \ Indicates whether HTTPS traffic is allowed on the\n endpoint. Default value\
+    \ is true. At least one protocol (HTTP or HTTPS)\n must be allowed.\n:type is_https_allowed:\
+    \ bool\n:param query_string_caching_behavior: Defines the query string caching\n\
+    \ behavior. Possible values include: 'IgnoreQueryString', 'BypassCaching',\n 'UseQueryString',\
+    \ 'NotSet'\n:type query_string_caching_behavior: str or\n :class:`QueryStringCachingBehavior\n\
+    \ <azure.mgmt.cdn.models.QueryStringCachingBehavior>`\n:param optimization_type:\
+    \ Customer can specify what scenario they want\n this CDN endpoint to optimize,\
+    \ e.g. Download, Media services. With this\n information we can apply scenario\
+    \ driven optimization.\n:type optimization_type: str\n:param geo_filters: List\
+    \ of rules defining user geo access within a CDN\n endpoint. Each geo filter defines\
+    \ an acess rule to a specified path or\n content, e.g. block APAC for path /pictures/\n\
+    :type geo_filters: list of :class:`GeoFilter\n <azure.mgmt.cdn.models.GeoFilter>`\n\
+    :ivar host_name: The host name of the endpoint structured as\n {endpointName}.{DNSZone},\
+    \ e.g. consoto.azureedge.net\n:vartype host_name: str\n:param origins: The source\
+    \ of the content being delivered via CDN.\n:type origins: list of :class:`DeepCreatedOrigin\n\
+    \ <azure.mgmt.cdn.models.DeepCreatedOrigin>`\n:ivar resource_state: Resource status\
+    \ of the endpoint. Possible values\n include: 'Creating', 'Deleting', 'Running',\
+    \ 'Starting', 'Stopped',\n 'Stopping'\n:vartype resource_state: str or :class:`EndpointResourceState\n\
+    \ <azure.mgmt.cdn.models.EndpointResourceState>`\n:ivar provisioning_state: Provisioning\
+    \ status of the endpoint.\n:vartype provisioning_state: str\n"
+  type: Class
+  uid: azure.mgmt.cdn.models.Endpoint
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.GeoFilter
+  summary: "Rules defining user geo access within a CDN endpoint.\n\n:param relative_path:\
+    \ Relative path applicable to geo filter. (e.g.\n '/mypictures', '/mypicture/kitty.jpg',\
+    \ and etc.)\n:type relative_path: str\n:param action: Action of the geo filter,\
+    \ i.e. allow or block access.\n Possible values include: 'Block', 'Allow'\n:type\
+    \ action: str or :class:`GeoFilterActions\n <azure.mgmt.cdn.models.GeoFilterActions>`\n\
+    :param country_codes: Two letter country codes defining user country\n access\
+    \ in a geo filter, e.g. AU, MX, US.\n:type country_codes: list of str\n"
+  type: Class
+  uid: azure.mgmt.cdn.models.GeoFilter
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.EndpointUpdateParameters
+  summary: "Properties required to create a new endpoint.\n\n:param tags: Endpoint\
+    \ tags.\n:type tags: dict\n:param origin_host_header: The host header CDN sends\
+    \ along with content\n requests to origin. The default value is the host name\
+    \ of the origin.\n:type origin_host_header: str\n:param origin_path: The path\
+    \ used when CDN sends request to origin.\n:type origin_path: str\n:param content_types_to_compress:\
+    \ List of content types on which\n compression applies. The value should be a\
+    \ valid MIME type.\n:type content_types_to_compress: list of str\n:param is_compression_enabled:\
+    \ Indicates whether content compression is\n enabled on CDN. Default value is\
+    \ false. If compression is enabled, content\n will be served as compressed if\
+    \ user requests for a compressed version.\n Content won't be compressed on CDN\
+    \ when requested content is smaller than\n 1 byte or larger than 1 MB.\n:type\
+    \ is_compression_enabled: bool\n:param is_http_allowed: Indicates whether HTTP\
+    \ traffic is allowed on the\n endpoint. Default value is true. At least one protocol\
+    \ (HTTP or HTTPS)\n must be allowed.\n:type is_http_allowed: bool\n:param is_https_allowed:\
+    \ Indicates whether HTTPS traffic is allowed on the\n endpoint. Default value\
+    \ is true. At least one protocol (HTTP or HTTPS)\n must be allowed.\n:type is_https_allowed:\
+    \ bool\n:param query_string_caching_behavior: Defines the query string caching\n\
+    \ behavior. Possible values include: 'IgnoreQueryString', 'BypassCaching',\n 'UseQueryString',\
+    \ 'NotSet'\n:type query_string_caching_behavior: str or\n :class:`QueryStringCachingBehavior\n\
+    \ <azure.mgmt.cdn.models.QueryStringCachingBehavior>`\n:param optimization_type:\
+    \ Customer can specify what scenario they want\n this CDN endpoint to optimize,\
+    \ e.g. Download, Media services. With this\n information we can apply scenario\
+    \ driven optimization.\n:type optimization_type: str\n:param geo_filters: List\
+    \ of rules defining user geo access within a CDN\n endpoint. Each geo filter defines\
+    \ an acess rule to a specified path or\n content, e.g. block APAC for path /pictures/\n\
+    :type geo_filters: list of :class:`GeoFilter\n <azure.mgmt.cdn.models.GeoFilter>`\n"
+  type: Class
+  uid: azure.mgmt.cdn.models.EndpointUpdateParameters
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.PurgeParameters
+  summary: "Parameters required for content purge.\n\n:param content_paths: The path\
+    \ to the content to be purged. Can describe a\n file path or a wild card directory.\n\
+    :type content_paths: list of str\n"
+  type: Class
+  uid: azure.mgmt.cdn.models.PurgeParameters
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.LoadParameters
+  summary: "Parameters required for content load.\n\n:param content_paths: The path\
+    \ to the content to be loaded. Path should be\n a relative file URL of the origin.\n\
+    :type content_paths: list of str\n"
+  type: Class
+  uid: azure.mgmt.cdn.models.LoadParameters
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.Origin
+  summary: "CDN origin is the source of the content being delivered via CDN. When\
+    \ the\nedge nodes represented by an endpoint do not have the requested content\n\
+    cached, they attempt to fetch it from one or more of the configured\norigins.\n\
+    \nVariables are only populated by the server, and will be ignored when\nsending\
+    \ a request.\n\n:ivar id: Resource ID.\n:vartype id: str\n:ivar name: Resource\
+    \ name.\n:vartype name: str\n:ivar type: Resource type.\n:vartype type: str\n\
+    :param location: Resource location.\n:type location: str\n:param tags: Resource\
+    \ tags.\n:type tags: dict\n:param host_name: The address of the origin. Domain\
+    \ names, IPv4 addresses,\n and IPv6 addresses are supported.\n:type host_name:\
+    \ str\n:param http_port: The value of the HTTP port. Must be between 1 and 65535.\n\
+    :type http_port: int\n:param https_port: The value of the https port. Must be\
+    \ between 1 and\n 65535.\n:type https_port: int\n:ivar resource_state: Resource\
+    \ status of the origin. Possible values\n include: 'Creating', 'Active', 'Deleting'\n\
+    :vartype resource_state: str or :class:`OriginResourceState\n <azure.mgmt.cdn.models.OriginResourceState>`\n\
+    :ivar provisioning_state: Provisioning status of the origin.\n:vartype provisioning_state:\
+    \ str\n"
+  type: Class
+  uid: azure.mgmt.cdn.models.Origin
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.OriginUpdateParameters
+  summary: "Origin properties needed for origin creation or update.\n\n:param host_name:\
+    \ The address of the origin. Domain names, IPv4 addresses,\n and IPv6 addresses\
+    \ are supported.\n:type host_name: str\n:param http_port: The value of the HTTP\
+    \ port. Must be between 1 and 65535.\n:type http_port: int\n:param https_port:\
+    \ The value of the HTTPS port. Must be between 1 and\n 65535.\n:type https_port:\
+    \ int\n"
+  type: Class
+  uid: azure.mgmt.cdn.models.OriginUpdateParameters
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.CustomDomain
+  summary: "Customer provided domain for branding purposes, e.g. www.consoto.com.\n\
+    \nVariables are only populated by the server, and will be ignored when\nsending\
+    \ a request.\n\n:ivar id: Resource ID.\n:vartype id: str\n:ivar name: Resource\
+    \ name.\n:vartype name: str\n:ivar type: Resource type.\n:vartype type: str\n\
+    :param location: Resource location.\n:type location: str\n:param tags: Resource\
+    \ tags.\n:type tags: dict\n:param host_name: The host name of the custom domain.\
+    \ Must be a domain\n name.\n:type host_name: str\n:ivar resource_state: Resource\
+    \ status of the custom domain. Possible\n values include: 'Creating', 'Active',\
+    \ 'Deleting'\n:vartype resource_state: str or :class:`CustomDomainResourceState\n\
+    \ <azure.mgmt.cdn.models.CustomDomainResourceState>`\n:param validation_data:\
+    \ Special validation or data may be required when\n delivering CDN to some regions\
+    \ due to local compliance reasons. E.g. ICP\n license number of a custom domain\
+    \ is required to deliver content in China.\n:type validation_data: str\n:ivar\
+    \ provisioning_state: Provisioning status of the custom domain.\n:vartype provisioning_state:\
+    \ str\n"
+  type: Class
+  uid: azure.mgmt.cdn.models.CustomDomain
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.CustomDomainParameters
+  summary: "The customDomain JSON object required for custom domain creation or update.\n\
+    \n:param host_name: The host name of the custom domain. Must be a domain\n name.\n\
+    :type host_name: str\n"
+  type: Class
+  uid: azure.mgmt.cdn.models.CustomDomainParameters
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.ValidateCustomDomainInput
+  summary: "Input of the custom domain to be validated for DNS mapping.\n\n:param\
+    \ host_name: The host name of the custom domain. Must be a domain\n name.\n:type\
+    \ host_name: str\n"
+  type: Class
+  uid: azure.mgmt.cdn.models.ValidateCustomDomainInput
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.ValidateCustomDomainOutput
+  summary: "Output of custom domain validation.\n\n:param custom_domain_validated:\
+    \ Indicates whether the custom domain is\n validated or not.\n:type custom_domain_validated:\
+    \ bool\n:param reason: The reason why the custom domain is not valid.\n:type reason:\
+    \ str\n:param message: Error message describing why the custom domain is not\n\
+    \ valid.\n:type message: str\n"
+  type: Class
+  uid: azure.mgmt.cdn.models.ValidateCustomDomainOutput
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.CheckNameAvailabilityInput
+  summary: "Input of CheckNameAvailability API.\n\nVariables are only populated by\
+    \ the server, and will be ignored when\nsending a request.\n\n:param name: The\
+    \ resource name to validate.\n:type name: str\n:ivar type: The type of the resource\
+    \ whose name is to be validated.\n Default value: \"Microsoft.Cdn/Profiles/Endpoints\"\
+    \ .\n:vartype type: str\n"
+  type: Class
+  uid: azure.mgmt.cdn.models.CheckNameAvailabilityInput
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.CheckNameAvailabilityOutput
+  summary: "Output of check name availability API.\n\n:param name_available: Indicates\
+    \ whether the name is available.\n:type name_available: bool\n:param reason: The\
+    \ reason why the name is not available.\n:type reason: str\n:param message: The\
+    \ detailed error message describing why the name is not\n available.\n:type message:\
+    \ str\n"
+  type: Class
+  uid: azure.mgmt.cdn.models.CheckNameAvailabilityOutput
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.ResourceUsage
+  summary: 'Output of check resource usage API.
+
+
+    :param resource_type: Resource type of the usages.
+
+    :type resource_type: str
+
+    :param unit: Unit of the usage. e.g. Count.
+
+    :type unit: str
+
+    :param current_value: Actual value of the resource type.
+
+    :type current_value: int
+
+    :param limit: Quota of the resource type.
+
+    :type limit: int
+
+    '
+  type: Class
+  uid: azure.mgmt.cdn.models.ResourceUsage
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.OperationDisplay
+  summary: "The object that represents the operation.\n\n:param provider: Service\
+    \ provider: Microsoft.Cdn\n:type provider: str\n:param resource: Resource on which\
+    \ the operation is performed: Profile,\n endpoint, etc.\n:type resource: str\n\
+    :param operation: Operation type: Read, write, delete, etc.\n:type operation:\
+    \ str\n"
+  type: Class
+  uid: azure.mgmt.cdn.models.OperationDisplay
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.Operation
+  summary: "CDN REST API operation.\n\n:param name: Operation name: {provider}/{resource}/{operation}\n\
+    :type name: str\n:param display: The object that represents the operation.\n:type\
+    \ display: :class:`OperationDisplay\n <azure.mgmt.cdn.models.OperationDisplay>`\n"
+  type: Class
+  uid: azure.mgmt.cdn.models.Operation
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.CidrIpAddress
+  summary: 'CIDR Ip address.
+
+
+    :param base_ip_address: Ip adress itself.
+
+    :type base_ip_address: str
+
+    :param prefix_length: The length of the prefix of the ip address.
+
+    :type prefix_length: int
+
+    '
+  type: Class
+  uid: azure.mgmt.cdn.models.CidrIpAddress
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.IpAddressGroup
+  summary: "CDN Ip address group.\n\n:param delivery_region: The delivery region of\
+    \ the ip address group\n:type delivery_region: str\n:param ipv4_addresses: The\
+    \ list of ip v4 addresses.\n:type ipv4_addresses: list of :class:`CidrIpAddress\n\
+    \ <azure.mgmt.cdn.models.CidrIpAddress>`\n:param ipv6_addresses: The list of ip\
+    \ v6 addresses.\n:type ipv6_addresses: list of :class:`CidrIpAddress\n <azure.mgmt.cdn.models.CidrIpAddress>`\n"
+  type: Class
+  uid: azure.mgmt.cdn.models.IpAddressGroup
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.EdgeNode
+  summary: "Edge node of CDN service.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:ivar id: Resource ID.\n:vartype\
+    \ id: str\n:ivar name: Resource name.\n:vartype name: str\n:ivar type: Resource\
+    \ type.\n:vartype type: str\n:param location: Resource location.\n:type location:\
+    \ str\n:param tags: Resource tags.\n:type tags: dict\n:param ip_address_groups:\
+    \ List of ip address groups.\n:type ip_address_groups: list of :class:`IpAddressGroup\n\
+    \ <azure.mgmt.cdn.models.IpAddressGroup>`\n"
+  type: Class
+  uid: azure.mgmt.cdn.models.EdgeNode
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.EdgenodeResult
+  summary: 'Result of the request to list CDN edgenodes. It contains a list of ip
+
+    address group and a URL link to get the next set of results.
+
+
+    :param value: Edge node of CDN service.
+
+    :type value: list of :class:`EdgeNode <azure.mgmt.cdn.models.EdgeNode>`
+
+    '
+  type: Class
+  uid: azure.mgmt.cdn.models.EdgenodeResult
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.Resource
+  summary: 'The Resource definition.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar id: Resource ID.
+
+    :vartype id: str
+
+    :ivar name: Resource name.
+
+    :vartype name: str
+
+    :ivar type: Resource type.
+
+    :vartype type: str
+
+    :param location: Resource location.
+
+    :type location: str
+
+    :param tags: Resource tags.
+
+    :type tags: dict
+
+    '
+  type: Class
+  uid: azure.mgmt.cdn.models.Resource
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.ErrorResponse
+  summary: 'Error reponse indicates CDN service is not able to process the incoming
+
+    request. The reason is provided in the error message.
+
+
+    :param code: Error code.
+
+    :type code: str
+
+    :param message: Error message indicating why the operation failed.
+
+    :type message: str
+
+    '
+  type: Class
+  uid: azure.mgmt.cdn.models.ErrorResponse
+- _type: exception
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.ErrorResponseException
+  summary: 'Server responsed with exception of type: ''ErrorResponse''.
+
+
+    :param deserialize: A deserializer
+
+    :param response: Server response to be deserialized.
+
+    '
+  type: Class
+  uid: azure.mgmt.cdn.models.ErrorResponseException
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.ProfilePaged
+  summary: 'A paging container for iterating over a list of Profile object
+
+    '
+  type: Class
+  uid: azure.mgmt.cdn.models.ProfilePaged
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.ResourceUsagePaged
+  summary: 'A paging container for iterating over a list of ResourceUsage object
+
+    '
+  type: Class
+  uid: azure.mgmt.cdn.models.ResourceUsagePaged
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.EndpointPaged
+  summary: 'A paging container for iterating over a list of Endpoint object
+
+    '
+  type: Class
+  uid: azure.mgmt.cdn.models.EndpointPaged
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.OriginPaged
+  summary: 'A paging container for iterating over a list of Origin object
+
+    '
+  type: Class
+  uid: azure.mgmt.cdn.models.OriginPaged
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.CustomDomainPaged
+  summary: 'A paging container for iterating over a list of CustomDomain object
+
+    '
+  type: Class
+  uid: azure.mgmt.cdn.models.CustomDomainPaged
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.OperationPaged
+  summary: 'A paging container for iterating over a list of Operation object
+
+    '
+  type: Class
+  uid: azure.mgmt.cdn.models.OperationPaged
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.SkuName
+  summary: ''
+  type: Class
+  uid: azure.mgmt.cdn.models.SkuName
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.ProfileResourceState
+  summary: ''
+  type: Class
+  uid: azure.mgmt.cdn.models.ProfileResourceState
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.EndpointResourceState
+  summary: ''
+  type: Class
+  uid: azure.mgmt.cdn.models.EndpointResourceState
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.QueryStringCachingBehavior
+  summary: ''
+  type: Class
+  uid: azure.mgmt.cdn.models.QueryStringCachingBehavior
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.GeoFilterActions
+  summary: ''
+  type: Class
+  uid: azure.mgmt.cdn.models.GeoFilterActions
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.OriginResourceState
+  summary: ''
+  type: Class
+  uid: azure.mgmt.cdn.models.OriginResourceState
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.CustomDomainResourceState
+  summary: ''
+  type: Class
+  uid: azure.mgmt.cdn.models.CustomDomainResourceState
+- _type: class
+  children: []
+  module: azure.mgmt.cdn.models
+  name: azure.mgmt.cdn.models.ResourceType
+  summary: ''
+  type: Class
+  uid: azure.mgmt.cdn.models.ResourceType
