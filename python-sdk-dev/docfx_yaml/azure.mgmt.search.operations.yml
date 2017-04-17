@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - azure.mgmt.search.operations.AdminKeysOperations
+  - azure.mgmt.search.operations.QueryKeysOperations
+  - azure.mgmt.search.operations.ServicesOperations
+  fullName: azure.mgmt.search.operations
+  module: azure.mgmt.search.operations
+  name: operations
+  source:
+    id: operations
+    path: azure-mgmt-search/azure/mgmt/search/operations/__init__.py
+    remote:
+      branch: master
+      path: azure-mgmt-search/azure/mgmt/search/operations/__init__.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 0
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.search.operations
+- _type: class
+  children: []
+  fullName: azure.mgmt.search.operations
+  langs:
+  - python
+  module: azure.mgmt.search.operations
+  name: operations.Global
+  summary: Proxy object to hold module level functions
+  type: Class
+  uid: azure.mgmt.search.operations.Global

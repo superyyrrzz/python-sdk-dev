@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.servermanager.models.SessionParameters
+  fullName: azure.mgmt.servermanager.models.SessionParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.servermanager.models
+  name: SessionParameters
+  source:
+    id: SessionParameters
+    path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/session_parameters.py
+    remote:
+      branch: master
+      path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/session_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Parameter collection for creation and other operations on sessions.\n\n\
+    :param user_name: Encrypted User name to be used to connect to node.\n:type user_name:\
+    \ str\n:param password: Encrypted Password associated with user name.\n:type password:\
+    \ str\n:param retention_period: Session retention period. Possible values\n include:\
+    \ 'Session', 'Persistent'\n:type retention_period: str or :class:`retentionPeriod\n\
+    \ <azure.mgmt.servermanager.models.retentionPeriod>`\n:param credential_data_format:\
+    \ Credential data format. Possible values\n include: 'RsaEncrypted'\n:type credential_data_format:\
+    \ str or :class:`credentialDataFormat\n <azure.mgmt.servermanager.models.credentialDataFormat>`\n\
+    :param encryption_certificate_thumbprint: Encryption certificate\n thumbprint.\n\
+    :type encryption_certificate_thumbprint: str"
+  type: Class
+  uid: azure.mgmt.servermanager.models.SessionParameters

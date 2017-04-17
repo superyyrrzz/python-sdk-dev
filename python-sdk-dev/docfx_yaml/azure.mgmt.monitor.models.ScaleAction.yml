@@ -1,0 +1,33 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.monitor.models.ScaleAction
+  fullName: azure.mgmt.monitor.models.ScaleAction
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.monitor.models
+  name: ScaleAction
+  source:
+    id: ScaleAction
+    path: azure-mgmt-monitor/azure/mgmt/monitor/models/scale_action.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/models/scale_action.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The parameters for the scaling action.\n\n:param direction: the scale\
+    \ direction. Whether the scaling action\n increases or decreases the number of\
+    \ instances. Possible values include:\n 'None', 'Increase', 'Decrease'\n:type\
+    \ direction: str or :class:`ScaleDirection\n <azure.mgmt.monitor.models.ScaleDirection>`\n\
+    :param type: the type of action that should occur when the scale rule\n fires.\
+    \ Possible values include: 'ChangeCount', 'PercentChangeCount',\n 'ExactCount'\n\
+    :type type: str or :class:`ScaleType\n <azure.mgmt.monitor.models.ScaleType>`\n\
+    :param value: the number of instances that are involved in the scaling\n action.\
+    \ This value must be 1 or greater. The default value is 1. Default\n value: \"\
+    1\" .\n:type value: str\n:param cooldown: the amount of time to wait since the\
+    \ last scaling action\n before this action occurs. It must be between 1 week and\
+    \ 1 minute in ISO\n 8601 format.\n:type cooldown: timedelta"
+  type: Class
+  uid: azure.mgmt.monitor.models.ScaleAction

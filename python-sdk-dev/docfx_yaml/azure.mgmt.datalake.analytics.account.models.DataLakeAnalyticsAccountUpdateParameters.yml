@@ -1,0 +1,32 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccountUpdateParameters
+  fullName: azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccountUpdateParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.datalake.analytics.account.models
+  name: DataLakeAnalyticsAccountUpdateParameters
+  source:
+    id: DataLakeAnalyticsAccountUpdateParameters
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/models/data_lake_analytics_account_update_parameters.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/models/data_lake_analytics_account_update_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The parameters that can be used to update an existing Data Lake Analytics\n\
+    account.\n\n:param tags: Resource tags\n:type tags: dict\n:param max_degree_of_parallelism:\
+    \ the maximum supported degree of\n parallelism for this account.\n:type max_degree_of_parallelism:\
+    \ int\n:param query_store_retention: the number of days that job metadata is\n\
+    \ retained.\n:type query_store_retention: int\n:param max_job_count: the maximum\
+    \ supported jobs running under the account\n at the same time.\n:type max_job_count:\
+    \ int\n:param new_tier: the commitment tier to use for next month. Possible\n\
+    \ values include: 'Consumption', 'Commitment_100AUHours',\n 'Commitment_500AUHours',\
+    \ 'Commitment_1000AUHours',\n 'Commitment_5000AUHours', 'Commitment_10000AUHours',\n\
+    \ 'Commitment_50000AUHours', 'Commitment_100000AUHours',\n 'Commitment_500000AUHours'\n\
+    :type new_tier: str or :class:`TierType\n <azure.mgmt.datalake.analytics.account.models.TierType>`"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccountUpdateParameters

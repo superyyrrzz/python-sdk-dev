@@ -1,0 +1,51 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.resource.subscriptions.operations.TenantsOperations.list
+  class: azure.mgmt.resource.subscriptions.operations.TenantsOperations
+  fullName: azure.mgmt.resource.subscriptions.operations.TenantsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.resource.subscriptions.operations
+  name: TenantsOperations
+  source:
+    id: TenantsOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/subscriptions/operations/tenants_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/subscriptions/operations/tenants_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'TenantsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.resource.subscriptions.operations.TenantsOperations
+- _type: method
+  class: azure.mgmt.resource.subscriptions.operations.TenantsOperations
+  fullName: azure.mgmt.resource.subscriptions.operations.TenantsOperations.list
+  module: azure.mgmt.resource.subscriptions.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/subscriptions/operations/tenants_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/subscriptions/operations/tenants_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Gets a list of tenants.\n\n:param dict custom_headers: headers that will\
+    \ be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`TenantIdDescriptionPaged\n\
+    \ <azure.mgmt.resource.subscriptions.models.TenantIdDescriptionPaged>`"
+  type: Method
+  uid: azure.mgmt.resource.subscriptions.operations.TenantsOperations.list

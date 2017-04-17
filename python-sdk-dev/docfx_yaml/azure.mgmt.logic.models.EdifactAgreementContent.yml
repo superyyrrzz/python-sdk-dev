@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.EdifactAgreementContent
+  fullName: azure.mgmt.logic.models.EdifactAgreementContent
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: EdifactAgreementContent
+  source:
+    id: EdifactAgreementContent
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/edifact_agreement_content.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/edifact_agreement_content.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "EdifactAgreementContent.\n\n:param receive_agreement: The EDIFACT one-way\
+    \ receive agreement.\n:type receive_agreement: :class:`EdifactOneWayAgreement\n\
+    \ <azure.mgmt.logic.models.EdifactOneWayAgreement>`\n:param send_agreement: The\
+    \ EDIFACT one-way send agreement.\n:type send_agreement: :class:`EdifactOneWayAgreement\n\
+    \ <azure.mgmt.logic.models.EdifactOneWayAgreement>`"
+  type: Class
+  uid: azure.mgmt.logic.models.EdifactAgreementContent

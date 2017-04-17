@@ -1,0 +1,36 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.datalake.analytics.catalog.models.USqlIndex
+  fullName: azure.mgmt.datalake.analytics.catalog.models.USqlIndex
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.datalake.analytics.catalog.models
+  name: USqlIndex
+  source:
+    id: USqlIndex
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/models/usql_index.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/models/usql_index.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A Data Lake Analytics catalog U-SQL table index item.\n\n:param name:\
+    \ the name of the index in the table.\n:type name: str\n:param index_keys: the\
+    \ list of directed columns in the index\n:type index_keys: list of :class:`USqlDirectedColumn\n\
+    \ <azure.mgmt.datalake.analytics.catalog.models.USqlDirectedColumn>`\n:param columns:\
+    \ the list of columns in the index\n:type columns: list of str\n:param distribution_info:\
+    \ the distributions info of the index\n:type distribution_info: :class:`USqlDistributionInfo\n\
+    \ <azure.mgmt.datalake.analytics.catalog.models.USqlDistributionInfo>`\n:param\
+    \ partition_function: partition function ID for the index.\n:type partition_function:\
+    \ str\n:param partition_key_list: the list of partion keys in the index\n:type\
+    \ partition_key_list: list of str\n:param stream_names: the list of full paths\
+    \ to the streams that contain\n this index in the DataLake account.\n:type stream_names:\
+    \ list of str\n:param is_columnstore: the switch indicating if this index is a\n\
+    \ columnstore index.\n:type is_columnstore: bool\n:param index_id: the ID of this\
+    \ index within the table.\n:type index_id: int\n:param is_unique: the switch indicating\
+    \ if this index is a unique index.\n:type is_unique: bool"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.catalog.models.USqlIndex

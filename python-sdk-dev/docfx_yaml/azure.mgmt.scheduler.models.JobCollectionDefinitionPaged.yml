@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.scheduler.models.JobCollectionDefinitionPaged
+  fullName: azure.mgmt.scheduler.models.JobCollectionDefinitionPaged
+  inheritance:
+  - msrest.paging.Paged
+  - collections.abc.Iterator
+  - collections.abc.Iterable
+  - builtins.object
+  module: azure.mgmt.scheduler.models
+  name: JobCollectionDefinitionPaged
+  source:
+    id: JobCollectionDefinitionPaged
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/job_collection_definition_paged.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/job_collection_definition_paged.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: A paging container for iterating over a list of JobCollectionDefinition
+    object
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobCollectionDefinitionPaged

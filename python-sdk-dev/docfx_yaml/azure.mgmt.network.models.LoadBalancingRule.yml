@@ -1,0 +1,60 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.LoadBalancingRule
+  fullName: azure.mgmt.network.models.LoadBalancingRule
+  inheritance:
+  - azure.mgmt.network.models.sub_resource.SubResource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: LoadBalancingRule
+  source:
+    id: LoadBalancingRule
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/load_balancing_rule.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/load_balancing_rule.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Rules of the load balancer.\n\n:param id: Resource Id\n:type id: str\n\
+    :param frontend_ip_configuration: Gets or sets a reference to frontend IP\n Addresses\n\
+    :type frontend_ip_configuration: :class:`SubResource\n <azure.mgmt.network.models.SubResource>`\n\
+    :param backend_address_pool: Gets or sets  a reference to a pool of DIPs.\n Inbound\
+    \ traffic is randomly load balanced across IPs in the backend IPs\n:type backend_address_pool:\
+    \ :class:`SubResource\n <azure.mgmt.network.models.SubResource>`\n:param probe:\
+    \ Gets or sets the reference of the load balancer probe used\n by the Load Balancing\
+    \ rule.\n:type probe: :class:`SubResource <azure.mgmt.network.models.SubResource>`\n\
+    :param protocol: Gets or sets the transport protocol for the external\n endpoint.\
+    \ Possible values are Udp or Tcp. Possible values include:\n 'Udp', 'Tcp'\n:type\
+    \ protocol: str or :class:`TransportProtocol\n <azure.mgmt.network.models.TransportProtocol>`\n\
+    :param load_distribution: Gets or sets the load distribution policy for\n this\
+    \ rule. Possible values include: 'Default', 'SourceIP',\n 'SourceIPProtocol'\n\
+    :type load_distribution: str or :class:`LoadDistribution\n <azure.mgmt.network.models.LoadDistribution>`\n\
+    :param frontend_port: Gets or sets the port for the external endpoint.\n You can\
+    \ specify any port number you choose, but the port numbers\n specified for each\
+    \ role in the service must be unique. Possible values\n range between 1 and 65535,\
+    \ inclusive\n:type frontend_port: int\n:param backend_port: Gets or sets a port\
+    \ used for internal connections on\n the endpoint. The localPort attribute maps\
+    \ the eternal port of the\n endpoint to an internal port on a role. This is useful\
+    \ in scenarios\n where a role must communicate to an internal component on a port\
+    \ that is\n different from the one that is exposed externally. If not specified,\
+    \ the\n value of localPort is the same as the port attribute. Set the value of\n\
+    \ localPort to '*' to automatically assign an unallocated port that is\n discoverable\
+    \ using the runtime API\n:type backend_port: int\n:param idle_timeout_in_minutes:\
+    \ Gets or sets the timeout for the Tcp idle\n connection. The value can be set\
+    \ between 4 and 30 minutes. The default\n value is 4 minutes. This element is\
+    \ only used when the protocol is set\n to Tcp\n:type idle_timeout_in_minutes:\
+    \ int\n:param enable_floating_ip: Configures a virtual machine's endpoint for\n\
+    \ the floating IP capability required to configure a SQL AlwaysOn\n availability\
+    \ Group. This setting is required when using the SQL Always\n ON availability\
+    \ Groups in SQL server. This setting can't be changed\n after you create the endpoint\n\
+    :type enable_floating_ip: bool\n:param provisioning_state: Gets provisioning state\
+    \ of the PublicIP\n resource Updating/Deleting/Failed\n:type provisioning_state:\
+    \ str\n:param name: Gets name of the resource that is unique within a resource\n\
+    \ group. This name can be used to access the resource\n:type name: str\n:param\
+    \ etag: A unique read-only string that changes whenever the resource\n is updated\n\
+    :type etag: str"
+  type: Class
+  uid: azure.mgmt.network.models.LoadBalancingRule

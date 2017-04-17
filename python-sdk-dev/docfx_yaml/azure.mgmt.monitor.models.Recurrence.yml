@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.monitor.models.Recurrence
+  fullName: azure.mgmt.monitor.models.Recurrence
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.monitor.models
+  name: Recurrence
+  source:
+    id: Recurrence
+    path: azure-mgmt-monitor/azure/mgmt/monitor/models/recurrence.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/models/recurrence.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The repeating times at which this profile begins. This element is not\
+    \ used\nif the FixedDate element is used.\n\n:param frequency: the recurrence\
+    \ frequency. How often the schedule profile\n should take effect. This value must\
+    \ be Week, meaning each week will have\n the same set of profiles. Possible values\
+    \ include: 'None', 'Second',\n 'Minute', 'Hour', 'Day', 'Week', 'Month', 'Year'\n\
+    :type frequency: str or :class:`RecurrenceFrequency\n <azure.mgmt.monitor.models.RecurrenceFrequency>`\n\
+    :param schedule: the scheduling constraints for when the profile begins.\n:type\
+    \ schedule: :class:`RecurrentSchedule\n <azure.mgmt.monitor.models.RecurrentSchedule>`"
+  type: Class
+  uid: azure.mgmt.monitor.models.Recurrence

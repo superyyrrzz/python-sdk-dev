@@ -1,0 +1,228 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.resource.resources.operations.ResourceGroupsOperations.check_existence
+  - azure.mgmt.resource.resources.operations.ResourceGroupsOperations.create_or_update
+  - azure.mgmt.resource.resources.operations.ResourceGroupsOperations.delete
+  - azure.mgmt.resource.resources.operations.ResourceGroupsOperations.export_template
+  - azure.mgmt.resource.resources.operations.ResourceGroupsOperations.get
+  - azure.mgmt.resource.resources.operations.ResourceGroupsOperations.list
+  - azure.mgmt.resource.resources.operations.ResourceGroupsOperations.list_resources
+  - azure.mgmt.resource.resources.operations.ResourceGroupsOperations.patch
+  class: azure.mgmt.resource.resources.operations.ResourceGroupsOperations
+  fullName: azure.mgmt.resource.resources.operations.ResourceGroupsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.resource.resources.operations
+  name: ResourceGroupsOperations
+  source:
+    id: ResourceGroupsOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resource_groups_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resource_groups_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 20
+  summary: 'ResourceGroupsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.resource.resources.operations.ResourceGroupsOperations
+- _type: method
+  class: azure.mgmt.resource.resources.operations.ResourceGroupsOperations
+  fullName: azure.mgmt.resource.resources.operations.ResourceGroupsOperations.check_existence
+  module: azure.mgmt.resource.resources.operations
+  name: check_existence
+  source:
+    id: check_existence
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resource_groups_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resource_groups_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 116
+  summary: "Checks whether resource group exists.\n\n:param resource_group_name: The\
+    \ name of the resource group to check.\n The name is case insensitive.\n:type\
+    \ resource_group_name: str\n:param dict custom_headers: headers that will be added\
+    \ to the request\n:param bool raw: returns the direct response alongside the\n\
+    \ deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: bool\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.resource.resources.operations.ResourceGroupsOperations.check_existence
+- _type: method
+  class: azure.mgmt.resource.resources.operations.ResourceGroupsOperations
+  fullName: azure.mgmt.resource.resources.operations.ResourceGroupsOperations.create_or_update
+  module: azure.mgmt.resource.resources.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resource_groups_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resource_groups_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 169
+  summary: "Create a resource group.\n\n:param resource_group_name: The name of the\
+    \ resource group to be\n created or updated.\n:type resource_group_name: str\n\
+    :param parameters: Parameters supplied to the create or update\n resource group\
+    \ service operation.\n:type parameters: :class:`ResourceGroup\n <azure.mgmt.resource.resources.models.ResourceGroup>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`ResourceGroup\n <azure.mgmt.resource.resources.models.ResourceGroup>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.resource.resources.operations.ResourceGroupsOperations.create_or_update
+- _type: method
+  class: azure.mgmt.resource.resources.operations.ResourceGroupsOperations
+  fullName: azure.mgmt.resource.resources.operations.ResourceGroupsOperations.delete
+  module: azure.mgmt.resource.resources.operations
+  name: delete
+  source:
+    id: delete
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resource_groups_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resource_groups_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 238
+  summary: "Delete resource group.\n\n:param resource_group_name: The name of the\
+    \ resource group to be\n deleted. The name is case insensitive.\n:type resource_group_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.resource.resources.operations.ResourceGroupsOperations.delete
+- _type: method
+  class: azure.mgmt.resource.resources.operations.ResourceGroupsOperations
+  fullName: azure.mgmt.resource.resources.operations.ResourceGroupsOperations.export_template
+  module: azure.mgmt.resource.resources.operations
+  name: export_template
+  source:
+    id: export_template
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resource_groups_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resource_groups_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 441
+  summary: "Captures the specified resource group as a template.\n\n:param resource_group_name:\
+    \ The name of the resource group to be\n created or updated.\n:type resource_group_name:\
+    \ str\n:param resources: The ids of the resources. The only supported string\n\
+    \ currently is '*' (all resources). Future api updates will support\n exporting\
+    \ specific resources.\n:type resources: list of str\n:param options: The export\
+    \ template options. Supported values include\n 'IncludeParameterDefaultValue',\
+    \ 'IncludeComments' or\n 'IncludeParameterDefaultValue, IncludeComments\n:type\
+    \ options: str\n:param dict custom_headers: headers that will be added to the\
+    \ request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`ResourceGroupExportResult\n <azure.mgmt.resource.resources.models.ResourceGroupExportResult>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.resource.resources.operations.ResourceGroupsOperations.export_template
+- _type: method
+  class: azure.mgmt.resource.resources.operations.ResourceGroupsOperations
+  fullName: azure.mgmt.resource.resources.operations.ResourceGroupsOperations.get
+  module: azure.mgmt.resource.resources.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resource_groups_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resource_groups_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 312
+  summary: "Get a resource group.\n\n:param resource_group_name: The name of the resource\
+    \ group to get.\n The name is case insensitive.\n:type resource_group_name: str\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`ResourceGroup\n <azure.mgmt.resource.resources.models.ResourceGroup>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.resource.resources.operations.ResourceGroupsOperations.get
+- _type: method
+  class: azure.mgmt.resource.resources.operations.ResourceGroupsOperations
+  fullName: azure.mgmt.resource.resources.operations.ResourceGroupsOperations.list
+  module: azure.mgmt.resource.resources.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resource_groups_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resource_groups_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 514
+  summary: "Gets a collection of resource groups.\n\n:param filter: The filter to\
+    \ apply on the operation.\n:type filter: str\n:param top: Query parameters. If\
+    \ null is passed returns all resource\n groups.\n:type top: int\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ResourceGroupPaged\n\
+    \ <azure.mgmt.resource.resources.models.ResourceGroupPaged>`"
+  type: Method
+  uid: azure.mgmt.resource.resources.operations.ResourceGroupsOperations.list
+- _type: method
+  class: azure.mgmt.resource.resources.operations.ResourceGroupsOperations
+  fullName: azure.mgmt.resource.resources.operations.ResourceGroupsOperations.list_resources
+  module: azure.mgmt.resource.resources.operations
+  name: list_resources
+  source:
+    id: list_resources
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resource_groups_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resource_groups_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 37
+  summary: "Get all of the resources under a subscription.\n\n:param resource_group_name:\
+    \ Query parameters. If null is passed\n returns all resource groups.\n:type resource_group_name:\
+    \ str\n:param filter: The filter to apply on the operation.\n:type filter: str\n\
+    :param expand: The $expand query parameter\n:type expand: str\n:param top: Query\
+    \ parameters. If null is passed returns all resource\n groups.\n:type top: int\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`GenericResourcePaged\n <azure.mgmt.resource.resources.models.GenericResourcePaged>`"
+  type: Method
+  uid: azure.mgmt.resource.resources.operations.ResourceGroupsOperations.list_resources
+- _type: method
+  class: azure.mgmt.resource.resources.operations.ResourceGroupsOperations
+  fullName: azure.mgmt.resource.resources.operations.ResourceGroupsOperations.patch
+  module: azure.mgmt.resource.resources.operations
+  name: patch
+  source:
+    id: patch
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resource_groups_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resource_groups_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 371
+  summary: "Resource groups can be updated through a simple PATCH operation to a\n\
+    group address. The format of the request is the same as that for\ncreating a resource\
+    \ groups, though if a field is unspecified current\nvalue will be carried over.\
+    \ .\n\n:param resource_group_name: The name of the resource group to be\n created\
+    \ or updated. The name is case insensitive.\n:type resource_group_name: str\n\
+    :param parameters: Parameters supplied to the update state resource\n group service\
+    \ operation.\n:type parameters: :class:`ResourceGroup\n <azure.mgmt.resource.resources.models.ResourceGroup>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`ResourceGroup\n <azure.mgmt.resource.resources.models.ResourceGroup>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.resource.resources.operations.ResourceGroupsOperations.patch

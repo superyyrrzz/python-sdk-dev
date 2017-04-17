@@ -1,0 +1,30 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.ResourceMetric
+  fullName: azure.mgmt.web.models.ResourceMetric
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: ResourceMetric
+  source:
+    id: ResourceMetric
+    path: azure-mgmt-web/azure/mgmt/web/models/resource_metric.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/resource_metric.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Object representing a metric for any resource.\n\n:param name: Name of\
+    \ metric\n:type name: :class:`ResourceMetricName\n <azure.mgmt.web.models.ResourceMetricName>`\n\
+    :param unit: Metric unit\n:type unit: str\n:param time_grain: Metric granularity.\
+    \ E.g PT1H, PT5M, P1D\n:type time_grain: str\n:param start_time: Metric start\
+    \ time\n:type start_time: datetime\n:param end_time: Metric end time\n:type end_time:\
+    \ datetime\n:param resource_id: Metric resource Id\n:type resource_id: str\n:param\
+    \ metric_values: Metric values\n:type metric_values: list of :class:`ResourceMetricValue\n\
+    \ <azure.mgmt.web.models.ResourceMetricValue>`\n:param properties: Properties\n\
+    :type properties: list of :class:`KeyValuePairStringString\n <azure.mgmt.web.models.KeyValuePairStringString>`"
+  type: Class
+  uid: azure.mgmt.web.models.ResourceMetric

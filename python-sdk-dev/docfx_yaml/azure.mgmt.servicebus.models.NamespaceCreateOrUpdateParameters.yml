@@ -1,0 +1,35 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.servicebus.models.NamespaceCreateOrUpdateParameters
+  fullName: azure.mgmt.servicebus.models.NamespaceCreateOrUpdateParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.servicebus.models
+  name: NamespaceCreateOrUpdateParameters
+  source:
+    id: NamespaceCreateOrUpdateParameters
+    path: azure-mgmt-servicebus/azure/mgmt/servicebus/models/namespace_create_or_update_parameters.py
+    remote:
+      branch: master
+      path: azure-mgmt-servicebus/azure/mgmt/servicebus/models/namespace_create_or_update_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Parameters supplied to the Create Or Update Namespace operation.\n\n:param\
+    \ location: Namespace location.\n:type location: str\n:param sku:\n:type sku:\
+    \ :class:`Sku <azure.mgmt.servicebus.models.Sku>`\n:param tags: Namespace tags.\n\
+    :type tags: dict\n:param provisioning_state: Provisioning state of the namespace.\n\
+    :type provisioning_state: str\n:param status: State of the namespace. Possible\
+    \ values include:\n 'Unknown', 'Creating', 'Created', 'Activating', 'Enabling',\
+    \ 'Active',\n 'Disabling', 'Disabled', 'SoftDeleting', 'SoftDeleted', 'Removing',\n\
+    \ 'Removed', 'Failed'\n:type status: str or :class:`NamespaceState\n <azure.mgmt.servicebus.models.NamespaceState>`\n\
+    :param created_at: The time the namespace was created.\n:type created_at: datetime\n\
+    :param updated_at: The time the namespace was updated.\n:type updated_at: datetime\n\
+    :param service_bus_endpoint: Endpoint you can use to perform Service Bus\n operations.\n\
+    :type service_bus_endpoint: str\n:param create_acs_namespace: Indicates whether\
+    \ to create an ACS namespace.\n:type create_acs_namespace: bool\n:param enabled:\
+    \ Specifies whether this instance is enabled.\n:type enabled: bool"
+  type: Class
+  uid: azure.mgmt.servicebus.models.NamespaceCreateOrUpdateParameters

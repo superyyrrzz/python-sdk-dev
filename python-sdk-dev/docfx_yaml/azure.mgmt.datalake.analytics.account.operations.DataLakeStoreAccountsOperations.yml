@@ -1,0 +1,152 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.datalake.analytics.account.operations.DataLakeStoreAccountsOperations.add
+  - azure.mgmt.datalake.analytics.account.operations.DataLakeStoreAccountsOperations.delete
+  - azure.mgmt.datalake.analytics.account.operations.DataLakeStoreAccountsOperations.get
+  - azure.mgmt.datalake.analytics.account.operations.DataLakeStoreAccountsOperations.list_by_account
+  class: azure.mgmt.datalake.analytics.account.operations.DataLakeStoreAccountsOperations
+  fullName: azure.mgmt.datalake.analytics.account.operations.DataLakeStoreAccountsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.datalake.analytics.account.operations
+  name: DataLakeStoreAccountsOperations
+  source:
+    id: DataLakeStoreAccountsOperations
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/data_lake_store_accounts_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/data_lake_store_accounts_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'DataLakeStoreAccountsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.datalake.analytics.account.operations.DataLakeStoreAccountsOperations
+- _type: method
+  class: azure.mgmt.datalake.analytics.account.operations.DataLakeStoreAccountsOperations
+  fullName: azure.mgmt.datalake.analytics.account.operations.DataLakeStoreAccountsOperations.add
+  module: azure.mgmt.datalake.analytics.account.operations
+  name: add
+  source:
+    id: add
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/data_lake_store_accounts_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/data_lake_store_accounts_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 166
+  summary: "Updates the specified Data Lake Analytics account to include the\nadditional\
+    \ Data Lake Store account.\n\n:param resource_group_name: The name of the Azure\
+    \ resource group that\n contains the Data Lake Analytics account.\n:type resource_group_name:\
+    \ str\n:param account_name: The name of the Data Lake Analytics account to\n which\
+    \ to add the Data Lake Store account.\n:type account_name: str\n:param data_lake_store_account_name:\
+    \ The name of the Data Lake Store\n account to add.\n:type data_lake_store_account_name:\
+    \ str\n:param suffix: the optional suffix for the Data Lake Store account.\n:type\
+    \ suffix: str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.account.operations.DataLakeStoreAccountsOperations.add
+- _type: method
+  class: azure.mgmt.datalake.analytics.account.operations.DataLakeStoreAccountsOperations
+  fullName: azure.mgmt.datalake.analytics.account.operations.DataLakeStoreAccountsOperations.delete
+  module: azure.mgmt.datalake.analytics.account.operations
+  name: delete
+  source:
+    id: delete
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/data_lake_store_accounts_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/data_lake_store_accounts_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 105
+  summary: "Updates the Data Lake Analytics account specified to remove the\nspecified\
+    \ Data Lake Store account.\n\n:param resource_group_name: The name of the Azure\
+    \ resource group that\n contains the Data Lake Analytics account.\n:type resource_group_name:\
+    \ str\n:param account_name: The name of the Data Lake Analytics account from\n\
+    \ which to remove the Data Lake Store account.\n:type account_name: str\n:param\
+    \ data_lake_store_account_name: The name of the Data Lake Store\n account to remove\n\
+    :type data_lake_store_account_name: str\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.account.operations.DataLakeStoreAccountsOperations.delete
+- _type: method
+  class: azure.mgmt.datalake.analytics.account.operations.DataLakeStoreAccountsOperations
+  fullName: azure.mgmt.datalake.analytics.account.operations.DataLakeStoreAccountsOperations.get
+  module: azure.mgmt.datalake.analytics.account.operations
+  name: get
+  source:
+    id: get
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/data_lake_store_accounts_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/data_lake_store_accounts_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Gets the specified Data Lake Store account details in the specified\n\
+    Data Lake Analytics account.\n\n:param resource_group_name: The name of the Azure\
+    \ resource group that\n contains the Data Lake Analytics account.\n:type resource_group_name:\
+    \ str\n:param account_name: The name of the Data Lake Analytics account from\n\
+    \ which to retrieve the Data Lake Store account details.\n:type account_name:\
+    \ str\n:param data_lake_store_account_name: The name of the Data Lake Store\n\
+    \ account to retrieve\n:type data_lake_store_account_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`DataLakeStoreAccountInfo\n\
+    \ <azure.mgmt.datalake.analytics.account.models.DataLakeStoreAccountInfo>`\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.account.operations.DataLakeStoreAccountsOperations.get
+- _type: method
+  class: azure.mgmt.datalake.analytics.account.operations.DataLakeStoreAccountsOperations
+  fullName: azure.mgmt.datalake.analytics.account.operations.DataLakeStoreAccountsOperations.list_by_account
+  module: azure.mgmt.datalake.analytics.account.operations
+  name: list_by_account
+  source:
+    id: list_by_account
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/data_lake_store_accounts_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/data_lake_store_accounts_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 240
+  summary: "Gets the first page of Data Lake Store accounts linked to the specified\n\
+    Data Lake Analytics account. The response includes a link to the next\npage, if\
+    \ any.\n\n:param resource_group_name: The name of the Azure resource group that\n\
+    \ contains the Data Lake Analytics account.\n:type resource_group_name: str\n\
+    :param account_name: The name of the Data Lake Analytics account for\n which to\
+    \ list Data Lake Store accounts.\n:type account_name: str\n:param filter: OData\
+    \ filter. Optional.\n:type filter: str\n:param top: The number of items to return.\
+    \ Optional.\n:type top: int\n:param skip: The number of items to skip over before\
+    \ returning\n elements. Optional.\n:type skip: int\n:param select: OData Select\
+    \ statement. Limits the properties on each\n entry to just those requested, e.g.\n\
+    \ Categories?$select=CategoryName,Description. Optional.\n:type select: str\n\
+    :param orderby: OrderBy clause. One or more comma-separated\n expressions with\
+    \ an optional \"asc\" (the default) or \"desc\" depending\n on the order you'd\
+    \ like the values sorted, e.g.\n Categories?$orderby=CategoryName desc. Optional.\n\
+    :type orderby: str\n:param count: The Boolean value of true or false to request\
+    \ a count of\n the matching resources included with the resources in the response,\n\
+    \ e.g. Categories?$count=true. Optional.\n:type count: bool\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`DataLakeStoreAccountInfoPaged\n\
+    \ <azure.mgmt.datalake.analytics.account.models.DataLakeStoreAccountInfoPaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.account.operations.DataLakeStoreAccountsOperations.list_by_account

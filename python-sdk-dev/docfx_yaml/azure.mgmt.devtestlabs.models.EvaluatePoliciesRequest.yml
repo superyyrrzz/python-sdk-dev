@@ -1,0 +1,23 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.devtestlabs.models.EvaluatePoliciesRequest
+  fullName: azure.mgmt.devtestlabs.models.EvaluatePoliciesRequest
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.devtestlabs.models
+  name: EvaluatePoliciesRequest
+  source:
+    id: EvaluatePoliciesRequest
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/evaluate_policies_request.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/evaluate_policies_request.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Request body for evaluating a policy set.\n\n:param policies: Policies\
+    \ to evaluate.\n:type policies: list of :class:`EvaluatePoliciesProperties\n <azure.mgmt.devtestlabs.models.EvaluatePoliciesProperties>`"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.EvaluatePoliciesRequest

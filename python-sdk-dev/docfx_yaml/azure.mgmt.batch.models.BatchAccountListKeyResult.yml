@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.batch.models.BatchAccountListKeyResult
+  fullName: azure.mgmt.batch.models.BatchAccountListKeyResult
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.batch.models
+  name: BatchAccountListKeyResult
+  source:
+    id: BatchAccountListKeyResult
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/models/batch_account_list_key_result.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/models/batch_account_list_key_result.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Values returned by the GetKeys operation.
+
+
+    :param primary: The primary key associated with the account.
+
+    :type primary: str
+
+    :param secondary: The secondary key associated with the account.
+
+    :type secondary: str'
+  type: Class
+  uid: azure.mgmt.batch.models.BatchAccountListKeyResult

@@ -1,0 +1,22 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.datalake.store.models.EncryptionState
+  fullName: azure.mgmt.datalake.store.models.EncryptionState
+  inheritance:
+  - enum.Enum
+  - builtins.object
+  module: azure.mgmt.datalake.store.models
+  name: EncryptionState
+  source:
+    id: EncryptionState
+    path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/models/data_lake_store_account_management_client_enums.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/models/data_lake_store_account_management_client_enums.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 40
+  summary: An enumeration.
+  type: Class
+  uid: azure.mgmt.datalake.store.models.EncryptionState

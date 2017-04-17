@@ -1,0 +1,30 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.scheduler.models.JobRecurrence
+  fullName: azure.mgmt.scheduler.models.JobRecurrence
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.scheduler.models
+  name: JobRecurrence
+  source:
+    id: JobRecurrence
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/job_recurrence.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/job_recurrence.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "JobRecurrence.\n\n:param frequency: Gets or sets the frequency of recurrence\
+    \ (second,\n minute, hour, day, week, month). Possible values include: 'Minute',\n\
+    \ 'Hour', 'Day', 'Week', 'Month'\n:type frequency: str or :class:`RecurrenceFrequency\n\
+    \ <azure.mgmt.scheduler.models.RecurrenceFrequency>`\n:param interval: Gets or\
+    \ sets the interval between retries.\n:type interval: int\n:param count: Gets\
+    \ or sets the maximum number of times that the job\n should run.\n:type count:\
+    \ int\n:param end_time: Gets or sets the time at which the job will complete.\n\
+    :type end_time: datetime\n:param schedule:\n:type schedule: :class:`JobRecurrenceSchedule\n\
+    \ <azure.mgmt.scheduler.models.JobRecurrenceSchedule>`"
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobRecurrence

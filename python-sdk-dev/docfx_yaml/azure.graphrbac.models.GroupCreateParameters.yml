@@ -1,0 +1,30 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.graphrbac.models.GroupCreateParameters
+  fullName: azure.graphrbac.models.GroupCreateParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.graphrbac.models
+  name: GroupCreateParameters
+  source:
+    id: GroupCreateParameters
+    path: azure-graphrbac/azure/graphrbac/models/group_create_parameters.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/models/group_create_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Request parameters for creating a new group.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:param display_name:\
+    \ Group display name\n:type display_name: str\n:ivar mail_enabled: Whether the\
+    \ group is mail-enabled. Must be false. This\n is because only pure security groups\
+    \ can be created using the Graph API.\n Default value: False .\n:vartype mail_enabled:\
+    \ bool\n:param mail_nickname: Mail nickname\n:type mail_nickname: str\n:ivar security_enabled:\
+    \ Whether the group is a security group. Must be\n true. This is because only\
+    \ pure security groups can be created using the\n Graph API. Default value: True\
+    \ .\n:vartype security_enabled: bool"
+  type: Class
+  uid: azure.graphrbac.models.GroupCreateParameters

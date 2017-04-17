@@ -1,0 +1,46 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.storage.models.StorageAccountCreateParameters
+  fullName: azure.mgmt.storage.models.StorageAccountCreateParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.storage.models
+  name: StorageAccountCreateParameters
+  source:
+    id: StorageAccountCreateParameters
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/models/storage_account_create_parameters.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/models/storage_account_create_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The parameters to provide for the account.\n\n:param sku: Required. Gets\
+    \ or sets the sku type.\n:type sku: :class:`Sku <azure.mgmt.storage.models.Sku>`\n\
+    :param kind: Required. Indicates the type of storage account. Possible\n values\
+    \ include: 'Storage', 'BlobStorage'\n:type kind: str or :class:`Kind <azure.mgmt.storage.models.Kind>`\n\
+    :param location: Required. Gets or sets the location of the resource.\n This will\
+    \ be one of the supported and registered Azure Geo Regions (e.g.\n West US, East\
+    \ US, Southeast Asia, etc.). The geo region of a resource\n cannot be changed\
+    \ once it is created, but if an identical geo region is\n specified on update\
+    \ the request will succeed.\n:type location: str\n:param tags: Gets or sets a\
+    \ list of key value pairs that describe the\n resource. These tags can be used\
+    \ in viewing and grouping this resource\n (across resource groups). A maximum\
+    \ of 15 tags can be provided for a\n resource. Each tag must have a key no greater\
+    \ than 128 characters and\n value no greater than 256 characters.\n:type tags:\
+    \ dict\n:param custom_domain: User domain assigned to the storage account. Name\n\
+    \ is the CNAME source. Only one custom domain is supported per storage\n account\
+    \ at this time. To clear the existing custom domain, use an empty\n string for\
+    \ the custom domain name property.\n:type custom_domain: :class:`CustomDomain\n\
+    \ <azure.mgmt.storage.models.CustomDomain>`\n:param encryption: Provides the encryption\
+    \ settings on the account. If\n left unspecified the account encryption settings\
+    \ will remain. The\n default setting is unencrypted.\n:type encryption: :class:`Encryption\n\
+    \ <azure.mgmt.storage.models.Encryption>`\n:param access_tier: Required for StandardBlob\
+    \ accounts. The access tier\n used for billing. Access tier cannot be changed\
+    \ more than once every 7\n days (168 hours). Access tier cannot be set for StandardLRS,\n\
+    \ StandardGRS, StandardRAGRS, or PremiumLRS account types. Possible values\n include:\
+    \ 'Hot', 'Cool'\n:type access_tier: str or :class:`AccessTier\n <azure.mgmt.storage.models.AccessTier>`"
+  type: Class
+  uid: azure.mgmt.storage.models.StorageAccountCreateParameters

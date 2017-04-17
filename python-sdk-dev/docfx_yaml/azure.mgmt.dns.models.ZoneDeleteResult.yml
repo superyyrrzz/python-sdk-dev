@@ -1,0 +1,38 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.dns.models.ZoneDeleteResult
+  fullName: azure.mgmt.dns.models.ZoneDeleteResult
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.dns.models
+  name: ZoneDeleteResult
+  source:
+    id: ZoneDeleteResult
+    path: azure-mgmt-dns/azure/mgmt/dns/models/zone_delete_result.py
+    remote:
+      branch: master
+      path: azure-mgmt-dns/azure/mgmt/dns/models/zone_delete_result.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The response to a Zone Delete operation.\n\n:param azure_async_operation:\
+    \ Users can perform a Get on\n Azure-AsyncOperation to get the status of their\
+    \ delete Zone operations.\n:type azure_async_operation: str\n:param status: Possible\
+    \ values include: 'InProgress', 'Succeeded',\n 'Failed'\n:type status: str or\
+    \ :class:`OperationStatus\n <azure.mgmt.dns.models.OperationStatus>`\n:param status_code:\
+    \ Possible values include: 'Continue',\n 'SwitchingProtocols', 'OK', 'Created',\
+    \ 'Accepted',\n 'NonAuthoritativeInformation', 'NoContent', 'ResetContent',\n\
+    \ 'PartialContent', 'MultipleChoices', 'Ambiguous', 'MovedPermanently',\n 'Moved',\
+    \ 'Found', 'Redirect', 'SeeOther', 'RedirectMethod',\n 'NotModified', 'UseProxy',\
+    \ 'Unused', 'TemporaryRedirect',\n 'RedirectKeepVerb', 'BadRequest', 'Unauthorized',\
+    \ 'PaymentRequired',\n 'Forbidden', 'NotFound', 'MethodNotAllowed', 'NotAcceptable',\n\
+    \ 'ProxyAuthenticationRequired', 'RequestTimeout', 'Conflict', 'Gone',\n 'LengthRequired',\
+    \ 'PreconditionFailed', 'RequestEntityTooLarge',\n 'RequestUriTooLong', 'UnsupportedMediaType',\n\
+    \ 'RequestedRangeNotSatisfiable', 'ExpectationFailed', 'UpgradeRequired',\n 'InternalServerError',\
+    \ 'NotImplemented', 'BadGateway',\n 'ServiceUnavailable', 'GatewayTimeout', 'HttpVersionNotSupported'\n\
+    :type status_code: str or :class:`HttpStatusCode\n <azure.mgmt.dns.models.HttpStatusCode>`\n\
+    :param request_id:\n:type request_id: str"
+  type: Class
+  uid: azure.mgmt.dns.models.ZoneDeleteResult

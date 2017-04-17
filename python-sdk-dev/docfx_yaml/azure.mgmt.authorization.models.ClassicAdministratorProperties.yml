@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.authorization.models.ClassicAdministratorProperties
+  fullName: azure.mgmt.authorization.models.ClassicAdministratorProperties
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.authorization.models
+  name: ClassicAdministratorProperties
+  source:
+    id: ClassicAdministratorProperties
+    path: azure-mgmt-authorization/azure/mgmt/authorization/models/classic_administrator_properties.py
+    remote:
+      branch: master
+      path: azure-mgmt-authorization/azure/mgmt/authorization/models/classic_administrator_properties.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Classic Administrator properties.
+
+
+    :param email_address: The email address of the administrator.
+
+    :type email_address: str
+
+    :param role: The role of the administrator.
+
+    :type role: str'
+  type: Class
+  uid: azure.mgmt.authorization.models.ClassicAdministratorProperties

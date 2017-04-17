@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.media.models.CheckNameAvailabilityOutput
+  fullName: azure.mgmt.media.models.CheckNameAvailabilityOutput
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.media.models
+  name: CheckNameAvailabilityOutput
+  source:
+    id: CheckNameAvailabilityOutput
+    path: azure-mgmt-media/azure/mgmt/media/models/check_name_availability_output.py
+    remote:
+      branch: master
+      path: azure-mgmt-media/azure/mgmt/media/models/check_name_availability_output.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The response body for CheckNameAvailability API.\n\n:param name_available:\
+    \ Specifies if the name is available.\n:type name_available: bool\n:param reason:\
+    \ Specifies the reason if the name is not available. Possible\n values include:\
+    \ 'None', 'Invalid', 'AlreadyExists'\n:type reason: str or :class:`EntityNameUnavailabilityReason\n\
+    \ <azure.mgmt.media.models.EntityNameUnavailabilityReason>`\n:param message: Specifies\
+    \ the detailed reason if the name is not\n available.\n:type message: str"
+  type: Class
+  uid: azure.mgmt.media.models.CheckNameAvailabilityOutput

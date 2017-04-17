@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.storage.models.StorageAccountListKeysResult
+  fullName: azure.mgmt.storage.models.StorageAccountListKeysResult
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.storage.models
+  name: StorageAccountListKeysResult
+  source:
+    id: StorageAccountListKeysResult
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/models/storage_account_list_keys_result.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/models/storage_account_list_keys_result.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The ListKeys operation response.\n\nVariables are only populated by the\
+    \ server, and will be ignored when\nsending a request.\n\n:ivar keys: Gets the\
+    \ list of account keys and their properties.\n:vartype keys: list of :class:`StorageAccountKey\n\
+    \ <azure.mgmt.storage.models.StorageAccountKey>`"
+  type: Class
+  uid: azure.mgmt.storage.models.StorageAccountListKeysResult

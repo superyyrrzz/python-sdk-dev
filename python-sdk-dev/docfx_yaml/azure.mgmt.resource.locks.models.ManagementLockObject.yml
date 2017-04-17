@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.locks.models.ManagementLockObject
+  fullName: azure.mgmt.resource.locks.models.ManagementLockObject
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.resource.locks.models
+  name: ManagementLockObject
+  source:
+    id: ManagementLockObject
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/locks/models/management_lock_object.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/locks/models/management_lock_object.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Management lock information.\n\n:param level: Gets or sets the lock level\
+    \ of the management lock.\n Possible values include: 'NotSpecified', 'CanNotDelete',\
+    \ 'ReadOnly'\n:type level: str or :class:`LockLevel\n <azure.mgmt.resource.locks.models.LockLevel>`\n\
+    :param notes: Gets or sets the notes of the management lock.\n:type notes: str\n\
+    :param id: Gets or sets the Id of the lock.\n:type id: str\n:param type: Gets\
+    \ or sets the type of the lock.\n:type type: str\n:param name: Gets or sets the\
+    \ name of the lock.\n:type name: str"
+  type: Class
+  uid: azure.mgmt.resource.locks.models.ManagementLockObject

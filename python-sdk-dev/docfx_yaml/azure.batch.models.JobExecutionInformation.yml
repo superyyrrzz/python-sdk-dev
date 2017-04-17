@@ -1,0 +1,30 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.JobExecutionInformation
+  fullName: azure.batch.models.JobExecutionInformation
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: JobExecutionInformation
+  source:
+    id: JobExecutionInformation
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/job_execution_information.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/job_execution_information.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Contains information about the execution of a job in the Azure Batch\n\
+    service.\n\n:param start_time: The start time of the job.\n:type start_time: datetime\n\
+    :param end_time: The completion time of the job. This property is set\n only if\
+    \ the job is in the completed state.\n:type end_time: datetime\n:param pool_id:\
+    \ The id of the pool to which this job is assigned.\n:type pool_id: str\n:param\
+    \ scheduling_error: Details of any error encountered by the service\n in starting\
+    \ the job.\n:type scheduling_error: :class:`JobSchedulingError\n <azure.batch.models.JobSchedulingError>`\n\
+    :param terminate_reason: A string describing the reason the job ended.\n:type\
+    \ terminate_reason: str"
+  type: Class
+  uid: azure.batch.models.JobExecutionInformation

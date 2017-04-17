@@ -1,0 +1,39 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.devtestlabs.models.Policy
+  fullName: azure.mgmt.devtestlabs.models.Policy
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.devtestlabs.models
+  name: Policy
+  source:
+    id: Policy
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/policy.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/policy.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A Policy.\n\n:param description: The description of the policy.\n:type\
+    \ description: str\n:param status: The status of the policy. Possible values include:\n\
+    \ 'Enabled', 'Disabled'\n:type status: str or :class:`PolicyStatus\n <azure.mgmt.devtestlabs.models.PolicyStatus>`\n\
+    :param fact_name: The fact name of the policy. Possible values include:\n 'UserOwnedLabVmCount',\
+    \ 'LabVmCount', 'LabVmSize', 'GalleryImage',\n 'UserOwnedLabVmCountInSubnet'\n\
+    :type fact_name: str or :class:`PolicyFactName\n <azure.mgmt.devtestlabs.models.PolicyFactName>`\n\
+    :param fact_data: The fact data of the policy.\n:type fact_data: str\n:param threshold:\
+    \ The threshold of the policy.\n:type threshold: str\n:param evaluator_type: The\
+    \ evaluator type of the policy. Possible values\n include: 'AllowedValuesPolicy',\
+    \ 'MaxValuePolicy'\n:type evaluator_type: str or :class:`PolicyEvaluatorType\n\
+    \ <azure.mgmt.devtestlabs.models.PolicyEvaluatorType>`\n:param provisioning_state:\
+    \ The provisioning status of the resource.\n:type provisioning_state: str\n:param\
+    \ unique_identifier: The unique immutable identifier of a resource\n (Guid).\n\
+    :type unique_identifier: str\n:param id: The identifier of the resource.\n:type\
+    \ id: str\n:param name: The name of the resource.\n:type name: str\n:param type:\
+    \ The type of the resource.\n:type type: str\n:param location: The location of\
+    \ the resource.\n:type location: str\n:param tags: The tags of the resource.\n\
+    :type tags: dict"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.Policy

@@ -1,0 +1,37 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.powerbiembedded.models.Display
+  fullName: azure.mgmt.powerbiembedded.models.Display
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.powerbiembedded.models
+  name: Display
+  source:
+    id: Display
+    path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/models/display.py
+    remote:
+      branch: master
+      path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/models/display.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Display.\n\n:param provider: The localized friendly form of the resource\
+    \ provider\n name. This form is also expected to include the publisher/company\n\
+    \ responsible. Use Title Casing. Begin with \u201CMicrosoft\u201D for 1st party\n\
+    \ services.\n:type provider: str\n:param resource: The localized friendly form\
+    \ of the resource type related\n to this action/operation. This form should match\
+    \ the public\n documentation for the resource provider. Use Title Casing. For\
+    \ examples,\n refer to the \u201Cname\u201D section.\n:type resource: str\n:param\
+    \ operation: The localized friendly name for the operation as shown\n to the user.\
+    \ This name should be concise (to fit in drop downs), but\n clear (self-documenting).\
+    \ Use Title Casing and include the\n entity/resource to which it applies.\n:type\
+    \ operation: str\n:param description: The localized friendly description for the\
+    \ operation\n as shown to the user. This description should be thorough, yet concise.\n\
+    \ It will be used in tool-tips and detailed views.\n:type description: str\n:param\
+    \ origin: The intended executor of the operation; governs the\n display of the\
+    \ operation in the RBAC UX and the audit logs UX. Default\n value is 'user,system'\n\
+    :type origin: str"
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.Display

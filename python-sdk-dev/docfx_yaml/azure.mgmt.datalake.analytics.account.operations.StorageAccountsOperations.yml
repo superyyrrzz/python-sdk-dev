@@ -1,0 +1,273 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations.add
+  - azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations.delete
+  - azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations.get
+  - azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations.get_storage_container
+  - azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations.list_by_account
+  - azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations.list_sas_tokens
+  - azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations.list_storage_containers
+  - azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations.update
+  class: azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations
+  fullName: azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.datalake.analytics.account.operations
+  name: StorageAccountsOperations
+  source:
+    id: StorageAccountsOperations
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/storage_accounts_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/storage_accounts_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'StorageAccountsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations
+- _type: method
+  class: azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations
+  fullName: azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations.add
+  module: azure.mgmt.datalake.analytics.account.operations
+  name: add
+  source:
+    id: add
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/storage_accounts_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/storage_accounts_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 242
+  summary: "Updates the specified Data Lake Analytics account to add an Azure\nStorage\
+    \ account.\n\n:param resource_group_name: The name of the Azure resource group\
+    \ that\n contains the Data Lake Analytics account.\n:type resource_group_name:\
+    \ str\n:param account_name: The name of the Data Lake Analytics account to\n which\
+    \ to add the Azure Storage account.\n:type account_name: str\n:param storage_account_name:\
+    \ The name of the Azure Storage account to\n add\n:type storage_account_name:\
+    \ str\n:param access_key: the access key associated with this Azure Storage\n\
+    \ account that will be used to connect to it.\n:type access_key: str\n:param suffix:\
+    \ the optional suffix for the storage account.\n:type suffix: str\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations.add
+- _type: method
+  class: azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations
+  fullName: azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations.delete
+  module: azure.mgmt.datalake.analytics.account.operations
+  name: delete
+  source:
+    id: delete
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/storage_accounts_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/storage_accounts_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 105
+  summary: "Updates the specified Data Lake Analytics account to remove an Azure\n\
+    Storage account.\n\n:param resource_group_name: The name of the Azure resource\
+    \ group that\n contains the Data Lake Analytics account.\n:type resource_group_name:\
+    \ str\n:param account_name: The name of the Data Lake Analytics account from\n\
+    \ which to remove the Azure Storage account.\n:type account_name: str\n:param\
+    \ storage_account_name: The name of the Azure Storage account to\n remove\n:type\
+    \ storage_account_name: str\n:param dict custom_headers: headers that will be\
+    \ added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations.delete
+- _type: method
+  class: azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations
+  fullName: azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations.get
+  module: azure.mgmt.datalake.analytics.account.operations
+  name: get
+  source:
+    id: get
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/storage_accounts_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/storage_accounts_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Gets the specified Azure Storage account linked to the given Data Lake\n\
+    Analytics account.\n\n:param resource_group_name: The name of the Azure resource\
+    \ group that\n contains the Data Lake Analytics account.\n:type resource_group_name:\
+    \ str\n:param account_name: The name of the Data Lake Analytics account from\n\
+    \ which to retrieve Azure storage account details.\n:type account_name: str\n\
+    :param storage_account_name: The name of the Azure Storage account for\n which\
+    \ to retrieve the details.\n:type storage_account_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`StorageAccountInfo\n\
+    \ <azure.mgmt.datalake.analytics.account.models.StorageAccountInfo>`\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations.get
+- _type: method
+  class: azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations
+  fullName: azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations.get_storage_container
+  module: azure.mgmt.datalake.analytics.account.operations
+  name: get_storage_container
+  source:
+    id: get_storage_container
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/storage_accounts_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/storage_accounts_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 314
+  summary: "Gets the specified Azure Storage container associated with the given\n\
+    Data Lake Analytics and Azure Storage accounts.\n\n:param resource_group_name:\
+    \ The name of the Azure resource group that\n contains the Data Lake Analytics\
+    \ account.\n:type resource_group_name: str\n:param account_name: The name of the\
+    \ Data Lake Analytics account for\n which to retrieve blob container.\n:type account_name:\
+    \ str\n:param storage_account_name: The name of the Azure storage account\n from\
+    \ which to retrieve the blob container.\n:type storage_account_name: str\n:param\
+    \ container_name: The name of the Azure storage container to\n retrieve\n:type\
+    \ container_name: str\n:param dict custom_headers: headers that will be added\
+    \ to the request\n:param bool raw: returns the direct response alongside the\n\
+    \ deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`StorageContainer\n\
+    \ <azure.mgmt.datalake.analytics.account.models.StorageContainer>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations.get_storage_container
+- _type: method
+  class: azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations
+  fullName: azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations.list_by_account
+  module: azure.mgmt.datalake.analytics.account.operations
+  name: list_by_account
+  source:
+    id: list_by_account
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/storage_accounts_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/storage_accounts_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 544
+  summary: "Gets the first page of Azure Storage accounts, if any, linked to the\n\
+    specified Data Lake Analytics account. The response includes a link to\nthe next\
+    \ page, if any.\n\n:param resource_group_name: The name of the Azure resource\
+    \ group that\n contains the Data Lake Analytics account.\n:type resource_group_name:\
+    \ str\n:param account_name: The name of the Data Lake Analytics account for\n\
+    \ which to list Azure Storage accounts.\n:type account_name: str\n:param filter:\
+    \ The OData filter. Optional.\n:type filter: str\n:param top: The number of items\
+    \ to return. Optional.\n:type top: int\n:param skip: The number of items to skip\
+    \ over before returning\n elements. Optional.\n:type skip: int\n:param select:\
+    \ OData Select statement. Limits the properties on each\n entry to just those\
+    \ requested, e.g.\n Categories?$select=CategoryName,Description. Optional.\n:type\
+    \ select: str\n:param orderby: OrderBy clause. One or more comma-separated\n expressions\
+    \ with an optional \"asc\" (the default) or \"desc\" depending\n on the order\
+    \ you'd like the values sorted, e.g.\n Categories?$orderby=CategoryName desc.\
+    \ Optional.\n:type orderby: str\n:param count: The Boolean value of true or false\
+    \ to request a count of\n the matching resources included with the resources in\
+    \ the response,\n e.g. Categories?$count=true. Optional.\n:type count: bool\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`StorageAccountInfoPaged\n <azure.mgmt.datalake.analytics.account.models.StorageAccountInfoPaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations.list_by_account
+- _type: method
+  class: azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations
+  fullName: azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations.list_sas_tokens
+  module: azure.mgmt.datalake.analytics.account.operations
+  name: list_sas_tokens
+  source:
+    id: list_sas_tokens
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/storage_accounts_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/storage_accounts_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 464
+  summary: "Gets the SAS token associated with the specified Data Lake Analytics\n\
+    and Azure Storage account and container combination.\n\n:param resource_group_name:\
+    \ The name of the Azure resource group that\n contains the Data Lake Analytics\
+    \ account.\n:type resource_group_name: str\n:param account_name: The name of the\
+    \ Data Lake Analytics account from\n which an Azure Storage account's SAS token\
+    \ is being requested.\n:type account_name: str\n:param storage_account_name: The\
+    \ name of the Azure storage account for\n which the SAS token is being requested.\n\
+    :type storage_account_name: str\n:param container_name: The name of the Azure\
+    \ storage container for\n which the SAS token is being requested.\n:type container_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`SasTokenInfoPaged\n <azure.mgmt.datalake.analytics.account.models.SasTokenInfoPaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations.list_sas_tokens
+- _type: method
+  class: azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations
+  fullName: azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations.list_storage_containers
+  module: azure.mgmt.datalake.analytics.account.operations
+  name: list_storage_containers
+  source:
+    id: list_storage_containers
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/storage_accounts_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/storage_accounts_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 387
+  summary: "Lists the Azure Storage containers, if any, associated with the\nspecified\
+    \ Data Lake Analytics and Azure Storage account combination.\nThe response includes\
+    \ a link to the next page of results, if any.\n\n:param resource_group_name: The\
+    \ name of the Azure resource group that\n contains the Data Lake Analytics account.\n\
+    :type resource_group_name: str\n:param account_name: The name of the Data Lake\
+    \ Analytics account for\n which to list Azure Storage blob containers.\n:type\
+    \ account_name: str\n:param storage_account_name: The name of the Azure storage\
+    \ account\n from which to list blob containers.\n:type storage_account_name: str\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`StorageContainerPaged\n <azure.mgmt.datalake.analytics.account.models.StorageContainerPaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations.list_storage_containers
+- _type: method
+  class: azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations
+  fullName: azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations.update
+  module: azure.mgmt.datalake.analytics.account.operations
+  name: update
+  source:
+    id: update
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/storage_accounts_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/storage_accounts_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 166
+  summary: "Updates the Data Lake Analytics account to replace Azure Storage blob\n\
+    account details, such as the access key and/or suffix.\n\n:param resource_group_name:\
+    \ The name of the Azure resource group that\n contains the Data Lake Analytics\
+    \ account.\n:type resource_group_name: str\n:param account_name: The name of the\
+    \ Data Lake Analytics account to\n modify storage accounts in\n:type account_name:\
+    \ str\n:param storage_account_name: The Azure Storage account to modify\n:type\
+    \ storage_account_name: str\n:param access_key: the updated access key associated\
+    \ with this Azure\n Storage account that will be used to connect to it.\n:type\
+    \ access_key: str\n:param suffix: the optional suffix for the storage account.\n\
+    :type suffix: str\n:param dict custom_headers: headers that will be added to the\
+    \ request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.datalake.analytics.account.operations.StorageAccountsOperations.update

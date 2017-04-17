@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.powerbiembedded.models.Operation
+  fullName: azure.mgmt.powerbiembedded.models.Operation
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.powerbiembedded.models
+  name: Operation
+  source:
+    id: Operation
+    path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/models/operation.py
+    remote:
+      branch: master
+      path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/models/operation.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Operation.\n\n:param name: The name of the operation being performed on\
+    \ this particular\n object. This name should match the action name that appears\
+    \ in RBAC /\n the event service.\n:type name: str\n:param display:\n:type display:\
+    \ :class:`Display\n <azure.mgmt.powerbiembedded.models.Display>`"
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.Operation

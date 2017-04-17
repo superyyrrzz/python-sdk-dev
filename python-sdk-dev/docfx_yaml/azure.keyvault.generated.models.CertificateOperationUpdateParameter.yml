@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.keyvault.generated.models.CertificateOperationUpdateParameter
+  fullName: azure.keyvault.generated.models.CertificateOperationUpdateParameter
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.keyvault.generated.models
+  name: CertificateOperationUpdateParameter
+  source:
+    id: CertificateOperationUpdateParameter
+    path: azure-keyvault/azure/keyvault/generated/models/certificate_operation_update_parameter.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/models/certificate_operation_update_parameter.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The certificate operation update parameters.\n\n:param cancellation_requested:\
+    \ Indicates if cancellation was requested on\n the certificate operation.\n:type\
+    \ cancellation_requested: bool"
+  type: Class
+  uid: azure.keyvault.generated.models.CertificateOperationUpdateParameter

@@ -1,0 +1,122 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.resource.policy.operations.PolicyDefinitionsOperations.create_or_update
+  - azure.mgmt.resource.policy.operations.PolicyDefinitionsOperations.delete
+  - azure.mgmt.resource.policy.operations.PolicyDefinitionsOperations.get
+  - azure.mgmt.resource.policy.operations.PolicyDefinitionsOperations.list
+  class: azure.mgmt.resource.policy.operations.PolicyDefinitionsOperations
+  fullName: azure.mgmt.resource.policy.operations.PolicyDefinitionsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.resource.policy.operations
+  name: PolicyDefinitionsOperations
+  source:
+    id: PolicyDefinitionsOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/policy/operations/policy_definitions_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/policy/operations/policy_definitions_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'PolicyDefinitionsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.resource.policy.operations.PolicyDefinitionsOperations
+- _type: method
+  class: azure.mgmt.resource.policy.operations.PolicyDefinitionsOperations
+  fullName: azure.mgmt.resource.policy.operations.PolicyDefinitionsOperations.create_or_update
+  module: azure.mgmt.resource.policy.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/policy/operations/policy_definitions_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/policy/operations/policy_definitions_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Create or update a policy definition.\n\n:param policy_definition_name:\
+    \ The policy definition name.\n:type policy_definition_name: str\n:param parameters:\
+    \ The policy definition properties.\n:type parameters: :class:`PolicyDefinition\n\
+    \ <azure.mgmt.resource.policy.models.PolicyDefinition>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`PolicyDefinition\n\
+    \ <azure.mgmt.resource.policy.models.PolicyDefinition>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.resource.policy.operations.PolicyDefinitionsOperations.create_or_update
+- _type: method
+  class: azure.mgmt.resource.policy.operations.PolicyDefinitionsOperations
+  fullName: azure.mgmt.resource.policy.operations.PolicyDefinitionsOperations.delete
+  module: azure.mgmt.resource.policy.operations
+  name: delete
+  source:
+    id: delete
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/policy/operations/policy_definitions_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/policy/operations/policy_definitions_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 101
+  summary: "Deletes the policy definition.\n\n:param policy_definition_name: The policy\
+    \ definition name.\n:type policy_definition_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.resource.policy.operations.PolicyDefinitionsOperations.delete
+- _type: method
+  class: azure.mgmt.resource.policy.operations.PolicyDefinitionsOperations
+  fullName: azure.mgmt.resource.policy.operations.PolicyDefinitionsOperations.get
+  module: azure.mgmt.resource.policy.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/policy/operations/policy_definitions_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/policy/operations/policy_definitions_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 151
+  summary: "Gets the policy definition.\n\n:param policy_definition_name: The policy\
+    \ definition name.\n:type policy_definition_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`PolicyDefinition\n\
+    \ <azure.mgmt.resource.policy.models.PolicyDefinition>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.resource.policy.operations.PolicyDefinitionsOperations.get
+- _type: method
+  class: azure.mgmt.resource.policy.operations.PolicyDefinitionsOperations
+  fullName: azure.mgmt.resource.policy.operations.PolicyDefinitionsOperations.list
+  module: azure.mgmt.resource.policy.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/policy/operations/policy_definitions_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/policy/operations/policy_definitions_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 209
+  summary: "Gets all the policy definitions of a subscription.\n\n:param filter: The\
+    \ filter to apply on the operation.\n:type filter: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`PolicyDefinitionPaged\n\
+    \ <azure.mgmt.resource.policy.models.PolicyDefinitionPaged>`"
+  type: Method
+  uid: azure.mgmt.resource.policy.operations.PolicyDefinitionsOperations.list

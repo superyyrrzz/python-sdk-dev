@@ -1,0 +1,22 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.eventhub.models.SkuTier
+  fullName: azure.mgmt.eventhub.models.SkuTier
+  inheritance:
+  - enum.Enum
+  - builtins.object
+  module: azure.mgmt.eventhub.models
+  name: SkuTier
+  source:
+    id: SkuTier
+    path: azure-mgmt-eventhub/azure/mgmt/eventhub/models/event_hub_management_client_enums.py
+    remote:
+      branch: master
+      path: azure-mgmt-eventhub/azure/mgmt/eventhub/models/event_hub_management_client_enums.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 22
+  summary: An enumeration.
+  type: Class
+  uid: azure.mgmt.eventhub.models.SkuTier

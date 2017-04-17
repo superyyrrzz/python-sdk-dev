@@ -1,0 +1,63 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.sql.models.ServiceTierAdvisor
+  fullName: azure.mgmt.sql.models.ServiceTierAdvisor
+  inheritance:
+  - azure.mgmt.sql.models.sql_sub_resource.SqlSubResource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.sql.models
+  name: ServiceTierAdvisor
+  source:
+    id: ServiceTierAdvisor
+    path: azure-mgmt-sql/azure/mgmt/sql/models/service_tier_advisor.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/models/service_tier_advisor.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Represents a Service Tier Advisor.\n\nVariables are only populated by\
+    \ the server, and will be ignored when\nsending a request.\n\n:ivar name: Resource\
+    \ name\n:vartype name: str\n:ivar id: The resource ID.\n:vartype id: str\n:ivar\
+    \ observation_period_start: The observation period start (ISO8601\n format).\n\
+    :vartype observation_period_start: datetime\n:ivar observation_period_end: The\
+    \ observation period start (ISO8601\n format).\n:vartype observation_period_end:\
+    \ datetime\n:ivar active_time_ratio: The activeTimeRatio for service tier advisor.\n\
+    :vartype active_time_ratio: float\n:ivar min_dtu: Gets or sets minDtu for service\
+    \ tier advisor.\n:vartype min_dtu: float\n:ivar avg_dtu: Gets or sets avgDtu for\
+    \ service tier advisor.\n:vartype avg_dtu: float\n:ivar max_dtu: Gets or sets\
+    \ maxDtu for service tier advisor.\n:vartype max_dtu: float\n:ivar max_size_in_gb:\
+    \ Gets or sets maxSizeInGB for service tier advisor.\n:vartype max_size_in_gb:\
+    \ float\n:ivar service_level_objective_usage_metrics: Gets or sets\n serviceLevelObjectiveUsageMetrics\
+    \ for the service tier advisor.\n:vartype service_level_objective_usage_metrics:\
+    \ list of\n :class:`SloUsageMetric <azure.mgmt.sql.models.SloUsageMetric>`\n:ivar\
+    \ current_service_level_objective: Gets or sets\n currentServiceLevelObjective\
+    \ for service tier advisor.\n:vartype current_service_level_objective: str\n:ivar\
+    \ current_service_level_objective_id: Gets or sets\n currentServiceLevelObjectiveId\
+    \ for service tier advisor.\n:vartype current_service_level_objective_id: str\n\
+    :ivar usage_based_recommendation_service_level_objective: Gets or sets\n usageBasedRecommendationServiceLevelObjective\
+    \ for service tier advisor.\n:vartype usage_based_recommendation_service_level_objective:\
+    \ str\n:ivar usage_based_recommendation_service_level_objective_id: Gets or sets\n\
+    \ usageBasedRecommendationServiceLevelObjectiveId for service tier advisor.\n\
+    :vartype usage_based_recommendation_service_level_objective_id: str\n:ivar database_size_based_recommendation_service_level_objective:\
+    \ Gets or\n sets databaseSizeBasedRecommendationServiceLevelObjective for service\
+    \ tier\n advisor.\n:vartype database_size_based_recommendation_service_level_objective:\
+    \ str\n:ivar database_size_based_recommendation_service_level_objective_id: Gets\n\
+    \ or sets databaseSizeBasedRecommendationServiceLevelObjectiveId for service\n\
+    \ tier advisor.\n:vartype database_size_based_recommendation_service_level_objective_id:\n\
+    \ str\n:ivar disaster_plan_based_recommendation_service_level_objective: Gets\
+    \ or\n sets disasterPlanBasedRecommendationServiceLevelObjective for service tier\n\
+    \ advisor.\n:vartype disaster_plan_based_recommendation_service_level_objective:\
+    \ str\n:ivar disaster_plan_based_recommendation_service_level_objective_id: Gets\n\
+    \ or sets disasterPlanBasedRecommendationServiceLevelObjectiveId for service\n\
+    \ tier advisor.\n:vartype disaster_plan_based_recommendation_service_level_objective_id:\n\
+    \ str\n:ivar overall_recommendation_service_level_objective: Gets or sets\n overallRecommendationServiceLevelObjective\
+    \ for service tier advisor.\n:vartype overall_recommendation_service_level_objective:\
+    \ str\n:ivar overall_recommendation_service_level_objective_id: Gets or sets\n\
+    \ overallRecommendationServiceLevelObjectiveId for service tier advisor.\n:vartype\
+    \ overall_recommendation_service_level_objective_id: str\n:ivar confidence: Gets\
+    \ or sets confidence for service tier advisor.\n:vartype confidence: float"
+  type: Class
+  uid: azure.mgmt.sql.models.ServiceTierAdvisor

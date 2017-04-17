@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.Sku
+  fullName: azure.mgmt.logic.models.Sku
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: Sku
+  source:
+    id: Sku
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/sku.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/sku.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Sku.\n\n:param name: The name. Possible values include: 'NotSpecified',\
+    \ 'Free',\n 'Shared', 'Basic', 'Standard', 'Premium'\n:type name: str or :class:`SkuName\
+    \ <azure.mgmt.logic.models.SkuName>`\n:param plan: The reference to plan.\n:type\
+    \ plan: :class:`ResourceReference\n <azure.mgmt.logic.models.ResourceReference>`"
+  type: Class
+  uid: azure.mgmt.logic.models.Sku

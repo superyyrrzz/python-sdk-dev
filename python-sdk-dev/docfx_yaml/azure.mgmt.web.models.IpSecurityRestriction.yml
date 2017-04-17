@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.IpSecurityRestriction
+  fullName: azure.mgmt.web.models.IpSecurityRestriction
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: IpSecurityRestriction
+  source:
+    id: IpSecurityRestriction
+    path: azure-mgmt-web/azure/mgmt/web/models/ip_security_restriction.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/ip_security_restriction.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Represents an ip security restriction on a web app.\n\n:param ip_address:\
+    \ IP address the security restriction is valid for\n:type ip_address: str\n:param\
+    \ subnet_mask: Subnet mask for the range of IP addresses the\n restriction is\
+    \ valid for\n:type subnet_mask: str"
+  type: Class
+  uid: azure.mgmt.web.models.IpSecurityRestriction

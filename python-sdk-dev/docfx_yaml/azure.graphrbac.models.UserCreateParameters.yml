@@ -1,0 +1,33 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.graphrbac.models.UserCreateParameters
+  fullName: azure.graphrbac.models.UserCreateParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.graphrbac.models
+  name: UserCreateParameters
+  source:
+    id: UserCreateParameters
+    path: azure-graphrbac/azure/graphrbac/models/user_create_parameters.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/models/user_create_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Request parameters for creating a new work or school account user.\n\n\
+    :param account_enabled: Whether the account is enabled.\n:type account_enabled:\
+    \ bool\n:param display_name: The display name of the user.\n:type display_name:\
+    \ str\n:param password_profile: Password Profile\n:type password_profile: :class:`PasswordProfile\n\
+    \ <azure.graphrbac.models.PasswordProfile>`\n:param user_principal_name: The user\
+    \ principal name\n (someuser@contoso.com). It must contain one of the verified\
+    \ domains for\n the tenant.\n:type user_principal_name: str\n:param mail_nickname:\
+    \ The mail alias for the user.\n:type mail_nickname: str\n:param immutable_id:\
+    \ This must be specified if you are using a federated\n domain for the user's\
+    \ userPrincipalName (UPN) property when creating a new\n user account. It is used\
+    \ to associate an on-premises Active Directory user\n account with their Azure\
+    \ AD user object.\n:type immutable_id: str"
+  type: Class
+  uid: azure.graphrbac.models.UserCreateParameters

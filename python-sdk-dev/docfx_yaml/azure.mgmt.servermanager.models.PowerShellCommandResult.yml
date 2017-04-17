@@ -1,0 +1,33 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.servermanager.models.PowerShellCommandResult
+  fullName: azure.mgmt.servermanager.models.PowerShellCommandResult
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.servermanager.models
+  name: PowerShellCommandResult
+  source:
+    id: PowerShellCommandResult
+    path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/power_shell_command_result.py
+    remote:
+      branch: master
+      path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/power_shell_command_result.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Results from invoking a PowerShell command.\n\n:param message_type: The\
+    \ type of message.\n:type message_type: int\n:param foreground_color: The HTML\
+    \ color string representing the foreground\n color.\n:type foreground_color: str\n\
+    :param background_color: The HTML color string representing the background\n color.\n\
+    :type background_color: str\n:param value: Actual result text from the PowerShell\
+    \ Command.\n:type value: str\n:param prompt: The interactive prompt message.\n\
+    :type prompt: str\n:param exit_code: The exit code from a executable that was\
+    \ called from\n PowerShell.\n:type exit_code: int\n:param id: ID of the prompt\
+    \ message.\n:type id: int\n:param caption: Text that precedes the prompt.\n:type\
+    \ caption: str\n:param message: Text of the prompt.\n:type message: str\n:param\
+    \ descriptions: Collection of PromptFieldDescription objects that\n contains the\
+    \ user input.\n:type descriptions: list of :class:`PromptFieldDescription\n <azure.mgmt.servermanager.models.PromptFieldDescription>`"
+  type: Class
+  uid: azure.mgmt.servermanager.models.PowerShellCommandResult

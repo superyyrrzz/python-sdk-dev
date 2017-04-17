@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.PoolUpgradeOSParameter
+  fullName: azure.batch.models.PoolUpgradeOSParameter
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: PoolUpgradeOSParameter
+  source:
+    id: PoolUpgradeOSParameter
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/pool_upgrade_os_parameter.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/pool_upgrade_os_parameter.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Parameters for a CloudPoolOperations.UpgradeOS request.\n\n:param target_os_version:\
+    \ The Azure Guest OS version to be installed on\n the virtual machines in the\
+    \ pool.\n:type target_os_version: str"
+  type: Class
+  uid: azure.batch.models.PoolUpgradeOSParameter

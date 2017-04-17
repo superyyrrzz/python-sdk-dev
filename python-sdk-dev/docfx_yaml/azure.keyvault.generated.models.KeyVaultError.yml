@@ -1,0 +1,32 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.keyvault.generated.models.KeyVaultError
+  fullName: azure.keyvault.generated.models.KeyVaultError
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.keyvault.generated.models
+  name: KeyVaultError
+  source:
+    id: KeyVaultError
+    path: azure-keyvault/azure/keyvault/generated/models/key_vault_error.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/models/key_vault_error.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 16
+  summary: 'The key vault error exception.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar error:
+
+    :vartype error: :class:`Error <azure.keyvault.generated.models.Error>`'
+  type: Class
+  uid: azure.keyvault.generated.models.KeyVaultError

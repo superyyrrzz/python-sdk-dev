@@ -1,0 +1,86 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.CloudPool
+  fullName: azure.batch.models.CloudPool
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: CloudPool
+  source:
+    id: CloudPool
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/cloud_pool.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/cloud_pool.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A pool in the Azure Batch service.\n\n:param id: A string that uniquely\
+    \ identifies the pool within the account.\n The id can contain any combination\
+    \ of alphanumeric characters including\n hyphens and underscores, and cannot contain\
+    \ more than 64 characters. It\n is common to use a GUID for the id.\n:type id:\
+    \ str\n:param display_name: The display name for the pool.\n:type display_name:\
+    \ str\n:param url: The URL of the pool.\n:type url: str\n:param e_tag: The ETag\
+    \ of the pool.\n:type e_tag: str\n:param last_modified: The last modified time\
+    \ of the pool.\n:type last_modified: datetime\n:param creation_time: The creation\
+    \ time of the pool.\n:type creation_time: datetime\n:param state: The current\
+    \ state of the pool. Possible values include:\n 'active', 'deleting', 'upgrading'\n\
+    :type state: str or :class:`PoolState <azure.batch.models.PoolState>`\n:param\
+    \ state_transition_time: The time at which the pool entered its\n current state.\n\
+    :type state_transition_time: datetime\n:param allocation_state: Whether the pool\
+    \ is resizing. Possible values\n include: 'steady', 'resizing', 'stopping'\n:type\
+    \ allocation_state: str or :class:`AllocationState\n <azure.batch.models.AllocationState>`\n\
+    :param allocation_state_transition_time: The time at which the pool\n entered\
+    \ its current allocation state.\n:type allocation_state_transition_time: datetime\n\
+    :param vm_size: The size of virtual machines in the pool. All virtual\n machines\
+    \ in a pool are the same size.\n:type vm_size: str\n:param cloud_service_configuration:\
+    \ The cloud service configuration for\n the pool. This property and virtualMachineConfiguration\
+    \ are mutually\n exclusive and one of the properties must be specified.\n:type\
+    \ cloud_service_configuration: :class:`CloudServiceConfiguration\n <azure.batch.models.CloudServiceConfiguration>`\n\
+    :param virtual_machine_configuration: The virtual machine configuration\n for\
+    \ the pool. This property and cloudServiceConfiguration are mutually\n exclusive\
+    \ and one of the properties must be specified.\n:type virtual_machine_configuration:\
+    \ :class:`VirtualMachineConfiguration\n <azure.batch.models.VirtualMachineConfiguration>`\n\
+    :param resize_timeout: The timeout for allocation of compute nodes to the\n pool.\
+    \ This is the timeout for the most recent resize operation. The\n default value\
+    \ is 10 minutes.\n:type resize_timeout: timedelta\n:param resize_error: Details\
+    \ of any error encountered while performing\n the last resize on the pool. This\
+    \ property is set only if an error\n occurred during the last pool resize, and\
+    \ only when the pool\n allocationState is Steady.\n:type resize_error: :class:`ResizeError\
+    \ <azure.batch.models.ResizeError>`\n:param current_dedicated: The number of compute\
+    \ nodes currently in the\n pool.\n:type current_dedicated: int\n:param target_dedicated:\
+    \ The desired number of compute nodes in the pool.\n This property must have the\
+    \ default value if enableAutoScale is true. It\n is required if enableAutoScale\
+    \ is false.\n:type target_dedicated: int\n:param enable_auto_scale: Whether the\
+    \ pool size should automatically\n adjust over time. If true, the autoScaleFormula\
+    \ property must be set. If\n false, the targetDedicated property must be set.\n\
+    :type enable_auto_scale: bool\n:param auto_scale_formula: A formula for the desired\
+    \ number of compute\n nodes in the pool.\n:type auto_scale_formula: str\n:param\
+    \ auto_scale_evaluation_interval: A time interval for the desired\n AutoScale\
+    \ evaluation period in the pool.\n:type auto_scale_evaluation_interval: timedelta\n\
+    :param auto_scale_run: The results and errors from the last execution of\n the\
+    \ autoscale formula.\n:type auto_scale_run: :class:`AutoScaleRun\n <azure.batch.models.AutoScaleRun>`\n\
+    :param enable_inter_node_communication: Whether the pool permits direct\n communication\
+    \ between nodes.\n:type enable_inter_node_communication: bool\n:param network_configuration:\
+    \ The network configuration for the pool.\n:type network_configuration: :class:`NetworkConfiguration\n\
+    \ <azure.batch.models.NetworkConfiguration>`\n:param start_task: A task specified\
+    \ to run on each compute node as it\n joins the pool.\n:type start_task: :class:`StartTask\
+    \ <azure.batch.models.StartTask>`\n:param certificate_references: The list of\
+    \ certificates to be installed\n on each compute node in the pool.\n:type certificate_references:\
+    \ list of :class:`CertificateReference\n <azure.batch.models.CertificateReference>`\n\
+    :param application_package_references: The list of application packages\n to be\
+    \ installed on each compute node in the pool.\n:type application_package_references:\
+    \ list of\n :class:`ApplicationPackageReference\n <azure.batch.models.ApplicationPackageReference>`\n\
+    :param max_tasks_per_node: The maximum number of tasks that can run\n concurrently\
+    \ on a single compute node in the pool.\n:type max_tasks_per_node: int\n:param\
+    \ task_scheduling_policy: How the Batch service distributes tasks\n between compute\
+    \ nodes in the pool.\n:type task_scheduling_policy: :class:`TaskSchedulingPolicy\n\
+    \ <azure.batch.models.TaskSchedulingPolicy>`\n:param metadata: A list of name-value\
+    \ pairs associated with the pool as\n metadata.\n:type metadata: list of :class:`MetadataItem\n\
+    \ <azure.batch.models.MetadataItem>`\n:param stats: Utilization and resource usage\
+    \ statistics for the entire\n lifetime of the pool.\n:type stats: :class:`PoolStatistics\
+    \ <azure.batch.models.PoolStatistics>`"
+  type: Class
+  uid: azure.batch.models.CloudPool

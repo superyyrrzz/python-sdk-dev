@@ -1,0 +1,30 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.VirtualMachineScaleSetVMProfile
+  fullName: azure.mgmt.compute.models.VirtualMachineScaleSetVMProfile
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: VirtualMachineScaleSetVMProfile
+  source:
+    id: VirtualMachineScaleSetVMProfile
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_scale_set_vm_profile.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_scale_set_vm_profile.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Describes a virtual machine scale set virtual machine profile.\n\n:param\
+    \ os_profile: the virtual machine scale set OS profile.\n:type os_profile: :class:`VirtualMachineScaleSetOSProfile\n\
+    \ <azure.mgmt.compute.models.VirtualMachineScaleSetOSProfile>`\n:param storage_profile:\
+    \ the virtual machine scale set storage profile.\n:type storage_profile: :class:`VirtualMachineScaleSetStorageProfile\n\
+    \ <azure.mgmt.compute.models.VirtualMachineScaleSetStorageProfile>`\n:param network_profile:\
+    \ the virtual machine scale set network profile.\n:type network_profile: :class:`VirtualMachineScaleSetNetworkProfile\n\
+    \ <azure.mgmt.compute.models.VirtualMachineScaleSetNetworkProfile>`\n:param extension_profile:\
+    \ the virtual machine scale set extension profile.\n:type extension_profile: :class:`VirtualMachineScaleSetExtensionProfile\n\
+    \ <azure.mgmt.compute.models.VirtualMachineScaleSetExtensionProfile>`"
+  type: Class
+  uid: azure.mgmt.compute.models.VirtualMachineScaleSetVMProfile

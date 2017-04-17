@@ -1,0 +1,36 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.storage.models.StorageAccountCheckNameAvailabilityParameters
+  fullName: azure.mgmt.storage.models.StorageAccountCheckNameAvailabilityParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.storage.models
+  name: StorageAccountCheckNameAvailabilityParameters
+  source:
+    id: StorageAccountCheckNameAvailabilityParameters
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/models/storage_account_check_name_availability_parameters.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/models/storage_account_check_name_availability_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'StorageAccountCheckNameAvailabilityParameters.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :param name:
+
+    :type name: str
+
+    :ivar type:  Default value: "Microsoft.Storage/storageAccounts" .
+
+    :vartype type: str'
+  type: Class
+  uid: azure.mgmt.storage.models.StorageAccountCheckNameAvailabilityParameters

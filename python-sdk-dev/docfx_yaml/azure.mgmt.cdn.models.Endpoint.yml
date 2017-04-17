@@ -1,0 +1,62 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.cdn.models.Endpoint
+  fullName: azure.mgmt.cdn.models.Endpoint
+  inheritance:
+  - azure.mgmt.cdn.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.cdn.models
+  name: Endpoint
+  source:
+    id: Endpoint
+    path: azure-mgmt-cdn/azure/mgmt/cdn/models/endpoint.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/models/endpoint.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "CDN endpoint is the entity within a CDN profile containing configuration\n\
+    information such as origin, protocol, content caching and delivery\nbehavior.\
+    \ The CDN endpoint uses the URL format\n<endpointname>.azureedge.net.\n\nVariables\
+    \ are only populated by the server, and will be ignored when\nsending a request.\n\
+    \n:ivar id: Resource ID.\n:vartype id: str\n:ivar name: Resource name.\n:vartype\
+    \ name: str\n:ivar type: Resource type.\n:vartype type: str\n:param location:\
+    \ Resource location.\n:type location: str\n:param tags: Resource tags.\n:type\
+    \ tags: dict\n:param origin_host_header: The host header CDN sends along with\
+    \ content\n requests to origin. The default value is the host name of the origin.\n\
+    :type origin_host_header: str\n:param origin_path: The path used when CDN sends\
+    \ request to origin.\n:type origin_path: str\n:param content_types_to_compress:\
+    \ List of content types on which\n compression applies. The value should be a\
+    \ valid MIME type.\n:type content_types_to_compress: list of str\n:param is_compression_enabled:\
+    \ Indicates whether content compression is\n enabled on CDN. Default value is\
+    \ false. If compression is enabled, content\n will be served as compressed if\
+    \ user requests for a compressed version.\n Content won't be compressed on CDN\
+    \ when requested content is smaller than\n 1 byte or larger than 1 MB.\n:type\
+    \ is_compression_enabled: bool\n:param is_http_allowed: Indicates whether HTTP\
+    \ traffic is allowed on the\n endpoint. Default value is true. At least one protocol\
+    \ (HTTP or HTTPS)\n must be allowed.\n:type is_http_allowed: bool\n:param is_https_allowed:\
+    \ Indicates whether HTTPS traffic is allowed on the\n endpoint. Default value\
+    \ is true. At least one protocol (HTTP or HTTPS)\n must be allowed.\n:type is_https_allowed:\
+    \ bool\n:param query_string_caching_behavior: Defines the query string caching\n\
+    \ behavior. Possible values include: 'IgnoreQueryString', 'BypassCaching',\n 'UseQueryString',\
+    \ 'NotSet'\n:type query_string_caching_behavior: str or\n :class:`QueryStringCachingBehavior\n\
+    \ <azure.mgmt.cdn.models.QueryStringCachingBehavior>`\n:param optimization_type:\
+    \ Customer can specify what scenario they want\n this CDN endpoint to optimize,\
+    \ e.g. Download, Media services. With this\n information we can apply scenario\
+    \ driven optimization.\n:type optimization_type: str\n:param geo_filters: List\
+    \ of rules defining user geo access within a CDN\n endpoint. Each geo filter defines\
+    \ an acess rule to a specified path or\n content, e.g. block APAC for path /pictures/\n\
+    :type geo_filters: list of :class:`GeoFilter\n <azure.mgmt.cdn.models.GeoFilter>`\n\
+    :ivar host_name: The host name of the endpoint structured as\n {endpointName}.{DNSZone},\
+    \ e.g. consoto.azureedge.net\n:vartype host_name: str\n:param origins: The source\
+    \ of the content being delivered via CDN.\n:type origins: list of :class:`DeepCreatedOrigin\n\
+    \ <azure.mgmt.cdn.models.DeepCreatedOrigin>`\n:ivar resource_state: Resource status\
+    \ of the endpoint. Possible values\n include: 'Creating', 'Deleting', 'Running',\
+    \ 'Starting', 'Stopped',\n 'Stopping'\n:vartype resource_state: str or :class:`EndpointResourceState\n\
+    \ <azure.mgmt.cdn.models.EndpointResourceState>`\n:ivar provisioning_state: Provisioning\
+    \ status of the endpoint.\n:vartype provisioning_state: str"
+  type: Class
+  uid: azure.mgmt.cdn.models.Endpoint

@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.powerbiembedded.models.CheckNameRequest
+  fullName: azure.mgmt.powerbiembedded.models.CheckNameRequest
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.powerbiembedded.models
+  name: CheckNameRequest
+  source:
+    id: CheckNameRequest
+    path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/models/check_name_request.py
+    remote:
+      branch: master
+      path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/models/check_name_request.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "CheckNameRequest.\n\n:param name: Workspace collection name\n:type name:\
+    \ str\n:param type: Resource type. Default value:\n \"Microsoft.PowerBI/workspaceCollections\"\
+    \ .\n:type type: str"
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.CheckNameRequest

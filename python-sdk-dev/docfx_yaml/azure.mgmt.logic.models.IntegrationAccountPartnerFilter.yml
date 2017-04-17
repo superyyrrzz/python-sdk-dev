@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.IntegrationAccountPartnerFilter
+  fullName: azure.mgmt.logic.models.IntegrationAccountPartnerFilter
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: IntegrationAccountPartnerFilter
+  source:
+    id: IntegrationAccountPartnerFilter
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/integration_account_partner_filter.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/integration_account_partner_filter.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "IntegrationAccountPartnerFilter.\n\n:param partner_type: The partner type\
+    \ of integration account partner.\n Possible values include: 'NotSpecified', 'B2B'\n\
+    :type partner_type: str or :class:`PartnerType\n <azure.mgmt.logic.models.PartnerType>`"
+  type: Class
+  uid: azure.mgmt.logic.models.IntegrationAccountPartnerFilter

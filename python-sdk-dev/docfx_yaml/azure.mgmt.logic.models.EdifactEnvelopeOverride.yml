@@ -1,0 +1,42 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.EdifactEnvelopeOverride
+  fullName: azure.mgmt.logic.models.EdifactEnvelopeOverride
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: EdifactEnvelopeOverride
+  source:
+    id: EdifactEnvelopeOverride
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/edifact_envelope_override.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/edifact_envelope_override.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "EdifactEnvelopeOverride.\n\n:param message_id: The message id on which\
+    \ this envelope settings has to\n be applied.\n:type message_id: str\n:param message_version:\
+    \ The message version on which this envelope\n settings has to be applied.\n:type\
+    \ message_version: str\n:param message_release: The message release version on\
+    \ which this\n envelope settings has to be applied.\n:type message_release: str\n\
+    :param message_association_assigned_code: The message association\n assigned code.\n\
+    :type message_association_assigned_code: str\n:param target_namespace: The target\
+    \ namespace on which this envelope\n settings has to be applied.\n:type target_namespace:\
+    \ str\n:param functional_group_id: The functional group id.\n:type functional_group_id:\
+    \ str\n:param sender_application_qualifier: The sender application qualifier.\n\
+    :type sender_application_qualifier: str\n:param sender_application_id: The sender\
+    \ application id.\n:type sender_application_id: str\n:param receiver_application_qualifier:\
+    \ The receiver application qualifier.\n:type receiver_application_qualifier: str\n\
+    :param receiver_application_id: The receiver application id.\n:type receiver_application_id:\
+    \ str\n:param controlling_agency_code: The controlling agency code.\n:type controlling_agency_code:\
+    \ str\n:param group_header_message_version: The group header message version.\n\
+    :type group_header_message_version: str\n:param group_header_message_release:\
+    \ The group header message release.\n:type group_header_message_release: str\n\
+    :param association_assigned_code: The association assigned code.\n:type association_assigned_code:\
+    \ str\n:param application_password: The application password.\n:type application_password:\
+    \ str"
+  type: Class
+  uid: azure.mgmt.logic.models.EdifactEnvelopeOverride

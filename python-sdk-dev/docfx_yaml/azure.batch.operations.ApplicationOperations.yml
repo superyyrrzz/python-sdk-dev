@@ -1,0 +1,78 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.batch.operations.ApplicationOperations.get
+  - azure.batch.operations.ApplicationOperations.list
+  class: azure.batch.operations.ApplicationOperations
+  fullName: azure.batch.operations.ApplicationOperations
+  inheritance:
+  - builtins.object
+  module: azure.batch.operations
+  name: ApplicationOperations
+  source:
+    id: ApplicationOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/application_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/application_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 18
+  summary: 'ApplicationOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.batch.operations.ApplicationOperations
+- _type: method
+  class: azure.batch.operations.ApplicationOperations
+  fullName: azure.batch.operations.ApplicationOperations.get
+  module: azure.batch.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/application_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/application_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 121
+  summary: "Gets information about the specified application.\n\n:param application_id:\
+    \ The id of the application.\n:type application_id: str\n:param application_get_options:\
+    \ Additional parameters for the\n operation\n:type application_get_options: :class:`ApplicationGetOptions\n\
+    \ <azure.batch.models.ApplicationGetOptions>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ApplicationSummary\n\
+    \ <azure.batch.models.ApplicationSummary>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.batch.operations.ApplicationOperations.get
+- _type: method
+  class: azure.batch.operations.ApplicationOperations
+  fullName: azure.batch.operations.ApplicationOperations.list
+  module: azure.batch.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/application_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/application_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 35
+  summary: "Lists all of the applications available in the specified account.\n\n\
+    :param application_list_options: Additional parameters for the\n operation\n:type\
+    \ application_list_options: :class:`ApplicationListOptions\n <azure.batch.models.ApplicationListOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`ApplicationSummaryPaged\n <azure.batch.models.ApplicationSummaryPaged>`"
+  type: Method
+  uid: azure.batch.operations.ApplicationOperations.list

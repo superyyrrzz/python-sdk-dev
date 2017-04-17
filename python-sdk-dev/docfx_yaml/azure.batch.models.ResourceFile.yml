@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.ResourceFile
+  fullName: azure.batch.models.ResourceFile
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: ResourceFile
+  source:
+    id: ResourceFile
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/resource_file.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/resource_file.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A file to be downloaded from Azure blob storage to a compute node.\n\n\
+    :param blob_source: The URL of the file within Azure Blob Storage. This\n URL\
+    \ should include a shared access signature if the blob is not publicly\n readable.\n\
+    :type blob_source: str\n:param file_path: The location to which to download the\
+    \ file, relative to\n the task's working directory.\n:type file_path: str\n:param\
+    \ file_mode: The file mode attribute in octal format. This property\n will be\
+    \ ignored if it is specified for a resourceFile which will be\n downloaded to\
+    \ a Windows compute node.\n:type file_mode: str"
+  type: Class
+  uid: azure.batch.models.ResourceFile

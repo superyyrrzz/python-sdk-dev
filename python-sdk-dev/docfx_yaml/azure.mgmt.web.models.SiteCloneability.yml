@@ -1,0 +1,32 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.SiteCloneability
+  fullName: azure.mgmt.web.models.SiteCloneability
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: SiteCloneability
+  source:
+    id: SiteCloneability
+    path: azure-mgmt-web/azure/mgmt/web/models/site_cloneability.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/site_cloneability.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Represents whether or not a web app is cloneable.\n\n:param result: Name\
+    \ of web app. Possible values include: 'Cloneable',\n 'PartiallyCloneable', 'NotCloneable'\n\
+    :type result: str or :class:`CloneAbilityResult\n <azure.mgmt.web.models.CloneAbilityResult>`\n\
+    :param blocking_features: List of features enabled on web app that\n prevent cloning\n\
+    :type blocking_features: list of :class:`SiteCloneabilityCriterion\n <azure.mgmt.web.models.SiteCloneabilityCriterion>`\n\
+    :param unsupported_features: List of features enabled on web app that are\n non-blocking\
+    \ but cannot be cloned. The web app can still be cloned\n but the features in\
+    \ this list will not be set up on cloned\n web app.\n:type unsupported_features:\
+    \ list of :class:`SiteCloneabilityCriterion\n <azure.mgmt.web.models.SiteCloneabilityCriterion>`\n\
+    :param blocking_characteristics: List of blocking application\n characteristics\n\
+    :type blocking_characteristics: list of :class:`SiteCloneabilityCriterion\n <azure.mgmt.web.models.SiteCloneabilityCriterion>`"
+  type: Class
+  uid: azure.mgmt.web.models.SiteCloneability

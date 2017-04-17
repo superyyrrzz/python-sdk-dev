@@ -1,0 +1,36 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.VnetInfo
+  fullName: azure.mgmt.web.models.VnetInfo
+  inheritance:
+  - azure.mgmt.web.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: VnetInfo
+  source:
+    id: VnetInfo
+    path: azure-mgmt-web/azure/mgmt/web/models/vnet_info.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/vnet_info.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "VNETInfo contract. This contract is public and is a stripped down version\n\
+    of VNETInfoInternal.\n\n:param id: Resource Id\n:type id: str\n:param name: Resource\
+    \ Name\n:type name: str\n:param kind: Kind of resource\n:type kind: str\n:param\
+    \ location: Resource Location\n:type location: str\n:param type: Resource type\n\
+    :type type: str\n:param tags: Resource tags\n:type tags: dict\n:param vnet_resource_id:\
+    \ The vnet resource id\n:type vnet_resource_id: str\n:param cert_thumbprint: The\
+    \ client certificate thumbprint\n:type cert_thumbprint: str\n:param cert_blob:\
+    \ A certificate file (.cer) blob containing the public\n key of the private key\
+    \ used to authenticate a\n Point-To-Site VPN connection.\n:type cert_blob: str\n\
+    :param routes: The routes that this virtual network connection uses.\n:type routes:\
+    \ list of :class:`VnetRoute <azure.mgmt.web.models.VnetRoute>`\n:param resync_required:\
+    \ Flag to determine if a resync is required\n:type resync_required: bool\n:param\
+    \ dns_servers: Dns servers to be used by this VNET. This should be a\n comma-separated\
+    \ list of IP addresses.\n:type dns_servers: str"
+  type: Class
+  uid: azure.mgmt.web.models.VnetInfo

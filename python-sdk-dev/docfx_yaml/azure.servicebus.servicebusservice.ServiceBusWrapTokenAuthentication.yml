@@ -1,0 +1,38 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.servicebus.servicebusservice.ServiceBusWrapTokenAuthentication.sign_request
+  class: azure.servicebus.servicebusservice.ServiceBusWrapTokenAuthentication
+  fullName: azure.servicebus.servicebusservice.ServiceBusWrapTokenAuthentication
+  inheritance:
+  - builtins.object
+  module: azure.servicebus.servicebusservice
+  name: ServiceBusWrapTokenAuthentication
+  source:
+    id: ServiceBusWrapTokenAuthentication
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1213
+  summary: ''
+  type: Class
+  uid: azure.servicebus.servicebusservice.ServiceBusWrapTokenAuthentication
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusWrapTokenAuthentication
+  fullName: azure.servicebus.servicebusservice.ServiceBusWrapTokenAuthentication.sign_request
+  module: azure.servicebus.servicebusservice
+  name: sign_request
+  source:
+    id: sign_request
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1218
+  summary: ''
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusWrapTokenAuthentication.sign_request

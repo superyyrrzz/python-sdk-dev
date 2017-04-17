@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.graphrbac.models.GraphError
+  fullName: azure.graphrbac.models.GraphError
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.graphrbac.models
+  name: GraphError
+  source:
+    id: GraphError
+    path: azure-graphrbac/azure/graphrbac/models/graph_error.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/models/graph_error.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 16
+  summary: 'Active Directory error information.
+
+
+    :param code: Error code.
+
+    :type code: str
+
+    :param message: Error message value.
+
+    :type message: str'
+  type: Class
+  uid: azure.graphrbac.models.GraphError

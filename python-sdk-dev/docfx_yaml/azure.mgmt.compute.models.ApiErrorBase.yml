@@ -1,0 +1,35 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.ApiErrorBase
+  fullName: azure.mgmt.compute.models.ApiErrorBase
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: ApiErrorBase
+  source:
+    id: ApiErrorBase
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/api_error_base.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/api_error_base.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Api error base.
+
+
+    :param code: the error code.
+
+    :type code: str
+
+    :param target: the target of the particular error.
+
+    :type target: str
+
+    :param message: the error message.
+
+    :type message: str'
+  type: Class
+  uid: azure.mgmt.compute.models.ApiErrorBase

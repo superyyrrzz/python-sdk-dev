@@ -1,0 +1,22 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.monitor.models.ComparisonOperationType
+  fullName: azure.mgmt.monitor.models.ComparisonOperationType
+  inheritance:
+  - enum.Enum
+  - builtins.object
+  module: azure.mgmt.monitor.models
+  name: ComparisonOperationType
+  source:
+    id: ComparisonOperationType
+    path: azure-mgmt-monitor/azure/mgmt/monitor/models/insights_management_client_enums.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/models/insights_management_client_enums.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 32
+  summary: An enumeration.
+  type: Class
+  uid: azure.mgmt.monitor.models.ComparisonOperationType

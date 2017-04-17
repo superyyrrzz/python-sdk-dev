@@ -1,0 +1,23 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.powerbiembedded.models.OperationList
+  fullName: azure.mgmt.powerbiembedded.models.OperationList
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.powerbiembedded.models
+  name: OperationList
+  source:
+    id: OperationList
+    path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/models/operation_list.py
+    remote:
+      branch: master
+      path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/models/operation_list.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "OperationList.\n\n:param value:\n:type value: list of :class:`Operation\n\
+    \ <azure.mgmt.powerbiembedded.models.Operation>`"
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.OperationList

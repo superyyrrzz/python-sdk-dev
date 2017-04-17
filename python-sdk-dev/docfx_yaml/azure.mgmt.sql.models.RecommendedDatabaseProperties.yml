@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.sql.models.RecommendedDatabaseProperties
+  fullName: azure.mgmt.sql.models.RecommendedDatabaseProperties
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.sql.models
+  name: RecommendedDatabaseProperties
+  source:
+    id: RecommendedDatabaseProperties
+    path: azure-mgmt-sql/azure/mgmt/sql/models/recommended_database_properties.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/models/recommended_database_properties.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Represents the properties of a recommended Azure SQL Database being\n\
+    upgraded.\n\n:param name: The name of the Azure SQL database being upgraded.\n\
+    :type name: str\n:param target_edition: The target edition for the Azure SQL database\
+    \ being\n upgraded. Possible values include: 'Basic', 'Standard', 'Premium', 'Free',\n\
+    \ 'Stretch', 'DataWarehouse'\n:type target_edition: str or :class:`TargetDatabaseEditions\n\
+    \ <azure.mgmt.sql.models.TargetDatabaseEditions>`\n:param target_service_level_objective:\
+    \ The target Service Level Objective\n for the Azure SQL database being upgraded.\n\
+    :type target_service_level_objective: str"
+  type: Class
+  uid: azure.mgmt.sql.models.RecommendedDatabaseProperties

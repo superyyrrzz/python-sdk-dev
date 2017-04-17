@@ -1,0 +1,39 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.TldLegalAgreement
+  fullName: azure.mgmt.web.models.TldLegalAgreement
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: TldLegalAgreement
+  source:
+    id: TldLegalAgreement
+    path: azure-mgmt-web/azure/mgmt/web/models/tld_legal_agreement.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/tld_legal_agreement.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Represents a legal agreement for top level domain.
+
+
+    :param agreement_key: Unique identifier for the agreement
+
+    :type agreement_key: str
+
+    :param title: Agreement title
+
+    :type title: str
+
+    :param content: Agreement details
+
+    :type content: str
+
+    :param url: Url where a copy of the agreement details is hosted
+
+    :type url: str'
+  type: Class
+  uid: azure.mgmt.web.models.TldLegalAgreement

@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.NetworkConfiguration
+  fullName: azure.batch.models.NetworkConfiguration
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: NetworkConfiguration
+  source:
+    id: NetworkConfiguration
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/network_configuration.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/network_configuration.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The network configuration for a pool.\n\n:param subnet_id: The ARM resource\
+    \ identifier of the virtual network\n subnet which the compute nodes of the pool\
+    \ will join. The virtual\n network must be in the same region and subscription\
+    \ as the Azure Batch\n account. This property can only be specified for pools\
+    \ created with a\n cloudServiceConfiguration.\n:type subnet_id: str"
+  type: Class
+  uid: azure.batch.models.NetworkConfiguration

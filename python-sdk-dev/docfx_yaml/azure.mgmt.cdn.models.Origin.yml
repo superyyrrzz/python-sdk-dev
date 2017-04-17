@@ -1,0 +1,38 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.cdn.models.Origin
+  fullName: azure.mgmt.cdn.models.Origin
+  inheritance:
+  - azure.mgmt.cdn.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.cdn.models
+  name: Origin
+  source:
+    id: Origin
+    path: azure-mgmt-cdn/azure/mgmt/cdn/models/origin.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/models/origin.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "CDN origin is the source of the content being delivered via CDN. When\
+    \ the\nedge nodes represented by an endpoint do not have the requested content\n\
+    cached, they attempt to fetch it from one or more of the configured\norigins.\n\
+    \nVariables are only populated by the server, and will be ignored when\nsending\
+    \ a request.\n\n:ivar id: Resource ID.\n:vartype id: str\n:ivar name: Resource\
+    \ name.\n:vartype name: str\n:ivar type: Resource type.\n:vartype type: str\n\
+    :param location: Resource location.\n:type location: str\n:param tags: Resource\
+    \ tags.\n:type tags: dict\n:param host_name: The address of the origin. Domain\
+    \ names, IPv4 addresses,\n and IPv6 addresses are supported.\n:type host_name:\
+    \ str\n:param http_port: The value of the HTTP port. Must be between 1 and 65535.\n\
+    :type http_port: int\n:param https_port: The value of the https port. Must be\
+    \ between 1 and\n 65535.\n:type https_port: int\n:ivar resource_state: Resource\
+    \ status of the origin. Possible values\n include: 'Creating', 'Active', 'Deleting'\n\
+    :vartype resource_state: str or :class:`OriginResourceState\n <azure.mgmt.cdn.models.OriginResourceState>`\n\
+    :ivar provisioning_state: Provisioning status of the origin.\n:vartype provisioning_state:\
+    \ str"
+  type: Class
+  uid: azure.mgmt.cdn.models.Origin

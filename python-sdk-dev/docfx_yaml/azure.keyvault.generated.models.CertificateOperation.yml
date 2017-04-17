@@ -1,0 +1,36 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.keyvault.generated.models.CertificateOperation
+  fullName: azure.keyvault.generated.models.CertificateOperation
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.keyvault.generated.models
+  name: CertificateOperation
+  source:
+    id: CertificateOperation
+    path: azure-keyvault/azure/keyvault/generated/models/certificate_operation.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/models/certificate_operation.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A certificate operation is returned in case of asynchronous requests.\n\
+    \nVariables are only populated by the server, and will be ignored when\nsending\
+    \ a request.\n\n:ivar id: The certificate id.\n:vartype id: str\n:param issuer_parameters:\
+    \ Parameters for the issuer of the X509 component\n of a certificate.\n:type issuer_parameters:\
+    \ :class:`IssuerParameters\n <azure.keyvault.generated.models.IssuerParameters>`\n\
+    :param csr: The certificate signing request (CSR) that is being used in\n the\
+    \ certificate operation.\n:type csr: bytearray\n:param cancellation_requested:\
+    \ Indicates if cancellation was requested on\n the certificate operation.\n:type\
+    \ cancellation_requested: bool\n:param status: Status of the certificate operation.\n\
+    :type status: str\n:param status_details: The status details of the certificate\
+    \ operation.\n:type status_details: str\n:param error: Error encountered, if any,\
+    \ during the certificate operation.\n:type error: :class:`Error <azure.keyvault.generated.models.Error>`\n\
+    :param target: Location which contains the result of the certificate\n operation.\n\
+    :type target: str\n:param request_id: Identifier for the certificate operation.\n\
+    :type request_id: str"
+  type: Class
+  uid: azure.keyvault.generated.models.CertificateOperation

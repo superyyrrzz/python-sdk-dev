@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.servicemanagement.models.Listener
+  fullName: azure.servicemanagement.models.Listener
+  inheritance:
+  - azure.servicemanagement._common_models.WindowsAzureData
+  - builtins.object
+  module: azure.servicemanagement.models
+  name: Listener
+  source:
+    id: Listener
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/models.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/models.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1299
+  summary: "Specifies the protocol and certificate information for the listener.\n\
+    \nprotocol:\n    Specifies the protocol of listener.  Possible values are: Http,\
+    \ Https.\n    The value is case sensitive.\ncertificate_thumbprint:\n    Optional.\
+    \ Specifies the certificate thumbprint for the secure\n    connection. If this\
+    \ value is not specified, a self-signed certificate is\n    generated and used\
+    \ for the Virtual Machine."
+  type: Class
+  uid: azure.servicemanagement.models.Listener

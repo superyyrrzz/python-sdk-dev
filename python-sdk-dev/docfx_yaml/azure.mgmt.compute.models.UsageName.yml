@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.UsageName
+  fullName: azure.mgmt.compute.models.UsageName
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: UsageName
+  source:
+    id: UsageName
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/usage_name.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/usage_name.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'The Usage Names.
+
+
+    :param value: a string describing the resource name.
+
+    :type value: str
+
+    :param localized_value: a localized string describing the resource name.
+
+    :type localized_value: str'
+  type: Class
+  uid: azure.mgmt.compute.models.UsageName

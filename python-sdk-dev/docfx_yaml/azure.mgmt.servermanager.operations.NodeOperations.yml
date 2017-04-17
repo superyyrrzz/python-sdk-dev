@@ -1,0 +1,184 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.servermanager.operations.NodeOperations.create
+  - azure.mgmt.servermanager.operations.NodeOperations.delete
+  - azure.mgmt.servermanager.operations.NodeOperations.get
+  - azure.mgmt.servermanager.operations.NodeOperations.list
+  - azure.mgmt.servermanager.operations.NodeOperations.list_for_resource_group
+  - azure.mgmt.servermanager.operations.NodeOperations.update
+  class: azure.mgmt.servermanager.operations.NodeOperations
+  fullName: azure.mgmt.servermanager.operations.NodeOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.servermanager.operations
+  name: NodeOperations
+  source:
+    id: NodeOperations
+    path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/node_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/node_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'NodeOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.servermanager.operations.NodeOperations
+- _type: method
+  class: azure.mgmt.servermanager.operations.NodeOperations
+  fullName: azure.mgmt.servermanager.operations.NodeOperations.create
+  module: azure.mgmt.servermanager.operations
+  name: create
+  source:
+    id: create
+    path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/node_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/node_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Creates or updates a management node.\n\n:param resource_group_name: The\
+    \ resource group name uniquely\n identifies the resource group within the user\
+    \ subscriptionId.\n:type resource_group_name: str\n:param node_name: The node\
+    \ name (256 characters maximum).\n:type node_name: str\n:param location: Location\
+    \ of the resource.\n:type location: str\n:param tags: Resource tags.\n:type tags:\
+    \ object\n:param gateway_id: Gateway ID which will manage this node.\n:type gateway_id:\
+    \ str\n:param connection_name: myhost.domain.com\n:type connection_name: str\n\
+    :param user_name: User name to be used to connect to node.\n:type user_name: str\n\
+    :param password: Password associated with user name.\n:type password: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:rtype:\n\
+    \ :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`NodeResource\n <azure.mgmt.servermanager.models.NodeResource>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`ErrorException<azure.mgmt.servermanager.models.ErrorException>`"
+  type: Method
+  uid: azure.mgmt.servermanager.operations.NodeOperations.create
+- _type: method
+  class: azure.mgmt.servermanager.operations.NodeOperations
+  fullName: azure.mgmt.servermanager.operations.NodeOperations.delete
+  module: azure.mgmt.servermanager.operations
+  name: delete
+  source:
+    id: delete
+    path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/node_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/node_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 244
+  summary: "deletes a management node.\n\n:param resource_group_name: The resource\
+    \ group name uniquely\n identifies the resource group within the user subscriptionId.\n\
+    :type resource_group_name: str\n:param node_name: The node name (256 characters\
+    \ maximum).\n:type node_name: str\n:param dict custom_headers: headers that will\
+    \ be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`ErrorException<azure.mgmt.servermanager.models.ErrorException>`"
+  type: Method
+  uid: azure.mgmt.servermanager.operations.NodeOperations.delete
+- _type: method
+  class: azure.mgmt.servermanager.operations.NodeOperations
+  fullName: azure.mgmt.servermanager.operations.NodeOperations.get
+  module: azure.mgmt.servermanager.operations
+  name: get
+  source:
+    id: get
+    path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/node_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/node_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 298
+  summary: "Gets a management node.\n\n:param resource_group_name: The resource group\
+    \ name uniquely\n identifies the resource group within the user subscriptionId.\n\
+    :type resource_group_name: str\n:param node_name: The node name (256 characters\
+    \ maximum).\n:type node_name: str\n:param dict custom_headers: headers that will\
+    \ be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`NodeResource\n <azure.mgmt.servermanager.models.NodeResource>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`ErrorException<azure.mgmt.servermanager.models.ErrorException>`"
+  type: Method
+  uid: azure.mgmt.servermanager.operations.NodeOperations.get
+- _type: method
+  class: azure.mgmt.servermanager.operations.NodeOperations
+  fullName: azure.mgmt.servermanager.operations.NodeOperations.list
+  module: azure.mgmt.servermanager.operations
+  name: list
+  source:
+    id: list
+    path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/node_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/node_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 360
+  summary: "Lists nodes in a subscription.\n\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`NodeResourcePaged\n\
+    \ <azure.mgmt.servermanager.models.NodeResourcePaged>`\n:raises:\n :class:`ErrorException<azure.mgmt.servermanager.models.ErrorException>`"
+  type: Method
+  uid: azure.mgmt.servermanager.operations.NodeOperations.list
+- _type: method
+  class: azure.mgmt.servermanager.operations.NodeOperations
+  fullName: azure.mgmt.servermanager.operations.NodeOperations.list_for_resource_group
+  module: azure.mgmt.servermanager.operations
+  name: list_for_resource_group
+  source:
+    id: list_for_resource_group
+    path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/node_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/node_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 422
+  summary: "Lists nodes in a resource group.\n\n:param resource_group_name: The resource\
+    \ group name uniquely\n identifies the resource group within the user subscriptionId.\n\
+    :type resource_group_name: str\n:param dict custom_headers: headers that will\
+    \ be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`NodeResourcePaged\n\
+    \ <azure.mgmt.servermanager.models.NodeResourcePaged>`\n:raises:\n :class:`ErrorException<azure.mgmt.servermanager.models.ErrorException>`"
+  type: Method
+  uid: azure.mgmt.servermanager.operations.NodeOperations.list_for_resource_group
+- _type: method
+  class: azure.mgmt.servermanager.operations.NodeOperations
+  fullName: azure.mgmt.servermanager.operations.NodeOperations.update
+  module: azure.mgmt.servermanager.operations
+  name: update
+  source:
+    id: update
+    path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/node_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/node_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 141
+  summary: "Updates a management node.\n\n:param resource_group_name: The resource\
+    \ group name uniquely\n identifies the resource group within the user subscriptionId.\n\
+    :type resource_group_name: str\n:param node_name: The node name (256 characters\
+    \ maximum).\n:type node_name: str\n:param location: Location of the resource.\n\
+    :type location: str\n:param tags: Resource tags.\n:type tags: object\n:param gateway_id:\
+    \ Gateway ID which will manage this node.\n:type gateway_id: str\n:param connection_name:\
+    \ myhost.domain.com\n:type connection_name: str\n:param user_name: User name to\
+    \ be used to connect to node.\n:type user_name: str\n:param password: Password\
+    \ associated with user name.\n:type password: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`NodeResource\n <azure.mgmt.servermanager.models.NodeResource>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`ErrorException<azure.mgmt.servermanager.models.ErrorException>`"
+  type: Method
+  uid: azure.mgmt.servermanager.operations.NodeOperations.update

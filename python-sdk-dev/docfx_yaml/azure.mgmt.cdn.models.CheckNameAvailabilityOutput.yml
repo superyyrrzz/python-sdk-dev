@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.cdn.models.CheckNameAvailabilityOutput
+  fullName: azure.mgmt.cdn.models.CheckNameAvailabilityOutput
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.cdn.models
+  name: CheckNameAvailabilityOutput
+  source:
+    id: CheckNameAvailabilityOutput
+    path: azure-mgmt-cdn/azure/mgmt/cdn/models/check_name_availability_output.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/models/check_name_availability_output.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Output of check name availability API.\n\n:param name_available: Indicates\
+    \ whether the name is available.\n:type name_available: bool\n:param reason: The\
+    \ reason why the name is not available.\n:type reason: str\n:param message: The\
+    \ detailed error message describing why the name is not\n available.\n:type message:\
+    \ str"
+  type: Class
+  uid: azure.mgmt.cdn.models.CheckNameAvailabilityOutput

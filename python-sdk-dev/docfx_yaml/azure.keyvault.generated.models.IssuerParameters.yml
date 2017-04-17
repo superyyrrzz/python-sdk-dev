@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.keyvault.generated.models.IssuerParameters
+  fullName: azure.keyvault.generated.models.IssuerParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.keyvault.generated.models
+  name: IssuerParameters
+  source:
+    id: IssuerParameters
+    path: azure-keyvault/azure/keyvault/generated/models/issuer_parameters.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/models/issuer_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Parameters for the issuer of the X509 component of a certificate.\n\n\
+    :param name: Name of the referenced issuer object or reserved names; for\n example,\
+    \ 'Self' or 'Unknown'.\n:type name: str\n:param certificate_type: Type of certificate\
+    \ to be requested from the\n issuer provider.\n:type certificate_type: str"
+  type: Class
+  uid: azure.keyvault.generated.models.IssuerParameters

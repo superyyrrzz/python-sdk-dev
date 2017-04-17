@@ -1,0 +1,141 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.resource.resources.operations.TagsOperations.create_or_update
+  - azure.mgmt.resource.resources.operations.TagsOperations.create_or_update_value
+  - azure.mgmt.resource.resources.operations.TagsOperations.delete
+  - azure.mgmt.resource.resources.operations.TagsOperations.delete_value
+  - azure.mgmt.resource.resources.operations.TagsOperations.list
+  class: azure.mgmt.resource.resources.operations.TagsOperations
+  fullName: azure.mgmt.resource.resources.operations.TagsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.resource.resources.operations
+  name: TagsOperations
+  source:
+    id: TagsOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/tags_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/tags_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'TagsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.resource.resources.operations.TagsOperations
+- _type: method
+  class: azure.mgmt.resource.resources.operations.TagsOperations
+  fullName: azure.mgmt.resource.resources.operations.TagsOperations.create_or_update
+  module: azure.mgmt.resource.resources.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/tags_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/tags_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 152
+  summary: "Create a subscription resource tag.\n\n:param tag_name: The name of the\
+    \ tag.\n:type tag_name: str\n:param dict custom_headers: headers that will be\
+    \ added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`TagDetails\n <azure.mgmt.resource.resources.models.TagDetails>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.resource.resources.operations.TagsOperations.create_or_update
+- _type: method
+  class: azure.mgmt.resource.resources.operations.TagsOperations
+  fullName: azure.mgmt.resource.resources.operations.TagsOperations.create_or_update_value
+  module: azure.mgmt.resource.resources.operations
+  name: create_or_update_value
+  source:
+    id: create_or_update_value
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/tags_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/tags_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 89
+  summary: "Create a subscription resource tag value.\n\n:param tag_name: The name\
+    \ of the tag.\n:type tag_name: str\n:param tag_value: The value of the tag.\n\
+    :type tag_value: str\n:param dict custom_headers: headers that will be added to\
+    \ the request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`TagValue\n <azure.mgmt.resource.resources.models.TagValue>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.resource.resources.operations.TagsOperations.create_or_update_value
+- _type: method
+  class: azure.mgmt.resource.resources.operations.TagsOperations
+  fullName: azure.mgmt.resource.resources.operations.TagsOperations.delete
+  module: azure.mgmt.resource.resources.operations
+  name: delete
+  source:
+    id: delete
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/tags_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/tags_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 212
+  summary: "Delete a subscription resource tag.\n\n:param tag_name: The name of the\
+    \ tag.\n:type tag_name: str\n:param dict custom_headers: headers that will be\
+    \ added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.resource.resources.operations.TagsOperations.delete
+- _type: method
+  class: azure.mgmt.resource.resources.operations.TagsOperations
+  fullName: azure.mgmt.resource.resources.operations.TagsOperations.delete_value
+  module: azure.mgmt.resource.resources.operations
+  name: delete_value
+  source:
+    id: delete_value
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/tags_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/tags_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Delete a subscription resource tag value.\n\n:param tag_name: The name\
+    \ of the tag.\n:type tag_name: str\n:param tag_value: The value of the tag.\n\
+    :type tag_value: str\n:param dict custom_headers: headers that will be added to\
+    \ the request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.resource.resources.operations.TagsOperations.delete_value
+- _type: method
+  class: azure.mgmt.resource.resources.operations.TagsOperations
+  fullName: azure.mgmt.resource.resources.operations.TagsOperations.list
+  module: azure.mgmt.resource.resources.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/tags_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/tags_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 262
+  summary: "Get a list of subscription resource tags.\n\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`TagDetailsPaged\n\
+    \ <azure.mgmt.resource.resources.models.TagDetailsPaged>`"
+  type: Method
+  uid: azure.mgmt.resource.resources.operations.TagsOperations.list

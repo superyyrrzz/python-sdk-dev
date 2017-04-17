@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.resources.models.TagCount
+  fullName: azure.mgmt.resource.resources.models.TagCount
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.resource.resources.models
+  name: TagCount
+  source:
+    id: TagCount
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/tag_count.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/tag_count.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Tag count.
+
+
+    :param type: Type of count.
+
+    :type type: str
+
+    :param value: Value of count.
+
+    :type value: str'
+  type: Class
+  uid: azure.mgmt.resource.resources.models.TagCount

@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.redis.models.RedisRebootParameters
+  fullName: azure.mgmt.redis.models.RedisRebootParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.redis.models
+  name: RedisRebootParameters
+  source:
+    id: RedisRebootParameters
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/models/redis_reboot_parameters.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/models/redis_reboot_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Specifies which redis node(s) to reboot.\n\n:param reboot_type: Which\
+    \ redis node(s) to reboot. Depending on this\n value data loss is possible. Possible\
+    \ values include: 'PrimaryNode',\n 'SecondaryNode', 'AllNodes'\n:type reboot_type:\
+    \ str or :class:`RebootType\n <azure.mgmt.redis.models.RebootType>`\n:param shard_id:\
+    \ In case of cluster cache, this specifies shard id which\n should be rebooted.\n\
+    :type shard_id: int"
+  type: Class
+  uid: azure.mgmt.redis.models.RedisRebootParameters

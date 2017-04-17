@@ -1,0 +1,182 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.search.operations.ServicesOperations.check_name_availability
+  - azure.mgmt.search.operations.ServicesOperations.create_or_update
+  - azure.mgmt.search.operations.ServicesOperations.delete
+  - azure.mgmt.search.operations.ServicesOperations.get
+  - azure.mgmt.search.operations.ServicesOperations.list_by_resource_group
+  class: azure.mgmt.search.operations.ServicesOperations
+  fullName: azure.mgmt.search.operations.ServicesOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.search.operations
+  name: ServicesOperations
+  source:
+    id: ServicesOperations
+    path: azure-mgmt-search/azure/mgmt/search/operations/services_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-search/azure/mgmt/search/operations/services_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'ServicesOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.search.operations.ServicesOperations
+- _type: method
+  class: azure.mgmt.search.operations.ServicesOperations
+  fullName: azure.mgmt.search.operations.ServicesOperations.check_name_availability
+  module: azure.mgmt.search.operations
+  name: check_name_availability
+  source:
+    id: check_name_availability
+    path: azure-mgmt-search/azure/mgmt/search/operations/services_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-search/azure/mgmt/search/operations/services_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 355
+  summary: "Checks whether or not the given Search service name is available for\n\
+    use. Search service names must be globally unique since they are part\nof the\
+    \ service URI (https://<name>.search.windows.net).\n\n:param name: The Search\
+    \ service name to validate. Search service names\n must only contain lowercase\
+    \ letters, digits or dashes, cannot use dash\n as the first two or last one characters,\
+    \ cannot contain consecutive\n dashes, and must be between 2 and 60 characters\
+    \ in length.\n:type name: str\n:param search_management_request_options: Additional\
+    \ parameters for\n the operation\n:type search_management_request_options:\n :class:`SearchManagementRequestOptions\n\
+    \ <azure.mgmt.search.models.SearchManagementRequestOptions>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`CheckNameAvailabilityOutput\n\
+    \ <azure.mgmt.search.models.CheckNameAvailabilityOutput>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.search.operations.ServicesOperations.check_name_availability
+- _type: method
+  class: azure.mgmt.search.operations.ServicesOperations
+  fullName: azure.mgmt.search.operations.ServicesOperations.create_or_update
+  module: azure.mgmt.search.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: azure-mgmt-search/azure/mgmt/search/operations/services_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-search/azure/mgmt/search/operations/services_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Creates or updates a Search service in the given resource group. If the\n\
+    Search service already exists, all properties will be updated with the\ngiven\
+    \ values.\n\n:param resource_group_name: The name of the resource group within\
+    \ the\n current subscription. You can obtain this value from the Azure\n Resource\
+    \ Manager API or the portal.\n:type resource_group_name: str\n:param search_service_name:\
+    \ The name of the Azure Search service to\n create or update. Search service names\
+    \ must only contain lowercase\n letters, digits or dashes, cannot use dash as\
+    \ the first two or last\n one characters, cannot contain consecutive dashes, and\
+    \ must be between\n 2 and 60 characters in length. Search service names must be\
+    \ globally\n unique since they are part of the service URI\n (https://<name>.search.windows.net).\
+    \ You cannot change the service\n name after the service is created.\n:type search_service_name:\
+    \ str\n:param service: The definition of the Search service to create or\n update.\n\
+    :type service: :class:`SearchService\n <azure.mgmt.search.models.SearchService>`\n\
+    :param search_management_request_options: Additional parameters for\n the operation\n\
+    :type search_management_request_options:\n :class:`SearchManagementRequestOptions\n\
+    \ <azure.mgmt.search.models.SearchManagementRequestOptions>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`SearchService\n\
+    \ <azure.mgmt.search.models.SearchService>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.search.operations.ServicesOperations.create_or_update
+- _type: method
+  class: azure.mgmt.search.operations.ServicesOperations
+  fullName: azure.mgmt.search.operations.ServicesOperations.delete
+  module: azure.mgmt.search.operations
+  name: delete
+  source:
+    id: delete
+    path: azure-mgmt-search/azure/mgmt/search/operations/services_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-search/azure/mgmt/search/operations/services_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 207
+  summary: "Deletes a Search service in the given resource group, along with its\n\
+    associated resources.\n\n:param resource_group_name: The name of the resource\
+    \ group within the\n current subscription. You can obtain this value from the\
+    \ Azure\n Resource Manager API or the portal.\n:type resource_group_name: str\n\
+    :param search_service_name: The name of the Azure Search service\n associated\
+    \ with the specified resource group.\n:type search_service_name: str\n:param search_management_request_options:\
+    \ Additional parameters for\n the operation\n:type search_management_request_options:\n\
+    \ :class:`SearchManagementRequestOptions\n <azure.mgmt.search.models.SearchManagementRequestOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.search.operations.ServicesOperations.delete
+- _type: method
+  class: azure.mgmt.search.operations.ServicesOperations
+  fullName: azure.mgmt.search.operations.ServicesOperations.get
+  module: azure.mgmt.search.operations
+  name: get
+  source:
+    id: get
+    path: azure-mgmt-search/azure/mgmt/search/operations/services_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-search/azure/mgmt/search/operations/services_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 130
+  summary: "Gets the Search service with the given name in the given resource\ngroup.\n\
+    \n:param resource_group_name: The name of the resource group within the\n current\
+    \ subscription. You can obtain this value from the Azure\n Resource Manager API\
+    \ or the portal.\n:type resource_group_name: str\n:param search_service_name:\
+    \ The name of the Azure Search service\n associated with the specified resource\
+    \ group.\n:type search_service_name: str\n:param search_management_request_options:\
+    \ Additional parameters for\n the operation\n:type search_management_request_options:\n\
+    \ :class:`SearchManagementRequestOptions\n <azure.mgmt.search.models.SearchManagementRequestOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`SearchService\n <azure.mgmt.search.models.SearchService>`\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.search.operations.ServicesOperations.get
+- _type: method
+  class: azure.mgmt.search.operations.ServicesOperations
+  fullName: azure.mgmt.search.operations.ServicesOperations.list_by_resource_group
+  module: azure.mgmt.search.operations
+  name: list_by_resource_group
+  source:
+    id: list_by_resource_group
+    path: azure-mgmt-search/azure/mgmt/search/operations/services_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-search/azure/mgmt/search/operations/services_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 276
+  summary: "Gets a list of all Search services in the given resource group.\n\n:param\
+    \ resource_group_name: The name of the resource group within the\n current subscription.\
+    \ You can obtain this value from the Azure\n Resource Manager API or the portal.\n\
+    :type resource_group_name: str\n:param search_management_request_options: Additional\
+    \ parameters for\n the operation\n:type search_management_request_options:\n :class:`SearchManagementRequestOptions\n\
+    \ <azure.mgmt.search.models.SearchManagementRequestOptions>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`SearchServicePaged\n\
+    \ <azure.mgmt.search.models.SearchServicePaged>`\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.search.operations.ServicesOperations.list_by_resource_group

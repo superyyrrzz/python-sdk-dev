@@ -1,0 +1,34 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.AS2ProtocolSettings
+  fullName: azure.mgmt.logic.models.AS2ProtocolSettings
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: AS2ProtocolSettings
+  source:
+    id: AS2ProtocolSettings
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/as2_protocol_settings.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/as2_protocol_settings.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "AS2ProtocolSettings.\n\n:param message_connection_settings: The message\
+    \ connection settings.\n:type message_connection_settings: :class:`AS2MessageConnectionSettings\n\
+    \ <azure.mgmt.logic.models.AS2MessageConnectionSettings>`\n:param acknowledgement_connection_settings:\
+    \ The acknowledgement\n connection settings.\n:type acknowledgement_connection_settings:\n\
+    \ :class:`AS2AcknowledgementConnectionSettings\n <azure.mgmt.logic.models.AS2AcknowledgementConnectionSettings>`\n\
+    :param mdn_settings: The MDN settings.\n:type mdn_settings: :class:`AS2MdnSettings\n\
+    \ <azure.mgmt.logic.models.AS2MdnSettings>`\n:param security_settings: The security\
+    \ settings.\n:type security_settings: :class:`AS2SecuritySettings\n <azure.mgmt.logic.models.AS2SecuritySettings>`\n\
+    :param validation_settings: The validation settings.\n:type validation_settings:\
+    \ :class:`AS2ValidationSettings\n <azure.mgmt.logic.models.AS2ValidationSettings>`\n\
+    :param envelope_settings: The envelope settings.\n:type envelope_settings: :class:`AS2EnvelopeSettings\n\
+    \ <azure.mgmt.logic.models.AS2EnvelopeSettings>`\n:param error_settings: The error\
+    \ settings.\n:type error_settings: :class:`AS2ErrorSettings\n <azure.mgmt.logic.models.AS2ErrorSettings>`"
+  type: Class
+  uid: azure.mgmt.logic.models.AS2ProtocolSettings

@@ -1,0 +1,439 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.batch.operations.PoolOperations.add
+  - azure.batch.operations.PoolOperations.delete
+  - azure.batch.operations.PoolOperations.disable_auto_scale
+  - azure.batch.operations.PoolOperations.enable_auto_scale
+  - azure.batch.operations.PoolOperations.evaluate_auto_scale
+  - azure.batch.operations.PoolOperations.exists
+  - azure.batch.operations.PoolOperations.get
+  - azure.batch.operations.PoolOperations.get_all_pools_lifetime_statistics
+  - azure.batch.operations.PoolOperations.list
+  - azure.batch.operations.PoolOperations.list_pool_usage_metrics
+  - azure.batch.operations.PoolOperations.patch
+  - azure.batch.operations.PoolOperations.remove_nodes
+  - azure.batch.operations.PoolOperations.resize
+  - azure.batch.operations.PoolOperations.stop_resize
+  - azure.batch.operations.PoolOperations.update_properties
+  - azure.batch.operations.PoolOperations.upgrade_os
+  class: azure.batch.operations.PoolOperations
+  fullName: azure.batch.operations.PoolOperations
+  inheritance:
+  - builtins.object
+  module: azure.batch.operations
+  name: PoolOperations
+  source:
+    id: PoolOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 18
+  summary: 'PoolOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.batch.operations.PoolOperations
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  fullName: azure.batch.operations.PoolOperations.add
+  module: azure.batch.operations
+  name: add
+  source:
+    id: add
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 225
+  summary: "Adds a pool to the specified account.\n\n:param pool: The pool to be added.\n\
+    :type pool: :class:`PoolAddParameter\n <azure.batch.models.PoolAddParameter>`\n\
+    :param pool_add_options: Additional parameters for the operation\n:type pool_add_options:\
+    \ :class:`PoolAddOptions\n <azure.batch.models.PoolAddOptions>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.add
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  fullName: azure.batch.operations.PoolOperations.delete
+  module: azure.batch.operations
+  name: delete
+  source:
+    id: delete
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 403
+  summary: "Deletes a pool from the specified account.\n\n:param pool_id: The id of\
+    \ the pool to delete.\n:type pool_id: str\n:param pool_delete_options: Additional\
+    \ parameters for the operation\n:type pool_delete_options: :class:`PoolDeleteOptions\n\
+    \ <azure.batch.models.PoolDeleteOptions>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.delete
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  fullName: azure.batch.operations.PoolOperations.disable_auto_scale
+  module: azure.batch.operations
+  name: disable_auto_scale
+  source:
+    id: disable_auto_scale
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 818
+  summary: "Disables automatic scaling for a pool.\n\n:param pool_id: The id of the\
+    \ pool on which to disable automatic\n scaling.\n:type pool_id: str\n:param pool_disable_auto_scale_options:\
+    \ Additional parameters for the\n operation\n:type pool_disable_auto_scale_options:\n\
+    \ :class:`PoolDisableAutoScaleOptions\n <azure.batch.models.PoolDisableAutoScaleOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.disable_auto_scale
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  fullName: azure.batch.operations.PoolOperations.enable_auto_scale
+  module: azure.batch.operations
+  name: enable_auto_scale
+  source:
+    id: enable_auto_scale
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 899
+  summary: "Enables automatic scaling for a pool.\n\n:param pool_id: The id of the\
+    \ pool on which to enable automatic\n scaling.\n:type pool_id: str\n:param pool_enable_auto_scale_options:\
+    \ Additional parameters for the\n operation\n:type pool_enable_auto_scale_options:\n\
+    \ :class:`PoolEnableAutoScaleOptions\n <azure.batch.models.PoolEnableAutoScaleOptions>`\n\
+    :param auto_scale_formula: The formula for the desired number of\n compute nodes\
+    \ in the pool.\n:type auto_scale_formula: str\n:param auto_scale_evaluation_interval:\
+    \ A time interval for the\n desired autoscale evaluation period in the pool.\n\
+    :type auto_scale_evaluation_interval: timedelta\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.enable_auto_scale
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  fullName: azure.batch.operations.PoolOperations.evaluate_auto_scale
+  module: azure.batch.operations
+  name: evaluate_auto_scale
+  source:
+    id: evaluate_auto_scale
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1011
+  summary: "Gets the result of evaluating an automatic scaling formula on the pool.\n\
+    \n:param pool_id: The id of the pool on which to evaluate the automatic\n scaling\
+    \ formula.\n:type pool_id: str\n:param auto_scale_formula: A formula for the desired\
+    \ number of\n compute nodes in the pool.\n:type auto_scale_formula: str\n:param\
+    \ pool_evaluate_auto_scale_options: Additional parameters for\n the operation\n\
+    :type pool_evaluate_auto_scale_options:\n :class:`PoolEvaluateAutoScaleOptions\n\
+    \ <azure.batch.models.PoolEvaluateAutoScaleOptions>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`AutoScaleRun\
+    \ <azure.batch.models.AutoScaleRun>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.evaluate_auto_scale
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  fullName: azure.batch.operations.PoolOperations.exists
+  module: azure.batch.operations
+  name: exists
+  source:
+    id: exists
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 498
+  summary: "Gets basic properties of a pool.\n\n:param pool_id: The id of the pool\
+    \ to get.\n:type pool_id: str\n:param pool_exists_options: Additional parameters\
+    \ for the operation\n:type pool_exists_options: :class:`PoolExistsOptions\n <azure.batch.models.PoolExistsOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: bool\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.exists
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  fullName: azure.batch.operations.PoolOperations.get
+  module: azure.batch.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 597
+  summary: "Gets information about the specified pool.\n\n:param pool_id: The id of\
+    \ the pool to get.\n:type pool_id: str\n:param pool_get_options: Additional parameters\
+    \ for the operation\n:type pool_get_options: :class:`PoolGetOptions\n <azure.batch.models.PoolGetOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`CloudPool <azure.batch.models.CloudPool>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.get
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  fullName: azure.batch.operations.PoolOperations.get_all_pools_lifetime_statistics
+  module: azure.batch.operations
+  name: get_all_pools_lifetime_statistics
+  source:
+    id: get_all_pools_lifetime_statistics
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 138
+  summary: "Gets lifetime summary statistics for all of the pools in the specified\n\
+    account.\n\nStatistics are aggregated across all pools that have ever existed\
+    \ in\nthe account, from account creation to the last update time of the\nstatistics.\n\
+    \n:param pool_get_all_pools_lifetime_statistics_options: Additional\n parameters\
+    \ for the operation\n:type pool_get_all_pools_lifetime_statistics_options:\n :class:`PoolGetAllPoolsLifetimeStatisticsOptions\n\
+    \ <azure.batch.models.PoolGetAllPoolsLifetimeStatisticsOptions>`\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ :class:`PoolStatistics <azure.batch.models.PoolStatistics>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.get_all_pools_lifetime_statistics
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  fullName: azure.batch.operations.PoolOperations.list
+  module: azure.batch.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 304
+  summary: "Lists all of the pools in the specified account.\n\n:param pool_list_options:\
+    \ Additional parameters for the operation\n:type pool_list_options: :class:`PoolListOptions\n\
+    \ <azure.batch.models.PoolListOptions>`\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`CloudPoolPaged <azure.batch.models.CloudPoolPaged>`"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.list
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  fullName: azure.batch.operations.PoolOperations.list_pool_usage_metrics
+  module: azure.batch.operations
+  name: list_pool_usage_metrics
+  source:
+    id: list_pool_usage_metrics
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 35
+  summary: "Lists the usage metrics, aggregated by pool across individual time\nintervals,\
+    \ for the specified account.\n\n:param pool_list_pool_usage_metrics_options: Additional\
+    \ parameters\n for the operation\n:type pool_list_pool_usage_metrics_options:\n\
+    \ :class:`PoolListPoolUsageMetricsOptions\n <azure.batch.models.PoolListPoolUsageMetricsOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`PoolUsageMetricsPaged\n <azure.batch.models.PoolUsageMetricsPaged>`"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.list_pool_usage_metrics
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  fullName: azure.batch.operations.PoolOperations.patch
+  module: azure.batch.operations
+  name: patch
+  source:
+    id: patch
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 713
+  summary: "Updates the properties of a pool.\n\n:param pool_id: The id of the pool\
+    \ to update.\n:type pool_id: str\n:param pool_patch_parameter: The parameters\
+    \ for the request.\n:type pool_patch_parameter: :class:`PoolPatchParameter\n <azure.batch.models.PoolPatchParameter>`\n\
+    :param pool_patch_options: Additional parameters for the operation\n:type pool_patch_options:\
+    \ :class:`PoolPatchOptions\n <azure.batch.models.PoolPatchOptions>`\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.patch
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  fullName: azure.batch.operations.PoolOperations.remove_nodes
+  module: azure.batch.operations
+  name: remove_nodes
+  source:
+    id: remove_nodes
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1513
+  summary: "Removes compute nodes from the specified pool.\n\n:param pool_id: The\
+    \ id of the pool from which you want to remove\n nodes.\n:type pool_id: str\n\
+    :param node_remove_parameter: The parameters for the request.\n:type node_remove_parameter:\
+    \ :class:`NodeRemoveParameter\n <azure.batch.models.NodeRemoveParameter>`\n:param\
+    \ pool_remove_nodes_options: Additional parameters for the\n operation\n:type\
+    \ pool_remove_nodes_options: :class:`PoolRemoveNodesOptions\n <azure.batch.models.PoolRemoveNodesOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.remove_nodes
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  fullName: azure.batch.operations.PoolOperations.resize
+  module: azure.batch.operations
+  name: resize
+  source:
+    id: resize
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1109
+  summary: "Changes the number of compute nodes that are assigned to a pool.\n\n:param\
+    \ pool_id: The id of the pool to resize.\n:type pool_id: str\n:param pool_resize_parameter:\
+    \ The parameters for the request.\n:type pool_resize_parameter: :class:`PoolResizeParameter\n\
+    \ <azure.batch.models.PoolResizeParameter>`\n:param pool_resize_options: Additional\
+    \ parameters for the operation\n:type pool_resize_options: :class:`PoolResizeOptions\n\
+    \ <azure.batch.models.PoolResizeOptions>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.resize
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  fullName: azure.batch.operations.PoolOperations.stop_resize
+  module: azure.batch.operations
+  name: stop_resize
+  source:
+    id: stop_resize
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1214
+  summary: "Stops an ongoing resize operation on the pool.\n\nThis does not restore\
+    \ the pool to its previous state before the resize\noperation: it only stops any\
+    \ further changes being made, and the pool\nmaintains its current state.\n\n:param\
+    \ pool_id: The id of the pool whose resizing you want to stop.\n:type pool_id:\
+    \ str\n:param pool_stop_resize_options: Additional parameters for the\n operation\n\
+    :type pool_stop_resize_options: :class:`PoolStopResizeOptions\n <azure.batch.models.PoolStopResizeOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.stop_resize
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  fullName: azure.batch.operations.PoolOperations.update_properties
+  module: azure.batch.operations
+  name: update_properties
+  source:
+    id: update_properties
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1317
+  summary: "Updates the properties of a pool.\n\n:param pool_id: The id of the pool\
+    \ to update.\n:type pool_id: str\n:param pool_update_properties_parameter: The\
+    \ parameters for the\n request.\n:type pool_update_properties_parameter:\n :class:`PoolUpdatePropertiesParameter\n\
+    \ <azure.batch.models.PoolUpdatePropertiesParameter>`\n:param pool_update_properties_options:\
+    \ Additional parameters for the\n operation\n:type pool_update_properties_options:\n\
+    \ :class:`PoolUpdatePropertiesOptions\n <azure.batch.models.PoolUpdatePropertiesOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.update_properties
+- _type: method
+  class: azure.batch.operations.PoolOperations
+  fullName: azure.batch.operations.PoolOperations.upgrade_os
+  module: azure.batch.operations
+  name: upgrade_os
+  source:
+    id: upgrade_os
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1406
+  summary: "Upgrades the operating system of the specified pool.\n\n:param pool_id:\
+    \ The id of the pool to upgrade.\n:type pool_id: str\n:param target_os_version:\
+    \ The Azure Guest OS version to be installed\n on the virtual machines in the\
+    \ pool.\n:type target_os_version: str\n:param pool_upgrade_os_options: Additional\
+    \ parameters for the\n operation\n:type pool_upgrade_os_options: :class:`PoolUpgradeOSOptions\n\
+    \ <azure.batch.models.PoolUpgradeOSOptions>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.batch.operations.PoolOperations.upgrade_os

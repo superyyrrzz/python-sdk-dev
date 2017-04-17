@@ -1,0 +1,35 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.scheduler.models.ServiceBusBrokeredMessageProperties
+  fullName: azure.mgmt.scheduler.models.ServiceBusBrokeredMessageProperties
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.scheduler.models
+  name: ServiceBusBrokeredMessageProperties
+  source:
+    id: ServiceBusBrokeredMessageProperties
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/service_bus_brokered_message_properties.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/service_bus_brokered_message_properties.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "ServiceBusBrokeredMessageProperties.\n\n:param content_type: Gets or sets\
+    \ the content type.\n:type content_type: str\n:param correlation_id: Gets or sets\
+    \ the correlation id.\n:type correlation_id: str\n:param force_persistence: Gets\
+    \ or sets the force persistence.\n:type force_persistence: bool\n:param label:\
+    \ Gets or sets the label.\n:type label: str\n:param message_id: Gets or sets the\
+    \ message id.\n:type message_id: str\n:param partition_key: Gets or sets the partition\
+    \ key.\n:type partition_key: str\n:param reply_to: Gets or sets the reply to.\n\
+    :type reply_to: str\n:param reply_to_session_id: Gets or sets the reply to session\
+    \ id.\n:type reply_to_session_id: str\n:param scheduled_enqueue_time_utc: Gets\
+    \ or sets the scheduled enqueue\n time UTC.\n:type scheduled_enqueue_time_utc:\
+    \ datetime\n:param session_id: Gets or sets the session id.\n:type session_id:\
+    \ str\n:param time_to_live: Gets or sets the time to live.\n:type time_to_live:\
+    \ datetime\n:param to: Gets or sets the to.\n:type to: str\n:param via_partition_key:\
+    \ Gets or sets the via partition key.\n:type via_partition_key: str"
+  type: Class
+  uid: azure.mgmt.scheduler.models.ServiceBusBrokeredMessageProperties

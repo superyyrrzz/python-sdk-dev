@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.datalake.analytics.catalog.models.USqlAssemblyFileInfo
+  fullName: azure.mgmt.datalake.analytics.catalog.models.USqlAssemblyFileInfo
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.datalake.analytics.catalog.models
+  name: USqlAssemblyFileInfo
+  source:
+    id: USqlAssemblyFileInfo
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/models/usql_assembly_file_info.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/models/usql_assembly_file_info.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A Data Lake Analytics catalog U-SQL assembly file information item.\n\n\
+    :param type: the assembly file type. Possible values include: 'Assembly',\n 'Resource'\n\
+    :type type: str or :class:`FileType\n <azure.mgmt.datalake.analytics.catalog.models.FileType>`\n\
+    :param original_path: the the original path to the assembly file.\n:type original_path:\
+    \ str\n:param content_path: the the content path to the assembly file.\n:type\
+    \ content_path: str"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.catalog.models.USqlAssemblyFileInfo

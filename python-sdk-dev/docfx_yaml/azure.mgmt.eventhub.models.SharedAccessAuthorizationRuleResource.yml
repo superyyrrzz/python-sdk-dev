@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.eventhub.models.SharedAccessAuthorizationRuleResource
+  fullName: azure.mgmt.eventhub.models.SharedAccessAuthorizationRuleResource
+  inheritance:
+  - azure.mgmt.eventhub.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.eventhub.models
+  name: SharedAccessAuthorizationRuleResource
+  source:
+    id: SharedAccessAuthorizationRuleResource
+    path: azure-mgmt-eventhub/azure/mgmt/eventhub/models/shared_access_authorization_rule_resource.py
+    remote:
+      branch: master
+      path: azure-mgmt-eventhub/azure/mgmt/eventhub/models/shared_access_authorization_rule_resource.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Description of a namespace authorization rule.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar id: Resource\
+    \ Id\n:vartype id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type:\
+    \ Resource type\n:vartype type: str\n:param location: Resource location\n:type\
+    \ location: str\n:param tags: Resource tags\n:type tags: dict\n:param rights:\
+    \ The rights associated with the rule.\n:type rights: list of str or :class:`AccessRights\n\
+    \ <azure.mgmt.eventhub.models.AccessRights>`"
+  type: Class
+  uid: azure.mgmt.eventhub.models.SharedAccessAuthorizationRuleResource

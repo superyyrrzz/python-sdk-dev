@@ -1,0 +1,34 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.scheduler.SchedulerManagementClient
+  fullName: azure.mgmt.scheduler.SchedulerManagementClient
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.scheduler
+  name: SchedulerManagementClient
+  source:
+    id: SchedulerManagementClient
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/scheduler_management_client.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/scheduler_management_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 76
+  summary: ":ivar config: Configuration for client.\n:vartype config: SchedulerManagementClientConfiguration\n\
+    \n:ivar job_collections: JobCollections operations\n:vartype job_collections:\
+    \ .operations.JobCollectionsOperations\n:ivar jobs: Jobs operations\n:vartype\
+    \ jobs: .operations.JobsOperations\n\n:param credentials: Credentials needed for\
+    \ the client to connect to Azure.\n:type credentials: :mod:`A msrestazure Credentials\n\
+    \ object<msrestazure.azure_active_directory>`\n:param subscription_id: The subscription\
+    \ id.\n:type subscription_id: str\n:param api_version: The API version.\n:type\
+    \ api_version: str\n:param accept_language: Gets or sets the preferred language\
+    \ for the\n response.\n:type accept_language: str\n:param long_running_operation_retry_timeout:\
+    \ Gets or sets the retry\n timeout in seconds for Long Running Operations. Default\
+    \ value is 30.\n:type long_running_operation_retry_timeout: int\n:param generate_client_request_id:\
+    \ When set to true a unique\n x-ms-client-request-id value is generated and included\
+    \ in each request.\n Default is true.\n:type generate_client_request_id: bool\n\
+    :param str base_url: Service URL\n:param str filepath: Existing config"
+  type: Class
+  uid: azure.mgmt.scheduler.SchedulerManagementClient

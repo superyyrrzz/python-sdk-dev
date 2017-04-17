@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.datalake.analytics.catalog.models.TypeFieldInfo
+  fullName: azure.mgmt.datalake.analytics.catalog.models.TypeFieldInfo
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.datalake.analytics.catalog.models
+  name: TypeFieldInfo
+  source:
+    id: TypeFieldInfo
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/models/type_field_info.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/models/type_field_info.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'A Data Lake Analytics catalog type field information item.
+
+
+    :param name: the name of the field associated with this type.
+
+    :type name: str
+
+    :param type: the type of the field.
+
+    :type type: str'
+  type: Class
+  uid: azure.mgmt.datalake.analytics.catalog.models.TypeFieldInfo

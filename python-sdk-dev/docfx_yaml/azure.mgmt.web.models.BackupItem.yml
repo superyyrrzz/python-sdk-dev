@@ -1,0 +1,48 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.BackupItem
+  fullName: azure.mgmt.web.models.BackupItem
+  inheritance:
+  - azure.mgmt.web.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: BackupItem
+  source:
+    id: BackupItem
+    path: azure-mgmt-web/azure/mgmt/web/models/backup_item.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/backup_item.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Backup description.\n\n:param id: Resource Id\n:type id: str\n:param name:\
+    \ Resource Name\n:type name: str\n:param kind: Kind of resource\n:type kind: str\n\
+    :param location: Resource Location\n:type location: str\n:param type: Resource\
+    \ type\n:type type: str\n:param tags: Resource tags\n:type tags: dict\n:param\
+    \ backup_item_id: Id of the backup.\n:type backup_item_id: int\n:param storage_account_url:\
+    \ SAS URL for the storage account container\n which contains this backup\n:type\
+    \ storage_account_url: str\n:param blob_name: Name of the blob which contains\
+    \ data for this backup\n:type blob_name: str\n:param backup_item_name: Name of\
+    \ this backup\n:type backup_item_name: str\n:param status: Backup status. Possible\
+    \ values include: 'InProgress',\n 'Failed', 'Succeeded', 'TimedOut', 'Created',\
+    \ 'Skipped',\n 'PartiallySucceeded', 'DeleteInProgress', 'DeleteFailed', 'Deleted'\n\
+    :type status: str or :class:`BackupItemStatus\n <azure.mgmt.web.models.BackupItemStatus>`\n\
+    :param size_in_bytes: Size of the backup in bytes\n:type size_in_bytes: long\n\
+    :param created: Timestamp of the backup creation\n:type created: datetime\n:param\
+    \ log: Details regarding this backup. Might contain an error message.\n:type log:\
+    \ str\n:param databases: List of databases included in the backup\n:type databases:\
+    \ list of :class:`DatabaseBackupSetting\n <azure.mgmt.web.models.DatabaseBackupSetting>`\n\
+    :param scheduled: True if this backup has been created due to a schedule\n being\
+    \ triggered.\n:type scheduled: bool\n:param last_restore_time_stamp: Timestamp\
+    \ of a last restore operation\n which used this backup.\n:type last_restore_time_stamp:\
+    \ datetime\n:param finished_time_stamp: Timestamp when this backup finished.\n\
+    :type finished_time_stamp: datetime\n:param correlation_id: Unique correlation\
+    \ identifier. Please use this\n along with the timestamp while communicating with\
+    \ Azure support.\n:type correlation_id: str\n:param website_size_in_bytes: Size\
+    \ of the original web app which has been\n backed up\n:type website_size_in_bytes:\
+    \ long"
+  type: Class
+  uid: azure.mgmt.web.models.BackupItem

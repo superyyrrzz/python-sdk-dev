@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.servermanager.models.PowerShellSessionResources
+  fullName: azure.mgmt.servermanager.models.PowerShellSessionResources
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.servermanager.models
+  name: PowerShellSessionResources
+  source:
+    id: PowerShellSessionResources
+    path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/power_shell_session_resources.py
+    remote:
+      branch: master
+      path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/power_shell_session_resources.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A collection of PowerShell session resources.\n\n:param value: Collection\
+    \ of PowerShell session resources.\n:type value: list of :class:`PowerShellSessionResource\n\
+    \ <azure.mgmt.servermanager.models.PowerShellSessionResource>`\n:param next_link:\
+    \ The URL to the next set of resources.\n:type next_link: str"
+  type: Class
+  uid: azure.mgmt.servermanager.models.PowerShellSessionResources

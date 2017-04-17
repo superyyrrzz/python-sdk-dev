@@ -1,0 +1,35 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.AS2MdnSettings
+  fullName: azure.mgmt.logic.models.AS2MdnSettings
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: AS2MdnSettings
+  source:
+    id: AS2MdnSettings
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/as2_mdn_settings.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/as2_mdn_settings.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "AS2MdnSettings.\n\n:param need_mdn: The value indicating whether to send\
+    \ or request a MDN.\n:type need_mdn: bool\n:param sign_mdn: The value indicating\
+    \ whether the MDN needs to be signed\n or not.\n:type sign_mdn: bool\n:param send_mdn_asynchronously:\
+    \ The value indicating whether to send the\n asynchronous MDN.\n:type send_mdn_asynchronously:\
+    \ bool\n:param receipt_delivery_url: The receipt delivery URL.\n:type receipt_delivery_url:\
+    \ str\n:param disposition_notification_to: The disposition notification to\n header\
+    \ value.\n:type disposition_notification_to: str\n:param sign_outbound_mdn_if_optional:\
+    \ The value indicating whether to\n sign the outbound MDN if optional.\n:type\
+    \ sign_outbound_mdn_if_optional: bool\n:param mdn_text: The MDN text.\n:type mdn_text:\
+    \ str\n:param send_inbound_mdn_to_message_box: The value indicating whether to\n\
+    \ send inbound MDN to message box.\n:type send_inbound_mdn_to_message_box: bool\n\
+    :param mic_hashing_algorithm: The signing or hashing algorithm. Possible\n values\
+    \ include: 'NotSpecified', 'None', 'SHA2256', 'SHA2384', 'SHA2512'\n:type mic_hashing_algorithm:\
+    \ str or :class:`HashingAlgorithm\n <azure.mgmt.logic.models.HashingAlgorithm>`"
+  type: Class
+  uid: azure.mgmt.logic.models.AS2MdnSettings

@@ -1,0 +1,136 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.eventhub.operations.ConsumerGroupsOperations.create_or_update
+  - azure.mgmt.eventhub.operations.ConsumerGroupsOperations.delete
+  - azure.mgmt.eventhub.operations.ConsumerGroupsOperations.get
+  - azure.mgmt.eventhub.operations.ConsumerGroupsOperations.list_all
+  class: azure.mgmt.eventhub.operations.ConsumerGroupsOperations
+  fullName: azure.mgmt.eventhub.operations.ConsumerGroupsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.eventhub.operations
+  name: ConsumerGroupsOperations
+  source:
+    id: ConsumerGroupsOperations
+    path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/consumer_groups_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/consumer_groups_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'ConsumerGroupsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.eventhub.operations.ConsumerGroupsOperations
+- _type: method
+  class: azure.mgmt.eventhub.operations.ConsumerGroupsOperations
+  fullName: azure.mgmt.eventhub.operations.ConsumerGroupsOperations.create_or_update
+  module: azure.mgmt.eventhub.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/consumer_groups_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/consumer_groups_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Creates or updates an Event Hubs consumer group as a nested resource\n\
+    within a namespace.\n\n:param resource_group_name: The name of the resource group.\n\
+    :type resource_group_name: str\n:param namespace_name: The namespace name.\n:type\
+    \ namespace_name: str\n:param event_hub_name: The Event Hub name.\n:type event_hub_name:\
+    \ str\n:param consumer_group_name: The consumer group name.\n:type consumer_group_name:\
+    \ str\n:param parameters: Parameters supplied to create a consumer group\n resource.\n\
+    :type parameters: :class:`ConsumerGroupCreateOrUpdateParameters\n <azure.mgmt.eventhub.models.ConsumerGroupCreateOrUpdateParameters>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`ConsumerGroupResource\n <azure.mgmt.eventhub.models.ConsumerGroupResource>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.eventhub.operations.ConsumerGroupsOperations.create_or_update
+- _type: method
+  class: azure.mgmt.eventhub.operations.ConsumerGroupsOperations
+  fullName: azure.mgmt.eventhub.operations.ConsumerGroupsOperations.delete
+  module: azure.mgmt.eventhub.operations
+  name: delete
+  source:
+    id: delete
+    path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/consumer_groups_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/consumer_groups_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 113
+  summary: "Deletes a consumer group from the specified Event Hub and resource\ngroup.\n\
+    \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param namespace_name: The namespace name.\n:type namespace_name: str\n\
+    :param event_hub_name: The Event Hub name.\n:type event_hub_name: str\n:param\
+    \ consumer_group_name: The Cconsumer group name.\n:type consumer_group_name: str\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.eventhub.operations.ConsumerGroupsOperations.delete
+- _type: method
+  class: azure.mgmt.eventhub.operations.ConsumerGroupsOperations
+  fullName: azure.mgmt.eventhub.operations.ConsumerGroupsOperations.get
+  module: azure.mgmt.eventhub.operations
+  name: get
+  source:
+    id: get
+    path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/consumer_groups_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/consumer_groups_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 174
+  summary: "Gets a description for the specified consumer group.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
+    \ The namespace name.\n:type namespace_name: str\n:param event_hub_name: The Event\
+    \ Hub name.\n:type event_hub_name: str\n:param consumer_group_name: The consumer\
+    \ group name.\n:type consumer_group_name: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ConsumerGroupResource\n\
+    \ <azure.mgmt.eventhub.models.ConsumerGroupResource>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.eventhub.operations.ConsumerGroupsOperations.get
+- _type: method
+  class: azure.mgmt.eventhub.operations.ConsumerGroupsOperations
+  fullName: azure.mgmt.eventhub.operations.ConsumerGroupsOperations.list_all
+  module: azure.mgmt.eventhub.operations
+  name: list_all
+  source:
+    id: list_all
+    path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/consumer_groups_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/consumer_groups_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 242
+  summary: "Gets all the consumer groups in a namespace. An empty feed is returned\n\
+    if no consumer group exists in the namespace.\n\n:param resource_group_name: The\
+    \ name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
+    \ The namespace name.\n:type namespace_name: str\n:param event_hub_name: The Event\
+    \ Hub name.\n:type event_hub_name: str\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ConsumerGroupResourcePaged\n\
+    \ <azure.mgmt.eventhub.models.ConsumerGroupResourcePaged>`\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.eventhub.operations.ConsumerGroupsOperations.list_all

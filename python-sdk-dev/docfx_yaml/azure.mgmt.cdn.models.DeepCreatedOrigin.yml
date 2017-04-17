@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.cdn.models.DeepCreatedOrigin
+  fullName: azure.mgmt.cdn.models.DeepCreatedOrigin
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.cdn.models
+  name: DeepCreatedOrigin
+  source:
+    id: DeepCreatedOrigin
+    path: azure-mgmt-cdn/azure/mgmt/cdn/models/deep_created_origin.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/models/deep_created_origin.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Origin to be added when creating a CDN endpoint.\n\n:param name: Origin\
+    \ name\n:type name: str\n:param host_name: The address of the origin. It can be\
+    \ a domain names,\n IPv4 address, or IPv6 address.\n:type host_name: str\n:param\
+    \ http_port: The value of the HTTP port. Must be between 1 and 65535\n:type http_port:\
+    \ int\n:param https_port: The value of the HTTPS port. Must be between 1 and\n\
+    \ 65535\n:type https_port: int"
+  type: Class
+  uid: azure.mgmt.cdn.models.DeepCreatedOrigin

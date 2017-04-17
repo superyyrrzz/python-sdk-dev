@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.CsmUsageQuota
+  fullName: azure.mgmt.web.models.CsmUsageQuota
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: CsmUsageQuota
+  source:
+    id: CsmUsageQuota
+    path: azure-mgmt-web/azure/mgmt/web/models/csm_usage_quota.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/csm_usage_quota.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Usage of the quota resource.\n\n:param unit: Units of measurement for\
+    \ the quota resourse\n:type unit: str\n:param next_reset_time: Next reset time\
+    \ for the resource counter\n:type next_reset_time: datetime\n:param current_value:\
+    \ The current value of the resource counter\n:type current_value: long\n:param\
+    \ limit: The resource limit\n:type limit: long\n:param name: Quota name\n:type\
+    \ name: :class:`LocalizableString\n <azure.mgmt.web.models.LocalizableString>`"
+  type: Class
+  uid: azure.mgmt.web.models.CsmUsageQuota

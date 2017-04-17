@@ -1,0 +1,284 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.network.operations.ExpressRouteCircuitsOperations.create_or_update
+  - azure.mgmt.network.operations.ExpressRouteCircuitsOperations.delete
+  - azure.mgmt.network.operations.ExpressRouteCircuitsOperations.get
+  - azure.mgmt.network.operations.ExpressRouteCircuitsOperations.get_peering_stats
+  - azure.mgmt.network.operations.ExpressRouteCircuitsOperations.get_stats
+  - azure.mgmt.network.operations.ExpressRouteCircuitsOperations.list
+  - azure.mgmt.network.operations.ExpressRouteCircuitsOperations.list_all
+  - azure.mgmt.network.operations.ExpressRouteCircuitsOperations.list_arp_table
+  - azure.mgmt.network.operations.ExpressRouteCircuitsOperations.list_routes_table
+  - azure.mgmt.network.operations.ExpressRouteCircuitsOperations.list_routes_table_summary
+  class: azure.mgmt.network.operations.ExpressRouteCircuitsOperations
+  fullName: azure.mgmt.network.operations.ExpressRouteCircuitsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.network.operations
+  name: ExpressRouteCircuitsOperations
+  source:
+    id: ExpressRouteCircuitsOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuits_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuits_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 20
+  summary: 'ExpressRouteCircuitsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.network.operations.ExpressRouteCircuitsOperations
+- _type: method
+  class: azure.mgmt.network.operations.ExpressRouteCircuitsOperations
+  fullName: azure.mgmt.network.operations.ExpressRouteCircuitsOperations.create_or_update
+  module: azure.mgmt.network.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuits_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuits_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 176
+  summary: "The Put ExpressRouteCircuit operation creates/updates a\nExpressRouteCircuit.\n\
+    \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param circuit_name: The name of the circuit.\n:type circuit_name: str\n\
+    :param parameters: Parameters supplied to the create/delete\n ExpressRouteCircuit\
+    \ operation\n:type parameters: :class:`ExpressRouteCircuit\n <azure.mgmt.network.models.ExpressRouteCircuit>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`ExpressRouteCircuit\n <azure.mgmt.network.models.ExpressRouteCircuit>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.ExpressRouteCircuitsOperations.create_or_update
+- _type: method
+  class: azure.mgmt.network.operations.ExpressRouteCircuitsOperations
+  fullName: azure.mgmt.network.operations.ExpressRouteCircuitsOperations.delete
+  module: azure.mgmt.network.operations
+  name: delete
+  source:
+    id: delete
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuits_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuits_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 37
+  summary: "The delete ExpressRouteCircuit operation deletes the specified\nExpressRouteCircuit.\n\
+    \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param circuit_name: The name of the express route Circuit.\n:type circuit_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.ExpressRouteCircuitsOperations.delete
+- _type: method
+  class: azure.mgmt.network.operations.ExpressRouteCircuitsOperations
+  fullName: azure.mgmt.network.operations.ExpressRouteCircuitsOperations.get
+  module: azure.mgmt.network.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuits_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuits_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 114
+  summary: "The Get ExpressRouteCircuit operation retrieves information about the\n\
+    specified ExpressRouteCircuit.\n\n:param resource_group_name: The name of the\
+    \ resource group.\n:type resource_group_name: str\n:param circuit_name: The name\
+    \ of the circuit.\n:type circuit_name: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ExpressRouteCircuit\n\
+    \ <azure.mgmt.network.models.ExpressRouteCircuit>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.ExpressRouteCircuitsOperations.get
+- _type: method
+  class: azure.mgmt.network.operations.ExpressRouteCircuitsOperations
+  fullName: azure.mgmt.network.operations.ExpressRouteCircuitsOperations.get_peering_stats
+  module: azure.mgmt.network.operations
+  name: get_peering_stats
+  source:
+    id: get_peering_stats
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuits_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuits_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 611
+  summary: "The List stats ExpressRouteCircuit operation retrieves all the stats\n\
+    from a ExpressRouteCircuits in a resource group.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param circuit_name:\
+    \ The name of the circuit.\n:type circuit_name: str\n:param peering_name: The\
+    \ name of the peering.\n:type peering_name: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ExpressRouteCircuitStats\n\
+    \ <azure.mgmt.network.models.ExpressRouteCircuitStats>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.ExpressRouteCircuitsOperations.get_peering_stats
+- _type: method
+  class: azure.mgmt.network.operations.ExpressRouteCircuitsOperations
+  fullName: azure.mgmt.network.operations.ExpressRouteCircuitsOperations.get_stats
+  module: azure.mgmt.network.operations
+  name: get_stats
+  source:
+    id: get_stats
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuits_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuits_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 549
+  summary: "The List stats ExpressRouteCircuit operation retrieves all the stats\n\
+    from a ExpressRouteCircuits in a resource group.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param circuit_name:\
+    \ The name of the circuit.\n:type circuit_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ExpressRouteCircuitStats\n\
+    \ <azure.mgmt.network.models.ExpressRouteCircuitStats>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.ExpressRouteCircuitsOperations.get_stats
+- _type: method
+  class: azure.mgmt.network.operations.ExpressRouteCircuitsOperations
+  fullName: azure.mgmt.network.operations.ExpressRouteCircuitsOperations.list
+  module: azure.mgmt.network.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuits_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuits_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 676
+  summary: "The List ExpressRouteCircuit operation retrieves all the\nExpressRouteCircuits\
+    \ in a resource group.\n\n:param resource_group_name: The name of the resource\
+    \ group.\n:type resource_group_name: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ExpressRouteCircuitPaged\n\
+    \ <azure.mgmt.network.models.ExpressRouteCircuitPaged>`"
+  type: Method
+  uid: azure.mgmt.network.operations.ExpressRouteCircuitsOperations.list
+- _type: method
+  class: azure.mgmt.network.operations.ExpressRouteCircuitsOperations
+  fullName: azure.mgmt.network.operations.ExpressRouteCircuitsOperations.list_all
+  module: azure.mgmt.network.operations
+  name: list_all
+  source:
+    id: list_all
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuits_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuits_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 742
+  summary: "The List ExpressRouteCircuit operation retrieves all the\nExpressRouteCircuits\
+    \ in a subscription.\n\n:param dict custom_headers: headers that will be added\
+    \ to the request\n:param bool raw: returns the direct response alongside the\n\
+    \ deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ExpressRouteCircuitPaged\n\
+    \ <azure.mgmt.network.models.ExpressRouteCircuitPaged>`"
+  type: Method
+  uid: azure.mgmt.network.operations.ExpressRouteCircuitsOperations.list_all
+- _type: method
+  class: azure.mgmt.network.operations.ExpressRouteCircuitsOperations
+  fullName: azure.mgmt.network.operations.ExpressRouteCircuitsOperations.list_arp_table
+  module: azure.mgmt.network.operations
+  name: list_arp_table
+  source:
+    id: list_arp_table
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuits_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuits_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 271
+  summary: "The ListArpTable from ExpressRouteCircuit operation retrieves the\ncurrently\
+    \ advertised arp table associated with the\nExpressRouteCircuits in a resource\
+    \ group.\n\n:param resource_group_name: The name of the resource group.\n:type\
+    \ resource_group_name: str\n:param circuit_name: The name of the circuit.\n:type\
+    \ circuit_name: str\n:param peering_name: The name of the peering.\n:type peering_name:\
+    \ str\n:param device_path: The path of the device.\n:type device_path: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:rtype:\n\
+    \ :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`ExpressRouteCircuitsArpTableListResult\n <azure.mgmt.network.models.ExpressRouteCircuitsArpTableListResult>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.ExpressRouteCircuitsOperations.list_arp_table
+- _type: method
+  class: azure.mgmt.network.operations.ExpressRouteCircuitsOperations
+  fullName: azure.mgmt.network.operations.ExpressRouteCircuitsOperations.list_routes_table
+  module: azure.mgmt.network.operations
+  name: list_routes_table
+  source:
+    id: list_routes_table
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuits_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuits_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 363
+  summary: "The ListRoutesTable from ExpressRouteCircuit operation retrieves the\n\
+    currently advertised routes table associated with the\nExpressRouteCircuits in\
+    \ a resource group.\n\n:param resource_group_name: The name of the resource group.\n\
+    :type resource_group_name: str\n:param circuit_name: The name of the circuit.\n\
+    :type circuit_name: str\n:param peering_name: The name of the peering.\n:type\
+    \ peering_name: str\n:param device_path: The path of the device.\n:type device_path:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns\n :class:`ExpressRouteCircuitsRoutesTableListResult\n\
+    \ <azure.mgmt.network.models.ExpressRouteCircuitsRoutesTableListResult>`\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.ExpressRouteCircuitsOperations.list_routes_table
+- _type: method
+  class: azure.mgmt.network.operations.ExpressRouteCircuitsOperations
+  fullName: azure.mgmt.network.operations.ExpressRouteCircuitsOperations.list_routes_table_summary
+  module: azure.mgmt.network.operations
+  name: list_routes_table_summary
+  source:
+    id: list_routes_table_summary
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuits_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuits_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 456
+  summary: "The ListRoutesTable from ExpressRouteCircuit operation retrieves the\n\
+    currently advertised routes table associated with the\nExpressRouteCircuits in\
+    \ a resource group.\n\n:param resource_group_name: The name of the resource group.\n\
+    :type resource_group_name: str\n:param circuit_name: The name of the circuit.\n\
+    :type circuit_name: str\n:param peering_name: The name of the peering.\n:type\
+    \ peering_name: str\n:param device_path: The path of the device.\n:type device_path:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns\n :class:`ExpressRouteCircuitsRoutesTableSummaryListResult\n\
+    \ <azure.mgmt.network.models.ExpressRouteCircuitsRoutesTableSummaryListResult>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.ExpressRouteCircuitsOperations.list_routes_table_summary

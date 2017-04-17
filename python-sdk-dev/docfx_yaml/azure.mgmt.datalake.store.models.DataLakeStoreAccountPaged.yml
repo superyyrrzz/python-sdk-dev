@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.datalake.store.models.DataLakeStoreAccountPaged
+  fullName: azure.mgmt.datalake.store.models.DataLakeStoreAccountPaged
+  inheritance:
+  - msrest.paging.Paged
+  - collections.abc.Iterator
+  - collections.abc.Iterable
+  - builtins.object
+  module: azure.mgmt.datalake.store.models
+  name: DataLakeStoreAccountPaged
+  source:
+    id: DataLakeStoreAccountPaged
+    path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/models/data_lake_store_account_paged.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/models/data_lake_store_account_paged.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: A paging container for iterating over a list of DataLakeStoreAccount object
+  type: Class
+  uid: azure.mgmt.datalake.store.models.DataLakeStoreAccountPaged

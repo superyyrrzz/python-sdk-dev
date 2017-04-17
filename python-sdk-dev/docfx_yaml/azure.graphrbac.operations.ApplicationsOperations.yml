@@ -1,0 +1,240 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.graphrbac.operations.ApplicationsOperations.create
+  - azure.graphrbac.operations.ApplicationsOperations.delete
+  - azure.graphrbac.operations.ApplicationsOperations.get
+  - azure.graphrbac.operations.ApplicationsOperations.list
+  - azure.graphrbac.operations.ApplicationsOperations.list_key_credentials
+  - azure.graphrbac.operations.ApplicationsOperations.list_password_credentials
+  - azure.graphrbac.operations.ApplicationsOperations.patch
+  - azure.graphrbac.operations.ApplicationsOperations.update_key_credentials
+  - azure.graphrbac.operations.ApplicationsOperations.update_password_credentials
+  class: azure.graphrbac.operations.ApplicationsOperations
+  fullName: azure.graphrbac.operations.ApplicationsOperations
+  inheritance:
+  - builtins.object
+  module: azure.graphrbac.operations
+  name: ApplicationsOperations
+  source:
+    id: ApplicationsOperations
+    path: azure-graphrbac/azure/graphrbac/operations/applications_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/applications_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 18
+  summary: 'ApplicationsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    :ivar api_version: Client API version. Constant value: "1.6".'
+  type: Class
+  uid: azure.graphrbac.operations.ApplicationsOperations
+- _type: method
+  class: azure.graphrbac.operations.ApplicationsOperations
+  fullName: azure.graphrbac.operations.ApplicationsOperations.create
+  module: azure.graphrbac.operations
+  name: create
+  source:
+    id: create
+    path: azure-graphrbac/azure/graphrbac/operations/applications_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/applications_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 37
+  summary: "Create a new application.\n\n:param parameters: The parameters for creating\
+    \ an application.\n:type parameters: :class:`ApplicationCreateParameters\n <azure.graphrbac.models.ApplicationCreateParameters>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`Application <azure.graphrbac.models.Application>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`"
+  type: Method
+  uid: azure.graphrbac.operations.ApplicationsOperations.create
+- _type: method
+  class: azure.graphrbac.operations.ApplicationsOperations
+  fullName: azure.graphrbac.operations.ApplicationsOperations.delete
+  module: azure.graphrbac.operations
+  name: delete
+  source:
+    id: delete
+    path: azure-graphrbac/azure/graphrbac/operations/applications_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/applications_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 170
+  summary: "Delete an application.\n\n:param application_object_id: Application object\
+    \ ID.\n:type application_object_id: str\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`"
+  type: Method
+  uid: azure.graphrbac.operations.ApplicationsOperations.delete
+- _type: method
+  class: azure.graphrbac.operations.ApplicationsOperations
+  fullName: azure.graphrbac.operations.ApplicationsOperations.get
+  module: azure.graphrbac.operations
+  name: get
+  source:
+    id: get
+    path: azure-graphrbac/azure/graphrbac/operations/applications_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/applications_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 220
+  summary: "Get an application by object ID.\n\n:param application_object_id: Application\
+    \ object ID.\n:type application_object_id: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`Application\
+    \ <azure.graphrbac.models.Application>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`"
+  type: Method
+  uid: azure.graphrbac.operations.ApplicationsOperations.get
+- _type: method
+  class: azure.graphrbac.operations.ApplicationsOperations
+  fullName: azure.graphrbac.operations.ApplicationsOperations.list
+  module: azure.graphrbac.operations
+  name: list
+  source:
+    id: list
+    path: azure-graphrbac/azure/graphrbac/operations/applications_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/applications_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 98
+  summary: "Lists applications by filter parameters.\n\n:param filter: The filters\
+    \ to apply to the operation.\n:type filter: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ApplicationPaged\n\
+    \ <azure.graphrbac.models.ApplicationPaged>`\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`"
+  type: Method
+  uid: azure.graphrbac.operations.ApplicationsOperations.list
+- _type: method
+  class: azure.graphrbac.operations.ApplicationsOperations
+  fullName: azure.graphrbac.operations.ApplicationsOperations.list_key_credentials
+  module: azure.graphrbac.operations
+  name: list_key_credentials
+  source:
+    id: list_key_credentials
+    path: azure-graphrbac/azure/graphrbac/operations/applications_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/applications_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 334
+  summary: "Get the keyCredentials associated with an application.\n\n:param application_object_id:\
+    \ Application object ID.\n:type application_object_id: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`KeyCredentialPaged\n\
+    \ <azure.graphrbac.models.KeyCredentialPaged>`\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`"
+  type: Method
+  uid: azure.graphrbac.operations.ApplicationsOperations.list_key_credentials
+- _type: method
+  class: azure.graphrbac.operations.ApplicationsOperations
+  fullName: azure.graphrbac.operations.ApplicationsOperations.list_password_credentials
+  module: azure.graphrbac.operations
+  name: list_password_credentials
+  source:
+    id: list_password_credentials
+    path: azure-graphrbac/azure/graphrbac/operations/applications_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/applications_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 458
+  summary: "Get the passwordCredentials associated with an application.\n\n:param\
+    \ application_object_id: Application object ID.\n:type application_object_id:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`PasswordCredentialPaged\n <azure.graphrbac.models.PasswordCredentialPaged>`\n\
+    :raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`"
+  type: Method
+  uid: azure.graphrbac.operations.ApplicationsOperations.list_password_credentials
+- _type: method
+  class: azure.graphrbac.operations.ApplicationsOperations
+  fullName: azure.graphrbac.operations.ApplicationsOperations.patch
+  module: azure.graphrbac.operations
+  name: patch
+  source:
+    id: patch
+    path: azure-graphrbac/azure/graphrbac/operations/applications_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/applications_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 277
+  summary: "Update an existing application.\n\n:param application_object_id: Application\
+    \ object ID.\n:type application_object_id: str\n:param parameters: Parameters\
+    \ to update an existing application.\n:type parameters: :class:`ApplicationUpdateParameters\n\
+    \ <azure.graphrbac.models.ApplicationUpdateParameters>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`"
+  type: Method
+  uid: azure.graphrbac.operations.ApplicationsOperations.patch
+- _type: method
+  class: azure.graphrbac.operations.ApplicationsOperations
+  fullName: azure.graphrbac.operations.ApplicationsOperations.update_key_credentials
+  module: azure.graphrbac.operations
+  name: update_key_credentials
+  source:
+    id: update_key_credentials
+    path: azure-graphrbac/azure/graphrbac/operations/applications_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/applications_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 399
+  summary: "Update the keyCredentials associated with an application.\n\n:param application_object_id:\
+    \ Application object ID.\n:type application_object_id: str\n:param value: A collection\
+    \ of KeyCredentials.\n:type value: list of :class:`KeyCredential\n <azure.graphrbac.models.KeyCredential>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`"
+  type: Method
+  uid: azure.graphrbac.operations.ApplicationsOperations.update_key_credentials
+- _type: method
+  class: azure.graphrbac.operations.ApplicationsOperations
+  fullName: azure.graphrbac.operations.ApplicationsOperations.update_password_credentials
+  module: azure.graphrbac.operations
+  name: update_password_credentials
+  source:
+    id: update_password_credentials
+    path: azure-graphrbac/azure/graphrbac/operations/applications_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/applications_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 523
+  summary: "Update passwordCredentials associated with an application.\n\n:param application_object_id:\
+    \ Application object ID.\n:type application_object_id: str\n:param value: A collection\
+    \ of PasswordCredentials.\n:type value: list of :class:`PasswordCredential\n <azure.graphrbac.models.PasswordCredential>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`"
+  type: Method
+  uid: azure.graphrbac.operations.ApplicationsOperations.update_password_credentials

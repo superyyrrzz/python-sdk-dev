@@ -1,0 +1,43 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.SkuDescription
+  fullName: azure.mgmt.web.models.SkuDescription
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: SkuDescription
+  source:
+    id: SkuDescription
+    path: azure-mgmt-web/azure/mgmt/web/models/sku_description.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/sku_description.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Describes a sku for a scalable resource.
+
+
+    :param name: Name of the resource sku
+
+    :type name: str
+
+    :param tier: Service Tier of the resource sku
+
+    :type tier: str
+
+    :param size: Size specifier of the resource sku
+
+    :type size: str
+
+    :param family: Family code of the resource sku
+
+    :type family: str
+
+    :param capacity: Current number of instances assigned to the resource
+
+    :type capacity: int'
+  type: Class
+  uid: azure.mgmt.web.models.SkuDescription

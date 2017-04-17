@@ -1,0 +1,35 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.powerbiembedded.models.ErrorDetail
+  fullName: azure.mgmt.powerbiembedded.models.ErrorDetail
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.powerbiembedded.models
+  name: ErrorDetail
+  source:
+    id: ErrorDetail
+    path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/models/error_detail.py
+    remote:
+      branch: master
+      path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/models/error_detail.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'ErrorDetail.
+
+
+    :param code:
+
+    :type code: str
+
+    :param message:
+
+    :type message: str
+
+    :param target:
+
+    :type target: str'
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.ErrorDetail

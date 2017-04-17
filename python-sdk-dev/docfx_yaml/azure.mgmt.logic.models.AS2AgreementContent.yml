@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.AS2AgreementContent
+  fullName: azure.mgmt.logic.models.AS2AgreementContent
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: AS2AgreementContent
+  source:
+    id: AS2AgreementContent
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/as2_agreement_content.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/as2_agreement_content.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "AS2AgreementContent.\n\n:param receive_agreement: The AS2 one-way receive\
+    \ agreement.\n:type receive_agreement: :class:`AS2OneWayAgreement\n <azure.mgmt.logic.models.AS2OneWayAgreement>`\n\
+    :param send_agreement: The AS2 one-way send agreement.\n:type send_agreement:\
+    \ :class:`AS2OneWayAgreement\n <azure.mgmt.logic.models.AS2OneWayAgreement>`"
+  type: Class
+  uid: azure.mgmt.logic.models.AS2AgreementContent

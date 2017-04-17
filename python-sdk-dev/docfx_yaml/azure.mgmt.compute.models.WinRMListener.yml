@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.WinRMListener
+  fullName: azure.mgmt.compute.models.WinRMListener
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: WinRMListener
+  source:
+    id: WinRMListener
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/win_rm_listener.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/win_rm_listener.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Describes Protocol and thumbprint of Windows Remote Management listener.\n\
+    \n:param protocol: the Protocol used by WinRM listener. Currently only Http\n\
+    \ and Https are supported. Possible values include: 'Http', 'Https'\n:type protocol:\
+    \ str or :class:`ProtocolTypes\n <azure.mgmt.compute.models.ProtocolTypes>`\n\
+    :param certificate_url: the Certificate URL in KMS for Https listeners.\n Should\
+    \ be null for Http listeners.\n:type certificate_url: str"
+  type: Class
+  uid: azure.mgmt.compute.models.WinRMListener

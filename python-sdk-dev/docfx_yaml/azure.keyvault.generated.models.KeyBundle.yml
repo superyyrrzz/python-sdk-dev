@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.keyvault.generated.models.KeyBundle
+  fullName: azure.keyvault.generated.models.KeyBundle
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.keyvault.generated.models
+  name: KeyBundle
+  source:
+    id: KeyBundle
+    path: azure-keyvault/azure/keyvault/generated/models/key_bundle.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/models/key_bundle.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A KeyBundle consisting of a WebKey plus its attributes.\n\nVariables are\
+    \ only populated by the server, and will be ignored when\nsending a request.\n\
+    \n:param key: The Json web key.\n:type key: :class:`JsonWebKey\n <azure.keyvault.generated.models.JsonWebKey>`\n\
+    :param attributes: The key management attributes.\n:type attributes: :class:`KeyAttributes\n\
+    \ <azure.keyvault.generated.models.KeyAttributes>`\n:param tags: Application specific\
+    \ metadata in the form of key-value pairs.\n:type tags: dict\n:ivar managed: True\
+    \ if the key's lifetime is managed by key vault. If this\n is a key backing a\
+    \ certificate, then managed will be true.\n:vartype managed: bool"
+  type: Class
+  uid: azure.keyvault.generated.models.KeyBundle

@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.dns.models.CnameRecord
+  fullName: azure.mgmt.dns.models.CnameRecord
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.dns.models
+  name: CnameRecord
+  source:
+    id: CnameRecord
+    path: azure-mgmt-dns/azure/mgmt/dns/models/cname_record.py
+    remote:
+      branch: master
+      path: azure-mgmt-dns/azure/mgmt/dns/models/cname_record.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'A CNAME record.
+
+
+    :param cname: The canonical name for this CNAME record.
+
+    :type cname: str'
+  type: Class
+  uid: azure.mgmt.dns.models.CnameRecord

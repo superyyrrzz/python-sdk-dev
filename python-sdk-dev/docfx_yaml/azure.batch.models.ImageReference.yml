@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.ImageReference
+  fullName: azure.batch.models.ImageReference
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: ImageReference
+  source:
+    id: ImageReference
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/image_reference.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/image_reference.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A reference to an Azure Virtual Machines Marketplace image.\n\n:param\
+    \ publisher: The publisher of the Azure Virtual Machines Marketplace\n image.\
+    \ For example, Canonical or MicrosoftWindowsServer.\n:type publisher: str\n:param\
+    \ offer: The offer type of the Azure Virtual Machines Marketplace\n image. For\
+    \ example, UbuntuServer or WindowsServer.\n:type offer: str\n:param sku: The SKU\
+    \ of the Azure Virtual Machines Marketplace image. For\n example, 14.04.0-LTS\
+    \ or 2012-R2-Datacenter.\n:type sku: str\n:param version: The version of the Azure\
+    \ Virtual Machines Marketplace\n image. A value of 'latest' can be specified to\
+    \ select the latest version\n of an image. If omitted, the default is 'latest'.\n\
+    :type version: str"
+  type: Class
+  uid: azure.batch.models.ImageReference

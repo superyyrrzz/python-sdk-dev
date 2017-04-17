@@ -1,0 +1,36 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.iothub.models.JobResponse
+  fullName: azure.mgmt.iothub.models.JobResponse
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.iothub.models
+  name: JobResponse
+  source:
+    id: JobResponse
+    path: azure-mgmt-iothub/azure/mgmt/iothub/models/job_response.py
+    remote:
+      branch: master
+      path: azure-mgmt-iothub/azure/mgmt/iothub/models/job_response.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The properties of the Job Response object.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar job_id:\
+    \ The job identifier.\n:vartype job_id: str\n:ivar start_time_utc: The start time\
+    \ of the Job.\n:vartype start_time_utc: datetime\n:ivar end_time_utc: The time\
+    \ the job stopped processing.\n:vartype end_time_utc: datetime\n:ivar type: The\
+    \ type of the job. Possible values include: 'unknown',\n 'export', 'import', 'backup',\
+    \ 'readDeviceProperties',\n 'writeDeviceProperties', 'updateDeviceConfiguration',\
+    \ 'rebootDevice',\n 'factoryResetDevice', 'firmwareUpdate'\n:vartype type: str\
+    \ or :class:`JobType <azure.mgmt.iothub.models.JobType>`\n:ivar status: The status\
+    \ of the job. Possible values include: 'unknown',\n 'enqueued', 'running', 'completed',\
+    \ 'failed', 'cancelled'\n:vartype status: str or :class:`JobStatus\n <azure.mgmt.iothub.models.JobStatus>`\n\
+    :ivar failure_reason: If status == failed, this string containing the\n reason\
+    \ for the failure.\n:vartype failure_reason: str\n:ivar status_message: The status\
+    \ message for the job.\n:vartype status_message: str\n:ivar parent_job_id: The\
+    \ job identifier of the parent job, if any.\n:vartype parent_job_id: str"
+  type: Class
+  uid: azure.mgmt.iothub.models.JobResponse

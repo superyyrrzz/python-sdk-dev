@@ -1,0 +1,38 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.servicebus.servicebusservice.ServiceBusSASAuthentication.sign_request
+  class: azure.servicebus.servicebusservice.ServiceBusSASAuthentication
+  fullName: azure.servicebus.servicebusservice.ServiceBusSASAuthentication
+  inheritance:
+  - builtins.object
+  module: azure.servicebus.servicebusservice
+  name: ServiceBusSASAuthentication
+  source:
+    id: ServiceBusSASAuthentication
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1276
+  summary: ''
+  type: Class
+  uid: azure.servicebus.servicebusservice.ServiceBusSASAuthentication
+- _type: method
+  class: azure.servicebus.servicebusservice.ServiceBusSASAuthentication
+  fullName: azure.servicebus.servicebusservice.ServiceBusSASAuthentication.sign_request
+  module: azure.servicebus.servicebusservice
+  name: sign_request
+  source:
+    id: sign_request
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1281
+  summary: ''
+  type: Method
+  uid: azure.servicebus.servicebusservice.ServiceBusSASAuthentication.sign_request

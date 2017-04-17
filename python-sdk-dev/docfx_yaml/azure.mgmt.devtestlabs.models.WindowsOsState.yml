@@ -1,0 +1,22 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.devtestlabs.models.WindowsOsState
+  fullName: azure.mgmt.devtestlabs.models.WindowsOsState
+  inheritance:
+  - enum.Enum
+  - builtins.object
+  module: azure.mgmt.devtestlabs.models
+  name: WindowsOsState
+  source:
+    id: WindowsOsState
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/dev_test_labs_client_enums.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/dev_test_labs_client_enums.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 34
+  summary: An enumeration.
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.WindowsOsState

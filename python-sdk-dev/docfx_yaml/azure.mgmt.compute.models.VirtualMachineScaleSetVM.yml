@@ -1,0 +1,50 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.VirtualMachineScaleSetVM
+  fullName: azure.mgmt.compute.models.VirtualMachineScaleSetVM
+  inheritance:
+  - azure.mgmt.compute.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: VirtualMachineScaleSetVM
+  source:
+    id: VirtualMachineScaleSetVM
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_scale_set_vm.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_scale_set_vm.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Describes a virtual machine scale set virtual machine.\n\nVariables are\
+    \ only populated by the server, and will be ignored when\nsending a request.\n\
+    \n:ivar id: Resource Id\n:vartype id: str\n:ivar name: Resource name\n:vartype\
+    \ name: str\n:ivar type: Resource type\n:vartype type: str\n:param location: Resource\
+    \ location\n:type location: str\n:param tags: Resource tags\n:type tags: dict\n\
+    :ivar instance_id: the virtual machine instance id.\n:vartype instance_id: str\n\
+    :ivar sku: the virtual machine sku.\n:vartype sku: :class:`Sku <azure.mgmt.compute.models.Sku>`\n\
+    :ivar latest_model_applied: Specifies whether the latest model has been\n applied\
+    \ to the virtual machine.\n:vartype latest_model_applied: bool\n:ivar instance_view:\
+    \ the virtual machine instance view.\n:vartype instance_view: :class:`VirtualMachineInstanceView\n\
+    \ <azure.mgmt.compute.models.VirtualMachineInstanceView>`\n:param hardware_profile:\
+    \ the hardware profile.\n:type hardware_profile: :class:`HardwareProfile\n <azure.mgmt.compute.models.HardwareProfile>`\n\
+    :param storage_profile: the storage profile.\n:type storage_profile: :class:`StorageProfile\n\
+    \ <azure.mgmt.compute.models.StorageProfile>`\n:param os_profile: the OS profile.\n\
+    :type os_profile: :class:`OSProfile <azure.mgmt.compute.models.OSProfile>`\n:param\
+    \ network_profile: the network profile.\n:type network_profile: :class:`NetworkProfile\n\
+    \ <azure.mgmt.compute.models.NetworkProfile>`\n:param diagnostics_profile: the\
+    \ diagnostics profile.\n:type diagnostics_profile: :class:`DiagnosticsProfile\n\
+    \ <azure.mgmt.compute.models.DiagnosticsProfile>`\n:param availability_set: the\
+    \ reference Id of the availability set to\n which this virtual machine belongs.\n\
+    :type availability_set: :class:`SubResource\n <azure.mgmt.compute.models.SubResource>`\n\
+    :ivar provisioning_state: the provisioning state, which only appears in\n the\
+    \ response.\n:vartype provisioning_state: str\n:param license_type: the license\
+    \ type, which is for bring your own\n license scenario.\n:type license_type: str\n\
+    :param plan: the purchase plan when deploying virtual machine from VM\n Marketplace\
+    \ images.\n:type plan: :class:`Plan <azure.mgmt.compute.models.Plan>`\n:ivar resources:\
+    \ the virtual machine child extension resources.\n:vartype resources: list of\
+    \ :class:`VirtualMachineExtension\n <azure.mgmt.compute.models.VirtualMachineExtension>`"
+  type: Class
+  uid: azure.mgmt.compute.models.VirtualMachineScaleSetVM

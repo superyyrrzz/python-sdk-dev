@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.keyvault.models.AccessPolicyEntry
+  fullName: azure.mgmt.keyvault.models.AccessPolicyEntry
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.keyvault.models
+  name: AccessPolicyEntry
+  source:
+    id: AccessPolicyEntry
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/keyvault/models/access_policy_entry.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/keyvault/models/access_policy_entry.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "An array of 0 to 16 identities that have access to the key vault. All\n\
+    identities in the array must use the same tenant ID as the key vault's\ntenant\
+    \ ID.\n\n:param tenant_id: The Azure Active Directory tenant ID that should be\n\
+    \ used for authenticating requests to the key vault.\n:type tenant_id: str\n:param\
+    \ object_id: The object ID of a user or service principal in the\n Azure Active\
+    \ Directory tenant for the vault. The object ID must be\n unique for the list\
+    \ of access policies.\n:type object_id: str\n:param application_id:  Application\
+    \ ID of the client making request on\n behalf of a principal\n:type application_id:\
+    \ str\n:param permissions: Permissions the identity has for keys and secrets\n\
+    :type permissions: :class:`Permissions\n <azure.keyvault.models.Permissions>`"
+  type: Class
+  uid: azure.mgmt.keyvault.models.AccessPolicyEntry

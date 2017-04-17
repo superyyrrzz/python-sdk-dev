@@ -1,0 +1,44 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.datalake.analytics.catalog.models.USqlAssemblyClr
+  fullName: azure.mgmt.datalake.analytics.catalog.models.USqlAssemblyClr
+  inheritance:
+  - azure.mgmt.datalake.analytics.catalog.models.catalog_item.CatalogItem
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.datalake.analytics.catalog.models
+  name: USqlAssemblyClr
+  source:
+    id: USqlAssemblyClr
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/models/usql_assembly_clr.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/models/usql_assembly_clr.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'A Data Lake Analytics catalog U-SQL assembly CLR item.
+
+
+    :param compute_account_name: the name of the Data Lake Analytics account.
+
+    :type compute_account_name: str
+
+    :param version: the version of the catalog item.
+
+    :type version: str
+
+    :param database_name: the name of the database.
+
+    :type database_name: str
+
+    :param name: the name of the assembly.
+
+    :type name: str
+
+    :param clr_name: the name of the CLR.
+
+    :type clr_name: str'
+  type: Class
+  uid: azure.mgmt.datalake.analytics.catalog.models.USqlAssemblyClr

@@ -1,0 +1,56 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.SlotConfigNamesResource
+  fullName: azure.mgmt.web.models.SlotConfigNamesResource
+  inheritance:
+  - azure.mgmt.web.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: SlotConfigNamesResource
+  source:
+    id: SlotConfigNamesResource
+    path: azure-mgmt-web/azure/mgmt/web/models/slot_config_names_resource.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/slot_config_names_resource.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Slot Config names azure resource.
+
+
+    :param id: Resource Id
+
+    :type id: str
+
+    :param name: Resource Name
+
+    :type name: str
+
+    :param kind: Kind of resource
+
+    :type kind: str
+
+    :param location: Resource Location
+
+    :type location: str
+
+    :param type: Resource type
+
+    :type type: str
+
+    :param tags: Resource tags
+
+    :type tags: dict
+
+    :param connection_string_names: List of connection string names
+
+    :type connection_string_names: list of str
+
+    :param app_setting_names: List of application settings names
+
+    :type app_setting_names: list of str'
+  type: Class
+  uid: azure.mgmt.web.models.SlotConfigNamesResource

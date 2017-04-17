@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.NodeRemoveParameter
+  fullName: azure.batch.models.NodeRemoveParameter
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: NodeRemoveParameter
+  source:
+    id: NodeRemoveParameter
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/node_remove_parameter.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/node_remove_parameter.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Parameters for a ComputeNodeOperations.Remove request.\n\n:param node_list:\
+    \ A list containing the ids of the compute nodes to be\n removed from the specified\
+    \ pool.\n:type node_list: list of str\n:param resize_timeout: The timeout for\
+    \ removal of compute nodes to the\n pool. The default value is 10 minutes.\n:type\
+    \ resize_timeout: timedelta\n:param node_deallocation_option: When compute nodes\
+    \ may be removed from\n the pool. Possible values include: 'requeue', 'terminate',\n\
+    \ 'taskcompletion', 'retaineddata'\n:type node_deallocation_option: str or\n :class:`ComputeNodeDeallocationOption\n\
+    \ <azure.batch.models.ComputeNodeDeallocationOption>`"
+  type: Class
+  uid: azure.batch.models.NodeRemoveParameter

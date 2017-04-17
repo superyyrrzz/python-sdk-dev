@@ -1,0 +1,30 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.WorkflowOutputParameter
+  fullName: azure.mgmt.logic.models.WorkflowOutputParameter
+  inheritance:
+  - azure.mgmt.logic.models.workflow_parameter.WorkflowParameter
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: WorkflowOutputParameter
+  source:
+    id: WorkflowOutputParameter
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/workflow_output_parameter.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/workflow_output_parameter.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "WorkflowOutputParameter.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:param type: The type. Possible\
+    \ values include: 'NotSpecified', 'String',\n 'SecureString', 'Int', 'Float',\
+    \ 'Bool', 'Array', 'Object', 'SecureObject'\n:type type: str or :class:`ParameterType\n\
+    \ <azure.mgmt.logic.models.ParameterType>`\n:param value: The value.\n:type value:\
+    \ object\n:param metadata: The metadata.\n:type metadata: object\n:param description:\
+    \ The description.\n:type description: str\n:ivar error: Gets the error.\n:vartype\
+    \ error: object"
+  type: Class
+  uid: azure.mgmt.logic.models.WorkflowOutputParameter

@@ -1,0 +1,54 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.compute.operations.VirtualMachineSizesOperations.list
+  class: azure.mgmt.compute.operations.VirtualMachineSizesOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachineSizesOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.compute.operations
+  name: VirtualMachineSizesOperations
+  source:
+    id: VirtualMachineSizesOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_sizes_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_sizes_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'VirtualMachineSizesOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    :ivar api_version: Client Api Version. Constant value: "2016-03-30".'
+  type: Class
+  uid: azure.mgmt.compute.operations.VirtualMachineSizesOperations
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachineSizesOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachineSizesOperations.list
+  module: azure.mgmt.compute.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_sizes_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_sizes_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 38
+  summary: "Lists all available virtual machine sizes for a subscription in a\nlocation.\n\
+    \n:param location: The location upon which virtual-machine-sizes is\n queried.\n\
+    :type location: str\n:param dict custom_headers: headers that will be added to\
+    \ the request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`VirtualMachineSizePaged\n <azure.mgmt.compute.models.VirtualMachineSizePaged>`"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachineSizesOperations.list

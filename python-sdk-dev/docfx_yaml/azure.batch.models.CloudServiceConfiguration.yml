@@ -1,0 +1,30 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.CloudServiceConfiguration
+  fullName: azure.batch.models.CloudServiceConfiguration
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: CloudServiceConfiguration
+  source:
+    id: CloudServiceConfiguration
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/cloud_service_configuration.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/cloud_service_configuration.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The configuration for nodes in a pool based on the Azure Cloud Services\n\
+    platform.\n\n:param os_family: The Azure Guest OS family to be installed on the\n\
+    \ virtual machines in the pool.\n:type os_family: str\n:param target_os_version:\
+    \ The Azure Guest OS version to be installed on\n the virtual machines in the\
+    \ pool. The default value is * which specifies\n the latest operating system version\
+    \ for the specified OS family.\n:type target_os_version: str\n:param current_os_version:\
+    \ The Azure Guest OS Version currently installed\n on the virtual machines in\
+    \ the pool. This may differ from\n targetOSVersion if the pool state is Upgrading.\n\
+    :type current_os_version: str"
+  type: Class
+  uid: azure.batch.models.CloudServiceConfiguration

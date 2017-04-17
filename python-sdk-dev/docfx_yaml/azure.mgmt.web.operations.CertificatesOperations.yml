@@ -1,0 +1,277 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.web.operations.CertificatesOperations.create_or_update_certificate
+  - azure.mgmt.web.operations.CertificatesOperations.create_or_update_csr
+  - azure.mgmt.web.operations.CertificatesOperations.delete_certificate
+  - azure.mgmt.web.operations.CertificatesOperations.delete_csr
+  - azure.mgmt.web.operations.CertificatesOperations.get_certificate
+  - azure.mgmt.web.operations.CertificatesOperations.get_certificates
+  - azure.mgmt.web.operations.CertificatesOperations.get_csr
+  - azure.mgmt.web.operations.CertificatesOperations.get_csrs
+  - azure.mgmt.web.operations.CertificatesOperations.update_certificate
+  - azure.mgmt.web.operations.CertificatesOperations.update_csr
+  class: azure.mgmt.web.operations.CertificatesOperations
+  fullName: azure.mgmt.web.operations.CertificatesOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.web.operations
+  name: CertificatesOperations
+  source:
+    id: CertificatesOperations
+    path: azure-mgmt-web/azure/mgmt/web/operations/certificates_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/certificates_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'CertificatesOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.web.operations.CertificatesOperations
+- _type: method
+  class: azure.mgmt.web.operations.CertificatesOperations
+  fullName: azure.mgmt.web.operations.CertificatesOperations.create_or_update_certificate
+  module: azure.mgmt.web.operations
+  name: create_or_update_certificate
+  source:
+    id: create_or_update_certificate
+    path: azure-mgmt-web/azure/mgmt/web/operations/certificates_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/certificates_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 164
+  summary: "Creates or modifies an existing certificate.\n\n:param resource_group_name:\
+    \ Name of the resource group\n:type resource_group_name: str\n:param name: Name\
+    \ of the certificate.\n:type name: str\n:param certificate_envelope: Details of\
+    \ certificate if it exists\n already.\n:type certificate_envelope: :class:`Certificate\n\
+    \ <azure.mgmt.web.models.Certificate>`\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`Certificate <azure.mgmt.web.models.Certificate>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.CertificatesOperations.create_or_update_certificate
+- _type: method
+  class: azure.mgmt.web.operations.CertificatesOperations
+  fullName: azure.mgmt.web.operations.CertificatesOperations.create_or_update_csr
+  module: azure.mgmt.web.operations
+  name: create_or_update_csr
+  source:
+    id: create_or_update_csr
+    path: azure-mgmt-web/azure/mgmt/web/operations/certificates_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/certificates_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 485
+  summary: "Creates or modifies an existing certificate signing request.\n\n:param\
+    \ resource_group_name: Name of the resource group\n:type resource_group_name:\
+    \ str\n:param name: Name of the certificate.\n:type name: str\n:param csr_envelope:\
+    \ Details of certificate signing request if it\n exists already.\n:type csr_envelope:\
+    \ :class:`Csr <azure.mgmt.web.models.Csr>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`Csr\
+    \ <azure.mgmt.web.models.Csr>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.CertificatesOperations.create_or_update_csr
+- _type: method
+  class: azure.mgmt.web.operations.CertificatesOperations
+  fullName: azure.mgmt.web.operations.CertificatesOperations.delete_certificate
+  module: azure.mgmt.web.operations
+  name: delete_certificate
+  source:
+    id: delete_certificate
+    path: azure-mgmt-web/azure/mgmt/web/operations/certificates_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/certificates_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 233
+  summary: "Delete a certificate by name in a specificed subscription and\nresourcegroup.\n\
+    \n:param resource_group_name: Name of the resource group\n:type resource_group_name:\
+    \ str\n:param name: Name of the certificate to be deleted.\n:type name: str\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: object\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.CertificatesOperations.delete_certificate
+- _type: method
+  class: azure.mgmt.web.operations.CertificatesOperations
+  fullName: azure.mgmt.web.operations.CertificatesOperations.delete_csr
+  module: azure.mgmt.web.operations
+  name: delete_csr
+  source:
+    id: delete_csr
+    path: azure-mgmt-web/azure/mgmt/web/operations/certificates_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/certificates_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 553
+  summary: "Delete the certificate signing request.\n\n:param resource_group_name:\
+    \ Name of the resource group\n:type resource_group_name: str\n:param name: Name\
+    \ of the certificate signing request.\n:type name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: object\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.CertificatesOperations.delete_csr
+- _type: method
+  class: azure.mgmt.web.operations.CertificatesOperations
+  fullName: azure.mgmt.web.operations.CertificatesOperations.get_certificate
+  module: azure.mgmt.web.operations
+  name: get_certificate
+  source:
+    id: get_certificate
+    path: azure-mgmt-web/azure/mgmt/web/operations/certificates_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/certificates_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 102
+  summary: "Get a certificate by certificate name for a subscription in the\nspecified\
+    \ resource group.\n\n:param resource_group_name: Name of the resource group\n\
+    :type resource_group_name: str\n:param name: Name of the certificate.\n:type name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`Certificate <azure.mgmt.web.models.Certificate>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.CertificatesOperations.get_certificate
+- _type: method
+  class: azure.mgmt.web.operations.CertificatesOperations
+  fullName: azure.mgmt.web.operations.CertificatesOperations.get_certificates
+  module: azure.mgmt.web.operations
+  name: get_certificates
+  source:
+    id: get_certificates
+    path: azure-mgmt-web/azure/mgmt/web/operations/certificates_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/certificates_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Get certificates for a subscription in the specified resource group.\n\
+    \n:param resource_group_name: Name of the resource group\n:type resource_group_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`CertificatePaged\n <azure.mgmt.web.models.CertificatePaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.CertificatesOperations.get_certificates
+- _type: method
+  class: azure.mgmt.web.operations.CertificatesOperations
+  fullName: azure.mgmt.web.operations.CertificatesOperations.get_csr
+  module: azure.mgmt.web.operations
+  name: get_csr
+  source:
+    id: get_csr
+    path: azure-mgmt-web/azure/mgmt/web/operations/certificates_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/certificates_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 423
+  summary: "Gets a certificate signing request by certificate name for a\nsubscription\
+    \ in the specified resource group.\n\n:param resource_group_name: Name of the\
+    \ resource group\n:type resource_group_name: str\n:param name: Name of the certificate.\n\
+    :type name: str\n:param dict custom_headers: headers that will be added to the\
+    \ request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`Csr <azure.mgmt.web.models.Csr>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.CertificatesOperations.get_csr
+- _type: method
+  class: azure.mgmt.web.operations.CertificatesOperations
+  fullName: azure.mgmt.web.operations.CertificatesOperations.get_csrs
+  module: azure.mgmt.web.operations
+  name: get_csrs
+  source:
+    id: get_csrs
+    path: azure-mgmt-web/azure/mgmt/web/operations/certificates_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/certificates_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 364
+  summary: "Gets the certificate signing requests for a subscription in the\nspecified\
+    \ resource group.\n\n:param resource_group_name: Name of the resource group\n\
+    :type resource_group_name: str\n:param dict custom_headers: headers that will\
+    \ be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: list of :class:`Csr <azure.mgmt.web.models.Csr>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.CertificatesOperations.get_csrs
+- _type: method
+  class: azure.mgmt.web.operations.CertificatesOperations
+  fullName: azure.mgmt.web.operations.CertificatesOperations.update_certificate
+  module: azure.mgmt.web.operations
+  name: update_certificate
+  source:
+    id: update_certificate
+    path: azure-mgmt-web/azure/mgmt/web/operations/certificates_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/certificates_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 295
+  summary: "Creates or modifies an existing certificate.\n\n:param resource_group_name:\
+    \ Name of the resource group\n:type resource_group_name: str\n:param name: Name\
+    \ of the certificate.\n:type name: str\n:param certificate_envelope: Details of\
+    \ certificate if it exists\n already.\n:type certificate_envelope: :class:`Certificate\n\
+    \ <azure.mgmt.web.models.Certificate>`\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`Certificate <azure.mgmt.web.models.Certificate>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.CertificatesOperations.update_certificate
+- _type: method
+  class: azure.mgmt.web.operations.CertificatesOperations
+  fullName: azure.mgmt.web.operations.CertificatesOperations.update_csr
+  module: azure.mgmt.web.operations
+  name: update_csr
+  source:
+    id: update_csr
+    path: azure-mgmt-web/azure/mgmt/web/operations/certificates_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/certificates_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 614
+  summary: "Creates or modifies an existing certificate signing request.\n\n:param\
+    \ resource_group_name: Name of the resource group\n:type resource_group_name:\
+    \ str\n:param name: Name of the certificate.\n:type name: str\n:param csr_envelope:\
+    \ Details of certificate signing request if it\n exists already.\n:type csr_envelope:\
+    \ :class:`Csr <azure.mgmt.web.models.Csr>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`Csr\
+    \ <azure.mgmt.web.models.Csr>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.CertificatesOperations.update_csr

@@ -1,0 +1,49 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.keyvault.generated.models.CertificateAttributes
+  fullName: azure.keyvault.generated.models.CertificateAttributes
+  inheritance:
+  - azure.keyvault.generated.models.attributes.Attributes
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.keyvault.generated.models
+  name: CertificateAttributes
+  source:
+    id: CertificateAttributes
+    path: azure-keyvault/azure/keyvault/generated/models/certificate_attributes.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/models/certificate_attributes.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'The certificate management attributes.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :param enabled: Determines whether the object is enabled.
+
+    :type enabled: bool
+
+    :param not_before: Not before date in UTC.
+
+    :type not_before: datetime
+
+    :param expires: Expiry date in UTC.
+
+    :type expires: datetime
+
+    :ivar created: Creation time in UTC.
+
+    :vartype created: datetime
+
+    :ivar updated: Last updated time in UTC.
+
+    :vartype updated: datetime'
+  type: Class
+  uid: azure.keyvault.generated.models.CertificateAttributes

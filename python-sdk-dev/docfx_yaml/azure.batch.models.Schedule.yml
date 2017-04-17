@@ -1,0 +1,36 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.Schedule
+  fullName: azure.batch.models.Schedule
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: Schedule
+  source:
+    id: Schedule
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/schedule.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/schedule.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The schedule according to which jobs will be created.\n\n:param do_not_run_until:\
+    \ The earliest time at which any job may be\n created under this job schedule.\
+    \ If you do not specify a doNotRunUntil\n time, the schedule becomes ready to\
+    \ create jobs immediately.\n:type do_not_run_until: datetime\n:param do_not_run_after:\
+    \ A time after which no job will be created under\n this job schedule. The schedule\
+    \ will move to the completed state as soon\n as this deadline is past and there\
+    \ is no active job under this job\n schedule.\n:type do_not_run_after: datetime\n\
+    :param start_window: The time interval, starting from the time at which\n the\
+    \ schedule indicates a job should be created, within which a job must\n be created.\
+    \ If a job is not created within the startWindow interval,\n then the 'opportunity'\
+    \ is lost; no job will be created until the next\n recurrence of the schedule.\n\
+    :type start_window: timedelta\n:param recurrence_interval: The time interval between\
+    \ the start times of\n two successive jobs under the job schedule. A job schedule\
+    \ can have at\n most one active job under it at any given time.\n:type recurrence_interval:\
+    \ timedelta"
+  type: Class
+  uid: azure.batch.models.Schedule

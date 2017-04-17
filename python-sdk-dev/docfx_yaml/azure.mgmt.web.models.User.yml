@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.User
+  fullName: azure.mgmt.web.models.User
+  inheritance:
+  - azure.mgmt.web.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: User
+  source:
+    id: User
+    path: azure-mgmt-web/azure/mgmt/web/models/user.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/user.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Represents user crendentials used for publishing activity.\n\n:param id:\
+    \ Resource Id\n:type id: str\n:param name: Resource Name\n:type name: str\n:param\
+    \ kind: Kind of resource\n:type kind: str\n:param location: Resource Location\n\
+    :type location: str\n:param type: Resource type\n:type type: str\n:param tags:\
+    \ Resource tags\n:type tags: dict\n:param user_name: Username (internal)\n:type\
+    \ user_name: str\n:param publishing_user_name: Username used for publishing\n\
+    :type publishing_user_name: str\n:param publishing_password: Password used for\
+    \ publishing\n:type publishing_password: str\n:param scm_uri: Service Control\
+    \ Manager URI, including username and\n password\n:type scm_uri: str"
+  type: Class
+  uid: azure.mgmt.web.models.User

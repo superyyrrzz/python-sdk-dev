@@ -1,0 +1,293 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.servicebus.operations.QueuesOperations.create_or_update
+  - azure.mgmt.servicebus.operations.QueuesOperations.create_or_update_authorization_rule
+  - azure.mgmt.servicebus.operations.QueuesOperations.delete
+  - azure.mgmt.servicebus.operations.QueuesOperations.delete_authorization_rule
+  - azure.mgmt.servicebus.operations.QueuesOperations.get
+  - azure.mgmt.servicebus.operations.QueuesOperations.get_authorization_rule
+  - azure.mgmt.servicebus.operations.QueuesOperations.list_all
+  - azure.mgmt.servicebus.operations.QueuesOperations.list_authorization_rules
+  - azure.mgmt.servicebus.operations.QueuesOperations.list_keys
+  - azure.mgmt.servicebus.operations.QueuesOperations.regenerate_keys
+  class: azure.mgmt.servicebus.operations.QueuesOperations
+  fullName: azure.mgmt.servicebus.operations.QueuesOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.servicebus.operations
+  name: QueuesOperations
+  source:
+    id: QueuesOperations
+    path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/queues_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/queues_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'QueuesOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.servicebus.operations.QueuesOperations
+- _type: method
+  class: azure.mgmt.servicebus.operations.QueuesOperations
+  fullName: azure.mgmt.servicebus.operations.QueuesOperations.create_or_update
+  module: azure.mgmt.servicebus.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/queues_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/queues_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 105
+  summary: "Creates or updates a Service Bus queue. This operation is idempotent.\n\
+    \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param namespace_name: The namespace name.\n:type namespace_name: str\n\
+    :param queue_name: The queue name.\n:type queue_name: str\n:param parameters:\
+    \ Parameters supplied to create or update a queue\n resource.\n:type parameters:\
+    \ :class:`QueueCreateOrUpdateParameters\n <azure.mgmt.servicebus.models.QueueCreateOrUpdateParameters>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`QueueResource\n <azure.mgmt.servicebus.models.QueueResource>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.servicebus.operations.QueuesOperations.create_or_update
+- _type: method
+  class: azure.mgmt.servicebus.operations.QueuesOperations
+  fullName: azure.mgmt.servicebus.operations.QueuesOperations.create_or_update_authorization_rule
+  module: azure.mgmt.servicebus.operations
+  name: create_or_update_authorization_rule
+  source:
+    id: create_or_update_authorization_rule
+    path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/queues_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/queues_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 372
+  summary: "Creates an authorization rule for a queue.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
+    \ The namespace name.\n:type namespace_name: str\n:param queue_name: The queue\
+    \ name.\n:type queue_name: str\n:param authorization_rule_name: Authorization\
+    \ rule name.\n:type authorization_rule_name: str\n:param parameters: The shared\
+    \ access authorization rule.\n:type parameters:\n :class:`SharedAccessAuthorizationRuleCreateOrUpdateParameters\n\
+    \ <azure.mgmt.servicebus.models.SharedAccessAuthorizationRuleCreateOrUpdateParameters>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`SharedAccessAuthorizationRuleResource\n <azure.mgmt.servicebus.models.SharedAccessAuthorizationRuleResource>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.servicebus.operations.QueuesOperations.create_or_update_authorization_rule
+- _type: method
+  class: azure.mgmt.servicebus.operations.QueuesOperations
+  fullName: azure.mgmt.servicebus.operations.QueuesOperations.delete
+  module: azure.mgmt.servicebus.operations
+  name: delete
+  source:
+    id: delete
+    path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/queues_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/queues_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 178
+  summary: "Deletes a queue from the specified namespace in a resource group.\n\n\
+    :param resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param namespace_name: The namespace name.\n:type namespace_name: str\n\
+    :param queue_name: The name of the queue to be deleted.\n:type queue_name: str\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.servicebus.operations.QueuesOperations.delete
+- _type: method
+  class: azure.mgmt.servicebus.operations.QueuesOperations
+  fullName: azure.mgmt.servicebus.operations.QueuesOperations.delete_authorization_rule
+  module: azure.mgmt.servicebus.operations
+  name: delete_authorization_rule
+  source:
+    id: delete_authorization_rule
+    path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/queues_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/queues_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 448
+  summary: "Deletes a queue authorization rule.\n\n:param resource_group_name: The\
+    \ name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
+    \ The namespace name.\n:type namespace_name: str\n:param queue_name: The queue\
+    \ name.\n:type queue_name: str\n:param authorization_rule_name: Authorization\
+    \ rule name.\n:type authorization_rule_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.servicebus.operations.QueuesOperations.delete_authorization_rule
+- _type: method
+  class: azure.mgmt.servicebus.operations.QueuesOperations
+  fullName: azure.mgmt.servicebus.operations.QueuesOperations.get
+  module: azure.mgmt.servicebus.operations
+  name: get
+  source:
+    id: get
+    path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/queues_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/queues_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 235
+  summary: "Returns a description for the specified queue.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
+    \ The namespace name.\n:type namespace_name: str\n:param queue_name: The queue\
+    \ name.\n:type queue_name: str\n:param dict custom_headers: headers that will\
+    \ be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`QueueResource\n <azure.mgmt.servicebus.models.QueueResource>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.servicebus.operations.QueuesOperations.get
+- _type: method
+  class: azure.mgmt.servicebus.operations.QueuesOperations
+  fullName: azure.mgmt.servicebus.operations.QueuesOperations.get_authorization_rule
+  module: azure.mgmt.servicebus.operations
+  name: get_authorization_rule
+  source:
+    id: get_authorization_rule
+    path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/queues_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/queues_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 508
+  summary: "Gets an authorization rule for a queue by rule name.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
+    \ The namespace name.\n:type namespace_name: str\n:param queue_name: The queue\
+    \ name.\n:type queue_name: str\n:param authorization_rule_name: Authorization\
+    \ rule name.\n:type authorization_rule_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`SharedAccessAuthorizationRuleResource\n\
+    \ <azure.mgmt.servicebus.models.SharedAccessAuthorizationRuleResource>`\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.servicebus.operations.QueuesOperations.get_authorization_rule
+- _type: method
+  class: azure.mgmt.servicebus.operations.QueuesOperations
+  fullName: azure.mgmt.servicebus.operations.QueuesOperations.list_all
+  module: azure.mgmt.servicebus.operations
+  name: list_all
+  source:
+    id: list_all
+    path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/queues_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/queues_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Gets the queues within a namespace.\n\n:param resource_group_name: The\
+    \ name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
+    \ The namespace name.\n:type namespace_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`QueueResourcePaged\n\
+    \ <azure.mgmt.servicebus.models.QueueResourcePaged>`\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.servicebus.operations.QueuesOperations.list_all
+- _type: method
+  class: azure.mgmt.servicebus.operations.QueuesOperations
+  fullName: azure.mgmt.servicebus.operations.QueuesOperations.list_authorization_rules
+  module: azure.mgmt.servicebus.operations
+  name: list_authorization_rules
+  source:
+    id: list_authorization_rules
+    path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/queues_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/queues_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 300
+  summary: "Gets all authorization rules for a queue.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
+    \ The namespace name\n:type namespace_name: str\n:param queue_name: The queue\
+    \ name.\n:type queue_name: str\n:param dict custom_headers: headers that will\
+    \ be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`SharedAccessAuthorizationRuleResourcePaged\n\
+    \ <azure.mgmt.servicebus.models.SharedAccessAuthorizationRuleResourcePaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.servicebus.operations.QueuesOperations.list_authorization_rules
+- _type: method
+  class: azure.mgmt.servicebus.operations.QueuesOperations
+  fullName: azure.mgmt.servicebus.operations.QueuesOperations.list_keys
+  module: azure.mgmt.servicebus.operations
+  name: list_keys
+  source:
+    id: list_keys
+    path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/queues_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/queues_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 576
+  summary: "Primary and secondary connection strings to the queue.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
+    \ The namespace name.\n:type namespace_name: str\n:param queue_name: The queue\
+    \ name.\n:type queue_name: str\n:param authorization_rule_name: The authorization\
+    \ rule name.\n:type authorization_rule_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ResourceListKeys\n\
+    \ <azure.mgmt.servicebus.models.ResourceListKeys>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.servicebus.operations.QueuesOperations.list_keys
+- _type: method
+  class: azure.mgmt.servicebus.operations.QueuesOperations
+  fullName: azure.mgmt.servicebus.operations.QueuesOperations.regenerate_keys
+  module: azure.mgmt.servicebus.operations
+  name: regenerate_keys
+  source:
+    id: regenerate_keys
+    path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/queues_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/queues_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 644
+  summary: "Regenerates the primary or secondary connection strings to the queue.\n\
+    \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param namespace_name: The namespace name.\n:type namespace_name: str\n\
+    :param queue_name: The queue name.\n:type queue_name: str\n:param authorization_rule_name:\
+    \ The authorization rule name.\n:type authorization_rule_name: str\n:param policykey:\
+    \ Key that needs to be regenerated. Possible values\n include: 'PrimaryKey', 'SecondaryKey'\n\
+    :type policykey: str or :class:`Policykey\n <azure.mgmt.servicebus.models.Policykey>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`ResourceListKeys\n <azure.mgmt.servicebus.models.ResourceListKeys>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.servicebus.operations.QueuesOperations.regenerate_keys

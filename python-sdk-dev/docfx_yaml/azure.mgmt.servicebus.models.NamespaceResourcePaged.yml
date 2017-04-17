@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.servicebus.models.NamespaceResourcePaged
+  fullName: azure.mgmt.servicebus.models.NamespaceResourcePaged
+  inheritance:
+  - msrest.paging.Paged
+  - collections.abc.Iterator
+  - collections.abc.Iterable
+  - builtins.object
+  module: azure.mgmt.servicebus.models
+  name: NamespaceResourcePaged
+  source:
+    id: NamespaceResourcePaged
+    path: azure-mgmt-servicebus/azure/mgmt/servicebus/models/namespace_resource_paged.py
+    remote:
+      branch: master
+      path: azure-mgmt-servicebus/azure/mgmt/servicebus/models/namespace_resource_paged.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: A paging container for iterating over a list of NamespaceResource object
+  type: Class
+  uid: azure.mgmt.servicebus.models.NamespaceResourcePaged

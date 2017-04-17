@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.scheduler.models.JobRecurrenceSchedule
+  fullName: azure.mgmt.scheduler.models.JobRecurrenceSchedule
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.scheduler.models
+  name: JobRecurrenceSchedule
+  source:
+    id: JobRecurrenceSchedule
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/job_recurrence_schedule.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/job_recurrence_schedule.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "JobRecurrenceSchedule.\n\n:param week_days: Gets or sets the days of the\
+    \ week that the job should\n execute on.\n:type week_days: list of str or :class:`DayOfWeek\n\
+    \ <azure.mgmt.scheduler.models.DayOfWeek>`\n:param hours: Gets or sets the hours\
+    \ of the day that the job should\n execute at.\n:type hours: list of int\n:param\
+    \ minutes: Gets or sets the minutes of the hour that the job should\n execute\
+    \ at.\n:type minutes: list of int\n:param month_days: Gets or sets the days of\
+    \ the month that the job should\n execute on. Must be between 1 and 31.\n:type\
+    \ month_days: list of int\n:param monthly_occurrences: Gets or sets the occurrences\
+    \ of days within a\n month.\n:type monthly_occurrences: list of\n :class:`JobRecurrenceScheduleMonthlyOccurrence\n\
+    \ <azure.mgmt.scheduler.models.JobRecurrenceScheduleMonthlyOccurrence>`"
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobRecurrenceSchedule

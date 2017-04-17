@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.batch.models.BatchAccountUpdateParameters
+  fullName: azure.mgmt.batch.models.BatchAccountUpdateParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.batch.models
+  name: BatchAccountUpdateParameters
+  source:
+    id: BatchAccountUpdateParameters
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/models/batch_account_update_parameters.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/models/batch_account_update_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Parameters supplied to the Update operation.\n\n:param tags: The user\
+    \ specified tags associated with the account.\n:type tags: dict\n:param auto_storage:\
+    \ The properties related to auto storage account.\n:type auto_storage: :class:`AutoStorageBaseProperties\n\
+    \ <azure.mgmt.batch.models.AutoStorageBaseProperties>`"
+  type: Class
+  uid: azure.mgmt.batch.models.BatchAccountUpdateParameters

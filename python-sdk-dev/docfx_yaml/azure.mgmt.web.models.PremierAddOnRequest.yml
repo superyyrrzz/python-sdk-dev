@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.PremierAddOnRequest
+  fullName: azure.mgmt.web.models.PremierAddOnRequest
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: PremierAddOnRequest
+  source:
+    id: PremierAddOnRequest
+    path: azure-mgmt-web/azure/mgmt/web/models/premier_add_on_request.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/premier_add_on_request.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "PremierAddOnRequest.\n\n:param location: Geo region resource belongs to\
+    \ e.g. SouthCentralUS,\n SouthEastAsia\n:type location: str\n:param tags: Tags\
+    \ associated with resource\n:type tags: dict\n:param plan: Azure resource manager\
+    \ plan\n:type plan: :class:`ArmPlan <azure.mgmt.web.models.ArmPlan>`\n:param properties:\
+    \ Resource specific properties\n:type properties: object\n:param sku: Sku description\
+    \ of the resource\n:type sku: :class:`SkuDescription <azure.mgmt.web.models.SkuDescription>`"
+  type: Class
+  uid: azure.mgmt.web.models.PremierAddOnRequest

@@ -1,0 +1,35 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.IntegrationAccountMap
+  fullName: azure.mgmt.logic.models.IntegrationAccountMap
+  inheritance:
+  - azure.mgmt.logic.models.integration_account_resource.IntegrationAccountResource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: IntegrationAccountMap
+  source:
+    id: IntegrationAccountMap
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/integration_account_map.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/integration_account_map.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "IntegrationAccountMap.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:param id: The resource id.\n\
+    :type id: str\n:param name: The resource name.\n:type name: str\n:param type:\
+    \ The resource type.\n:type type: str\n:param location: The resource location.\n\
+    :type location: str\n:param tags: The resource tags.\n:type tags: dict\n:param\
+    \ map_type: The map type. Possible values include: 'NotSpecified',\n 'Xslt'\n\
+    :type map_type: str or :class:`MapType <azure.mgmt.logic.models.MapType>`\n:ivar\
+    \ created_time: The created time.\n:vartype created_time: datetime\n:ivar changed_time:\
+    \ The changed time.\n:vartype changed_time: datetime\n:param content: The content.\n\
+    :type content: object\n:param content_type: The content type.\n:type content_type:\
+    \ str\n:ivar content_link: The content link.\n:vartype content_link: :class:`IntegrationAccountContentLink\n\
+    \ <azure.mgmt.logic.models.IntegrationAccountContentLink>`\n:param metadata: The\
+    \ metadata.\n:type metadata: object"
+  type: Class
+  uid: azure.mgmt.logic.models.IntegrationAccountMap

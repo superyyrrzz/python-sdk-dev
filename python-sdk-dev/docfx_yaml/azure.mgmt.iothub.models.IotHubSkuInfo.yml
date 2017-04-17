@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.iothub.models.IotHubSkuInfo
+  fullName: azure.mgmt.iothub.models.IotHubSkuInfo
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.iothub.models
+  name: IotHubSkuInfo
+  source:
+    id: IotHubSkuInfo
+    path: azure-mgmt-iothub/azure/mgmt/iothub/models/iot_hub_sku_info.py
+    remote:
+      branch: master
+      path: azure-mgmt-iothub/azure/mgmt/iothub/models/iot_hub_sku_info.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Information about the SKU of the IoT hub.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:param name:\
+    \ The name of the SKU. Possible values include: 'F1', 'S1',\n 'S2', 'S3'\n:type\
+    \ name: str or :class:`IotHubSku <azure.mgmt.iothub.models.IotHubSku>`\n:ivar\
+    \ tier: The billing tier for the IoT hub. Possible values include:\n 'Free', 'Standard'\n\
+    :vartype tier: str or :class:`IotHubSkuTier\n <azure.mgmt.iothub.models.IotHubSkuTier>`\n\
+    :param capacity: The number of provisioned IoT Hub units. See:\n https://docs.microsoft.com/azure/azure-subscription-service-limits#iot-hub-limits.\n\
+    :type capacity: long"
+  type: Class
+  uid: azure.mgmt.iothub.models.IotHubSkuInfo

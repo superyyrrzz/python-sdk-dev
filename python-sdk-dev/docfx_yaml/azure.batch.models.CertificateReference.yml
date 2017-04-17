@@ -1,0 +1,34 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.CertificateReference
+  fullName: azure.batch.models.CertificateReference
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: CertificateReference
+  source:
+    id: CertificateReference
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/certificate_reference.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/certificate_reference.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A reference to a certificate to be installed on compute nodes in a pool.\n\
+    \n:param thumbprint: The thumbprint of the certificate.\n:type thumbprint: str\n\
+    :param thumbprint_algorithm: The algorithm with which the thumbprint is\n associated.\
+    \ This must be sha1.\n:type thumbprint_algorithm: str\n:param store_location:\
+    \ The location of the certificate store on the\n compute node into which to install\
+    \ the certificate. The default value is\n CurrentUser. Possible values include:\
+    \ 'currentuser', 'localmachine',\n 'unmapped'\n:type store_location: str or :class:`CertificateStoreLocation\n\
+    \ <azure.batch.models.CertificateStoreLocation>`\n:param store_name: The name\
+    \ of the certificate store on the compute node\n into which to install the certificate.\
+    \ The default value is My.\n:type store_name: str\n:param visibility: Which user\
+    \ accounts on the compute node should have\n access to the private data of the\
+    \ certificate. The default is all\n accounts.\n:type visibility: list of str or\
+    \ :class:`CertificateVisibility\n <azure.batch.models.CertificateVisibility>`"
+  type: Class
+  uid: azure.batch.models.CertificateReference

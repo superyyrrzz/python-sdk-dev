@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.cdn.models.IpAddressGroup
+  fullName: azure.mgmt.cdn.models.IpAddressGroup
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.cdn.models
+  name: IpAddressGroup
+  source:
+    id: IpAddressGroup
+    path: azure-mgmt-cdn/azure/mgmt/cdn/models/ip_address_group.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/models/ip_address_group.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "CDN Ip address group.\n\n:param delivery_region: The delivery region of\
+    \ the ip address group\n:type delivery_region: str\n:param ipv4_addresses: The\
+    \ list of ip v4 addresses.\n:type ipv4_addresses: list of :class:`CidrIpAddress\n\
+    \ <azure.mgmt.cdn.models.CidrIpAddress>`\n:param ipv6_addresses: The list of ip\
+    \ v6 addresses.\n:type ipv6_addresses: list of :class:`CidrIpAddress\n <azure.mgmt.cdn.models.CidrIpAddress>`"
+  type: Class
+  uid: azure.mgmt.cdn.models.IpAddressGroup

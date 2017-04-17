@@ -1,0 +1,130 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.network.operations.SubnetsOperations.create_or_update
+  - azure.mgmt.network.operations.SubnetsOperations.delete
+  - azure.mgmt.network.operations.SubnetsOperations.get
+  - azure.mgmt.network.operations.SubnetsOperations.list
+  class: azure.mgmt.network.operations.SubnetsOperations
+  fullName: azure.mgmt.network.operations.SubnetsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.network.operations
+  name: SubnetsOperations
+  source:
+    id: SubnetsOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/subnets_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/subnets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 20
+  summary: 'SubnetsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.network.operations.SubnetsOperations
+- _type: method
+  class: azure.mgmt.network.operations.SubnetsOperations
+  fullName: azure.mgmt.network.operations.SubnetsOperations.create_or_update
+  module: azure.mgmt.network.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/subnets_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/subnets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 184
+  summary: "The Put Subnet operation creates/updates a subnet in the specified\nvirtual\
+    \ network.\n\n:param resource_group_name: The name of the resource group.\n:type\
+    \ resource_group_name: str\n:param virtual_network_name: The name of the virtual\
+    \ network.\n:type virtual_network_name: str\n:param subnet_name: The name of the\
+    \ subnet.\n:type subnet_name: str\n:param subnet_parameters: Parameters supplied\
+    \ to the create/update\n Subnet operation\n:type subnet_parameters: :class:`Subnet\n\
+    \ <azure.mgmt.network.models.Subnet>`\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`Subnet\n <azure.mgmt.network.models.Subnet>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.SubnetsOperations.create_or_update
+- _type: method
+  class: azure.mgmt.network.operations.SubnetsOperations
+  fullName: azure.mgmt.network.operations.SubnetsOperations.delete
+  module: azure.mgmt.network.operations
+  name: delete
+  source:
+    id: delete
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/subnets_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/subnets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 37
+  summary: "The delete subnet operation deletes the specified subnet.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param virtual_network_name:\
+    \ The name of the virtual network.\n:type virtual_network_name: str\n:param subnet_name:\
+    \ The name of the subnet.\n:type subnet_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.SubnetsOperations.delete
+- _type: method
+  class: azure.mgmt.network.operations.SubnetsOperations
+  fullName: azure.mgmt.network.operations.SubnetsOperations.get
+  module: azure.mgmt.network.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/subnets_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/subnets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 116
+  summary: "The Get subnet operation retrieves information about the specified\nsubnet.\n\
+    \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param virtual_network_name: The name of the virtual network.\n:type virtual_network_name:\
+    \ str\n:param subnet_name: The name of the subnet.\n:type subnet_name: str\n:param\
+    \ expand: expand references resources.\n:type expand: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`Subnet\
+    \ <azure.mgmt.network.models.Subnet>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.SubnetsOperations.get
+- _type: method
+  class: azure.mgmt.network.operations.SubnetsOperations
+  fullName: azure.mgmt.network.operations.SubnetsOperations.list
+  module: azure.mgmt.network.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/subnets_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/subnets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 282
+  summary: "The List subnets operation retrieves all the subnets in a virtual\nnetwork.\n\
+    \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param virtual_network_name: The name of the virtual network.\n:type virtual_network_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`SubnetPaged <azure.mgmt.network.models.SubnetPaged>`"
+  type: Method
+  uid: azure.mgmt.network.operations.SubnetsOperations.list

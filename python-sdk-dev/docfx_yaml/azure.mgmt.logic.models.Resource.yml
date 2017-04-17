@@ -1,0 +1,43 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.Resource
+  fullName: azure.mgmt.logic.models.Resource
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: Resource
+  source:
+    id: Resource
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/resource.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/resource.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Resource.
+
+
+    :param id: The resource id.
+
+    :type id: str
+
+    :param name: Gets the resource name.
+
+    :type name: str
+
+    :param type: Gets the resource type.
+
+    :type type: str
+
+    :param location: The resource location.
+
+    :type location: str
+
+    :param tags: The resource tags.
+
+    :type tags: dict'
+  type: Class
+  uid: azure.mgmt.logic.models.Resource

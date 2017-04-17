@@ -1,0 +1,34 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.datalake.analytics.catalog.models.USqlTablePartition
+  fullName: azure.mgmt.datalake.analytics.catalog.models.USqlTablePartition
+  inheritance:
+  - azure.mgmt.datalake.analytics.catalog.models.catalog_item.CatalogItem
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.datalake.analytics.catalog.models
+  name: USqlTablePartition
+  source:
+    id: USqlTablePartition
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/models/usql_table_partition.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/models/usql_table_partition.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A Data Lake Analytics catalog U-SQL table partition item.\n\n:param compute_account_name:\
+    \ the name of the Data Lake Analytics account.\n:type compute_account_name: str\n\
+    :param version: the version of the catalog item.\n:type version: str\n:param database_name:\
+    \ the name of the database.\n:type database_name: str\n:param schema_name: the\
+    \ name of the schema associated with this table\n partition and database.\n:type\
+    \ schema_name: str\n:param name: the name of the table partition.\n:type name:\
+    \ str\n:param parent_name: the Ddl object of the partition's parent.\n:type parent_name:\
+    \ :class:`DdlName\n <azure.mgmt.datalake.analytics.catalog.models.DdlName>`\n\
+    :param index_id: the index ID for this partition.\n:type index_id: int\n:param\
+    \ label: the list of labels associated with this partition.\n:type label: list\
+    \ of str\n:param create_date: the creation time of the partition\n:type create_date:\
+    \ datetime"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.catalog.models.USqlTablePartition

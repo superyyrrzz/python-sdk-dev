@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.authorization.models.RoleAssignmentFilter
+  fullName: azure.mgmt.authorization.models.RoleAssignmentFilter
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.authorization.models
+  name: RoleAssignmentFilter
+  source:
+    id: RoleAssignmentFilter
+    path: azure-mgmt-authorization/azure/mgmt/authorization/models/role_assignment_filter.py
+    remote:
+      branch: master
+      path: azure-mgmt-authorization/azure/mgmt/authorization/models/role_assignment_filter.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Role Assignments filter.
+
+
+    :param principal_id: Returns role assignment of the specific principal.
+
+    :type principal_id: str'
+  type: Class
+  uid: azure.mgmt.authorization.models.RoleAssignmentFilter

@@ -1,0 +1,47 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.storage.models.Endpoints
+  fullName: azure.mgmt.storage.models.Endpoints
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.storage.models
+  name: Endpoints
+  source:
+    id: Endpoints
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/models/endpoints.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/models/endpoints.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'The URIs that are used to perform a retrieval of a public blob, queue
+    or
+
+    table object.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar blob: Gets the blob endpoint.
+
+    :vartype blob: str
+
+    :ivar queue: Gets the queue endpoint.
+
+    :vartype queue: str
+
+    :ivar table: Gets the table endpoint.
+
+    :vartype table: str
+
+    :ivar file: Gets the file endpoint.
+
+    :vartype file: str'
+  type: Class
+  uid: azure.mgmt.storage.models.Endpoints

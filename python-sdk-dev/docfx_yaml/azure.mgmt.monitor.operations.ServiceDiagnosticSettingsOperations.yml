@@ -1,0 +1,81 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.monitor.operations.ServiceDiagnosticSettingsOperations.create_or_update
+  - azure.mgmt.monitor.operations.ServiceDiagnosticSettingsOperations.get
+  class: azure.mgmt.monitor.operations.ServiceDiagnosticSettingsOperations
+  fullName: azure.mgmt.monitor.operations.ServiceDiagnosticSettingsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.monitor.operations
+  name: ServiceDiagnosticSettingsOperations
+  source:
+    id: ServiceDiagnosticSettingsOperations
+    path: azure-mgmt-monitor/azure/mgmt/monitor/operations/service_diagnostic_settings_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/operations/service_diagnostic_settings_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'ServiceDiagnosticSettingsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    :ivar api_version: Client Api Version. Constant value: "2015-07-01".'
+  type: Class
+  uid: azure.mgmt.monitor.operations.ServiceDiagnosticSettingsOperations
+- _type: method
+  class: azure.mgmt.monitor.operations.ServiceDiagnosticSettingsOperations
+  fullName: azure.mgmt.monitor.operations.ServiceDiagnosticSettingsOperations.create_or_update
+  module: azure.mgmt.monitor.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: azure-mgmt-monitor/azure/mgmt/monitor/operations/service_diagnostic_settings_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/operations/service_diagnostic_settings_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 97
+  summary: "Create or update new diagnostic settings for the specified resource.\n\
+    \n:param resource_uri: The identifier of the resource.\n:type resource_uri: str\n\
+    :param parameters: Parameters supplied to the operation.\n:type parameters: :class:`ServiceDiagnosticSettings\n\
+    \ <azure.mgmt.monitor.models.ServiceDiagnosticSettings>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ServiceDiagnosticSettingsResource\n\
+    \ <azure.mgmt.monitor.models.ServiceDiagnosticSettingsResource>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.monitor.operations.ServiceDiagnosticSettingsOperations.create_or_update
+- _type: method
+  class: azure.mgmt.monitor.operations.ServiceDiagnosticSettingsOperations
+  fullName: azure.mgmt.monitor.operations.ServiceDiagnosticSettingsOperations.get
+  module: azure.mgmt.monitor.operations
+  name: get
+  source:
+    id: get
+    path: azure-mgmt-monitor/azure/mgmt/monitor/operations/service_diagnostic_settings_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/operations/service_diagnostic_settings_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 38
+  summary: "Gets the active diagnostic settings for the specified resource.\n\n:param\
+    \ resource_uri: The identifier of the resource.\n:type resource_uri: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`ServiceDiagnosticSettingsResource\n <azure.mgmt.monitor.models.ServiceDiagnosticSettingsResource>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.monitor.operations.ServiceDiagnosticSettingsOperations.get

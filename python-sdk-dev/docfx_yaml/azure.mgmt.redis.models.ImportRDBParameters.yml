@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.redis.models.ImportRDBParameters
+  fullName: azure.mgmt.redis.models.ImportRDBParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.redis.models
+  name: ImportRDBParameters
+  source:
+    id: ImportRDBParameters
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/models/import_rdb_parameters.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/models/import_rdb_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Parameters for redis import operation.
+
+
+    :param format: File format.
+
+    :type format: str
+
+    :param files: files to import
+
+    :type files: list of str'
+  type: Class
+  uid: azure.mgmt.redis.models.ImportRDBParameters

@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.Error
+  fullName: azure.mgmt.network.models.Error
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: Error
+  source:
+    id: Error
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/error.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/error.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Error.\n\n:param code:\n:type code: str\n:param message:\n:type message:\
+    \ str\n:param target:\n:type target: str\n:param details:\n:type details: list\
+    \ of :class:`ErrorDetails\n <azure.mgmt.network.models.ErrorDetails>`\n:param\
+    \ inner_error:\n:type inner_error: str"
+  type: Class
+  uid: azure.mgmt.network.models.Error

@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.UsageName
+  fullName: azure.mgmt.network.models.UsageName
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: UsageName
+  source:
+    id: UsageName
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/usage_name.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/usage_name.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The Usage Names.\n\n:param value: Gets or sets a string describing the\
+    \ resource name.\n:type value: str\n:param localized_value: Gets or sets a localized\
+    \ string describing the\n resource name.\n:type localized_value: str"
+  type: Class
+  uid: azure.mgmt.network.models.UsageName

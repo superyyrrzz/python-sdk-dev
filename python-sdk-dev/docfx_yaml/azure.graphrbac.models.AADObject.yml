@@ -1,0 +1,33 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.graphrbac.models.AADObject
+  fullName: azure.graphrbac.models.AADObject
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.graphrbac.models
+  name: AADObject
+  source:
+    id: AADObject
+    path: azure-graphrbac/azure/graphrbac/models/aad_object.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/models/aad_object.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The properties of an Active Directory object.\n\n:param object_id: The\
+    \ ID of the object.\n:type object_id: str\n:param object_type: The type of AAD\
+    \ object.\n:type object_type: str\n:param display_name: The display name of the\
+    \ object.\n:type display_name: str\n:param user_principal_name: The principal\
+    \ name of the object.\n:type user_principal_name: str\n:param mail: The primary\
+    \ email address of the object.\n:type mail: str\n:param mail_enabled: Whether\
+    \ the AAD object is mail-enabled.\n:type mail_enabled: bool\n:param security_enabled:\
+    \ Whether the AAD object is security-enabled.\n:type security_enabled: bool\n\
+    :param sign_in_name: The sign-in name of the object.\n:type sign_in_name: str\n\
+    :param service_principal_names: A collection of service principal names\n associated\
+    \ with the object.\n:type service_principal_names: list of str\n:param user_type:\
+    \ The user type of the object.\n:type user_type: str"
+  type: Class
+  uid: azure.graphrbac.models.AADObject

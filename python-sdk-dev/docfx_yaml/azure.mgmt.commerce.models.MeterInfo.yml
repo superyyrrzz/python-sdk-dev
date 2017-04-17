@@ -1,0 +1,35 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.commerce.models.MeterInfo
+  fullName: azure.mgmt.commerce.models.MeterInfo
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.commerce.models
+  name: MeterInfo
+  source:
+    id: MeterInfo
+    path: azure-mgmt-commerce/azure/mgmt/commerce/models/meter_info.py
+    remote:
+      branch: master
+      path: azure-mgmt-commerce/azure/mgmt/commerce/models/meter_info.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Detailed information about the meter.\n\n:param meter_id: The unique identifier\
+    \ of the resource.\n:type meter_id: str\n:param meter_name: The name of the meter,\
+    \ within the given meter category\n:type meter_name: str\n:param meter_category:\
+    \ The category of the meter, e.g., 'Cloud services',\n 'Networking', etc..\n:type\
+    \ meter_category: str\n:param meter_sub_category: The subcategory of the meter,\
+    \ e.g., 'A6 Cloud\n services', 'ExpressRoute (IXP)', etc..\n:type meter_sub_category:\
+    \ str\n:param unit: The unit in which the meter consumption is charged, e.g.,\n\
+    \ 'Hours', 'GB', etc.\n:type unit: str\n:param meter_rates: The list of key/value\
+    \ pairs for the meter rates, in\n the format 'key':'value' where key = the meter\
+    \ quantity, and value = the\n corresponding price\n:type meter_rates: dict\n:param\
+    \ effective_date: Indicates the date from which the meter rate or\n offer term\
+    \ is effective.\n:type effective_date: datetime\n:param included_quantity: The\
+    \ resource quantity that is included in the\n offer at no cost. Consumption beyond\
+    \ this quantity will be charged.\n:type included_quantity: float"
+  type: Class
+  uid: azure.mgmt.commerce.models.MeterInfo

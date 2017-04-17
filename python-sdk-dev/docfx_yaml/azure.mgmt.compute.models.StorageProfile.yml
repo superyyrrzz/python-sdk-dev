@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.StorageProfile
+  fullName: azure.mgmt.compute.models.StorageProfile
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: StorageProfile
+  source:
+    id: StorageProfile
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/storage_profile.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/storage_profile.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Describes a storage profile.\n\n:param image_reference: the image reference.\n\
+    :type image_reference: :class:`ImageReference\n <azure.mgmt.compute.models.ImageReference>`\n\
+    :param os_disk: the OS disk.\n:type os_disk: :class:`OSDisk <azure.mgmt.compute.models.OSDisk>`\n\
+    :param data_disks: the data disks.\n:type data_disks: list of :class:`DataDisk\n\
+    \ <azure.mgmt.compute.models.DataDisk>`"
+  type: Class
+  uid: azure.mgmt.compute.models.StorageProfile

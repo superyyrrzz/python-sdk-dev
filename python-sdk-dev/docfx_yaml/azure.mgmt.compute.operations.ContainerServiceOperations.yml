@@ -1,0 +1,129 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.compute.operations.ContainerServiceOperations.create_or_update
+  - azure.mgmt.compute.operations.ContainerServiceOperations.delete
+  - azure.mgmt.compute.operations.ContainerServiceOperations.get
+  - azure.mgmt.compute.operations.ContainerServiceOperations.list
+  class: azure.mgmt.compute.operations.ContainerServiceOperations
+  fullName: azure.mgmt.compute.operations.ContainerServiceOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.compute.operations
+  name: ContainerServiceOperations
+  source:
+    id: ContainerServiceOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/container_service_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/container_service_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 20
+  summary: 'ContainerServiceOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    :ivar api_version: Client Api Version. Constant value: "2016-03-30".'
+  type: Class
+  uid: azure.mgmt.compute.operations.ContainerServiceOperations
+- _type: method
+  class: azure.mgmt.compute.operations.ContainerServiceOperations
+  fullName: azure.mgmt.compute.operations.ContainerServiceOperations.create_or_update
+  module: azure.mgmt.compute.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/container_service_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/container_service_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 39
+  summary: "The operation to create or update a container service.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param container_service_name:\
+    \ The name of the container service\n within the given subscription and resource\
+    \ group.\n:type container_service_name: str\n:param parameters: Parameters supplied\
+    \ to the Create Container\n Service operation.\n:type parameters: :class:`ContainerService\n\
+    \ <azure.mgmt.compute.models.ContainerService>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`ContainerService\n <azure.mgmt.compute.models.ContainerService>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.ContainerServiceOperations.create_or_update
+- _type: method
+  class: azure.mgmt.compute.operations.ContainerServiceOperations
+  fullName: azure.mgmt.compute.operations.ContainerServiceOperations.delete
+  module: azure.mgmt.compute.operations
+  name: delete
+  source:
+    id: delete
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/container_service_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/container_service_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 198
+  summary: "The operation to delete a container service.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param container_service_name:\
+    \ The name of the container service\n within the given subscription and resource\
+    \ group.\n:type container_service_name: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.ContainerServiceOperations.delete
+- _type: method
+  class: azure.mgmt.compute.operations.ContainerServiceOperations
+  fullName: azure.mgmt.compute.operations.ContainerServiceOperations.get
+  module: azure.mgmt.compute.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/container_service_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/container_service_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 136
+  summary: "The operation to get a container service.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param container_service_name:\
+    \ The name of the container service\n within the given subscription and resource\
+    \ group.\n:type container_service_name: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ContainerService\n\
+    \ <azure.mgmt.compute.models.ContainerService>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.ContainerServiceOperations.get
+- _type: method
+  class: azure.mgmt.compute.operations.ContainerServiceOperations
+  fullName: azure.mgmt.compute.operations.ContainerServiceOperations.list
+  module: azure.mgmt.compute.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/container_service_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/container_service_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 275
+  summary: "The operation to list container services.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ :class:`ContainerServicePaged\n <azure.mgmt.compute.models.ContainerServicePaged>`"
+  type: Method
+  uid: azure.mgmt.compute.operations.ContainerServiceOperations.list

@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.ResizeError
+  fullName: azure.batch.models.ResizeError
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: ResizeError
+  source:
+    id: ResizeError
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/resize_error.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/resize_error.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "An error that occurred when resizing a pool.\n\n:param code: An identifier\
+    \ for the pool resize error. Codes are invariant\n and are intended to be consumed\
+    \ programmatically.\n:type code: str\n:param message: A message describing the\
+    \ pool resize error, intended to\n be suitable for display in a user interface.\n\
+    :type message: str\n:param values: A list of additional error details related\
+    \ to the pool\n resize error.\n:type values: list of :class:`NameValuePair\n <azure.batch.models.NameValuePair>`"
+  type: Class
+  uid: azure.batch.models.ResizeError

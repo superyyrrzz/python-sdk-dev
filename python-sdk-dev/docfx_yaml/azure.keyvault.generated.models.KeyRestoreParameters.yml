@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.keyvault.generated.models.KeyRestoreParameters
+  fullName: azure.keyvault.generated.models.KeyRestoreParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.keyvault.generated.models
+  name: KeyRestoreParameters
+  source:
+    id: KeyRestoreParameters
+    path: azure-keyvault/azure/keyvault/generated/models/key_restore_parameters.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/models/key_restore_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'The key restore parameters.
+
+
+    :param key_bundle_backup: The backup blob associated with a key bundle.
+
+    :type key_bundle_backup: bytes'
+  type: Class
+  uid: azure.keyvault.generated.models.KeyRestoreParameters

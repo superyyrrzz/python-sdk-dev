@@ -1,0 +1,42 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.Certificate
+  fullName: azure.batch.models.Certificate
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: Certificate
+  source:
+    id: Certificate
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/certificate.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/certificate.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A certificate that can be installed on compute nodes and can be used to\n\
+    authenticate operations on the machine.\n\n:param thumbprint: The X.509 thumbprint\
+    \ of the certificate. This is a\n sequence of up to 40 hex digits (it may include\
+    \ spaces but these are\n removed).\n:type thumbprint: str\n:param thumbprint_algorithm:\
+    \ The algorithm used to derive the thumbprint.\n This must be sha1.\n:type thumbprint_algorithm:\
+    \ str\n:param url: The URL of the certificate.\n:type url: str\n:param state:\
+    \ The current state of the certificate. Possible values\n include: 'active', 'deleting',\
+    \ 'deletefailed'\n:type state: str or :class:`CertificateState\n <azure.batch.models.CertificateState>`\n\
+    :param state_transition_time: The time at which the certificate entered\n its\
+    \ current state.\n:type state_transition_time: datetime\n:param previous_state:\
+    \ The previous state of the certificate. This\n property is not set if the certificate\
+    \ is in its initial Active state.\n Possible values include: 'active', 'deleting',\
+    \ 'deletefailed'\n:type previous_state: str or :class:`CertificateState\n <azure.batch.models.CertificateState>`\n\
+    :param previous_state_transition_time: The time at which the certificate\n entered\
+    \ its previous state. This property is not set if the certificate\n is in its\
+    \ initial Active state.\n:type previous_state_transition_time: datetime\n:param\
+    \ public_data: The public part of the certificate as a base-64\n encoded .cer\
+    \ file.\n:type public_data: str\n:param delete_certificate_error: The error that\
+    \ occurred on the last\n attempt to delete this certificate.  This property is\
+    \ set only if the\n certificate is in the DeleteFailed state.\n:type delete_certificate_error:\
+    \ :class:`DeleteCertificateError\n <azure.batch.models.DeleteCertificateError>`"
+  type: Class
+  uid: azure.batch.models.Certificate

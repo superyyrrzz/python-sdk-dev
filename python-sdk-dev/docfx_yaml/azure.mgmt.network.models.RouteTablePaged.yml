@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.RouteTablePaged
+  fullName: azure.mgmt.network.models.RouteTablePaged
+  inheritance:
+  - msrest.paging.Paged
+  - collections.abc.Iterator
+  - collections.abc.Iterable
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: RouteTablePaged
+  source:
+    id: RouteTablePaged
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/route_table_paged.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/route_table_paged.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: A paging container for iterating over a list of RouteTable object
+  type: Class
+  uid: azure.mgmt.network.models.RouteTablePaged

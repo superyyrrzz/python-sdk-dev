@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.storage.models.Encryption
+  fullName: azure.mgmt.storage.models.Encryption
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.storage.models
+  name: Encryption
+  source:
+    id: Encryption
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/models/encryption.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/models/encryption.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The encryption settings on the account.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:param services:\
+    \ Gets the services which are encrypted.\n:type services: :class:`EncryptionServices\n\
+    \ <azure.mgmt.storage.models.EncryptionServices>`\n:ivar key_source: Gets the\
+    \ encryption keySource(provider). Possible\n values (case-insensitive):  Microsoft.Storage.\
+    \ Default value:\n \"Microsoft.Storage\" .\n:vartype key_source: str"
+  type: Class
+  uid: azure.mgmt.storage.models.Encryption

@@ -1,0 +1,99 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.web.operations.TopLevelDomainsOperations.get_get_top_level_domains
+  - azure.mgmt.web.operations.TopLevelDomainsOperations.get_top_level_domain
+  - azure.mgmt.web.operations.TopLevelDomainsOperations.list_top_level_domain_agreements
+  class: azure.mgmt.web.operations.TopLevelDomainsOperations
+  fullName: azure.mgmt.web.operations.TopLevelDomainsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.web.operations
+  name: TopLevelDomainsOperations
+  source:
+    id: TopLevelDomainsOperations
+    path: azure-mgmt-web/azure/mgmt/web/operations/top_level_domains_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/top_level_domains_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'TopLevelDomainsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.web.operations.TopLevelDomainsOperations
+- _type: method
+  class: azure.mgmt.web.operations.TopLevelDomainsOperations
+  fullName: azure.mgmt.web.operations.TopLevelDomainsOperations.get_get_top_level_domains
+  module: azure.mgmt.web.operations
+  name: get_get_top_level_domains
+  source:
+    id: get_get_top_level_domains
+    path: azure-mgmt-web/azure/mgmt/web/operations/top_level_domains_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/top_level_domains_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Lists all top level domains supported for registration.\n\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ :class:`TopLevelDomainPaged\n <azure.mgmt.web.models.TopLevelDomainPaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.TopLevelDomainsOperations.get_get_top_level_domains
+- _type: method
+  class: azure.mgmt.web.operations.TopLevelDomainsOperations
+  fullName: azure.mgmt.web.operations.TopLevelDomainsOperations.get_top_level_domain
+  module: azure.mgmt.web.operations
+  name: get_top_level_domain
+  source:
+    id: get_top_level_domain
+    path: azure-mgmt-web/azure/mgmt/web/operations/top_level_domains_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/top_level_domains_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 99
+  summary: "Gets details of a top level domain.\n\n:param name: Name of the top level\
+    \ domain\n:type name: str\n:param dict custom_headers: headers that will be added\
+    \ to the request\n:param bool raw: returns the direct response alongside the\n\
+    \ deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`TopLevelDomain <azure.mgmt.web.models.TopLevelDomain>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.TopLevelDomainsOperations.get_top_level_domain
+- _type: method
+  class: azure.mgmt.web.operations.TopLevelDomainsOperations
+  fullName: azure.mgmt.web.operations.TopLevelDomainsOperations.list_top_level_domain_agreements
+  module: azure.mgmt.web.operations
+  name: list_top_level_domain_agreements
+  source:
+    id: list_top_level_domain_agreements
+    path: azure-mgmt-web/azure/mgmt/web/operations/top_level_domains_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/top_level_domains_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 157
+  summary: "Lists legal agreements that user needs to accept before purchasing\ndomain.\n\
+    \n:param name: Name of the top level domain\n:type name: str\n:param include_privacy:\
+    \ If true then the list of agreements will\n inclue agreements for domain privacy\
+    \ as well.\n:type include_privacy: bool\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`TldLegalAgreementPaged\n\
+    \ <azure.mgmt.web.models.TldLegalAgreementPaged>`\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.TopLevelDomainsOperations.list_top_level_domain_agreements

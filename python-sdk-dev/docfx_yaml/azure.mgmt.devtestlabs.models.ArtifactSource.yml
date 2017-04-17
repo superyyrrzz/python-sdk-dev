@@ -1,0 +1,39 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.devtestlabs.models.ArtifactSource
+  fullName: azure.mgmt.devtestlabs.models.ArtifactSource
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.devtestlabs.models
+  name: ArtifactSource
+  source:
+    id: ArtifactSource
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/artifact_source.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/artifact_source.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Properties of an artifact source.\n\n:param display_name: The display\
+    \ name of the artifact source.\n:type display_name: str\n:param uri: The URI of\
+    \ the artifact source.\n:type uri: str\n:param source_type: The type of the artifact\
+    \ source. Possible values\n include: 'VsoGit', 'GitHub'\n:type source_type: str\
+    \ or :class:`SourceControlType\n <azure.mgmt.devtestlabs.models.SourceControlType>`\n\
+    :param folder_path: The folder path of the artifact source.\n:type folder_path:\
+    \ str\n:param branch_ref: The branch reference of the artifact source.\n:type\
+    \ branch_ref: str\n:param security_token: The security token of the artifact source.\n\
+    :type security_token: str\n:param status: The status of the artifact source. Possible\
+    \ values include:\n 'Enabled', 'Disabled'\n:type status: str or :class:`EnableStatus\n\
+    \ <azure.mgmt.devtestlabs.models.EnableStatus>`\n:param provisioning_state: The\
+    \ provisioning status of the resource.\n:type provisioning_state: str\n:param\
+    \ unique_identifier: The unique immutable identifier of a resource\n (Guid).\n\
+    :type unique_identifier: str\n:param id: The identifier of the resource.\n:type\
+    \ id: str\n:param name: The name of the resource.\n:type name: str\n:param type:\
+    \ The type of the resource.\n:type type: str\n:param location: The location of\
+    \ the resource.\n:type location: str\n:param tags: The tags of the resource.\n\
+    :type tags: dict"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.ArtifactSource

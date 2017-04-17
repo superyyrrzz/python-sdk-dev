@@ -1,0 +1,22 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.dns.models.HttpStatusCode
+  fullName: azure.mgmt.dns.models.HttpStatusCode
+  inheritance:
+  - enum.Enum
+  - builtins.object
+  module: azure.mgmt.dns.models
+  name: HttpStatusCode
+  source:
+    id: HttpStatusCode
+    path: azure-mgmt-dns/azure/mgmt/dns/models/dns_management_client_enums.py
+    remote:
+      branch: master
+      path: azure-mgmt-dns/azure/mgmt/dns/models/dns_management_client_enums.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 22
+  summary: An enumeration.
+  type: Class
+  uid: azure.mgmt.dns.models.HttpStatusCode

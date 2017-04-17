@@ -1,0 +1,30 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.TaskSchedulingError
+  fullName: azure.batch.models.TaskSchedulingError
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: TaskSchedulingError
+  source:
+    id: TaskSchedulingError
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/task_scheduling_error.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/task_scheduling_error.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Information about an error when scheduling a task.\n\n:param category:\
+    \ The category of the task scheduling error. Possible\n values include: 'usererror',\
+    \ 'servererror', 'unmapped'\n:type category: str or :class:`SchedulingErrorCategory\n\
+    \ <azure.batch.models.SchedulingErrorCategory>`\n:param code: An identifier for\
+    \ the task scheduling error. Codes are\n invariant and are intended to be consumed\
+    \ programmatically.\n:type code: str\n:param message: A message describing the\
+    \ task scheduling error, intended\n to be suitable for display in a user interface.\n\
+    :type message: str\n:param details: The list of additional error details related\
+    \ to the\n scheduling error.\n:type details: list of :class:`NameValuePair\n <azure.batch.models.NameValuePair>`"
+  type: Class
+  uid: azure.batch.models.TaskSchedulingError

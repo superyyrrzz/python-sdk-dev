@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.BootDiagnosticsInstanceView
+  fullName: azure.mgmt.compute.models.BootDiagnosticsInstanceView
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: BootDiagnosticsInstanceView
+  source:
+    id: BootDiagnosticsInstanceView
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/boot_diagnostics_instance_view.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/boot_diagnostics_instance_view.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'The instance view of a virtual machine boot diagnostics.
+
+
+    :param console_screenshot_blob_uri: the console screenshot blob Uri.
+
+    :type console_screenshot_blob_uri: str
+
+    :param serial_console_log_blob_uri: the Linux serial console log blob Uri.
+
+    :type serial_console_log_blob_uri: str'
+  type: Class
+  uid: azure.mgmt.compute.models.BootDiagnosticsInstanceView

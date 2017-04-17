@@ -1,0 +1,93 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.HostingEnvironment
+  fullName: azure.mgmt.web.models.HostingEnvironment
+  inheritance:
+  - azure.mgmt.web.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: HostingEnvironment
+  source:
+    id: HostingEnvironment
+    path: azure-mgmt-web/azure/mgmt/web/models/hosting_environment.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/hosting_environment.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Description of an hostingEnvironment (App Service Environment).\n\n:param\
+    \ id: Resource Id\n:type id: str\n:param name: Resource Name\n:type name: str\n\
+    :param kind: Kind of resource\n:type kind: str\n:param location: Resource Location\n\
+    :type location: str\n:param type: Resource type\n:type type: str\n:param tags:\
+    \ Resource tags\n:type tags: dict\n:param hosting_environment_name: Name of the\
+    \ hostingEnvironment (App\n Service Environment)\n:type hosting_environment_name:\
+    \ str\n:param hosting_environment_location: Location of the hostingEnvironment\n\
+    \ (App Service Environment), e.g. \"West US\"\n:type hosting_environment_location:\
+    \ str\n:param provisioning_state: Provisioning state of the hostingEnvironment\n\
+    \ (App Service Environment). Possible values include: 'Succeeded',\n 'Failed',\
+    \ 'Canceled', 'InProgress', 'Deleting'\n:type provisioning_state: str or :class:`ProvisioningState\n\
+    \ <azure.mgmt.web.models.ProvisioningState>`\n:param status: Current status of\
+    \ the hostingEnvironment (App Service\n Environment). Possible values include:\
+    \ 'Preparing', 'Ready', 'Scaling',\n 'Deleting'\n:type status: str or :class:`HostingEnvironmentStatus\n\
+    \ <azure.mgmt.web.models.HostingEnvironmentStatus>`\n:param vnet_name: Name of\
+    \ the hostingEnvironment's (App Service\n Environment) virtual network\n:type\
+    \ vnet_name: str\n:param vnet_resource_group_name: Resource group of the\n hostingEnvironment's\
+    \ (App Service Environment) virtual network\n:type vnet_resource_group_name: str\n\
+    :param vnet_subnet_name: Subnet of the hostingEnvironment's (App Service\n Environment)\
+    \ virtual network\n:type vnet_subnet_name: str\n:param virtual_network: Description\
+    \ of the hostingEnvironment's (App\n Service Environment) virtual network\n:type\
+    \ virtual_network: :class:`VirtualNetworkProfile\n <azure.mgmt.web.models.VirtualNetworkProfile>`\n\
+    :param internal_load_balancing_mode: Specifies which endpoints to serve\n internally\
+    \ in the hostingEnvironment's (App Service Environment) VNET.\n Possible values\
+    \ include: 'None', 'Web', 'Publishing'\n:type internal_load_balancing_mode: str\
+    \ or\n :class:`InternalLoadBalancingMode\n <azure.mgmt.web.models.InternalLoadBalancingMode>`\n\
+    :param multi_size: Front-end VM size, e.g. \"Medium\", \"Large\"\n:type multi_size:\
+    \ str\n:param multi_role_count: Number of front-end instances\n:type multi_role_count:\
+    \ int\n:param worker_pools: Description of worker pools with worker size ids,\
+    \ VM\n sizes, and number of workers in each pool\n:type worker_pools: list of\
+    \ :class:`WorkerPool\n <azure.mgmt.web.models.WorkerPool>`\n:param ipssl_address_count:\
+    \ Number of IP SSL addresses reserved for this\n hostingEnvironment (App Service\
+    \ Environment)\n:type ipssl_address_count: int\n:param database_edition: Edition\
+    \ of the metadata database for the\n hostingEnvironment (App Service Environment)\
+    \ e.g. \"Standard\"\n:type database_edition: str\n:param database_service_objective:\
+    \ Service objective of the metadata\n database for the hostingEnvironment (App\
+    \ Service Environment) e.g. \"S0\"\n:type database_service_objective: str\n:param\
+    \ upgrade_domains: Number of upgrade domains of this\n hostingEnvironment (App\
+    \ Service Environment)\n:type upgrade_domains: int\n:param subscription_id: Subscription\
+    \ of the hostingEnvironment (App\n Service Environment)\n:type subscription_id:\
+    \ str\n:param dns_suffix: DNS suffix of the hostingEnvironment (App Service\n\
+    \ Environment)\n:type dns_suffix: str\n:param last_action: Last deployment action\
+    \ on this hostingEnvironment\n (App Service Environment)\n:type last_action: str\n\
+    :param last_action_result: Result of the last deployment action on this\n hostingEnvironment\
+    \ (App Service Environment)\n:type last_action_result: str\n:param allowed_multi_sizes:\
+    \ List of comma separated strings describing\n which VM sizes are allowed for\
+    \ front-ends\n:type allowed_multi_sizes: str\n:param allowed_worker_sizes: List\
+    \ of comma separated strings describing\n which VM sizes are allowed for workers\n\
+    :type allowed_worker_sizes: str\n:param maximum_number_of_machines: Maximum number\
+    \ of VMs in this\n hostingEnvironment (App Service Environment)\n:type maximum_number_of_machines:\
+    \ int\n:param vip_mappings: Description of IP SSL mapping for this\n hostingEnvironment\
+    \ (App Service Environment)\n:type vip_mappings: list of :class:`VirtualIPMapping\n\
+    \ <azure.mgmt.web.models.VirtualIPMapping>`\n:param environment_capacities: Current\
+    \ total, used, and available worker\n capacities\n:type environment_capacities:\
+    \ list of :class:`StampCapacity\n <azure.mgmt.web.models.StampCapacity>`\n:param\
+    \ network_access_control_list: Access control list for controlling\n traffic to\
+    \ the hostingEnvironment (App Service Environment)\n:type network_access_control_list:\
+    \ list of\n :class:`NetworkAccessControlEntry\n <azure.mgmt.web.models.NetworkAccessControlEntry>`\n\
+    :param environment_is_healthy: True/false indicating whether the\n hostingEnvironment\
+    \ (App Service Environment) is healthy\n:type environment_is_healthy: bool\n:param\
+    \ environment_status: Detailed message about with results of the\n last check\
+    \ of the hostingEnvironment (App Service Environment)\n:type environment_status:\
+    \ str\n:param resource_group: Resource group of the hostingEnvironment (App\n\
+    \ Service Environment)\n:type resource_group: str\n:param api_management_account_id:\
+    \ Api Management Account associated with\n this Hosting Environment\n:type api_management_account_id:\
+    \ str\n:param suspended: True/false indicating whether the hostingEnvironment\
+    \ is\n suspended. The environment can be suspended e.g. when the management\n\
+    \ endpoint is no longer available\n (most likely because NSG blocked the incoming\
+    \ traffic)\n:type suspended: bool\n:param cluster_settings: Custom settings for\
+    \ changing the behavior of the\n hosting environment\n:type cluster_settings:\
+    \ list of :class:`NameValuePair\n <azure.mgmt.web.models.NameValuePair>`"
+  type: Class
+  uid: azure.mgmt.web.models.HostingEnvironment

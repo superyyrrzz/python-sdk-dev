@@ -1,0 +1,22 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.keyvault.generated.models.JsonWebKeySignatureAlgorithm
+  fullName: azure.keyvault.generated.models.JsonWebKeySignatureAlgorithm
+  inheritance:
+  - enum.Enum
+  - builtins.object
+  module: azure.keyvault.generated.models
+  name: JsonWebKeySignatureAlgorithm
+  source:
+    id: JsonWebKeySignatureAlgorithm
+    path: azure-keyvault/azure/keyvault/generated/models/key_vault_client_enums.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/models/key_vault_client_enums.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 58
+  summary: An enumeration.
+  type: Class
+  uid: azure.keyvault.generated.models.JsonWebKeySignatureAlgorithm

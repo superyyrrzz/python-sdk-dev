@@ -1,0 +1,216 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.network.operations.VirtualNetworkGatewayConnectionsOperations.create_or_update
+  - azure.mgmt.network.operations.VirtualNetworkGatewayConnectionsOperations.delete
+  - azure.mgmt.network.operations.VirtualNetworkGatewayConnectionsOperations.get
+  - azure.mgmt.network.operations.VirtualNetworkGatewayConnectionsOperations.get_shared_key
+  - azure.mgmt.network.operations.VirtualNetworkGatewayConnectionsOperations.list
+  - azure.mgmt.network.operations.VirtualNetworkGatewayConnectionsOperations.reset_shared_key
+  - azure.mgmt.network.operations.VirtualNetworkGatewayConnectionsOperations.set_shared_key
+  class: azure.mgmt.network.operations.VirtualNetworkGatewayConnectionsOperations
+  fullName: azure.mgmt.network.operations.VirtualNetworkGatewayConnectionsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.network.operations
+  name: VirtualNetworkGatewayConnectionsOperations
+  source:
+    id: VirtualNetworkGatewayConnectionsOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_network_gateway_connections_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_network_gateway_connections_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 20
+  summary: 'VirtualNetworkGatewayConnectionsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.network.operations.VirtualNetworkGatewayConnectionsOperations
+- _type: method
+  class: azure.mgmt.network.operations.VirtualNetworkGatewayConnectionsOperations
+  fullName: azure.mgmt.network.operations.VirtualNetworkGatewayConnectionsOperations.create_or_update
+  module: azure.mgmt.network.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_network_gateway_connections_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_network_gateway_connections_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 37
+  summary: "The Put VirtualNetworkGatewayConnection operation creates/updates a\n\
+    virtual network gateway connection in the specified resource group\nthrough Network\
+    \ resource provider.\n\n:param resource_group_name: The name of the resource group.\n\
+    :type resource_group_name: str\n:param virtual_network_gateway_connection_name:\
+    \ The name of the\n virtual network gateway connection.\n:type virtual_network_gateway_connection_name:\
+    \ str\n:param parameters: Parameters supplied to the Begin Create or update\n\
+    \ Virtual Network Gateway connection operation through Network\n resource provider.\n\
+    :type parameters: :class:`VirtualNetworkGatewayConnection\n <azure.mgmt.network.models.VirtualNetworkGatewayConnection>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`VirtualNetworkGatewayConnection\n <azure.mgmt.network.models.VirtualNetworkGatewayConnection>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.VirtualNetworkGatewayConnectionsOperations.create_or_update
+- _type: method
+  class: azure.mgmt.network.operations.VirtualNetworkGatewayConnectionsOperations
+  fullName: azure.mgmt.network.operations.VirtualNetworkGatewayConnectionsOperations.delete
+  module: azure.mgmt.network.operations
+  name: delete
+  source:
+    id: delete
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_network_gateway_connections_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_network_gateway_connections_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 199
+  summary: "The Delete VirtualNetworkGatewayConnection operation deletes the\nspecified\
+    \ virtual network Gateway connection through Network resource\nprovider.\n\n:param\
+    \ resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param virtual_network_gateway_connection_name: The name of the\n virtual\
+    \ network gateway connection.\n:type virtual_network_gateway_connection_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.VirtualNetworkGatewayConnectionsOperations.delete
+- _type: method
+  class: azure.mgmt.network.operations.VirtualNetworkGatewayConnectionsOperations
+  fullName: azure.mgmt.network.operations.VirtualNetworkGatewayConnectionsOperations.get
+  module: azure.mgmt.network.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_network_gateway_connections_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_network_gateway_connections_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 135
+  summary: "The Get VirtualNetworkGatewayConnection operation retrieves\ninformation\
+    \ about the specified virtual network gateway connection\nthrough Network resource\
+    \ provider.\n\n:param resource_group_name: The name of the resource group.\n:type\
+    \ resource_group_name: str\n:param virtual_network_gateway_connection_name: The\
+    \ name of the\n virtual network gateway connection.\n:type virtual_network_gateway_connection_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`VirtualNetworkGatewayConnection\n <azure.mgmt.network.models.VirtualNetworkGatewayConnection>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.VirtualNetworkGatewayConnectionsOperations.get
+- _type: method
+  class: azure.mgmt.network.operations.VirtualNetworkGatewayConnectionsOperations
+  fullName: azure.mgmt.network.operations.VirtualNetworkGatewayConnectionsOperations.get_shared_key
+  module: azure.mgmt.network.operations
+  name: get_shared_key
+  source:
+    id: get_shared_key
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_network_gateway_connections_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_network_gateway_connections_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 278
+  summary: "The Get VirtualNetworkGatewayConnectionSharedKey operation retrieves\n\
+    information about the specified virtual network gateway connection\nshared key\
+    \ through Network resource provider.\n\n:param resource_group_name: The name of\
+    \ the resource group.\n:type resource_group_name: str\n:param connection_shared_key_name:\
+    \ The virtual network gateway\n connection shared key name.\n:type connection_shared_key_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`ConnectionSharedKeyResult\n <azure.mgmt.network.models.ConnectionSharedKeyResult>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.VirtualNetworkGatewayConnectionsOperations.get_shared_key
+- _type: method
+  class: azure.mgmt.network.operations.VirtualNetworkGatewayConnectionsOperations
+  fullName: azure.mgmt.network.operations.VirtualNetworkGatewayConnectionsOperations.list
+  module: azure.mgmt.network.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_network_gateway_connections_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_network_gateway_connections_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 342
+  summary: "The List VirtualNetworkGatewayConnections operation retrieves all the\n\
+    virtual network gateways connections created.\n\n:param resource_group_name: The\
+    \ name of the resource group.\n:type resource_group_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`VirtualNetworkGatewayConnectionPaged\n\
+    \ <azure.mgmt.network.models.VirtualNetworkGatewayConnectionPaged>`"
+  type: Method
+  uid: azure.mgmt.network.operations.VirtualNetworkGatewayConnectionsOperations.list
+- _type: method
+  class: azure.mgmt.network.operations.VirtualNetworkGatewayConnectionsOperations
+  fullName: azure.mgmt.network.operations.VirtualNetworkGatewayConnectionsOperations.reset_shared_key
+  module: azure.mgmt.network.operations
+  name: reset_shared_key
+  source:
+    id: reset_shared_key
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_network_gateway_connections_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_network_gateway_connections_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 408
+  summary: "The VirtualNetworkGatewayConnectionResetSharedKey operation resets the\n\
+    virtual network gateway connection shared key for passed virtual\nnetwork gateway\
+    \ connection in the specified resource group through\nNetwork resource provider.\n\
+    \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param virtual_network_gateway_connection_name: The virtual network\n gateway\
+    \ connection reset shared key Name.\n:type virtual_network_gateway_connection_name:\
+    \ str\n:param key_length: The virtual network connection reset shared key\n length\n\
+    :type key_length: long\n:param dict custom_headers: headers that will be added\
+    \ to the request\n:param bool raw: returns the direct response alongside the\n\
+    \ deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`ConnectionResetSharedKey\n <azure.mgmt.network.models.ConnectionResetSharedKey>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.VirtualNetworkGatewayConnectionsOperations.reset_shared_key
+- _type: method
+  class: azure.mgmt.network.operations.VirtualNetworkGatewayConnectionsOperations
+  fullName: azure.mgmt.network.operations.VirtualNetworkGatewayConnectionsOperations.set_shared_key
+  module: azure.mgmt.network.operations
+  name: set_shared_key
+  source:
+    id: set_shared_key
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_network_gateway_connections_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_network_gateway_connections_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 505
+  summary: "The Put VirtualNetworkGatewayConnectionSharedKey operation sets the\n\
+    virtual network gateway connection shared key for passed virtual\nnetwork gateway\
+    \ connection in the specified resource group through\nNetwork resource provider.\n\
+    \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param virtual_network_gateway_connection_name: The virtual network\n gateway\
+    \ connection name.\n:type virtual_network_gateway_connection_name: str\n:param\
+    \ value: The virtual network connection shared key value\n:type value: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:rtype:\n\
+    \ :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`ConnectionSharedKey\n <azure.mgmt.network.models.ConnectionSharedKey>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.VirtualNetworkGatewayConnectionsOperations.set_shared_key

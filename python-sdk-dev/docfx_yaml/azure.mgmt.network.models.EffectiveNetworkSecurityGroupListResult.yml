@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.EffectiveNetworkSecurityGroupListResult
+  fullName: azure.mgmt.network.models.EffectiveNetworkSecurityGroupListResult
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: EffectiveNetworkSecurityGroupListResult
+  source:
+    id: EffectiveNetworkSecurityGroupListResult
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/effective_network_security_group_list_result.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/effective_network_security_group_list_result.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Response for list effective network security groups api service call.\n\
+    \n:param value: Gets list of effective network security groups\n:type value: list\
+    \ of :class:`EffectiveNetworkSecurityGroup\n <azure.mgmt.network.models.EffectiveNetworkSecurityGroup>`\n\
+    :param next_link: Gets the URL to get the next set of results.\n:type next_link:\
+    \ str"
+  type: Class
+  uid: azure.mgmt.network.models.EffectiveNetworkSecurityGroupListResult

@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.monitor.models.RuleCondition
+  fullName: azure.mgmt.monitor.models.RuleCondition
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.monitor.models
+  name: RuleCondition
+  source:
+    id: RuleCondition
+    path: azure-mgmt-monitor/azure/mgmt/monitor/models/rule_condition.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/models/rule_condition.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'The condition that results in the alert rule being activated.
+
+
+    :param odatatype: Polymorphic Discriminator
+
+    :type odatatype: str'
+  type: Class
+  uid: azure.mgmt.monitor.models.RuleCondition

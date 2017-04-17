@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.monitor.models.EmailNotification
+  fullName: azure.mgmt.monitor.models.EmailNotification
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.monitor.models
+  name: EmailNotification
+  source:
+    id: EmailNotification
+    path: azure-mgmt-monitor/azure/mgmt/monitor/models/email_notification.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/models/email_notification.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Email notification of an autoscale event.\n\n:param send_to_subscription_administrator:\
+    \ a value indicating whether to\n send email to subscription administrator.\n\
+    :type send_to_subscription_administrator: bool\n:param send_to_subscription_co_administrators:\
+    \ a value indicating whether\n to send email to subscription co-administrators.\n\
+    :type send_to_subscription_co_administrators: bool\n:param custom_emails: the\
+    \ custom e-mails list. This value can be null or\n empty, in which case this attribute\
+    \ will be ignored.\n:type custom_emails: list of str"
+  type: Class
+  uid: azure.mgmt.monitor.models.EmailNotification

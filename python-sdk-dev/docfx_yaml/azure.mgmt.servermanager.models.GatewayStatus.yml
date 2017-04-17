@@ -1,0 +1,52 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.servermanager.models.GatewayStatus
+  fullName: azure.mgmt.servermanager.models.GatewayStatus
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.servermanager.models
+  name: GatewayStatus
+  source:
+    id: GatewayStatus
+    path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/gateway_status.py
+    remote:
+      branch: master
+      path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/gateway_status.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Expanded gateway status information.\n\n:param available_memory_mbyte:\
+    \ The available memory on the gateway host\n machine in megabytes.\n:type available_memory_mbyte:\
+    \ float\n:param gateway_cpu_utilization_percent: The CPU utilization of the gateway\n\
+    \ process (numeric value between 0 and 100).\n:type gateway_cpu_utilization_percent:\
+    \ float\n:param total_cpu_utilization_percent: CPU Utilization of the whole system.\n\
+    :type total_cpu_utilization_percent: float\n:param gateway_version: The version\
+    \ of the gateway that is installed on\n the system.\n:type gateway_version: str\n\
+    :param friendly_os_name: The Plaintext description of the OS on the\n gateway.\n\
+    :type friendly_os_name: str\n:param installed_date: The date the gateway was installed.\n\
+    :type installed_date: datetime\n:param logical_processor_count: Number of logical\
+    \ processors in the\n gateway system.\n:type logical_processor_count: int\n:param\
+    \ name: The computer name of the gateway system.\n:type name: str\n:param gateway_id:\
+    \ The gateway resource ID.\n:type gateway_id: str\n:param gateway_working_set_mbyte:\
+    \ The working set size of the gateway\n process in megabytes.\n:type gateway_working_set_mbyte:\
+    \ float\n:param status_updated: UTC date and time when gateway status was last\n\
+    \ updated.\n:type status_updated: datetime\n:param group_policy_error: The group\
+    \ policy error.\n:type group_policy_error: str\n:param allow_gateway_group_policy_status:\
+    \ Status of the\n allowGatewayGroupPolicy setting.\n:type allow_gateway_group_policy_status:\
+    \ bool\n:param require_mfa_group_policy_status: Status of the\n requireMfaGroupPolicy\
+    \ setting.\n:type require_mfa_group_policy_status: bool\n:param encryption_certificate_thumbprint:\
+    \ Thumbprint of the encryption\n certificate.\n:type encryption_certificate_thumbprint:\
+    \ str\n:param secondary_encryption_certificate_thumbprint: Secondary thumbprint\n\
+    \ of the encryption certificate.\n:type secondary_encryption_certificate_thumbprint:\
+    \ str\n:param encryption_jwk: The encryption certificate key.\n:type encryption_jwk:\
+    \ :class:`EncryptionJwkResource\n <azure.mgmt.servermanager.models.EncryptionJwkResource>`\n\
+    :param secondary_encryption_jwk: The secondary encryption certificate key.\n:type\
+    \ secondary_encryption_jwk: :class:`EncryptionJwkResource\n <azure.mgmt.servermanager.models.EncryptionJwkResource>`\n\
+    :param active_message_count: Active message count.\n:type active_message_count:\
+    \ int\n:param latest_published_msi_version: Latest published version of the\n\
+    \ gateway install MSI.\n:type latest_published_msi_version: str\n:param published_time_utc:\
+    \ Gateway install MSI published time.\n:type published_time_utc: datetime"
+  type: Class
+  uid: azure.mgmt.servermanager.models.GatewayStatus

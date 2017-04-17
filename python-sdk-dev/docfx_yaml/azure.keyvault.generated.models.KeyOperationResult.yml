@@ -1,0 +1,36 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.keyvault.generated.models.KeyOperationResult
+  fullName: azure.keyvault.generated.models.KeyOperationResult
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.keyvault.generated.models
+  name: KeyOperationResult
+  source:
+    id: KeyOperationResult
+    path: azure-keyvault/azure/keyvault/generated/models/key_operation_result.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/models/key_operation_result.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'The key operation result.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar kid: Key identifier
+
+    :vartype kid: str
+
+    :ivar result:
+
+    :vartype result: bytes'
+  type: Class
+  uid: azure.keyvault.generated.models.KeyOperationResult

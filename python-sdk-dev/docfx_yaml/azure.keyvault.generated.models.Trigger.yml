@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.keyvault.generated.models.Trigger
+  fullName: azure.keyvault.generated.models.Trigger
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.keyvault.generated.models
+  name: Trigger
+  source:
+    id: Trigger
+    path: azure-keyvault/azure/keyvault/generated/models/trigger.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/models/trigger.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A condition to be satisfied for an action to be executed.\n\n:param lifetime_percentage:\
+    \ Percentage of lifetime at which to trigger.\n Value should be between 1 and\
+    \ 99.\n:type lifetime_percentage: int\n:param days_before_expiry: Days before\
+    \ expiry.\n:type days_before_expiry: int"
+  type: Class
+  uid: azure.keyvault.generated.models.Trigger

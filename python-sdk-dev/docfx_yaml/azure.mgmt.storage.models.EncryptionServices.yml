@@ -1,0 +1,23 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.storage.models.EncryptionServices
+  fullName: azure.mgmt.storage.models.EncryptionServices
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.storage.models
+  name: EncryptionServices
+  source:
+    id: EncryptionServices
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/models/encryption_services.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/models/encryption_services.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The encrypted services.\n\n:param blob: The blob service.\n:type blob:\
+    \ :class:`EncryptionService\n <azure.mgmt.storage.models.EncryptionService>`"
+  type: Class
+  uid: azure.mgmt.storage.models.EncryptionServices

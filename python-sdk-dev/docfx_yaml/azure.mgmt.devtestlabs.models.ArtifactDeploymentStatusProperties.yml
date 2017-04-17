@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.devtestlabs.models.ArtifactDeploymentStatusProperties
+  fullName: azure.mgmt.devtestlabs.models.ArtifactDeploymentStatusProperties
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.devtestlabs.models
+  name: ArtifactDeploymentStatusProperties
+  source:
+    id: ArtifactDeploymentStatusProperties
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/artifact_deployment_status_properties.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/artifact_deployment_status_properties.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Properties of an artifact deployment.\n\n:param deployment_status: The\
+    \ deployment status of the artifact.\n:type deployment_status: str\n:param artifacts_applied:\
+    \ The total count of the artifacts that were\n successfully applied.\n:type artifacts_applied:\
+    \ int\n:param total_artifacts: The total count of the artifacts that were\n tentatively\
+    \ applied.\n:type total_artifacts: int"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.ArtifactDeploymentStatusProperties

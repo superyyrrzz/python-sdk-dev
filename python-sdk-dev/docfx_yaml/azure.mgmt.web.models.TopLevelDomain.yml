@@ -1,0 +1,56 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.TopLevelDomain
+  fullName: azure.mgmt.web.models.TopLevelDomain
+  inheritance:
+  - azure.mgmt.web.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: TopLevelDomain
+  source:
+    id: TopLevelDomain
+    path: azure-mgmt-web/azure/mgmt/web/models/top_level_domain.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/top_level_domain.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'A top level domain object.
+
+
+    :param id: Resource Id
+
+    :type id: str
+
+    :param name: Resource Name
+
+    :type name: str
+
+    :param kind: Kind of resource
+
+    :type kind: str
+
+    :param location: Resource Location
+
+    :type location: str
+
+    :param type: Resource type
+
+    :type type: str
+
+    :param tags: Resource tags
+
+    :type tags: dict
+
+    :param top_level_domain_name: Name of the top level domain
+
+    :type top_level_domain_name: str
+
+    :param privacy: If true then the top level domain supports domain privacy
+
+    :type privacy: bool'
+  type: Class
+  uid: azure.mgmt.web.models.TopLevelDomain

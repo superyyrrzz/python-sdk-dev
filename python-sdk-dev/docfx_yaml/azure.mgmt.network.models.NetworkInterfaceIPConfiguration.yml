@@ -1,0 +1,45 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.NetworkInterfaceIPConfiguration
+  fullName: azure.mgmt.network.models.NetworkInterfaceIPConfiguration
+  inheritance:
+  - azure.mgmt.network.models.sub_resource.SubResource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: NetworkInterfaceIPConfiguration
+  source:
+    id: NetworkInterfaceIPConfiguration
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/network_interface_ip_configuration.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/network_interface_ip_configuration.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "IPConfiguration in a NetworkInterface.\n\n:param id: Resource Id\n:type\
+    \ id: str\n:param application_gateway_backend_address_pools: Gets or sets the\n\
+    \ reference of ApplicationGatewayBackendAddressPool resource\n:type application_gateway_backend_address_pools:\
+    \ list of\n :class:`ApplicationGatewayBackendAddressPool\n <azure.mgmt.network.models.ApplicationGatewayBackendAddressPool>`\n\
+    :param load_balancer_backend_address_pools: Gets or sets the reference of\n LoadBalancerBackendAddressPool\
+    \ resource\n:type load_balancer_backend_address_pools: list of\n :class:`BackendAddressPool\n\
+    \ <azure.mgmt.network.models.BackendAddressPool>`\n:param load_balancer_inbound_nat_rules:\
+    \ Gets or sets list of references\n of LoadBalancerInboundNatRules\n:type load_balancer_inbound_nat_rules:\
+    \ list of :class:`InboundNatRule\n <azure.mgmt.network.models.InboundNatRule>`\n\
+    :param private_ip_address:\n:type private_ip_address: str\n:param private_ip_allocation_method:\
+    \ Gets or sets PrivateIP allocation\n method. Possible values include: 'Static',\
+    \ 'Dynamic'\n:type private_ip_allocation_method: str or :class:`IPAllocationMethod\n\
+    \ <azure.mgmt.network.models.IPAllocationMethod>`\n:param private_ip_address_version:\
+    \ Gets or sets PrivateIP address version\n (IPv4/IPv6). Possible values include:\
+    \ 'IPv4', 'IPv6'\n:type private_ip_address_version: str or :class:`IPVersion\n\
+    \ <azure.mgmt.network.models.IPVersion>`\n:param subnet:\n:type subnet: :class:`Subnet\
+    \ <azure.mgmt.network.models.Subnet>`\n:param primary: Gets whether this is a\
+    \ primary customer address on the NIC\n:type primary: bool\n:param public_ip_address:\n\
+    :type public_ip_address: :class:`PublicIPAddress\n <azure.mgmt.network.models.PublicIPAddress>`\n\
+    :param provisioning_state:\n:type provisioning_state: str\n:param name: Gets name\
+    \ of the resource that is unique within a resource\n group. This name can be used\
+    \ to access the resource\n:type name: str\n:param etag: A unique read-only string\
+    \ that changes whenever the resource\n is updated\n:type etag: str"
+  type: Class
+  uid: azure.mgmt.network.models.NetworkInterfaceIPConfiguration

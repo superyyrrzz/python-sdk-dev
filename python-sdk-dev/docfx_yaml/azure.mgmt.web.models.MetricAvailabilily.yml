@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.MetricAvailabilily
+  fullName: azure.mgmt.web.models.MetricAvailabilily
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: MetricAvailabilily
+  source:
+    id: MetricAvailabilily
+    path: azure-mgmt-web/azure/mgmt/web/models/metric_availabilily.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/metric_availabilily.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Class repesenting metrics availability and retention.\n\n:param time_grain:\
+    \ Time grain\n:type time_grain: str\n:param retention: Retention period for the\
+    \ current\n {Microsoft.Web.Hosting.Administration.MetricAvailabilily.TimeGrain}\n\
+    :type retention: str"
+  type: Class
+  uid: azure.mgmt.web.models.MetricAvailabilily

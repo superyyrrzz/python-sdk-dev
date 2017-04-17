@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.authorization.models.ProviderOperationsMetadata
+  fullName: azure.mgmt.authorization.models.ProviderOperationsMetadata
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.authorization.models
+  name: ProviderOperationsMetadata
+  source:
+    id: ProviderOperationsMetadata
+    path: azure-mgmt-authorization/azure/mgmt/authorization/models/provider_operations_metadata.py
+    remote:
+      branch: master
+      path: azure-mgmt-authorization/azure/mgmt/authorization/models/provider_operations_metadata.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Provider Operations metadata.\n\n:param id: The provider id.\n:type id:\
+    \ str\n:param name: The provider name.\n:type name: str\n:param type: The provider\
+    \ type.\n:type type: str\n:param display_name: The provider display name.\n:type\
+    \ display_name: str\n:param resource_types: The provider resource types\n:type\
+    \ resource_types: list of :class:`ResourceType\n <azure.mgmt.authorization.models.ResourceType>`\n\
+    :param operations: The provider operations.\n:type operations: list of :class:`ProviderOperation\n\
+    \ <azure.mgmt.authorization.models.ProviderOperation>`"
+  type: Class
+  uid: azure.mgmt.authorization.models.ProviderOperationsMetadata

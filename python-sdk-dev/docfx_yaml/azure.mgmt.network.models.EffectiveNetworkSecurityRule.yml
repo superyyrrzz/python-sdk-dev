@@ -1,0 +1,38 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.EffectiveNetworkSecurityRule
+  fullName: azure.mgmt.network.models.EffectiveNetworkSecurityRule
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: EffectiveNetworkSecurityRule
+  source:
+    id: EffectiveNetworkSecurityRule
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/effective_network_security_rule.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/effective_network_security_rule.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Effective NetworkSecurityRules.\n\n:param name: Gets the name of the security\
+    \ rule specified by the user (if\n created by the user)\n:type name: str\n:param\
+    \ protocol: Gets Network protocol this rule applies to. Possible\n values include:\
+    \ 'Tcp', 'Udp', '*'\n:type protocol: str or :class:`SecurityRuleProtocol\n <azure.mgmt.network.models.SecurityRuleProtocol>`\n\
+    :param source_port_range: Gets source port or range\n:type source_port_range:\
+    \ str\n:param destination_port_range: Gets destination port or range\n:type destination_port_range:\
+    \ str\n:param source_address_prefix: Gets source address prefix\n:type source_address_prefix:\
+    \ str\n:param destination_address_prefix: Gets destination address prefix\n:type\
+    \ destination_address_prefix: str\n:param expanded_source_address_prefix: Gets\
+    \ expanded source address prefix\n:type expanded_source_address_prefix: list of\
+    \ str\n:param expanded_destination_address_prefix: Gets expanded destination\n\
+    \ address prefix\n:type expanded_destination_address_prefix: list of str\n:param\
+    \ access: Gets network traffic is allowed or denied. Possible values\n include:\
+    \ 'Allow', 'Deny'\n:type access: str or :class:`SecurityRuleAccess\n <azure.mgmt.network.models.SecurityRuleAccess>`\n\
+    :param priority: Gets the priority of the rule\n:type priority: int\n:param direction:\
+    \ Gets the direction of the rule. Possible values\n include: 'Inbound', 'Outbound'\n\
+    :type direction: str or :class:`SecurityRuleDirection\n <azure.mgmt.network.models.SecurityRuleDirection>`"
+  type: Class
+  uid: azure.mgmt.network.models.EffectiveNetworkSecurityRule

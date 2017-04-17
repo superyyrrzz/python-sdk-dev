@@ -1,0 +1,53 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.sql.models.RecommendedIndex
+  fullName: azure.mgmt.sql.models.RecommendedIndex
+  inheritance:
+  - azure.mgmt.sql.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.sql.models
+  name: RecommendedIndex
+  source:
+    id: RecommendedIndex
+    path: azure-mgmt-sql/azure/mgmt/sql/models/recommended_index.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/models/recommended_index.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Represents an Azure SQL Database recommended index.\n\nVariables are only\
+    \ populated by the server, and will be ignored when\nsending a request.\n\n:ivar\
+    \ name: Resource name\n:vartype name: str\n:ivar id: Resource ID\n:vartype id:\
+    \ str\n:ivar type: Resource type\n:vartype type: str\n:param location: Resource\
+    \ location\n:type location: str\n:param tags: Resource tags\n:type tags: dict\n\
+    :ivar action: The proposed index action. You can create a missing index,\n drop\
+    \ an unused index, or rebuild an existing index to improve its\n performance.\
+    \ Possible values are 'Create', 'Drop', 'Rebuild'. Possible\n values include:\
+    \ 'Create', 'Drop', 'Rebuild'\n:vartype action: str or :class:`RecommendedIndexActions\n\
+    \ <azure.mgmt.sql.models.RecommendedIndexActions>`\n:ivar state: The current recommendation\
+    \ state. Current options are:\n 'Active', 'Pending', 'Executing', 'Verifying',\
+    \ 'Pending Revert',\n 'Reverting', 'Reverted', 'Ignored', 'Expired', 'Blocked',\
+    \ 'Success'.\n Possible values include: 'Active', 'Pending', 'Executing', 'Verifying',\n\
+    \ 'Pending Revert', 'Reverting', 'Reverted', 'Ignored', 'Expired',\n 'Blocked',\
+    \ 'Success'\n:vartype state: str or :class:`RecommendedIndexStates\n <azure.mgmt.sql.models.RecommendedIndexStates>`\n\
+    :ivar created: The UTC datetime showing when this resource was created\n (ISO8601\
+    \ format).\n:vartype created: datetime\n:ivar last_modified: The UTC datetime\
+    \ of when was this resource last\n changed (ISO8601 format).\n:vartype last_modified:\
+    \ datetime\n:ivar index_type: The type of index (CLUSTERED, NONCLUSTERED, COLUMNSTORE,\n\
+    \ CLUSTERED COLUMNSTORE). Possible values include: 'CLUSTERED',\n 'NONCLUSTERED',\
+    \ 'COLUMNSTORE', 'CLUSTERED COLUMNSTORE'\n:vartype index_type: str or :class:`RecommendedIndexTypes\n\
+    \ <azure.mgmt.sql.models.RecommendedIndexTypes>`\n:ivar schema: The schema where\
+    \ table to build index over resides\n:vartype schema: str\n:ivar table: The table\
+    \ on which to build index.\n:vartype table: str\n:ivar columns: Columns over which\
+    \ to build index\n:vartype columns: list of str\n:ivar included_columns: The list\
+    \ of column names to be included in the\n index\n:vartype included_columns: list\
+    \ of str\n:ivar index_script: The full build index script\n:vartype index_script:\
+    \ str\n:ivar estimated_impact: The estimated impact of doing recommended index\n\
+    \ action.\n:vartype estimated_impact: list of :class:`OperationImpact\n <azure.mgmt.sql.models.OperationImpact>`\n\
+    :ivar reported_impact: The values reported after index action is complete.\n:vartype\
+    \ reported_impact: list of :class:`OperationImpact\n <azure.mgmt.sql.models.OperationImpact>`"
+  type: Class
+  uid: azure.mgmt.sql.models.RecommendedIndex

@@ -1,0 +1,39 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.VirtualIPMapping
+  fullName: azure.mgmt.web.models.VirtualIPMapping
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: VirtualIPMapping
+  source:
+    id: VirtualIPMapping
+    path: azure-mgmt-web/azure/mgmt/web/models/virtual_ip_mapping.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/virtual_ip_mapping.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Class that represents a VIP mapping.
+
+
+    :param virtual_ip: Virtual IP address
+
+    :type virtual_ip: str
+
+    :param internal_http_port: Internal HTTP port
+
+    :type internal_http_port: int
+
+    :param internal_https_port: Internal HTTPS port
+
+    :type internal_https_port: int
+
+    :param in_use: Is VIP mapping in use
+
+    :type in_use: bool'
+  type: Class
+  uid: azure.mgmt.web.models.VirtualIPMapping

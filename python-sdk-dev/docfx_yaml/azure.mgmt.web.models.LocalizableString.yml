@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.LocalizableString
+  fullName: azure.mgmt.web.models.LocalizableString
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: LocalizableString
+  source:
+    id: LocalizableString
+    path: azure-mgmt-web/azure/mgmt/web/models/localizable_string.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/localizable_string.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'LocalizableString object containing the name and a localized value.
+
+
+    :param value: Non localized name
+
+    :type value: str
+
+    :param localized_value: Localized name
+
+    :type localized_value: str'
+  type: Class
+  uid: azure.mgmt.web.models.LocalizableString

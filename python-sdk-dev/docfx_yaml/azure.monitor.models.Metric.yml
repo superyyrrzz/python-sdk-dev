@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.monitor.models.Metric
+  fullName: azure.monitor.models.Metric
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.monitor.models
+  name: Metric
+  source:
+    id: Metric
+    path: azure-monitor/azure/monitor/models/metric.py
+    remote:
+      branch: master
+      path: azure-monitor/azure/monitor/models/metric.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A set of metric values in a time range.\n\n:param name: the name and the\
+    \ display name of the metric, i.e. it is\n localizable string.\n:type name: :class:`LocalizableString\n\
+    \ <azure.monitor.models.LocalizableString>`\n:param unit: the unit of the metric.\
+    \ Possible values include: 'Count',\n 'Bytes', 'Seconds', 'CountPerSecond', 'BytesPerSecond',\
+    \ 'Percent',\n 'MilliSeconds'\n:type unit: str or :class:`Unit <azure.monitor.models.Unit>`\n\
+    :param data: Array of data points representing the metric values.\n:type data:\
+    \ list of :class:`MetricValue\n <azure.monitor.models.MetricValue>`"
+  type: Class
+  uid: azure.monitor.models.Metric

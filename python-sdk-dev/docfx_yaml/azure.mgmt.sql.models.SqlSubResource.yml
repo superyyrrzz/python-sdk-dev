@@ -1,0 +1,36 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.sql.models.SqlSubResource
+  fullName: azure.mgmt.sql.models.SqlSubResource
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.sql.models
+  name: SqlSubResource
+  source:
+    id: SqlSubResource
+    path: azure-mgmt-sql/azure/mgmt/sql/models/sql_sub_resource.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/models/sql_sub_resource.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Subresource properties.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar name: Resource name
+
+    :vartype name: str
+
+    :ivar id: The resource ID.
+
+    :vartype id: str'
+  type: Class
+  uid: azure.mgmt.sql.models.SqlSubResource

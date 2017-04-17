@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.cognitiveservices.models.CognitiveServicesResourceAndSku
+  fullName: azure.mgmt.cognitiveservices.models.CognitiveServicesResourceAndSku
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.cognitiveservices.models
+  name: CognitiveServicesResourceAndSku
+  source:
+    id: CognitiveServicesResourceAndSku
+    path: azure-mgmt-cognitiveservices/azure/mgmt/cognitiveservices/models/cognitive_services_resource_and_sku.py
+    remote:
+      branch: master
+      path: azure-mgmt-cognitiveservices/azure/mgmt/cognitiveservices/models/cognitive_services_resource_and_sku.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'CognitiveServicesResourceAndSku.
+
+
+    :param resource_type: Resource Namespace and Type
+
+    :type resource_type: str
+
+    :param sku:
+
+    :type sku: :class:`Sku <azure.mgmt.cognitiveservices.models.Sku>`'
+  type: Class
+  uid: azure.mgmt.cognitiveservices.models.CognitiveServicesResourceAndSku

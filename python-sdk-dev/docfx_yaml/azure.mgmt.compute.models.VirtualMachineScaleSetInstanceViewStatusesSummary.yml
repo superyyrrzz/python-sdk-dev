@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.VirtualMachineScaleSetInstanceViewStatusesSummary
+  fullName: azure.mgmt.compute.models.VirtualMachineScaleSetInstanceViewStatusesSummary
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: VirtualMachineScaleSetInstanceViewStatusesSummary
+  source:
+    id: VirtualMachineScaleSetInstanceViewStatusesSummary
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_scale_set_instance_view_statuses_summary.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_scale_set_instance_view_statuses_summary.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Instance view statuses summary for virtual machines of a virtual machine\n\
+    scale set.\n\nVariables are only populated by the server, and will be ignored\
+    \ when\nsending a request.\n\n:ivar statuses_summary: the extensions information.\n\
+    :vartype statuses_summary: list of :class:`VirtualMachineStatusCodeCount\n <azure.mgmt.compute.models.VirtualMachineStatusCodeCount>`"
+  type: Class
+  uid: azure.mgmt.compute.models.VirtualMachineScaleSetInstanceViewStatusesSummary

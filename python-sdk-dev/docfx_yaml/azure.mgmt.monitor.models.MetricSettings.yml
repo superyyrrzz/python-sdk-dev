@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.monitor.models.MetricSettings
+  fullName: azure.mgmt.monitor.models.MetricSettings
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.monitor.models
+  name: MetricSettings
+  source:
+    id: MetricSettings
+    path: azure-mgmt-monitor/azure/mgmt/monitor/models/metric_settings.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/models/metric_settings.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Part of MultiTenantDiagnosticSettings. Specifies the settings for a\n\
+    particular metric.\n\n:param time_grain: the timegrain of the metric in ISO8601\
+    \ format.\n:type time_grain: timedelta\n:param enabled: a value indicating whether\
+    \ this timegrain is enabled.\n:type enabled: bool\n:param retention_policy: the\
+    \ retention policy for this timegrain.\n:type retention_policy: :class:`RetentionPolicy\n\
+    \ <azure.mgmt.monitor.models.RetentionPolicy>`"
+  type: Class
+  uid: azure.mgmt.monitor.models.MetricSettings

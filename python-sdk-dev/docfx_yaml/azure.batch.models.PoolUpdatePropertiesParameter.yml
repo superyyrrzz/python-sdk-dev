@@ -1,0 +1,36 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.PoolUpdatePropertiesParameter
+  fullName: azure.batch.models.PoolUpdatePropertiesParameter
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: PoolUpdatePropertiesParameter
+  source:
+    id: PoolUpdatePropertiesParameter
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/pool_update_properties_parameter.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/pool_update_properties_parameter.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Parameters for a CloudPoolOperations.UpdateProperties request.\n\n:param\
+    \ start_task: A task to run on each compute node as it joins the\n pool. If omitted,\
+    \ any existing start task is removed from the pool.\n:type start_task: :class:`StartTask\
+    \ <azure.batch.models.StartTask>`\n:param certificate_references: A list of certificates\
+    \ to be installed on\n each compute node in the pool. If you specify an empty\
+    \ collection, any\n existing certificate references are removed from the pool.\n\
+    :type certificate_references: list of :class:`CertificateReference\n <azure.batch.models.CertificateReference>`\n\
+    :param application_package_references: A list of application packages to\n be\
+    \ installed on each compute node in the pool. If you specify an empty\n collection,\
+    \ any existing application packages references are removed\n from the pool.\n\
+    :type application_package_references: list of\n :class:`ApplicationPackageReference\n\
+    \ <azure.batch.models.ApplicationPackageReference>`\n:param metadata: A list of\
+    \ name-value pairs associated with the pool as\n metadata. If you specify an empty\
+    \ collection, any existing metadata is\n removed from the pool.\n:type metadata:\
+    \ list of :class:`MetadataItem\n <azure.batch.models.MetadataItem>`"
+  type: Class
+  uid: azure.batch.models.PoolUpdatePropertiesParameter

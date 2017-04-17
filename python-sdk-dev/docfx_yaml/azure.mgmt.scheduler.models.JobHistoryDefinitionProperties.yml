@@ -1,0 +1,35 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.scheduler.models.JobHistoryDefinitionProperties
+  fullName: azure.mgmt.scheduler.models.JobHistoryDefinitionProperties
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.scheduler.models
+  name: JobHistoryDefinitionProperties
+  source:
+    id: JobHistoryDefinitionProperties
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/job_history_definition_properties.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/job_history_definition_properties.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "JobHistoryDefinitionProperties.\n\nVariables are only populated by the\
+    \ server, and will be ignored when\nsending a request.\n\n:ivar start_time: Gets\
+    \ the start time for this job.\n:vartype start_time: datetime\n:ivar end_time:\
+    \ Gets the end time for this job.\n:vartype end_time: datetime\n:ivar expected_execution_time:\
+    \ Gets the expected execution time for this\n job.\n:vartype expected_execution_time:\
+    \ datetime\n:ivar action_name: Gets the job history action name. Possible values\n\
+    \ include: 'MainAction', 'ErrorAction'\n:vartype action_name: str or :class:`JobHistoryActionName\n\
+    \ <azure.mgmt.scheduler.models.JobHistoryActionName>`\n:ivar status: Gets the\
+    \ job history status. Possible values include:\n 'Completed', 'Failed', 'Postponed'\n\
+    :vartype status: str or :class:`JobExecutionStatus\n <azure.mgmt.scheduler.models.JobExecutionStatus>`\n\
+    :ivar message: Gets the message for the job history.\n:vartype message: str\n\
+    :ivar retry_count: Gets the retry count for job.\n:vartype retry_count: int\n\
+    :ivar repeat_count: Gets the repeat count for the job.\n:vartype repeat_count:\
+    \ int"
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobHistoryDefinitionProperties

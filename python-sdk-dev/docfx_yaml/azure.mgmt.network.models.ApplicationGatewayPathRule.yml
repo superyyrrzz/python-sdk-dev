@@ -1,0 +1,33 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.ApplicationGatewayPathRule
+  fullName: azure.mgmt.network.models.ApplicationGatewayPathRule
+  inheritance:
+  - azure.mgmt.network.models.sub_resource.SubResource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: ApplicationGatewayPathRule
+  source:
+    id: ApplicationGatewayPathRule
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/application_gateway_path_rule.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/application_gateway_path_rule.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Path rule of URL path map of application gateway.\n\n:param id: Resource\
+    \ Id\n:type id: str\n:param paths: Path rules of URL path map\n:type paths: list\
+    \ of str\n:param backend_address_pool: Backend address pool resource of URL path\n\
+    \ map\n:type backend_address_pool: :class:`SubResource\n <azure.mgmt.network.models.SubResource>`\n\
+    :param backend_http_settings: Backend http settings resource of URL path\n map\n\
+    :type backend_http_settings: :class:`SubResource\n <azure.mgmt.network.models.SubResource>`\n\
+    :param provisioning_state: Path rule of URL path map resource\n Updating/Deleting/Failed\n\
+    :type provisioning_state: str\n:param name: Name of the resource that is unique\
+    \ within a resource group.\n This name can be used to access the resource\n:type\
+    \ name: str\n:param etag: A unique read-only string that changes whenever the\
+    \ resource\n is updated\n:type etag: str"
+  type: Class
+  uid: azure.mgmt.network.models.ApplicationGatewayPathRule

@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.dns.models.PtrRecord
+  fullName: azure.mgmt.dns.models.PtrRecord
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.dns.models
+  name: PtrRecord
+  source:
+    id: PtrRecord
+    path: azure-mgmt-dns/azure/mgmt/dns/models/ptr_record.py
+    remote:
+      branch: master
+      path: azure-mgmt-dns/azure/mgmt/dns/models/ptr_record.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'A PTR record.
+
+
+    :param ptrdname: The PTR target domain name for this PTR record.
+
+    :type ptrdname: str'
+  type: Class
+  uid: azure.mgmt.dns.models.PtrRecord

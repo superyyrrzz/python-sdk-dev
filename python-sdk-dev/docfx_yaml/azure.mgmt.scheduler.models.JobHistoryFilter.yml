@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.scheduler.models.JobHistoryFilter
+  fullName: azure.mgmt.scheduler.models.JobHistoryFilter
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.scheduler.models
+  name: JobHistoryFilter
+  source:
+    id: JobHistoryFilter
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/job_history_filter.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/job_history_filter.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "JobHistoryFilter.\n\n:param status: Gets or sets the job execution status.\
+    \ Possible values\n include: 'Completed', 'Failed', 'Postponed'\n:type status:\
+    \ str or :class:`JobExecutionStatus\n <azure.mgmt.scheduler.models.JobExecutionStatus>`"
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobHistoryFilter

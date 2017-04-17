@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.keyvault.models.Permissions
+  fullName: azure.mgmt.keyvault.models.Permissions
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.keyvault.models
+  name: Permissions
+  source:
+    id: Permissions
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/keyvault/models/permissions.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/keyvault/models/permissions.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Permissions the identity has for keys and secrets.\n\n:param keys: Permissions\
+    \ to keys\n:type keys: list of str or :class:`KeyPermissions\n <azure.keyvault.models.KeyPermissions>`\n\
+    :param secrets: Permissions to secrets\n:type secrets: list of str or :class:`SecretPermissions\n\
+    \ <azure.keyvault.models.SecretPermissions>`"
+  type: Class
+  uid: azure.mgmt.keyvault.models.Permissions

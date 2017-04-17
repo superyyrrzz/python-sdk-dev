@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.DomainPurchaseConsent
+  fullName: azure.mgmt.web.models.DomainPurchaseConsent
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: DomainPurchaseConsent
+  source:
+    id: DomainPurchaseConsent
+    path: azure-mgmt-web/azure/mgmt/web/models/domain_purchase_consent.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/domain_purchase_consent.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Domain purchase consent object representing acceptance of applicable legal\n\
+    agreements.\n\n:param agreement_keys: List of applicable legal agreement keys.\
+    \ This list\n can be retrieved using ListLegalAgreements Api under TopLevelDomain\n\
+    \ resource\n:type agreement_keys: list of str\n:param agreed_by: Client IP address\n\
+    :type agreed_by: str\n:param agreed_at: Timestamp when the agreements were accepted\n\
+    :type agreed_at: datetime"
+  type: Class
+  uid: azure.mgmt.web.models.DomainPurchaseConsent

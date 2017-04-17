@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.NetworkInterfaceDnsSettings
+  fullName: azure.mgmt.network.models.NetworkInterfaceDnsSettings
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: NetworkInterfaceDnsSettings
+  source:
+    id: NetworkInterfaceDnsSettings
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/network_interface_dns_settings.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/network_interface_dns_settings.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Dns settings of a network interface.\n\n:param dns_servers: Gets or sets\
+    \ list of DNS servers IP addresses\n:type dns_servers: list of str\n:param applied_dns_servers:\
+    \ Gets or sets list of Applied DNS servers IP\n addresses\n:type applied_dns_servers:\
+    \ list of str\n:param internal_dns_name_label: Gets or sets the internal DNS name\n\
+    :type internal_dns_name_label: str\n:param internal_fqdn: Gets or sets the internal\
+    \ fqdn.\n:type internal_fqdn: str\n:param internal_domain_name_suffix: Gets or\
+    \ sets internal domain name\n suffix of the NIC.\n:type internal_domain_name_suffix:\
+    \ str"
+  type: Class
+  uid: azure.mgmt.network.models.NetworkInterfaceDnsSettings

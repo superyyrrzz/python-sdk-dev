@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.resources.models.ResourceManagementErrorWithDetails
+  fullName: azure.mgmt.resource.resources.models.ResourceManagementErrorWithDetails
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.resource.resources.models
+  name: ResourceManagementErrorWithDetails
+  source:
+    id: ResourceManagementErrorWithDetails
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/resource_management_error_with_details.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/resource_management_error_with_details.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "ResourceManagementErrorWithDetails.\n\n:param code: The error code returned\
+    \ from the server.\n:type code: str\n:param message: The error message returned\
+    \ from the server.\n:type message: str\n:param target: The target of the error.\n\
+    :type target: str\n:param details: Validation error.\n:type details: list of :class:`ResourceManagementErrorWithDetails\n\
+    \ <azure.mgmt.resource.resources.models.ResourceManagementErrorWithDetails>`"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.ResourceManagementErrorWithDetails

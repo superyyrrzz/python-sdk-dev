@@ -1,0 +1,22 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.SecurityRuleAccess
+  fullName: azure.mgmt.network.models.SecurityRuleAccess
+  inheritance:
+  - enum.Enum
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: SecurityRuleAccess
+  source:
+    id: SecurityRuleAccess
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/network_management_client_enums.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/network_management_client_enums.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 59
+  summary: An enumeration.
+  type: Class
+  uid: azure.mgmt.network.models.SecurityRuleAccess

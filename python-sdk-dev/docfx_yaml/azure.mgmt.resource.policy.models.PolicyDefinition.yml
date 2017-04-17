@@ -1,0 +1,30 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.policy.models.PolicyDefinition
+  fullName: azure.mgmt.resource.policy.models.PolicyDefinition
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.resource.policy.models
+  name: PolicyDefinition
+  source:
+    id: PolicyDefinition
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/policy/models/policy_definition.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/policy/models/policy_definition.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The policy definition.\n\n:param policy_type: Gets or sets policy definition\
+    \ policy type. Possible\n values include: 'NotSpecified', 'BuiltIn', 'Custom'\n\
+    :type policy_type: str or :class:`policyType\n <azure.mgmt.resource.policy.models.policyType>`\n\
+    :param display_name: Gets or sets the policy definition display name.\n:type display_name:\
+    \ str\n:param description: Gets or sets the policy definition description.\n:type\
+    \ description: str\n:param policy_rule: Gets or sets the policy rule.\n:type policy_rule:\
+    \ object\n:param id: Gets or sets the Id of the policy definition.\n:type id:\
+    \ str\n:param name: Gets or sets the name of the policy definition.\n:type name:\
+    \ str"
+  type: Class
+  uid: azure.mgmt.resource.policy.models.PolicyDefinition

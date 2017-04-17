@@ -1,0 +1,61 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.commerce.operations.UsageAggregatesOperations.list
+  class: azure.mgmt.commerce.operations.UsageAggregatesOperations
+  fullName: azure.mgmt.commerce.operations.UsageAggregatesOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.commerce.operations
+  name: UsageAggregatesOperations
+  source:
+    id: UsageAggregatesOperations
+    path: azure-mgmt-commerce/azure/mgmt/commerce/operations/usage_aggregates_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-commerce/azure/mgmt/commerce/operations/usage_aggregates_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 18
+  summary: 'UsageAggregatesOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.commerce.operations.UsageAggregatesOperations
+- _type: method
+  class: azure.mgmt.commerce.operations.UsageAggregatesOperations
+  fullName: azure.mgmt.commerce.operations.UsageAggregatesOperations.list
+  module: azure.mgmt.commerce.operations
+  name: list
+  source:
+    id: list
+    path: azure-mgmt-commerce/azure/mgmt/commerce/operations/usage_aggregates_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-commerce/azure/mgmt/commerce/operations/usage_aggregates_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 35
+  summary: "Query aggregated Azure subscription consumption data for a date range.\n\
+    \n:param reportedstart_time: The start of the time range to retrieve\n data for.\n\
+    :type reportedstart_time: datetime\n:param reported_end_time: The end of the time\
+    \ range to retrieve data\n for.\n:type reported_end_time: datetime\n:param show_details:\
+    \ When set to true (default), the aggregates are\n broken down into the instance\
+    \ metadata which is more granular.\n:type show_details: bool\n:param aggregation_granularity:\
+    \ Value is either daily (default) or\n hourly to tell the API how to return the\
+    \ results grouped by day or\n hour. Possible values include: 'Daily', 'Hourly'\n\
+    :type aggregation_granularity: str or :class:`AggregationGranularity\n <azure.mgmt.commerce.models.AggregationGranularity>`\n\
+    :param continuation_token: Retrieved from previous calls, this is the\n bookmark\
+    \ used for progress when the responses are paged.\n:type continuation_token: str\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`UsageAggregationPaged\n <azure.mgmt.commerce.models.UsageAggregationPaged>`"
+  type: Method
+  uid: azure.mgmt.commerce.operations.UsageAggregatesOperations.list

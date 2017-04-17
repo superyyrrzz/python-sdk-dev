@@ -1,0 +1,36 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.IPConfiguration
+  fullName: azure.mgmt.network.models.IPConfiguration
+  inheritance:
+  - azure.mgmt.network.models.sub_resource.SubResource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: IPConfiguration
+  source:
+    id: IPConfiguration
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/ip_configuration.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/ip_configuration.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "IPConfiguration.\n\n:param id: Resource Id\n:type id: str\n:param private_ip_address:\
+    \ Gets or sets the privateIPAddress of the IP\n Configuration\n:type private_ip_address:\
+    \ str\n:param private_ip_allocation_method: Gets or sets PrivateIP allocation\n\
+    \ method. Possible values include: 'Static', 'Dynamic'\n:type private_ip_allocation_method:\
+    \ str or :class:`IPAllocationMethod\n <azure.mgmt.network.models.IPAllocationMethod>`\n\
+    :param subnet: Gets or sets the reference of the subnet resource\n:type subnet:\
+    \ :class:`Subnet <azure.mgmt.network.models.Subnet>`\n:param public_ip_address:\
+    \ Gets or sets the reference of the PublicIP\n resource\n:type public_ip_address:\
+    \ :class:`PublicIPAddress\n <azure.mgmt.network.models.PublicIPAddress>`\n:param\
+    \ provisioning_state: Gets provisioning state of the PublicIP\n resource Updating/Deleting/Failed\n\
+    :type provisioning_state: str\n:param name: Gets name of the resource that is\
+    \ unique within a resource\n group. This name can be used to access the resource\n\
+    :type name: str\n:param etag: A unique read-only string that changes whenever\
+    \ the resource\n is updated\n:type etag: str"
+  type: Class
+  uid: azure.mgmt.network.models.IPConfiguration

@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.batch.models.AutoStorageBaseProperties
+  fullName: azure.mgmt.batch.models.AutoStorageBaseProperties
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.batch.models
+  name: AutoStorageBaseProperties
+  source:
+    id: AutoStorageBaseProperties
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/models/auto_storage_base_properties.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/models/auto_storage_base_properties.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The properties related to auto storage account.\n\n:param storage_account_id:\
+    \ The resource id of the storage account to be\n used for auto storage account.\n\
+    :type storage_account_id: str"
+  type: Class
+  uid: azure.mgmt.batch.models.AutoStorageBaseProperties

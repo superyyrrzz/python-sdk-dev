@@ -1,0 +1,93 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.search.operations.AdminKeysOperations.get
+  - azure.mgmt.search.operations.AdminKeysOperations.regenerate
+  class: azure.mgmt.search.operations.AdminKeysOperations
+  fullName: azure.mgmt.search.operations.AdminKeysOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.search.operations
+  name: AdminKeysOperations
+  source:
+    id: AdminKeysOperations
+    path: azure-mgmt-search/azure/mgmt/search/operations/admin_keys_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-search/azure/mgmt/search/operations/admin_keys_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'AdminKeysOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.search.operations.AdminKeysOperations
+- _type: method
+  class: azure.mgmt.search.operations.AdminKeysOperations
+  fullName: azure.mgmt.search.operations.AdminKeysOperations.get
+  module: azure.mgmt.search.operations
+  name: get
+  source:
+    id: get
+    path: azure-mgmt-search/azure/mgmt/search/operations/admin_keys_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-search/azure/mgmt/search/operations/admin_keys_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Gets the primary and secondary admin API keys for the specified Azure\n\
+    Search service.\n\n:param resource_group_name: The name of the resource group\
+    \ within the\n current subscription. You can obtain this value from the Azure\n\
+    \ Resource Manager API or the portal.\n:type resource_group_name: str\n:param\
+    \ search_service_name: The name of the Azure Search service\n associated with\
+    \ the specified resource group.\n:type search_service_name: str\n:param search_management_request_options:\
+    \ Additional parameters for\n the operation\n:type search_management_request_options:\n\
+    \ :class:`SearchManagementRequestOptions\n <azure.mgmt.search.models.SearchManagementRequestOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`AdminKeyResult\n <azure.mgmt.search.models.AdminKeyResult>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.search.operations.AdminKeysOperations.get
+- _type: method
+  class: azure.mgmt.search.operations.AdminKeysOperations
+  fullName: azure.mgmt.search.operations.AdminKeysOperations.regenerate
+  module: azure.mgmt.search.operations
+  name: regenerate
+  source:
+    id: regenerate
+    path: azure-mgmt-search/azure/mgmt/search/operations/admin_keys_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-search/azure/mgmt/search/operations/admin_keys_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 113
+  summary: "Regenerates either the primary or secondary admin API key. You can only\n\
+    regenerate one key at a time.\n\n:param resource_group_name: The name of the resource\
+    \ group within the\n current subscription. You can obtain this value from the\
+    \ Azure\n Resource Manager API or the portal.\n:type resource_group_name: str\n\
+    :param search_service_name: The name of the Azure Search service\n associated\
+    \ with the specified resource group.\n:type search_service_name: str\n:param key_kind:\
+    \ Specifies which key to regenerate. Valid values\n include 'primary' and 'secondary'.\
+    \ Possible values include: 'primary',\n 'secondary'\n:type key_kind: str or :class:`AdminKeyKind\n\
+    \ <azure.mgmt.search.models.AdminKeyKind>`\n:param search_management_request_options:\
+    \ Additional parameters for\n the operation\n:type search_management_request_options:\n\
+    \ :class:`SearchManagementRequestOptions\n <azure.mgmt.search.models.SearchManagementRequestOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`AdminKeyResult\n <azure.mgmt.search.models.AdminKeyResult>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.search.operations.AdminKeysOperations.regenerate

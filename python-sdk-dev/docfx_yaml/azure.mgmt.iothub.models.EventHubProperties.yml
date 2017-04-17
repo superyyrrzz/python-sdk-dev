@@ -1,0 +1,32 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.iothub.models.EventHubProperties
+  fullName: azure.mgmt.iothub.models.EventHubProperties
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.iothub.models
+  name: EventHubProperties
+  source:
+    id: EventHubProperties
+    path: azure-mgmt-iothub/azure/mgmt/iothub/models/event_hub_properties.py
+    remote:
+      branch: master
+      path: azure-mgmt-iothub/azure/mgmt/iothub/models/event_hub_properties.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The properties of the provisioned Event Hub-compatible endpoint used by\
+    \ the\nIoT hub.\n\nVariables are only populated by the server, and will be ignored\
+    \ when\nsending a request.\n\n:param retention_time_in_days: The retention time\
+    \ for device-to-cloud\n messages in days. See:\n https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messaging#device-to-cloud-messages\n\
+    :type retention_time_in_days: long\n:param partition_count: The number of paritions\
+    \ for receiving\n device-to-cloud messages in the Event Hub-compatible endpoint.\
+    \ See:\n https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messaging#device-to-cloud-messages.\n\
+    :type partition_count: int\n:ivar partition_ids: The partition ids in the Event\
+    \ Hub-compatible\n endpoint.\n:vartype partition_ids: list of str\n:ivar path:\
+    \ The Event Hub-compatible name.\n:vartype path: str\n:ivar endpoint: The Event\
+    \ Hub-compatible endpoint.\n:vartype endpoint: str"
+  type: Class
+  uid: azure.mgmt.iothub.models.EventHubProperties

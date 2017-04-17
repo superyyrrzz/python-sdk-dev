@@ -1,0 +1,34 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.resources.models.GenericResource
+  fullName: azure.mgmt.resource.resources.models.GenericResource
+  inheritance:
+  - azure.mgmt.resource.resources.models.resource_model.ResourceModel
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.resource.resources.models
+  name: GenericResource
+  source:
+    id: GenericResource
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/generic_resource.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/generic_resource.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Resource information.\n\nVariables are only populated by the server, and\
+    \ will be ignored when\nsending a request.\n\n:ivar id: Resource Id\n:vartype\
+    \ id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type: Resource\
+    \ type\n:vartype type: str\n:param location: Resource location\n:type location:\
+    \ str\n:param tags: Resource tags\n:type tags: dict\n:param plan: The plan of\
+    \ the resource.\n:type plan: :class:`Plan <azure.mgmt.resource.resources.models.Plan>`\n\
+    :param properties: The resource properties.\n:type properties: object\n:param\
+    \ kind: The kind of the resource.\n:type kind: str\n:param managed_by: Id of the\
+    \ resource that manages this resource.\n:type managed_by: str\n:param sku: The\
+    \ sku of the resource.\n:type sku: :class:`Sku <azure.mgmt.resource.resources.models.Sku>`\n\
+    :param identity: The identity of the resource.\n:type identity: :class:`Identity\n\
+    \ <azure.mgmt.resource.resources.models.Identity>`"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.GenericResource

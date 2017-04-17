@@ -1,0 +1,22 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.datalake.analytics.job.models.JobState
+  fullName: azure.mgmt.datalake.analytics.job.models.JobState
+  inheritance:
+  - enum.Enum
+  - builtins.object
+  module: azure.mgmt.datalake.analytics.job.models
+  name: JobState
+  source:
+    id: JobState
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/job/models/data_lake_analytics_job_management_client_enums.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/job/models/data_lake_analytics_job_management_client_enums.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 48
+  summary: An enumeration.
+  type: Class
+  uid: azure.mgmt.datalake.analytics.job.models.JobState

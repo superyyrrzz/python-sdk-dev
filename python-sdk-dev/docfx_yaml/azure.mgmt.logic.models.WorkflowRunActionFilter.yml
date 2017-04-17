@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.WorkflowRunActionFilter
+  fullName: azure.mgmt.logic.models.WorkflowRunActionFilter
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: WorkflowRunActionFilter
+  source:
+    id: WorkflowRunActionFilter
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/workflow_run_action_filter.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/workflow_run_action_filter.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "WorkflowRunActionFilter.\n\n:param status: The status of workflow run\
+    \ action. Possible values\n include: 'NotSpecified', 'Paused', 'Running', 'Waiting',\
+    \ 'Succeeded',\n 'Skipped', 'Suspended', 'Cancelled', 'Failed', 'Faulted', 'TimedOut',\n\
+    \ 'Aborted', 'Ignored'\n:type status: str or :class:`WorkflowStatus\n <azure.mgmt.logic.models.WorkflowStatus>`"
+  type: Class
+  uid: azure.mgmt.logic.models.WorkflowRunActionFilter

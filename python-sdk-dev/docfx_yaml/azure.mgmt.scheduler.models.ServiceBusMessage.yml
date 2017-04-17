@@ -1,0 +1,32 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.scheduler.models.ServiceBusMessage
+  fullName: azure.mgmt.scheduler.models.ServiceBusMessage
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.scheduler.models
+  name: ServiceBusMessage
+  source:
+    id: ServiceBusMessage
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/service_bus_message.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/service_bus_message.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "ServiceBusMessage.\n\n:param authentication: Gets or sets the authentication.\n\
+    :type authentication: :class:`ServiceBusAuthentication\n <azure.mgmt.scheduler.models.ServiceBusAuthentication>`\n\
+    :param brokered_message_properties: Gets or sets the brokered message\n properties.\n\
+    :type brokered_message_properties:\n :class:`ServiceBusBrokeredMessageProperties\n\
+    \ <azure.mgmt.scheduler.models.ServiceBusBrokeredMessageProperties>`\n:param custom_message_properties:\
+    \ Gets or sets the custom message\n properties.\n:type custom_message_properties:\
+    \ dict\n:param message: Gets or sets the message.\n:type message: str\n:param\
+    \ namespace: Gets or sets the namespace.\n:type namespace: str\n:param transport_type:\
+    \ Gets or sets the transport type. Possible values\n include: 'NotSpecified',\
+    \ 'NetMessaging', 'AMQP'\n:type transport_type: str or :class:`ServiceBusTransportType\n\
+    \ <azure.mgmt.scheduler.models.ServiceBusTransportType>`"
+  type: Class
+  uid: azure.mgmt.scheduler.models.ServiceBusMessage

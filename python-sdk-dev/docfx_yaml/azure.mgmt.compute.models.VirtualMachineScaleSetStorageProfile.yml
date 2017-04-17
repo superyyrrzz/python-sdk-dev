@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.VirtualMachineScaleSetStorageProfile
+  fullName: azure.mgmt.compute.models.VirtualMachineScaleSetStorageProfile
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: VirtualMachineScaleSetStorageProfile
+  source:
+    id: VirtualMachineScaleSetStorageProfile
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_scale_set_storage_profile.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_scale_set_storage_profile.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Describes a virtual machine scale set storage profile.\n\n:param image_reference:\
+    \ the image reference.\n:type image_reference: :class:`ImageReference\n <azure.mgmt.compute.models.ImageReference>`\n\
+    :param os_disk: the OS disk.\n:type os_disk: :class:`VirtualMachineScaleSetOSDisk\n\
+    \ <azure.mgmt.compute.models.VirtualMachineScaleSetOSDisk>`"
+  type: Class
+  uid: azure.mgmt.compute.models.VirtualMachineScaleSetStorageProfile

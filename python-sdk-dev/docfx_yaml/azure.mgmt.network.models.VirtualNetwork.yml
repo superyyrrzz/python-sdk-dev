@@ -1,0 +1,41 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.VirtualNetwork
+  fullName: azure.mgmt.network.models.VirtualNetwork
+  inheritance:
+  - azure.mgmt.network.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: VirtualNetwork
+  source:
+    id: VirtualNetwork
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/virtual_network.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/virtual_network.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Virtual Network resource.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:param id: Resource Id\n:type\
+    \ id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type: Resource\
+    \ type\n:vartype type: str\n:param location: Resource location\n:type location:\
+    \ str\n:param tags: Resource tags\n:type tags: dict\n:param address_space: Gets\
+    \ or sets AddressSpace that contains an array of\n IP address ranges that can\
+    \ be used by subnets\n:type address_space: :class:`AddressSpace\n <azure.mgmt.network.models.AddressSpace>`\n\
+    :param dhcp_options: Gets or sets DHCPOptions that contains an array of\n DNS\
+    \ servers available to VMs deployed in the virtual network\n:type dhcp_options:\
+    \ :class:`DhcpOptions\n <azure.mgmt.network.models.DhcpOptions>`\n:param subnets:\
+    \ Gets or sets list of subnets in a VirtualNetwork\n:type subnets: list of :class:`Subnet\
+    \ <azure.mgmt.network.models.Subnet>`\n:param virtual_network_peerings: Gets or\
+    \ sets list of peerings in a\n VirtualNetwork\n:type virtual_network_peerings:\
+    \ list of :class:`VirtualNetworkPeering\n <azure.mgmt.network.models.VirtualNetworkPeering>`\n\
+    :param resource_guid: Gets or sets resource guid property of the\n VirtualNetwork\
+    \ resource\n:type resource_guid: str\n:param provisioning_state: Gets provisioning\
+    \ state of the PublicIP\n resource Updating/Deleting/Failed\n:type provisioning_state:\
+    \ str\n:param etag: Gets a unique read-only string that changes whenever the\n\
+    \ resource is updated\n:type etag: str"
+  type: Class
+  uid: azure.mgmt.network.models.VirtualNetwork

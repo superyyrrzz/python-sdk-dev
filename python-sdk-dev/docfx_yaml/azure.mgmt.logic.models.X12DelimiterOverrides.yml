@@ -1,0 +1,34 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.X12DelimiterOverrides
+  fullName: azure.mgmt.logic.models.X12DelimiterOverrides
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: X12DelimiterOverrides
+  source:
+    id: X12DelimiterOverrides
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/x12_delimiter_overrides.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/x12_delimiter_overrides.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "X12DelimiterOverrides.\n\n:param protocol_version: The protocol version.\n\
+    :type protocol_version: str\n:param message_id: The message id.\n:type message_id:\
+    \ str\n:param data_element_separator: The data element separator.\n:type data_element_separator:\
+    \ int\n:param component_separator: The component separator.\n:type component_separator:\
+    \ int\n:param segment_terminator: The segment terminator.\n:type segment_terminator:\
+    \ int\n:param segment_terminator_suffix: The segment terminator suffix. Possible\n\
+    \ values include: 'NotSpecified', 'None', 'CR', 'LF', 'CRLF'\n:type segment_terminator_suffix:\
+    \ str or :class:`SegmentTerminatorSuffix\n <azure.mgmt.logic.models.SegmentTerminatorSuffix>`\n\
+    :param replace_character: The replacement character.\n:type replace_character:\
+    \ int\n:param replace_separators_in_payload: The value indicating whether to\n\
+    \ replace separators in payload.\n:type replace_separators_in_payload: bool\n\
+    :param target_namespace: The target namespace on which this delimiter\n settings\
+    \ has to be applied.\n:type target_namespace: str"
+  type: Class
+  uid: azure.mgmt.logic.models.X12DelimiterOverrides

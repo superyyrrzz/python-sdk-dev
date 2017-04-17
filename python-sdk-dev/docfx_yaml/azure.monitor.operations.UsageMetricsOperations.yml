@@ -1,0 +1,57 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.monitor.operations.UsageMetricsOperations.list
+  class: azure.monitor.operations.UsageMetricsOperations
+  fullName: azure.monitor.operations.UsageMetricsOperations
+  inheritance:
+  - builtins.object
+  module: azure.monitor.operations
+  name: UsageMetricsOperations
+  source:
+    id: UsageMetricsOperations
+    path: azure-monitor/azure/monitor/operations/usage_metrics_operations.py
+    remote:
+      branch: master
+      path: azure-monitor/azure/monitor/operations/usage_metrics_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'UsageMetricsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    :ivar api_version: Client Api Version. NOTE: This is not a client property, it
+    must be explicit in the call and there is no default value. Constant value: "2014-04-01".'
+  type: Class
+  uid: azure.monitor.operations.UsageMetricsOperations
+- _type: method
+  class: azure.monitor.operations.UsageMetricsOperations
+  fullName: azure.monitor.operations.UsageMetricsOperations.list
+  module: azure.monitor.operations
+  name: list
+  source:
+    id: list
+    path: azure-monitor/azure/monitor/operations/usage_metrics_operations.py
+    remote:
+      branch: master
+      path: azure-monitor/azure/monitor/operations/usage_metrics_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 38
+  summary: "The List operation lists the usage metrics for the resource.\n\n:param\
+    \ resource_uri: The identifier of the resource.\n:type resource_uri: str\n:param\
+    \ filter: The filter to apply on the operation.\n:type filter: str\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ :class:`UsageMetricPaged\n <azure.monitor.models.UsageMetricPaged>`\n:raises:\
+    \ :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.monitor.operations.UsageMetricsOperations.list

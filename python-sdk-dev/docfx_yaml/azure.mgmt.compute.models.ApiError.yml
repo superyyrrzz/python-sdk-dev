@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.ApiError
+  fullName: azure.mgmt.compute.models.ApiError
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: ApiError
+  source:
+    id: ApiError
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/api_error.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/api_error.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Api error.\n\n:param details: the Api error details\n:type details: list\
+    \ of :class:`ApiErrorBase\n <azure.mgmt.compute.models.ApiErrorBase>`\n:param\
+    \ innererror: the Api inner error\n:type innererror: :class:`InnerError\n <azure.mgmt.compute.models.InnerError>`\n\
+    :param code: the error code.\n:type code: str\n:param target: the target of the\
+    \ particular error.\n:type target: str\n:param message: the error message.\n:type\
+    \ message: str"
+  type: Class
+  uid: azure.mgmt.compute.models.ApiError

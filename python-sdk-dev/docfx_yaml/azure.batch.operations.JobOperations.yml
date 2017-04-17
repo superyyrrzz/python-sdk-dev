@@ -1,0 +1,330 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.batch.operations.JobOperations.add
+  - azure.batch.operations.JobOperations.delete
+  - azure.batch.operations.JobOperations.disable
+  - azure.batch.operations.JobOperations.enable
+  - azure.batch.operations.JobOperations.get
+  - azure.batch.operations.JobOperations.get_all_jobs_lifetime_statistics
+  - azure.batch.operations.JobOperations.list
+  - azure.batch.operations.JobOperations.list_from_job_schedule
+  - azure.batch.operations.JobOperations.list_preparation_and_release_task_status
+  - azure.batch.operations.JobOperations.patch
+  - azure.batch.operations.JobOperations.terminate
+  - azure.batch.operations.JobOperations.update
+  class: azure.batch.operations.JobOperations
+  fullName: azure.batch.operations.JobOperations
+  inheritance:
+  - builtins.object
+  module: azure.batch.operations
+  name: JobOperations
+  source:
+    id: JobOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 18
+  summary: 'JobOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.batch.operations.JobOperations
+- _type: method
+  class: azure.batch.operations.JobOperations
+  fullName: azure.batch.operations.JobOperations.add
+  module: azure.batch.operations
+  name: add
+  source:
+    id: add
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 859
+  summary: "Adds a job to the specified account.\n\n:param job: The job to be added.\n\
+    :type job: :class:`JobAddParameter\n <azure.batch.models.JobAddParameter>`\n:param\
+    \ job_add_options: Additional parameters for the operation\n:type job_add_options:\
+    \ :class:`JobAddOptions\n <azure.batch.models.JobAddOptions>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.batch.operations.JobOperations.add
+- _type: method
+  class: azure.batch.operations.JobOperations
+  fullName: azure.batch.operations.JobOperations.delete
+  module: azure.batch.operations
+  name: delete
+  source:
+    id: delete
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 122
+  summary: "Deletes a job.\n\n:param job_id: The id of the job to delete.\n:type job_id:\
+    \ str\n:param job_delete_options: Additional parameters for the operation\n:type\
+    \ job_delete_options: :class:`JobDeleteOptions\n <azure.batch.models.JobDeleteOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.batch.operations.JobOperations.delete
+- _type: method
+  class: azure.batch.operations.JobOperations
+  fullName: azure.batch.operations.JobOperations.disable
+  module: azure.batch.operations
+  name: disable
+  source:
+    id: disable
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 543
+  summary: "Disables the specified job, preventing new tasks from running.\n\n:param\
+    \ job_id: The id of the job to disable.\n:type job_id: str\n:param disable_tasks:\
+    \ What to do with active tasks associated with\n the job. Possible values include:\
+    \ 'requeue', 'terminate', 'wait'\n:type disable_tasks: str or :class:`DisableJobOption\n\
+    \ <azure.batch.models.DisableJobOption>`\n:param job_disable_options: Additional\
+    \ parameters for the operation\n:type job_disable_options: :class:`JobDisableOptions\n\
+    \ <azure.batch.models.JobDisableOptions>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.batch.operations.JobOperations.disable
+- _type: method
+  class: azure.batch.operations.JobOperations
+  fullName: azure.batch.operations.JobOperations.enable
+  module: azure.batch.operations
+  name: enable
+  source:
+    id: enable
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 650
+  summary: "Enables the specified job, allowing new tasks to run.\n\n:param job_id:\
+    \ The id of the job to enable.\n:type job_id: str\n:param job_enable_options:\
+    \ Additional parameters for the operation\n:type job_enable_options: :class:`JobEnableOptions\n\
+    \ <azure.batch.models.JobEnableOptions>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.batch.operations.JobOperations.enable
+- _type: method
+  class: azure.batch.operations.JobOperations
+  fullName: azure.batch.operations.JobOperations.get
+  module: azure.batch.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 217
+  summary: "Gets information about the specified job.\n\n:param job_id: The id of\
+    \ the job.\n:type job_id: str\n:param job_get_options: Additional parameters for\
+    \ the operation\n:type job_get_options: :class:`JobGetOptions\n <azure.batch.models.JobGetOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`CloudJob <azure.batch.models.CloudJob>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.batch.operations.JobOperations.get
+- _type: method
+  class: azure.batch.operations.JobOperations
+  fullName: azure.batch.operations.JobOperations.get_all_jobs_lifetime_statistics
+  module: azure.batch.operations
+  name: get_all_jobs_lifetime_statistics
+  source:
+    id: get_all_jobs_lifetime_statistics
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 35
+  summary: "Gets lifetime summary statistics for all of the jobs in the specified\n\
+    account.\n\nStatistics are aggregated across all jobs that have ever existed in\n\
+    the account, from account creation to the last update time of the\nstatistics.\n\
+    \n:param job_get_all_jobs_lifetime_statistics_options: Additional\n parameters\
+    \ for the operation\n:type job_get_all_jobs_lifetime_statistics_options:\n :class:`JobGetAllJobsLifetimeStatisticsOptions\n\
+    \ <azure.batch.models.JobGetAllJobsLifetimeStatisticsOptions>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`JobStatistics\
+    \ <azure.batch.models.JobStatistics>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.batch.operations.JobOperations.get_all_jobs_lifetime_statistics
+- _type: method
+  class: azure.batch.operations.JobOperations
+  fullName: azure.batch.operations.JobOperations.list
+  module: azure.batch.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 938
+  summary: "Lists all of the jobs in the specified account.\n\n:param job_list_options:\
+    \ Additional parameters for the operation\n:type job_list_options: :class:`JobListOptions\n\
+    \ <azure.batch.models.JobListOptions>`\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`CloudJobPaged <azure.batch.models.CloudJobPaged>`"
+  type: Method
+  uid: azure.batch.operations.JobOperations.list
+- _type: method
+  class: azure.batch.operations.JobOperations
+  fullName: azure.batch.operations.JobOperations.list_from_job_schedule
+  module: azure.batch.operations
+  name: list_from_job_schedule
+  source:
+    id: list_from_job_schedule
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1037
+  summary: "Lists the jobs that have been created under the specified job schedule.\n\
+    \n:param job_schedule_id: The id of the job schedule from which you\n want to\
+    \ get a list of jobs.\n:type job_schedule_id: str\n:param job_list_from_job_schedule_options:\
+    \ Additional parameters for\n the operation\n:type job_list_from_job_schedule_options:\n\
+    \ :class:`JobListFromJobScheduleOptions\n <azure.batch.models.JobListFromJobScheduleOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`CloudJobPaged <azure.batch.models.CloudJobPaged>`"
+  type: Method
+  uid: azure.batch.operations.JobOperations.list_from_job_schedule
+- _type: method
+  class: azure.batch.operations.JobOperations
+  fullName: azure.batch.operations.JobOperations.list_preparation_and_release_task_status
+  module: azure.batch.operations
+  name: list_preparation_and_release_task_status
+  source:
+    id: list_preparation_and_release_task_status
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1145
+  summary: "Lists the execution status of the Job Preparation and Job Release task\n\
+    for the specified job across the compute nodes where the job has run.\n\n:param\
+    \ job_id: The id of the job.\n:type job_id: str\n:param job_list_preparation_and_release_task_status_options:\n\
+    \ Additional parameters for the operation\n:type job_list_preparation_and_release_task_status_options:\n\
+    \ :class:`JobListPreparationAndReleaseTaskStatusOptions\n <azure.batch.models.JobListPreparationAndReleaseTaskStatusOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`JobPreparationAndReleaseTaskExecutionInformationPaged\n <azure.batch.models.JobPreparationAndReleaseTaskExecutionInformationPaged>`"
+  type: Method
+  uid: azure.batch.operations.JobOperations.list_preparation_and_release_task_status
+- _type: method
+  class: azure.batch.operations.JobOperations
+  fullName: azure.batch.operations.JobOperations.patch
+  module: azure.batch.operations
+  name: patch
+  source:
+    id: patch
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 333
+  summary: "Updates the properties of a job.\n\n:param job_id: The id of the job whose\
+    \ properties you want to update.\n:type job_id: str\n:param job_patch_parameter:\
+    \ The parameters for the request.\n:type job_patch_parameter: :class:`JobPatchParameter\n\
+    \ <azure.batch.models.JobPatchParameter>`\n:param job_patch_options: Additional\
+    \ parameters for the operation\n:type job_patch_options: :class:`JobPatchOptions\n\
+    \ <azure.batch.models.JobPatchOptions>`\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.batch.operations.JobOperations.patch
+- _type: method
+  class: azure.batch.operations.JobOperations
+  fullName: azure.batch.operations.JobOperations.terminate
+  module: azure.batch.operations
+  name: terminate
+  source:
+    id: terminate
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 748
+  summary: "Terminates the specified job, marking it as completed.\n\n:param job_id:\
+    \ The id of the job to terminate.\n:type job_id: str\n:param job_terminate_options:\
+    \ Additional parameters for the operation\n:type job_terminate_options: :class:`JobTerminateOptions\n\
+    \ <azure.batch.models.JobTerminateOptions>`\n:param terminate_reason: The text\
+    \ you want to appear as the job's\n TerminateReason. The default is 'UserTerminate'.\n\
+    :type terminate_reason: str\n:param dict custom_headers: headers that will be\
+    \ added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.batch.operations.JobOperations.terminate
+- _type: method
+  class: azure.batch.operations.JobOperations
+  fullName: azure.batch.operations.JobOperations.update
+  module: azure.batch.operations
+  name: update
+  source:
+    id: update
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 438
+  summary: "Updates the properties of a job.\n\n:param job_id: The id of the job whose\
+    \ properties you want to update.\n:type job_id: str\n:param job_update_parameter:\
+    \ The parameters for the request.\n:type job_update_parameter: :class:`JobUpdateParameter\n\
+    \ <azure.batch.models.JobUpdateParameter>`\n:param job_update_options: Additional\
+    \ parameters for the operation\n:type job_update_options: :class:`JobUpdateOptions\n\
+    \ <azure.batch.models.JobUpdateOptions>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.batch.operations.JobOperations.update

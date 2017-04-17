@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.NetworkProfile
+  fullName: azure.mgmt.compute.models.NetworkProfile
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: NetworkProfile
+  source:
+    id: NetworkProfile
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/network_profile.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/network_profile.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Describes a network profile.\n\n:param network_interfaces: the network\
+    \ interfaces.\n:type network_interfaces: list of :class:`NetworkInterfaceReference\n\
+    \ <azure.mgmt.compute.models.NetworkInterfaceReference>`"
+  type: Class
+  uid: azure.mgmt.compute.models.NetworkProfile

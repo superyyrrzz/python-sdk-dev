@@ -1,0 +1,32 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.AutoPoolSpecification
+  fullName: azure.batch.models.AutoPoolSpecification
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: AutoPoolSpecification
+  source:
+    id: AutoPoolSpecification
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/auto_pool_specification.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/auto_pool_specification.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Specifies characteristics for a temporary 'auto pool'. The Batch service\n\
+    will create this auto pool when the job is submitted.\n\n:param auto_pool_id_prefix:\
+    \ A prefix to be added to the unique identifier\n when a pool is automatically\
+    \ created. The prefix can be up to 20\n characters long.\n:type auto_pool_id_prefix:\
+    \ str\n:param pool_lifetime_option: The minimum lifetime of created auto pools,\n\
+    \ and how multiple jobs on a schedule are assigned to pools. Possible\n values\
+    \ include: 'jobschedule', 'job', 'unmapped'\n:type pool_lifetime_option: str or\
+    \ :class:`PoolLifetimeOption\n <azure.batch.models.PoolLifetimeOption>`\n:param\
+    \ keep_alive: Whether to keep an auto pool alive after its lifetime\n expires.\n\
+    :type keep_alive: bool\n:param pool: The pool specification for the auto pool.\n\
+    :type pool: :class:`PoolSpecification\n <azure.batch.models.PoolSpecification>`"
+  type: Class
+  uid: azure.batch.models.AutoPoolSpecification

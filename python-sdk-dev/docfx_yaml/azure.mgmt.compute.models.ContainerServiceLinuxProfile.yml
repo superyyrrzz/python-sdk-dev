@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.ContainerServiceLinuxProfile
+  fullName: azure.mgmt.compute.models.ContainerServiceLinuxProfile
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: ContainerServiceLinuxProfile
+  source:
+    id: ContainerServiceLinuxProfile
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/container_service_linux_profile.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/container_service_linux_profile.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Profile for Linux VMs.\n\n:param admin_username: The administrator username\
+    \ to use for all Linux VMs\n:type admin_username: str\n:param ssh: Specifies the\
+    \ ssh key configuration for Linux VMs\n:type ssh: :class:`ContainerServiceSshConfiguration\n\
+    \ <azure.mgmt.compute.models.ContainerServiceSshConfiguration>`"
+  type: Class
+  uid: azure.mgmt.compute.models.ContainerServiceLinuxProfile

@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.VirtualNetworkGatewaySku
+  fullName: azure.mgmt.network.models.VirtualNetworkGatewaySku
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: VirtualNetworkGatewaySku
+  source:
+    id: VirtualNetworkGatewaySku
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/virtual_network_gateway_sku.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/virtual_network_gateway_sku.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "VirtualNetworkGatewaySku details.\n\n:param name: Gateway sku name\n -Basic/HighPerformance/Standard/UltraPerformance.\
+    \ Possible values\n include: 'Basic', 'HighPerformance', 'Standard', 'UltraPerformance'\n\
+    :type name: str or :class:`VirtualNetworkGatewaySkuName\n <azure.mgmt.network.models.VirtualNetworkGatewaySkuName>`\n\
+    :param tier: Gateway sku tier\n -Basic/HighPerformance/Standard/UltraPerformance.\
+    \ Possible values\n include: 'Basic', 'HighPerformance', 'Standard', 'UltraPerformance'\n\
+    :type tier: str or :class:`VirtualNetworkGatewaySkuTier\n <azure.mgmt.network.models.VirtualNetworkGatewaySkuTier>`\n\
+    :param capacity: The capacity\n:type capacity: int"
+  type: Class
+  uid: azure.mgmt.network.models.VirtualNetworkGatewaySku

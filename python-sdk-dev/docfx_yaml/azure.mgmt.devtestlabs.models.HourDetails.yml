@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.devtestlabs.models.HourDetails
+  fullName: azure.mgmt.devtestlabs.models.HourDetails
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.devtestlabs.models
+  name: HourDetails
+  source:
+    id: HourDetails
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/hour_details.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/hour_details.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Properties of an hourly schedule.
+
+
+    :param minute: Minutes of the hour the schedule will run.
+
+    :type minute: int'
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.HourDetails

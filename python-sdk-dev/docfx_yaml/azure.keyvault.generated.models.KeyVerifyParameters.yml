@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.keyvault.generated.models.KeyVerifyParameters
+  fullName: azure.keyvault.generated.models.KeyVerifyParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.keyvault.generated.models
+  name: KeyVerifyParameters
+  source:
+    id: KeyVerifyParameters
+    path: azure-keyvault/azure/keyvault/generated/models/key_verify_parameters.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/models/key_verify_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The key verify parameters.\n\n:param algorithm: The signing/verification\
+    \ algorithm. For more information\n on possible algorithm types, see JsonWebKeySignatureAlgorithm.\
+    \ Possible\n values include: 'RS256', 'RS384', 'RS512', 'RSNULL'\n:type algorithm:\
+    \ str or :class:`JsonWebKeySignatureAlgorithm\n <azure.keyvault.generated.models.JsonWebKeySignatureAlgorithm>`\n\
+    :param digest: The digest used for signing.\n:type digest: bytes\n:param signature:\
+    \ The signature to be verified.\n:type signature: bytes"
+  type: Class
+  uid: azure.keyvault.generated.models.KeyVerifyParameters

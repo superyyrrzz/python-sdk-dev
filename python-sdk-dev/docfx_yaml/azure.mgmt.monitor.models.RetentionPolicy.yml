@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.monitor.models.RetentionPolicy
+  fullName: azure.mgmt.monitor.models.RetentionPolicy
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.monitor.models
+  name: RetentionPolicy
+  source:
+    id: RetentionPolicy
+    path: azure-mgmt-monitor/azure/mgmt/monitor/models/retention_policy.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/models/retention_policy.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Specifies the retention policy for the log.\n\n:param enabled: a value\
+    \ indicating whether the retention policy is\n enabled.\n:type enabled: bool\n\
+    :param days: the number of days for the retention in days. A value of 0\n will\
+    \ retain the events indefinitely.\n:type days: int"
+  type: Class
+  uid: azure.mgmt.monitor.models.RetentionPolicy

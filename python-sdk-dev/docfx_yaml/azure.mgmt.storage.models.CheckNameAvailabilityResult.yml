@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.storage.models.CheckNameAvailabilityResult
+  fullName: azure.mgmt.storage.models.CheckNameAvailabilityResult
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.storage.models
+  name: CheckNameAvailabilityResult
+  source:
+    id: CheckNameAvailabilityResult
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/models/check_name_availability_result.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/models/check_name_availability_result.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The CheckNameAvailability operation response.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar name_available:\
+    \ Gets a boolean value that indicates whether the\n name is available for you\
+    \ to use. If true, the name is available. If\n false, the name has already been\
+    \ taken or invalid and cannot be used.\n:vartype name_available: bool\n:ivar reason:\
+    \ Gets the reason that a storage account name could not be\n used. The Reason\
+    \ element is only returned if NameAvailable is false.\n Possible values include:\
+    \ 'AccountNameInvalid', 'AlreadyExists'\n:vartype reason: str or :class:`Reason\
+    \ <azure.mgmt.storage.models.Reason>`\n:ivar message: Gets an error message explaining\
+    \ the Reason value in more\n detail.\n:vartype message: str"
+  type: Class
+  uid: azure.mgmt.storage.models.CheckNameAvailabilityResult

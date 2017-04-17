@@ -1,0 +1,37 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.servermanager.models.PowerShellSessionResource
+  fullName: azure.mgmt.servermanager.models.PowerShellSessionResource
+  inheritance:
+  - azure.mgmt.servermanager.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.servermanager.models
+  name: PowerShellSessionResource
+  source:
+    id: PowerShellSessionResource
+    path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/power_shell_session_resource.py
+    remote:
+      branch: master
+      path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/power_shell_session_resource.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A PowerShell session resource (practically equivalent to a runspace\n\
+    instance).\n\nVariables are only populated by the server, and will be ignored\
+    \ when\nsending a request.\n\n:ivar id: Resource Manager Resource ID.\n:vartype\
+    \ id: str\n:ivar type: Resource Manager Resource Type.\n:vartype type: str\n:ivar\
+    \ name: Resource Manager Resource Name.\n:vartype name: str\n:ivar location: Resource\
+    \ Manager Resource Location.\n:vartype location: str\n:param tags: Resource Manager\
+    \ Resource Tags.\n:type tags: dict\n:param etag:\n:type etag: str\n:param session_id:\
+    \ The PowerShell Session ID.\n:type session_id: str\n:param state: The runspace\
+    \ state.\n:type state: str\n:param runspace_availability: The availability of\
+    \ the runspace.\n:type runspace_availability: str\n:param disconnected_on: Timestamp\
+    \ of last time the service disconnected\n from the runspace.\n:type disconnected_on:\
+    \ datetime\n:param expires_on: Timestamp when the runspace expires.\n:type expires_on:\
+    \ datetime\n:param version:\n:type version: :class:`Version <azure.mgmt.servermanager.models.Version>`\n\
+    :param power_shell_session_resource_name: Name of the runspace.\n:type power_shell_session_resource_name:\
+    \ str"
+  type: Class
+  uid: azure.mgmt.servermanager.models.PowerShellSessionResource

@@ -1,0 +1,35 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.VirtualMachineScaleSetOSDisk
+  fullName: azure.mgmt.compute.models.VirtualMachineScaleSetOSDisk
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: VirtualMachineScaleSetOSDisk
+  source:
+    id: VirtualMachineScaleSetOSDisk
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_scale_set_os_disk.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_scale_set_os_disk.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Describes a virtual machine scale set operating system disk.\n\n:param\
+    \ name: the disk name.\n:type name: str\n:param caching: the caching type. Possible\
+    \ values include: 'None',\n 'ReadOnly', 'ReadWrite'\n:type caching: str or :class:`CachingTypes\n\
+    \ <azure.mgmt.compute.models.CachingTypes>`\n:param create_option: the create\
+    \ option. Possible values include:\n 'fromImage', 'empty', 'attach'\n:type create_option:\
+    \ str or :class:`DiskCreateOptionTypes\n <azure.mgmt.compute.models.DiskCreateOptionTypes>`\n\
+    :param os_type: the Operating System type. Possible values include:\n 'Windows',\
+    \ 'Linux'\n:type os_type: str or :class:`OperatingSystemTypes\n <azure.mgmt.compute.models.OperatingSystemTypes>`\n\
+    :param image: the Source User Image VirtualHardDisk. This VirtualHardDisk\n will\
+    \ be copied before using it to attach to the Virtual Machine.If\n SourceImage\
+    \ is provided, the destination VirtualHardDisk should not\n exist.\n:type image:\
+    \ :class:`VirtualHardDisk\n <azure.mgmt.compute.models.VirtualHardDisk>`\n:param\
+    \ vhd_containers: the list of virtual hard disk container uris.\n:type vhd_containers:\
+    \ list of str"
+  type: Class
+  uid: azure.mgmt.compute.models.VirtualMachineScaleSetOSDisk

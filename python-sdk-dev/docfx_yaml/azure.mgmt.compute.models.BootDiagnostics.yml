@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.BootDiagnostics
+  fullName: azure.mgmt.compute.models.BootDiagnostics
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: BootDiagnostics
+  source:
+    id: BootDiagnostics
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/boot_diagnostics.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/boot_diagnostics.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Describes Boot Diagnostics.\n\n:param enabled: whether boot diagnostics\
+    \ should be enabled on the Virtual\n Machine.\n:type enabled: bool\n:param storage_uri:\
+    \ the boot diagnostics storage Uri. It should be a\n valid Uri\n:type storage_uri:\
+    \ str"
+  type: Class
+  uid: azure.mgmt.compute.models.BootDiagnostics

@@ -1,0 +1,145 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.web.operations.ProviderOperations.get_publishing_user
+  - azure.mgmt.web.operations.ProviderOperations.get_source_control
+  - azure.mgmt.web.operations.ProviderOperations.get_source_controls
+  - azure.mgmt.web.operations.ProviderOperations.update_publishing_user
+  - azure.mgmt.web.operations.ProviderOperations.update_source_control
+  class: azure.mgmt.web.operations.ProviderOperations
+  fullName: azure.mgmt.web.operations.ProviderOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.web.operations
+  name: ProviderOperations
+  source:
+    id: ProviderOperations
+    path: azure-mgmt-web/azure/mgmt/web/operations/provider_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/provider_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'ProviderOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.web.operations.ProviderOperations
+- _type: method
+  class: azure.mgmt.web.operations.ProviderOperations
+  fullName: azure.mgmt.web.operations.ProviderOperations.get_publishing_user
+  module: azure.mgmt.web.operations
+  name: get_publishing_user
+  source:
+    id: get_publishing_user
+    path: azure-mgmt-web/azure/mgmt/web/operations/provider_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/provider_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 216
+  summary: "Gets publishing user.\n\n:param dict custom_headers: headers that will\
+    \ be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`User <azure.mgmt.web.models.User>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.ProviderOperations.get_publishing_user
+- _type: method
+  class: azure.mgmt.web.operations.ProviderOperations
+  fullName: azure.mgmt.web.operations.ProviderOperations.get_source_control
+  module: azure.mgmt.web.operations
+  name: get_source_control
+  source:
+    id: get_source_control
+    path: azure-mgmt-web/azure/mgmt/web/operations/provider_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/provider_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 95
+  summary: "Gets source control token.\n\n:param source_control_type: Type of source\
+    \ control\n:type source_control_type: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`SourceControl\
+    \ <azure.mgmt.web.models.SourceControl>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.ProviderOperations.get_source_control
+- _type: method
+  class: azure.mgmt.web.operations.ProviderOperations
+  fullName: azure.mgmt.web.operations.ProviderOperations.get_source_controls
+  module: azure.mgmt.web.operations
+  name: get_source_controls
+  source:
+    id: get_source_controls
+    path: azure-mgmt-web/azure/mgmt/web/operations/provider_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/provider_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Gets the source controls available for Azure websites.\n\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ :class:`SourceControlPaged\n <azure.mgmt.web.models.SourceControlPaged>`\n:raises:\
+    \ :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.ProviderOperations.get_source_controls
+- _type: method
+  class: azure.mgmt.web.operations.ProviderOperations
+  fullName: azure.mgmt.web.operations.ProviderOperations.update_publishing_user
+  module: azure.mgmt.web.operations
+  name: update_publishing_user
+  source:
+    id: update_publishing_user
+    path: azure-mgmt-web/azure/mgmt/web/operations/provider_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/provider_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 267
+  summary: "Updates publishing user.\n\n:param request_message: Details of publishing\
+    \ user\n:type request_message: :class:`User <azure.mgmt.web.models.User>`\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`User <azure.mgmt.web.models.User>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.ProviderOperations.update_publishing_user
+- _type: method
+  class: azure.mgmt.web.operations.ProviderOperations
+  fullName: azure.mgmt.web.operations.ProviderOperations.update_source_control
+  module: azure.mgmt.web.operations
+  name: update_source_control
+  source:
+    id: update_source_control
+    path: azure-mgmt-web/azure/mgmt/web/operations/provider_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/provider_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 152
+  summary: "Updates source control token.\n\n:param source_control_type: Type of source\
+    \ control\n:type source_control_type: str\n:param request_message: Source control\
+    \ token information\n:type request_message: :class:`SourceControl\n <azure.mgmt.web.models.SourceControl>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`SourceControl <azure.mgmt.web.models.SourceControl>`\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.ProviderOperations.update_source_control

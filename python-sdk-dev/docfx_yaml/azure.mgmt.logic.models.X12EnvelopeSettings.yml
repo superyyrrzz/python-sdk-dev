@@ -1,0 +1,62 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.X12EnvelopeSettings
+  fullName: azure.mgmt.logic.models.X12EnvelopeSettings
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: X12EnvelopeSettings
+  source:
+    id: X12EnvelopeSettings
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/x12_envelope_settings.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/x12_envelope_settings.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "X12EnvelopeSettings.\n\n:param control_standards_id: The controls standards\
+    \ id.\n:type control_standards_id: int\n:param use_control_standards_id_as_repetition_character:\
+    \ The value\n indicating whether to use control standards id as repetition character.\n\
+    :type use_control_standards_id_as_repetition_character: bool\n:param sender_application_id:\
+    \ The sender application id.\n:type sender_application_id: str\n:param receiver_application_id:\
+    \ The receiver application id.\n:type receiver_application_id: str\n:param control_version_number:\
+    \ The control version number.\n:type control_version_number: str\n:param interchange_control_number_lower_bound:\
+    \ The interchange  control\n number lower bound.\n:type interchange_control_number_lower_bound:\
+    \ int\n:param interchange_control_number_upper_bound: The interchange  control\n\
+    \ number upper bound.\n:type interchange_control_number_upper_bound: int\n:param\
+    \ rollover_interchange_control_number: The value indicating whether\n to rollover\
+    \ interchange control number.\n:type rollover_interchange_control_number: bool\n\
+    :param enable_default_group_headers: The value indicating whether to\n enable\
+    \ default group headers.\n:type enable_default_group_headers: bool\n:param functional_group_id:\
+    \ The functional group id.\n:type functional_group_id: str\n:param group_control_number_lower_bound:\
+    \ The group control number lower\n bound.\n:type group_control_number_lower_bound:\
+    \ int\n:param group_control_number_upper_bound: The group control number upper\n\
+    \ bound.\n:type group_control_number_upper_bound: int\n:param rollover_group_control_number:\
+    \ The value indicating whether to\n rollover group control number.\n:type rollover_group_control_number:\
+    \ bool\n:param group_header_agency_code: The group header agency code.\n:type\
+    \ group_header_agency_code: str\n:param group_header_version: The group header\
+    \ version.\n:type group_header_version: str\n:param transaction_set_control_number_lower_bound:\
+    \ The transaction set\n control number lower bound.\n:type transaction_set_control_number_lower_bound:\
+    \ int\n:param transaction_set_control_number_upper_bound: The transaction set\n\
+    \ control number upper bound.\n:type transaction_set_control_number_upper_bound:\
+    \ int\n:param rollover_transaction_set_control_number: The value indicating\n\
+    \ whether to rollover transaction set control number.\n:type rollover_transaction_set_control_number:\
+    \ bool\n:param transaction_set_control_number_prefix: The transaction set control\n\
+    \ number prefix.\n:type transaction_set_control_number_prefix: str\n:param transaction_set_control_number_suffix:\
+    \ The transaction set control\n number suffix.\n:type transaction_set_control_number_suffix:\
+    \ str\n:param overwrite_existing_transaction_set_control_number: The value\n indicating\
+    \ whether to overwrite existing transaction set control number.\n:type overwrite_existing_transaction_set_control_number:\
+    \ bool\n:param group_header_date_format: The group header date format. Possible\n\
+    \ values include: 'NotSpecified', 'CCYYMMDD', 'YYMMDD'\n:type group_header_date_format:\
+    \ str or :class:`X12DateFormat\n <azure.mgmt.logic.models.X12DateFormat>`\n:param\
+    \ group_header_time_format: The group header time format. Possible\n values include:\
+    \ 'NotSpecified', 'HHMM', 'HHMMSS', 'HHMMSSdd', 'HHMMSSd'\n:type group_header_time_format:\
+    \ str or :class:`X12TimeFormat\n <azure.mgmt.logic.models.X12TimeFormat>`\n:param\
+    \ usage_indicator: The usage indicator. Possible values include:\n 'NotSpecified',\
+    \ 'Test', 'Information', 'Production'\n:type usage_indicator: str or :class:`UsageIndicator\n\
+    \ <azure.mgmt.logic.models.UsageIndicator>`"
+  type: Class
+  uid: azure.mgmt.logic.models.X12EnvelopeSettings

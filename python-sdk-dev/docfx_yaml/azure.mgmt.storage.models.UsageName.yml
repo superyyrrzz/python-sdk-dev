@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.storage.models.UsageName
+  fullName: azure.mgmt.storage.models.UsageName
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.storage.models
+  name: UsageName
+  source:
+    id: UsageName
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/models/usage_name.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/models/usage_name.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The Usage Names.\n\nVariables are only populated by the server, and will\
+    \ be ignored when\nsending a request.\n\n:ivar value: Gets a string describing\
+    \ the resource name.\n:vartype value: str\n:ivar localized_value: Gets a localized\
+    \ string describing the resource\n name.\n:vartype localized_value: str"
+  type: Class
+  uid: azure.mgmt.storage.models.UsageName

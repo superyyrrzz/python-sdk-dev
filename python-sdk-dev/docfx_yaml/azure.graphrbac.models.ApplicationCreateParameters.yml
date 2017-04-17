@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.graphrbac.models.ApplicationCreateParameters
+  fullName: azure.graphrbac.models.ApplicationCreateParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.graphrbac.models
+  name: ApplicationCreateParameters
+  source:
+    id: ApplicationCreateParameters
+    path: azure-graphrbac/azure/graphrbac/models/application_create_parameters.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/models/application_create_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Request parameters for creating a new application.\n\n:param available_to_other_tenants:\
+    \ Whether the application is available to\n other tenants.\n:type available_to_other_tenants:\
+    \ bool\n:param display_name: The display name of the application.\n:type display_name:\
+    \ str\n:param homepage: The home page of the application.\n:type homepage: str\n\
+    :param identifier_uris: A collection of URIs for the application.\n:type identifier_uris:\
+    \ list of str\n:param reply_urls: A collection of reply URLs for the application.\n\
+    :type reply_urls: list of str\n:param key_credentials: The list of KeyCredential\
+    \ objects.\n:type key_credentials: list of :class:`KeyCredential\n <azure.graphrbac.models.KeyCredential>`\n\
+    :param password_credentials: The list of PasswordCredential objects.\n:type password_credentials:\
+    \ list of :class:`PasswordCredential\n <azure.graphrbac.models.PasswordCredential>`"
+  type: Class
+  uid: azure.graphrbac.models.ApplicationCreateParameters

@@ -1,0 +1,57 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.devtestlabs.models.LabVirtualMachine
+  fullName: azure.mgmt.devtestlabs.models.LabVirtualMachine
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.devtestlabs.models
+  name: LabVirtualMachine
+  source:
+    id: LabVirtualMachine
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/lab_virtual_machine.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/lab_virtual_machine.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A virtual machine.\n\n:param notes: The notes of the virtual machine.\n\
+    :type notes: str\n:param owner_object_id: The object identifier of the owner of\
+    \ the virtual\n machine.\n:type owner_object_id: str\n:param created_by_user_id:\
+    \ The object identifier of the creator of the\n virtual machine.\n:type created_by_user_id:\
+    \ str\n:param created_by_user: The email address of creator of the virtual\n machine.\n\
+    :type created_by_user: str\n:param compute_id: The resource identifier (Microsoft.Compute)\
+    \ of the\n virtual machine.\n:type compute_id: str\n:param custom_image_id: The\
+    \ custom image identifier of the virtual\n machine.\n:type custom_image_id: str\n\
+    :param os_type: The OS type of the virtual machine.\n:type os_type: str\n:param\
+    \ size: The size of the virtual machine.\n:type size: str\n:param user_name: The\
+    \ user name of the virtual machine.\n:type user_name: str\n:param password: The\
+    \ password of the virtual machine administrator.\n:type password: str\n:param\
+    \ ssh_key: The SSH key of the virtual machine administrator.\n:type ssh_key: str\n\
+    :param is_authentication_with_ssh_key: A value indicating whether this\n virtual\
+    \ machine uses an SSH key for authentication.\n:type is_authentication_with_ssh_key:\
+    \ bool\n:param fqdn: The fully-qualified domain name of the virtual machine.\n\
+    :type fqdn: str\n:param lab_subnet_name: The lab subnet name of the virtual machine.\n\
+    :type lab_subnet_name: str\n:param lab_virtual_network_id: The lab virtual network\
+    \ identifier of the\n virtual machine.\n:type lab_virtual_network_id: str\n:param\
+    \ disallow_public_ip_address: Indicates whether the virtual machine\n is to be\
+    \ created without a public IP address.\n:type disallow_public_ip_address: bool\n\
+    :param artifacts: The artifacts to be installed on the virtual machine.\n:type\
+    \ artifacts: list of :class:`ArtifactInstallProperties\n <azure.mgmt.devtestlabs.models.ArtifactInstallProperties>`\n\
+    :param artifact_deployment_status: The artifact deployment status for the\n virtual\
+    \ machine.\n:type artifact_deployment_status:\n :class:`ArtifactDeploymentStatusProperties\n\
+    \ <azure.mgmt.devtestlabs.models.ArtifactDeploymentStatusProperties>`\n:param\
+    \ gallery_image_reference: The Microsoft Azure Marketplace image\n reference of\
+    \ the virtual machine.\n:type gallery_image_reference: :class:`GalleryImageReference\n\
+    \ <azure.mgmt.devtestlabs.models.GalleryImageReference>`\n:param provisioning_state:\
+    \ The provisioning status of the resource.\n:type provisioning_state: str\n:param\
+    \ unique_identifier: The unique immutable identifier of a resource\n (Guid).\n\
+    :type unique_identifier: str\n:param id: The identifier of the resource.\n:type\
+    \ id: str\n:param name: The name of the resource.\n:type name: str\n:param type:\
+    \ The type of the resource.\n:type type: str\n:param location: The location of\
+    \ the resource.\n:type location: str\n:param tags: The tags of the resource.\n\
+    :type tags: dict"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.LabVirtualMachine

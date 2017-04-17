@@ -1,0 +1,39 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.cdn.models.ResourceUsage
+  fullName: azure.mgmt.cdn.models.ResourceUsage
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.cdn.models
+  name: ResourceUsage
+  source:
+    id: ResourceUsage
+    path: azure-mgmt-cdn/azure/mgmt/cdn/models/resource_usage.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/models/resource_usage.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Output of check resource usage API.
+
+
+    :param resource_type: Resource type of the usages.
+
+    :type resource_type: str
+
+    :param unit: Unit of the usage. e.g. Count.
+
+    :type unit: str
+
+    :param current_value: Actual value of the resource type.
+
+    :type current_value: int
+
+    :param limit: Quota of the resource type.
+
+    :type limit: int'
+  type: Class
+  uid: azure.mgmt.cdn.models.ResourceUsage

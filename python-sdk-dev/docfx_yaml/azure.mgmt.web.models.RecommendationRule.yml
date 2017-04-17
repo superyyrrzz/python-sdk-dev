@@ -1,0 +1,38 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.RecommendationRule
+  fullName: azure.mgmt.web.models.RecommendationRule
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: RecommendationRule
+  source:
+    id: RecommendationRule
+    path: azure-mgmt-web/azure/mgmt/web/models/recommendation_rule.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/recommendation_rule.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Represents a recommendation rule that the recommendation engine can\n\
+    perform.\n\n:param name: Unique name of the rule\n:type name: str\n:param display_name:\
+    \ UI friendly name of the rule\n:type display_name: str\n:param message: Localized\
+    \ name of the rule (Good for UI)\n:type message: str\n:param recommendation_id:\
+    \ Recommendation ID of an associated\n recommendation object tied to the rule,\
+    \ if exists.\n If such an object doesn't exist, it is set to null.\n:type recommendation_id:\
+    \ str\n:param description: Localized detailed description of the rule\n:type description:\
+    \ str\n:param action_name: Name of action that is recommended by this rule in\n\
+    \ string\n:type action_name: str\n:param enabled: On/off flag indicating the rule\
+    \ is currently enabled or\n disabled.\n:type enabled: int\n:param level: Level\
+    \ of impact indicating how critical this rule is.\n Possible values include: 'Critical',\
+    \ 'Warning', 'Information',\n 'NonUrgentSuggestion'\n:type level: str or :class:`NotificationLevel\n\
+    \ <azure.mgmt.web.models.NotificationLevel>`\n:param channels: List of available\
+    \ channels that this rule applies.\n Possible values include: 'Notification',\
+    \ 'Api', 'Email', 'All'\n:type channels: str or :class:`Channels <azure.mgmt.web.models.Channels>`\n\
+    :param tags: An array of category tags that the rule contains.\n:type tags: list\
+    \ of str"
+  type: Class
+  uid: azure.mgmt.web.models.RecommendationRule

@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.RecurrenceSchedule
+  fullName: azure.mgmt.logic.models.RecurrenceSchedule
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: RecurrenceSchedule
+  source:
+    id: RecurrenceSchedule
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/recurrence_schedule.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/recurrence_schedule.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "RecurrenceSchedule.\n\n:param minutes: The minutes.\n:type minutes: list\
+    \ of int\n:param hours: The hours.\n:type hours: list of int\n:param week_days:\
+    \ The days of the week.\n:type week_days: list of str or :class:`DaysOfWeek\n\
+    \ <azure.mgmt.logic.models.DaysOfWeek>`\n:param month_days: The month days.\n\
+    :type month_days: list of int\n:param monthly_occurrences: The monthly occurrences.\n\
+    :type monthly_occurrences: list of :class:`RecurrenceScheduleOccurrence\n <azure.mgmt.logic.models.RecurrenceScheduleOccurrence>`"
+  type: Class
+  uid: azure.mgmt.logic.models.RecurrenceSchedule

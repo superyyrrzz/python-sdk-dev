@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.keyvault.generated.models.KeyOperationsParameters
+  fullName: azure.keyvault.generated.models.KeyOperationsParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.keyvault.generated.models
+  name: KeyOperationsParameters
+  source:
+    id: KeyOperationsParameters
+    path: azure-keyvault/azure/keyvault/generated/models/key_operations_parameters.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/models/key_operations_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The key operations parameters.\n\n:param algorithm: algorithm identifier.\
+    \ Possible values include:\n 'RSA-OAEP', 'RSA1_5'\n:type algorithm: str or :class:`JsonWebKeyEncryptionAlgorithm\n\
+    \ <azure.keyvault.generated.models.JsonWebKeyEncryptionAlgorithm>`\n:param value:\n\
+    :type value: bytes"
+  type: Class
+  uid: azure.keyvault.generated.models.KeyOperationsParameters

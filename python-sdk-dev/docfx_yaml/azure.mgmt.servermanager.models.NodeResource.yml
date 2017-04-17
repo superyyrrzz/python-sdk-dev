@@ -1,0 +1,33 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.servermanager.models.NodeResource
+  fullName: azure.mgmt.servermanager.models.NodeResource
+  inheritance:
+  - azure.mgmt.servermanager.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.servermanager.models
+  name: NodeResource
+  source:
+    id: NodeResource
+    path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/node_resource.py
+    remote:
+      branch: master
+      path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/node_resource.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A Node Resource.\n\nVariables are only populated by the server, and will\
+    \ be ignored when\nsending a request.\n\n:ivar id: Resource Manager Resource ID.\n\
+    :vartype id: str\n:ivar type: Resource Manager Resource Type.\n:vartype type:\
+    \ str\n:ivar name: Resource Manager Resource Name.\n:vartype name: str\n:ivar\
+    \ location: Resource Manager Resource Location.\n:vartype location: str\n:param\
+    \ tags: Resource Manager Resource Tags.\n:type tags: dict\n:param etag:\n:type\
+    \ etag: str\n:param gateway_id: ID of the gateway.\n:type gateway_id: str\n:param\
+    \ connection_name: myhost.domain.com\n:type connection_name: str\n:param created:\
+    \ UTC date and time when node was first added to management\n service.\n:type\
+    \ created: datetime\n:param updated: UTC date and time when node was last updated.\n\
+    :type updated: datetime"
+  type: Class
+  uid: azure.mgmt.servermanager.models.NodeResource

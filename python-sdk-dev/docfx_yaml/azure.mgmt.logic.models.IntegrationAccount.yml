@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.IntegrationAccount
+  fullName: azure.mgmt.logic.models.IntegrationAccount
+  inheritance:
+  - azure.mgmt.logic.models.integration_account_resource.IntegrationAccountResource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: IntegrationAccount
+  source:
+    id: IntegrationAccount
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/integration_account.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/integration_account.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "IntegrationAccount.\n\n:param id: The resource id.\n:type id: str\n:param\
+    \ name: The resource name.\n:type name: str\n:param type: The resource type.\n\
+    :type type: str\n:param location: The resource location.\n:type location: str\n\
+    :param tags: The resource tags.\n:type tags: dict\n:param properties: The integration\
+    \ account properties.\n:type properties: object\n:param sku: The sku.\n:type sku:\
+    \ :class:`IntegrationAccountSku\n <azure.mgmt.logic.models.IntegrationAccountSku>`"
+  type: Class
+  uid: azure.mgmt.logic.models.IntegrationAccount

@@ -1,0 +1,48 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.locks.models.ResourceModel
+  fullName: azure.mgmt.resource.locks.models.ResourceModel
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.resource.locks.models
+  name: ResourceModel
+  source:
+    id: ResourceModel
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/locks/models/resource_model.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/locks/models/resource_model.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'ResourceModel.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar id: Resource Id
+
+    :vartype id: str
+
+    :ivar name: Resource name
+
+    :vartype name: str
+
+    :ivar type: Resource type
+
+    :vartype type: str
+
+    :param location: Resource location
+
+    :type location: str
+
+    :param tags: Resource tags
+
+    :type tags: dict'
+  type: Class
+  uid: azure.mgmt.resource.locks.models.ResourceModel

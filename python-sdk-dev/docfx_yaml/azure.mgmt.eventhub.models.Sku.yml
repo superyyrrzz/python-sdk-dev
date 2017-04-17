@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.eventhub.models.Sku
+  fullName: azure.mgmt.eventhub.models.Sku
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.eventhub.models
+  name: Sku
+  source:
+    id: Sku
+    path: azure-mgmt-eventhub/azure/mgmt/eventhub/models/sku.py
+    remote:
+      branch: master
+      path: azure-mgmt-eventhub/azure/mgmt/eventhub/models/sku.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "SKU of the namespace.\n\n:param name: Name of this SKU. Possible values\
+    \ include: 'Basic',\n 'Standard', 'Premium'\n:type name: str or :class:`SkuName\
+    \ <azure.mgmt.eventhub.models.SkuName>`\n:param tier: The billing tier of this\
+    \ particular SKU. Possible values\n include: 'Basic', 'Standard', 'Premium'\n\
+    :type tier: str or :class:`SkuTier <azure.mgmt.eventhub.models.SkuTier>`\n:param\
+    \ capacity: The Event Hubs throughput units.\n:type capacity: int"
+  type: Class
+  uid: azure.mgmt.eventhub.models.Sku

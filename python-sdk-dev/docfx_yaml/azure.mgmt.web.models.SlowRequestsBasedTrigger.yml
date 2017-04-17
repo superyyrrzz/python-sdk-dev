@@ -1,0 +1,35 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.SlowRequestsBasedTrigger
+  fullName: azure.mgmt.web.models.SlowRequestsBasedTrigger
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: SlowRequestsBasedTrigger
+  source:
+    id: SlowRequestsBasedTrigger
+    path: azure-mgmt-web/azure/mgmt/web/models/slow_requests_based_trigger.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/slow_requests_based_trigger.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'SlowRequestsBasedTrigger.
+
+
+    :param time_taken: TimeTaken
+
+    :type time_taken: str
+
+    :param count: Count
+
+    :type count: int
+
+    :param time_interval: TimeInterval
+
+    :type time_interval: str'
+  type: Class
+  uid: azure.mgmt.web.models.SlowRequestsBasedTrigger

@@ -1,0 +1,81 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.authorization.operations.PermissionsOperations.list_for_resource
+  - azure.mgmt.authorization.operations.PermissionsOperations.list_for_resource_group
+  class: azure.mgmt.authorization.operations.PermissionsOperations
+  fullName: azure.mgmt.authorization.operations.PermissionsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.authorization.operations
+  name: PermissionsOperations
+  source:
+    id: PermissionsOperations
+    path: azure-mgmt-authorization/azure/mgmt/authorization/operations/permissions_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-authorization/azure/mgmt/authorization/operations/permissions_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'PermissionsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.authorization.operations.PermissionsOperations
+- _type: method
+  class: azure.mgmt.authorization.operations.PermissionsOperations
+  fullName: azure.mgmt.authorization.operations.PermissionsOperations.list_for_resource
+  module: azure.mgmt.authorization.operations
+  name: list_for_resource
+  source:
+    id: list_for_resource
+    path: azure-mgmt-authorization/azure/mgmt/authorization/operations/permissions_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-authorization/azure/mgmt/authorization/operations/permissions_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 103
+  summary: "Gets all permissions the caller has for a resource.\n\n:param resource_group_name:\
+    \ The name of the resource group containing\n the resource. The name is case insensitive.\n\
+    :type resource_group_name: str\n:param resource_provider_namespace: The namespace\
+    \ of the resource\n provider.\n:type resource_provider_namespace: str\n:param\
+    \ parent_resource_path: The parent resource identity.\n:type parent_resource_path:\
+    \ str\n:param resource_type: The resource type of the resource.\n:type resource_type:\
+    \ str\n:param resource_name: The name of the resource to get the permissions\n\
+    \ for.\n:type resource_name: str\n:param dict custom_headers: headers that will\
+    \ be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`PermissionPaged\n\
+    \ <azure.mgmt.authorization.models.PermissionPaged>`\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.authorization.operations.PermissionsOperations.list_for_resource
+- _type: method
+  class: azure.mgmt.authorization.operations.PermissionsOperations
+  fullName: azure.mgmt.authorization.operations.PermissionsOperations.list_for_resource_group
+  module: azure.mgmt.authorization.operations
+  name: list_for_resource_group
+  source:
+    id: list_for_resource_group
+    path: azure-mgmt-authorization/azure/mgmt/authorization/operations/permissions_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-authorization/azure/mgmt/authorization/operations/permissions_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Gets all permissions the caller has for a resource group.\n\n:param resource_group_name:\
+    \ The name of the resource group to get the\n permissions for. The name is case\
+    \ insensitive.\n:type resource_group_name: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`PermissionPaged\n\
+    \ <azure.mgmt.authorization.models.PermissionPaged>`\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.authorization.operations.PermissionsOperations.list_for_resource_group

@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.ResourceNameAvailability
+  fullName: azure.mgmt.web.models.ResourceNameAvailability
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: ResourceNameAvailability
+  source:
+    id: ResourceNameAvailability
+    path: azure-mgmt-web/azure/mgmt/web/models/resource_name_availability.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/resource_name_availability.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Describes if a resource name is available.\n\n:param name_available: True\
+    \ indicates name is valid and available.  False\n indicates the name is invalid,\
+    \ unavailable, or both.\n:type name_available: bool\n:param reason: Required if\
+    \ nameAvailable is false. 'Invalid' indicates\n the name provided does not match\
+    \ Azure WebApp service\u2019s naming\n requirements. 'AlreadyExists' indicates\
+    \ that the name is already in use\n and is therefore unavailable.\n:type reason:\
+    \ str\n:param message:\n:type message: str"
+  type: Class
+  uid: azure.mgmt.web.models.ResourceNameAvailability

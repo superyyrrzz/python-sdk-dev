@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.monitor.models.TimeWindow
+  fullName: azure.mgmt.monitor.models.TimeWindow
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.monitor.models
+  name: TimeWindow
+  source:
+    id: TimeWindow
+    path: azure-mgmt-monitor/azure/mgmt/monitor/models/time_window.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/models/time_window.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A specific date-time for the profile.\n\n:param time_zone: the time zone\
+    \ of the start and end times for the\n profile. See examples of valid timezone\
+    \ ids over here:\n https://msdn.microsoft.com/en-us/library/azure/dn931928.aspx\n\
+    :type time_zone: str\n:param start: the start time for the profile in ISO 8601\
+    \ format.\n:type start: datetime\n:param end: the end time for the profile in\
+    \ ISO 8601 format.\n:type end: datetime"
+  type: Class
+  uid: azure.mgmt.monitor.models.TimeWindow

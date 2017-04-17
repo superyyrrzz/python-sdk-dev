@@ -1,0 +1,36 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.IntegrationAccountSchema
+  fullName: azure.mgmt.logic.models.IntegrationAccountSchema
+  inheritance:
+  - azure.mgmt.logic.models.integration_account_resource.IntegrationAccountResource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: IntegrationAccountSchema
+  source:
+    id: IntegrationAccountSchema
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/integration_account_schema.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/integration_account_schema.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "IntegrationAccountSchema.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:param id: The resource id.\n\
+    :type id: str\n:param name: The resource name.\n:type name: str\n:param type:\
+    \ The resource type.\n:type type: str\n:param location: The resource location.\n\
+    :type location: str\n:param tags: The resource tags.\n:type tags: dict\n:param\
+    \ schema_type: The schema type. Possible values include:\n 'NotSpecified', 'Xml'\n\
+    :type schema_type: str or :class:`SchemaType\n <azure.mgmt.logic.models.SchemaType>`\n\
+    :param target_namespace: The target namespace.\n:type target_namespace: str\n\
+    :ivar created_time: The created time.\n:vartype created_time: datetime\n:ivar\
+    \ changed_time: The changed time.\n:vartype changed_time: datetime\n:param content:\
+    \ The content.\n:type content: object\n:param content_type: The content type.\n\
+    :type content_type: str\n:ivar content_link: The content link.\n:vartype content_link:\
+    \ :class:`IntegrationAccountContentLink\n <azure.mgmt.logic.models.IntegrationAccountContentLink>`\n\
+    :param metadata: The metadata.\n:type metadata: object"
+  type: Class
+  uid: azure.mgmt.logic.models.IntegrationAccountSchema

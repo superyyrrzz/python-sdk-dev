@@ -1,0 +1,81 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.monitor.models.EventData
+  fullName: azure.monitor.models.EventData
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.monitor.models
+  name: EventData
+  source:
+    id: EventData
+    path: azure-monitor/azure/monitor/models/event_data.py
+    remote:
+      branch: master
+      path: azure-monitor/azure/monitor/models/event_data.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The Azure event log entries are of type EventData.\n\n:param authorization:\
+    \ the authorization used by the user who has performed\n the operation that led\
+    \ to this event. This captures the RBAC properties of\n the event. These usually\
+    \ include the 'action', 'role' and the 'scope'\n:type authorization: :class:`SenderAuthorization\n\
+    \ <azure.monitor.models.SenderAuthorization>`\n:param channels: the event channels.\
+    \ The regular event logs, that you see\n in the Azure Management Portals, flow\
+    \ through the 'Operation' channel.\n Possible values include: 'Admin', 'Operation',\
+    \ 'Debug', 'Analytics'\n:type channels: str or :class:`EventChannels\n <azure.monitor.models.EventChannels>`\n\
+    :param claims: key value pairs to identify ARM permissions.\n:type claims: dict\n\
+    :param caller: the email address of the user who has performed the\n operation,\
+    \ the UPN claim or SPN claim based on availability.\n:type caller: str\n:param\
+    \ description: the description of the event.\n:type description: str\n:param id:\
+    \ the Id of this event as required by ARM for RBAC. It contains\n the EventDataID\
+    \ and a timestamp information.\n:type id: str\n:param event_data_id: the event\
+    \ data Id. This is a unique identifier for\n an event.\n:type event_data_id: str\n\
+    :param correlation_id: the correlation Id, usually a GUID in the string\n format.\
+    \ The correlation Id is shared among the events that belong to the\n same uber\
+    \ operation.\n:type correlation_id: str\n:param event_name: the event name. This\
+    \ value should not be confused with\n OperationName. For practical purposes, OperationName\
+    \ might be more\n appealing to end users.\n:type event_name: :class:`LocalizableString\n\
+    \ <azure.monitor.models.LocalizableString>`\n:param category: the event category.\n\
+    :type category: :class:`LocalizableString\n <azure.monitor.models.LocalizableString>`\n\
+    :param http_request: the HTTP request info. Usually includes the\n 'clientRequestId',\
+    \ 'clientIpAddress' (IP address of the user who initiated\n the event) and 'method'\
+    \ (HTTP method e.g. PUT).\n:type http_request: :class:`HttpRequestInfo\n <azure.monitor.models.HttpRequestInfo>`\n\
+    :param level: the event level. Possible values include: 'Critical',\n 'Error',\
+    \ 'Warning', 'Informational', 'Verbose'\n:type level: str or :class:`EventLevel\
+    \ <azure.monitor.models.EventLevel>`\n:param resource_group_name: the resource\
+    \ group name of the impacted\n resource.\n:type resource_group_name: str\n:param\
+    \ resource_provider_name: the resource provider name of the impacted\n resource.\n\
+    :type resource_provider_name: :class:`LocalizableString\n <azure.monitor.models.LocalizableString>`\n\
+    :param resource_id: the resource uri that uniquely identifies the resource\n that\
+    \ caused this event.\n:type resource_id: str\n:param resource_type: the resource\
+    \ type\n:type resource_type: :class:`LocalizableString\n <azure.monitor.models.LocalizableString>`\n\
+    :param operation_id: It is usually a GUID shared among the events\n corresponding\
+    \ to single operation. This value should not be confused with\n EventName.\n:type\
+    \ operation_id: str\n:param operation_name: the operation name.\n:type operation_name:\
+    \ :class:`LocalizableString\n <azure.monitor.models.LocalizableString>`\n:param\
+    \ properties: the set of <Key, Value> pairs (usually a\n Dictionary<String, String>)\
+    \ that includes details about the event.\n:type properties: dict\n:param status:\
+    \ a string describing the status of the operation. Some\n typical values are:\
+    \ Started, In progress, Succeeded, Failed, Resolved.\n:type status: :class:`LocalizableString\n\
+    \ <azure.monitor.models.LocalizableString>`\n:param sub_status: the event sub\
+    \ status. Most of the time, when included,\n this captures the HTTP status code\
+    \ of the REST call. Common values are: OK\n (HTTP Status Code: 200), Created (HTTP\
+    \ Status Code: 201), Accepted (HTTP\n Status Code: 202), No Content (HTTP Status\
+    \ Code: 204), Bad Request(HTTP\n Status Code: 400), Not Found (HTTP Status Code:\
+    \ 404), Conflict (HTTP\n Status Code: 409), Internal Server Error (HTTP Status\
+    \ Code: 500), Service\n Unavailable (HTTP Status Code:503), Gateway Timeout (HTTP\
+    \ Status Code:\n 504)\n:type sub_status: :class:`LocalizableString\n <azure.monitor.models.LocalizableString>`\n\
+    :param event_timestamp: the timestamp of when the event was generated by\n the\
+    \ Azure service processing the request corresponding the event. It in\n ISO 8601\
+    \ format.\n:type event_timestamp: datetime\n:param submission_timestamp: the timestamp\
+    \ of when the event became\n available for querying via this API. It is in ISO\
+    \ 8601 format. This value\n should not be confused eventTimestamp. As there might\
+    \ be a delay between\n the occurence time of the event, and the time that the\
+    \ event is submitted\n to the Azure logging infrastructure.\n:type submission_timestamp:\
+    \ datetime\n:param subscription_id: the Azure subscription Id usually a GUID.\n\
+    :type subscription_id: str\n:param tenant_id: the Azure tenant Id\n:type tenant_id:\
+    \ str"
+  type: Class
+  uid: azure.monitor.models.EventData

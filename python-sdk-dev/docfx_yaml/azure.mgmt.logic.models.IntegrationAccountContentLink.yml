@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.IntegrationAccountContentLink
+  fullName: azure.mgmt.logic.models.IntegrationAccountContentLink
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: IntegrationAccountContentLink
+  source:
+    id: IntegrationAccountContentLink
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/integration_account_content_link.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/integration_account_content_link.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "IntegrationAccountContentLink.\n\n:param uri: The content link URI.\n\
+    :type uri: str\n:param content_version: The content version.\n:type content_version:\
+    \ str\n:param content_size: The content size.\n:type content_size: long\n:param\
+    \ content_hash: The content hash.\n:type content_hash: :class:`IntegrationAccountContentHash\n\
+    \ <azure.mgmt.logic.models.IntegrationAccountContentHash>`\n:param metadata: The\
+    \ metadata.\n:type metadata: object"
+  type: Class
+  uid: azure.mgmt.logic.models.IntegrationAccountContentLink

@@ -1,0 +1,30 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.search.models.Resource
+  fullName: azure.mgmt.search.models.Resource
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.search.models
+  name: Resource
+  source:
+    id: Resource
+    path: azure-mgmt-search/azure/mgmt/search/models/resource.py
+    remote:
+      branch: master
+      path: azure-mgmt-search/azure/mgmt/search/models/resource.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Base type for all Azure resources.\n\nVariables are only populated by\
+    \ the server, and will be ignored when\nsending a request.\n\n:ivar id: The ID\
+    \ of the resource. This can be used with the Azure Resource\n Manager to link\
+    \ resources together.\n:vartype id: str\n:ivar name: The name of the resource.\n\
+    :vartype name: str\n:ivar type: The resource type.\n:vartype type: str\n:param\
+    \ location: The geographic location of the resource. This must be one\n of the\
+    \ supported and registered Azure Geo Regions (for example, West US,\n East US,\
+    \ Southeast Asia, and so forth).\n:type location: str\n:param tags: Tags to help\
+    \ categorize the resource in the Azure portal.\n:type tags: dict"
+  type: Class
+  uid: azure.mgmt.search.models.Resource

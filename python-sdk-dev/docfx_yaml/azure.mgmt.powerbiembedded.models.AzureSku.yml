@@ -1,0 +1,56 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.powerbiembedded.models.AzureSku
+  fullName: azure.mgmt.powerbiembedded.models.AzureSku
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.powerbiembedded.models
+  name: AzureSku
+  source:
+    id: AzureSku
+    path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/models/azure_sku.py
+    remote:
+      branch: master
+      path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/models/azure_sku.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'AzureSku.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar name: SKU name. Default value: "S1" .
+
+    :vartype name: str
+
+    :ivar tier: SKU tier. Default value: "Standard" .
+
+    :vartype tier: str'
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.AzureSku
+- _type: class
+  children: []
+  class: azure.mgmt.powerbiembedded.models.AzureSku
+  fullName: azure.mgmt.powerbiembedded.models.AzureSku
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.powerbiembedded.models
+  name: AzureSku
+  source:
+    id: AzureSku
+    path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/models/azure_sku.py
+    remote:
+      branch: master
+      path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/models/azure_sku.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: Allow attribute setting via kwargs on initialization.
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.AzureSku

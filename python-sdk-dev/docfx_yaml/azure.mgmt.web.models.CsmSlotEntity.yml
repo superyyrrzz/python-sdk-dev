@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.CsmSlotEntity
+  fullName: azure.mgmt.web.models.CsmSlotEntity
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: CsmSlotEntity
+  source:
+    id: CsmSlotEntity
+    path: azure-mgmt-web/azure/mgmt/web/models/csm_slot_entity.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/csm_slot_entity.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Class containing deployment slot parameters.\n\n:param target_slot: Set\
+    \ the destination deployment slot during swap\n operation\n:type target_slot:\
+    \ str\n:param preserve_vnet: Get or set the flag indicating it should preserve\n\
+    \ VNet to the slot during swap\n:type preserve_vnet: bool"
+  type: Class
+  uid: azure.mgmt.web.models.CsmSlotEntity

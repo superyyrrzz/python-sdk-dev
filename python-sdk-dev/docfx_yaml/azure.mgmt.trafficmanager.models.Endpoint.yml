@@ -1,0 +1,47 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.trafficmanager.models.Endpoint
+  fullName: azure.mgmt.trafficmanager.models.Endpoint
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.trafficmanager.models
+  name: Endpoint
+  source:
+    id: Endpoint
+    path: azure-mgmt-trafficmanager/azure/mgmt/trafficmanager/models/endpoint.py
+    remote:
+      branch: master
+      path: azure-mgmt-trafficmanager/azure/mgmt/trafficmanager/models/endpoint.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Class representing a Traffic Manager endpoint.\n\n:param id: Gets or sets\
+    \ the ID of the Traffic Manager endpoint.\n:type id: str\n:param name: Gets or\
+    \ sets the name of the Traffic Manager endpoint.\n:type name: str\n:param type:\
+    \ Gets or sets the endpoint type of the Traffic Manager\n endpoint.\n:type type:\
+    \ str\n:param target_resource_id: Gets or sets the Azure Resource URI of the of\n\
+    \ the endpoint.  Not applicable to endpoints of type 'ExternalEndpoints'.\n:type\
+    \ target_resource_id: str\n:param target: Gets or sets the fully-qualified DNS\
+    \ name of the endpoint.\n Traffic Manager returns this value in DNS responses\
+    \ to direct traffic\n to this endpoint.\n:type target: str\n:param endpoint_status:\
+    \ Gets or sets the status of the endpoint..  If the\n endpoint is Enabled, it\
+    \ is probed for endpoint health and is included in\n the traffic routing method.\
+    \  Possible values are 'Enabled' and\n 'Disabled'.\n:type endpoint_status: str\n\
+    :param weight: Gets or sets the weight of this endpoint when using the\n 'Weighted'\
+    \ traffic routing method. Possible values are from 1 to 1000.\n:type weight: long\n\
+    :param priority: Gets or sets the priority of this endpoint when using\n the \u2018\
+    Priority\u2019 traffic routing method. Possible values are from 1 to\n 1000, lower\
+    \ values represent higher priority. This is an optional\n parameter.  If specified,\
+    \ it must be specified on all endpoints, and no\n two endpoints can share the\
+    \ same priority value.\n:type priority: long\n:param endpoint_location: Specifies\
+    \ the location of the external or\n nested endpoints when using the \u2018Performance\u2019\
+    \ traffic routing method.\n:type endpoint_location: str\n:param endpoint_monitor_status:\
+    \ Gets or sets the monitoring status of the\n endpoint.\n:type endpoint_monitor_status:\
+    \ str\n:param min_child_endpoints: Gets or sets the minimum number of endpoints\n\
+    \ that must be available in the child profile in order for the parent\n profile\
+    \ to be considered available. Only applicable to endpoint of type\n 'NestedEndpoints'.\n\
+    :type min_child_endpoints: long"
+  type: Class
+  uid: azure.mgmt.trafficmanager.models.Endpoint

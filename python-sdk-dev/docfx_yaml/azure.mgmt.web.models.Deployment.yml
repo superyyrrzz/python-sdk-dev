@@ -1,0 +1,88 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.Deployment
+  fullName: azure.mgmt.web.models.Deployment
+  inheritance:
+  - azure.mgmt.web.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: Deployment
+  source:
+    id: Deployment
+    path: azure-mgmt-web/azure/mgmt/web/models/deployment.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/deployment.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Represents user crendentials used for publishing activity.
+
+
+    :param id: Resource Id
+
+    :type id: str
+
+    :param name: Resource Name
+
+    :type name: str
+
+    :param kind: Kind of resource
+
+    :type kind: str
+
+    :param location: Resource Location
+
+    :type location: str
+
+    :param type: Resource type
+
+    :type type: str
+
+    :param tags: Resource tags
+
+    :type tags: dict
+
+    :param deployment_id: Id
+
+    :type deployment_id: str
+
+    :param status: Status
+
+    :type status: int
+
+    :param message: Message
+
+    :type message: str
+
+    :param author: Author
+
+    :type author: str
+
+    :param deployer: Deployer
+
+    :type deployer: str
+
+    :param author_email: AuthorEmail
+
+    :type author_email: str
+
+    :param start_time: StartTime
+
+    :type start_time: datetime
+
+    :param end_time: EndTime
+
+    :type end_time: datetime
+
+    :param active: Active
+
+    :type active: bool
+
+    :param details: Detail
+
+    :type details: str'
+  type: Class
+  uid: azure.mgmt.web.models.Deployment

@@ -1,0 +1,111 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.keyvault.HttpBearerChallenge.get_authorization_server
+  - azure.keyvault.HttpBearerChallenge.get_resource
+  - azure.keyvault.HttpBearerChallenge.get_scope
+  - azure.keyvault.HttpBearerChallenge.get_value
+  - azure.keyvault.HttpBearerChallenge.is_bearer_challenge
+  class: azure.keyvault.HttpBearerChallenge
+  fullName: azure.keyvault.HttpBearerChallenge
+  inheritance:
+  - builtins.object
+  module: azure.keyvault
+  name: HttpBearerChallenge
+  source:
+    id: HttpBearerChallenge
+    path: azure-keyvault/azure/keyvault/http_bearer_challenge.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/http_bearer_challenge.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 11
+  summary: Parses an HTTP WWW-Authentication Bearer challenge from a server.
+  type: Class
+  uid: azure.keyvault.HttpBearerChallenge
+- _type: method
+  class: azure.keyvault.HttpBearerChallenge
+  fullName: azure.keyvault.HttpBearerChallenge.get_authorization_server
+  module: azure.keyvault
+  name: get_authorization_server
+  source:
+    id: get_authorization_server
+    path: azure-keyvault/azure/keyvault/http_bearer_challenge.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/http_bearer_challenge.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 54
+  summary: Returns the URI for the authorization server if present, otherwise empty
+    string.
+  type: Method
+  uid: azure.keyvault.HttpBearerChallenge.get_authorization_server
+- _type: method
+  class: azure.keyvault.HttpBearerChallenge
+  fullName: azure.keyvault.HttpBearerChallenge.get_resource
+  module: azure.keyvault
+  name: get_resource
+  source:
+    id: get_resource
+    path: azure-keyvault/azure/keyvault/http_bearer_challenge.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/http_bearer_challenge.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 63
+  summary: Returns the resource if present, otherwise empty string.
+  type: Method
+  uid: azure.keyvault.HttpBearerChallenge.get_resource
+- _type: method
+  class: azure.keyvault.HttpBearerChallenge
+  fullName: azure.keyvault.HttpBearerChallenge.get_scope
+  module: azure.keyvault
+  name: get_scope
+  source:
+    id: get_scope
+    path: azure-keyvault/azure/keyvault/http_bearer_challenge.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/http_bearer_challenge.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 67
+  summary: Returns the scope if present, otherwise empty string.
+  type: Method
+  uid: azure.keyvault.HttpBearerChallenge.get_scope
+- _type: method
+  class: azure.keyvault.HttpBearerChallenge
+  fullName: azure.keyvault.HttpBearerChallenge.get_value
+  module: azure.keyvault
+  name: get_value
+  source:
+    id: get_value
+    path: azure-keyvault/azure/keyvault/http_bearer_challenge.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/http_bearer_challenge.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 51
+  summary: ''
+  type: Method
+  uid: azure.keyvault.HttpBearerChallenge.get_value
+- _type: method
+  class: azure.keyvault.HttpBearerChallenge
+  fullName: azure.keyvault.HttpBearerChallenge.is_bearer_challenge
+  module: azure.keyvault
+  name: is_bearer_challenge
+  source:
+    id: is_bearer_challenge
+    path: azure-keyvault/azure/keyvault/http_bearer_challenge.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/http_bearer_challenge.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 41
+  summary: 'Tests whether an authentication header is a Bearer challenge.
+
+    :param authentication_header: the authentication header to test
+
+    rtype: bool'
+  type: Method
+  uid: azure.keyvault.HttpBearerChallenge.is_bearer_challenge

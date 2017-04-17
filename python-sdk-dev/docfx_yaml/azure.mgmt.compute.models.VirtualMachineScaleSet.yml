@@ -1,0 +1,35 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.VirtualMachineScaleSet
+  fullName: azure.mgmt.compute.models.VirtualMachineScaleSet
+  inheritance:
+  - azure.mgmt.compute.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: VirtualMachineScaleSet
+  source:
+    id: VirtualMachineScaleSet
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_scale_set.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_scale_set.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Describes a Virtual Machine Scale Set.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar id: Resource\
+    \ Id\n:vartype id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type:\
+    \ Resource type\n:vartype type: str\n:param location: Resource location\n:type\
+    \ location: str\n:param tags: Resource tags\n:type tags: dict\n:param sku: the\
+    \ virtual machine scale set sku.\n:type sku: :class:`Sku <azure.mgmt.compute.models.Sku>`\n\
+    :param upgrade_policy: the upgrade policy.\n:type upgrade_policy: :class:`UpgradePolicy\n\
+    \ <azure.mgmt.compute.models.UpgradePolicy>`\n:param virtual_machine_profile:\
+    \ the virtual machine profile.\n:type virtual_machine_profile: :class:`VirtualMachineScaleSetVMProfile\n\
+    \ <azure.mgmt.compute.models.VirtualMachineScaleSetVMProfile>`\n:ivar provisioning_state:\
+    \ the provisioning state, which only appears in\n the response.\n:vartype provisioning_state:\
+    \ str\n:param over_provision: Specifies whether the Virtual Machine Scale Set\n\
+    \ should be overprovisioned.\n:type over_provision: bool"
+  type: Class
+  uid: azure.mgmt.compute.models.VirtualMachineScaleSet

@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.WorkflowTriggerFilter
+  fullName: azure.mgmt.logic.models.WorkflowTriggerFilter
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: WorkflowTriggerFilter
+  source:
+    id: WorkflowTriggerFilter
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/workflow_trigger_filter.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/workflow_trigger_filter.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "WorkflowTriggerFilter.\n\n:param state: The state of workflow trigger.\
+    \ Possible values include:\n 'NotSpecified', 'Completed', 'Enabled', 'Disabled',\
+    \ 'Deleted',\n 'Suspended'\n:type state: str or :class:`WorkflowState\n <azure.mgmt.logic.models.WorkflowState>`"
+  type: Class
+  uid: azure.mgmt.logic.models.WorkflowTriggerFilter

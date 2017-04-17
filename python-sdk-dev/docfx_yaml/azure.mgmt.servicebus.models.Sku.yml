@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.servicebus.models.Sku
+  fullName: azure.mgmt.servicebus.models.Sku
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.servicebus.models
+  name: Sku
+  source:
+    id: Sku
+    path: azure-mgmt-servicebus/azure/mgmt/servicebus/models/sku.py
+    remote:
+      branch: master
+      path: azure-mgmt-servicebus/azure/mgmt/servicebus/models/sku.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "SKU of the namespace.\n\n:param name: Name of this SKU. Possible values\
+    \ include: 'Basic',\n 'Standard', 'Premium'\n:type name: str or :class:`SkuName\
+    \ <azure.mgmt.servicebus.models.SkuName>`\n:param tier: The billing tier of this\
+    \ particular SKU. Possible values\n include: 'Basic', 'Standard', 'Premium'\n\
+    :type tier: str or :class:`SkuTier <azure.mgmt.servicebus.models.SkuTier>`\n:param\
+    \ capacity: The specified messaging units for the tier.\n:type capacity: int"
+  type: Class
+  uid: azure.mgmt.servicebus.models.Sku

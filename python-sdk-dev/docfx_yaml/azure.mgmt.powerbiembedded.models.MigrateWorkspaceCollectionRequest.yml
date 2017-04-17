@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.powerbiembedded.models.MigrateWorkspaceCollectionRequest
+  fullName: azure.mgmt.powerbiembedded.models.MigrateWorkspaceCollectionRequest
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.powerbiembedded.models
+  name: MigrateWorkspaceCollectionRequest
+  source:
+    id: MigrateWorkspaceCollectionRequest
+    path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/models/migrate_workspace_collection_request.py
+    remote:
+      branch: master
+      path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/models/migrate_workspace_collection_request.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "MigrateWorkspaceCollectionRequest.\n\n:param target_resource_group: Name\
+    \ of the resource group the Power BI\n workspace collections will be migrated\
+    \ to.\n:type target_resource_group: str\n:param resources:\n:type resources: list\
+    \ of str"
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.MigrateWorkspaceCollectionRequest

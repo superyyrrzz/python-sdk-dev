@@ -1,0 +1,32 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.keyvault.generated.models.BackupKeyResult
+  fullName: azure.keyvault.generated.models.BackupKeyResult
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.keyvault.generated.models
+  name: BackupKeyResult
+  source:
+    id: BackupKeyResult
+    path: azure-keyvault/azure/keyvault/generated/models/backup_key_result.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/models/backup_key_result.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'The backup key result, containing the backup blob.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar value: The backup blob containing the backed up key.
+
+    :vartype value: bytes'
+  type: Class
+  uid: azure.keyvault.generated.models.BackupKeyResult

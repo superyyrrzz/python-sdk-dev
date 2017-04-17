@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.sql.models.ElasticPoolDatabaseActivityPaged
+  fullName: azure.mgmt.sql.models.ElasticPoolDatabaseActivityPaged
+  inheritance:
+  - msrest.paging.Paged
+  - collections.abc.Iterator
+  - collections.abc.Iterable
+  - builtins.object
+  module: azure.mgmt.sql.models
+  name: ElasticPoolDatabaseActivityPaged
+  source:
+    id: ElasticPoolDatabaseActivityPaged
+    path: azure-mgmt-sql/azure/mgmt/sql/models/elastic_pool_database_activity_paged.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/models/elastic_pool_database_activity_paged.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: A paging container for iterating over a list of ElasticPoolDatabaseActivity
+    object
+  type: Class
+  uid: azure.mgmt.sql.models.ElasticPoolDatabaseActivityPaged

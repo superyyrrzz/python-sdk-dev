@@ -1,0 +1,48 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.ExpressRouteCircuit
+  fullName: azure.mgmt.network.models.ExpressRouteCircuit
+  inheritance:
+  - azure.mgmt.network.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: ExpressRouteCircuit
+  source:
+    id: ExpressRouteCircuit
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/express_route_circuit.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/express_route_circuit.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "ExpressRouteCircuit resource.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:param id: Resource Id\n:type\
+    \ id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type: Resource\
+    \ type\n:vartype type: str\n:param location: Resource location\n:type location:\
+    \ str\n:param tags: Resource tags\n:type tags: dict\n:param sku: Gets or sets\
+    \ sku\n:type sku: :class:`ExpressRouteCircuitSku\n <azure.mgmt.network.models.ExpressRouteCircuitSku>`\n\
+    :param allow_classic_operations: allow classic operations\n:type allow_classic_operations:\
+    \ bool\n:param circuit_provisioning_state: Gets or sets CircuitProvisioningState\n\
+    \ state of the resource\n:type circuit_provisioning_state: str\n:param service_provider_provisioning_state:\
+    \ Gets or sets\n ServiceProviderProvisioningState state of the resource . Possible\
+    \ values\n include: 'NotProvisioned', 'Provisioning', 'Provisioned',\n 'Deprovisioning'\n\
+    :type service_provider_provisioning_state: str or\n :class:`ServiceProviderProvisioningState\n\
+    \ <azure.mgmt.network.models.ServiceProviderProvisioningState>`\n:param authorizations:\
+    \ Gets or sets list of authorizations\n:type authorizations: list of :class:`ExpressRouteCircuitAuthorization\n\
+    \ <azure.mgmt.network.models.ExpressRouteCircuitAuthorization>`\n:param peerings:\
+    \ Gets or sets list of peerings\n:type peerings: list of :class:`ExpressRouteCircuitPeering\n\
+    \ <azure.mgmt.network.models.ExpressRouteCircuitPeering>`\n:param service_key:\
+    \ Gets or sets ServiceKey\n:type service_key: str\n:param service_provider_notes:\
+    \ Gets or sets ServiceProviderNotes\n:type service_provider_notes: str\n:param\
+    \ service_provider_properties: Gets or sets ServiceProviderProperties\n:type service_provider_properties:\n\
+    \ :class:`ExpressRouteCircuitServiceProviderProperties\n <azure.mgmt.network.models.ExpressRouteCircuitServiceProviderProperties>`\n\
+    :param provisioning_state: Gets provisioning state of the PublicIP\n resource\
+    \ Updating/Deleting/Failed\n:type provisioning_state: str\n:param gateway_manager_etag:\
+    \ Gets or sets the GatewayManager Etag\n:type gateway_manager_etag: str\n:param\
+    \ etag: Gets a unique read-only string that changes whenever the\n resource is\
+    \ updated\n:type etag: str"
+  type: Class
+  uid: azure.mgmt.network.models.ExpressRouteCircuit

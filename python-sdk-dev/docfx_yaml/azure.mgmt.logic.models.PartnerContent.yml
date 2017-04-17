@@ -1,0 +1,23 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.PartnerContent
+  fullName: azure.mgmt.logic.models.PartnerContent
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: PartnerContent
+  source:
+    id: PartnerContent
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/partner_content.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/partner_content.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "PartnerContent.\n\n:param b2b: The B2B partner content.\n:type b2b: :class:`B2BPartnerContent\n\
+    \ <azure.mgmt.logic.models.B2BPartnerContent>`"
+  type: Class
+  uid: azure.mgmt.logic.models.PartnerContent

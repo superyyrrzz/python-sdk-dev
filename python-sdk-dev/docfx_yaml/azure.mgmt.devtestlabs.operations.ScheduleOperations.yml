@@ -1,0 +1,179 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.devtestlabs.operations.ScheduleOperations.create_or_update_resource
+  - azure.mgmt.devtestlabs.operations.ScheduleOperations.delete_resource
+  - azure.mgmt.devtestlabs.operations.ScheduleOperations.execute
+  - azure.mgmt.devtestlabs.operations.ScheduleOperations.get_resource
+  - azure.mgmt.devtestlabs.operations.ScheduleOperations.list
+  - azure.mgmt.devtestlabs.operations.ScheduleOperations.patch_resource
+  class: azure.mgmt.devtestlabs.operations.ScheduleOperations
+  fullName: azure.mgmt.devtestlabs.operations.ScheduleOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.devtestlabs.operations
+  name: ScheduleOperations
+  source:
+    id: ScheduleOperations
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/schedule_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/schedule_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 20
+  summary: 'ScheduleOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.devtestlabs.operations.ScheduleOperations
+- _type: method
+  class: azure.mgmt.devtestlabs.operations.ScheduleOperations
+  fullName: azure.mgmt.devtestlabs.operations.ScheduleOperations.create_or_update_resource
+  module: azure.mgmt.devtestlabs.operations
+  name: create_or_update_resource
+  source:
+    id: create_or_update_resource
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/schedule_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/schedule_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 184
+  summary: "Create or replace an existing schedule.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param lab_name:\
+    \ The name of the lab.\n:type lab_name: str\n:param name: The name of the schedule.\n\
+    :type name: str\n:param schedule:\n:type schedule: :class:`Schedule\n <azure.mgmt.devtestlabs.models.Schedule>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`Schedule <azure.mgmt.devtestlabs.models.Schedule>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.devtestlabs.operations.ScheduleOperations.create_or_update_resource
+- _type: method
+  class: azure.mgmt.devtestlabs.operations.ScheduleOperations
+  fullName: azure.mgmt.devtestlabs.operations.ScheduleOperations.delete_resource
+  module: azure.mgmt.devtestlabs.operations
+  name: delete_resource
+  source:
+    id: delete_resource
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/schedule_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/schedule_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 257
+  summary: "Delete schedule.\n\n:param resource_group_name: The name of the resource\
+    \ group.\n:type resource_group_name: str\n:param lab_name: The name of the lab.\n\
+    :type lab_name: str\n:param name: The name of the schedule.\n:type name: str\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.devtestlabs.operations.ScheduleOperations.delete_resource
+- _type: method
+  class: azure.mgmt.devtestlabs.operations.ScheduleOperations
+  fullName: azure.mgmt.devtestlabs.operations.ScheduleOperations.execute
+  module: azure.mgmt.devtestlabs.operations
+  name: execute
+  source:
+    id: execute
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/schedule_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/schedule_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 385
+  summary: "Execute a schedule. This operation can take a while to complete.\n\n:param\
+    \ resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param lab_name: The name of the lab.\n:type lab_name: str\n:param name:\
+    \ The name of the schedule.\n:type name: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.devtestlabs.operations.ScheduleOperations.execute
+- _type: method
+  class: azure.mgmt.devtestlabs.operations.ScheduleOperations
+  fullName: azure.mgmt.devtestlabs.operations.ScheduleOperations.get_resource
+  module: azure.mgmt.devtestlabs.operations
+  name: get_resource
+  source:
+    id: get_resource
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/schedule_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/schedule_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 120
+  summary: "Get schedule.\n\n:param resource_group_name: The name of the resource\
+    \ group.\n:type resource_group_name: str\n:param lab_name: The name of the lab.\n\
+    :type lab_name: str\n:param name: The name of the schedule.\n:type name: str\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`Schedule <azure.mgmt.devtestlabs.models.Schedule>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.devtestlabs.operations.ScheduleOperations.get_resource
+- _type: method
+  class: azure.mgmt.devtestlabs.operations.ScheduleOperations
+  fullName: azure.mgmt.devtestlabs.operations.ScheduleOperations.list
+  module: azure.mgmt.devtestlabs.operations
+  name: list
+  source:
+    id: list
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/schedule_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/schedule_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 37
+  summary: "List schedules in a given lab.\n\n:param resource_group_name: The name\
+    \ of the resource group.\n:type resource_group_name: str\n:param lab_name: The\
+    \ name of the lab.\n:type lab_name: str\n:param filter: The filter to apply on\
+    \ the operation.\n:type filter: str\n:param top: The maximum number of resources\
+    \ to return from the\n operation.\n:type top: int\n:param order_by: The ordering\
+    \ expression for the results, using OData\n notation.\n:type order_by: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`SchedulePaged\n <azure.mgmt.devtestlabs.models.SchedulePaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.devtestlabs.operations.ScheduleOperations.list
+- _type: method
+  class: azure.mgmt.devtestlabs.operations.ScheduleOperations
+  fullName: azure.mgmt.devtestlabs.operations.ScheduleOperations.patch_resource
+  module: azure.mgmt.devtestlabs.operations
+  name: patch_resource
+  source:
+    id: patch_resource
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/schedule_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/schedule_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 314
+  summary: "Modify properties of schedules.\n\n:param resource_group_name: The name\
+    \ of the resource group.\n:type resource_group_name: str\n:param lab_name: The\
+    \ name of the lab.\n:type lab_name: str\n:param name: The name of the schedule.\n\
+    :type name: str\n:param schedule:\n:type schedule: :class:`Schedule\n <azure.mgmt.devtestlabs.models.Schedule>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`Schedule <azure.mgmt.devtestlabs.models.Schedule>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.devtestlabs.operations.ScheduleOperations.patch_resource

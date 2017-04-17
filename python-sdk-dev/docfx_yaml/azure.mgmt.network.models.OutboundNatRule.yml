@@ -1,0 +1,35 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.OutboundNatRule
+  fullName: azure.mgmt.network.models.OutboundNatRule
+  inheritance:
+  - azure.mgmt.network.models.sub_resource.SubResource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: OutboundNatRule
+  source:
+    id: OutboundNatRule
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/outbound_nat_rule.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/outbound_nat_rule.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Outbound NAT pool of the load balancer.\n\n:param id: Resource Id\n:type\
+    \ id: str\n:param allocated_outbound_ports: Gets or sets the number of outbound\n\
+    \ ports to be used for SNAT\n:type allocated_outbound_ports: int\n:param frontend_ip_configurations:\
+    \ Gets or sets Frontend IP addresses of\n the load balancer\n:type frontend_ip_configurations:\
+    \ list of :class:`SubResource\n <azure.mgmt.network.models.SubResource>`\n:param\
+    \ backend_address_pool: Gets or sets a reference to a pool of DIPs.\n Outbound\
+    \ traffic is randomly load balanced across IPs in the backend IPs\n:type backend_address_pool:\
+    \ :class:`SubResource\n <azure.mgmt.network.models.SubResource>`\n:param provisioning_state:\
+    \ Gets provisioning state of the PublicIP\n resource Updating/Deleting/Failed\n\
+    :type provisioning_state: str\n:param name: Gets name of the resource that is\
+    \ unique within a resource\n group. This name can be used to access the resource\n\
+    :type name: str\n:param etag: A unique read-only string that changes whenever\
+    \ the resource\n is updated\n:type etag: str"
+  type: Class
+  uid: azure.mgmt.network.models.OutboundNatRule

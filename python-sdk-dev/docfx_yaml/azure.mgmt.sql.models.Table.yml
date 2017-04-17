@@ -1,0 +1,33 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.sql.models.Table
+  fullName: azure.mgmt.sql.models.Table
+  inheritance:
+  - azure.mgmt.sql.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.sql.models
+  name: Table
+  source:
+    id: Table
+    path: azure-mgmt-sql/azure/mgmt/sql/models/table.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/models/table.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Represents an Azure SQL Database table.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar name: Resource\
+    \ name\n:vartype name: str\n:ivar id: Resource ID\n:vartype id: str\n:ivar type:\
+    \ Resource type\n:vartype type: str\n:param location: Resource location\n:type\
+    \ location: str\n:param tags: Resource tags\n:type tags: dict\n:ivar table_type:\
+    \ The type of Azure SQL Database table. Possible values\n include: 'BaseTable',\
+    \ 'View'\n:vartype table_type: str or :class:`TableType\n <azure.mgmt.sql.models.TableType>`\n\
+    :ivar columns: The columns from this table.\n:vartype columns: list of :class:`Column\
+    \ <azure.mgmt.sql.models.Column>`\n:ivar recommended_indexes: The recommended\
+    \ indices for this table.\n:vartype recommended_indexes: list of :class:`RecommendedIndex\n\
+    \ <azure.mgmt.sql.models.RecommendedIndex>`"
+  type: Class
+  uid: azure.mgmt.sql.models.Table

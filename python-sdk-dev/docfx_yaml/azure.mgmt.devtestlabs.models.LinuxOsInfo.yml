@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.devtestlabs.models.LinuxOsInfo
+  fullName: azure.mgmt.devtestlabs.models.LinuxOsInfo
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.devtestlabs.models
+  name: LinuxOsInfo
+  source:
+    id: LinuxOsInfo
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/linux_os_info.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/linux_os_info.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Information about a Linux OS.\n\n:param linux_os_state: The state of the\
+    \ Linux OS. Possible values include:\n 'NonDeprovisioned', 'DeprovisionRequested',\
+    \ 'DeprovisionApplied'\n:type linux_os_state: str or :class:`LinuxOsState\n <azure.mgmt.devtestlabs.models.LinuxOsState>`"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.LinuxOsInfo

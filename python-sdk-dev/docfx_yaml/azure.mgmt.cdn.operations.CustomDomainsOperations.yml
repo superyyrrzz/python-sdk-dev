@@ -1,0 +1,141 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.cdn.operations.CustomDomainsOperations.create
+  - azure.mgmt.cdn.operations.CustomDomainsOperations.delete
+  - azure.mgmt.cdn.operations.CustomDomainsOperations.get
+  - azure.mgmt.cdn.operations.CustomDomainsOperations.list_by_endpoint
+  class: azure.mgmt.cdn.operations.CustomDomainsOperations
+  fullName: azure.mgmt.cdn.operations.CustomDomainsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.cdn.operations
+  name: CustomDomainsOperations
+  source:
+    id: CustomDomainsOperations
+    path: azure-mgmt-cdn/azure/mgmt/cdn/operations/custom_domains_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/operations/custom_domains_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'CustomDomainsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.cdn.operations.CustomDomainsOperations
+- _type: method
+  class: azure.mgmt.cdn.operations.CustomDomainsOperations
+  fullName: azure.mgmt.cdn.operations.CustomDomainsOperations.create
+  module: azure.mgmt.cdn.operations
+  name: create
+  source:
+    id: create
+    path: azure-mgmt-cdn/azure/mgmt/cdn/operations/custom_domains_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/operations/custom_domains_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 180
+  summary: "Creates a new custom domain within an endpoint.\n\n:param resource_group_name:\
+    \ Name of the Resource group within the\n Azure subscription.\n:type resource_group_name:\
+    \ str\n:param profile_name: Name of the CDN profile which is unique within\n the\
+    \ resource group.\n:type profile_name: str\n:param endpoint_name: Name of the\
+    \ endpoint under the profile which is\n unique globally.\n:type endpoint_name:\
+    \ str\n:param custom_domain_name: Name of the custom domain within an\n endpoint.\n\
+    :type custom_domain_name: str\n:param host_name: The host name of the custom domain.\
+    \ Must be a domain\n name.\n:type host_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`CustomDomain\n <azure.mgmt.cdn.models.CustomDomain>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`ErrorResponseException<azure.mgmt.cdn.models.ErrorResponseException>`"
+  type: Method
+  uid: azure.mgmt.cdn.operations.CustomDomainsOperations.create
+- _type: method
+  class: azure.mgmt.cdn.operations.CustomDomainsOperations
+  fullName: azure.mgmt.cdn.operations.CustomDomainsOperations.delete
+  module: azure.mgmt.cdn.operations
+  name: delete
+  source:
+    id: delete
+    path: azure-mgmt-cdn/azure/mgmt/cdn/operations/custom_domains_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/operations/custom_domains_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 287
+  summary: "Deletes an existing custom domain within an endpoint.\n\n:param resource_group_name:\
+    \ Name of the Resource group within the\n Azure subscription.\n:type resource_group_name:\
+    \ str\n:param profile_name: Name of the CDN profile which is unique within\n the\
+    \ resource group.\n:type profile_name: str\n:param endpoint_name: Name of the\
+    \ endpoint under the profile which is\n unique globally.\n:type endpoint_name:\
+    \ str\n:param custom_domain_name: Name of the custom domain within an\n endpoint.\n\
+    :type custom_domain_name: str\n:param dict custom_headers: headers that will be\
+    \ added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`CustomDomain\n <azure.mgmt.cdn.models.CustomDomain>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`ErrorResponseException<azure.mgmt.cdn.models.ErrorResponseException>`"
+  type: Method
+  uid: azure.mgmt.cdn.operations.CustomDomainsOperations.delete
+- _type: method
+  class: azure.mgmt.cdn.operations.CustomDomainsOperations
+  fullName: azure.mgmt.cdn.operations.CustomDomainsOperations.get
+  module: azure.mgmt.cdn.operations
+  name: get
+  source:
+    id: get
+    path: azure-mgmt-cdn/azure/mgmt/cdn/operations/custom_domains_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/operations/custom_domains_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 110
+  summary: "Gets an exisitng custom domain within an endpoint.\n\n:param resource_group_name:\
+    \ Name of the Resource group within the\n Azure subscription.\n:type resource_group_name:\
+    \ str\n:param profile_name: Name of the CDN profile which is unique within\n the\
+    \ resource group.\n:type profile_name: str\n:param endpoint_name: Name of the\
+    \ endpoint under the profile which is\n unique globally.\n:type endpoint_name:\
+    \ str\n:param custom_domain_name: Name of the custom domain within an\n endpoint.\n\
+    :type custom_domain_name: str\n:param dict custom_headers: headers that will be\
+    \ added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`CustomDomain <azure.mgmt.cdn.models.CustomDomain>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`ErrorResponseException<azure.mgmt.cdn.models.ErrorResponseException>`"
+  type: Method
+  uid: azure.mgmt.cdn.operations.CustomDomainsOperations.get
+- _type: method
+  class: azure.mgmt.cdn.operations.CustomDomainsOperations
+  fullName: azure.mgmt.cdn.operations.CustomDomainsOperations.list_by_endpoint
+  module: azure.mgmt.cdn.operations
+  name: list_by_endpoint
+  source:
+    id: list_by_endpoint
+    path: azure-mgmt-cdn/azure/mgmt/cdn/operations/custom_domains_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/operations/custom_domains_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Lists all of the existing custom domains within an endpoint.\n\n:param\
+    \ resource_group_name: Name of the Resource group within the\n Azure subscription.\n\
+    :type resource_group_name: str\n:param profile_name: Name of the CDN profile which\
+    \ is unique within\n the resource group.\n:type profile_name: str\n:param endpoint_name:\
+    \ Name of the endpoint under the profile which is\n unique globally.\n:type endpoint_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`CustomDomainPaged\n <azure.mgmt.cdn.models.CustomDomainPaged>`\n\
+    :raises:\n :class:`ErrorResponseException<azure.mgmt.cdn.models.ErrorResponseException>`"
+  type: Method
+  uid: azure.mgmt.cdn.operations.CustomDomainsOperations.list_by_endpoint

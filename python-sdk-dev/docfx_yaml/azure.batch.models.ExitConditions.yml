@@ -1,0 +1,34 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.ExitConditions
+  fullName: azure.batch.models.ExitConditions
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: ExitConditions
+  source:
+    id: ExitConditions
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/exit_conditions.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/exit_conditions.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Specifies how the Batch service should respond when the task completes.\n\
+    \n:param exit_codes: A list of individual task exit codes and how the Batch\n\
+    \ service should respond to them.\n:type exit_codes: list of :class:`ExitCodeMapping\n\
+    \ <azure.batch.models.ExitCodeMapping>`\n:param exit_code_ranges: A list of task\
+    \ exit codes ranges and how the\n Batch service should respond to them.\n:type\
+    \ exit_code_ranges: list of :class:`ExitCodeRangeMapping\n <azure.batch.models.ExitCodeRangeMapping>`\n\
+    :param scheduling_error: How the Batch service should respond if the task\n fails\
+    \ with a scheduling error.\n:type scheduling_error: :class:`ExitOptions\n <azure.batch.models.ExitOptions>`\n\
+    :param default: How the Batch service should respond if the task fails\n with\
+    \ an exit condition not covered by any of the other properties \u2013 that\n is,\
+    \ any nonzero exit code not listed in the exitCodes or exitCodeRanges\n collection,\
+    \ or a scheduling error if the schedulingError property is not\n present.\n:type\
+    \ default: :class:`ExitOptions <azure.batch.models.ExitOptions>`"
+  type: Class
+  uid: azure.batch.models.ExitConditions

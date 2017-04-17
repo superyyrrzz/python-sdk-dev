@@ -1,0 +1,34 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.EffectiveRoute
+  fullName: azure.mgmt.network.models.EffectiveRoute
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: EffectiveRoute
+  source:
+    id: EffectiveRoute
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/effective_route.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/effective_route.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Effective Route.\n\n:param name: Gets the name of the user defined route.\
+    \ This is optional.\n:type name: str\n:param source: Gets who created the route.\
+    \ Possible values include:\n 'Unknown', 'User', 'VirtualNetworkGateway', 'Default'\n\
+    :type source: str or :class:`EffectiveRouteSource\n <azure.mgmt.network.models.EffectiveRouteSource>`\n\
+    :param state: Gets value of effective route. Possible values include:\n 'Active',\
+    \ 'Invalid'\n:type state: str or :class:`EffectiveRouteState\n <azure.mgmt.network.models.EffectiveRouteState>`\n\
+    :param address_prefix: Gets address prefixes of the effective routes in\n CIDR\
+    \ notation.\n:type address_prefix: list of str\n:param next_hop_ip_address: Gets\
+    \ the IP address of the next hop of the\n effective route\n:type next_hop_ip_address:\
+    \ list of str\n:param next_hop_type: Gets or sets the type of Azure hop the packet\n\
+    \ should be sent to. Possible values include: 'VirtualNetworkGateway',\n 'VnetLocal',\
+    \ 'Internet', 'VirtualAppliance', 'None'\n:type next_hop_type: str or :class:`RouteNextHopType\n\
+    \ <azure.mgmt.network.models.RouteNextHopType>`"
+  type: Class
+  uid: azure.mgmt.network.models.EffectiveRoute

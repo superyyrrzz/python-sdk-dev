@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.monitor.models.EventDataPaged
+  fullName: azure.monitor.models.EventDataPaged
+  inheritance:
+  - msrest.paging.Paged
+  - collections.abc.Iterator
+  - collections.abc.Iterable
+  - builtins.object
+  module: azure.monitor.models
+  name: EventDataPaged
+  source:
+    id: EventDataPaged
+    path: azure-monitor/azure/monitor/models/event_data_paged.py
+    remote:
+      branch: master
+      path: azure-monitor/azure/monitor/models/event_data_paged.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: A paging container for iterating over a list of EventData object
+  type: Class
+  uid: azure.monitor.models.EventDataPaged

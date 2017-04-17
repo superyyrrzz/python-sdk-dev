@@ -1,0 +1,42 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.dns.models.RecordSet
+  fullName: azure.mgmt.dns.models.RecordSet
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.dns.models
+  name: RecordSet
+  source:
+    id: RecordSet
+    path: azure-mgmt-dns/azure/mgmt/dns/models/record_set.py
+    remote:
+      branch: master
+      path: azure-mgmt-dns/azure/mgmt/dns/models/record_set.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Describes a DNS record set (a collection of DNS records with the same\
+    \ name\nand type).\n\n:param id: The ID of the record set.\n:type id: str\n:param\
+    \ name: The name of the record set.\n:type name: str\n:param type: The type of\
+    \ the record set.\n:type type: str\n:param etag: The etag of the record set.\n\
+    :type etag: str\n:param metadata: The metadata attached to the record set.\n:type\
+    \ metadata: dict\n:param ttl: The TTL (time-to-live) of the records in the record\
+    \ set.\n:type ttl: long\n:param arecords: The list of A records in the record\
+    \ set.\n:type arecords: list of :class:`ARecord <azure.mgmt.dns.models.ARecord>`\n\
+    :param aaaa_records: The list of AAAA records in the record set.\n:type aaaa_records:\
+    \ list of :class:`AaaaRecord\n <azure.mgmt.dns.models.AaaaRecord>`\n:param mx_records:\
+    \ The list of MX records in the record set.\n:type mx_records: list of :class:`MxRecord\n\
+    \ <azure.mgmt.dns.models.MxRecord>`\n:param ns_records: The list of NS records\
+    \ in the record set.\n:type ns_records: list of :class:`NsRecord\n <azure.mgmt.dns.models.NsRecord>`\n\
+    :param ptr_records: The list of PTR records in the record set.\n:type ptr_records:\
+    \ list of :class:`PtrRecord\n <azure.mgmt.dns.models.PtrRecord>`\n:param srv_records:\
+    \ The list of SRV records in the record set.\n:type srv_records: list of :class:`SrvRecord\n\
+    \ <azure.mgmt.dns.models.SrvRecord>`\n:param txt_records: The list of TXT records\
+    \ in the record set.\n:type txt_records: list of :class:`TxtRecord\n <azure.mgmt.dns.models.TxtRecord>`\n\
+    :param cname_record: The CNAME record in the  record set.\n:type cname_record:\
+    \ :class:`CnameRecord\n <azure.mgmt.dns.models.CnameRecord>`\n:param soa_record:\
+    \ The SOA record in the record set.\n:type soa_record: :class:`SoaRecord <azure.mgmt.dns.models.SoaRecord>`"
+  type: Class
+  uid: azure.mgmt.dns.models.RecordSet

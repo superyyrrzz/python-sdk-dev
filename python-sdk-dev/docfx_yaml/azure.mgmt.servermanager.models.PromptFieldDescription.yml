@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.servermanager.models.PromptFieldDescription
+  fullName: azure.mgmt.servermanager.models.PromptFieldDescription
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.servermanager.models
+  name: PromptFieldDescription
+  source:
+    id: PromptFieldDescription
+    path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/prompt_field_description.py
+    remote:
+      branch: master
+      path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/prompt_field_description.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Field description for the implementation of PSHostUserInterface.Prompt.\n\
+    \n:param name: The name of the prompt.\n:type name: str\n:param label: The label\
+    \ text of the prompt.\n:type label: str\n:param help_message: The help message\
+    \ of the prompt.\n:type help_message: str\n:param prompt_field_type_is_list: When\
+    \ set to 'true' the prompt field type\n is a list of values.\n:type prompt_field_type_is_list:\
+    \ bool\n:param prompt_field_type: Possible values include: 'String',\n 'SecureString',\
+    \ 'Credential'\n:type prompt_field_type: str or :class:`PromptFieldType\n <azure.mgmt.servermanager.models.PromptFieldType>`"
+  type: Class
+  uid: azure.mgmt.servermanager.models.PromptFieldDescription

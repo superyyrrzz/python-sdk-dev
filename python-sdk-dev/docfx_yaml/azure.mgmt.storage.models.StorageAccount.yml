@@ -1,0 +1,67 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.storage.models.StorageAccount
+  fullName: azure.mgmt.storage.models.StorageAccount
+  inheritance:
+  - azure.mgmt.storage.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.storage.models
+  name: StorageAccount
+  source:
+    id: StorageAccount
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/models/storage_account.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/models/storage_account.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The storage account.\n\nVariables are only populated by the server, and\
+    \ will be ignored when\nsending a request.\n\n:ivar id: Resource Id\n:vartype\
+    \ id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type: Resource\
+    \ type\n:vartype type: str\n:param location: Resource location\n:type location:\
+    \ str\n:param tags: Resource tags\n:type tags: dict\n:ivar sku: Gets the SKU.\n\
+    :vartype sku: :class:`Sku <azure.mgmt.storage.models.Sku>`\n:ivar kind: Gets the\
+    \ Kind. Possible values include: 'Storage',\n 'BlobStorage'\n:vartype kind: str\
+    \ or :class:`Kind <azure.mgmt.storage.models.Kind>`\n:ivar provisioning_state:\
+    \ Gets the status of the storage account at the\n time the operation was called.\
+    \ Possible values include: 'Creating',\n 'ResolvingDNS', 'Succeeded'\n:vartype\
+    \ provisioning_state: str or :class:`ProvisioningState\n <azure.mgmt.storage.models.ProvisioningState>`\n\
+    :ivar primary_endpoints: Gets the URLs that are used to perform a\n retrieval\
+    \ of a public blob, queue or table object.Note that StandardZRS\n and PremiumLRS\
+    \ accounts only return the blob endpoint.\n:vartype primary_endpoints: :class:`Endpoints\n\
+    \ <azure.mgmt.storage.models.Endpoints>`\n:ivar primary_location: Gets the location\
+    \ of the primary for the storage\n account.\n:vartype primary_location: str\n\
+    :ivar status_of_primary: Gets the status indicating whether the primary\n location\
+    \ of the storage account is available or unavailable. Possible\n values include:\
+    \ 'Available', 'Unavailable'\n:vartype status_of_primary: str or :class:`AccountStatus\n\
+    \ <azure.mgmt.storage.models.AccountStatus>`\n:ivar last_geo_failover_time: Gets\
+    \ the timestamp of the most recent\n instance of a failover to the secondary location.\
+    \ Only the most recent\n timestamp is retained. This element is not returned if\
+    \ there has never\n been a failover instance. Only available if the accountType\
+    \ is\n StandardGRS or StandardRAGRS.\n:vartype last_geo_failover_time: datetime\n\
+    :ivar secondary_location: Gets the location of the geo replicated\n secondary\
+    \ for the storage account. Only available if the accountType is\n StandardGRS\
+    \ or StandardRAGRS.\n:vartype secondary_location: str\n:ivar status_of_secondary:\
+    \ Gets the status indicating whether the\n secondary location of the storage account\
+    \ is available or unavailable.\n Only available if the accountType is StandardGRS\
+    \ or StandardRAGRS.\n Possible values include: 'Available', 'Unavailable'\n:vartype\
+    \ status_of_secondary: str or :class:`AccountStatus\n <azure.mgmt.storage.models.AccountStatus>`\n\
+    :ivar creation_time: Gets the creation date and time of the storage\n account\
+    \ in UTC.\n:vartype creation_time: datetime\n:ivar custom_domain: Gets the user\
+    \ assigned custom domain assigned to\n this storage account.\n:vartype custom_domain:\
+    \ :class:`CustomDomain\n <azure.mgmt.storage.models.CustomDomain>`\n:ivar secondary_endpoints:\
+    \ Gets the URLs that are used to perform a\n retrieval of a public blob, queue\
+    \ or table object from the secondary\n location of the storage account. Only available\
+    \ if the accountType is\n StandardRAGRS.\n:vartype secondary_endpoints: :class:`Endpoints\n\
+    \ <azure.mgmt.storage.models.Endpoints>`\n:ivar encryption: Gets the encryption\
+    \ settings on the account. If\n unspecified the account is unencrypted.\n:vartype\
+    \ encryption: :class:`Encryption\n <azure.mgmt.storage.models.Encryption>`\n:ivar\
+    \ access_tier: The access tier used for billing. Access tier cannot\n be changed\
+    \ more than once every 7 days (168 hours). Access tier cannot\n be set for StandardLRS,\
+    \ StandardGRS, StandardRAGRS, or PremiumLRS\n account types. Possible values include:\
+    \ 'Hot', 'Cool'\n:vartype access_tier: str or :class:`AccessTier\n <azure.mgmt.storage.models.AccessTier>`"
+  type: Class
+  uid: azure.mgmt.storage.models.StorageAccount

@@ -1,0 +1,340 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.compute.operations.VirtualMachinesOperations.capture
+  - azure.mgmt.compute.operations.VirtualMachinesOperations.create_or_update
+  - azure.mgmt.compute.operations.VirtualMachinesOperations.deallocate
+  - azure.mgmt.compute.operations.VirtualMachinesOperations.delete
+  - azure.mgmt.compute.operations.VirtualMachinesOperations.generalize
+  - azure.mgmt.compute.operations.VirtualMachinesOperations.get
+  - azure.mgmt.compute.operations.VirtualMachinesOperations.list
+  - azure.mgmt.compute.operations.VirtualMachinesOperations.list_all
+  - azure.mgmt.compute.operations.VirtualMachinesOperations.list_available_sizes
+  - azure.mgmt.compute.operations.VirtualMachinesOperations.power_off
+  - azure.mgmt.compute.operations.VirtualMachinesOperations.redeploy
+  - azure.mgmt.compute.operations.VirtualMachinesOperations.restart
+  - azure.mgmt.compute.operations.VirtualMachinesOperations.start
+  class: azure.mgmt.compute.operations.VirtualMachinesOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachinesOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.compute.operations
+  name: VirtualMachinesOperations
+  source:
+    id: VirtualMachinesOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machines_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machines_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 20
+  summary: 'VirtualMachinesOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    :ivar api_version: Client Api Version. Constant value: "2016-03-30".'
+  type: Class
+  uid: azure.mgmt.compute.operations.VirtualMachinesOperations
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachinesOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachinesOperations.capture
+  module: azure.mgmt.compute.operations
+  name: capture
+  source:
+    id: capture
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machines_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machines_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 39
+  summary: "Captures the VM by copying virtual hard disks of the VM and outputs a\n\
+    template that can be used to create similar VMs.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param vm_name:\
+    \ The name of the virtual machine.\n:type vm_name: str\n:param parameters: Parameters\
+    \ supplied to the Capture Virtual Machine\n operation.\n:type parameters: :class:`VirtualMachineCaptureParameters\n\
+    \ <azure.mgmt.compute.models.VirtualMachineCaptureParameters>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`VirtualMachineCaptureResult\n <azure.mgmt.compute.models.VirtualMachineCaptureResult>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachinesOperations.capture
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachinesOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachinesOperations.create_or_update
+  module: azure.mgmt.compute.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machines_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machines_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 132
+  summary: "The operation to create or update a virtual machine.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param vm_name:\
+    \ The name of the virtual machine.\n:type vm_name: str\n:param parameters: Parameters\
+    \ supplied to the Create Virtual Machine\n operation.\n:type parameters: :class:`VirtualMachine\n\
+    \ <azure.mgmt.compute.models.VirtualMachine>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`VirtualMachine\n <azure.mgmt.compute.models.VirtualMachine>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachinesOperations.create_or_update
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachinesOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachinesOperations.deallocate
+  module: azure.mgmt.compute.operations
+  name: deallocate
+  source:
+    id: deallocate
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machines_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machines_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 369
+  summary: "Shuts down the Virtual Machine and releases the compute resources. You\n\
+    are not billed for the compute resources that this Virtual Machine\nuses.\n\n\
+    :param resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param vm_name: The name of the virtual machine.\n:type vm_name: str\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachinesOperations.deallocate
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachinesOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachinesOperations.delete
+  module: azure.mgmt.compute.operations
+  name: delete
+  source:
+    id: delete
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machines_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machines_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 226
+  summary: "The operation to delete a virtual machine.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param vm_name:\
+    \ The name of the virtual machine.\n:type vm_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachinesOperations.delete
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachinesOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachinesOperations.generalize
+  module: azure.mgmt.compute.operations
+  name: generalize
+  source:
+    id: generalize
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machines_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machines_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 447
+  summary: "Sets the state of the VM as Generalized.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param vm_name:\
+    \ The name of the virtual machine.\n:type vm_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachinesOperations.generalize
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachinesOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachinesOperations.get
+  module: azure.mgmt.compute.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machines_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machines_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 302
+  summary: "The operation to get a virtual machine.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param vm_name:\
+    \ The name of the virtual machine.\n:type vm_name: str\n:param expand: The expand\
+    \ expression to apply on the operation.\n Possible values include: 'instanceView'\n\
+    :type expand: str or :class:`InstanceViewTypes\n <azure.mgmt.compute.models.InstanceViewTypes>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`VirtualMachine\n <azure.mgmt.compute.models.VirtualMachine>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachinesOperations.get
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachinesOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachinesOperations.list
+  module: azure.mgmt.compute.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machines_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machines_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 500
+  summary: "The operation to list virtual machines under a resource group.\n\n:param\
+    \ resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`VirtualMachinePaged\n <azure.mgmt.compute.models.VirtualMachinePaged>`"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachinesOperations.list
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachinesOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachinesOperations.list_all
+  module: azure.mgmt.compute.operations
+  name: list_all
+  source:
+    id: list_all
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machines_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machines_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 565
+  summary: "Gets the list of Virtual Machines in the subscription. Use nextLink\n\
+    property in the response to get the next page of Virtual Machines. Do\nthis till\
+    \ nextLink is not null to fetch all the Virtual Machines.\n\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`VirtualMachinePaged\n\
+    \ <azure.mgmt.compute.models.VirtualMachinePaged>`"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachinesOperations.list_all
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachinesOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachinesOperations.list_available_sizes
+  module: azure.mgmt.compute.operations
+  name: list_available_sizes
+  source:
+    id: list_available_sizes
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machines_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machines_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 629
+  summary: "Lists all available virtual machine sizes it can be resized to for a\n\
+    virtual machine.\n\n:param resource_group_name: The name of the resource group.\n\
+    :type resource_group_name: str\n:param vm_name: The name of the virtual machine.\n\
+    :type vm_name: str\n:param dict custom_headers: headers that will be added to\
+    \ the request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`VirtualMachineSizePaged\n <azure.mgmt.compute.models.VirtualMachineSizePaged>`"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachinesOperations.list_available_sizes
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachinesOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachinesOperations.power_off
+  module: azure.mgmt.compute.operations
+  name: power_off
+  source:
+    id: power_off
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machines_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machines_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 698
+  summary: "The operation to power off (stop) a virtual machine.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param vm_name:\
+    \ The name of the virtual machine.\n:type vm_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachinesOperations.power_off
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachinesOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachinesOperations.redeploy
+  module: azure.mgmt.compute.operations
+  name: redeploy
+  source:
+    id: redeploy
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machines_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machines_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 926
+  summary: "The operation to redeploy a virtual machine.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param vm_name:\
+    \ The name of the virtual machine.\n:type vm_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachinesOperations.redeploy
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachinesOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachinesOperations.restart
+  module: azure.mgmt.compute.operations
+  name: restart
+  source:
+    id: restart
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machines_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machines_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 774
+  summary: "The operation to restart a virtual machine.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param vm_name:\
+    \ The name of the virtual machine.\n:type vm_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachinesOperations.restart
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachinesOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachinesOperations.start
+  module: azure.mgmt.compute.operations
+  name: start
+  source:
+    id: start
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machines_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machines_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 850
+  summary: "The operation to start a virtual machine.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param vm_name:\
+    \ The name of the virtual machine.\n:type vm_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachinesOperations.start

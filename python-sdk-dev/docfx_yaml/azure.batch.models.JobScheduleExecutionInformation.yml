@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.JobScheduleExecutionInformation
+  fullName: azure.batch.models.JobScheduleExecutionInformation
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: JobScheduleExecutionInformation
+  source:
+    id: JobScheduleExecutionInformation
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/job_schedule_execution_information.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/job_schedule_execution_information.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Specifies how tasks should be run in a job associated with a job schedule.\n\
+    \n:param next_run_time: The next time at which a job will be created under\n this\
+    \ schedule.\n:type next_run_time: datetime\n:param recent_job: Information about\
+    \ the most recent job under the job\n schedule.\n:type recent_job: :class:`RecentJob\
+    \ <azure.batch.models.RecentJob>`\n:param end_time: The time at which the schedule\
+    \ ended. This property is\n set only if the job schedule is in the completed state.\n\
+    :type end_time: datetime"
+  type: Class
+  uid: azure.batch.models.JobScheduleExecutionInformation

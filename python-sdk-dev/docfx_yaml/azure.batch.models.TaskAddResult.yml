@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.TaskAddResult
+  fullName: azure.batch.models.TaskAddResult
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: TaskAddResult
+  source:
+    id: TaskAddResult
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/task_add_result.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/task_add_result.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Result for a single task added as part of an add task collection operation.\n\
+    \n:param status: The status of the add task request. Possible values\n include:\
+    \ 'success', 'clienterror', 'servererror', 'unmapped'\n:type status: str or :class:`TaskAddStatus\n\
+    \ <azure.batch.models.TaskAddStatus>`\n:param task_id: The id of the task for\
+    \ which this is the result.\n:type task_id: str\n:param e_tag: The ETag of the\
+    \ task, if the task was successfully added.\n:type e_tag: str\n:param last_modified:\
+    \ The last modified time of the task.\n:type last_modified: datetime\n:param location:\
+    \ The URL of the task, if the task was successfully added.\n:type location: str\n\
+    :param error: The error encountered while attempting to add the task.\n:type error:\
+    \ :class:`BatchError <azure.batch.models.BatchError>`"
+  type: Class
+  uid: azure.batch.models.TaskAddResult

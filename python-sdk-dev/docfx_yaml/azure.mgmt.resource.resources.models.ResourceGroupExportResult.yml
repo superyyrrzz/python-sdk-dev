@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.resources.models.ResourceGroupExportResult
+  fullName: azure.mgmt.resource.resources.models.ResourceGroupExportResult
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.resource.resources.models
+  name: ResourceGroupExportResult
+  source:
+    id: ResourceGroupExportResult
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/resource_group_export_result.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/resource_group_export_result.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "ResourceGroupExportResult.\n\n:param template: The template content.\n\
+    :type template: object\n:param error: The error.\n:type error: :class:`ResourceManagementErrorWithDetails\n\
+    \ <azure.mgmt.resource.resources.models.ResourceManagementErrorWithDetails>`"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.ResourceGroupExportResult

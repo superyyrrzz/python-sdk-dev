@@ -1,0 +1,331 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.check_job_collection_name
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.create_cloud_service
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.create_job
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.create_job_collection
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.delete_cloud_service
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.delete_job
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.delete_job_collection
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.get_all_jobs
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.get_cloud_service
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.get_job
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.get_job_collection
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.list_cloud_services
+  class: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  fullName: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  inheritance:
+  - azure.servicemanagement.servicemanagementclient._ServiceManagementClient
+  - builtins.object
+  module: azure.servicemanagement.schedulermanagementservice
+  name: SchedulerManagementService
+  source:
+    id: SchedulerManagementService
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 41
+  summary: 'Note that this class is a preliminary work on Scheduler
+
+    management. Since it lack a lot a features, final version
+
+    can be slightly different from the current one.'
+  type: Class
+  uid: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+- _type: class
+  children:
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.check_job_collection_name
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.create_cloud_service
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.create_job
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.create_job_collection
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.delete_cloud_service
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.delete_job
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.delete_job_collection
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.get_all_jobs
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.get_cloud_service
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.get_job
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.get_job_collection
+  - azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.list_cloud_services
+  class: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  fullName: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  inheritance:
+  - azure.servicemanagement.servicemanagementclient._ServiceManagementClient
+  - builtins.object
+  module: azure.servicemanagement.schedulermanagementservice
+  name: SchedulerManagementService
+  source:
+    id: SchedulerManagementService
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 41
+  summary: "Initializes the scheduler management service.\n\nsubscription_id:\n  \
+    \  Subscription to manage.\ncert_file:\n    Path to .pem certificate file (httplib),\
+    \ or location of the\n    certificate in your Personal certificate store (winhttp)\
+    \ in the\n    CURRENT_USER\\my\\CertificateName format.\n    If a request_session\
+    \ is specified, then this is unused.\nhost:\n    Live ServiceClient URL. Defaults\
+    \ to Azure public cloud.\nrequest_session:\n    Session object to use for http\
+    \ requests. If this is specified, it\n    replaces the default use of httplib\
+    \ or winhttp. Also, the cert_file\n    parameter is unused when a session is passed\
+    \ in.\n    The session object handles authentication, and as such can support\n\
+    \    multiple types of authentication: .pem certificate, oauth.\n    For example,\
+    \ you can pass in a Session instance from the requests\n    library. To use .pem\
+    \ certificate authentication with requests\n    library, set the path to the .pem\
+    \ file on the session.cert\n    attribute.\ntimeout:\n    Optional. Timeout for\
+    \ the http request, in seconds."
+  type: Class
+  uid: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+- &id001
+  _type: method
+  class: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  fullName: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.check_job_collection_name
+  module: azure.servicemanagement.schedulermanagementservice
+  name: check_job_collection_name
+  source:
+    id: check_job_collection_name
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 139
+  summary: "The Check Name Availability operation checks if a new job collection with\n\
+    the given name may be created, or if it is unavailable. The result of the\noperation\
+    \ is a Boolean true or false.\n\ncloud_service_id:\n    The cloud service id\n\
+    job_collection_id:\n    The name of the job_collection_id."
+  type: Method
+  uid: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.check_job_collection_name
+- *id001
+- &id002
+  _type: method
+  class: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  fullName: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.create_cloud_service
+  module: azure.servicemanagement.schedulermanagementservice
+  name: create_cloud_service
+  source:
+    id: create_cloud_service
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 87
+  summary: "The Create Cloud Service request creates a new cloud service. When job\n\
+    collections are created, they are hosted within a cloud service.\nA cloud service\
+    \ groups job collections together in a given region.\nOnce a cloud service has\
+    \ been created, job collections can then be\ncreated and contained within it.\n\
+    \ncloud_service_id:\n    The cloud service id\nlabel:\n    The name of the cloud\
+    \ service.\ndescription:\n    The description of the cloud service.\ngeo_region:\n\
+    \    The geographical region of the webspace that will be created."
+  type: Method
+  uid: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.create_cloud_service
+- *id002
+- &id003
+  _type: method
+  class: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  fullName: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.create_job
+  module: azure.servicemanagement.schedulermanagementservice
+  name: create_job
+  source:
+    id: create_job
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 221
+  summary: "The Create Job request creates a new job.\ncloud_service_id:\n    The\
+    \ cloud service id\njob_collection_id:\n    Name of the hosted service.\njob_id:\n\
+    \    The job id you wish to create.\njob:\n    A dictionary of the payload"
+  type: Method
+  uid: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.create_job
+- *id003
+- &id004
+  _type: method
+  class: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  fullName: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.create_job_collection
+  module: azure.servicemanagement.schedulermanagementservice
+  name: create_job_collection
+  source:
+    id: create_job_collection
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 158
+  summary: "The Create Job Collection request is specified as follows. Replace <subscription-id>\n\
+    with your subscription ID, <cloud-service-id> with your cloud service ID, and\n\
+    <job-collection-id> with the ID of the job collection you'd like to create.\n\
+    There are no \"default\" pre-existing job collections every job collection\nmust\
+    \ be manually created.\n\ncloud_service_id:\n    The cloud service id\njob_collection_id:\n\
+    \    Name of the hosted service."
+  type: Method
+  uid: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.create_job_collection
+- *id004
+- &id005
+  _type: method
+  class: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  fullName: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.delete_cloud_service
+  module: azure.servicemanagement.schedulermanagementservice
+  name: delete_cloud_service
+  source:
+    id: delete_cloud_service
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 127
+  summary: "The Get Cloud Service operation gets all the resources (job collections)\n\
+    in the cloud service.\n\ncloud_service_id:\n    The cloud service id"
+  type: Method
+  uid: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.delete_cloud_service
+- *id005
+- &id006
+  _type: method
+  class: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  fullName: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.delete_job
+  module: azure.servicemanagement.schedulermanagementservice
+  name: delete_job
+  source:
+    id: delete_job
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 244
+  summary: "The Delete Job request creates a new job.\ncloud_service_id:\n    The\
+    \ cloud service id\njob_collection_id:\n    Name of the hosted service.\njob_id:\n\
+    \    The job id you wish to create."
+  type: Method
+  uid: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.delete_job
+- *id006
+- &id007
+  _type: method
+  class: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  fullName: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.delete_job_collection
+  module: azure.servicemanagement.schedulermanagementservice
+  name: delete_job_collection
+  source:
+    id: delete_job_collection
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 183
+  summary: "The Delete Job Collection request is specified as follows. Replace <subscription-id>\n\
+    with your subscription ID, <cloud-service-id> with your cloud service ID, and\n\
+    <job-collection-id> with the ID of the job collection you'd like to delete.\n\n\
+    cloud_service_id:\n    The cloud service id\njob_collection_id:\n    Name of the\
+    \ hosted service."
+  type: Method
+  uid: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.delete_job_collection
+- *id007
+- &id008
+  _type: method
+  class: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  fullName: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.get_all_jobs
+  module: azure.servicemanagement.schedulermanagementservice
+  name: get_all_jobs
+  source:
+    id: get_all_jobs
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 287
+  summary: "The Get All Jobs operation gets all the jobs in a job collection.\nThe\
+    \ full list of jobs can be accessed by excluding any job ID in the\nGET call (i.e.\
+    \ /jobs.)\n\nThe return type is\n\ncloud_service_id:\n    The cloud service id\n\
+    job_collection_id:\n    Name of the hosted service."
+  type: Method
+  uid: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.get_all_jobs
+- *id008
+- &id009
+  _type: method
+  class: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  fullName: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.get_cloud_service
+  module: azure.servicemanagement.schedulermanagementservice
+  name: get_cloud_service
+  source:
+    id: get_cloud_service
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 115
+  summary: "The Get Cloud Service operation gets all the resources (job collections)\n\
+    in the cloud service.\n\ncloud_service_id:\n    The cloud service id"
+  type: Method
+  uid: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.get_cloud_service
+- *id009
+- &id010
+  _type: method
+  class: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  fullName: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.get_job
+  module: azure.servicemanagement.schedulermanagementservice
+  name: get_job
+  source:
+    id: get_job
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 262
+  summary: "The Get Job operation gets the details (including the current job status)\n\
+    of the specified job from the specified job collection.\n\nThe return type is\n\
+    \ncloud_service_id:\n    The cloud service id\njob_collection_id:\n    Name of\
+    \ the hosted service.\njob_id:\n    The job id you wish to create."
+  type: Method
+  uid: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.get_job
+- *id010
+- &id011
+  _type: method
+  class: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  fullName: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.get_job_collection
+  module: azure.servicemanagement.schedulermanagementservice
+  name: get_job_collection
+  source:
+    id: get_job_collection
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 204
+  summary: "The Get Job Collection operation gets the details of a job collection\n\
+    \ncloud_service_id:\n    The cloud service id\njob_collection_id:\n    Name of\
+    \ the hosted service."
+  type: Method
+  uid: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.get_job_collection
+- *id011
+- &id012
+  _type: method
+  class: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService
+  fullName: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.list_cloud_services
+  module: azure.servicemanagement.schedulermanagementservice
+  name: list_cloud_services
+  source:
+    id: list_cloud_services
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 80
+  summary: List the cloud services for scheduling defined on the account.
+  type: Method
+  uid: azure.servicemanagement.schedulermanagementservice.SchedulerManagementService.list_cloud_services
+- *id012

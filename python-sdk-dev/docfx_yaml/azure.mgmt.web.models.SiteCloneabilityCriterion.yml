@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.SiteCloneabilityCriterion
+  fullName: azure.mgmt.web.models.SiteCloneabilityCriterion
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: SiteCloneabilityCriterion
+  source:
+    id: SiteCloneabilityCriterion
+    path: azure-mgmt-web/azure/mgmt/web/models/site_cloneability_criterion.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/site_cloneability_criterion.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Represents a site cloneability criterion.
+
+
+    :param name: Name of criterion
+
+    :type name: str
+
+    :param description: Description of criterion
+
+    :type description: str'
+  type: Class
+  uid: azure.mgmt.web.models.SiteCloneabilityCriterion

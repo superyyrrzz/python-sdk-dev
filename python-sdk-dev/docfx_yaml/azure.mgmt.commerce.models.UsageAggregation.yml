@@ -1,0 +1,41 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.commerce.models.UsageAggregation
+  fullName: azure.mgmt.commerce.models.UsageAggregation
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.commerce.models
+  name: UsageAggregation
+  source:
+    id: UsageAggregation
+    path: azure-mgmt-commerce/azure/mgmt/commerce/models/usage_aggregation.py
+    remote:
+      branch: master
+      path: azure-mgmt-commerce/azure/mgmt/commerce/models/usage_aggregation.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Describes the usageAggregation.\n\n:param id: Unique Id for the usage\
+    \ aggregate.\n:type id: str\n:param name: Name of the usage aggregate.\n:type\
+    \ name: str\n:param type: Type of the resource being returned.\n:type type: str\n\
+    :param subscription_id: The subscription identifier for the Azure user.\n:type\
+    \ subscription_id: str\n:param meter_id: Unique ID for the resource that was consumed\
+    \ (aka\n ResourceID).\n:type meter_id: str\n:param usage_start_time: UTC start\
+    \ time for the usage bucket to which\n this usage aggregate belongs.\n:type usage_start_time:\
+    \ datetime\n:param usage_end_time: UTC end time for the usage bucket to which\
+    \ this\n usage aggregate belongs.\n:type usage_end_time: datetime\n:param quantity:\
+    \ The amount of the resource consumption that occurred in\n this time frame.\n\
+    :type quantity: object\n:param unit: The unit in which the usage for this resource\
+    \ is being\n counted, e.g. Hours, GB.\n:type unit: str\n:param meter_name: Friendly\
+    \ name of the resource being consumed.\n:type meter_name: str\n:param meter_category:\
+    \ Category of the consumed resource.\n:type meter_category: str\n:param meter_sub_category:\
+    \ Sub-category of the consumed resource.\n:type meter_sub_category: str\n:param\
+    \ meter_region: Region of the meterId used for billing purposes\n:type meter_region:\
+    \ str\n:param info_fields: Key-value pairs of instance details (legacy format).\n\
+    :type info_fields: :class:`InfoField\n <azure.mgmt.commerce.models.InfoField>`\n\
+    :param instance_data: Key-value pairs of instance details represented as\n a string.\n\
+    :type instance_data: str"
+  type: Class
+  uid: azure.mgmt.commerce.models.UsageAggregation

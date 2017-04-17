@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.Usage
+  fullName: azure.mgmt.network.models.Usage
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: Usage
+  source:
+    id: Usage
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/usage.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/usage.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Describes Network Resource Usage.\n\nVariables are only populated by the\
+    \ server, and will be ignored when\nsending a request.\n\n:ivar unit: Gets or\
+    \ sets an enum describing the unit of measurement.\n Default value: \"Count\"\
+    \ .\n:vartype unit: str\n:param current_value: Gets or sets the current value\
+    \ of the usage.\n:type current_value: long\n:param limit: Gets or sets the limit\
+    \ of usage.\n:type limit: long\n:param name: Gets or sets the name of the type\
+    \ of usage.\n:type name: :class:`UsageName <azure.mgmt.network.models.UsageName>`"
+  type: Class
+  uid: azure.mgmt.network.models.Usage

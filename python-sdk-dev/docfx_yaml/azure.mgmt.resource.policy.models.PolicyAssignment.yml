@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.policy.models.PolicyAssignment
+  fullName: azure.mgmt.resource.policy.models.PolicyAssignment
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.resource.policy.models
+  name: PolicyAssignment
+  source:
+    id: PolicyAssignment
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/policy/models/policy_assignment.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/policy/models/policy_assignment.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The policy definition.\n\n:param display_name: Gets or sets the policy\
+    \ assignment display name.\n:type display_name: str\n:param policy_definition_id:\
+    \ Gets or sets the policy definition Id.\n:type policy_definition_id: str\n:param\
+    \ scope: Gets or sets the scope at which the policy assignment\n exists.\n:type\
+    \ scope: str\n:param id: Gets or sets the Id of the policy assignment.\n:type\
+    \ id: str\n:param type: Gets or sets the type of the policy assignment.\n:type\
+    \ type: str\n:param name: Gets or sets the name of the policy assignment.\n:type\
+    \ name: str"
+  type: Class
+  uid: azure.mgmt.resource.policy.models.PolicyAssignment

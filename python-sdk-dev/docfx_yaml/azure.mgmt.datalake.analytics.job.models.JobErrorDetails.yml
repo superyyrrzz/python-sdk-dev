@@ -1,0 +1,45 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.datalake.analytics.job.models.JobErrorDetails
+  fullName: azure.mgmt.datalake.analytics.job.models.JobErrorDetails
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.datalake.analytics.job.models
+  name: JobErrorDetails
+  source:
+    id: JobErrorDetails
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/job/models/job_error_details.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/job/models/job_error_details.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The Data Lake Analytics job error details.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar description:\
+    \ the error message description\n:vartype description: str\n:ivar details: the\
+    \ details of the error message.\n:vartype details: str\n:ivar end_offset: the\
+    \ end offset in the job where the error was found.\n:vartype end_offset: int\n\
+    :ivar error_id: the specific identifier for the type of error encountered\n in\
+    \ the job.\n:vartype error_id: str\n:ivar file_path: the path to any supplemental\
+    \ error files, if any.\n:vartype file_path: str\n:ivar help_link: the link to\
+    \ MSDN or Azure help for this type of error, if\n any.\n:vartype help_link: str\n\
+    :ivar internal_diagnostics: the internal diagnostic stack trace if the\n user\
+    \ requesting the job error details has sufficient permissions it will\n be retrieved,\
+    \ otherwise it will be empty.\n:vartype internal_diagnostics: str\n:ivar line_number:\
+    \ the specific line number in the job where the error\n occured.\n:vartype line_number:\
+    \ int\n:ivar message: the user friendly error message for the failure.\n:vartype\
+    \ message: str\n:ivar resolution: the recommended resolution for the failure,\
+    \ if any.\n:vartype resolution: str\n:ivar inner_error: the inner error of this\
+    \ specific job error message, if\n any.\n:vartype inner_error: :class:`JobInnerError\n\
+    \ <azure.mgmt.datalake.analytics.job.models.JobInnerError>`\n:ivar severity: the\
+    \ severity level of the failure. Possible values\n include: 'Warning', 'Error',\
+    \ 'Info', 'SevereWarning', 'Deprecated',\n 'UserWarning'\n:vartype severity: str\
+    \ or :class:`SeverityTypes\n <azure.mgmt.datalake.analytics.job.models.SeverityTypes>`\n\
+    :ivar source: the ultimate source of the failure (usually either SYSTEM or\n USER).\n\
+    :vartype source: str\n:ivar start_offset: the start offset in the job where the\
+    \ error was found\n:vartype start_offset: int"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.job.models.JobErrorDetails

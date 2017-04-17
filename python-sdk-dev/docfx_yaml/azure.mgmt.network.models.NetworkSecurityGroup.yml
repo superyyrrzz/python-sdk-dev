@@ -1,0 +1,40 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.NetworkSecurityGroup
+  fullName: azure.mgmt.network.models.NetworkSecurityGroup
+  inheritance:
+  - azure.mgmt.network.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: NetworkSecurityGroup
+  source:
+    id: NetworkSecurityGroup
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/network_security_group.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/network_security_group.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "NetworkSecurityGroup resource.\n\nVariables are only populated by the\
+    \ server, and will be ignored when\nsending a request.\n\n:param id: Resource\
+    \ Id\n:type id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type:\
+    \ Resource type\n:vartype type: str\n:param location: Resource location\n:type\
+    \ location: str\n:param tags: Resource tags\n:type tags: dict\n:param security_rules:\
+    \ Gets or sets security rules of network security\n group\n:type security_rules:\
+    \ list of :class:`SecurityRule\n <azure.mgmt.network.models.SecurityRule>`\n:param\
+    \ default_security_rules: Gets or default security rules of network\n security\
+    \ group\n:type default_security_rules: list of :class:`SecurityRule\n <azure.mgmt.network.models.SecurityRule>`\n\
+    :ivar network_interfaces: Gets collection of references to Network\n Interfaces\n\
+    :vartype network_interfaces: list of :class:`NetworkInterface\n <azure.mgmt.network.models.NetworkInterface>`\n\
+    :ivar subnets: Gets collection of references to subnets\n:vartype subnets: list\
+    \ of :class:`Subnet\n <azure.mgmt.network.models.Subnet>`\n:param resource_guid:\
+    \ Gets or sets resource guid property of the network\n security group resource\n\
+    :type resource_guid: str\n:param provisioning_state: Gets provisioning state of\
+    \ the PublicIP\n resource Updating/Deleting/Failed\n:type provisioning_state:\
+    \ str\n:param etag: Gets a unique read-only string that changes whenever the\n\
+    \ resource is updated\n:type etag: str"
+  type: Class
+  uid: azure.mgmt.network.models.NetworkSecurityGroup

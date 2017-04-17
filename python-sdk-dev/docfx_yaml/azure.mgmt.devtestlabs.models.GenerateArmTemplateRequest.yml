@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.devtestlabs.models.GenerateArmTemplateRequest
+  fullName: azure.mgmt.devtestlabs.models.GenerateArmTemplateRequest
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.devtestlabs.models
+  name: GenerateArmTemplateRequest
+  source:
+    id: GenerateArmTemplateRequest
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/generate_arm_template_request.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/generate_arm_template_request.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Parameters for generating an ARM template for deploying artifacts.\n\n\
+    :param virtual_machine_name: The resource name of the virtual machine.\n:type\
+    \ virtual_machine_name: str\n:param parameters: The parameters of the ARM template.\n\
+    :type parameters: list of :class:`ParameterInfo\n <azure.mgmt.devtestlabs.models.ParameterInfo>`\n\
+    :param location: The location of the virtual machine.\n:type location: str"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.GenerateArmTemplateRequest

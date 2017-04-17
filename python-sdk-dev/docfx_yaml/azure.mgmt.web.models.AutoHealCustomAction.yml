@@ -1,0 +1,33 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.AutoHealCustomAction
+  fullName: azure.mgmt.web.models.AutoHealCustomAction
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: AutoHealCustomAction
+  source:
+    id: AutoHealCustomAction
+    path: azure-mgmt-web/azure/mgmt/web/models/auto_heal_custom_action.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/auto_heal_custom_action.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'AutoHealCustomAction - Describes the custom action to be executed
+
+    when an auto heal rule is triggered.
+
+
+    :param exe: Executable to be run
+
+    :type exe: str
+
+    :param parameters: Parameters for the executable
+
+    :type parameters: str'
+  type: Class
+  uid: azure.mgmt.web.models.AutoHealCustomAction

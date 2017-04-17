@@ -1,0 +1,61 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.monitor.operations.MetricDefinitionsOperations.list
+  class: azure.monitor.operations.MetricDefinitionsOperations
+  fullName: azure.monitor.operations.MetricDefinitionsOperations
+  inheritance:
+  - builtins.object
+  module: azure.monitor.operations
+  name: MetricDefinitionsOperations
+  source:
+    id: MetricDefinitionsOperations
+    path: azure-monitor/azure/monitor/operations/metric_definitions_operations.py
+    remote:
+      branch: master
+      path: azure-monitor/azure/monitor/operations/metric_definitions_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'MetricDefinitionsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    :ivar api_version: Client Api Version. Constant value: "2016-03-01".'
+  type: Class
+  uid: azure.monitor.operations.MetricDefinitionsOperations
+- _type: method
+  class: azure.monitor.operations.MetricDefinitionsOperations
+  fullName: azure.monitor.operations.MetricDefinitionsOperations.list
+  module: azure.monitor.operations
+  name: list
+  source:
+    id: list
+    path: azure-monitor/azure/monitor/operations/metric_definitions_operations.py
+    remote:
+      branch: master
+      path: azure-monitor/azure/monitor/operations/metric_definitions_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 38
+  summary: "Lists the metric definitions for the resource. The **$filter**\nparameter\
+    \ is optional, and can be used to only retrieve certain metric\ndefinitions. For\
+    \ example, get just the definition for the CPU\npercentage counter: $filter=name.value\
+    \ eq '\\Processor(_Total)\\%\nProcessor Time'. This $filter is very restricted\
+    \ and allows only these\n'name eq <value>' clauses separated by or operators.\
+    \ No other syntax is\nallowed.\n\n:param resource_uri: The identifier of the resource.\n\
+    :type resource_uri: str\n:param filter: Reduces the set of data collected. The\
+    \ syntax allowed\n depends on the operation. See the operation's description for\
+    \ details.\n:type filter: str\n:param dict custom_headers: headers that will be\
+    \ added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`MetricDefinitionPaged\n\
+    \ <azure.monitor.models.MetricDefinitionPaged>`\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.monitor.operations.MetricDefinitionsOperations.list

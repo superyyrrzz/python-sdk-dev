@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.servicebus.models.MessageCountDetails
+  fullName: azure.mgmt.servicebus.models.MessageCountDetails
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.servicebus.models
+  name: MessageCountDetails
+  source:
+    id: MessageCountDetails
+    path: azure-mgmt-servicebus/azure/mgmt/servicebus/models/message_count_details.py
+    remote:
+      branch: master
+      path: azure-mgmt-servicebus/azure/mgmt/servicebus/models/message_count_details.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Message Count Details.\n\n:param active_message_count: Number of active\
+    \ messages in the queue,\n topic, or subscription.\n:type active_message_count:\
+    \ long\n:param dead_letter_message_count: Number of messages that are dead\n lettered.\n\
+    :type dead_letter_message_count: long\n:param scheduled_message_count: Number\
+    \ of scheduled messages.\n:type scheduled_message_count: long\n:param transfer_dead_letter_message_count:\
+    \ Number of messages transferred\n into dead letters.\n:type transfer_dead_letter_message_count:\
+    \ long\n:param transfer_message_count: Number of messages transferred to another\n\
+    \ queue, topic, or subscription.\n:type transfer_message_count: long"
+  type: Class
+  uid: azure.mgmt.servicebus.models.MessageCountDetails

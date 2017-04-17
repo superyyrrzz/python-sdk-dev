@@ -1,0 +1,39 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.sql.SqlManagementClient
+  fullName: azure.mgmt.sql.SqlManagementClient
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.sql
+  name: SqlManagementClient
+  source:
+    id: SqlManagementClient
+    path: azure-mgmt-sql/azure/mgmt/sql/sql_management_client.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/sql_management_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 74
+  summary: "The Azure SQL Database management API provides a RESTful set of web services\
+    \ that interact with Azure SQL Database services to manage your databases. The\
+    \ API enables you to create, retrieve, update, and delete databases.\n\n:ivar\
+    \ config: Configuration for client.\n:vartype config: SqlManagementClientConfiguration\n\
+    \n:ivar servers: Servers operations\n:vartype servers: .operations.ServersOperations\n\
+    :ivar databases: Databases operations\n:vartype databases: .operations.DatabasesOperations\n\
+    :ivar elastic_pools: ElasticPools operations\n:vartype elastic_pools: .operations.ElasticPoolsOperations\n\
+    :ivar recommended_elastic_pools: RecommendedElasticPools operations\n:vartype\
+    \ recommended_elastic_pools: .operations.RecommendedElasticPoolsOperations\n\n\
+    :param credentials: Credentials needed for the client to connect to Azure.\n:type\
+    \ credentials: :mod:`A msrestazure Credentials\n object<msrestazure.azure_active_directory>`\n\
+    :param subscription_id: The subscription ID that identifies an Azure\n subscription.\n\
+    :type subscription_id: str\n:param accept_language: Gets or sets the preferred\
+    \ language for the\n response.\n:type accept_language: str\n:param long_running_operation_retry_timeout:\
+    \ Gets or sets the retry\n timeout in seconds for Long Running Operations. Default\
+    \ value is 30.\n:type long_running_operation_retry_timeout: int\n:param generate_client_request_id:\
+    \ When set to true a unique\n x-ms-client-request-id value is generated and included\
+    \ in each request.\n Default is true.\n:type generate_client_request_id: bool\n\
+    :param str base_url: Service URL\n:param str filepath: Existing config"
+  type: Class
+  uid: azure.mgmt.sql.SqlManagementClient

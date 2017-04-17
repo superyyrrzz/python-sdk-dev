@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - azure.keyvault.HttpBearerChallenge
+  - azure.keyvault.KeyVaultClient
+  - azure.keyvault.KeyVaultAuthentication
+  fullName: azure.keyvault
+  module: azure.keyvault
+  name: keyvault
+  source:
+    id: keyvault
+    path: azure-keyvault/azure/keyvault/__init__.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/__init__.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 0
+  summary: ''
+  type: Namespace
+  uid: azure.keyvault
+- _type: class
+  children: []
+  fullName: azure.keyvault
+  langs:
+  - python
+  module: azure.keyvault
+  name: keyvault.Global
+  summary: Proxy object to hold module level functions
+  type: Class
+  uid: azure.keyvault.Global

@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.LinuxConfiguration
+  fullName: azure.mgmt.compute.models.LinuxConfiguration
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: LinuxConfiguration
+  source:
+    id: LinuxConfiguration
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/linux_configuration.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/linux_configuration.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Describes Windows Configuration of the OS Profile.\n\n:param disable_password_authentication:\
+    \ whether Authentication using user\n name and password is allowed or not\n:type\
+    \ disable_password_authentication: bool\n:param ssh: the SSH configuration for\
+    \ linux VMs\n:type ssh: :class:`SshConfiguration\n <azure.mgmt.compute.models.SshConfiguration>`"
+  type: Class
+  uid: azure.mgmt.compute.models.LinuxConfiguration

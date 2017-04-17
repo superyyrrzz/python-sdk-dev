@@ -1,0 +1,35 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.ExpressRouteCircuitServiceProviderProperties
+  fullName: azure.mgmt.network.models.ExpressRouteCircuitServiceProviderProperties
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: ExpressRouteCircuitServiceProviderProperties
+  source:
+    id: ExpressRouteCircuitServiceProviderProperties
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/express_route_circuit_service_provider_properties.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/express_route_circuit_service_provider_properties.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Contains ServiceProviderProperties in an ExpressRouteCircuit.
+
+
+    :param service_provider_name: Gets or sets serviceProviderName.
+
+    :type service_provider_name: str
+
+    :param peering_location: Gets or sets peering location.
+
+    :type peering_location: str
+
+    :param bandwidth_in_mbps: Gets or sets BandwidthInMbps.
+
+    :type bandwidth_in_mbps: int'
+  type: Class
+  uid: azure.mgmt.network.models.ExpressRouteCircuitServiceProviderProperties

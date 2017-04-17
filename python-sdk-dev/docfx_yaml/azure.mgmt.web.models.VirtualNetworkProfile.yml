@@ -1,0 +1,39 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.VirtualNetworkProfile
+  fullName: azure.mgmt.web.models.VirtualNetworkProfile
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: VirtualNetworkProfile
+  source:
+    id: VirtualNetworkProfile
+    path: azure-mgmt-web/azure/mgmt/web/models/virtual_network_profile.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/virtual_network_profile.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Specification for using a virtual network.
+
+
+    :param id: Resource id of the virtual network
+
+    :type id: str
+
+    :param name: Name of the virtual network (read-only)
+
+    :type name: str
+
+    :param type: Resource type of the virtual network (read-only)
+
+    :type type: str
+
+    :param subnet: Subnet within the virtual network
+
+    :type subnet: str'
+  type: Class
+  uid: azure.mgmt.web.models.VirtualNetworkProfile

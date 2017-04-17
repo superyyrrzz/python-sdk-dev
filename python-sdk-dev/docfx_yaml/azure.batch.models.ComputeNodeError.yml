@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.ComputeNodeError
+  fullName: azure.batch.models.ComputeNodeError
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: ComputeNodeError
+  source:
+    id: ComputeNodeError
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/compute_node_error.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/compute_node_error.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "An error encountered by a compute node.\n\n:param code: An identifier\
+    \ for the compute node error. Codes are\n invariant and are intended to be consumed\
+    \ programmatically.\n:type code: str\n:param message: A message describing the\
+    \ compute node error, intended to\n be suitable for display in a user interface.\n\
+    :type message: str\n:param error_details: The list of additional error details\
+    \ related to the\n compute node error.\n:type error_details: list of :class:`NameValuePair\n\
+    \ <azure.batch.models.NameValuePair>`"
+  type: Class
+  uid: azure.batch.models.ComputeNodeError

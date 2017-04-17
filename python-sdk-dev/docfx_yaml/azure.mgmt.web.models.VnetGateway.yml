@@ -1,0 +1,59 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.VnetGateway
+  fullName: azure.mgmt.web.models.VnetGateway
+  inheritance:
+  - azure.mgmt.web.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: VnetGateway
+  source:
+    id: VnetGateway
+    path: azure-mgmt-web/azure/mgmt/web/models/vnet_gateway.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/vnet_gateway.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'The VnetGateway contract. This is used to give the vnet gateway access
+    to
+
+    the VPN package.
+
+
+    :param id: Resource Id
+
+    :type id: str
+
+    :param name: Resource Name
+
+    :type name: str
+
+    :param kind: Kind of resource
+
+    :type kind: str
+
+    :param location: Resource Location
+
+    :type location: str
+
+    :param type: Resource type
+
+    :type type: str
+
+    :param tags: Resource tags
+
+    :type tags: dict
+
+    :param vnet_name: The VNET name.
+
+    :type vnet_name: str
+
+    :param vpn_package_uri: The URI where the Vpn package can be downloaded
+
+    :type vpn_package_uri: str'
+  type: Class
+  uid: azure.mgmt.web.models.VnetGateway

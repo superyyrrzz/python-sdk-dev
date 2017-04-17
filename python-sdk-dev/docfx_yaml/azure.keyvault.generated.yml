@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated
+  module: azure.keyvault.generated
+  name: generated
+  source:
+    id: generated
+    path: azure-keyvault/azure/keyvault/generated/__init__.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/__init__.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 0
+  summary: ''
+  type: Namespace
+  uid: azure.keyvault.generated
+- _type: class
+  children: []
+  fullName: azure.keyvault.generated
+  langs:
+  - python
+  module: azure.keyvault.generated
+  name: generated.Global
+  summary: Proxy object to hold module level functions
+  type: Class
+  uid: azure.keyvault.generated.Global

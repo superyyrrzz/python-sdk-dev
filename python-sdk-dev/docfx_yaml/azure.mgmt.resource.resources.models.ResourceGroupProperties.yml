@@ -1,0 +1,32 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.resources.models.ResourceGroupProperties
+  fullName: azure.mgmt.resource.resources.models.ResourceGroupProperties
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.resource.resources.models
+  name: ResourceGroupProperties
+  source:
+    id: ResourceGroupProperties
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/resource_group_properties.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/resource_group_properties.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'The resource group properties.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar provisioning_state: The provisioning state.
+
+    :vartype provisioning_state: str'
+  type: Class
+  uid: azure.mgmt.resource.resources.models.ResourceGroupProperties

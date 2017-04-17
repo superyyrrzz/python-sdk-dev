@@ -1,0 +1,35 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.VirtualMachineScaleSetExtension
+  fullName: azure.mgmt.compute.models.VirtualMachineScaleSetExtension
+  inheritance:
+  - azure.mgmt.compute.models.sub_resource.SubResource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: VirtualMachineScaleSetExtension
+  source:
+    id: VirtualMachineScaleSetExtension
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_scale_set_extension.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_scale_set_extension.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Describes a Virtual Machine Scale Set Extension.\n\nVariables are only\
+    \ populated by the server, and will be ignored when\nsending a request.\n\n:param\
+    \ id: Resource Id\n:type id: str\n:param name: the name of the extension.\n:type\
+    \ name: str\n:param publisher: the name of the extension handler publisher.\n\
+    :type publisher: str\n:param type: the type of the extension handler.\n:type type:\
+    \ str\n:param type_handler_version: the type version of the extension handler.\n\
+    :type type_handler_version: str\n:param auto_upgrade_minor_version: whether the\
+    \ extension handler should\n be automatically upgraded across minor versions.\n\
+    :type auto_upgrade_minor_version: bool\n:param settings: Json formatted public\
+    \ settings for the extension.\n:type settings: object\n:param protected_settings:\
+    \ Json formatted protected settings for the\n extension.\n:type protected_settings:\
+    \ object\n:ivar provisioning_state: the provisioning state, which only appears\
+    \ in\n the response.\n:vartype provisioning_state: str"
+  type: Class
+  uid: azure.mgmt.compute.models.VirtualMachineScaleSetExtension

@@ -1,0 +1,52 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.SiteInstance
+  fullName: azure.mgmt.web.models.SiteInstance
+  inheritance:
+  - azure.mgmt.web.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: SiteInstance
+  source:
+    id: SiteInstance
+    path: azure-mgmt-web/azure/mgmt/web/models/site_instance.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/site_instance.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Instance of a web app.
+
+
+    :param id: Resource Id
+
+    :type id: str
+
+    :param name: Resource Name
+
+    :type name: str
+
+    :param kind: Kind of resource
+
+    :type kind: str
+
+    :param location: Resource Location
+
+    :type location: str
+
+    :param type: Resource type
+
+    :type type: str
+
+    :param tags: Resource tags
+
+    :type tags: dict
+
+    :param site_instance_name: Name of instance
+
+    :type site_instance_name: str'
+  type: Class
+  uid: azure.mgmt.web.models.SiteInstance

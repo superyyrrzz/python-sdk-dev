@@ -1,0 +1,68 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.servicebus.models.TopicResource
+  fullName: azure.mgmt.servicebus.models.TopicResource
+  inheritance:
+  - azure.mgmt.servicebus.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.servicebus.models
+  name: TopicResource
+  source:
+    id: TopicResource
+    path: azure-mgmt-servicebus/azure/mgmt/servicebus/models/topic_resource.py
+    remote:
+      branch: master
+      path: azure-mgmt-servicebus/azure/mgmt/servicebus/models/topic_resource.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Description of topic resource.\n\nVariables are only populated by the\
+    \ server, and will be ignored when\nsending a request.\n\n:ivar id: Resource Id\n\
+    :vartype id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type: Resource\
+    \ type\n:vartype type: str\n:param location: Resource location\n:type location:\
+    \ str\n:param tags: Resource tags\n:type tags: dict\n:param accessed_at: Last\
+    \ time the message was sent, or a request was\n received, for this topic.\n:type\
+    \ accessed_at: datetime\n:param auto_delete_on_idle: TimeSpan idle interval after\
+    \ which the topic\n is automatically deleted. The minimum duration is 5 minutes.\n\
+    :type auto_delete_on_idle: str\n:param entity_availability_status: Entity availability\
+    \ status for the\n topic. Possible values include: 'Available', 'Limited', 'Renaming',\n\
+    \ 'Restoring', 'Unknown'\n:type entity_availability_status: str or :class:`EntityAvailabilityStatus\n\
+    \ <azure.mgmt.servicebus.models.EntityAvailabilityStatus>`\n:param created_at:\
+    \ Exact time the message was created.\n:type created_at: datetime\n:param count_details:\n\
+    :type count_details: :class:`MessageCountDetails\n <azure.mgmt.servicebus.models.MessageCountDetails>`\n\
+    :param default_message_time_to_live: Default message time to live value.\n This\
+    \ is the duration after which the message expires, starting from when\n the message\
+    \ is sent to Service Bus. This is the default value used when\n TimeToLive is\
+    \ not set on a message itself.\n:type default_message_time_to_live: str\n:param\
+    \ duplicate_detection_history_time_window: TimeSpan structure that\n defines the\
+    \ duration of the duplicate detection history. The default\n value is 10 minutes.\n\
+    :type duplicate_detection_history_time_window: str\n:param enable_batched_operations:\
+    \ Value that indicates whether\n server-side batched operations are enabled.\n\
+    :type enable_batched_operations: bool\n:param enable_express: Value that indicates\
+    \ whether Express Entities are\n enabled. An express topic holds a message in\
+    \ memory temporarily before\n writing it to persistent storage.\n:type enable_express:\
+    \ bool\n:param enable_partitioning: Value that indicates whether the topic to\
+    \ be\n partitioned across multiple message brokers is enabled.\n:type enable_partitioning:\
+    \ bool\n:param enable_subscription_partitioning: Value that indicates whether\n\
+    \ partitioning is enabled or disabled.\n:type enable_subscription_partitioning:\
+    \ bool\n:param filtering_messages_before_publishing: Whether messages should be\n\
+    \ filtered before publishing.\n:type filtering_messages_before_publishing: bool\n\
+    :param is_anonymous_accessible: Value that indicates whether the message\n is\
+    \ accessible anonymously.\n:type is_anonymous_accessible: bool\n:param is_express:\n\
+    :type is_express: bool\n:param max_size_in_megabytes: Maximum size of the topic\
+    \ in megabytes,\n which is the size of the memory allocated for the topic.\n:type\
+    \ max_size_in_megabytes: long\n:param requires_duplicate_detection: Value indicating\
+    \ if this topic\n requires duplicate detection.\n:type requires_duplicate_detection:\
+    \ bool\n:param size_in_bytes: Size of the topic, in bytes.\n:type size_in_bytes:\
+    \ long\n:param status: Enumerates the possible values for the status of a\n messaging\
+    \ entity. Possible values include: 'Active', 'Creating',\n 'Deleting', 'Disabled',\
+    \ 'ReceiveDisabled', 'Renaming', 'Restoring',\n 'SendDisabled', 'Unknown'\n:type\
+    \ status: str or :class:`EntityStatus\n <azure.mgmt.servicebus.models.EntityStatus>`\n\
+    :param subscription_count: Number of subscriptions.\n:type subscription_count:\
+    \ int\n:param support_ordering: Value that indicates whether the topic supports\n\
+    \ ordering.\n:type support_ordering: bool\n:param updated_at: The exact time the\
+    \ message was updated.\n:type updated_at: datetime"
+  type: Class
+  uid: azure.mgmt.servicebus.models.TopicResource

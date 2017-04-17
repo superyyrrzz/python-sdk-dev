@@ -1,0 +1,133 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.network.operations.ExpressRouteCircuitAuthorizationsOperations.create_or_update
+  - azure.mgmt.network.operations.ExpressRouteCircuitAuthorizationsOperations.delete
+  - azure.mgmt.network.operations.ExpressRouteCircuitAuthorizationsOperations.get
+  - azure.mgmt.network.operations.ExpressRouteCircuitAuthorizationsOperations.list
+  class: azure.mgmt.network.operations.ExpressRouteCircuitAuthorizationsOperations
+  fullName: azure.mgmt.network.operations.ExpressRouteCircuitAuthorizationsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.network.operations
+  name: ExpressRouteCircuitAuthorizationsOperations
+  source:
+    id: ExpressRouteCircuitAuthorizationsOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuit_authorizations_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuit_authorizations_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 20
+  summary: 'ExpressRouteCircuitAuthorizationsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.network.operations.ExpressRouteCircuitAuthorizationsOperations
+- _type: method
+  class: azure.mgmt.network.operations.ExpressRouteCircuitAuthorizationsOperations
+  fullName: azure.mgmt.network.operations.ExpressRouteCircuitAuthorizationsOperations.create_or_update
+  module: azure.mgmt.network.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuit_authorizations_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuit_authorizations_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 182
+  summary: "The Put Authorization operation creates/updates an authorization in\n\
+    the specified ExpressRouteCircuits.\n\n:param resource_group_name: The name of\
+    \ the resource group.\n:type resource_group_name: str\n:param circuit_name: The\
+    \ name of the express route circuit.\n:type circuit_name: str\n:param authorization_name:\
+    \ The name of the authorization.\n:type authorization_name: str\n:param authorization_parameters:\
+    \ Parameters supplied to the\n create/update ExpressRouteCircuitAuthorization\
+    \ operation\n:type authorization_parameters:\n :class:`ExpressRouteCircuitAuthorization\n\
+    \ <azure.mgmt.network.models.ExpressRouteCircuitAuthorization>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`ExpressRouteCircuitAuthorization\n <azure.mgmt.network.models.ExpressRouteCircuitAuthorization>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.ExpressRouteCircuitAuthorizationsOperations.create_or_update
+- _type: method
+  class: azure.mgmt.network.operations.ExpressRouteCircuitAuthorizationsOperations
+  fullName: azure.mgmt.network.operations.ExpressRouteCircuitAuthorizationsOperations.delete
+  module: azure.mgmt.network.operations
+  name: delete
+  source:
+    id: delete
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuit_authorizations_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuit_authorizations_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 37
+  summary: "The delete authorization operation deletes the specified authorization\n\
+    from the specified ExpressRouteCircuit.\n\n:param resource_group_name: The name\
+    \ of the resource group.\n:type resource_group_name: str\n:param circuit_name:\
+    \ The name of the express route circuit.\n:type circuit_name: str\n:param authorization_name:\
+    \ The name of the authorization.\n:type authorization_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.ExpressRouteCircuitAuthorizationsOperations.delete
+- _type: method
+  class: azure.mgmt.network.operations.ExpressRouteCircuitAuthorizationsOperations
+  fullName: azure.mgmt.network.operations.ExpressRouteCircuitAuthorizationsOperations.get
+  module: azure.mgmt.network.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuit_authorizations_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuit_authorizations_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 117
+  summary: "The GET authorization operation retrieves the specified authorization\n\
+    from the specified ExpressRouteCircuit.\n\n:param resource_group_name: The name\
+    \ of the resource group.\n:type resource_group_name: str\n:param circuit_name:\
+    \ The name of the express route circuit.\n:type circuit_name: str\n:param authorization_name:\
+    \ The name of the authorization.\n:type authorization_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ExpressRouteCircuitAuthorization\n\
+    \ <azure.mgmt.network.models.ExpressRouteCircuitAuthorization>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.ExpressRouteCircuitAuthorizationsOperations.get
+- _type: method
+  class: azure.mgmt.network.operations.ExpressRouteCircuitAuthorizationsOperations
+  fullName: azure.mgmt.network.operations.ExpressRouteCircuitAuthorizationsOperations.list
+  module: azure.mgmt.network.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuit_authorizations_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuit_authorizations_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 281
+  summary: "The List authorization operation retrieves all the authorizations in\n\
+    an ExpressRouteCircuit.\n\n:param resource_group_name: The name of the resource\
+    \ group.\n:type resource_group_name: str\n:param circuit_name: The name of the\
+    \ circuit.\n:type circuit_name: str\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ExpressRouteCircuitAuthorizationPaged\n\
+    \ <azure.mgmt.network.models.ExpressRouteCircuitAuthorizationPaged>`"
+  type: Method
+  uid: azure.mgmt.network.operations.ExpressRouteCircuitAuthorizationsOperations.list

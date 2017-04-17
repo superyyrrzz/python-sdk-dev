@@ -1,0 +1,75 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.graphrbac.operations.ObjectsOperations.get_current_user
+  - azure.graphrbac.operations.ObjectsOperations.get_objects_by_object_ids
+  class: azure.graphrbac.operations.ObjectsOperations
+  fullName: azure.graphrbac.operations.ObjectsOperations
+  inheritance:
+  - builtins.object
+  module: azure.graphrbac.operations
+  name: ObjectsOperations
+  source:
+    id: ObjectsOperations
+    path: azure-graphrbac/azure/graphrbac/operations/objects_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/objects_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'ObjectsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.graphrbac.operations.ObjectsOperations
+- _type: method
+  class: azure.graphrbac.operations.ObjectsOperations
+  fullName: azure.graphrbac.operations.ObjectsOperations.get_current_user
+  module: azure.graphrbac.operations
+  name: get_current_user
+  source:
+    id: get_current_user
+    path: azure-graphrbac/azure/graphrbac/operations/objects_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/objects_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Gets the details for the currently logged-in user.\n\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`AADObject\
+    \ <azure.graphrbac.models.AADObject>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`"
+  type: Method
+  uid: azure.graphrbac.operations.ObjectsOperations.get_current_user
+- _type: method
+  class: azure.graphrbac.operations.ObjectsOperations
+  fullName: azure.graphrbac.operations.ObjectsOperations.get_objects_by_object_ids
+  module: azure.graphrbac.operations
+  name: get_objects_by_object_ids
+  source:
+    id: get_objects_by_object_ids
+    path: azure-graphrbac/azure/graphrbac/operations/objects_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/objects_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 92
+  summary: "Gets AD group membership for the specified AD object IDs.\n\n:param parameters:\
+    \ Objects filtering parameters.\n:type parameters: :class:`GetObjectsParameters\n\
+    \ <azure.graphrbac.models.GetObjectsParameters>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`AADObjectPaged\n\
+    \ <azure.graphrbac.models.AADObjectPaged>`\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.graphrbac.operations.ObjectsOperations.get_objects_by_object_ids

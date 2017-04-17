@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.devtestlabs.models.ResourceCostProperties
+  fullName: azure.mgmt.devtestlabs.models.ResourceCostProperties
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.devtestlabs.models
+  name: ResourceCostProperties
+  source:
+    id: ResourceCostProperties
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/resource_cost_properties.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/resource_cost_properties.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The properties of a resource cost item.\n\n:param resourcename: The name\
+    \ of the resource.\n:type resourcename: str\n:param resource_group_name: The name\
+    \ of the resource group.\n:type resource_group_name: str\n:param resource_cost:\
+    \ The cost component of the resource cost item.\n:type resource_cost: float\n\
+    :param owner: The email address of the owner of the resource\n:type owner: str\n\
+    :param category: The category of the resource. For VM this will be set to\n its\
+    \ size, for storage account it will be set to standard or premium\n:type category:\
+    \ str\n:param exists: Whether the resource still exists or not\n:type exists:\
+    \ bool\n:param resource_type: The logical resource type (ex. virtualmachine,\n\
+    \ storageaccount)\n:type resource_type: str"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.ResourceCostProperties

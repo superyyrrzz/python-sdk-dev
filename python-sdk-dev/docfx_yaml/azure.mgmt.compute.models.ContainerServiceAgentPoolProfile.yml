@@ -1,0 +1,39 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.ContainerServiceAgentPoolProfile
+  fullName: azure.mgmt.compute.models.ContainerServiceAgentPoolProfile
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: ContainerServiceAgentPoolProfile
+  source:
+    id: ContainerServiceAgentPoolProfile
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/container_service_agent_pool_profile.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/container_service_agent_pool_profile.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Profile for container service agent pool.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:param name:\
+    \ Unique name of the agent pool profile within the context of\n the subscription\
+    \ and resource group\n:type name: str\n:param count: No. of agents (VMs) that\
+    \ will host docker containers\n:type count: int\n:param vm_size: Size of agent\
+    \ VMs. Possible values include:\n 'Standard_A0', 'Standard_A1', 'Standard_A2',\
+    \ 'Standard_A3',\n 'Standard_A4', 'Standard_A5', 'Standard_A6', 'Standard_A7',\n\
+    \ 'Standard_A8', 'Standard_A9', 'Standard_A10', 'Standard_A11',\n 'Standard_D1',\
+    \ 'Standard_D2', 'Standard_D3', 'Standard_D4',\n 'Standard_D11', 'Standard_D12',\
+    \ 'Standard_D13', 'Standard_D14',\n 'Standard_D1_v2', 'Standard_D2_v2', 'Standard_D3_v2',\
+    \ 'Standard_D4_v2',\n 'Standard_D5_v2', 'Standard_D11_v2', 'Standard_D12_v2',\n\
+    \ 'Standard_D13_v2', 'Standard_D14_v2', 'Standard_G1', 'Standard_G2',\n 'Standard_G3',\
+    \ 'Standard_G4', 'Standard_G5', 'Standard_DS1',\n 'Standard_DS2', 'Standard_DS3',\
+    \ 'Standard_DS4', 'Standard_DS11',\n 'Standard_DS12', 'Standard_DS13', 'Standard_DS14',\
+    \ 'Standard_GS1',\n 'Standard_GS2', 'Standard_GS3', 'Standard_GS4', 'Standard_GS5'\n\
+    :type vm_size: str or :class:`ContainerServiceVMSizeTypes\n <azure.mgmt.compute.models.ContainerServiceVMSizeTypes>`\n\
+    :param dns_prefix: DNS prefix to be used to create FQDN for this agent\n pool\n\
+    :type dns_prefix: str\n:ivar fqdn: FDQN for the agent pool\n:vartype fqdn: str"
+  type: Class
+  uid: azure.mgmt.compute.models.ContainerServiceAgentPoolProfile

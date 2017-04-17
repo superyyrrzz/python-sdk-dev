@@ -1,0 +1,54 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.keyvault.key_vault_id.KeyVaultId
+  fullName: azure.keyvault.key_vault_id.KeyVaultId
+  inheritance:
+  - builtins.object
+  module: azure.keyvault.key_vault_id
+  name: KeyVaultId
+  source:
+    id: KeyVaultId
+    path: azure-keyvault/azure/keyvault/key_vault_id.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/key_vault_id.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 11
+  summary: An identifier for an Azure Key Vault resource.
+  type: Class
+  uid: azure.keyvault.key_vault_id.KeyVaultId
+- _type: class
+  children: []
+  class: azure.keyvault.key_vault_id.KeyVaultId
+  fullName: azure.keyvault.key_vault_id.KeyVaultId
+  inheritance:
+  - builtins.object
+  module: azure.keyvault.key_vault_id
+  name: KeyVaultId
+  source:
+    id: KeyVaultId
+    path: azure-keyvault/azure/keyvault/key_vault_id.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/key_vault_id.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 11
+  summary: ':param collection: The resource collection type.
+
+    :type collection: str
+
+    :param vault: The vault URI.
+
+    :type vault: str
+
+    :param name: The resource name.
+
+    :type name: str
+
+    :param version: The resource version.
+
+    :type version: str'
+  type: Class
+  uid: azure.keyvault.key_vault_id.KeyVaultId

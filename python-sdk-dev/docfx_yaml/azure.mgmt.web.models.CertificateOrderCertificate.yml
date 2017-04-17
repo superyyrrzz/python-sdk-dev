@@ -1,0 +1,34 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.CertificateOrderCertificate
+  fullName: azure.mgmt.web.models.CertificateOrderCertificate
+  inheritance:
+  - azure.mgmt.web.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: CertificateOrderCertificate
+  source:
+    id: CertificateOrderCertificate
+    path: azure-mgmt-web/azure/mgmt/web/models/certificate_order_certificate.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/certificate_order_certificate.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Class representing the Key Vault container for certificate purchased\n\
+    through Azure.\n\n:param id: Resource Id\n:type id: str\n:param name: Resource\
+    \ Name\n:type name: str\n:param kind: Kind of resource\n:type kind: str\n:param\
+    \ location: Resource Location\n:type location: str\n:param type: Resource type\n\
+    :type type: str\n:param tags: Resource tags\n:type tags: dict\n:param key_vault_id:\
+    \ Key Vault Csm resource Id\n:type key_vault_id: str\n:param key_vault_secret_name:\
+    \ Key Vault secret name\n:type key_vault_secret_name: str\n:param provisioning_state:\
+    \ Status of the Key Vault secret. Possible\n values include: 'Initialized', 'WaitingOnCertificateOrder',\
+    \ 'Succeeded',\n 'CertificateOrderFailed', 'OperationNotPermittedOnKeyVault',\n\
+    \ 'AzureServiceUnauthorizedToAccessKeyVault', 'KeyVaultDoesNotExist',\n 'KeyVaultSecretDoesNotExist',\
+    \ 'UnknownError', 'Unknown'\n:type provisioning_state: str or :class:`KeyVaultSecretStatus\n\
+    \ <azure.mgmt.web.models.KeyVaultSecretStatus>`"
+  type: Class
+  uid: azure.mgmt.web.models.CertificateOrderCertificate

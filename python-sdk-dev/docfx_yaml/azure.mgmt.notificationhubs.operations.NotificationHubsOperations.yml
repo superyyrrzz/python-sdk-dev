@@ -1,0 +1,340 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.notificationhubs.operations.NotificationHubsOperations.check_availability
+  - azure.mgmt.notificationhubs.operations.NotificationHubsOperations.create_or_update
+  - azure.mgmt.notificationhubs.operations.NotificationHubsOperations.create_or_update_authorization_rule
+  - azure.mgmt.notificationhubs.operations.NotificationHubsOperations.delete
+  - azure.mgmt.notificationhubs.operations.NotificationHubsOperations.delete_authorization_rule
+  - azure.mgmt.notificationhubs.operations.NotificationHubsOperations.get
+  - azure.mgmt.notificationhubs.operations.NotificationHubsOperations.get_authorization_rule
+  - azure.mgmt.notificationhubs.operations.NotificationHubsOperations.get_pns_credentials
+  - azure.mgmt.notificationhubs.operations.NotificationHubsOperations.list
+  - azure.mgmt.notificationhubs.operations.NotificationHubsOperations.list_authorization_rules
+  - azure.mgmt.notificationhubs.operations.NotificationHubsOperations.list_keys
+  - azure.mgmt.notificationhubs.operations.NotificationHubsOperations.regenerate_keys
+  class: azure.mgmt.notificationhubs.operations.NotificationHubsOperations
+  fullName: azure.mgmt.notificationhubs.operations.NotificationHubsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.notificationhubs.operations
+  name: NotificationHubsOperations
+  source:
+    id: NotificationHubsOperations
+    path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'NotificationHubsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.notificationhubs.operations.NotificationHubsOperations
+- _type: method
+  class: azure.mgmt.notificationhubs.operations.NotificationHubsOperations
+  fullName: azure.mgmt.notificationhubs.operations.NotificationHubsOperations.check_availability
+  module: azure.mgmt.notificationhubs.operations
+  name: check_availability
+  source:
+    id: check_availability
+    path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Checks the availability of the given notificationHub in a namespace.\n\
+    \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param namespace_name: The namespace name.\n:type namespace_name: str\n\
+    :param parameters: The notificationHub name.\n:type parameters: :class:`CheckAvailabilityParameters\n\
+    \ <azure.mgmt.notificationhubs.models.CheckAvailabilityParameters>`\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ :class:`CheckAvailabilityResult\n <azure.mgmt.notificationhubs.models.CheckAvailabilityResult>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.notificationhubs.operations.NotificationHubsOperations.check_availability
+- _type: method
+  class: azure.mgmt.notificationhubs.operations.NotificationHubsOperations
+  fullName: azure.mgmt.notificationhubs.operations.NotificationHubsOperations.create_or_update
+  module: azure.mgmt.notificationhubs.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 104
+  summary: "Creates/Update a NotificationHub in a namespace.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
+    \ The namespace name.\n:type namespace_name: str\n:param notification_hub_name:\
+    \ The notification hub name.\n:type notification_hub_name: str\n:param parameters:\
+    \ Parameters supplied to the create/update a\n NotificationHub Resource.\n:type\
+    \ parameters: :class:`NotificationHubCreateOrUpdateParameters\n <azure.mgmt.notificationhubs.models.NotificationHubCreateOrUpdateParameters>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`NotificationHubResource\n <azure.mgmt.notificationhubs.models.NotificationHubResource>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.notificationhubs.operations.NotificationHubsOperations.create_or_update
+- _type: method
+  class: azure.mgmt.notificationhubs.operations.NotificationHubsOperations
+  fullName: azure.mgmt.notificationhubs.operations.NotificationHubsOperations.create_or_update_authorization_rule
+  module: azure.mgmt.notificationhubs.operations
+  name: create_or_update_authorization_rule
+  source:
+    id: create_or_update_authorization_rule
+    path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 298
+  summary: "Creates/Updates an authorization rule for a NotificationHub.\n\n:param\
+    \ resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param namespace_name: The namespace name.\n:type namespace_name: str\n\
+    :param notification_hub_name: The notification hub name.\n:type notification_hub_name:\
+    \ str\n:param authorization_rule_name: Authorization Rule Name.\n:type authorization_rule_name:\
+    \ str\n:param parameters: The shared access authorization rule.\n:type parameters:\n\
+    \ :class:`SharedAccessAuthorizationRuleCreateOrUpdateParameters\n <azure.mgmt.notificationhubs.models.SharedAccessAuthorizationRuleCreateOrUpdateParameters>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`SharedAccessAuthorizationRuleResource\n <azure.mgmt.notificationhubs.models.SharedAccessAuthorizationRuleResource>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.notificationhubs.operations.NotificationHubsOperations.create_or_update_authorization_rule
+- _type: method
+  class: azure.mgmt.notificationhubs.operations.NotificationHubsOperations
+  fullName: azure.mgmt.notificationhubs.operations.NotificationHubsOperations.delete
+  module: azure.mgmt.notificationhubs.operations
+  name: delete
+  source:
+    id: delete
+    path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 178
+  summary: "Deletes a notification hub associated with a namespace.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
+    \ The namespace name.\n:type namespace_name: str\n:param notification_hub_name:\
+    \ The notification hub name.\n:type notification_hub_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.notificationhubs.operations.NotificationHubsOperations.delete
+- _type: method
+  class: azure.mgmt.notificationhubs.operations.NotificationHubsOperations
+  fullName: azure.mgmt.notificationhubs.operations.NotificationHubsOperations.delete_authorization_rule
+  module: azure.mgmt.notificationhubs.operations
+  name: delete_authorization_rule
+  source:
+    id: delete_authorization_rule
+    path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 373
+  summary: "Deletes a notificationHub authorization rule.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
+    \ The namespace name.\n:type namespace_name: str\n:param notification_hub_name:\
+    \ The notification hub name.\n:type notification_hub_name: str\n:param authorization_rule_name:\
+    \ Authorization Rule Name.\n:type authorization_rule_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.notificationhubs.operations.NotificationHubsOperations.delete_authorization_rule
+- _type: method
+  class: azure.mgmt.notificationhubs.operations.NotificationHubsOperations
+  fullName: azure.mgmt.notificationhubs.operations.NotificationHubsOperations.get
+  module: azure.mgmt.notificationhubs.operations
+  name: get
+  source:
+    id: get
+    path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 234
+  summary: "Lists the notification hubs associated with a namespace.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
+    \ The namespace name.\n:type namespace_name: str\n:param notification_hub_name:\
+    \ The notification hub name.\n:type notification_hub_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`NotificationHubResource\n\
+    \ <azure.mgmt.notificationhubs.models.NotificationHubResource>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.notificationhubs.operations.NotificationHubsOperations.get
+- _type: method
+  class: azure.mgmt.notificationhubs.operations.NotificationHubsOperations
+  fullName: azure.mgmt.notificationhubs.operations.NotificationHubsOperations.get_authorization_rule
+  module: azure.mgmt.notificationhubs.operations
+  name: get_authorization_rule
+  source:
+    id: get_authorization_rule
+    path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 432
+  summary: "Gets an authorization rule for a NotificationHub by name.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
+    \ The namespace name\n:type namespace_name: str\n:param notification_hub_name:\
+    \ The notification hub name.\n:type notification_hub_name: str\n:param authorization_rule_name:\
+    \ authorization rule name.\n:type authorization_rule_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`SharedAccessAuthorizationRuleResource\n\
+    \ <azure.mgmt.notificationhubs.models.SharedAccessAuthorizationRuleResource>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.notificationhubs.operations.NotificationHubsOperations.get_authorization_rule
+- _type: method
+  class: azure.mgmt.notificationhubs.operations.NotificationHubsOperations
+  fullName: azure.mgmt.notificationhubs.operations.NotificationHubsOperations.get_pns_credentials
+  module: azure.mgmt.notificationhubs.operations
+  name: get_pns_credentials
+  source:
+    id: get_pns_credentials
+    path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 786
+  summary: "Lists the PNS Credentials associated with a notification hub .\n\n:param\
+    \ resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param namespace_name: The namespace name.\n:type namespace_name: str\n\
+    :param notification_hub_name: The notification hub name.\n:type notification_hub_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`PnsCredentialsResource\n <azure.mgmt.notificationhubs.models.PnsCredentialsResource>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.notificationhubs.operations.NotificationHubsOperations.get_pns_credentials
+- _type: method
+  class: azure.mgmt.notificationhubs.operations.NotificationHubsOperations
+  fullName: azure.mgmt.notificationhubs.operations.NotificationHubsOperations.list
+  module: azure.mgmt.notificationhubs.operations
+  name: list
+  source:
+    id: list
+    path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 499
+  summary: "Lists the notification hubs associated with a namespace.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
+    \ The namespace name.\n:type namespace_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`NotificationHubResourcePaged\n\
+    \ <azure.mgmt.notificationhubs.models.NotificationHubResourcePaged>`"
+  type: Method
+  uid: azure.mgmt.notificationhubs.operations.NotificationHubsOperations.list
+- _type: method
+  class: azure.mgmt.notificationhubs.operations.NotificationHubsOperations
+  fullName: azure.mgmt.notificationhubs.operations.NotificationHubsOperations.list_authorization_rules
+  module: azure.mgmt.notificationhubs.operations
+  name: list_authorization_rules
+  source:
+    id: list_authorization_rules
+    path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 567
+  summary: "Gets the authorization rules for a NotificationHub.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
+    \ The namespace name\n:type namespace_name: str\n:param notification_hub_name:\
+    \ The notification hub name.\n:type notification_hub_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`SharedAccessAuthorizationRuleResourcePaged\n\
+    \ <azure.mgmt.notificationhubs.models.SharedAccessAuthorizationRuleResourcePaged>`"
+  type: Method
+  uid: azure.mgmt.notificationhubs.operations.NotificationHubsOperations.list_authorization_rules
+- _type: method
+  class: azure.mgmt.notificationhubs.operations.NotificationHubsOperations
+  fullName: azure.mgmt.notificationhubs.operations.NotificationHubsOperations.list_keys
+  module: azure.mgmt.notificationhubs.operations
+  name: list_keys
+  source:
+    id: list_keys
+    path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 638
+  summary: "Gets the Primary and Secondary ConnectionStrings to the\nNotificationHub\
+    \ .\n\n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param namespace_name: The namespace name.\n:type namespace_name: str\n\
+    :param notification_hub_name: The notification hub name.\n:type notification_hub_name:\
+    \ str\n:param authorization_rule_name: The connection string of the\n NotificationHub\
+    \ for the specified authorizationRule.\n:type authorization_rule_name: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`ResourceListKeys\n <azure.mgmt.notificationhubs.models.ResourceListKeys>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.notificationhubs.operations.NotificationHubsOperations.list_keys
+- _type: method
+  class: azure.mgmt.notificationhubs.operations.NotificationHubsOperations
+  fullName: azure.mgmt.notificationhubs.operations.NotificationHubsOperations.regenerate_keys
+  module: azure.mgmt.notificationhubs.operations
+  name: regenerate_keys
+  source:
+    id: regenerate_keys
+    path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 707
+  summary: "Regenerates the Primary/Secondary Keys to the NotificationHub\nAuthorization\
+    \ Rule.\n\n:param resource_group_name: The name of the resource group.\n:type\
+    \ resource_group_name: str\n:param namespace_name: The namespace name.\n:type\
+    \ namespace_name: str\n:param notification_hub_name: The notification hub name.\n\
+    :type notification_hub_name: str\n:param authorization_rule_name: The connection\
+    \ string of the\n NotificationHub for the specified authorizationRule.\n:type\
+    \ authorization_rule_name: str\n:param policy_key: Name of the key that has to\
+    \ be regenerated for the\n Namespace/Notification Hub Authorization Rule. The\
+    \ value can be\n Primary Key/Secondary Key.\n:type policy_key: str\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ :class:`ResourceListKeys\n <azure.mgmt.notificationhubs.models.ResourceListKeys>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.notificationhubs.operations.NotificationHubsOperations.regenerate_keys

@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.ExitOptions
+  fullName: azure.batch.models.ExitOptions
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: ExitOptions
+  source:
+    id: ExitOptions
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/exit_options.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/exit_options.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "How the Batch service should respond to a particular exit condition.\n\
+    \n:param job_action: An action to take on the job containing the task, if\n the\
+    \ task completes with the given exit condition and the job\u2019s\n onTaskFailed\
+    \ property is 'performexitoptionsjobaction'. Possible values\n include: 'none',\
+    \ 'disable', 'terminate'\n:type job_action: str or :class:`JobAction <azure.batch.models.JobAction>`"
+  type: Class
+  uid: azure.batch.models.ExitOptions

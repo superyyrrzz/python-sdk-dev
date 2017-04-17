@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.datalake.analytics.catalog.models.CatalogItem
+  fullName: azure.mgmt.datalake.analytics.catalog.models.CatalogItem
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.datalake.analytics.catalog.models
+  name: CatalogItem
+  source:
+    id: CatalogItem
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/models/catalog_item.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/models/catalog_item.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'A Data Lake Analytics catalog item.
+
+
+    :param compute_account_name: the name of the Data Lake Analytics account.
+
+    :type compute_account_name: str
+
+    :param version: the version of the catalog item.
+
+    :type version: str'
+  type: Class
+  uid: azure.mgmt.datalake.analytics.catalog.models.CatalogItem

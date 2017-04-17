@@ -1,0 +1,34 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.VirtualMachineInstanceView
+  fullName: azure.mgmt.compute.models.VirtualMachineInstanceView
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: VirtualMachineInstanceView
+  source:
+    id: VirtualMachineInstanceView
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_instance_view.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_instance_view.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The instance view of a virtual machine.\n\n:param platform_update_domain:\
+    \ the Update Domain count.\n:type platform_update_domain: int\n:param platform_fault_domain:\
+    \ the Fault Domain count.\n:type platform_fault_domain: int\n:param rdp_thumb_print:\
+    \ the Remote desktop certificate thumbprint.\n:type rdp_thumb_print: str\n:param\
+    \ vm_agent: the VM Agent running on the virtual machine.\n:type vm_agent: :class:`VirtualMachineAgentInstanceView\n\
+    \ <azure.mgmt.compute.models.VirtualMachineAgentInstanceView>`\n:param disks:\
+    \ the disks information.\n:type disks: list of :class:`DiskInstanceView\n <azure.mgmt.compute.models.DiskInstanceView>`\n\
+    :param extensions: the extensions information.\n:type extensions: list of :class:`VirtualMachineExtensionInstanceView\n\
+    \ <azure.mgmt.compute.models.VirtualMachineExtensionInstanceView>`\n:param boot_diagnostics:\
+    \ the boot diagnostics.\n:type boot_diagnostics: :class:`BootDiagnosticsInstanceView\n\
+    \ <azure.mgmt.compute.models.BootDiagnosticsInstanceView>`\n:param statuses: the\
+    \ resource status information.\n:type statuses: list of :class:`InstanceViewStatus\n\
+    \ <azure.mgmt.compute.models.InstanceViewStatus>`"
+  type: Class
+  uid: azure.mgmt.compute.models.VirtualMachineInstanceView

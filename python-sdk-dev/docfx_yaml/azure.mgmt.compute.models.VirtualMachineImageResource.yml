@@ -1,0 +1,40 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.VirtualMachineImageResource
+  fullName: azure.mgmt.compute.models.VirtualMachineImageResource
+  inheritance:
+  - azure.mgmt.compute.models.sub_resource.SubResource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: VirtualMachineImageResource
+  source:
+    id: VirtualMachineImageResource
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_image_resource.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_image_resource.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Virtual machine image resource information.
+
+
+    :param id: Resource Id
+
+    :type id: str
+
+    :param name: the name of the resource.
+
+    :type name: str
+
+    :param location: the location of the resource.
+
+    :type location: str
+
+    :param tags: the tags attached to the resource.
+
+    :type tags: dict'
+  type: Class
+  uid: azure.mgmt.compute.models.VirtualMachineImageResource

@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.Experiments
+  fullName: azure.mgmt.web.models.Experiments
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: Experiments
+  source:
+    id: Experiments
+    path: azure-mgmt-web/azure/mgmt/web/models/experiments.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/experiments.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Class containing Routing in production experiments.\n\n:param ramp_up_rules:\
+    \ List of\n {Microsoft.Web.Hosting.Administration.RampUpRule} objects.\n:type\
+    \ ramp_up_rules: list of :class:`RampUpRule\n <azure.mgmt.web.models.RampUpRule>`"
+  type: Class
+  uid: azure.mgmt.web.models.Experiments

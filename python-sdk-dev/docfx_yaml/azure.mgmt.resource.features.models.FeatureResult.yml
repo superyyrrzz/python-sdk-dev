@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.features.models.FeatureResult
+  fullName: azure.mgmt.resource.features.models.FeatureResult
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.resource.features.models
+  name: FeatureResult
+  source:
+    id: FeatureResult
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/features/models/feature_result.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/features/models/feature_result.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Previewed feature information.\n\n:param name: Gets or sets the name of\
+    \ the feature.\n:type name: str\n:param properties: Gets or sets the properties\
+    \ of the previewed feature.\n:type properties: :class:`FeatureProperties\n <azure.mgmt.resource.feature.models.FeatureProperties>`\n\
+    :param id: Gets or sets the Id of the feature.\n:type id: str\n:param type: Gets\
+    \ or sets the type of the feature.\n:type type: str"
+  type: Class
+  uid: azure.mgmt.resource.features.models.FeatureResult

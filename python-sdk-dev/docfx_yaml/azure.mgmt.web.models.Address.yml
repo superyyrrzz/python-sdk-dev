@@ -1,0 +1,47 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.Address
+  fullName: azure.mgmt.web.models.Address
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: Address
+  source:
+    id: Address
+    path: azure-mgmt-web/azure/mgmt/web/models/address.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/address.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Address information for domain registration.
+
+
+    :param address1: Address 1
+
+    :type address1: str
+
+    :param address2: Address 2
+
+    :type address2: str
+
+    :param city: City
+
+    :type city: str
+
+    :param country: Country
+
+    :type country: str
+
+    :param postal_code: Postal code
+
+    :type postal_code: str
+
+    :param state: State
+
+    :type state: str'
+  type: Class
+  uid: azure.mgmt.web.models.Address

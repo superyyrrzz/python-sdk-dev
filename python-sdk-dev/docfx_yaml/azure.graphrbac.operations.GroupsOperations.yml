@@ -1,0 +1,247 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.graphrbac.operations.GroupsOperations.add_member
+  - azure.graphrbac.operations.GroupsOperations.create
+  - azure.graphrbac.operations.GroupsOperations.delete
+  - azure.graphrbac.operations.GroupsOperations.get
+  - azure.graphrbac.operations.GroupsOperations.get_group_members
+  - azure.graphrbac.operations.GroupsOperations.get_member_groups
+  - azure.graphrbac.operations.GroupsOperations.is_member_of
+  - azure.graphrbac.operations.GroupsOperations.list
+  - azure.graphrbac.operations.GroupsOperations.remove_member
+  class: azure.graphrbac.operations.GroupsOperations
+  fullName: azure.graphrbac.operations.GroupsOperations
+  inheritance:
+  - builtins.object
+  module: azure.graphrbac.operations
+  name: GroupsOperations
+  source:
+    id: GroupsOperations
+    path: azure-graphrbac/azure/graphrbac/operations/groups_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/groups_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 18
+  summary: 'GroupsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    :ivar api_version: Client API version. Constant value: "1.6".'
+  type: Class
+  uid: azure.graphrbac.operations.GroupsOperations
+- _type: method
+  class: azure.graphrbac.operations.GroupsOperations
+  fullName: azure.graphrbac.operations.GroupsOperations.add_member
+  module: azure.graphrbac.operations
+  name: add_member
+  source:
+    id: add_member
+    path: azure-graphrbac/azure/graphrbac/operations/groups_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/groups_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 158
+  summary: "Add a member to a group.\n\n:param group_object_id: The object ID of the\
+    \ group to which to add the\n member.\n:type group_object_id: str\n:param url:\
+    \ A member object URL, such as\n \"https://graph.windows.net/0b1f9851-1bf0-433f-aec3-cb9272f093dc/directoryObjects/f260bbc4-c254-447b-94cf-293b5ec434dd\"\
+    ,\n where \"0b1f9851-1bf0-433f-aec3-cb9272f093dc\" is the tenantId and\n \"f260bbc4-c254-447b-94cf-293b5ec434dd\"\
+    \ is the objectId of the member\n (user, application, servicePrincipal, group)\
+    \ to be added.\n:type url: str\n:param dict custom_headers: headers that will\
+    \ be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`"
+  type: Method
+  uid: azure.graphrbac.operations.GroupsOperations.add_member
+- _type: method
+  class: azure.graphrbac.operations.GroupsOperations
+  fullName: azure.graphrbac.operations.GroupsOperations.create
+  module: azure.graphrbac.operations
+  name: create
+  source:
+    id: create
+    path: azure-graphrbac/azure/graphrbac/operations/groups_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/groups_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 271
+  summary: "Create a group in the directory.\n\n:param display_name: Group display\
+    \ name\n:type display_name: str\n:param mail_nickname: Mail nickname\n:type mail_nickname:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`ADGroup <azure.graphrbac.models.ADGroup>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`"
+  type: Method
+  uid: azure.graphrbac.operations.GroupsOperations.create
+- _type: method
+  class: azure.graphrbac.operations.GroupsOperations
+  fullName: azure.graphrbac.operations.GroupsOperations.delete
+  module: azure.graphrbac.operations
+  name: delete
+  source:
+    id: delete
+    path: azure-graphrbac/azure/graphrbac/operations/groups_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/groups_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 221
+  summary: "Delete a group from the directory.\n\n:param group_object_id: The object\
+    \ ID of the group to delete.\n:type group_object_id: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`"
+  type: Method
+  uid: azure.graphrbac.operations.GroupsOperations.delete
+- _type: method
+  class: azure.graphrbac.operations.GroupsOperations
+  fullName: azure.graphrbac.operations.GroupsOperations.get
+  module: azure.graphrbac.operations
+  name: get
+  source:
+    id: get
+    path: azure-graphrbac/azure/graphrbac/operations/groups_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/groups_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 478
+  summary: "Gets group information from the directory.\n\n:param object_id: The object\
+    \ ID of the user for which to get group\n information.\n:type object_id: str\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`ADGroup <azure.graphrbac.models.ADGroup>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`"
+  type: Method
+  uid: azure.graphrbac.operations.GroupsOperations.get
+- _type: method
+  class: azure.graphrbac.operations.GroupsOperations
+  fullName: azure.graphrbac.operations.GroupsOperations.get_group_members
+  module: azure.graphrbac.operations
+  name: get_group_members
+  source:
+    id: get_group_members
+    path: azure-graphrbac/azure/graphrbac/operations/groups_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/groups_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 406
+  summary: "Gets the members of a group.\n\n:param object_id: The object ID of the\
+    \ group whose members should be\n retrieved.\n:type object_id: str\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ :class:`AADObjectPaged\n <azure.graphrbac.models.AADObjectPaged>`\n:raises:\n\
+    \ :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`"
+  type: Method
+  uid: azure.graphrbac.operations.GroupsOperations.get_group_members
+- _type: method
+  class: azure.graphrbac.operations.GroupsOperations
+  fullName: azure.graphrbac.operations.GroupsOperations.get_member_groups
+  module: azure.graphrbac.operations
+  name: get_member_groups
+  source:
+    id: get_member_groups
+    path: azure-graphrbac/azure/graphrbac/operations/groups_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/groups_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 536
+  summary: "Gets a collection of object IDs of groups of which the specified group\n\
+    is a member.\n\n:param object_id: The object ID of the group for which to get\
+    \ group\n membership.\n:type object_id: str\n:param security_enabled_only: If\
+    \ true, only membership in\n security-enabled groups should be checked. Otherwise,\
+    \ membership in\n all groups should be checked.\n:type security_enabled_only:\
+    \ bool\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`StrPaged <azure.graphrbac.models.StrPaged>`\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`"
+  type: Method
+  uid: azure.graphrbac.operations.GroupsOperations.get_member_groups
+- _type: method
+  class: azure.graphrbac.operations.GroupsOperations
+  fullName: azure.graphrbac.operations.GroupsOperations.is_member_of
+  module: azure.graphrbac.operations
+  name: is_member_of
+  source:
+    id: is_member_of
+    path: azure-graphrbac/azure/graphrbac/operations/groups_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/groups_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 37
+  summary: "Checks whether the specified user, group, contact, or service principal\n\
+    is a direct or transitive member of the specified group.\n\n:param group_id: The\
+    \ object ID of the group to check.\n:type group_id: str\n:param member_id: The\
+    \ object ID of the contact, group, user, or\n service principal to check for membership\
+    \ in the specified group.\n:type member_id: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`CheckGroupMembershipResult\n\
+    \ <azure.graphrbac.models.CheckGroupMembershipResult>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`"
+  type: Method
+  uid: azure.graphrbac.operations.GroupsOperations.is_member_of
+- _type: method
+  class: azure.graphrbac.operations.GroupsOperations
+  fullName: azure.graphrbac.operations.GroupsOperations.list
+  module: azure.graphrbac.operations
+  name: list
+  source:
+    id: list
+    path: azure-graphrbac/azure/graphrbac/operations/groups_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/groups_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 335
+  summary: "Gets list of groups for the current tenant.\n\n:param filter: The filter\
+    \ to apply to the operation.\n:type filter: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ADGroupPaged\
+    \ <azure.graphrbac.models.ADGroupPaged>`\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`"
+  type: Method
+  uid: azure.graphrbac.operations.GroupsOperations.list
+- _type: method
+  class: azure.graphrbac.operations.GroupsOperations
+  fullName: azure.graphrbac.operations.GroupsOperations.remove_member
+  module: azure.graphrbac.operations
+  name: remove_member
+  source:
+    id: remove_member
+    path: azure-graphrbac/azure/graphrbac/operations/groups_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/groups_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 104
+  summary: "Remove a member from a group.\n\n:param group_object_id: The object ID\
+    \ of the group from which to\n remove the member.\n:type group_object_id: str\n\
+    :param member_object_id: Member object id\n:type member_object_id: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`"
+  type: Method
+  uid: azure.graphrbac.operations.GroupsOperations.remove_member

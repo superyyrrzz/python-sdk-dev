@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.sql.models.UpgradeHint
+  fullName: azure.mgmt.sql.models.UpgradeHint
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.sql.models
+  name: UpgradeHint
+  source:
+    id: UpgradeHint
+    path: azure-mgmt-sql/azure/mgmt/sql/models/upgrade_hint.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/models/upgrade_hint.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Represents a Upgrade Hint.\n\n:param target_service_level_objective: TargetServiceLevelObjective\
+    \ for\n upgrade hint.\n:type target_service_level_objective: str\n:param target_service_level_objective_id:\
+    \ TargetServiceLevelObjectiveId\n for upgrade hint.\n:type target_service_level_objective_id:\
+    \ str"
+  type: Class
+  uid: azure.mgmt.sql.models.UpgradeHint

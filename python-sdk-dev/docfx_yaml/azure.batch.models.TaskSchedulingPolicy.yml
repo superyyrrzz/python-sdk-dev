@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.TaskSchedulingPolicy
+  fullName: azure.batch.models.TaskSchedulingPolicy
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: TaskSchedulingPolicy
+  source:
+    id: TaskSchedulingPolicy
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/task_scheduling_policy.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/task_scheduling_policy.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Specifies how tasks should be distributed across compute nodes.\n\n:param\
+    \ node_fill_type: How tasks should be distributed across compute\n nodes. Possible\
+    \ values include: 'spread', 'pack', 'unmapped'\n:type node_fill_type: str or :class:`ComputeNodeFillType\n\
+    \ <azure.batch.models.ComputeNodeFillType>`"
+  type: Class
+  uid: azure.batch.models.TaskSchedulingPolicy

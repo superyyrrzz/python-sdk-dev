@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.ConnectionResetSharedKey
+  fullName: azure.mgmt.network.models.ConnectionResetSharedKey
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: ConnectionResetSharedKey
+  source:
+    id: ConnectionResetSharedKey
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/connection_reset_shared_key.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/connection_reset_shared_key.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'ConnectionResetSharedKey.
+
+
+    :param key_length: The virtual network connection reset shared key length
+
+    :type key_length: long'
+  type: Class
+  uid: azure.mgmt.network.models.ConnectionResetSharedKey

@@ -1,0 +1,45 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.VirtualNetworkPeering
+  fullName: azure.mgmt.network.models.VirtualNetworkPeering
+  inheritance:
+  - azure.mgmt.network.models.sub_resource.SubResource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: VirtualNetworkPeering
+  source:
+    id: VirtualNetworkPeering
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/virtual_network_peering.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/virtual_network_peering.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Peerings in a VirtualNework resource.\n\n:param id: Resource Id\n:type\
+    \ id: str\n:param allow_virtual_network_access: Gets or sets whether the VMs in\
+    \ the\n linked virtual network space would be able to access all the VMs in\n\
+    \ local Virtual network space\n:type allow_virtual_network_access: bool\n:param\
+    \ allow_forwarded_traffic: Gets or sets whether the forwarded\n traffic from the\
+    \ VMs in the remote virtual network will be\n allowed/disallowed\n:type allow_forwarded_traffic:\
+    \ bool\n:param allow_gateway_transit: Gets or sets if gatewayLinks can be used\
+    \ in\n remote virtual network\u2019s link to this virtual network\n:type allow_gateway_transit:\
+    \ bool\n:param use_remote_gateways: Gets or sets if remote gateways can be used\n\
+    \ on this virtual network. If the flag is set to true, and\n allowGatewayTransit\
+    \ on remote peering is also true, virtual network will\n use gateways of remote\
+    \ virtual network for transit. Only 1 peering can\n have this flag set to true.\
+    \ This flag cannot be set if virtual network\n already has a gateway.\n:type use_remote_gateways:\
+    \ bool\n:param remote_virtual_network: Gets or sets the reference of the remote\n\
+    \ virtual network\n:type remote_virtual_network: :class:`SubResource\n <azure.mgmt.network.models.SubResource>`\n\
+    :param peering_state: Gets the status of the virtual network peering.\n Possible\
+    \ values include: 'Initiated', 'Connected', 'Disconnected'\n:type peering_state:\
+    \ str or :class:`VirtualNetworkPeeringState\n <azure.mgmt.network.models.VirtualNetworkPeeringState>`\n\
+    :param provisioning_state: Gets provisioning state of the resource\n:type provisioning_state:\
+    \ str\n:param name: Gets or sets the name of the resource that is unique within\n\
+    \ a resource group. This name can be used to access the resource\n:type name:\
+    \ str\n:param etag: A unique read-only string that changes whenever the resource\n\
+    \ is updated\n:type etag: str"
+  type: Class
+  uid: azure.mgmt.network.models.VirtualNetworkPeering

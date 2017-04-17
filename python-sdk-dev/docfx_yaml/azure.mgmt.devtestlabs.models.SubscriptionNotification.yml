@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.devtestlabs.models.SubscriptionNotification
+  fullName: azure.mgmt.devtestlabs.models.SubscriptionNotification
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.devtestlabs.models
+  name: SubscriptionNotification
+  source:
+    id: SubscriptionNotification
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/subscription_notification.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/subscription_notification.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "SubscriptionNotification.\n\n:param registration_date:\n:type registration_date:\
+    \ str\n:param state: Possible values include: 'NotDefined', 'Registered',\n 'Unregistered',\
+    \ 'Warned', 'Suspended', 'Deleted'\n:type state: str or :class:`SubscriptionNotificationState\n\
+    \ <azure.mgmt.devtestlabs.models.SubscriptionNotificationState>`\n:param properties:\n\
+    :type properties: :class:`SubscriptionNotificationProperties\n <azure.mgmt.devtestlabs.models.SubscriptionNotificationProperties>`"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.SubscriptionNotification

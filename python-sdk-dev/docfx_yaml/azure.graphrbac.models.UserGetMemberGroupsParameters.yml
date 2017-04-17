@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.graphrbac.models.UserGetMemberGroupsParameters
+  fullName: azure.graphrbac.models.UserGetMemberGroupsParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.graphrbac.models
+  name: UserGetMemberGroupsParameters
+  source:
+    id: UserGetMemberGroupsParameters
+    path: azure-graphrbac/azure/graphrbac/models/user_get_member_groups_parameters.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/models/user_get_member_groups_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Request parameters for GetMemberGroups API call.\n\n:param security_enabled_only:\
+    \ If true, only membership in security-enabled\n groups should be checked. Otherwise,\
+    \ membership in all groups should be\n checked.\n:type security_enabled_only:\
+    \ bool"
+  type: Class
+  uid: azure.graphrbac.models.UserGetMemberGroupsParameters

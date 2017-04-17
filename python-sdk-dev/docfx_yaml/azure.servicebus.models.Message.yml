@@ -1,0 +1,96 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.servicebus.models.Message.add_headers
+  - azure.servicebus.models.Message.delete
+  - azure.servicebus.models.Message.renew_lock
+  - azure.servicebus.models.Message.unlock
+  class: azure.servicebus.models.Message
+  fullName: azure.servicebus.models.Message
+  inheritance:
+  - azure.servicebus._common_models.WindowsAzureData
+  - builtins.object
+  module: azure.servicebus.models
+  name: Message
+  source:
+    id: Message
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/models.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/models.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 160
+  summary: Message class that used in send message/get mesage apis.
+  type: Class
+  uid: azure.servicebus.models.Message
+- _type: method
+  class: azure.servicebus.models.Message
+  fullName: azure.servicebus.models.Message.add_headers
+  module: azure.servicebus.models
+  name: add_headers
+  source:
+    id: add_headers
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/models.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/models.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 247
+  summary: add addtional headers to request for message request.
+  type: Method
+  uid: azure.servicebus.models.Message.add_headers
+- _type: method
+  class: azure.servicebus.models.Message
+  fullName: azure.servicebus.models.Message.delete
+  module: azure.servicebus.models
+  name: delete
+  source:
+    id: delete
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/models.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/models.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 196
+  summary: 'Deletes itself if find queue name or topic name and subscription
+
+    name.'
+  type: Method
+  uid: azure.servicebus.models.Message.delete
+- _type: method
+  class: azure.servicebus.models.Message
+  fullName: azure.servicebus.models.Message.renew_lock
+  module: azure.servicebus.models
+  name: renew_lock
+  source:
+    id: renew_lock
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/models.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/models.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 230
+  summary: 'Renew lock on itself if find queue name or topic name and subscription
+
+    name.'
+  type: Method
+  uid: azure.servicebus.models.Message.renew_lock
+- _type: method
+  class: azure.servicebus.models.Message
+  fullName: azure.servicebus.models.Message.unlock
+  module: azure.servicebus.models
+  name: unlock
+  source:
+    id: unlock
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/models.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/models.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 213
+  summary: 'Unlocks itself if find queue name or topic name and subscription
+
+    name.'
+  type: Method
+  uid: azure.servicebus.models.Message.unlock

@@ -1,0 +1,30 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.VirtualMachineImage
+  fullName: azure.mgmt.compute.models.VirtualMachineImage
+  inheritance:
+  - azure.mgmt.compute.models.virtual_machine_image_resource.VirtualMachineImageResource
+  - azure.mgmt.compute.models.sub_resource.SubResource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: VirtualMachineImage
+  source:
+    id: VirtualMachineImage
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_image.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_image.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Describes a Virtual Machine Image.\n\n:param id: Resource Id\n:type id:\
+    \ str\n:param name: the name of the resource.\n:type name: str\n:param location:\
+    \ the location of the resource.\n:type location: str\n:param tags: the tags attached\
+    \ to the resource.\n:type tags: dict\n:param plan:\n:type plan: :class:`PurchasePlan\
+    \ <azure.mgmt.compute.models.PurchasePlan>`\n:param os_disk_image:\n:type os_disk_image:\
+    \ :class:`OSDiskImage\n <azure.mgmt.compute.models.OSDiskImage>`\n:param data_disk_images:\n\
+    :type data_disk_images: list of :class:`DataDiskImage\n <azure.mgmt.compute.models.DataDiskImage>`"
+  type: Class
+  uid: azure.mgmt.compute.models.VirtualMachineImage

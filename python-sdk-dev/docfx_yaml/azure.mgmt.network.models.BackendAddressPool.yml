@@ -1,0 +1,36 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.BackendAddressPool
+  fullName: azure.mgmt.network.models.BackendAddressPool
+  inheritance:
+  - azure.mgmt.network.models.sub_resource.SubResource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: BackendAddressPool
+  source:
+    id: BackendAddressPool
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/backend_address_pool.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/backend_address_pool.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Pool of backend IP addresses.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:param id: Resource Id\n:type\
+    \ id: str\n:ivar backend_ip_configurations: Gets collection of references to IPs\n\
+    \ defined in NICs\n:vartype backend_ip_configurations: list of\n :class:`NetworkInterfaceIPConfiguration\n\
+    \ <azure.mgmt.network.models.NetworkInterfaceIPConfiguration>`\n:ivar load_balancing_rules:\
+    \ Gets Load Balancing rules that use this\n Backend Address Pool\n:vartype load_balancing_rules:\
+    \ list of :class:`SubResource\n <azure.mgmt.network.models.SubResource>`\n:ivar\
+    \ outbound_nat_rule: Gets outbound rules that use this Backend\n Address Pool\n\
+    :vartype outbound_nat_rule: :class:`SubResource\n <azure.mgmt.network.models.SubResource>`\n\
+    :param provisioning_state: Get provisioning state of the PublicIP\n resource Updating/Deleting/Failed\n\
+    :type provisioning_state: str\n:param name: Gets name of the resource that is\
+    \ unique within a resource\n group. This name can be used to access the resource\n\
+    :type name: str\n:param etag: A unique read-only string that changes whenever\
+    \ the resource\n is updated\n:type etag: str"
+  type: Class
+  uid: azure.mgmt.network.models.BackendAddressPool

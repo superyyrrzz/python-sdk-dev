@@ -1,0 +1,32 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.VirtualMachineScaleSetOSProfile
+  fullName: azure.mgmt.compute.models.VirtualMachineScaleSetOSProfile
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: VirtualMachineScaleSetOSProfile
+  source:
+    id: VirtualMachineScaleSetOSProfile
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_scale_set_os_profile.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_scale_set_os_profile.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Describes a virtual machine scale set OS profile.\n\n:param computer_name_prefix:\
+    \ the computer name prefix.\n:type computer_name_prefix: str\n:param admin_username:\
+    \ the admin user name.\n:type admin_username: str\n:param admin_password: the\
+    \ admin user password.\n:type admin_password: str\n:param custom_data: a base-64\
+    \ encoded string of custom data.\n:type custom_data: str\n:param windows_configuration:\
+    \ the Windows Configuration of the OS profile.\n:type windows_configuration: :class:`WindowsConfiguration\n\
+    \ <azure.mgmt.compute.models.WindowsConfiguration>`\n:param linux_configuration:\
+    \ the Linux Configuration of the OS profile.\n:type linux_configuration: :class:`LinuxConfiguration\n\
+    \ <azure.mgmt.compute.models.LinuxConfiguration>`\n:param secrets: the List of\
+    \ certificates for addition to the VM.\n:type secrets: list of :class:`VaultSecretGroup\n\
+    \ <azure.mgmt.compute.models.VaultSecretGroup>`"
+  type: Class
+  uid: azure.mgmt.compute.models.VirtualMachineScaleSetOSProfile

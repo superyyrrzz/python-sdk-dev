@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.ImageReference
+  fullName: azure.mgmt.compute.models.ImageReference
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: ImageReference
+  source:
+    id: ImageReference
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/image_reference.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/image_reference.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The image reference.\n\n:param publisher: the image publisher.\n:type\
+    \ publisher: str\n:param offer: the image offer.\n:type offer: str\n:param sku:\
+    \ the image sku.\n:type sku: str\n:param version: the image version. The allowed\
+    \ formats are\n Major.Minor.Build or 'latest'. Major, Minor and Build being decimal\n\
+    \ numbers. Specify 'latest' to use the latest version of image.\n:type version:\
+    \ str"
+  type: Class
+  uid: azure.mgmt.compute.models.ImageReference

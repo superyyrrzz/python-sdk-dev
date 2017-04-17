@@ -1,0 +1,32 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.CertificateAddParameter
+  fullName: azure.batch.models.CertificateAddParameter
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: CertificateAddParameter
+  source:
+    id: CertificateAddParameter
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/certificate_add_parameter.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/certificate_add_parameter.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A certificate that can be installed on compute nodes and can be used to\n\
+    authenticate operations on the machine.\n\n:param thumbprint: The X.509 thumbprint\
+    \ of the certificate. This is a\n sequence of up to 40 hex digits (it may include\
+    \ spaces but these are\n removed).\n:type thumbprint: str\n:param thumbprint_algorithm:\
+    \ The algorithm used to derive the thumbprint.\n This must be sha1.\n:type thumbprint_algorithm:\
+    \ str\n:param data: The base64-encoded contents of the certificate. The maximum\n\
+    \ size is 10KB.\n:type data: str\n:param certificate_format: The format of the\
+    \ certificate data. Possible\n values include: 'pfx', 'cer', 'unmapped'\n:type\
+    \ certificate_format: str or :class:`CertificateFormat\n <azure.batch.models.CertificateFormat>`\n\
+    :param password: The password to access the certificate's private key.\n:type\
+    \ password: str"
+  type: Class
+  uid: azure.batch.models.CertificateAddParameter

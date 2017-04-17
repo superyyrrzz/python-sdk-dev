@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.JobPreparationAndReleaseTaskExecutionInformationPaged
+  fullName: azure.batch.models.JobPreparationAndReleaseTaskExecutionInformationPaged
+  inheritance:
+  - msrest.paging.Paged
+  - collections.abc.Iterator
+  - collections.abc.Iterable
+  - builtins.object
+  module: azure.batch.models
+  name: JobPreparationAndReleaseTaskExecutionInformationPaged
+  source:
+    id: JobPreparationAndReleaseTaskExecutionInformationPaged
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/job_preparation_and_release_task_execution_information_paged.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/job_preparation_and_release_task_execution_information_paged.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: A paging container for iterating over a list of JobPreparationAndReleaseTaskExecutionInformation
+    object
+  type: Class
+  uid: azure.batch.models.JobPreparationAndReleaseTaskExecutionInformationPaged

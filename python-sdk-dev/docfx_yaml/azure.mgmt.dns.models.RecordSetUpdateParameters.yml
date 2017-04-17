@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.dns.models.RecordSetUpdateParameters
+  fullName: azure.mgmt.dns.models.RecordSetUpdateParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.dns.models
+  name: RecordSetUpdateParameters
+  source:
+    id: RecordSetUpdateParameters
+    path: azure-mgmt-dns/azure/mgmt/dns/models/record_set_update_parameters.py
+    remote:
+      branch: master
+      path: azure-mgmt-dns/azure/mgmt/dns/models/record_set_update_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Parameters supplied to update a record set.\n\n:param record_set: Specifies\
+    \ information about the record set being\n updated.\n:type record_set: :class:`RecordSet\
+    \ <azure.mgmt.dns.models.RecordSet>`"
+  type: Class
+  uid: azure.mgmt.dns.models.RecordSetUpdateParameters

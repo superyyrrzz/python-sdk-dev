@@ -1,0 +1,145 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.web.operations.GlobalDomainRegistrationOperations.check_domain_availability
+  - azure.mgmt.web.operations.GlobalDomainRegistrationOperations.get_all_domains
+  - azure.mgmt.web.operations.GlobalDomainRegistrationOperations.get_domain_control_center_sso_request
+  - azure.mgmt.web.operations.GlobalDomainRegistrationOperations.list_domain_recommendations
+  - azure.mgmt.web.operations.GlobalDomainRegistrationOperations.validate_domain_purchase_information
+  class: azure.mgmt.web.operations.GlobalDomainRegistrationOperations
+  fullName: azure.mgmt.web.operations.GlobalDomainRegistrationOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.web.operations
+  name: GlobalDomainRegistrationOperations
+  source:
+    id: GlobalDomainRegistrationOperations
+    path: azure-mgmt-web/azure/mgmt/web/operations/global_domain_registration_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/global_domain_registration_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'GlobalDomainRegistrationOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.web.operations.GlobalDomainRegistrationOperations
+- _type: method
+  class: azure.mgmt.web.operations.GlobalDomainRegistrationOperations
+  fullName: azure.mgmt.web.operations.GlobalDomainRegistrationOperations.check_domain_availability
+  module: azure.mgmt.web.operations
+  name: check_domain_availability
+  source:
+    id: check_domain_availability
+    path: azure-mgmt-web/azure/mgmt/web/operations/global_domain_registration_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/global_domain_registration_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 216
+  summary: "Checks if a domain is available for registration.\n\n:param name: Name\
+    \ of the object\n:type name: str\n:param dict custom_headers: headers that will\
+    \ be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`DomainAvailablilityCheckResult\n\
+    \ <azure.mgmt.web.models.DomainAvailablilityCheckResult>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.GlobalDomainRegistrationOperations.check_domain_availability
+- _type: method
+  class: azure.mgmt.web.operations.GlobalDomainRegistrationOperations
+  fullName: azure.mgmt.web.operations.GlobalDomainRegistrationOperations.get_all_domains
+  module: azure.mgmt.web.operations
+  name: get_all_domains
+  source:
+    id: get_all_domains
+    path: azure-mgmt-web/azure/mgmt/web/operations/global_domain_registration_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/global_domain_registration_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Lists all domains in a subscription.\n\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`DomainPaged\
+    \ <azure.mgmt.web.models.DomainPaged>`\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.GlobalDomainRegistrationOperations.get_all_domains
+- _type: method
+  class: azure.mgmt.web.operations.GlobalDomainRegistrationOperations
+  fullName: azure.mgmt.web.operations.GlobalDomainRegistrationOperations.get_domain_control_center_sso_request
+  module: azure.mgmt.web.operations
+  name: get_domain_control_center_sso_request
+  source:
+    id: get_domain_control_center_sso_request
+    path: azure-mgmt-web/azure/mgmt/web/operations/global_domain_registration_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/global_domain_registration_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 98
+  summary: "Generates a single sign on request for domain management portal.\n\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`DomainControlCenterSsoRequest\n <azure.mgmt.web.models.DomainControlCenterSsoRequest>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.GlobalDomainRegistrationOperations.get_domain_control_center_sso_request
+- _type: method
+  class: azure.mgmt.web.operations.GlobalDomainRegistrationOperations
+  fullName: azure.mgmt.web.operations.GlobalDomainRegistrationOperations.list_domain_recommendations
+  module: azure.mgmt.web.operations
+  name: list_domain_recommendations
+  source:
+    id: list_domain_recommendations
+    path: azure-mgmt-web/azure/mgmt/web/operations/global_domain_registration_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/global_domain_registration_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 280
+  summary: "Lists domain recommendations based on keywords.\n\n:param keywords: Keywords\
+    \ to be used for generating domain\n recommendations\n:type keywords: str\n:param\
+    \ max_domain_recommendations: Maximum number of recommendations\n:type max_domain_recommendations:\
+    \ int\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`NameIdentifierPaged\n <azure.mgmt.web.models.NameIdentifierPaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.GlobalDomainRegistrationOperations.list_domain_recommendations
+- _type: method
+  class: azure.mgmt.web.operations.GlobalDomainRegistrationOperations
+  fullName: azure.mgmt.web.operations.GlobalDomainRegistrationOperations.validate_domain_purchase_information
+  module: azure.mgmt.web.operations
+  name: validate_domain_purchase_information
+  source:
+    id: validate_domain_purchase_information
+    path: azure-mgmt-web/azure/mgmt/web/operations/global_domain_registration_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/global_domain_registration_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 154
+  summary: "Validates domain registration information.\n\n:param domain_registration_input:\
+    \ Domain registration information\n:type domain_registration_input: :class:`DomainRegistrationInput\n\
+    \ <azure.mgmt.web.models.DomainRegistrationInput>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: object\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.GlobalDomainRegistrationOperations.validate_domain_purchase_information

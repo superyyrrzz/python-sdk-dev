@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.devtestlabs.models.ArmTemplateInfo
+  fullName: azure.mgmt.devtestlabs.models.ArmTemplateInfo
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.devtestlabs.models
+  name: ArmTemplateInfo
+  source:
+    id: ArmTemplateInfo
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/arm_template_info.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/arm_template_info.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Information about a generated ARM template.
+
+
+    :param template: The template''s contents.
+
+    :type template: object
+
+    :param parameters: The parameters of the ARM template.
+
+    :type parameters: object'
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.ArmTemplateInfo

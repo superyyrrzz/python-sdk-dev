@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.resources.models.Identity
+  fullName: azure.mgmt.resource.resources.models.Identity
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.resource.resources.models
+  name: Identity
+  source:
+    id: Identity
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/identity.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/identity.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Identity for the resource.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:ivar principal_id: The principal\
+    \ id of resource identity.\n:vartype principal_id: str\n:ivar tenant_id: The tenant\
+    \ id of resource.\n:vartype tenant_id: str\n:param type: The identity type. Possible\
+    \ values include: 'SystemAssigned'\n:type type: str or :class:`ResourceIdentityType\n\
+    \ <azure.mgmt.resource.resources.models.ResourceIdentityType>`"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.Identity

@@ -1,0 +1,34 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.datalake.analytics.catalog.models.USqlAssembly
+  fullName: azure.mgmt.datalake.analytics.catalog.models.USqlAssembly
+  inheritance:
+  - azure.mgmt.datalake.analytics.catalog.models.catalog_item.CatalogItem
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.datalake.analytics.catalog.models
+  name: USqlAssembly
+  source:
+    id: USqlAssembly
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/models/usql_assembly.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/models/usql_assembly.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A Data Lake Analytics catalog U-SQL Assembly.\n\n:param compute_account_name:\
+    \ the name of the Data Lake Analytics account.\n:type compute_account_name: str\n\
+    :param version: the version of the catalog item.\n:type version: str\n:param database_name:\
+    \ the name of the database.\n:type database_name: str\n:param name: the name of\
+    \ the assembly.\n:type name: str\n:param clr_name: the name of the CLR.\n:type\
+    \ clr_name: str\n:param is_visible: the switch indicating if this assembly is\
+    \ visible or\n not.\n:type is_visible: bool\n:param is_user_defined: the switch\
+    \ indicating if this assembly is user\n defined or not.\n:type is_user_defined:\
+    \ bool\n:param files: the list of files associated with the assembly\n:type files:\
+    \ list of :class:`USqlAssemblyFileInfo\n <azure.mgmt.datalake.analytics.catalog.models.USqlAssemblyFileInfo>`\n\
+    :param dependencies: the list of dependencies associated with the assembly\n:type\
+    \ dependencies: list of :class:`USqlAssemblyDependencyInfo\n <azure.mgmt.datalake.analytics.catalog.models.USqlAssemblyDependencyInfo>`"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.catalog.models.USqlAssembly

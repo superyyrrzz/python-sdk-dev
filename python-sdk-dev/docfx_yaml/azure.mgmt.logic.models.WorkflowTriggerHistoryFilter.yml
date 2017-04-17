@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.WorkflowTriggerHistoryFilter
+  fullName: azure.mgmt.logic.models.WorkflowTriggerHistoryFilter
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: WorkflowTriggerHistoryFilter
+  source:
+    id: WorkflowTriggerHistoryFilter
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/workflow_trigger_history_filter.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/workflow_trigger_history_filter.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "WorkflowTriggerHistoryFilter.\n\n:param status: The status of workflow\
+    \ trigger history. Possible values\n include: 'NotSpecified', 'Paused', 'Running',\
+    \ 'Waiting', 'Succeeded',\n 'Skipped', 'Suspended', 'Cancelled', 'Failed', 'Faulted',\
+    \ 'TimedOut',\n 'Aborted', 'Ignored'\n:type status: str or :class:`WorkflowStatus\n\
+    \ <azure.mgmt.logic.models.WorkflowStatus>`"
+  type: Class
+  uid: azure.mgmt.logic.models.WorkflowTriggerHistoryFilter

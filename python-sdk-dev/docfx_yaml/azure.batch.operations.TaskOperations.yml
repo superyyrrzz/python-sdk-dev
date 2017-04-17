@@ -1,0 +1,234 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.batch.operations.TaskOperations.add
+  - azure.batch.operations.TaskOperations.add_collection
+  - azure.batch.operations.TaskOperations.delete
+  - azure.batch.operations.TaskOperations.get
+  - azure.batch.operations.TaskOperations.list
+  - azure.batch.operations.TaskOperations.list_subtasks
+  - azure.batch.operations.TaskOperations.terminate
+  - azure.batch.operations.TaskOperations.update
+  class: azure.batch.operations.TaskOperations
+  fullName: azure.batch.operations.TaskOperations
+  inheritance:
+  - builtins.object
+  module: azure.batch.operations
+  name: TaskOperations
+  source:
+    id: TaskOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/task_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/task_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 18
+  summary: 'TaskOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.batch.operations.TaskOperations
+- _type: method
+  class: azure.batch.operations.TaskOperations
+  fullName: azure.batch.operations.TaskOperations.add
+  module: azure.batch.operations
+  name: add
+  source:
+    id: add
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/task_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/task_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 35
+  summary: "Adds a task to the specified job.\n\n:param job_id: The id of the job\
+    \ to which the task is to be added.\n:type job_id: str\n:param task: The task\
+    \ to be added.\n:type task: :class:`TaskAddParameter\n <azure.batch.models.TaskAddParameter>`\n\
+    :param task_add_options: Additional parameters for the operation\n:type task_add_options:\
+    \ :class:`TaskAddOptions\n <azure.batch.models.TaskAddOptions>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.batch.operations.TaskOperations.add
+- _type: method
+  class: azure.batch.operations.TaskOperations
+  fullName: azure.batch.operations.TaskOperations.add_collection
+  module: azure.batch.operations
+  name: add_collection
+  source:
+    id: add_collection
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/task_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/task_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 225
+  summary: "Adds a collection of tasks to the specified job.\n\n:param job_id: The\
+    \ id of the job to which the task collection is to\n be added.\n:type job_id:\
+    \ str\n:param value: The collection of tasks to add.\n:type value: list of :class:`TaskAddParameter\n\
+    \ <azure.batch.models.TaskAddParameter>`\n:param task_add_collection_options:\
+    \ Additional parameters for the\n operation\n:type task_add_collection_options:\
+    \ :class:`TaskAddCollectionOptions\n <azure.batch.models.TaskAddCollectionOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`TaskAddCollectionResult\n <azure.batch.models.TaskAddCollectionResult>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.batch.operations.TaskOperations.add_collection
+- _type: method
+  class: azure.batch.operations.TaskOperations
+  fullName: azure.batch.operations.TaskOperations.delete
+  module: azure.batch.operations
+  name: delete
+  source:
+    id: delete
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/task_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/task_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 320
+  summary: "Deletes a task from the specified job.\n\n:param job_id: The id of the\
+    \ job from which to delete the task.\n:type job_id: str\n:param task_id: The id\
+    \ of the task to delete.\n:type task_id: str\n:param task_delete_options: Additional\
+    \ parameters for the operation\n:type task_delete_options: :class:`TaskDeleteOptions\n\
+    \ <azure.batch.models.TaskDeleteOptions>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.batch.operations.TaskOperations.delete
+- _type: method
+  class: azure.batch.operations.TaskOperations
+  fullName: azure.batch.operations.TaskOperations.get
+  module: azure.batch.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/task_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/task_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 418
+  summary: "Gets information about the specified task.\n\n:param job_id: The id of\
+    \ the job that contains the task.\n:type job_id: str\n:param task_id: The id of\
+    \ the task to get information about.\n:type task_id: str\n:param task_get_options:\
+    \ Additional parameters for the operation\n:type task_get_options: :class:`TaskGetOptions\n\
+    \ <azure.batch.models.TaskGetOptions>`\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`CloudTask <azure.batch.models.CloudTask>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.batch.operations.TaskOperations.get
+- _type: method
+  class: azure.batch.operations.TaskOperations
+  fullName: azure.batch.operations.TaskOperations.list
+  module: azure.batch.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/task_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/task_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 120
+  summary: "Lists all of the tasks that are associated with the specified job.\n\n\
+    :param job_id: The id of the job.\n:type job_id: str\n:param task_list_options:\
+    \ Additional parameters for the operation\n:type task_list_options: :class:`TaskListOptions\n\
+    \ <azure.batch.models.TaskListOptions>`\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`CloudTaskPaged <azure.batch.models.CloudTaskPaged>`"
+  type: Method
+  uid: azure.batch.operations.TaskOperations.list
+- _type: method
+  class: azure.batch.operations.TaskOperations
+  fullName: azure.batch.operations.TaskOperations.list_subtasks
+  module: azure.batch.operations
+  name: list_subtasks
+  source:
+    id: list_subtasks
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/task_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/task_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 648
+  summary: "Lists all of the subtasks that are associated with the specified\nmulti-instance\
+    \ task.\n\n:param job_id: The id of the job.\n:type job_id: str\n:param task_id:\
+    \ The id of the task.\n:type task_id: str\n:param task_list_subtasks_options:\
+    \ Additional parameters for the\n operation\n:type task_list_subtasks_options:\
+    \ :class:`TaskListSubtasksOptions\n <azure.batch.models.TaskListSubtasksOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`CloudTaskListSubtasksResult\n <azure.batch.models.CloudTaskListSubtasksResult>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.batch.operations.TaskOperations.list_subtasks
+- _type: method
+  class: azure.batch.operations.TaskOperations
+  fullName: azure.batch.operations.TaskOperations.terminate
+  module: azure.batch.operations
+  name: terminate
+  source:
+    id: terminate
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/task_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/task_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 745
+  summary: "Terminates the specified task.\n\n:param job_id: The id of the job containing\
+    \ the task.\n:type job_id: str\n:param task_id: The id of the task to terminate.\n\
+    :type task_id: str\n:param task_terminate_options: Additional parameters for the\
+    \ operation\n:type task_terminate_options: :class:`TaskTerminateOptions\n <azure.batch.models.TaskTerminateOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.batch.operations.TaskOperations.terminate
+- _type: method
+  class: azure.batch.operations.TaskOperations
+  fullName: azure.batch.operations.TaskOperations.update
+  module: azure.batch.operations
+  name: update
+  source:
+    id: update
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/task_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/task_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 538
+  summary: "Updates the properties of the specified task.\n\n:param job_id: The id\
+    \ of the job containing the task.\n:type job_id: str\n:param task_id: The id of\
+    \ the task to update.\n:type task_id: str\n:param task_update_options: Additional\
+    \ parameters for the operation\n:type task_update_options: :class:`TaskUpdateOptions\n\
+    \ <azure.batch.models.TaskUpdateOptions>`\n:param constraints: Constraints that\
+    \ apply to this task. If omitted,\n the task is given the default constraints.\n\
+    :type constraints: :class:`TaskConstraints\n <azure.batch.models.TaskConstraints>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.batch.operations.TaskOperations.update

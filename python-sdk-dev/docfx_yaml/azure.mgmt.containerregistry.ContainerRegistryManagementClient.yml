@@ -1,0 +1,33 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.containerregistry.ContainerRegistryManagementClient
+  fullName: azure.mgmt.containerregistry.ContainerRegistryManagementClient
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.containerregistry
+  name: ContainerRegistryManagementClient
+  source:
+    id: ContainerRegistryManagementClient
+    path: azure-mgmt-containerregistry/azure/mgmt/containerregistry/container_registry_management_client.py
+    remote:
+      branch: master
+      path: azure-mgmt-containerregistry/azure/mgmt/containerregistry/container_registry_management_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 75
+  summary: ":ivar config: Configuration for client.\n:vartype config: ContainerRegistryManagementClientConfiguration\n\
+    \n:ivar registries: Registries operations\n:vartype registries: .operations.RegistriesOperations\n\
+    \n:param credentials: Credentials needed for the client to connect to Azure.\n\
+    :type credentials: :mod:`A msrestazure Credentials\n object<msrestazure.azure_active_directory>`\n\
+    :param subscription_id: The Microsoft Azure subscription ID.\n:type subscription_id:\
+    \ str\n:param api_version: The client API version.\n:type api_version: str\n:param\
+    \ accept_language: Gets or sets the preferred language for the\n response.\n:type\
+    \ accept_language: str\n:param long_running_operation_retry_timeout: Gets or sets\
+    \ the retry\n timeout in seconds for Long Running Operations. Default value is\
+    \ 30.\n:type long_running_operation_retry_timeout: int\n:param generate_client_request_id:\
+    \ When set to true a unique\n x-ms-client-request-id value is generated and included\
+    \ in each request.\n Default is true.\n:type generate_client_request_id: bool\n\
+    :param str base_url: Service URL\n:param str filepath: Existing config"
+  type: Class
+  uid: azure.mgmt.containerregistry.ContainerRegistryManagementClient

@@ -1,0 +1,23 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.resources.models.AliasType
+  fullName: azure.mgmt.resource.resources.models.AliasType
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.resource.resources.models
+  name: AliasType
+  source:
+    id: AliasType
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/alias_type.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/alias_type.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "AliasType.\n\n:param name: The alias name.\n:type name: str\n:param paths:\
+    \ The paths for an alias.\n:type paths: list of :class:`AliasPathType\n <azure.mgmt.resource.resources.models.AliasPathType>`"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.AliasType

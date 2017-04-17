@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.ExpressRouteCircuitSku
+  fullName: azure.mgmt.network.models.ExpressRouteCircuitSku
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: ExpressRouteCircuitSku
+  source:
+    id: ExpressRouteCircuitSku
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/express_route_circuit_sku.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/express_route_circuit_sku.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Contains sku in an ExpressRouteCircuit.\n\n:param name: Gets or sets name\
+    \ of the sku.\n:type name: str\n:param tier: Gets or sets tier of the sku. Possible\
+    \ values include:\n 'Standard', 'Premium'\n:type tier: str or :class:`ExpressRouteCircuitSkuTier\n\
+    \ <azure.mgmt.network.models.ExpressRouteCircuitSkuTier>`\n:param family: Gets\
+    \ or sets family of the sku. Possible values include:\n 'UnlimitedData', 'MeteredData'\n\
+    :type family: str or :class:`ExpressRouteCircuitSkuFamily\n <azure.mgmt.network.models.ExpressRouteCircuitSkuFamily>`"
+  type: Class
+  uid: azure.mgmt.network.models.ExpressRouteCircuitSku

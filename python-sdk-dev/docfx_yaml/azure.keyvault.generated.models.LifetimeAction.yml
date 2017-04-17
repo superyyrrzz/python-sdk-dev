@@ -1,0 +1,33 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.keyvault.generated.models.LifetimeAction
+  fullName: azure.keyvault.generated.models.LifetimeAction
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.keyvault.generated.models
+  name: LifetimeAction
+  source:
+    id: LifetimeAction
+    path: azure-keyvault/azure/keyvault/generated/models/lifetime_action.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/models/lifetime_action.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Action and its trigger that will be performed by Key Vault over the
+
+    lifetime of a certificate.
+
+
+    :param trigger: The condition that will execute the action.
+
+    :type trigger: :class:`Trigger <azure.keyvault.generated.models.Trigger>`
+
+    :param action: The action that will be executed.
+
+    :type action: :class:`Action <azure.keyvault.generated.models.Action>`'
+  type: Class
+  uid: azure.keyvault.generated.models.LifetimeAction

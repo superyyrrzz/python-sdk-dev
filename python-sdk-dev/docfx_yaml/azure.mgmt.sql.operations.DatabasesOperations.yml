@@ -1,0 +1,528 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.sql.operations.DatabasesOperations.create_or_update
+  - azure.mgmt.sql.operations.DatabasesOperations.create_or_update_transparent_data_encryption_configuration
+  - azure.mgmt.sql.operations.DatabasesOperations.delete
+  - azure.mgmt.sql.operations.DatabasesOperations.delete_replication_link
+  - azure.mgmt.sql.operations.DatabasesOperations.failover_replication_link
+  - azure.mgmt.sql.operations.DatabasesOperations.failover_replication_link_allow_data_loss
+  - azure.mgmt.sql.operations.DatabasesOperations.get
+  - azure.mgmt.sql.operations.DatabasesOperations.get_replication_link
+  - azure.mgmt.sql.operations.DatabasesOperations.get_service_tier_advisor
+  - azure.mgmt.sql.operations.DatabasesOperations.get_transparent_data_encryption_configuration
+  - azure.mgmt.sql.operations.DatabasesOperations.list_by_server
+  - azure.mgmt.sql.operations.DatabasesOperations.list_replication_links
+  - azure.mgmt.sql.operations.DatabasesOperations.list_restore_points
+  - azure.mgmt.sql.operations.DatabasesOperations.list_service_tier_advisors
+  - azure.mgmt.sql.operations.DatabasesOperations.list_transparent_data_encryption_activity
+  - azure.mgmt.sql.operations.DatabasesOperations.list_usages
+  - azure.mgmt.sql.operations.DatabasesOperations.pause_data_warehouse
+  - azure.mgmt.sql.operations.DatabasesOperations.resume_data_warehouse
+  class: azure.mgmt.sql.operations.DatabasesOperations
+  fullName: azure.mgmt.sql.operations.DatabasesOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.sql.operations
+  name: DatabasesOperations
+  source:
+    id: DatabasesOperations
+    path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 20
+  summary: 'DatabasesOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    :ivar api_version: The API version to use for the request. Constant value: "2014-04-01".'
+  type: Class
+  uid: azure.mgmt.sql.operations.DatabasesOperations
+- _type: method
+  class: azure.mgmt.sql.operations.DatabasesOperations
+  fullName: azure.mgmt.sql.operations.DatabasesOperations.create_or_update
+  module: azure.mgmt.sql.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 663
+  summary: "Creates a new Azure SQL database or updates an existing Azure SQL\ndatabase.\
+    \ Location is a required property in the request body, and it\nmust be the same\
+    \ as the location of the SQL server.\n\n:param resource_group_name: The name of\
+    \ the resource group that\n contains the resource. You can obtain this value from\
+    \ the Azure\n Resource Manager API or the portal.\n:type resource_group_name:\
+    \ str\n:param server_name: The name of the Azure SQL server.\n:type server_name:\
+    \ str\n:param database_name: The name of the Azure SQL database to be\n operated\
+    \ on (updated or created).\n:type database_name: str\n:param parameters: The required\
+    \ parameters for creating or updating a\n database.\n:type parameters: :class:`Database\
+    \ <azure.mgmt.sql.models.Database>`\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`Database\n <azure.mgmt.sql.models.Database>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.sql.operations.DatabasesOperations.create_or_update
+- _type: method
+  class: azure.mgmt.sql.operations.DatabasesOperations
+  fullName: azure.mgmt.sql.operations.DatabasesOperations.create_or_update_transparent_data_encryption_configuration
+  module: azure.mgmt.sql.operations
+  name: create_or_update_transparent_data_encryption_configuration
+  source:
+    id: create_or_update_transparent_data_encryption_configuration
+    path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1188
+  summary: "Creates or updates an Azure SQL Database Transparent Data Encryption\n\
+    Operation.\n\n:param resource_group_name: The name of the resource group that\n\
+    \ contains the resource. You can obtain this value from the Azure\n Resource Manager\
+    \ API or the portal.\n:type resource_group_name: str\n:param server_name: The\
+    \ name of the Azure SQL server.\n:type server_name: str\n:param database_name:\
+    \ The name of the Azure SQL database for which\n setting the Transparent Data\
+    \ Encryption applies.\n:type database_name: str\n:param status: The status of\
+    \ the Azure SQL Database Transparent Data\n Encryption. Possible values include:\
+    \ 'Enabled', 'Disabled'\n:type status: str or :class:`TransparentDataEncryptionStates\n\
+    \ <azure.mgmt.sql.models.TransparentDataEncryptionStates>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`TransparentDataEncryption\n\
+    \ <azure.mgmt.sql.models.TransparentDataEncryption>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.sql.operations.DatabasesOperations.create_or_update_transparent_data_encryption_configuration
+- _type: method
+  class: azure.mgmt.sql.operations.DatabasesOperations
+  fullName: azure.mgmt.sql.operations.DatabasesOperations.delete
+  module: azure.mgmt.sql.operations
+  name: delete
+  source:
+    id: delete
+    path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 767
+  summary: "Deletes an Azure SQL database.\n\n:param resource_group_name: The name\
+    \ of the resource group that\n contains the resource. You can obtain this value\
+    \ from the Azure\n Resource Manager API or the portal.\n:type resource_group_name:\
+    \ str\n:param server_name: The name of the Azure SQL server.\n:type server_name:\
+    \ str\n:param database_name: The name of the Azure SQL database to be\n deleted.\n\
+    :type database_name: str\n:param dict custom_headers: headers that will be added\
+    \ to the request\n:param bool raw: returns the direct response alongside the\n\
+    \ deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.sql.operations.DatabasesOperations.delete
+- _type: method
+  class: azure.mgmt.sql.operations.DatabasesOperations
+  fullName: azure.mgmt.sql.operations.DatabasesOperations.delete_replication_link
+  module: azure.mgmt.sql.operations
+  name: delete_replication_link
+  source:
+    id: delete_replication_link
+    path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 39
+  summary: "Deletes the Azure SQL database replication link with the given ID.\nCannot\
+    \ be done during failover.\n\n:param resource_group_name: The name of the resource\
+    \ group that\n contains the resource. You can obtain this value from the Azure\n\
+    \ Resource Manager API or the portal.\n:type resource_group_name: str\n:param\
+    \ server_name: The name of the Azure SQL server.\n:type server_name: str\n:param\
+    \ database_name: The name of the Azure SQL database that has the\n replication\
+    \ link to be dropped.\n:type database_name: str\n:param link_id: The ID of the\
+    \ replication link to be deleted.\n:type link_id: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.sql.operations.DatabasesOperations.delete_replication_link
+- _type: method
+  class: azure.mgmt.sql.operations.DatabasesOperations
+  fullName: azure.mgmt.sql.operations.DatabasesOperations.failover_replication_link
+  module: azure.mgmt.sql.operations
+  name: failover_replication_link
+  source:
+    id: failover_replication_link
+    path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 174
+  summary: "Failover the Azure SQL database replication link with the given ID.\n\n\
+    :param resource_group_name: The name of the resource group that\n contains the\
+    \ resource. You can obtain this value from the Azure\n Resource Manager API or\
+    \ the portal.\n:type resource_group_name: str\n:param server_name: The name of\
+    \ the Azure SQL server.\n:type server_name: str\n:param database_name: The name\
+    \ of the Azure SQL database that has the\n replication link to be failed over.\n\
+    :type database_name: str\n:param link_id: The ID of the replication link to be\
+    \ failed over.\n:type link_id: str\n:param dict custom_headers: headers that will\
+    \ be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.sql.operations.DatabasesOperations.failover_replication_link
+- _type: method
+  class: azure.mgmt.sql.operations.DatabasesOperations
+  fullName: azure.mgmt.sql.operations.DatabasesOperations.failover_replication_link_allow_data_loss
+  module: azure.mgmt.sql.operations
+  name: failover_replication_link_allow_data_loss
+  source:
+    id: failover_replication_link_allow_data_loss
+    path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 260
+  summary: "Force failover the Azure SQL database replication link with the given\n\
+    ID which may result in data loss.\n\n:param resource_group_name: The name of the\
+    \ resource group that\n contains the resource. You can obtain this value from\
+    \ the Azure\n Resource Manager API or the portal.\n:type resource_group_name:\
+    \ str\n:param server_name: The name of the Azure SQL server.\n:type server_name:\
+    \ str\n:param database_name: The name of the Azure SQL database that has the\n\
+    \ replication link to be failed over.\n:type database_name: str\n:param link_id:\
+    \ The ID of the replication link to be failed over.\n:type link_id: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:rtype:\n\
+    \ :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.sql.operations.DatabasesOperations.failover_replication_link_allow_data_loss
+- _type: method
+  class: azure.mgmt.sql.operations.DatabasesOperations
+  fullName: azure.mgmt.sql.operations.DatabasesOperations.get
+  module: azure.mgmt.sql.operations
+  name: get
+  source:
+    id: get
+    path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 827
+  summary: "Gets information about an Azure SQL database.\n\n:param resource_group_name:\
+    \ The name of the resource group that\n contains the resource. You can obtain\
+    \ this value from the Azure\n Resource Manager API or the portal.\n:type resource_group_name:\
+    \ str\n:param server_name: The name of the Azure SQL server.\n:type server_name:\
+    \ str\n:param database_name: The name of the Azure SQL database to be\n retrieved.\n\
+    :type database_name: str\n:param expand: The comma separated list of child objects\
+    \ to expand in\n the response. Possible properties: serviceTierAdvisors, upgradeHint,\n\
+    \ transparentDataEncryption.\n:type expand: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`Database\
+    \ <azure.mgmt.sql.models.Database>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.sql.operations.DatabasesOperations.get
+- _type: method
+  class: azure.mgmt.sql.operations.DatabasesOperations
+  fullName: azure.mgmt.sql.operations.DatabasesOperations.get_replication_link
+  module: azure.mgmt.sql.operations
+  name: get_replication_link
+  source:
+    id: get_replication_link
+    path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 103
+  summary: "Gets information about an Azure SQL database replication link.\n\n:param\
+    \ resource_group_name: The name of the resource group that\n contains the resource.\
+    \ You can obtain this value from the Azure\n Resource Manager API or the portal.\n\
+    :type resource_group_name: str\n:param server_name: The name of the Azure SQL\
+    \ server.\n:type server_name: str\n:param database_name: The name of the Azure\
+    \ SQL database to get the\n link for.\n:type database_name: str\n:param link_id:\
+    \ The replication link ID to be retrieved.\n:type link_id: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ReplicationLink\n\
+    \ <azure.mgmt.sql.models.ReplicationLink>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.sql.operations.DatabasesOperations.get_replication_link
+- _type: method
+  class: azure.mgmt.sql.operations.DatabasesOperations
+  fullName: azure.mgmt.sql.operations.DatabasesOperations.get_service_tier_advisor
+  module: azure.mgmt.sql.operations
+  name: get_service_tier_advisor
+  source:
+    id: get_service_tier_advisor
+    path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1044
+  summary: "Gets information about a service tier advisor.\n\n:param resource_group_name:\
+    \ The name of the resource group that\n contains the resource. You can obtain\
+    \ this value from the Azure\n Resource Manager API or the portal.\n:type resource_group_name:\
+    \ str\n:param server_name: The name of the Azure SQL server.\n:type server_name:\
+    \ str\n:param database_name: The name of database.\n:type database_name: str\n\
+    :param service_tier_advisor_name: The name of service tier advisor.\n:type service_tier_advisor_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`ServiceTierAdvisor\n <azure.mgmt.sql.models.ServiceTierAdvisor>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.sql.operations.DatabasesOperations.get_service_tier_advisor
+- _type: method
+  class: azure.mgmt.sql.operations.DatabasesOperations
+  fullName: azure.mgmt.sql.operations.DatabasesOperations.get_transparent_data_encryption_configuration
+  module: azure.mgmt.sql.operations
+  name: get_transparent_data_encryption_configuration
+  source:
+    id: get_transparent_data_encryption_configuration
+    path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1269
+  summary: "Gets an Azure SQL Database Transparent Data Encryption Response.\n\n:param\
+    \ resource_group_name: The name of the resource group that\n contains the resource.\
+    \ You can obtain this value from the Azure\n Resource Manager API or the portal.\n\
+    :type resource_group_name: str\n:param server_name: The name of the Azure SQL\
+    \ server.\n:type server_name: str\n:param database_name: The name of the Azure\
+    \ SQL database for which the\n Transparent Data Encryption applies.\n:type database_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`TransparentDataEncryption\n <azure.mgmt.sql.models.TransparentDataEncryption>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.sql.operations.DatabasesOperations.get_transparent_data_encryption_configuration
+- _type: method
+  class: azure.mgmt.sql.operations.DatabasesOperations
+  fullName: azure.mgmt.sql.operations.DatabasesOperations.list_by_server
+  module: azure.mgmt.sql.operations
+  name: list_by_server
+  source:
+    id: list_by_server
+    path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 900
+  summary: "Returns information about an Azure SQL database.\n\n:param resource_group_name:\
+    \ The name of the resource group that\n contains the resource. You can obtain\
+    \ this value from the Azure\n Resource Manager API or the portal.\n:type resource_group_name:\
+    \ str\n:param server_name: The name of the Azure SQL server.\n:type server_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`DatabasePaged <azure.mgmt.sql.models.DatabasePaged>`\n:raises:\
+    \ :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.sql.operations.DatabasesOperations.list_by_server
+- _type: method
+  class: azure.mgmt.sql.operations.DatabasesOperations
+  fullName: azure.mgmt.sql.operations.DatabasesOperations.list_replication_links
+  module: azure.mgmt.sql.operations
+  name: list_replication_links
+  source:
+    id: list_replication_links
+    path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 347
+  summary: "Gets information about Azure SQL database replication links.\n\n:param\
+    \ resource_group_name: The name of the resource group that\n contains the resource.\
+    \ You can obtain this value from the Azure\n Resource Manager API or the portal.\n\
+    :type resource_group_name: str\n:param server_name: The name of the Azure SQL\
+    \ server.\n:type server_name: str\n:param database_name: The name of the Azure\
+    \ SQL database to retrieve\n links for.\n:type database_name: str\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ :class:`ReplicationLinkPaged\n <azure.mgmt.sql.models.ReplicationLinkPaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.sql.operations.DatabasesOperations.list_replication_links
+- _type: method
+  class: azure.mgmt.sql.operations.DatabasesOperations
+  fullName: azure.mgmt.sql.operations.DatabasesOperations.list_restore_points
+  module: azure.mgmt.sql.operations
+  name: list_restore_points
+  source:
+    id: list_restore_points
+    path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 588
+  summary: "Returns a list of Azure SQL database restore points.\n\n:param resource_group_name:\
+    \ The name of the resource group that\n contains the resource. You can obtain\
+    \ this value from the Azure\n Resource Manager API or the portal.\n:type resource_group_name:\
+    \ str\n:param server_name: The name of the Azure SQL server.\n:type server_name:\
+    \ str\n:param database_name: The name of the Azure SQL database from which to\n\
+    \ retrieve available restore points.\n:type database_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`RestorePointPaged\n\
+    \ <azure.mgmt.sql.models.RestorePointPaged>`\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.sql.operations.DatabasesOperations.list_restore_points
+- _type: method
+  class: azure.mgmt.sql.operations.DatabasesOperations
+  fullName: azure.mgmt.sql.operations.DatabasesOperations.list_service_tier_advisors
+  module: azure.mgmt.sql.operations
+  name: list_service_tier_advisors
+  source:
+    id: list_service_tier_advisors
+    path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1114
+  summary: "Returns information about service tier advisors for specified database.\n\
+    \n:param resource_group_name: The name of the resource group that\n contains the\
+    \ resource. You can obtain this value from the Azure\n Resource Manager API or\
+    \ the portal.\n:type resource_group_name: str\n:param server_name: The name of\
+    \ the Azure SQL server.\n:type server_name: str\n:param database_name: The name\
+    \ of database.\n:type database_name: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ServiceTierAdvisorPaged\n\
+    \ <azure.mgmt.sql.models.ServiceTierAdvisorPaged>`\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.sql.operations.DatabasesOperations.list_service_tier_advisors
+- _type: method
+  class: azure.mgmt.sql.operations.DatabasesOperations
+  fullName: azure.mgmt.sql.operations.DatabasesOperations.list_transparent_data_encryption_activity
+  module: azure.mgmt.sql.operations
+  name: list_transparent_data_encryption_activity
+  source:
+    id: list_transparent_data_encryption_activity
+    path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1337
+  summary: "Returns an Azure SQL Database Transparent Data Encryption Activity\nResponse.\n\
+    \n:param resource_group_name: The name of the resource group that\n contains the\
+    \ resource. You can obtain this value from the Azure\n Resource Manager API or\
+    \ the portal.\n:type resource_group_name: str\n:param server_name: The name of\
+    \ the Azure SQL server.\n:type server_name: str\n:param database_name: The name\
+    \ of the Azure SQL database for which the\n Transparent Data Encryption applies.\n\
+    :type database_name: str\n:param dict custom_headers: headers that will be added\
+    \ to the request\n:param bool raw: returns the direct response alongside the\n\
+    \ deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`TransparentDataEncryptionActivityPaged\n\
+    \ <azure.mgmt.sql.models.TransparentDataEncryptionActivityPaged>`\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.sql.operations.DatabasesOperations.list_transparent_data_encryption_activity
+- _type: method
+  class: azure.mgmt.sql.operations.DatabasesOperations
+  fullName: azure.mgmt.sql.operations.DatabasesOperations.list_usages
+  module: azure.mgmt.sql.operations
+  name: list_usages
+  source:
+    id: list_usages
+    path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 970
+  summary: "Returns information about Azure SQL database usages.\n\n:param resource_group_name:\
+    \ The name of the resource group that\n contains the resource. You can obtain\
+    \ this value from the Azure\n Resource Manager API or the portal.\n:type resource_group_name:\
+    \ str\n:param server_name: The name of the Azure SQL server.\n:type server_name:\
+    \ str\n:param database_name: The name of the Azure SQL database.\n:type database_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`DatabaseMetricPaged\n <azure.mgmt.sql.models.DatabaseMetricPaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.sql.operations.DatabasesOperations.list_usages
+- _type: method
+  class: azure.mgmt.sql.operations.DatabasesOperations
+  fullName: azure.mgmt.sql.operations.DatabasesOperations.pause_data_warehouse
+  module: azure.mgmt.sql.operations
+  name: pause_data_warehouse
+  source:
+    id: pause_data_warehouse
+    path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 422
+  summary: "Pause an Azure SQL Data Warehouse database.\n\n:param resource_group_name:\
+    \ The name of the resource group that\n contains the resource. You can obtain\
+    \ this value from the Azure\n Resource Manager API or the portal.\n:type resource_group_name:\
+    \ str\n:param server_name: The name of the Azure SQL server.\n:type server_name:\
+    \ str\n:param database_name: The name of the Azure SQL Data Warehouse\n database\
+    \ to pause.\n:type database_name: str\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.sql.operations.DatabasesOperations.pause_data_warehouse
+- _type: method
+  class: azure.mgmt.sql.operations.DatabasesOperations
+  fullName: azure.mgmt.sql.operations.DatabasesOperations.resume_data_warehouse
+  module: azure.mgmt.sql.operations
+  name: resume_data_warehouse
+  source:
+    id: resume_data_warehouse
+    path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/operations/databases_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 505
+  summary: "Resume an Azure SQL Data Warehouse database.\n\n:param resource_group_name:\
+    \ The name of the resource group that\n contains the resource. You can obtain\
+    \ this value from the Azure\n Resource Manager API or the portal.\n:type resource_group_name:\
+    \ str\n:param server_name: The name of the Azure SQL server.\n:type server_name:\
+    \ str\n:param database_name: The name of the Azure SQL Data Warehouse\n database\
+    \ to resume.\n:type database_name: str\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.sql.operations.DatabasesOperations.resume_data_warehouse

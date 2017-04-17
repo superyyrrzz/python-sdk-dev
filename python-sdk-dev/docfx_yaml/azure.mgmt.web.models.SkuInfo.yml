@@ -1,0 +1,35 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.SkuInfo
+  fullName: azure.mgmt.web.models.SkuInfo
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: SkuInfo
+  source:
+    id: SkuInfo
+    path: azure-mgmt-web/azure/mgmt/web/models/sku_info.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/sku_info.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Sku discovery information.
+
+
+    :param resource_type: Resource type that this sku applies to
+
+    :type resource_type: str
+
+    :param sku: Name and tier of the sku
+
+    :type sku: :class:`SkuDescription <azure.mgmt.web.models.SkuDescription>`
+
+    :param capacity: Min, max, and default scale values of the sku
+
+    :type capacity: :class:`SkuCapacity <azure.mgmt.web.models.SkuCapacity>`'
+  type: Class
+  uid: azure.mgmt.web.models.SkuInfo

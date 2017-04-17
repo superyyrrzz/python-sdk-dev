@@ -1,0 +1,36 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.monitor.models.MetricDefinition
+  fullName: azure.monitor.models.MetricDefinition
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.monitor.models
+  name: MetricDefinition
+  source:
+    id: MetricDefinition
+    path: azure-monitor/azure/monitor/models/metric_definition.py
+    remote:
+      branch: master
+      path: azure-monitor/azure/monitor/models/metric_definition.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Metric definition class specifies the metadata for a metric.\n\n:param\
+    \ resource_id: the resource identifier of the resource that emitted\n the metric.\n\
+    :type resource_id: str\n:param name: the name and the display name of the metric,\
+    \ i.e. it is a\n localizable string.\n:type name: :class:`LocalizableString\n\
+    \ <azure.monitor.models.LocalizableString>`\n:param unit: the unit of the metric.\
+    \ Possible values include: 'Count',\n 'Bytes', 'Seconds', 'CountPerSecond', 'BytesPerSecond',\
+    \ 'Percent',\n 'MilliSeconds'\n:type unit: str or :class:`Unit <azure.monitor.models.Unit>`\n\
+    :param primary_aggregation_type: the primary aggregation type value\n defining\
+    \ how to use the values for display. Possible values include:\n 'None', 'Average',\
+    \ 'Count', 'Minimum', 'Maximum', 'Total'\n:type primary_aggregation_type: str\
+    \ or :class:`AggregationType\n <azure.monitor.models.AggregationType>`\n:param\
+    \ metric_availabilities: the collection of what aggregation intervals\n are available\
+    \ to be queried.\n:type metric_availabilities: list of :class:`MetricAvailability\n\
+    \ <azure.monitor.models.MetricAvailability>`\n:param id: the resource identifier\
+    \ of the metric definition.\n:type id: str"
+  type: Class
+  uid: azure.monitor.models.MetricDefinition

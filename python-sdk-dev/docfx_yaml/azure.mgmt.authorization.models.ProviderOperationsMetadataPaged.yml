@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.authorization.models.ProviderOperationsMetadataPaged
+  fullName: azure.mgmt.authorization.models.ProviderOperationsMetadataPaged
+  inheritance:
+  - msrest.paging.Paged
+  - collections.abc.Iterator
+  - collections.abc.Iterable
+  - builtins.object
+  module: azure.mgmt.authorization.models
+  name: ProviderOperationsMetadataPaged
+  source:
+    id: ProviderOperationsMetadataPaged
+    path: azure-mgmt-authorization/azure/mgmt/authorization/models/provider_operations_metadata_paged.py
+    remote:
+      branch: master
+      path: azure-mgmt-authorization/azure/mgmt/authorization/models/provider_operations_metadata_paged.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: A paging container for iterating over a list of ProviderOperationsMetadata
+    object
+  type: Class
+  uid: azure.mgmt.authorization.models.ProviderOperationsMetadataPaged

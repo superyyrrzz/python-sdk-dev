@@ -1,0 +1,334 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.cdn.operations.EndpointsOperations.create
+  - azure.mgmt.cdn.operations.EndpointsOperations.delete
+  - azure.mgmt.cdn.operations.EndpointsOperations.get
+  - azure.mgmt.cdn.operations.EndpointsOperations.list_by_profile
+  - azure.mgmt.cdn.operations.EndpointsOperations.list_resource_usage
+  - azure.mgmt.cdn.operations.EndpointsOperations.load_content
+  - azure.mgmt.cdn.operations.EndpointsOperations.purge_content
+  - azure.mgmt.cdn.operations.EndpointsOperations.start
+  - azure.mgmt.cdn.operations.EndpointsOperations.stop
+  - azure.mgmt.cdn.operations.EndpointsOperations.update
+  - azure.mgmt.cdn.operations.EndpointsOperations.validate_custom_domain
+  class: azure.mgmt.cdn.operations.EndpointsOperations
+  fullName: azure.mgmt.cdn.operations.EndpointsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.cdn.operations
+  name: EndpointsOperations
+  source:
+    id: EndpointsOperations
+    path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'EndpointsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.cdn.operations.EndpointsOperations
+- _type: method
+  class: azure.mgmt.cdn.operations.EndpointsOperations
+  fullName: azure.mgmt.cdn.operations.EndpointsOperations.create
+  module: azure.mgmt.cdn.operations
+  name: create
+  source:
+    id: create
+    path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 172
+  summary: "Creates a new CDN endpoint with the specified endpoint name under the\n\
+    specified subscription, resource group and profile.\n\n:param resource_group_name:\
+    \ Name of the Resource group within the\n Azure subscription.\n:type resource_group_name:\
+    \ str\n:param profile_name: Name of the CDN profile which is unique within\n the\
+    \ resource group.\n:type profile_name: str\n:param endpoint_name: Name of the\
+    \ endpoint under the profile which is\n unique globally.\n:type endpoint_name:\
+    \ str\n:param endpoint: Endpoint properties\n:type endpoint: :class:`Endpoint\
+    \ <azure.mgmt.cdn.models.Endpoint>`\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`Endpoint\n <azure.mgmt.cdn.models.Endpoint>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`ErrorResponseException<azure.mgmt.cdn.models.ErrorResponseException>`"
+  type: Method
+  uid: azure.mgmt.cdn.operations.EndpointsOperations.create
+- _type: method
+  class: azure.mgmt.cdn.operations.EndpointsOperations
+  fullName: azure.mgmt.cdn.operations.EndpointsOperations.delete
+  module: azure.mgmt.cdn.operations
+  name: delete
+  source:
+    id: delete
+    path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 376
+  summary: "Deletes an existing CDN endpoint with the specified endpoint name under\n\
+    the specified subscription, resource group and profile.\n\n:param resource_group_name:\
+    \ Name of the Resource group within the\n Azure subscription.\n:type resource_group_name:\
+    \ str\n:param profile_name: Name of the CDN profile which is unique within\n the\
+    \ resource group.\n:type profile_name: str\n:param endpoint_name: Name of the\
+    \ endpoint under the profile which is\n unique globally.\n:type endpoint_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`ErrorResponseException<azure.mgmt.cdn.models.ErrorResponseException>`"
+  type: Method
+  uid: azure.mgmt.cdn.operations.EndpointsOperations.delete
+- _type: method
+  class: azure.mgmt.cdn.operations.EndpointsOperations
+  fullName: azure.mgmt.cdn.operations.EndpointsOperations.get
+  module: azure.mgmt.cdn.operations
+  name: get
+  source:
+    id: get
+    path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 105
+  summary: "Gets an existing CDN endpoint with the specified endpoint name under\n\
+    the specified subscription, resource group and profile.\n\n:param resource_group_name:\
+    \ Name of the Resource group within the\n Azure subscription.\n:type resource_group_name:\
+    \ str\n:param profile_name: Name of the CDN profile which is unique within\n the\
+    \ resource group.\n:type profile_name: str\n:param endpoint_name: Name of the\
+    \ endpoint under the profile which is\n unique globally.\n:type endpoint_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`Endpoint <azure.mgmt.cdn.models.Endpoint>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`ErrorResponseException<azure.mgmt.cdn.models.ErrorResponseException>`"
+  type: Method
+  uid: azure.mgmt.cdn.operations.EndpointsOperations.get
+- _type: method
+  class: azure.mgmt.cdn.operations.EndpointsOperations
+  fullName: azure.mgmt.cdn.operations.EndpointsOperations.list_by_profile
+  module: azure.mgmt.cdn.operations
+  name: list_by_profile
+  source:
+    id: list_by_profile
+    path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Lists existing CDN endpoints.\n\n:param resource_group_name: Name of the\
+    \ Resource group within the\n Azure subscription.\n:type resource_group_name:\
+    \ str\n:param profile_name: Name of the CDN profile which is unique within\n the\
+    \ resource group.\n:type profile_name: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`EndpointPaged\
+    \ <azure.mgmt.cdn.models.EndpointPaged>`\n:raises:\n :class:`ErrorResponseException<azure.mgmt.cdn.models.ErrorResponseException>`"
+  type: Method
+  uid: azure.mgmt.cdn.operations.EndpointsOperations.list_by_profile
+- _type: method
+  class: azure.mgmt.cdn.operations.EndpointsOperations
+  fullName: azure.mgmt.cdn.operations.EndpointsOperations.list_resource_usage
+  module: azure.mgmt.cdn.operations
+  name: list_resource_usage
+  source:
+    id: list_resource_usage
+    path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 898
+  summary: "Checks the quota and usage of geo filters and custom domains under the\n\
+    given endpoint.\n\n:param resource_group_name: Name of the Resource group within\
+    \ the\n Azure subscription.\n:type resource_group_name: str\n:param profile_name:\
+    \ Name of the CDN profile which is unique within\n the resource group.\n:type\
+    \ profile_name: str\n:param endpoint_name: Name of the endpoint under the profile\
+    \ which is\n unique globally.\n:type endpoint_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ResourceUsagePaged\n\
+    \ <azure.mgmt.cdn.models.ResourceUsagePaged>`\n:raises:\n :class:`ErrorResponseException<azure.mgmt.cdn.models.ErrorResponseException>`"
+  type: Method
+  uid: azure.mgmt.cdn.operations.EndpointsOperations.list_resource_usage
+- _type: method
+  class: azure.mgmt.cdn.operations.EndpointsOperations
+  fullName: azure.mgmt.cdn.operations.EndpointsOperations.load_content
+  module: azure.mgmt.cdn.operations
+  name: load_content
+  source:
+    id: load_content
+    path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 730
+  summary: "Pre-loads a content to CDN. Available for Verizon Profiles.\n\n:param\
+    \ resource_group_name: Name of the Resource group within the\n Azure subscription.\n\
+    :type resource_group_name: str\n:param profile_name: Name of the CDN profile which\
+    \ is unique within\n the resource group.\n:type profile_name: str\n:param endpoint_name:\
+    \ Name of the endpoint under the profile which is\n unique globally.\n:type endpoint_name:\
+    \ str\n:param content_paths: The path to the content to be loaded. Path\n should\
+    \ be a relative file URL of the origin.\n:type content_paths: list of str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:rtype:\n\
+    \ :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`ErrorResponseException<azure.mgmt.cdn.models.ErrorResponseException>`"
+  type: Method
+  uid: azure.mgmt.cdn.operations.EndpointsOperations.load_content
+- _type: method
+  class: azure.mgmt.cdn.operations.EndpointsOperations
+  fullName: azure.mgmt.cdn.operations.EndpointsOperations.purge_content
+  module: azure.mgmt.cdn.operations
+  name: purge_content
+  source:
+    id: purge_content
+    path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 639
+  summary: "Removes a content from CDN.\n\n:param resource_group_name: Name of the\
+    \ Resource group within the\n Azure subscription.\n:type resource_group_name:\
+    \ str\n:param profile_name: Name of the CDN profile which is unique within\n the\
+    \ resource group.\n:type profile_name: str\n:param endpoint_name: Name of the\
+    \ endpoint under the profile which is\n unique globally.\n:type endpoint_name:\
+    \ str\n:param content_paths: The path to the content to be purged. Can\n describe\
+    \ a file path or a wild card directory.\n:type content_paths: list of str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:rtype:\n\
+    \ :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`ErrorResponseException<azure.mgmt.cdn.models.ErrorResponseException>`"
+  type: Method
+  uid: azure.mgmt.cdn.operations.EndpointsOperations.purge_content
+- _type: method
+  class: azure.mgmt.cdn.operations.EndpointsOperations
+  fullName: azure.mgmt.cdn.operations.EndpointsOperations.start
+  module: azure.mgmt.cdn.operations
+  name: start
+  source:
+    id: start
+    path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 459
+  summary: "Starts an existing CDN endpoint that is on a stopped state.\n\n:param\
+    \ resource_group_name: Name of the Resource group within the\n Azure subscription.\n\
+    :type resource_group_name: str\n:param profile_name: Name of the CDN profile which\
+    \ is unique within\n the resource group.\n:type profile_name: str\n:param endpoint_name:\
+    \ Name of the endpoint under the profile which is\n unique globally.\n:type endpoint_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`Endpoint\n <azure.mgmt.cdn.models.Endpoint>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`ErrorResponseException<azure.mgmt.cdn.models.ErrorResponseException>`"
+  type: Method
+  uid: azure.mgmt.cdn.operations.EndpointsOperations.start
+- _type: method
+  class: azure.mgmt.cdn.operations.EndpointsOperations
+  fullName: azure.mgmt.cdn.operations.EndpointsOperations.stop
+  module: azure.mgmt.cdn.operations
+  name: stop
+  source:
+    id: stop
+    path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 549
+  summary: "Stops an existing running CDN endpoint.\n\n:param resource_group_name:\
+    \ Name of the Resource group within the\n Azure subscription.\n:type resource_group_name:\
+    \ str\n:param profile_name: Name of the CDN profile which is unique within\n the\
+    \ resource group.\n:type profile_name: str\n:param endpoint_name: Name of the\
+    \ endpoint under the profile which is\n unique globally.\n:type endpoint_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`Endpoint\n <azure.mgmt.cdn.models.Endpoint>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`ErrorResponseException<azure.mgmt.cdn.models.ErrorResponseException>`"
+  type: Method
+  uid: azure.mgmt.cdn.operations.EndpointsOperations.stop
+- _type: method
+  class: azure.mgmt.cdn.operations.EndpointsOperations
+  fullName: azure.mgmt.cdn.operations.EndpointsOperations.update
+  module: azure.mgmt.cdn.operations
+  name: update
+  source:
+    id: update
+    path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 273
+  summary: "Updates an existing CDN endpoint with the specified endpoint name under\n\
+    the specified subscription, resource group and profile. Only tags and\nOrigin\
+    \ HostHeader can be updated after creating an endpoint. To update\norigins, use\
+    \ the Update Origin operation. To update custom domains, use\nthe Update Custom\
+    \ Domain operation.\n\n:param resource_group_name: Name of the Resource group\
+    \ within the\n Azure subscription.\n:type resource_group_name: str\n:param profile_name:\
+    \ Name of the CDN profile which is unique within\n the resource group.\n:type\
+    \ profile_name: str\n:param endpoint_name: Name of the endpoint under the profile\
+    \ which is\n unique globally.\n:type endpoint_name: str\n:param endpoint_update_properties:\
+    \ Endpoint update properties\n:type endpoint_update_properties: :class:`EndpointUpdateParameters\n\
+    \ <azure.mgmt.cdn.models.EndpointUpdateParameters>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`Endpoint\n <azure.mgmt.cdn.models.Endpoint>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`ErrorResponseException<azure.mgmt.cdn.models.ErrorResponseException>`"
+  type: Method
+  uid: azure.mgmt.cdn.operations.EndpointsOperations.update
+- _type: method
+  class: azure.mgmt.cdn.operations.EndpointsOperations
+  fullName: azure.mgmt.cdn.operations.EndpointsOperations.validate_custom_domain
+  module: azure.mgmt.cdn.operations
+  name: validate_custom_domain
+  source:
+    id: validate_custom_domain
+    path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 821
+  summary: "Validates the custom domain mapping to ensure it maps to the correct\n\
+    CDN endpoint in DNS.\n\n:param resource_group_name: Name of the Resource group\
+    \ within the\n Azure subscription.\n:type resource_group_name: str\n:param profile_name:\
+    \ Name of the CDN profile which is unique within\n the resource group.\n:type\
+    \ profile_name: str\n:param endpoint_name: Name of the endpoint under the profile\
+    \ which is\n unique globally.\n:type endpoint_name: str\n:param host_name: The\
+    \ host name of the custom domain. Must be a domain\n name.\n:type host_name: str\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`ValidateCustomDomainOutput\n <azure.mgmt.cdn.models.ValidateCustomDomainOutput>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`ErrorResponseException<azure.mgmt.cdn.models.ErrorResponseException>`"
+  type: Method
+  uid: azure.mgmt.cdn.operations.EndpointsOperations.validate_custom_domain

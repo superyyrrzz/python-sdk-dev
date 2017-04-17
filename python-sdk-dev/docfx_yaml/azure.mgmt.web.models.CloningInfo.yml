@@ -1,0 +1,42 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.CloningInfo
+  fullName: azure.mgmt.web.models.CloningInfo
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: CloningInfo
+  source:
+    id: CloningInfo
+    path: azure-mgmt-web/azure/mgmt/web/models/cloning_info.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/cloning_info.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Represents information needed for cloning operation.\n\n:param correlation_id:\
+    \ Correlation Id of cloning operation. This id ties\n multiple cloning operations\n\
+    \ together to use the same snapshot\n:type correlation_id: str\n:param overwrite:\
+    \ Overwrite destination web app\n:type overwrite: bool\n:param clone_custom_host_names:\
+    \ If true, clone custom hostnames from\n source web app\n:type clone_custom_host_names:\
+    \ bool\n:param clone_source_control: Clone source control from source web app\n\
+    :type clone_source_control: bool\n:param source_web_app_id: ARM resource id of\
+    \ the source web app. Web app\n resource id is of the form\n /subscriptions/{subId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Web/sites/{siteName}\n\
+    \ for production slots and\n /subscriptions/{subId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Web/sites/{siteName}/slots/{slotName}\n\
+    \ for other slots\n:type source_web_app_id: str\n:param hosting_environment: Hosting\
+    \ environment\n:type hosting_environment: str\n:param app_settings_overrides:\
+    \ Application settings overrides for cloned\n web app. If specified these settings\
+    \ will override the settings cloned\n from source web app. If not specified, application\
+    \ settings\n from source web app are retained.\n:type app_settings_overrides:\
+    \ dict\n:param configure_load_balancing: If specified configure load balancing\n\
+    \ for source and clone site\n:type configure_load_balancing: bool\n:param traffic_manager_profile_id:\
+    \ ARM resource id of the traffic manager\n profile to use if it exists. Traffic\
+    \ manager resource id is of the form\n /subscriptions/{subId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficManagerProfiles/{profileName}\n\
+    :type traffic_manager_profile_id: str\n:param traffic_manager_profile_name: Name\
+    \ of traffic manager profile to\n create. This is only needed if traffic manager\
+    \ profile does not already\n exist\n:type traffic_manager_profile_name: str"
+  type: Class
+  uid: azure.mgmt.web.models.CloningInfo

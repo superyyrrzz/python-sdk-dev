@@ -1,0 +1,30 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.ExpressRouteCircuitPeeringConfig
+  fullName: azure.mgmt.network.models.ExpressRouteCircuitPeeringConfig
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: ExpressRouteCircuitPeeringConfig
+  source:
+    id: ExpressRouteCircuitPeeringConfig
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/express_route_circuit_peering_config.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/express_route_circuit_peering_config.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Specifies the peering config.\n\n:param advertised_public_prefixes: Gets\
+    \ or sets the reference of\n AdvertisedPublicPrefixes\n:type advertised_public_prefixes:\
+    \ list of str\n:param advertised_public_prefixes_state: Gets or sets\n AdvertisedPublicPrefixState\
+    \ of the Peering resource . Possible values\n include: 'NotConfigured', 'Configuring',\
+    \ 'Configured', 'ValidationNeeded'\n:type advertised_public_prefixes_state: str\
+    \ or\n :class:`ExpressRouteCircuitPeeringAdvertisedPublicPrefixState\n <azure.mgmt.network.models.ExpressRouteCircuitPeeringAdvertisedPublicPrefixState>`\n\
+    :param customer_asn: Gets or Sets CustomerAsn of the peering.\n:type customer_asn:\
+    \ int\n:param routing_registry_name: Gets or Sets RoutingRegistryName of the\n\
+    \ config.\n:type routing_registry_name: str"
+  type: Class
+  uid: azure.mgmt.network.models.ExpressRouteCircuitPeeringConfig

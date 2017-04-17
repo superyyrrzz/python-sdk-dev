@@ -1,0 +1,279 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.network.operations.NetworkInterfacesOperations.create_or_update
+  - azure.mgmt.network.operations.NetworkInterfacesOperations.delete
+  - azure.mgmt.network.operations.NetworkInterfacesOperations.get
+  - azure.mgmt.network.operations.NetworkInterfacesOperations.get_effective_route_table
+  - azure.mgmt.network.operations.NetworkInterfacesOperations.get_virtual_machine_scale_set_network_interface
+  - azure.mgmt.network.operations.NetworkInterfacesOperations.list
+  - azure.mgmt.network.operations.NetworkInterfacesOperations.list_all
+  - azure.mgmt.network.operations.NetworkInterfacesOperations.list_effective_network_security_groups
+  - azure.mgmt.network.operations.NetworkInterfacesOperations.list_virtual_machine_scale_set_network_interfaces
+  - azure.mgmt.network.operations.NetworkInterfacesOperations.list_virtual_machine_scale_set_vm_network_interfaces
+  class: azure.mgmt.network.operations.NetworkInterfacesOperations
+  fullName: azure.mgmt.network.operations.NetworkInterfacesOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.network.operations
+  name: NetworkInterfacesOperations
+  source:
+    id: NetworkInterfacesOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 20
+  summary: 'NetworkInterfacesOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.network.operations.NetworkInterfacesOperations
+- _type: method
+  class: azure.mgmt.network.operations.NetworkInterfacesOperations
+  fullName: azure.mgmt.network.operations.NetworkInterfacesOperations.create_or_update
+  module: azure.mgmt.network.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 180
+  summary: "The Put NetworkInterface operation creates/updates a networkInterface.\n\
+    \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param network_interface_name: The name of the network interface.\n:type\
+    \ network_interface_name: str\n:param parameters: Parameters supplied to the create/update\n\
+    \ NetworkInterface operation\n:type parameters: :class:`NetworkInterface\n <azure.mgmt.network.models.NetworkInterface>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`NetworkInterface\n <azure.mgmt.network.models.NetworkInterface>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.NetworkInterfacesOperations.create_or_update
+- _type: method
+  class: azure.mgmt.network.operations.NetworkInterfacesOperations
+  fullName: azure.mgmt.network.operations.NetworkInterfacesOperations.delete
+  module: azure.mgmt.network.operations
+  name: delete
+  source:
+    id: delete
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 37
+  summary: "The delete netwokInterface operation deletes the specified\nnetwokInterface.\n\
+    \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param network_interface_name: The name of the network interface.\n:type\
+    \ network_interface_name: str\n:param dict custom_headers: headers that will be\
+    \ added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.NetworkInterfacesOperations.delete
+- _type: method
+  class: azure.mgmt.network.operations.NetworkInterfacesOperations
+  fullName: azure.mgmt.network.operations.NetworkInterfacesOperations.get
+  module: azure.mgmt.network.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 114
+  summary: "The Get network interface operation retrieves information about the\n\
+    specified network interface.\n\n:param resource_group_name: The name of the resource\
+    \ group.\n:type resource_group_name: str\n:param network_interface_name: The name\
+    \ of the network interface.\n:type network_interface_name: str\n:param expand:\
+    \ expand references resources.\n:type expand: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`NetworkInterface\n\
+    \ <azure.mgmt.network.models.NetworkInterface>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.NetworkInterfacesOperations.get
+- _type: method
+  class: azure.mgmt.network.operations.NetworkInterfacesOperations
+  fullName: azure.mgmt.network.operations.NetworkInterfacesOperations.get_effective_route_table
+  module: azure.mgmt.network.operations
+  name: get_effective_route_table
+  source:
+    id: get_effective_route_table
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 620
+  summary: "The get effective routetable operation retrieves all the route tables\n\
+    applied on a networkInterface.\n\n:param resource_group_name: The name of the\
+    \ resource group.\n:type resource_group_name: str\n:param network_interface_name:\
+    \ The name of the network interface.\n:type network_interface_name: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:rtype:\n\
+    \ :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`EffectiveRouteListResult\n <azure.mgmt.network.models.EffectiveRouteListResult>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.NetworkInterfacesOperations.get_effective_route_table
+- _type: method
+  class: azure.mgmt.network.operations.NetworkInterfacesOperations
+  fullName: azure.mgmt.network.operations.NetworkInterfacesOperations.get_virtual_machine_scale_set_network_interface
+  module: azure.mgmt.network.operations
+  name: get_virtual_machine_scale_set_network_interface
+  source:
+    id: get_virtual_machine_scale_set_network_interface
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 418
+  summary: "The Get network interface operation retrieves information about the\n\
+    specified network interface in a virtual machine scale set.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param virtual_machine_scale_set_name:\
+    \ The name of the virtual\n machine scale set.\n:type virtual_machine_scale_set_name:\
+    \ str\n:param virtualmachine_index: The virtual machine index.\n:type virtualmachine_index:\
+    \ str\n:param network_interface_name: The name of the network interface.\n:type\
+    \ network_interface_name: str\n:param expand: expand references resources.\n:type\
+    \ expand: str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`NetworkInterface\n <azure.mgmt.network.models.NetworkInterface>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.NetworkInterfacesOperations.get_virtual_machine_scale_set_network_interface
+- _type: method
+  class: azure.mgmt.network.operations.NetworkInterfacesOperations
+  fullName: azure.mgmt.network.operations.NetworkInterfacesOperations.list
+  module: azure.mgmt.network.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 554
+  summary: "The List networkInterfaces operation retrieves all the\nnetworkInterfaces\
+    \ in a resource group.\n\n:param resource_group_name: The name of the resource\
+    \ group.\n:type resource_group_name: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`NetworkInterfacePaged\n\
+    \ <azure.mgmt.network.models.NetworkInterfacePaged>`"
+  type: Method
+  uid: azure.mgmt.network.operations.NetworkInterfacesOperations.list
+- _type: method
+  class: azure.mgmt.network.operations.NetworkInterfacesOperations
+  fullName: azure.mgmt.network.operations.NetworkInterfacesOperations.list_all
+  module: azure.mgmt.network.operations
+  name: list_all
+  source:
+    id: list_all
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 491
+  summary: "The List networkInterfaces operation retrieves all the\nnetworkInterfaces\
+    \ in a subscription.\n\n:param dict custom_headers: headers that will be added\
+    \ to the request\n:param bool raw: returns the direct response alongside the\n\
+    \ deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`NetworkInterfacePaged\n\
+    \ <azure.mgmt.network.models.NetworkInterfacePaged>`"
+  type: Method
+  uid: azure.mgmt.network.operations.NetworkInterfacesOperations.list_all
+- _type: method
+  class: azure.mgmt.network.operations.NetworkInterfacesOperations
+  fullName: azure.mgmt.network.operations.NetworkInterfacesOperations.list_effective_network_security_groups
+  module: azure.mgmt.network.operations
+  name: list_effective_network_security_groups
+  source:
+    id: list_effective_network_security_groups
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 705
+  summary: "The list effective network security group operation retrieves all the\n\
+    network security groups applied on a networkInterface.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param network_interface_name:\
+    \ The name of the network interface.\n:type network_interface_name: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:rtype:\n\
+    \ :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns\n :class:`EffectiveNetworkSecurityGroupListResult <azure.mgmt.network.models.EffectiveNetworkSecurityGroupListResult>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.NetworkInterfacesOperations.list_effective_network_security_groups
+- _type: method
+  class: azure.mgmt.network.operations.NetworkInterfacesOperations
+  fullName: azure.mgmt.network.operations.NetworkInterfacesOperations.list_virtual_machine_scale_set_network_interfaces
+  module: azure.mgmt.network.operations
+  name: list_virtual_machine_scale_set_network_interfaces
+  source:
+    id: list_virtual_machine_scale_set_network_interfaces
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 348
+  summary: "The list network interface operation retrieves information about all\n\
+    network interfaces in a virtual machine scale set.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param virtual_machine_scale_set_name:\
+    \ The name of the virtual\n machine scale set.\n:type virtual_machine_scale_set_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`NetworkInterfacePaged\n <azure.mgmt.network.models.NetworkInterfacePaged>`"
+  type: Method
+  uid: azure.mgmt.network.operations.NetworkInterfacesOperations.list_virtual_machine_scale_set_network_interfaces
+- _type: method
+  class: azure.mgmt.network.operations.NetworkInterfacesOperations
+  fullName: azure.mgmt.network.operations.NetworkInterfacesOperations.list_virtual_machine_scale_set_vm_network_interfaces
+  module: azure.mgmt.network.operations
+  name: list_virtual_machine_scale_set_vm_network_interfaces
+  source:
+    id: list_virtual_machine_scale_set_vm_network_interfaces
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 274
+  summary: "The list network interface operation retrieves information about all\n\
+    network interfaces in a virtual machine from a virtual machine scale\nset.\n\n\
+    :param resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param virtual_machine_scale_set_name: The name of the virtual\n machine\
+    \ scale set.\n:type virtual_machine_scale_set_name: str\n:param virtualmachine_index:\
+    \ The virtual machine index.\n:type virtualmachine_index: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`NetworkInterfacePaged\n\
+    \ <azure.mgmt.network.models.NetworkInterfacePaged>`"
+  type: Method
+  uid: azure.mgmt.network.operations.NetworkInterfacesOperations.list_virtual_machine_scale_set_vm_network_interfaces

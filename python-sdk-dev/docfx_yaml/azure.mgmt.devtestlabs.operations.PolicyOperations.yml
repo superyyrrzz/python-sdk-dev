@@ -1,0 +1,160 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.devtestlabs.operations.PolicyOperations.create_or_update_resource
+  - azure.mgmt.devtestlabs.operations.PolicyOperations.delete_resource
+  - azure.mgmt.devtestlabs.operations.PolicyOperations.get_resource
+  - azure.mgmt.devtestlabs.operations.PolicyOperations.list
+  - azure.mgmt.devtestlabs.operations.PolicyOperations.patch_resource
+  class: azure.mgmt.devtestlabs.operations.PolicyOperations
+  fullName: azure.mgmt.devtestlabs.operations.PolicyOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.devtestlabs.operations
+  name: PolicyOperations
+  source:
+    id: PolicyOperations
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/policy_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/policy_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'PolicyOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.devtestlabs.operations.PolicyOperations
+- _type: method
+  class: azure.mgmt.devtestlabs.operations.PolicyOperations
+  fullName: azure.mgmt.devtestlabs.operations.PolicyOperations.create_or_update_resource
+  module: azure.mgmt.devtestlabs.operations
+  name: create_or_update_resource
+  source:
+    id: create_or_update_resource
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/policy_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/policy_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 189
+  summary: "Create or replace an existing policy.\n\n:param resource_group_name: The\
+    \ name of the resource group.\n:type resource_group_name: str\n:param lab_name:\
+    \ The name of the lab.\n:type lab_name: str\n:param policy_set_name: The name\
+    \ of the policy set.\n:type policy_set_name: str\n:param name: The name of the\
+    \ policy.\n:type name: str\n:param policy:\n:type policy: :class:`Policy <azure.mgmt.devtestlabs.models.Policy>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`Policy <azure.mgmt.devtestlabs.models.Policy>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.devtestlabs.operations.PolicyOperations.create_or_update_resource
+- _type: method
+  class: azure.mgmt.devtestlabs.operations.PolicyOperations
+  fullName: azure.mgmt.devtestlabs.operations.PolicyOperations.delete_resource
+  module: azure.mgmt.devtestlabs.operations
+  name: delete_resource
+  source:
+    id: delete_resource
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/policy_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/policy_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 264
+  summary: "Delete policy.\n\n:param resource_group_name: The name of the resource\
+    \ group.\n:type resource_group_name: str\n:param lab_name: The name of the lab.\n\
+    :type lab_name: str\n:param policy_set_name: The name of the policy set.\n:type\
+    \ policy_set_name: str\n:param name: The name of the policy.\n:type name: str\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.devtestlabs.operations.PolicyOperations.delete_resource
+- _type: method
+  class: azure.mgmt.devtestlabs.operations.PolicyOperations
+  fullName: azure.mgmt.devtestlabs.operations.PolicyOperations.get_resource
+  module: azure.mgmt.devtestlabs.operations
+  name: get_resource
+  source:
+    id: get_resource
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/policy_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/policy_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 122
+  summary: "Get policy.\n\n:param resource_group_name: The name of the resource group.\n\
+    :type resource_group_name: str\n:param lab_name: The name of the lab.\n:type lab_name:\
+    \ str\n:param policy_set_name: The name of the policy set.\n:type policy_set_name:\
+    \ str\n:param name: The name of the policy.\n:type name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`Policy\
+    \ <azure.mgmt.devtestlabs.models.Policy>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.devtestlabs.operations.PolicyOperations.get_resource
+- _type: method
+  class: azure.mgmt.devtestlabs.operations.PolicyOperations
+  fullName: azure.mgmt.devtestlabs.operations.PolicyOperations.list
+  module: azure.mgmt.devtestlabs.operations
+  name: list
+  source:
+    id: list
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/policy_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/policy_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "List policies in a given policy set.\n\n:param resource_group_name: The\
+    \ name of the resource group.\n:type resource_group_name: str\n:param lab_name:\
+    \ The name of the lab.\n:type lab_name: str\n:param policy_set_name: The name\
+    \ of the policy set.\n:type policy_set_name: str\n:param filter: The filter to\
+    \ apply on the operation.\n:type filter: str\n:param top: The maximum number of\
+    \ resources to return from the\n operation.\n:type top: int\n:param order_by:\
+    \ The ordering expression for the results, using OData\n notation.\n:type order_by:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`PolicyPaged\n <azure.mgmt.devtestlabs.models.PolicyPaged>`\n:raises:\
+    \ :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.devtestlabs.operations.PolicyOperations.list
+- _type: method
+  class: azure.mgmt.devtestlabs.operations.PolicyOperations
+  fullName: azure.mgmt.devtestlabs.operations.PolicyOperations.patch_resource
+  module: azure.mgmt.devtestlabs.operations
+  name: patch_resource
+  source:
+    id: patch_resource
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/policy_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/policy_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 324
+  summary: "Modify properties of policies.\n\n:param resource_group_name: The name\
+    \ of the resource group.\n:type resource_group_name: str\n:param lab_name: The\
+    \ name of the lab.\n:type lab_name: str\n:param policy_set_name: The name of the\
+    \ policy set.\n:type policy_set_name: str\n:param name: The name of the policy.\n\
+    :type name: str\n:param policy:\n:type policy: :class:`Policy <azure.mgmt.devtestlabs.models.Policy>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`Policy <azure.mgmt.devtestlabs.models.Policy>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.devtestlabs.operations.PolicyOperations.patch_resource

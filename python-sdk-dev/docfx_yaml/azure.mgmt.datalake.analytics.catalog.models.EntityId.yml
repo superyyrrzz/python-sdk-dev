@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.datalake.analytics.catalog.models.EntityId
+  fullName: azure.mgmt.datalake.analytics.catalog.models.EntityId
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.datalake.analytics.catalog.models
+  name: EntityId
+  source:
+    id: EntityId
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/models/entity_id.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/models/entity_id.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A Data Lake Analytics catalog entity identifier object.\n\n:param name:\
+    \ the name of the external table associated with this database,\n schema and table.\n\
+    :type name: :class:`DdlName\n <azure.mgmt.datalake.analytics.catalog.models.DdlName>`\n\
+    :param version: the version of the external data source.\n:type version: str"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.catalog.models.EntityId

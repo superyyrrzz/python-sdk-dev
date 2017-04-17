@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.datalake.analytics.catalog.models.USqlProcedure
+  fullName: azure.mgmt.datalake.analytics.catalog.models.USqlProcedure
+  inheritance:
+  - azure.mgmt.datalake.analytics.catalog.models.catalog_item.CatalogItem
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.datalake.analytics.catalog.models
+  name: USqlProcedure
+  source:
+    id: USqlProcedure
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/models/usql_procedure.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/models/usql_procedure.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A Data Lake Analytics catalog U-SQL procedure item.\n\n:param compute_account_name:\
+    \ the name of the Data Lake Analytics account.\n:type compute_account_name: str\n\
+    :param version: the version of the catalog item.\n:type version: str\n:param database_name:\
+    \ the name of the database.\n:type database_name: str\n:param schema_name: the\
+    \ name of the schema associated with this procedure\n and database.\n:type schema_name:\
+    \ str\n:param name: the name of the procedure.\n:type name: str\n:param definition:\
+    \ the defined query of the procedure.\n:type definition: str"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.catalog.models.USqlProcedure

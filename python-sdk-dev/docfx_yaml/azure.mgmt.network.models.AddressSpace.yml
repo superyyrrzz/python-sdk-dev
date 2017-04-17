@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.AddressSpace
+  fullName: azure.mgmt.network.models.AddressSpace
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: AddressSpace
+  source:
+    id: AddressSpace
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/address_space.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/address_space.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "AddressSpace contains an array of IP address ranges that can be used by\n\
+    subnets.\n\n:param address_prefixes: Gets or sets list of address blocks reserved\
+    \ for\n this virtual network in CIDR notation\n:type address_prefixes: list of\
+    \ str"
+  type: Class
+  uid: azure.mgmt.network.models.AddressSpace

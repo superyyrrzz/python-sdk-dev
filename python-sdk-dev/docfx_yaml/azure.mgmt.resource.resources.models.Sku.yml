@@ -1,0 +1,47 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.resources.models.Sku
+  fullName: azure.mgmt.resource.resources.models.Sku
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.resource.resources.models
+  name: Sku
+  source:
+    id: Sku
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/sku.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/sku.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Sku for the resource.
+
+
+    :param name: The sku name.
+
+    :type name: str
+
+    :param tier: The sku tier.
+
+    :type tier: str
+
+    :param size: The sku size.
+
+    :type size: str
+
+    :param family: The sku family.
+
+    :type family: str
+
+    :param model: The sku model.
+
+    :type model: str
+
+    :param capacity: The sku capacity.
+
+    :type capacity: int'
+  type: Class
+  uid: azure.mgmt.resource.resources.models.Sku

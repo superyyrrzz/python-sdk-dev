@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.EffectiveNetworkSecurityGroup
+  fullName: azure.mgmt.network.models.EffectiveNetworkSecurityGroup
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: EffectiveNetworkSecurityGroup
+  source:
+    id: EffectiveNetworkSecurityGroup
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/effective_network_security_group.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/effective_network_security_group.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Effective NetworkSecurityGroup.\n\n:param network_security_group: Gets\
+    \ the id of network security group that\n is applied\n:type network_security_group:\
+    \ :class:`SubResource\n <azure.mgmt.network.models.SubResource>`\n:param association:\n\
+    :type association: :class:`EffectiveNetworkSecurityGroupAssociation\n <azure.mgmt.network.models.EffectiveNetworkSecurityGroupAssociation>`\n\
+    :param effective_security_rules: Gets collection of effective security\n rules\n\
+    :type effective_security_rules: list of\n :class:`EffectiveNetworkSecurityRule\n\
+    \ <azure.mgmt.network.models.EffectiveNetworkSecurityRule>`"
+  type: Class
+  uid: azure.mgmt.network.models.EffectiveNetworkSecurityGroup

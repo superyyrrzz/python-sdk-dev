@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.VirtualMachineCaptureParameters
+  fullName: azure.mgmt.compute.models.VirtualMachineCaptureParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: VirtualMachineCaptureParameters
+  source:
+    id: VirtualMachineCaptureParameters
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_capture_parameters.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_capture_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Capture Virtual Machine parameters.\n\n:param vhd_prefix: the captured\
+    \ VirtualHardDisk's name prefix.\n:type vhd_prefix: str\n:param destination_container_name:\
+    \ the destination container name.\n:type destination_container_name: str\n:param\
+    \ overwrite_vhds: whether it overwrites destination VirtualHardDisk\n if true,\
+    \ in case of conflict.\n:type overwrite_vhds: bool"
+  type: Class
+  uid: azure.mgmt.compute.models.VirtualMachineCaptureParameters

@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.VirtualMachineScaleSetVMExtensionsSummary
+  fullName: azure.mgmt.compute.models.VirtualMachineScaleSetVMExtensionsSummary
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: VirtualMachineScaleSetVMExtensionsSummary
+  source:
+    id: VirtualMachineScaleSetVMExtensionsSummary
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_scale_set_vm_extensions_summary.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_scale_set_vm_extensions_summary.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Extensions summary for virtual machines of a virtual machine scale set.\n\
+    \nVariables are only populated by the server, and will be ignored when\nsending\
+    \ a request.\n\n:ivar name: the extension name.\n:vartype name: str\n:ivar statuses_summary:\
+    \ the extensions information.\n:vartype statuses_summary: list of :class:`VirtualMachineStatusCodeCount\n\
+    \ <azure.mgmt.compute.models.VirtualMachineStatusCodeCount>`"
+  type: Class
+  uid: azure.mgmt.compute.models.VirtualMachineScaleSetVMExtensionsSummary

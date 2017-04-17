@@ -1,0 +1,43 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.IntegrationAccountResource
+  fullName: azure.mgmt.logic.models.IntegrationAccountResource
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: IntegrationAccountResource
+  source:
+    id: IntegrationAccountResource
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/integration_account_resource.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/integration_account_resource.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'IntegrationAccountResource.
+
+
+    :param id: The resource id.
+
+    :type id: str
+
+    :param name: The resource name.
+
+    :type name: str
+
+    :param type: The resource type.
+
+    :type type: str
+
+    :param location: The resource location.
+
+    :type location: str
+
+    :param tags: The resource tags.
+
+    :type tags: dict'
+  type: Class
+  uid: azure.mgmt.logic.models.IntegrationAccountResource

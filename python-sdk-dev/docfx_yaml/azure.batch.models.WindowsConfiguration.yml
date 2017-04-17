@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.WindowsConfiguration
+  fullName: azure.batch.models.WindowsConfiguration
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: WindowsConfiguration
+  source:
+    id: WindowsConfiguration
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/windows_configuration.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/windows_configuration.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Windows operating system settings to apply to the virtual machine.\n\n\
+    :param enable_automatic_updates: Whether automatic updates are enabled on\n the\
+    \ virtual machine. If omitted, the default value is true.\n:type enable_automatic_updates:\
+    \ bool"
+  type: Class
+  uid: azure.batch.models.WindowsConfiguration

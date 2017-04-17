@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.keyvault.generated.models.Action
+  fullName: azure.keyvault.generated.models.Action
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.keyvault.generated.models
+  name: Action
+  source:
+    id: Action
+    path: azure-keyvault/azure/keyvault/generated/models/action.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/models/action.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The action that will be executed.\n\n:param action_type: The type of the\
+    \ action. Possible values include:\n 'EmailContacts', 'AutoRenew'\n:type action_type:\
+    \ str or :class:`ActionType\n <azure.keyvault.generated.models.ActionType>`"
+  type: Class
+  uid: azure.keyvault.generated.models.Action

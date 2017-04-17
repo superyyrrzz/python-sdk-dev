@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.authorization.models.RoleDefinition
+  fullName: azure.mgmt.authorization.models.RoleDefinition
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.authorization.models
+  name: RoleDefinition
+  source:
+    id: RoleDefinition
+    path: azure-mgmt-authorization/azure/mgmt/authorization/models/role_definition.py
+    remote:
+      branch: master
+      path: azure-mgmt-authorization/azure/mgmt/authorization/models/role_definition.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Role definition.\n\n:param id: The role definition ID.\n:type id: str\n\
+    :param name: The role definition name.\n:type name: str\n:param type: The role\
+    \ definition type.\n:type type: str\n:param properties: Role definition properties.\n\
+    :type properties: :class:`RoleDefinitionProperties\n <azure.mgmt.authorization.models.RoleDefinitionProperties>`"
+  type: Class
+  uid: azure.mgmt.authorization.models.RoleDefinition

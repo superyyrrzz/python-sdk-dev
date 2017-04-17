@@ -1,0 +1,190 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.resource.resources.operations.ResourcesOperations.check_existence
+  - azure.mgmt.resource.resources.operations.ResourcesOperations.create_or_update
+  - azure.mgmt.resource.resources.operations.ResourcesOperations.delete
+  - azure.mgmt.resource.resources.operations.ResourcesOperations.get
+  - azure.mgmt.resource.resources.operations.ResourcesOperations.list
+  - azure.mgmt.resource.resources.operations.ResourcesOperations.move_resources
+  class: azure.mgmt.resource.resources.operations.ResourcesOperations
+  fullName: azure.mgmt.resource.resources.operations.ResourcesOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.resource.resources.operations
+  name: ResourcesOperations
+  source:
+    id: ResourcesOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resources_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resources_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 20
+  summary: 'ResourcesOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.resource.resources.operations.ResourcesOperations
+- _type: method
+  class: azure.mgmt.resource.resources.operations.ResourcesOperations
+  fullName: azure.mgmt.resource.resources.operations.ResourcesOperations.check_existence
+  module: azure.mgmt.resource.resources.operations
+  name: check_existence
+  source:
+    id: check_existence
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resources_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resources_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 196
+  summary: "Checks whether resource exists.\n\n:param resource_group_name: The name\
+    \ of the resource group. The name\n is case insensitive.\n:type resource_group_name:\
+    \ str\n:param resource_provider_namespace: Resource identity.\n:type resource_provider_namespace:\
+    \ str\n:param parent_resource_path: Resource identity.\n:type parent_resource_path:\
+    \ str\n:param resource_type: Resource identity.\n:type resource_type: str\n:param\
+    \ resource_name: Resource identity.\n:type resource_name: str\n:param api_version:\n\
+    :type api_version: str\n:param dict custom_headers: headers that will be added\
+    \ to the request\n:param bool raw: returns the direct response alongside the\n\
+    \ deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: bool\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.resource.resources.operations.ResourcesOperations.check_existence
+- _type: method
+  class: azure.mgmt.resource.resources.operations.ResourcesOperations
+  fullName: azure.mgmt.resource.resources.operations.ResourcesOperations.create_or_update
+  module: azure.mgmt.resource.resources.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resources_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resources_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 328
+  summary: "Create a resource.\n\n:param resource_group_name: The name of the resource\
+    \ group. The name\n is case insensitive.\n:type resource_group_name: str\n:param\
+    \ resource_provider_namespace: Resource identity.\n:type resource_provider_namespace:\
+    \ str\n:param parent_resource_path: Resource identity.\n:type parent_resource_path:\
+    \ str\n:param resource_type: Resource identity.\n:type resource_type: str\n:param\
+    \ resource_name: Resource identity.\n:type resource_name: str\n:param api_version:\n\
+    :type api_version: str\n:param parameters: Create or update resource parameters.\n\
+    :type parameters: :class:`GenericResource\n <azure.mgmt.resource.resources.models.GenericResource>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`GenericResource\n <azure.mgmt.resource.resources.models.GenericResource>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.resource.resources.operations.ResourcesOperations.create_or_update
+- _type: method
+  class: azure.mgmt.resource.resources.operations.ResourcesOperations
+  fullName: azure.mgmt.resource.resources.operations.ResourcesOperations.delete
+  module: azure.mgmt.resource.resources.operations
+  name: delete
+  source:
+    id: delete
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resources_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resources_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 263
+  summary: "Delete resource and all of its resources. .\n\n:param resource_group_name:\
+    \ The name of the resource group. The name\n is case insensitive.\n:type resource_group_name:\
+    \ str\n:param resource_provider_namespace: Resource identity.\n:type resource_provider_namespace:\
+    \ str\n:param parent_resource_path: Resource identity.\n:type parent_resource_path:\
+    \ str\n:param resource_type: Resource identity.\n:type resource_type: str\n:param\
+    \ resource_name: Resource identity.\n:type resource_name: str\n:param api_version:\n\
+    :type api_version: str\n:param dict custom_headers: headers that will be added\
+    \ to the request\n:param bool raw: returns the direct response alongside the\n\
+    \ deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.resource.resources.operations.ResourcesOperations.delete
+- _type: method
+  class: azure.mgmt.resource.resources.operations.ResourcesOperations
+  fullName: azure.mgmt.resource.resources.operations.ResourcesOperations.get
+  module: azure.mgmt.resource.resources.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resources_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resources_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 410
+  summary: "Returns a resource belonging to a resource group.\n\n:param resource_group_name:\
+    \ The name of the resource group. The name\n is case insensitive.\n:type resource_group_name:\
+    \ str\n:param resource_provider_namespace: Resource identity.\n:type resource_provider_namespace:\
+    \ str\n:param parent_resource_path: Resource identity.\n:type parent_resource_path:\
+    \ str\n:param resource_type: Resource identity.\n:type resource_type: str\n:param\
+    \ resource_name: Resource identity.\n:type resource_name: str\n:param api_version:\n\
+    :type api_version: str\n:param dict custom_headers: headers that will be added\
+    \ to the request\n:param bool raw: returns the direct response alongside the\n\
+    \ deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`GenericResource\n\
+    \ <azure.mgmt.resource.resources.models.GenericResource>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.resource.resources.operations.ResourcesOperations.get
+- _type: method
+  class: azure.mgmt.resource.resources.operations.ResourcesOperations
+  fullName: azure.mgmt.resource.resources.operations.ResourcesOperations.list
+  module: azure.mgmt.resource.resources.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resources_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resources_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 121
+  summary: "Get all of the resources under a subscription.\n\n:param filter: The filter\
+    \ to apply on the operation.\n:type filter: str\n:param expand: The $expand query\
+    \ parameter.\n:type expand: str\n:param top: Query parameters. If null is passed\
+    \ returns all resource\n groups.\n:type top: int\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`GenericResourcePaged\n\
+    \ <azure.mgmt.resource.resources.models.GenericResourcePaged>`"
+  type: Method
+  uid: azure.mgmt.resource.resources.operations.ResourcesOperations.list
+- _type: method
+  class: azure.mgmt.resource.resources.operations.ResourcesOperations
+  fullName: azure.mgmt.resource.resources.operations.ResourcesOperations.move_resources
+  module: azure.mgmt.resource.resources.operations
+  name: move_resources
+  source:
+    id: move_resources
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resources_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resources_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 37
+  summary: "Move resources from one resource group to another. The resources being\n\
+    moved should all be in the same resource group.\n\n:param source_resource_group_name:\
+    \ Source resource group name.\n:type source_resource_group_name: str\n:param resources:\
+    \ The ids of the resources.\n:type resources: list of str\n:param target_resource_group:\
+    \ The target resource group.\n:type target_resource_group: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.resource.resources.operations.ResourcesOperations.move_resources

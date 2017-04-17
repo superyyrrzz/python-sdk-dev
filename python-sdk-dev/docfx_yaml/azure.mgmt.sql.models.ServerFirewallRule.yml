@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.sql.models.ServerFirewallRule
+  fullName: azure.mgmt.sql.models.ServerFirewallRule
+  inheritance:
+  - azure.mgmt.sql.models.sql_sub_resource.SqlSubResource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.sql.models
+  name: ServerFirewallRule
+  source:
+    id: ServerFirewallRule
+    path: azure-mgmt-sql/azure/mgmt/sql/models/server_firewall_rule.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/models/server_firewall_rule.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Represents an Azure SQL server firewall rule.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar name: Resource\
+    \ name\n:vartype name: str\n:ivar id: The resource ID.\n:vartype id: str\n:ivar\
+    \ kind: Kind of server that contains this firewall rule.\n:vartype kind: str\n\
+    :ivar location: Location of the server that contains this firewall rule.\n:vartype\
+    \ location: str\n:param start_ip_address: The start IP address of the Azure SQL\
+    \ server\n firewall rule. Must be IPv4 format.\n:type start_ip_address: str\n\
+    :param end_ip_address: The end IP address of the Azure SQL server firewall\n rule.\
+    \ Must be IPv4 format.\n:type end_ip_address: str"
+  type: Class
+  uid: azure.mgmt.sql.models.ServerFirewallRule

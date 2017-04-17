@@ -1,0 +1,36 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.devtestlabs.models.Formula
+  fullName: azure.mgmt.devtestlabs.models.Formula
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.devtestlabs.models
+  name: Formula
+  source:
+    id: Formula
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/formula.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/formula.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A formula.\n\n:param description: The description of the formula.\n:type\
+    \ description: str\n:param author: The author of the formula.\n:type author: str\n\
+    :param os_type: The OS type of the formula.\n:type os_type: str\n:param creation_date:\
+    \ The creation date of the formula.\n:type creation_date: datetime\n:param formula_content:\
+    \ The content of the formula.\n:type formula_content: :class:`LabVirtualMachine\n\
+    \ <azure.mgmt.devtestlabs.models.LabVirtualMachine>`\n:param vm: Information about\
+    \ a VM from which a formula is to be created.\n:type vm: :class:`FormulaPropertiesFromVm\n\
+    \ <azure.mgmt.devtestlabs.models.FormulaPropertiesFromVm>`\n:param provisioning_state:\
+    \ The provisioning status of the resource.\n:type provisioning_state: str\n:param\
+    \ unique_identifier: The unique immutable identifier of a resource\n (Guid).\n\
+    :type unique_identifier: str\n:param id: The identifier of the resource.\n:type\
+    \ id: str\n:param name: The name of the resource.\n:type name: str\n:param type:\
+    \ The type of the resource.\n:type type: str\n:param location: The location of\
+    \ the resource.\n:type location: str\n:param tags: The tags of the resource.\n\
+    :type tags: dict"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.Formula

@@ -1,0 +1,35 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.dns.models.Zone
+  fullName: azure.mgmt.dns.models.Zone
+  inheritance:
+  - azure.mgmt.dns.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.dns.models
+  name: Zone
+  source:
+    id: Zone
+    path: azure-mgmt-dns/azure/mgmt/dns/models/zone.py
+    remote:
+      branch: master
+      path: azure-mgmt-dns/azure/mgmt/dns/models/zone.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Describes a DNS zone.\n\nVariables are only populated by the server, and\
+    \ will be ignored when\nsending a request.\n\n:ivar id: Resource ID.\n:vartype\
+    \ id: str\n:ivar name: Resource name.\n:vartype name: str\n:ivar type: Resource\
+    \ type.\n:vartype type: str\n:param location: Resource location.\n:type location:\
+    \ str\n:param tags: Resource tags.\n:type tags: dict\n:param etag: The etag of\
+    \ the zone.\n:type etag: str\n:param max_number_of_record_sets: The maximum number\
+    \ of record sets that\n can be created in this DNS zone.  This is a read-only\
+    \ property and any\n attempt to set this value will be ignored.\n:type max_number_of_record_sets:\
+    \ long\n:param number_of_record_sets: The current number of record sets in this\n\
+    \ DNS zone.  This is a read-only property and any attempt to set this\n value\
+    \ will be ignored.\n:type number_of_record_sets: long\n:ivar name_servers: The\
+    \ name servers for this DNS zone. This is a\n read-only property and any attempt\
+    \ to set this value will be ignored.\n:vartype name_servers: list of str"
+  type: Class
+  uid: azure.mgmt.dns.models.Zone

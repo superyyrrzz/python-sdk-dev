@@ -1,0 +1,37 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.X12EnvelopeOverride
+  fullName: azure.mgmt.logic.models.X12EnvelopeOverride
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: X12EnvelopeOverride
+  source:
+    id: X12EnvelopeOverride
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/x12_envelope_override.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/x12_envelope_override.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "X12EnvelopeOverride.\n\n:param target_namespace: The target namespace\
+    \ on which this envelope\n settings has to be applied.\n:type target_namespace:\
+    \ str\n:param protocol_version: The protocol version on which this envelope\n\
+    \ settings has to be applied.\n:type protocol_version: str\n:param message_id:\
+    \ The message id on which this envelope settings has to\n be applied.\n:type message_id:\
+    \ str\n:param responsible_agency_code: The responsible agency code.\n:type responsible_agency_code:\
+    \ int\n:param header_version: The header version.\n:type header_version: str\n\
+    :param sender_application_id: The sender application id.\n:type sender_application_id:\
+    \ str\n:param receiver_application_id: The receiver application id.\n:type receiver_application_id:\
+    \ str\n:param functional_identifier_code: The functional identifier code.\n:type\
+    \ functional_identifier_code: str\n:param date_format: The date format. Possible\
+    \ values include:\n 'NotSpecified', 'CCYYMMDD', 'YYMMDD'\n:type date_format: str\
+    \ or :class:`X12DateFormat\n <azure.mgmt.logic.models.X12DateFormat>`\n:param\
+    \ time_format: The time format. Possible values include:\n 'NotSpecified', 'HHMM',\
+    \ 'HHMMSS', 'HHMMSSdd', 'HHMMSSd'\n:type time_format: str or :class:`X12TimeFormat\n\
+    \ <azure.mgmt.logic.models.X12TimeFormat>`"
+  type: Class
+  uid: azure.mgmt.logic.models.X12EnvelopeOverride

@@ -1,0 +1,43 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.authorization.models.ProviderOperation
+  fullName: azure.mgmt.authorization.models.ProviderOperation
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.authorization.models
+  name: ProviderOperation
+  source:
+    id: ProviderOperation
+    path: azure-mgmt-authorization/azure/mgmt/authorization/models/provider_operation.py
+    remote:
+      branch: master
+      path: azure-mgmt-authorization/azure/mgmt/authorization/models/provider_operation.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Operation.
+
+
+    :param name: The operation name.
+
+    :type name: str
+
+    :param display_name: The operation display name.
+
+    :type display_name: str
+
+    :param description: The operation description.
+
+    :type description: str
+
+    :param origin: The operation origin.
+
+    :type origin: str
+
+    :param properties: The operation properties.
+
+    :type properties: object'
+  type: Class
+  uid: azure.mgmt.authorization.models.ProviderOperation

@@ -1,0 +1,34 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.PublicIPAddressDnsSettings
+  fullName: azure.mgmt.network.models.PublicIPAddressDnsSettings
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: PublicIPAddressDnsSettings
+  source:
+    id: PublicIPAddressDnsSettings
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/public_ip_address_dns_settings.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/public_ip_address_dns_settings.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Contains FQDN of the DNS record associated with the public IP address.\n\
+    \n:param domain_name_label: Gets or sets the Domain name label.The\n concatenation\
+    \ of the domain name label and the regionalized DNS zone\n make up the fully qualified\
+    \ domain name associated with the public IP\n address. If a domain name label\
+    \ is specified, an A DNS record is created\n for the public IP in the Microsoft\
+    \ Azure DNS system.\n:type domain_name_label: str\n:param fqdn: Gets the FQDN,\
+    \ Fully qualified domain name of the A DNS\n record associated with the public\
+    \ IP. This is the concatenation of the\n domainNameLabel and the regionalized\
+    \ DNS zone.\n:type fqdn: str\n:param reverse_fqdn: Gets or Sets the Reverse FQDN.\
+    \ A user-visible, fully\n qualified domain name that resolves to this public IP\
+    \ address. If the\n reverseFqdn is specified, then a PTR DNS record is created\
+    \ pointing from\n the IP address in the in-addr.arpa domain to the reverse FQDN.\n\
+    :type reverse_fqdn: str"
+  type: Class
+  uid: azure.mgmt.network.models.PublicIPAddressDnsSettings

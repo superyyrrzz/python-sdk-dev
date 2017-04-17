@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.cdn.models.SsoUri
+  fullName: azure.mgmt.cdn.models.SsoUri
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.cdn.models
+  name: SsoUri
+  source:
+    id: SsoUri
+    path: azure-mgmt-cdn/azure/mgmt/cdn/models/sso_uri.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/models/sso_uri.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'SSO URI required to login to the supplemental portal.
+
+
+    :param sso_uri_value: The URI used to login to the supplemental portal.
+
+    :type sso_uri_value: str'
+  type: Class
+  uid: azure.mgmt.cdn.models.SsoUri

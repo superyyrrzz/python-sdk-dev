@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.resources.models.DeploymentOperationProperties
+  fullName: azure.mgmt.resource.resources.models.DeploymentOperationProperties
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.resource.resources.models
+  name: DeploymentOperationProperties
+  source:
+    id: DeploymentOperationProperties
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/deployment_operation_properties.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/deployment_operation_properties.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Deployment operation properties.\n\n:param provisioning_state: The state\
+    \ of the provisioning.\n:type provisioning_state: str\n:param timestamp: The date\
+    \ and time of the operation.\n:type timestamp: datetime\n:param service_request_id:\
+    \ Deployment operation service request id.\n:type service_request_id: str\n:param\
+    \ status_code: Operation status code.\n:type status_code: str\n:param status_message:\
+    \ Operation status message.\n:type status_message: object\n:param target_resource:\
+    \ The target resource.\n:type target_resource: :class:`TargetResource\n <azure.mgmt.resource.resources.models.TargetResource>`\n\
+    :param request: The HTTP request message.\n:type request: :class:`HttpMessage\n\
+    \ <azure.mgmt.resource.resources.models.HttpMessage>`\n:param response: The HTTP\
+    \ response message.\n:type response: :class:`HttpMessage\n <azure.mgmt.resource.resources.models.HttpMessage>`"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.DeploymentOperationProperties

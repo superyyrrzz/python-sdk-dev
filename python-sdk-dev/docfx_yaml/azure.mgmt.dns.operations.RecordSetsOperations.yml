@@ -1,0 +1,214 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.dns.operations.RecordSetsOperations.create_or_update
+  - azure.mgmt.dns.operations.RecordSetsOperations.delete
+  - azure.mgmt.dns.operations.RecordSetsOperations.get
+  - azure.mgmt.dns.operations.RecordSetsOperations.list_by_dns_zone
+  - azure.mgmt.dns.operations.RecordSetsOperations.list_by_type
+  - azure.mgmt.dns.operations.RecordSetsOperations.update
+  class: azure.mgmt.dns.operations.RecordSetsOperations
+  fullName: azure.mgmt.dns.operations.RecordSetsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.dns.operations
+  name: RecordSetsOperations
+  source:
+    id: RecordSetsOperations
+    path: azure-mgmt-dns/azure/mgmt/dns/operations/record_sets_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-dns/azure/mgmt/dns/operations/record_sets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'RecordSetsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.dns.operations.RecordSetsOperations
+- _type: method
+  class: azure.mgmt.dns.operations.RecordSetsOperations
+  fullName: azure.mgmt.dns.operations.RecordSetsOperations.create_or_update
+  module: azure.mgmt.dns.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: azure-mgmt-dns/azure/mgmt/dns/operations/record_sets_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-dns/azure/mgmt/dns/operations/record_sets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 120
+  summary: "Creates or updates a record set within a DNS zone.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param zone_name:\
+    \ The name of the DNS zone (without a terminating\n dot).\n:type zone_name: str\n\
+    :param relative_record_set_name: The name of the record set, relative\n to the\
+    \ name of the zone.\n:type relative_record_set_name: str\n:param record_type:\
+    \ The type of DNS record in this record set. Record\n sets of type SOA can be\
+    \ updated but not created (they are created\n when the DNS zone is created). Possible\
+    \ values include: 'A', 'AAAA',\n 'CNAME', 'MX', 'NS', 'PTR', 'SOA', 'SRV', 'TXT'\n\
+    :type record_type: str or :class:`RecordType\n <azure.mgmt.dns.models.RecordType>`\n\
+    :param parameters: Parameters supplied to the CreateOrUpdate\n operation.\n:type\
+    \ parameters: :class:`RecordSet <azure.mgmt.dns.models.RecordSet>`\n:param if_match:\
+    \ The etag of the record set. Omit this value to\n always overwrite the current\
+    \ record set. Specify the last-seen etag\n value to prevent accidentally overwritting\
+    \ any concurrent changes.\n:type if_match: str\n:param if_none_match: Set to '*'\
+    \ to allow a new record set to be\n created, but to prevent updating an existing\
+    \ record set. Other\n values will be ignored.\n:type if_none_match: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`RecordSet <azure.mgmt.dns.models.RecordSet>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.dns.operations.RecordSetsOperations.create_or_update
+- _type: method
+  class: azure.mgmt.dns.operations.RecordSetsOperations
+  fullName: azure.mgmt.dns.operations.RecordSetsOperations.delete
+  module: azure.mgmt.dns.operations
+  name: delete
+  source:
+    id: delete
+    path: azure-mgmt-dns/azure/mgmt/dns/operations/record_sets_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-dns/azure/mgmt/dns/operations/record_sets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 214
+  summary: "Deletes a record set from a DNS zone. This operation cannot be undone.\n\
+    \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param zone_name: The name of the DNS zone (without a terminating\n dot).\n\
+    :type zone_name: str\n:param relative_record_set_name: The name of the record\
+    \ set, relative\n to the name of the zone.\n:type relative_record_set_name: str\n\
+    :param record_type: The type of DNS record in this record set. Record\n sets of\
+    \ type SOA cannot be deleted (they are deleted when the DNS\n zone is deleted).\
+    \ Possible values include: 'A', 'AAAA', 'CNAME',\n 'MX', 'NS', 'PTR', 'SOA', 'SRV',\
+    \ 'TXT'\n:type record_type: str or :class:`RecordType\n <azure.mgmt.dns.models.RecordType>`\n\
+    :param if_match: The etag of the record set. Omit this value to\n always delete\
+    \ the current record set. Specify the last-seen etag\n value to prevent accidentally\
+    \ deleting any concurrent changes.\n:type if_match: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.dns.operations.RecordSetsOperations.delete
+- _type: method
+  class: azure.mgmt.dns.operations.RecordSetsOperations
+  fullName: azure.mgmt.dns.operations.RecordSetsOperations.get
+  module: azure.mgmt.dns.operations
+  name: get
+  source:
+    id: get
+    path: azure-mgmt-dns/azure/mgmt/dns/operations/record_sets_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-dns/azure/mgmt/dns/operations/record_sets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 286
+  summary: "Gets a record set.\n\n:param resource_group_name: The name of the resource\
+    \ group.\n:type resource_group_name: str\n:param zone_name: The name of the DNS\
+    \ zone (without a terminating\n dot).\n:type zone_name: str\n:param relative_record_set_name:\
+    \ The name of the record set, relative\n to the name of the zone.\n:type relative_record_set_name:\
+    \ str\n:param record_type: The type of DNS record in this record set.\n Possible\
+    \ values include: 'A', 'AAAA', 'CNAME', 'MX', 'NS', 'PTR',\n 'SOA', 'SRV', 'TXT'\n\
+    :type record_type: str or :class:`RecordType\n <azure.mgmt.dns.models.RecordType>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`RecordSet <azure.mgmt.dns.models.RecordSet>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.dns.operations.RecordSetsOperations.get
+- _type: method
+  class: azure.mgmt.dns.operations.RecordSetsOperations
+  fullName: azure.mgmt.dns.operations.RecordSetsOperations.list_by_dns_zone
+  module: azure.mgmt.dns.operations
+  name: list_by_dns_zone
+  source:
+    id: list_by_dns_zone
+    path: azure-mgmt-dns/azure/mgmt/dns/operations/record_sets_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-dns/azure/mgmt/dns/operations/record_sets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 438
+  summary: "Lists all record sets in a DNS zone.\n\n:param resource_group_name: The\
+    \ name of the resource group.\n:type resource_group_name: str\n:param zone_name:\
+    \ The name of the DNS zone (without a terminating\n dot).\n:type zone_name: str\n\
+    :param top: The maximum number of record sets to return. If not\n specified, returns\
+    \ up to 100 record sets.\n:type top: int\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`RecordSetPaged\
+    \ <azure.mgmt.dns.models.RecordSetPaged>`\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.dns.operations.RecordSetsOperations.list_by_dns_zone
+- _type: method
+  class: azure.mgmt.dns.operations.RecordSetsOperations
+  fullName: azure.mgmt.dns.operations.RecordSetsOperations.list_by_type
+  module: azure.mgmt.dns.operations
+  name: list_by_type
+  source:
+    id: list_by_type
+    path: azure-mgmt-dns/azure/mgmt/dns/operations/record_sets_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-dns/azure/mgmt/dns/operations/record_sets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 358
+  summary: "Lists the record sets of a specified type in a DNS zone.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param zone_name:\
+    \ The name of the DNS zone (without a terminating\n dot).\n:type zone_name: str\n\
+    :param record_type: The type of record sets to enumerate. Possible\n values include:\
+    \ 'A', 'AAAA', 'CNAME', 'MX', 'NS', 'PTR', 'SOA',\n 'SRV', 'TXT'\n:type record_type:\
+    \ str or :class:`RecordType\n <azure.mgmt.dns.models.RecordType>`\n:param top:\
+    \ The maximum number of record sets to return. If not\n specified, returns up\
+    \ to 100 record sets.\n:type top: int\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`RecordSetPaged <azure.mgmt.dns.models.RecordSetPaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.dns.operations.RecordSetsOperations.list_by_type
+- _type: method
+  class: azure.mgmt.dns.operations.RecordSetsOperations
+  fullName: azure.mgmt.dns.operations.RecordSetsOperations.update
+  module: azure.mgmt.dns.operations
+  name: update
+  source:
+    id: update
+    path: azure-mgmt-dns/azure/mgmt/dns/operations/record_sets_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-dns/azure/mgmt/dns/operations/record_sets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Updates a record set within a DNS zone.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param zone_name:\
+    \ The name of the DNS zone (without a terminating\n dot).\n:type zone_name: str\n\
+    :param relative_record_set_name: The name of the record set, relative\n to the\
+    \ name of the zone.\n:type relative_record_set_name: str\n:param record_type:\
+    \ The type of DNS record in this record set.\n Possible values include: 'A', 'AAAA',\
+    \ 'CNAME', 'MX', 'NS', 'PTR',\n 'SOA', 'SRV', 'TXT'\n:type record_type: str or\
+    \ :class:`RecordType\n <azure.mgmt.dns.models.RecordType>`\n:param parameters:\
+    \ Parameters supplied to the Update operation.\n:type parameters: :class:`RecordSet\
+    \ <azure.mgmt.dns.models.RecordSet>`\n:param if_match: The etag of the record\
+    \ set. Omit this value to\n always overwrite the current record set. Specify the\
+    \ last-seen etag\n value to prevent accidentally overwritting concurrent changes.\n\
+    :type if_match: str\n:param dict custom_headers: headers that will be added to\
+    \ the request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`RecordSet <azure.mgmt.dns.models.RecordSet>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.dns.operations.RecordSetsOperations.update

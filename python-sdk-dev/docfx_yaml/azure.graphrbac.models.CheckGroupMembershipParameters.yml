@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.graphrbac.models.CheckGroupMembershipParameters
+  fullName: azure.graphrbac.models.CheckGroupMembershipParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.graphrbac.models
+  name: CheckGroupMembershipParameters
+  source:
+    id: CheckGroupMembershipParameters
+    path: azure-graphrbac/azure/graphrbac/models/check_group_membership_parameters.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/models/check_group_membership_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Request parameters for IsMemberOf API call.\n\n:param group_id: The object\
+    \ ID of the group to check.\n:type group_id: str\n:param member_id: The object\
+    \ ID of the contact, group, user, or service\n principal to check for membership\
+    \ in the specified group.\n:type member_id: str"
+  type: Class
+  uid: azure.graphrbac.models.CheckGroupMembershipParameters

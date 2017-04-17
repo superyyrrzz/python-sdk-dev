@@ -1,0 +1,33 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.keyvault.generated.models.CertificateBundle
+  fullName: azure.keyvault.generated.models.CertificateBundle
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.keyvault.generated.models
+  name: CertificateBundle
+  source:
+    id: CertificateBundle
+    path: azure-keyvault/azure/keyvault/generated/models/certificate_bundle.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/models/certificate_bundle.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A certificate bundle consists of a certificate (X509) plus its attributes.\n\
+    \nVariables are only populated by the server, and will be ignored when\nsending\
+    \ a request.\n\n:ivar id: The certificate id.\n:vartype id: str\n:ivar kid: The\
+    \ key id.\n:vartype kid: str\n:ivar sid: The secret id.\n:vartype sid: str\n:ivar\
+    \ x509_thumbprint: Thumbprint of the certificate.\n:vartype x509_thumbprint: bytes\n\
+    :ivar policy: The management policy.\n:vartype policy: :class:`CertificatePolicy\n\
+    \ <azure.keyvault.generated.models.CertificatePolicy>`\n:param cer: CER contents\
+    \ of x509 certificate.\n:type cer: bytearray\n:param content_type: The content\
+    \ type of the secret.\n:type content_type: str\n:param attributes: The certificate\
+    \ attributes.\n:type attributes: :class:`CertificateAttributes\n <azure.keyvault.generated.models.CertificateAttributes>`\n\
+    :param tags: Application specific metadata in the form of key-value pairs\n:type\
+    \ tags: dict"
+  type: Class
+  uid: azure.keyvault.generated.models.CertificateBundle

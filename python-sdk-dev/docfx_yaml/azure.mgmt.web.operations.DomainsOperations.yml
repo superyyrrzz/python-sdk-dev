@@ -1,0 +1,176 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.web.operations.DomainsOperations.create_or_update_domain
+  - azure.mgmt.web.operations.DomainsOperations.delete_domain
+  - azure.mgmt.web.operations.DomainsOperations.get_domain
+  - azure.mgmt.web.operations.DomainsOperations.get_domain_operation
+  - azure.mgmt.web.operations.DomainsOperations.get_domains
+  - azure.mgmt.web.operations.DomainsOperations.update_domain
+  class: azure.mgmt.web.operations.DomainsOperations
+  fullName: azure.mgmt.web.operations.DomainsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.web.operations
+  name: DomainsOperations
+  source:
+    id: DomainsOperations
+    path: azure-mgmt-web/azure/mgmt/web/operations/domains_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/domains_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'DomainsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.web.operations.DomainsOperations
+- _type: method
+  class: azure.mgmt.web.operations.DomainsOperations
+  fullName: azure.mgmt.web.operations.DomainsOperations.create_or_update_domain
+  module: azure.mgmt.web.operations
+  name: create_or_update_domain
+  source:
+    id: create_or_update_domain
+    path: azure-mgmt-web/azure/mgmt/web/operations/domains_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/domains_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 162
+  summary: "Creates a domain.\n\n:param resource_group_name: &gt;Name of the resource\
+    \ group\n:type resource_group_name: str\n:param domain_name: Name of the domain\n\
+    :type domain_name: str\n:param domain: Domain registration information\n:type\
+    \ domain: :class:`Domain <azure.mgmt.web.models.Domain>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`Domain\
+    \ <azure.mgmt.web.models.Domain>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.DomainsOperations.create_or_update_domain
+- _type: method
+  class: azure.mgmt.web.operations.DomainsOperations
+  fullName: azure.mgmt.web.operations.DomainsOperations.delete_domain
+  module: azure.mgmt.web.operations
+  name: delete_domain
+  source:
+    id: delete_domain
+    path: azure-mgmt-web/azure/mgmt/web/operations/domains_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/domains_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 231
+  summary: "Deletes a domain.\n\n:param resource_group_name: Name of the resource\
+    \ group\n:type resource_group_name: str\n:param domain_name: Name of the domain\n\
+    :type domain_name: str\n:param force_hard_delete_domain: If true then the domain\
+    \ will be\n deleted immediately instead of after 24 hours\n:type force_hard_delete_domain:\
+    \ bool\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: object\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.DomainsOperations.delete_domain
+- _type: method
+  class: azure.mgmt.web.operations.DomainsOperations
+  fullName: azure.mgmt.web.operations.DomainsOperations.get_domain
+  module: azure.mgmt.web.operations
+  name: get_domain
+  source:
+    id: get_domain
+    path: azure-mgmt-web/azure/mgmt/web/operations/domains_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/domains_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 101
+  summary: "Gets details of a domain.\n\n:param resource_group_name: Name of the resource\
+    \ group\n:type resource_group_name: str\n:param domain_name: Name of the domain\n\
+    :type domain_name: str\n:param dict custom_headers: headers that will be added\
+    \ to the request\n:param bool raw: returns the direct response alongside the\n\
+    \ deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`Domain <azure.mgmt.web.models.Domain>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.DomainsOperations.get_domain
+- _type: method
+  class: azure.mgmt.web.operations.DomainsOperations
+  fullName: azure.mgmt.web.operations.DomainsOperations.get_domain_operation
+  module: azure.mgmt.web.operations
+  name: get_domain_operation
+  source:
+    id: get_domain_operation
+    path: azure-mgmt-web/azure/mgmt/web/operations/domains_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/domains_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 366
+  summary: "Retrieves the latest status of a domain purchase operation.\n\n:param\
+    \ resource_group_name: Name of the resource group\n:type resource_group_name:\
+    \ str\n:param domain_name: Name of the domain\n:type domain_name: str\n:param\
+    \ operation_id: Domain purchase operation Id\n:type operation_id: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`Domain <azure.mgmt.web.models.Domain>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.DomainsOperations.get_domain_operation
+- _type: method
+  class: azure.mgmt.web.operations.DomainsOperations
+  fullName: azure.mgmt.web.operations.DomainsOperations.get_domains
+  module: azure.mgmt.web.operations
+  name: get_domains
+  source:
+    id: get_domains
+    path: azure-mgmt-web/azure/mgmt/web/operations/domains_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/domains_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Lists domains under a resource group.\n\n:param resource_group_name: Name\
+    \ of the resource group\n:type resource_group_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`DomainPaged\
+    \ <azure.mgmt.web.models.DomainPaged>`\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.DomainsOperations.get_domains
+- _type: method
+  class: azure.mgmt.web.operations.DomainsOperations
+  fullName: azure.mgmt.web.operations.DomainsOperations.update_domain
+  module: azure.mgmt.web.operations
+  name: update_domain
+  source:
+    id: update_domain
+    path: azure-mgmt-web/azure/mgmt/web/operations/domains_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/domains_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 297
+  summary: "Creates a domain.\n\n:param resource_group_name: &gt;Name of the resource\
+    \ group\n:type resource_group_name: str\n:param domain_name: Name of the domain\n\
+    :type domain_name: str\n:param domain: Domain registration information\n:type\
+    \ domain: :class:`Domain <azure.mgmt.web.models.Domain>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`Domain\
+    \ <azure.mgmt.web.models.Domain>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.DomainsOperations.update_domain

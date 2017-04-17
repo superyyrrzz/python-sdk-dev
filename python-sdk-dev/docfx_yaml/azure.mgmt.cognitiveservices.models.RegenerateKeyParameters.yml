@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.cognitiveservices.models.RegenerateKeyParameters
+  fullName: azure.mgmt.cognitiveservices.models.RegenerateKeyParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.cognitiveservices.models
+  name: RegenerateKeyParameters
+  source:
+    id: RegenerateKeyParameters
+    path: azure-mgmt-cognitiveservices/azure/mgmt/cognitiveservices/models/regenerate_key_parameters.py
+    remote:
+      branch: master
+      path: azure-mgmt-cognitiveservices/azure/mgmt/cognitiveservices/models/regenerate_key_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Regenerate key parameters.\n\n:param key_name: key name to generate (Key1|Key2).\
+    \ Possible values\n include: 'Key1', 'Key2'\n:type key_name: str or :class:`KeyName\n\
+    \ <azure.mgmt.cognitiveservices.models.KeyName>`"
+  type: Class
+  uid: azure.mgmt.cognitiveservices.models.RegenerateKeyParameters

@@ -1,0 +1,228 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.datalake.store.operations.AccountOperations.create
+  - azure.mgmt.datalake.store.operations.AccountOperations.delete
+  - azure.mgmt.datalake.store.operations.AccountOperations.enable_key_vault
+  - azure.mgmt.datalake.store.operations.AccountOperations.get
+  - azure.mgmt.datalake.store.operations.AccountOperations.list
+  - azure.mgmt.datalake.store.operations.AccountOperations.list_by_resource_group
+  - azure.mgmt.datalake.store.operations.AccountOperations.update
+  class: azure.mgmt.datalake.store.operations.AccountOperations
+  fullName: azure.mgmt.datalake.store.operations.AccountOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.datalake.store.operations
+  name: AccountOperations
+  source:
+    id: AccountOperations
+    path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/operations/account_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/operations/account_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 20
+  summary: 'AccountOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.datalake.store.operations.AccountOperations
+- _type: method
+  class: azure.mgmt.datalake.store.operations.AccountOperations
+  fullName: azure.mgmt.datalake.store.operations.AccountOperations.create
+  module: azure.mgmt.datalake.store.operations
+  name: create
+  source:
+    id: create
+    path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/operations/account_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/operations/account_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 37
+  summary: "Creates the specified Data Lake Store account.\n\n:param resource_group_name:\
+    \ The name of the Azure resource group that\n contains the Data Lake Store account.\n\
+    :type resource_group_name: str\n:param name: The name of the Data Lake Store account\
+    \ to create.\n:type name: str\n:param parameters: Parameters supplied to create\
+    \ the Data Lake Store\n account.\n:type parameters: :class:`DataLakeStoreAccount\n\
+    \ <azure.mgmt.datalake.store.models.DataLakeStoreAccount>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`DataLakeStoreAccount\n <azure.mgmt.datalake.store.models.DataLakeStoreAccount>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.datalake.store.operations.AccountOperations.create
+- _type: method
+  class: azure.mgmt.datalake.store.operations.AccountOperations
+  fullName: azure.mgmt.datalake.store.operations.AccountOperations.delete
+  module: azure.mgmt.datalake.store.operations
+  name: delete
+  source:
+    id: delete
+    path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/operations/account_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/operations/account_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 229
+  summary: "Deletes the specified Data Lake Store account.\n\n:param resource_group_name:\
+    \ The name of the Azure resource group that\n contains the Data Lake Store account.\n\
+    :type resource_group_name: str\n:param name: The name of the Data Lake Store account\
+    \ to delete.\n:type name: str\n:param dict custom_headers: headers that will be\
+    \ added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.datalake.store.operations.AccountOperations.delete
+- _type: method
+  class: azure.mgmt.datalake.store.operations.AccountOperations
+  fullName: azure.mgmt.datalake.store.operations.AccountOperations.enable_key_vault
+  module: azure.mgmt.datalake.store.operations
+  name: enable_key_vault
+  source:
+    id: enable_key_vault
+    path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/operations/account_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/operations/account_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 370
+  summary: "Attempts to enable a user managed key vault for encryption of the\nspecified\
+    \ Data Lake Store account.\n\n:param resource_group_name: The name of the Azure\
+    \ resource group that\n contains the Data Lake Store account.\n:type resource_group_name:\
+    \ str\n:param account_name: The name of the Data Lake Store account to\n attempt\
+    \ to enable the Key Vault for.\n:type account_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.datalake.store.operations.AccountOperations.enable_key_vault
+- _type: method
+  class: azure.mgmt.datalake.store.operations.AccountOperations
+  fullName: azure.mgmt.datalake.store.operations.AccountOperations.get
+  module: azure.mgmt.datalake.store.operations
+  name: get
+  source:
+    id: get
+    path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/operations/account_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/operations/account_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 307
+  summary: "Gets the specified Data Lake Store account.\n\n:param resource_group_name:\
+    \ The name of the Azure resource group that\n contains the Data Lake Store account.\n\
+    :type resource_group_name: str\n:param name: The name of the Data Lake Store account\
+    \ to retrieve.\n:type name: str\n:param dict custom_headers: headers that will\
+    \ be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`DataLakeStoreAccount\n\
+    \ <azure.mgmt.datalake.store.models.DataLakeStoreAccount>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.datalake.store.operations.AccountOperations.get
+- _type: method
+  class: azure.mgmt.datalake.store.operations.AccountOperations
+  fullName: azure.mgmt.datalake.store.operations.AccountOperations.list
+  module: azure.mgmt.datalake.store.operations
+  name: list
+  source:
+    id: list
+    path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/operations/account_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/operations/account_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 527
+  summary: "Lists the Data Lake Store accounts within the subscription. The\nresponse\
+    \ includes a link to the next page of results, if any.\n\n:param filter: OData\
+    \ filter. Optional.\n:type filter: str\n:param top: The number of items to return.\
+    \ Optional.\n:type top: int\n:param skip: The number of items to skip over before\
+    \ returning\n elements. Optional.\n:type skip: int\n:param select: OData Select\
+    \ statement. Limits the properties on each\n entry to just those requested, e.g.\n\
+    \ Categories?$select=CategoryName,Description. Optional.\n:type select: str\n\
+    :param orderby: OrderBy clause. One or more comma-separated\n expressions with\
+    \ an optional \"asc\" (the default) or \"desc\" depending\n on the order you'd\
+    \ like the values sorted, e.g.\n Categories?$orderby=CategoryName desc. Optional.\n\
+    :type orderby: str\n:param count: The Boolean value of true or false to request\
+    \ a count of\n the matching resources included with the resources in the response,\n\
+    \ e.g. Categories?$count=true. Optional.\n:type count: bool\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`DataLakeStoreAccountPaged\n\
+    \ <azure.mgmt.datalake.store.models.DataLakeStoreAccountPaged>`\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.datalake.store.operations.AccountOperations.list
+- _type: method
+  class: azure.mgmt.datalake.store.operations.AccountOperations
+  fullName: azure.mgmt.datalake.store.operations.AccountOperations.list_by_resource_group
+  module: azure.mgmt.datalake.store.operations
+  name: list_by_resource_group
+  source:
+    id: list_by_resource_group
+    path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/operations/account_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/operations/account_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 427
+  summary: "Lists the Data Lake Store accounts within a specific resource group.\n\
+    The response includes a link to the next page of results, if any.\n\n:param resource_group_name:\
+    \ The name of the Azure resource group that\n contains the Data Lake Store account(s).\n\
+    :type resource_group_name: str\n:param filter: OData filter. Optional.\n:type\
+    \ filter: str\n:param top: The number of items to return. Optional.\n:type top:\
+    \ int\n:param skip: The number of items to skip over before returning\n elements.\
+    \ Optional.\n:type skip: int\n:param select: OData Select statement. Limits the\
+    \ properties on each\n entry to just those requested, e.g.\n Categories?$select=CategoryName,Description.\
+    \ Optional.\n:type select: str\n:param orderby: OrderBy clause. One or more comma-separated\n\
+    \ expressions with an optional \"asc\" (the default) or \"desc\" depending\n on\
+    \ the order you'd like the values sorted, e.g.\n Categories?$orderby=CategoryName\
+    \ desc. Optional.\n:type orderby: str\n:param count: A Boolean value of true or\
+    \ false to request a count of\n the matching resources included with the resources\
+    \ in the response,\n e.g. Categories?$count=true. Optional.\n:type count: bool\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`DataLakeStoreAccountPaged\n <azure.mgmt.datalake.store.models.DataLakeStoreAccountPaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.datalake.store.operations.AccountOperations.list_by_resource_group
+- _type: method
+  class: azure.mgmt.datalake.store.operations.AccountOperations
+  fullName: azure.mgmt.datalake.store.operations.AccountOperations.update
+  module: azure.mgmt.datalake.store.operations
+  name: update
+  source:
+    id: update
+    path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/operations/account_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/operations/account_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 133
+  summary: "Updates the specified Data Lake Store account information.\n\n:param resource_group_name:\
+    \ The name of the Azure resource group that\n contains the Data Lake Store account.\n\
+    :type resource_group_name: str\n:param name: The name of the Data Lake Store account\
+    \ to update.\n:type name: str\n:param parameters: Parameters supplied to update\
+    \ the Data Lake Store\n account.\n:type parameters: :class:`DataLakeStoreAccountUpdateParameters\n\
+    \ <azure.mgmt.datalake.store.models.DataLakeStoreAccountUpdateParameters>`\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:rtype:\n\
+    \ :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`DataLakeStoreAccount\n <azure.mgmt.datalake.store.models.DataLakeStoreAccount>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.datalake.store.operations.AccountOperations.update

@@ -1,0 +1,152 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.compute.operations.AvailabilitySetsOperations.create_or_update
+  - azure.mgmt.compute.operations.AvailabilitySetsOperations.delete
+  - azure.mgmt.compute.operations.AvailabilitySetsOperations.get
+  - azure.mgmt.compute.operations.AvailabilitySetsOperations.list
+  - azure.mgmt.compute.operations.AvailabilitySetsOperations.list_available_sizes
+  class: azure.mgmt.compute.operations.AvailabilitySetsOperations
+  fullName: azure.mgmt.compute.operations.AvailabilitySetsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.compute.operations
+  name: AvailabilitySetsOperations
+  source:
+    id: AvailabilitySetsOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/availability_sets_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/availability_sets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'AvailabilitySetsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    :ivar api_version: Client Api Version. Constant value: "2016-03-30".'
+  type: Class
+  uid: azure.mgmt.compute.operations.AvailabilitySetsOperations
+- _type: method
+  class: azure.mgmt.compute.operations.AvailabilitySetsOperations
+  fullName: azure.mgmt.compute.operations.AvailabilitySetsOperations.create_or_update
+  module: azure.mgmt.compute.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/availability_sets_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/availability_sets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 38
+  summary: "The operation to create or update the availability set.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param name:\
+    \ Parameters supplied to the Create Availability Set\n operation.\n:type name:\
+    \ str\n:param parameters: Parameters supplied to the Create Availability Set\n\
+    \ operation.\n:type parameters: :class:`AvailabilitySet\n <azure.mgmt.compute.models.AvailabilitySet>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`AvailabilitySet\n <azure.mgmt.compute.models.AvailabilitySet>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.AvailabilitySetsOperations.create_or_update
+- _type: method
+  class: azure.mgmt.compute.operations.AvailabilitySetsOperations
+  fullName: azure.mgmt.compute.operations.AvailabilitySetsOperations.delete
+  module: azure.mgmt.compute.operations
+  name: delete
+  source:
+    id: delete
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/availability_sets_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/availability_sets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 108
+  summary: "The operation to delete the availability set.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param availability_set_name:\
+    \ The name of the availability set.\n:type availability_set_name: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.AvailabilitySetsOperations.delete
+- _type: method
+  class: azure.mgmt.compute.operations.AvailabilitySetsOperations
+  fullName: azure.mgmt.compute.operations.AvailabilitySetsOperations.get
+  module: azure.mgmt.compute.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/availability_sets_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/availability_sets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 161
+  summary: "The operation to get the availability set.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param availability_set_name:\
+    \ The name of the availability set.\n:type availability_set_name: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`AvailabilitySet\n <azure.mgmt.compute.models.AvailabilitySet>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.AvailabilitySetsOperations.get
+- _type: method
+  class: azure.mgmt.compute.operations.AvailabilitySetsOperations
+  fullName: azure.mgmt.compute.operations.AvailabilitySetsOperations.list
+  module: azure.mgmt.compute.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/availability_sets_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/availability_sets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 222
+  summary: "The operation to list the availability sets.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ :class:`AvailabilitySetPaged\n <azure.mgmt.compute.models.AvailabilitySetPaged>`"
+  type: Method
+  uid: azure.mgmt.compute.operations.AvailabilitySetsOperations.list
+- _type: method
+  class: azure.mgmt.compute.operations.AvailabilitySetsOperations
+  fullName: azure.mgmt.compute.operations.AvailabilitySetsOperations.list_available_sizes
+  module: azure.mgmt.compute.operations
+  name: list_available_sizes
+  source:
+    id: list_available_sizes
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/availability_sets_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/availability_sets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 287
+  summary: "Lists all available virtual machine sizes that can be used to create a\n\
+    new virtual machine in an existing availability set.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param availability_set_name:\
+    \ The name of the availability set.\n:type availability_set_name: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`VirtualMachineSizePaged\n <azure.mgmt.compute.models.VirtualMachineSizePaged>`"
+  type: Method
+  uid: azure.mgmt.compute.operations.AvailabilitySetsOperations.list_available_sizes

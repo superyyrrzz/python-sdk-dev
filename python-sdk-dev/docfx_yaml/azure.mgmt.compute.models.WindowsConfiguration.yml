@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.WindowsConfiguration
+  fullName: azure.mgmt.compute.models.WindowsConfiguration
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: WindowsConfiguration
+  source:
+    id: WindowsConfiguration
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/windows_configuration.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/windows_configuration.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Describes Windows Configuration of the OS Profile.\n\n:param provision_vm_agent:\
+    \ whether VM Agent should be provisioned on the\n Virtual Machine.\n:type provision_vm_agent:\
+    \ bool\n:param enable_automatic_updates: whether Windows updates are\n automatically\
+    \ installed on the VM\n:type enable_automatic_updates: bool\n:param time_zone:\
+    \ the Time Zone of the VM\n:type time_zone: str\n:param additional_unattend_content:\
+    \ the additional base-64 encoded XML\n formatted information that can be included\
+    \ in the Unattend.xml file.\n:type additional_unattend_content: list of\n :class:`AdditionalUnattendContent\n\
+    \ <azure.mgmt.compute.models.AdditionalUnattendContent>`\n:param win_rm: the Windows\
+    \ Remote Management configuration of the VM\n:type win_rm: :class:`WinRMConfiguration\n\
+    \ <azure.mgmt.compute.models.WinRMConfiguration>`"
+  type: Class
+  uid: azure.mgmt.compute.models.WindowsConfiguration

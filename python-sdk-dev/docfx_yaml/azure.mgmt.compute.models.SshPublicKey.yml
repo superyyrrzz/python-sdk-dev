@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.SshPublicKey
+  fullName: azure.mgmt.compute.models.SshPublicKey
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: SshPublicKey
+  source:
+    id: SshPublicKey
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/ssh_public_key.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/ssh_public_key.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Contains information about SSH certificate public key and the path on\
+    \ the\nLinux VM where the public key is placed.\n\n:param path: the full path\
+    \ on the created VM where SSH public key is\n stored. If the file already exists,\
+    \ the specified key is appended to the\n file.\n:type path: str\n:param key_data:\
+    \ Certificate public key used to authenticate with VM\n through SSH.The certificate\
+    \ must be in Pem format with or without\n headers.\n:type key_data: str"
+  type: Class
+  uid: azure.mgmt.compute.models.SshPublicKey

@@ -1,0 +1,40 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.JobSchedulePatchOptions
+  fullName: azure.batch.models.JobSchedulePatchOptions
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: JobSchedulePatchOptions
+  source:
+    id: JobSchedulePatchOptions
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/job_schedule_patch_options.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/job_schedule_patch_options.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Additional parameters for the JobSchedule_Patch operation.\n\n:param timeout:\
+    \ The maximum time that the server can spend processing the\n request, in seconds.\
+    \ The default is 30 seconds. Default value: 30 .\n:type timeout: int\n:param client_request_id:\
+    \ The caller-generated request identity, in the\n form of a GUID with no decoration\
+    \ such as curly braces, e.g.\n 9C4D50EE-2D56-4CD3-8152-34347DC9F2B0.\n:type client_request_id:\
+    \ str\n:param return_client_request_id: Whether the server should return the\n\
+    \ client-request-id identifier in the response.\n:type return_client_request_id:\
+    \ bool\n:param ocp_date: The time the request was issued. If not specified, this\n\
+    \ header will be automatically populated with the current system clock\n time.\n\
+    :type ocp_date: datetime\n:param if_match: An ETag is specified. Specify this\
+    \ header to perform the\n operation only if the resource's ETag is an exact match\
+    \ as specified.\n:type if_match: str\n:param if_none_match: An ETag is specified.\
+    \ Specify this header to\n perform the operation only if the resource's ETag does\
+    \ not match the\n specified ETag.\n:type if_none_match: str\n:param if_modified_since:\
+    \ Specify this header to perform the operation\n only if the resource has been\
+    \ modified since the specified date/time.\n:type if_modified_since: datetime\n\
+    :param if_unmodified_since: Specify this header to perform the operation\n only\
+    \ if the resource has not been modified since the specified date/time.\n:type\
+    \ if_unmodified_since: datetime"
+  type: Class
+  uid: azure.batch.models.JobSchedulePatchOptions

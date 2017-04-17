@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.keyvault.generated.models.KeyProperties
+  fullName: azure.keyvault.generated.models.KeyProperties
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.keyvault.generated.models
+  name: KeyProperties
+  source:
+    id: KeyProperties
+    path: azure-keyvault/azure/keyvault/generated/models/key_properties.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/models/key_properties.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Properties of the key pair backing a certificate.\n\n:param exportable:\
+    \ Indicates if the private key can be exported.\n:type exportable: bool\n:param\
+    \ key_type: The key type.\n:type key_type: str\n:param key_size: The key size\
+    \ in bytes. For example;  1024 or 2048.\n:type key_size: int\n:param reuse_key:\
+    \ Indicates if the same key pair will be used on\n certificate renewal.\n:type\
+    \ reuse_key: bool"
+  type: Class
+  uid: azure.keyvault.generated.models.KeyProperties

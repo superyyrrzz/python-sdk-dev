@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.search.models.QueryKeyPaged
+  fullName: azure.mgmt.search.models.QueryKeyPaged
+  inheritance:
+  - msrest.paging.Paged
+  - collections.abc.Iterator
+  - collections.abc.Iterable
+  - builtins.object
+  module: azure.mgmt.search.models
+  name: QueryKeyPaged
+  source:
+    id: QueryKeyPaged
+    path: azure-mgmt-search/azure/mgmt/search/models/query_key_paged.py
+    remote:
+      branch: master
+      path: azure-mgmt-search/azure/mgmt/search/models/query_key_paged.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: A paging container for iterating over a list of QueryKey object
+  type: Class
+  uid: azure.mgmt.search.models.QueryKeyPaged

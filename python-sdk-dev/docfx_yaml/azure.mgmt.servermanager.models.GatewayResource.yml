@@ -1,0 +1,44 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.servermanager.models.GatewayResource
+  fullName: azure.mgmt.servermanager.models.GatewayResource
+  inheritance:
+  - azure.mgmt.servermanager.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.servermanager.models
+  name: GatewayResource
+  source:
+    id: GatewayResource
+    path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/gateway_resource.py
+    remote:
+      branch: master
+      path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/gateway_resource.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Data model for an arm gateway resource.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar id: Resource\
+    \ Manager Resource ID.\n:vartype id: str\n:ivar type: Resource Manager Resource\
+    \ Type.\n:vartype type: str\n:ivar name: Resource Manager Resource Name.\n:vartype\
+    \ name: str\n:ivar location: Resource Manager Resource Location.\n:vartype location:\
+    \ str\n:param tags: Resource Manager Resource Tags.\n:type tags: dict\n:param\
+    \ etag:\n:type etag: str\n:param created: UTC date and time when gateway was first\
+    \ added to\n management service.\n:type created: datetime\n:param updated: UTC\
+    \ date and time when node was last updated.\n:type updated: datetime\n:param upgrade_mode:\
+    \ The upgradeMode property gives the flexibility to\n gateway to auto upgrade\
+    \ itself. If properties value not specified, then we\n assume upgradeMode = Automatic.\
+    \ Possible values include: 'Manual',\n 'Automatic'\n:type upgrade_mode: str or\
+    \ :class:`upgradeMode\n <azure.mgmt.servermanager.models.upgradeMode>`\n:param\
+    \ desired_version: Latest available MSI version.\n:type desired_version: str\n\
+    :param instances: Names of the nodes in the gateway.\n:type instances: list of\
+    \ :class:`GatewayStatus\n <azure.mgmt.servermanager.models.GatewayStatus>`\n:param\
+    \ active_message_count: Number of active messages.\n:type active_message_count:\
+    \ int\n:param latest_published_msi_version: Last published MSI version.\n:type\
+    \ latest_published_msi_version: str\n:param published_time_utc: The date/time\
+    \ of the last published gateway.\n:type published_time_utc: datetime\n:ivar installer_download:\
+    \ Installer download uri.\n:vartype installer_download: str\n:ivar minimum_version:\
+    \ Minimum gateway version.\n:vartype minimum_version: str"
+  type: Class
+  uid: azure.mgmt.servermanager.models.GatewayResource

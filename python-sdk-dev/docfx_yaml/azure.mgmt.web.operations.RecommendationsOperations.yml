@@ -1,0 +1,139 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.web.operations.RecommendationsOperations.get_recommendation_by_subscription
+  - azure.mgmt.web.operations.RecommendationsOperations.get_recommendation_history_for_site
+  - azure.mgmt.web.operations.RecommendationsOperations.get_recommended_rules_for_site
+  - azure.mgmt.web.operations.RecommendationsOperations.get_rule_details_by_site_name
+  class: azure.mgmt.web.operations.RecommendationsOperations
+  fullName: azure.mgmt.web.operations.RecommendationsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.web.operations
+  name: RecommendationsOperations
+  source:
+    id: RecommendationsOperations
+    path: azure-mgmt-web/azure/mgmt/web/operations/recommendations_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/recommendations_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'RecommendationsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.web.operations.RecommendationsOperations
+- _type: method
+  class: azure.mgmt.web.operations.RecommendationsOperations
+  fullName: azure.mgmt.web.operations.RecommendationsOperations.get_recommendation_by_subscription
+  module: azure.mgmt.web.operations
+  name: get_recommendation_by_subscription
+  source:
+    id: get_recommendation_by_subscription
+    path: azure-mgmt-web/azure/mgmt/web/operations/recommendations_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/recommendations_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Gets a list of recommendations associated with the specified\nsubscription.\n\
+    \n:param featured: If set, this API returns only the most critical\n recommendation\
+    \ among the others. Otherwise this API returns all\n recommendations available\n\
+    :type featured: bool\n:param filter: Return only channels specified in the filter.\
+    \ Filter\n is specified by using OData syntax. Example: $filter=channels eq\n\
+    \ 'Api' or channel eq 'Notification'\n:type filter: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: list of :class:`Recommendation\n\
+    \ <azure.mgmt.web.models.Recommendation>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.RecommendationsOperations.get_recommendation_by_subscription
+- _type: method
+  class: azure.mgmt.web.operations.RecommendationsOperations
+  fullName: azure.mgmt.web.operations.RecommendationsOperations.get_recommendation_history_for_site
+  module: azure.mgmt.web.operations
+  name: get_recommendation_history_for_site
+  source:
+    id: get_recommendation_history_for_site
+    path: azure-mgmt-web/azure/mgmt/web/operations/recommendations_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/recommendations_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 247
+  summary: "Gets the list of past recommendations optionally specified by the time\n\
+    range.\n\n:param resource_group_name: Resource group name\n:type resource_group_name:\
+    \ str\n:param site_name: Site name\n:type site_name: str\n:param start_time: The\
+    \ start time of a time range to query, e.g.\n $filter=startTime eq '2015-01-01T00:00:00Z'\
+    \ and endTime eq\n '2015-01-02T00:00:00Z'\n:type start_time: str\n:param end_time:\
+    \ The end time of a time range to query, e.g.\n $filter=startTime eq '2015-01-01T00:00:00Z'\
+    \ and endTime eq\n '2015-01-02T00:00:00Z'\n:type end_time: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: list of :class:`Recommendation\n\
+    \ <azure.mgmt.web.models.Recommendation>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.RecommendationsOperations.get_recommendation_history_for_site
+- _type: method
+  class: azure.mgmt.web.operations.RecommendationsOperations
+  fullName: azure.mgmt.web.operations.RecommendationsOperations.get_recommended_rules_for_site
+  module: azure.mgmt.web.operations
+  name: get_recommended_rules_for_site
+  source:
+    id: get_recommended_rules_for_site
+    path: azure-mgmt-web/azure/mgmt/web/operations/recommendations_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/recommendations_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 171
+  summary: "Gets a list of recommendations associated with the specified web site.\n\
+    \n:param resource_group_name: Resource group name\n:type resource_group_name:\
+    \ str\n:param site_name: Site name\n:type site_name: str\n:param featured: If\
+    \ set, this API returns only the most critical\n recommendation among the others.\
+    \ Otherwise this API returns all\n recommendations available\n:type featured:\
+    \ bool\n:param site_sku: The name of site SKU.\n:type site_sku: str\n:param num_slots:\
+    \ The number of site slots associated to the site\n:type num_slots: int\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: list of :class:`Recommendation\n <azure.mgmt.web.models.Recommendation>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.RecommendationsOperations.get_recommended_rules_for_site
+- _type: method
+  class: azure.mgmt.web.operations.RecommendationsOperations
+  fullName: azure.mgmt.web.operations.RecommendationsOperations.get_rule_details_by_site_name
+  module: azure.mgmt.web.operations
+  name: get_rule_details_by_site_name
+  source:
+    id: get_rule_details_by_site_name
+    path: azure-mgmt-web/azure/mgmt/web/operations/recommendations_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/recommendations_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 105
+  summary: "Gets the detailed properties of the recommendation object for the\nspecified\
+    \ web site.\n\n:param resource_group_name: Resource group name\n:type resource_group_name:\
+    \ str\n:param site_name: Site name\n:type site_name: str\n:param name: Recommendation\
+    \ rule name\n:type name: str\n:param dict custom_headers: headers that will be\
+    \ added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`RecommendationRule\n\
+    \ <azure.mgmt.web.models.RecommendationRule>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.RecommendationsOperations.get_rule_details_by_site_name

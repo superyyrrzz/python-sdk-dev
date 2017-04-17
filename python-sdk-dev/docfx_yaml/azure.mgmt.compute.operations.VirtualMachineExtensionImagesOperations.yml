@@ -1,0 +1,104 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.compute.operations.VirtualMachineExtensionImagesOperations.get
+  - azure.mgmt.compute.operations.VirtualMachineExtensionImagesOperations.list_types
+  - azure.mgmt.compute.operations.VirtualMachineExtensionImagesOperations.list_versions
+  class: azure.mgmt.compute.operations.VirtualMachineExtensionImagesOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachineExtensionImagesOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.compute.operations
+  name: VirtualMachineExtensionImagesOperations
+  source:
+    id: VirtualMachineExtensionImagesOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_extension_images_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_extension_images_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'VirtualMachineExtensionImagesOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    :ivar api_version: Client Api Version. Constant value: "2016-03-30".'
+  type: Class
+  uid: azure.mgmt.compute.operations.VirtualMachineExtensionImagesOperations
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachineExtensionImagesOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachineExtensionImagesOperations.get
+  module: azure.mgmt.compute.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_extension_images_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_extension_images_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 38
+  summary: "Gets a virtual machine extension image.\n\n:param location:\n:type location:\
+    \ str\n:param publisher_name:\n:type publisher_name: str\n:param type:\n:type\
+    \ type: str\n:param version:\n:type version: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`VirtualMachineExtensionImage\n\
+    \ <azure.mgmt.compute.models.VirtualMachineExtensionImage>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachineExtensionImagesOperations.get
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachineExtensionImagesOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachineExtensionImagesOperations.list_types
+  module: azure.mgmt.compute.operations
+  name: list_types
+  source:
+    id: list_types
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_extension_images_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_extension_images_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 105
+  summary: "Gets a list of virtual machine extension image types.\n\n:param location:\n\
+    :type location: str\n:param publisher_name:\n:type publisher_name: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: list of :class:`VirtualMachineExtensionImage\n <azure.mgmt.compute.models.VirtualMachineExtensionImage>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachineExtensionImagesOperations.list_types
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachineExtensionImagesOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachineExtensionImagesOperations.list_versions
+  module: azure.mgmt.compute.operations
+  name: list_versions
+  source:
+    id: list_versions
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_extension_images_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_extension_images_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 166
+  summary: "Gets a list of virtual machine extension image versions.\n\n:param location:\n\
+    :type location: str\n:param publisher_name:\n:type publisher_name: str\n:param\
+    \ type:\n:type type: str\n:param filter: The filter to apply on the operation.\n\
+    :type filter: str\n:param top:\n:type top: int\n:param orderby:\n:type orderby:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: list of :class:`VirtualMachineExtensionImage\n <azure.mgmt.compute.models.VirtualMachineExtensionImage>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachineExtensionImagesOperations.list_versions

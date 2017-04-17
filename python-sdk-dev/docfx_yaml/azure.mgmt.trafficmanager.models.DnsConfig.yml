@@ -1,0 +1,32 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.trafficmanager.models.DnsConfig
+  fullName: azure.mgmt.trafficmanager.models.DnsConfig
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.trafficmanager.models
+  name: DnsConfig
+  source:
+    id: DnsConfig
+    path: azure-mgmt-trafficmanager/azure/mgmt/trafficmanager/models/dns_config.py
+    remote:
+      branch: master
+      path: azure-mgmt-trafficmanager/azure/mgmt/trafficmanager/models/dns_config.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Class containing DNS settings in a Traffic Manager profile.\n\n:param\
+    \ relative_name: Gets or sets the relative DNS name provided by this\n Traffic\
+    \ Manager profile.  This value is combined with the DNS domain\n name used by\
+    \ Azure Traffic Manager to form the fully-qualified domain\n name (FQDN) of the\
+    \ profile.\n:type relative_name: str\n:param fqdn: Gets or sets the fully-qualified\
+    \ domain name (FQDN) of the\n Traffic Manager profile.  This is formed from the\
+    \ concatenation of the\n RelativeName with the DNS domain used by Azure Traffic\
+    \ Manager.\n:type fqdn: str\n:param ttl: Gets or sets the DNS Ttime-To-Live (TTL),\
+    \ in seconds.  This\n informs the local DNS resolvers and DNS clients how long\
+    \ to cache DNS\n responses provided by this Traffic Manager profile.\n:type ttl:\
+    \ long"
+  type: Class
+  uid: azure.mgmt.trafficmanager.models.DnsConfig

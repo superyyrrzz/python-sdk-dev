@@ -1,0 +1,32 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.scheduler.models.ClientCertAuthentication
+  fullName: azure.mgmt.scheduler.models.ClientCertAuthentication
+  inheritance:
+  - azure.mgmt.scheduler.models.http_authentication.HttpAuthentication
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.scheduler.models
+  name: ClientCertAuthentication
+  source:
+    id: ClientCertAuthentication
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/client_cert_authentication.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/client_cert_authentication.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "ClientCertAuthentication.\n\n:param type: Gets or sets the http authentication\
+    \ type. Possible values\n include: 'NotSpecified', 'ClientCertificate', 'ActiveDirectoryOAuth',\n\
+    \ 'Basic'\n:type type: str or :class:`HttpAuthenticationType\n <azure.mgmt.scheduler.models.HttpAuthenticationType>`\n\
+    :param password: Gets or sets the password.\n:type password: str\n:param pfx:\
+    \ Gets or sets the pfx.\n:type pfx: str\n:param certificate_thumbprint: Gets or\
+    \ sets the certificate thumbprint.\n:type certificate_thumbprint: str\n:param\
+    \ certificate_expiration_date: Gets or sets the certificate\n expiration date.\n\
+    :type certificate_expiration_date: datetime\n:param certificate_subject_name:\
+    \ Gets or sets the certificate subject\n name.\n:type certificate_subject_name:\
+    \ str"
+  type: Class
+  uid: azure.mgmt.scheduler.models.ClientCertAuthentication

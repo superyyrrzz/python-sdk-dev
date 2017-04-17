@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.cdn.models.OriginUpdateParameters
+  fullName: azure.mgmt.cdn.models.OriginUpdateParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.cdn.models
+  name: OriginUpdateParameters
+  source:
+    id: OriginUpdateParameters
+    path: azure-mgmt-cdn/azure/mgmt/cdn/models/origin_update_parameters.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/models/origin_update_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Origin properties needed for origin creation or update.\n\n:param host_name:\
+    \ The address of the origin. Domain names, IPv4 addresses,\n and IPv6 addresses\
+    \ are supported.\n:type host_name: str\n:param http_port: The value of the HTTP\
+    \ port. Must be between 1 and 65535.\n:type http_port: int\n:param https_port:\
+    \ The value of the HTTPS port. Must be between 1 and\n 65535.\n:type https_port:\
+    \ int"
+  type: Class
+  uid: azure.mgmt.cdn.models.OriginUpdateParameters

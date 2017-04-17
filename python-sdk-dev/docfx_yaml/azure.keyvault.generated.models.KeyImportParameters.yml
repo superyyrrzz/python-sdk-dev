@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.keyvault.generated.models.KeyImportParameters
+  fullName: azure.keyvault.generated.models.KeyImportParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.keyvault.generated.models
+  name: KeyImportParameters
+  source:
+    id: KeyImportParameters
+    path: azure-keyvault/azure/keyvault/generated/models/key_import_parameters.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/models/key_import_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The key import parameters.\n\n:param hsm: Whether to import as a hardware\
+    \ key (HSM) or software key.\n:type hsm: bool\n:param key: The Json web key\n\
+    :type key: :class:`JsonWebKey\n <azure.keyvault.generated.models.JsonWebKey>`\n\
+    :param key_attributes: The key management attributes.\n:type key_attributes: :class:`KeyAttributes\n\
+    \ <azure.keyvault.generated.models.KeyAttributes>`\n:param tags: Application specific\
+    \ metadata in the form of key-value pairs.\n:type tags: dict"
+  type: Class
+  uid: azure.keyvault.generated.models.KeyImportParameters

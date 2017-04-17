@@ -1,0 +1,34 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.keyvault.generated.models.JsonWebKey
+  fullName: azure.keyvault.generated.models.JsonWebKey
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.keyvault.generated.models
+  name: JsonWebKey
+  source:
+    id: JsonWebKey
+    path: azure-keyvault/azure/keyvault/generated/models/json_web_key.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/models/json_web_key.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "As of http://tools.ietf.org/html/draft-ietf-jose-json-web-key-18.\n\n\
+    :param kid: Key identifier.\n:type kid: str\n:param kty: Supported JsonWebKey\
+    \ key types (kty) for Elliptic Curve, RSA,\n HSM, Octet. Kty is usually set to\
+    \ RSA. Possible values include: 'EC',\n 'RSA', 'RSA-HSM', 'oct'\n:type kty: str\
+    \ or :class:`JsonWebKeyType\n <azure.keyvault.generated.models.JsonWebKeyType>`\n\
+    :param key_ops:\n:type key_ops: list of str\n:param n: RSA modulus.\n:type n:\
+    \ bytes\n:param e: RSA public exponent.\n:type e: bytes\n:param d: RSA private\
+    \ exponent.\n:type d: bytes\n:param dp: RSA private key parameter.\n:type dp:\
+    \ bytes\n:param dq: RSA private key parameter.\n:type dq: bytes\n:param qi: RSA\
+    \ private key parameter.\n:type qi: bytes\n:param p: RSA secret prime.\n:type\
+    \ p: bytes\n:param q: RSA secret prime, with p < q.\n:type q: bytes\n:param k:\
+    \ Symmetric key.\n:type k: bytes\n:param t: HSM Token, used with 'Bring Your Own\
+    \ Key'.\n:type t: bytes"
+  type: Class
+  uid: azure.keyvault.generated.models.JsonWebKey

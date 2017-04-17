@@ -1,0 +1,53 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.VirtualNetworkGateway
+  fullName: azure.mgmt.network.models.VirtualNetworkGateway
+  inheritance:
+  - azure.mgmt.network.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: VirtualNetworkGateway
+  source:
+    id: VirtualNetworkGateway
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/virtual_network_gateway.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/virtual_network_gateway.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A common class for general resource information.\n\nVariables are only\
+    \ populated by the server, and will be ignored when\nsending a request.\n\n:param\
+    \ id: Resource Id\n:type id: str\n:ivar name: Resource name\n:vartype name: str\n\
+    :ivar type: Resource type\n:vartype type: str\n:param location: Resource location\n\
+    :type location: str\n:param tags: Resource tags\n:type tags: dict\n:param ip_configurations:\
+    \ IpConfigurations for Virtual network gateway.\n:type ip_configurations: list\
+    \ of\n :class:`VirtualNetworkGatewayIPConfiguration\n <azure.mgmt.network.models.VirtualNetworkGatewayIPConfiguration>`\n\
+    :param gateway_type: The type of this virtual network gateway. Possible\n values\
+    \ include: 'Vpn', 'ExpressRoute'\n:type gateway_type: str or :class:`VirtualNetworkGatewayType\n\
+    \ <azure.mgmt.network.models.VirtualNetworkGatewayType>`\n:param vpn_type: The\
+    \ type of this virtual network gateway. Possible\n values include: 'PolicyBased',\
+    \ 'RouteBased'\n:type vpn_type: str or :class:`VpnType\n <azure.mgmt.network.models.VpnType>`\n\
+    :param enable_bgp: EnableBgp Flag\n:type enable_bgp: bool\n:param active_active:\
+    \ ActiveActive flag\n:type active_active: bool\n:param gateway_default_site: Gets\
+    \ or sets the reference of the\n LocalNetworkGateway resource which represents\
+    \ Local network site having\n default routes. Assign Null value in case of removing\
+    \ existing default\n site setting.\n:type gateway_default_site: :class:`SubResource\n\
+    \ <azure.mgmt.network.models.SubResource>`\n:param sku: Gets or sets the reference\
+    \ of the VirtualNetworkGatewaySku\n resource which represents the sku selected\
+    \ for Virtual network gateway.\n:type sku: :class:`VirtualNetworkGatewaySku\n\
+    \ <azure.mgmt.network.models.VirtualNetworkGatewaySku>`\n:param vpn_client_configuration:\
+    \ Gets or sets the reference of the\n VpnClientConfiguration resource which represents\
+    \ the P2S VpnClient\n configurations.\n:type vpn_client_configuration: :class:`VpnClientConfiguration\n\
+    \ <azure.mgmt.network.models.VpnClientConfiguration>`\n:param bgp_settings: Virtual\
+    \ network gateway's BGP speaker settings\n:type bgp_settings: :class:`BgpSettings\n\
+    \ <azure.mgmt.network.models.BgpSettings>`\n:param resource_guid: Gets or sets\
+    \ resource guid property of the\n VirtualNetworkGateway resource\n:type resource_guid:\
+    \ str\n:param provisioning_state: Gets provisioning state of the\n VirtualNetworkGateway\
+    \ resource Updating/Deleting/Failed\n:type provisioning_state: str\n:param etag:\
+    \ Gets a unique read-only string that changes whenever the\n resource is updated\n\
+    :type etag: str"
+  type: Class
+  uid: azure.mgmt.network.models.VirtualNetworkGateway

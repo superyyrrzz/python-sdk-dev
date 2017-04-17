@@ -1,0 +1,32 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.ExpressRouteServiceProvider
+  fullName: azure.mgmt.network.models.ExpressRouteServiceProvider
+  inheritance:
+  - azure.mgmt.network.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: ExpressRouteServiceProvider
+  source:
+    id: ExpressRouteServiceProvider
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/express_route_service_provider.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/express_route_service_provider.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "ExpressRouteResourceProvider object.\n\nVariables are only populated by\
+    \ the server, and will be ignored when\nsending a request.\n\n:param id: Resource\
+    \ Id\n:type id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type:\
+    \ Resource type\n:vartype type: str\n:param location: Resource location\n:type\
+    \ location: str\n:param tags: Resource tags\n:type tags: dict\n:param peering_locations:\
+    \ Gets or list of peering locations\n:type peering_locations: list of str\n:param\
+    \ bandwidths_offered: Gets or bandwidths offered\n:type bandwidths_offered: list\
+    \ of\n :class:`ExpressRouteServiceProviderBandwidthsOffered\n <azure.mgmt.network.models.ExpressRouteServiceProviderBandwidthsOffered>`\n\
+    :param provisioning_state: Gets provisioning state of the resource\n:type provisioning_state:\
+    \ str"
+  type: Class
+  uid: azure.mgmt.network.models.ExpressRouteServiceProvider

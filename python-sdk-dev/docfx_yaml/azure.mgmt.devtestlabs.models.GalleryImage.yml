@@ -1,0 +1,33 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.devtestlabs.models.GalleryImage
+  fullName: azure.mgmt.devtestlabs.models.GalleryImage
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.devtestlabs.models
+  name: GalleryImage
+  source:
+    id: GalleryImage
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/gallery_image.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/gallery_image.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A gallery image.\n\n:param author: The author of the gallery image.\n\
+    :type author: str\n:param created_date: The creation date of the gallery image.\n\
+    :type created_date: datetime\n:param description: The description of the gallery\
+    \ image.\n:type description: str\n:param image_reference: The image reference\
+    \ of the gallery image.\n:type image_reference: :class:`GalleryImageReference\n\
+    \ <azure.mgmt.devtestlabs.models.GalleryImageReference>`\n:param icon: The icon\
+    \ of the gallery image.\n:type icon: str\n:param enabled: Indicates whether this\
+    \ gallery image is enabled.\n:type enabled: bool\n:param id: The identifier of\
+    \ the resource.\n:type id: str\n:param name: The name of the resource.\n:type\
+    \ name: str\n:param type: The type of the resource.\n:type type: str\n:param location:\
+    \ The location of the resource.\n:type location: str\n:param tags: The tags of\
+    \ the resource.\n:type tags: dict"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.GalleryImage

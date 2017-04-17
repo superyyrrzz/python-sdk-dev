@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.keyvault.generated.models.KeyUpdateParameters
+  fullName: azure.keyvault.generated.models.KeyUpdateParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.keyvault.generated.models
+  name: KeyUpdateParameters
+  source:
+    id: KeyUpdateParameters
+    path: azure-keyvault/azure/keyvault/generated/models/key_update_parameters.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/models/key_update_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The key update parameters.\n\n:param key_ops: Json web key operations.\
+    \ For more information on possible\n key operations, see JsonWebKeyOperation.\n\
+    :type key_ops: list of str or :class:`JsonWebKeyOperation\n <azure.keyvault.generated.models.JsonWebKeyOperation>`\n\
+    :param key_attributes:\n:type key_attributes: :class:`KeyAttributes\n <azure.keyvault.generated.models.KeyAttributes>`\n\
+    :param tags: Application specific metadata in the form of key-value pairs.\n:type\
+    \ tags: dict"
+  type: Class
+  uid: azure.keyvault.generated.models.KeyUpdateParameters

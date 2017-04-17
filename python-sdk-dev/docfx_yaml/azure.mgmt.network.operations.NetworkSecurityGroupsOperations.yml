@@ -1,0 +1,152 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.network.operations.NetworkSecurityGroupsOperations.create_or_update
+  - azure.mgmt.network.operations.NetworkSecurityGroupsOperations.delete
+  - azure.mgmt.network.operations.NetworkSecurityGroupsOperations.get
+  - azure.mgmt.network.operations.NetworkSecurityGroupsOperations.list
+  - azure.mgmt.network.operations.NetworkSecurityGroupsOperations.list_all
+  class: azure.mgmt.network.operations.NetworkSecurityGroupsOperations
+  fullName: azure.mgmt.network.operations.NetworkSecurityGroupsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.network.operations
+  name: NetworkSecurityGroupsOperations
+  source:
+    id: NetworkSecurityGroupsOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_security_groups_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_security_groups_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 20
+  summary: 'NetworkSecurityGroupsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.network.operations.NetworkSecurityGroupsOperations
+- _type: method
+  class: azure.mgmt.network.operations.NetworkSecurityGroupsOperations
+  fullName: azure.mgmt.network.operations.NetworkSecurityGroupsOperations.create_or_update
+  module: azure.mgmt.network.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_security_groups_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_security_groups_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 182
+  summary: "The Put NetworkSecurityGroup operation creates/updates a network\nsecurity\
+    \ group in the specified resource group.\n\n:param resource_group_name: The name\
+    \ of the resource group.\n:type resource_group_name: str\n:param network_security_group_name:\
+    \ The name of the network security\n group.\n:type network_security_group_name:\
+    \ str\n:param parameters: Parameters supplied to the create/update Network\n Security\
+    \ Group operation\n:type parameters: :class:`NetworkSecurityGroup\n <azure.mgmt.network.models.NetworkSecurityGroup>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`NetworkSecurityGroup\n <azure.mgmt.network.models.NetworkSecurityGroup>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.NetworkSecurityGroupsOperations.create_or_update
+- _type: method
+  class: azure.mgmt.network.operations.NetworkSecurityGroupsOperations
+  fullName: azure.mgmt.network.operations.NetworkSecurityGroupsOperations.delete
+  module: azure.mgmt.network.operations
+  name: delete
+  source:
+    id: delete
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_security_groups_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_security_groups_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 37
+  summary: "The Delete NetworkSecurityGroup operation deletes the specified\nnetwork\
+    \ security group.\n\n:param resource_group_name: The name of the resource group.\n\
+    :type resource_group_name: str\n:param network_security_group_name: The name of\
+    \ the network security\n group.\n:type network_security_group_name: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:rtype:\n\
+    \ :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.NetworkSecurityGroupsOperations.delete
+- _type: method
+  class: azure.mgmt.network.operations.NetworkSecurityGroupsOperations
+  fullName: azure.mgmt.network.operations.NetworkSecurityGroupsOperations.get
+  module: azure.mgmt.network.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_security_groups_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_security_groups_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 115
+  summary: "The Get NetworkSecurityGroups operation retrieves information about\n\
+    the specified network security group.\n\n:param resource_group_name: The name\
+    \ of the resource group.\n:type resource_group_name: str\n:param network_security_group_name:\
+    \ The name of the network security\n group.\n:type network_security_group_name:\
+    \ str\n:param expand: expand references resources.\n:type expand: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`NetworkSecurityGroup\n <azure.mgmt.network.models.NetworkSecurityGroup>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.NetworkSecurityGroupsOperations.get
+- _type: method
+  class: azure.mgmt.network.operations.NetworkSecurityGroupsOperations
+  fullName: azure.mgmt.network.operations.NetworkSecurityGroupsOperations.list
+  module: azure.mgmt.network.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_security_groups_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_security_groups_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 341
+  summary: "The list NetworkSecurityGroups returns all network security groups in\n\
+    a resource group.\n\n:param resource_group_name: The name of the resource group.\n\
+    :type resource_group_name: str\n:param dict custom_headers: headers that will\
+    \ be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`NetworkSecurityGroupPaged\n\
+    \ <azure.mgmt.network.models.NetworkSecurityGroupPaged>`"
+  type: Method
+  uid: azure.mgmt.network.operations.NetworkSecurityGroupsOperations.list
+- _type: method
+  class: azure.mgmt.network.operations.NetworkSecurityGroupsOperations
+  fullName: azure.mgmt.network.operations.NetworkSecurityGroupsOperations.list_all
+  module: azure.mgmt.network.operations
+  name: list_all
+  source:
+    id: list_all
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_security_groups_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_security_groups_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 278
+  summary: "The list NetworkSecurityGroups returns all network security groups in\n\
+    a subscription.\n\n:param dict custom_headers: headers that will be added to the\
+    \ request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`NetworkSecurityGroupPaged\n <azure.mgmt.network.models.NetworkSecurityGroupPaged>`"
+  type: Method
+  uid: azure.mgmt.network.operations.NetworkSecurityGroupsOperations.list_all

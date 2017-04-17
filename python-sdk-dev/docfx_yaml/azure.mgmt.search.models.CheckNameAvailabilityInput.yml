@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.search.models.CheckNameAvailabilityInput
+  fullName: azure.mgmt.search.models.CheckNameAvailabilityInput
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.search.models
+  name: CheckNameAvailabilityInput
+  source:
+    id: CheckNameAvailabilityInput
+    path: azure-mgmt-search/azure/mgmt/search/models/check_name_availability_input.py
+    remote:
+      branch: master
+      path: azure-mgmt-search/azure/mgmt/search/models/check_name_availability_input.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Input of check name availability API.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:param name:\
+    \ The Search service name to validate. Search service names\n must only contain\
+    \ lowercase letters, digits or dashes, cannot use dash as\n the first two or last\
+    \ one characters, cannot contain consecutive dashes,\n and must be between 2 and\
+    \ 60 characters in length.\n:type name: str\n:ivar type: The type of the resource\
+    \ whose name is to be validated. This\n value must always be 'searchServices'.\
+    \ Default value: \"searchServices\" .\n:vartype type: str"
+  type: Class
+  uid: azure.mgmt.search.models.CheckNameAvailabilityInput

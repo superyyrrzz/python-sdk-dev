@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.sql.models.ServerMetric
+  fullName: azure.mgmt.sql.models.ServerMetric
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.sql.models
+  name: ServerMetric
+  source:
+    id: ServerMetric
+    path: azure-mgmt-sql/azure/mgmt/sql/models/server_metric.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/models/server_metric.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Represents Azure SQL server metrics.\n\nVariables are only populated by\
+    \ the server, and will be ignored when\nsending a request.\n\n:ivar resource_name:\
+    \ The name of the resource.\n:vartype resource_name: str\n:ivar display_name:\
+    \ The metric display name.\n:vartype display_name: str\n:ivar current_value: The\
+    \ current value of the metric.\n:vartype current_value: float\n:ivar limit: The\
+    \ current limit of the metric.\n:vartype limit: float\n:ivar unit: The units of\
+    \ the metric.\n:vartype unit: str\n:ivar next_reset_time: The next reset time\
+    \ for the metric (ISO8601\n format).\n:vartype next_reset_time: datetime"
+  type: Class
+  uid: azure.mgmt.sql.models.ServerMetric

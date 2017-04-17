@@ -1,0 +1,37 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.PurchasePlan
+  fullName: azure.mgmt.compute.models.PurchasePlan
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: PurchasePlan
+  source:
+    id: PurchasePlan
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/purchase_plan.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/purchase_plan.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Used for establishing the purchase context of any 3rd Party artifact
+
+    through MarketPlace.
+
+
+    :param publisher: the publisher ID.
+
+    :type publisher: str
+
+    :param name: the plan ID.
+
+    :type name: str
+
+    :param product: the product ID.
+
+    :type product: str'
+  type: Class
+  uid: azure.mgmt.compute.models.PurchasePlan

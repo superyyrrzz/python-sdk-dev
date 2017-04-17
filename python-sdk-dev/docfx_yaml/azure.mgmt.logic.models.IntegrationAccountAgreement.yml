@@ -1,0 +1,38 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.IntegrationAccountAgreement
+  fullName: azure.mgmt.logic.models.IntegrationAccountAgreement
+  inheritance:
+  - azure.mgmt.logic.models.integration_account_resource.IntegrationAccountResource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: IntegrationAccountAgreement
+  source:
+    id: IntegrationAccountAgreement
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/integration_account_agreement.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/integration_account_agreement.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "IntegrationAccountAgreement.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:param id: The resource id.\n\
+    :type id: str\n:param name: The resource name.\n:type name: str\n:param type:\
+    \ The resource type.\n:type type: str\n:param location: The resource location.\n\
+    :type location: str\n:param tags: The resource tags.\n:type tags: dict\n:ivar\
+    \ created_time: The created time.\n:vartype created_time: datetime\n:ivar changed_time:\
+    \ The changed time.\n:vartype changed_time: datetime\n:param metadata: The metadata.\n\
+    :type metadata: object\n:param agreement_type: The agreement type. Possible values\
+    \ include:\n 'NotSpecified', 'AS2', 'X12', 'Edifact'\n:type agreement_type: str\
+    \ or :class:`AgreementType\n <azure.mgmt.logic.models.AgreementType>`\n:param\
+    \ host_partner: The host partner.\n:type host_partner: str\n:param guest_partner:\
+    \ The guest partner.\n:type guest_partner: str\n:param host_identity: The host\
+    \ identity.\n:type host_identity: :class:`BusinessIdentity\n <azure.mgmt.logic.models.BusinessIdentity>`\n\
+    :param guest_identity: The guest identity.\n:type guest_identity: :class:`BusinessIdentity\n\
+    \ <azure.mgmt.logic.models.BusinessIdentity>`\n:param content: The agreement content.\n\
+    :type content: :class:`AgreementContent\n <azure.mgmt.logic.models.AgreementContent>`"
+  type: Class
+  uid: azure.mgmt.logic.models.IntegrationAccountAgreement

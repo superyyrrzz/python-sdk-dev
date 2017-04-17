@@ -1,0 +1,33 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.resources.models.DeploymentProperties
+  fullName: azure.mgmt.resource.resources.models.DeploymentProperties
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.resource.resources.models
+  name: DeploymentProperties
+  source:
+    id: DeploymentProperties
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/deployment_properties.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/deployment_properties.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Deployment properties.\n\n:param template: The template content. It can\
+    \ be a JObject or a well\n formed JSON string. Use only one of Template or TemplateLink.\n\
+    :type template: object\n:param template_link: The template URI. Use only one of\
+    \ Template or\n TemplateLink.\n:type template_link: :class:`TemplateLink\n <azure.mgmt.resource.resources.models.TemplateLink>`\n\
+    :param parameters: Deployment parameters. It can be a JObject or a well\n formed\
+    \ JSON string. Use only one of Parameters or ParametersLink.\n:type parameters:\
+    \ object\n:param parameters_link: The parameters URI. Use only one of Parameters\
+    \ or\n ParametersLink.\n:type parameters_link: :class:`ParametersLink\n <azure.mgmt.resource.resources.models.ParametersLink>`\n\
+    :param mode: The deployment mode. Possible values include: 'Incremental',\n 'Complete'\n\
+    :type mode: str or :class:`DeploymentMode\n <azure.mgmt.resource.resources.models.DeploymentMode>`\n\
+    :param debug_setting: The debug setting of the deployment.\n:type debug_setting:\
+    \ :class:`DebugSetting\n <azure.mgmt.resource.resources.models.DebugSetting>`"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.DeploymentProperties

@@ -1,0 +1,32 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.batch.models.GetApplicationPackageResult
+  fullName: azure.mgmt.batch.models.GetApplicationPackageResult
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.batch.models
+  name: GetApplicationPackageResult
+  source:
+    id: GetApplicationPackageResult
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/models/get_application_package_result.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/models/get_application_package_result.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Response to an ApplicationOperations.GetApplicationPackage request.\n\n\
+    :param id: The id of the application.\n:type id: str\n:param version: The version\
+    \ of the application package.\n:type version: str\n:param state: The current state\
+    \ of the application package. Possible\n values include: 'pending', 'active',\
+    \ 'unmapped'\n:type state: str or :class:`PackageState\n <azure.mgmt.batch.models.PackageState>`\n\
+    :param format: The format of the application package, if the package is\n active.\n\
+    :type format: str\n:param storage_url: The storage URL at which the application\
+    \ package is\n stored.\n:type storage_url: str\n:param storage_url_expiry: The\
+    \ UTC time at which the storage URL will\n expire.\n:type storage_url_expiry:\
+    \ datetime\n:param last_activation_time: The time at which the package was last\n\
+    \ activated, if the package is active.\n:type last_activation_time: datetime"
+  type: Class
+  uid: azure.mgmt.batch.models.GetApplicationPackageResult

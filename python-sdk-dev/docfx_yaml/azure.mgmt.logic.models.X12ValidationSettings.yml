@@ -1,0 +1,41 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.X12ValidationSettings
+  fullName: azure.mgmt.logic.models.X12ValidationSettings
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: X12ValidationSettings
+  source:
+    id: X12ValidationSettings
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/x12_validation_settings.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/x12_validation_settings.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "X12ValidationSettings.\n\n:param validate_character_set: The value indicating\
+    \ whether to validate\n character set in the message.\n:type validate_character_set:\
+    \ bool\n:param check_duplicate_interchange_control_number: The value indicating\n\
+    \ whether to check for duplicate interchange control number.\n:type check_duplicate_interchange_control_number:\
+    \ bool\n:param interchange_control_number_validity_days: The validity period of\n\
+    \ interchange control number.\n:type interchange_control_number_validity_days:\
+    \ int\n:param check_duplicate_group_control_number: The value indicating whether\n\
+    \ to check for duplicate group control number.\n:type check_duplicate_group_control_number:\
+    \ bool\n:param check_duplicate_transaction_set_control_number: The value\n indicating\
+    \ whether to check for duplicate transaction set control number.\n:type check_duplicate_transaction_set_control_number:\
+    \ bool\n:param validate_edi_types: The value indicating whether to Whether to\n\
+    \ validate EDI types.\n:type validate_edi_types: bool\n:param validate_xsd_types:\
+    \ The value indicating whether to Whether to\n validate XSD types.\n:type validate_xsd_types:\
+    \ bool\n:param allow_leading_and_trailing_spaces_and_zeroes: The value indicating\n\
+    \ whether to allow leading and trailing spaces and zeroes.\n:type allow_leading_and_trailing_spaces_and_zeroes:\
+    \ bool\n:param trim_leading_and_trailing_spaces_and_zeroes: The value indicating\n\
+    \ whether to trim leading and trailing spaces and zeroes.\n:type trim_leading_and_trailing_spaces_and_zeroes:\
+    \ bool\n:param trailing_separator_policy: The trailing separator policy. Possible\n\
+    \ values include: 'NotSpecified', 'NotAllowed', 'Optional', 'Mandatory'\n:type\
+    \ trailing_separator_policy: str or :class:`TrailingSeparatorPolicy\n <azure.mgmt.logic.models.TrailingSeparatorPolicy>`"
+  type: Class
+  uid: azure.mgmt.logic.models.X12ValidationSettings

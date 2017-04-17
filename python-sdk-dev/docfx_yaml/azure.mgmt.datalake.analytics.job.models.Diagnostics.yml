@@ -1,0 +1,30 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.datalake.analytics.job.models.Diagnostics
+  fullName: azure.mgmt.datalake.analytics.job.models.Diagnostics
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.datalake.analytics.job.models
+  name: Diagnostics
+  source:
+    id: Diagnostics
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/job/models/diagnostics.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/job/models/diagnostics.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Error diagnostic information for failed jobs.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar column_number:\
+    \ the column where the error occured.\n:vartype column_number: int\n:ivar end:\
+    \ the ending index of the error.\n:vartype end: int\n:ivar line_number: the line\
+    \ number the error occured on.\n:vartype line_number: int\n:ivar message: the\
+    \ error message.\n:vartype message: str\n:ivar severity: the severity of the error.\
+    \ Possible values include:\n 'Warning', 'Error', 'Info', 'SevereWarning', 'Deprecated',\
+    \ 'UserWarning'\n:vartype severity: str or :class:`SeverityTypes\n <azure.mgmt.datalake.analytics.job.models.SeverityTypes>`\n\
+    :ivar start: the starting index of the error.\n:vartype start: int"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.job.models.Diagnostics

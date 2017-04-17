@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.WorkflowVersionPaged
+  fullName: azure.mgmt.logic.models.WorkflowVersionPaged
+  inheritance:
+  - msrest.paging.Paged
+  - collections.abc.Iterator
+  - collections.abc.Iterable
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: WorkflowVersionPaged
+  source:
+    id: WorkflowVersionPaged
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/workflow_version_paged.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/workflow_version_paged.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: A paging container for iterating over a list of WorkflowVersion object
+  type: Class
+  uid: azure.mgmt.logic.models.WorkflowVersionPaged

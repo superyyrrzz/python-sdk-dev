@@ -1,0 +1,278 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.redis.operations.RedisOperations.create_or_update
+  - azure.mgmt.redis.operations.RedisOperations.delete
+  - azure.mgmt.redis.operations.RedisOperations.export
+  - azure.mgmt.redis.operations.RedisOperations.force_reboot
+  - azure.mgmt.redis.operations.RedisOperations.get
+  - azure.mgmt.redis.operations.RedisOperations.import_method
+  - azure.mgmt.redis.operations.RedisOperations.list
+  - azure.mgmt.redis.operations.RedisOperations.list_by_resource_group
+  - azure.mgmt.redis.operations.RedisOperations.list_keys
+  - azure.mgmt.redis.operations.RedisOperations.regenerate_key
+  class: azure.mgmt.redis.operations.RedisOperations
+  fullName: azure.mgmt.redis.operations.RedisOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.redis.operations
+  name: RedisOperations
+  source:
+    id: RedisOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 20
+  summary: 'RedisOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.redis.operations.RedisOperations
+- _type: method
+  class: azure.mgmt.redis.operations.RedisOperations
+  fullName: azure.mgmt.redis.operations.RedisOperations.create_or_update
+  module: azure.mgmt.redis.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 37
+  summary: "Create a redis cache, or replace (overwrite/recreate, with potential\n\
+    downtime) an existing cache.\n\n:param resource_group_name: The name of the resource\
+    \ group.\n:type resource_group_name: str\n:param name: The name of the redis cache.\n\
+    :type name: str\n:param parameters: Parameters supplied to the CreateOrUpdate\
+    \ redis\n operation.\n:type parameters: :class:`RedisCreateOrUpdateParameters\n\
+    \ <azure.mgmt.redis.models.RedisCreateOrUpdateParameters>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`RedisResourceWithAccessKey\n\
+    \ <azure.mgmt.redis.models.RedisResourceWithAccessKey>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.redis.operations.RedisOperations.create_or_update
+- _type: method
+  class: azure.mgmt.redis.operations.RedisOperations
+  fullName: azure.mgmt.redis.operations.RedisOperations.delete
+  module: azure.mgmt.redis.operations
+  name: delete
+  source:
+    id: delete
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 109
+  summary: "Deletes a redis cache. This operation takes a while to complete.\n\n:param\
+    \ resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param name: The name of the redis cache.\n:type name: str\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.redis.operations.RedisOperations.delete
+- _type: method
+  class: azure.mgmt.redis.operations.RedisOperations
+  fullName: azure.mgmt.redis.operations.RedisOperations.export
+  module: azure.mgmt.redis.operations
+  name: export
+  source:
+    id: export
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 637
+  summary: "Import data into redis cache.\n\n:param resource_group_name: The name\
+    \ of the resource group.\n:type resource_group_name: str\n:param name: The name\
+    \ of the redis cache.\n:type name: str\n:param parameters: Parameters for redis\
+    \ export operation.\n:type parameters: :class:`ExportRDBParameters\n <azure.mgmt.redis.models.ExportRDBParameters>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.redis.operations.RedisOperations.export
+- _type: method
+  class: azure.mgmt.redis.operations.RedisOperations
+  fullName: azure.mgmt.redis.operations.RedisOperations.force_reboot
+  module: azure.mgmt.redis.operations
+  name: force_reboot
+  source:
+    id: force_reboot
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 483
+  summary: "Reboot specified redis node(s). This operation requires write\npermission\
+    \ to the cache resource. There can be potential data loss.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param name:\
+    \ The name of the redis cache.\n:type name: str\n:param reboot_type: Which redis\
+    \ node(s) to reboot. Depending on this\n value data loss is possible. Possible\
+    \ values include: 'PrimaryNode',\n 'SecondaryNode', 'AllNodes'\n:type reboot_type:\
+    \ str or :class:`RebootType\n <azure.mgmt.redis.models.RebootType>`\n:param shard_id:\
+    \ In case of cluster cache, this specifies shard id\n which should be rebooted.\n\
+    :type shard_id: int\n:param dict custom_headers: headers that will be added to\
+    \ the request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.redis.operations.RedisOperations.force_reboot
+- _type: method
+  class: azure.mgmt.redis.operations.RedisOperations
+  fullName: azure.mgmt.redis.operations.RedisOperations.get
+  module: azure.mgmt.redis.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 162
+  summary: "Gets a redis cache (resource description).\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param name:\
+    \ The name of the redis cache.\n:type name: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`RedisResource\
+    \ <azure.mgmt.redis.models.RedisResource>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.redis.operations.RedisOperations.get
+- _type: method
+  class: azure.mgmt.redis.operations.RedisOperations
+  fullName: azure.mgmt.redis.operations.RedisOperations.import_method
+  module: azure.mgmt.redis.operations
+  name: import_method
+  source:
+    id: import_method
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 551
+  summary: "Import data into redis cache.\n\n:param resource_group_name: The name\
+    \ of the resource group.\n:type resource_group_name: str\n:param name: The name\
+    \ of the redis cache.\n:type name: str\n:param files: files to import\n:type files:\
+    \ list of str\n:param format: File format.\n:type format: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.redis.operations.RedisOperations.import_method
+- _type: method
+  class: azure.mgmt.redis.operations.RedisOperations
+  fullName: azure.mgmt.redis.operations.RedisOperations.list
+  module: azure.mgmt.redis.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 287
+  summary: "Gets all redis caches in the specified subscription.\n\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`RedisResourcePaged\n\
+    \ <azure.mgmt.redis.models.RedisResourcePaged>`"
+  type: Method
+  uid: azure.mgmt.redis.operations.RedisOperations.list
+- _type: method
+  class: azure.mgmt.redis.operations.RedisOperations
+  fullName: azure.mgmt.redis.operations.RedisOperations.list_by_resource_group
+  module: azure.mgmt.redis.operations
+  name: list_by_resource_group
+  source:
+    id: list_by_resource_group
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 222
+  summary: "Gets all redis caches in a resource group.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ :class:`RedisResourcePaged\n <azure.mgmt.redis.models.RedisResourcePaged>`"
+  type: Method
+  uid: azure.mgmt.redis.operations.RedisOperations.list_by_resource_group
+- _type: method
+  class: azure.mgmt.redis.operations.RedisOperations
+  fullName: azure.mgmt.redis.operations.RedisOperations.list_keys
+  module: azure.mgmt.redis.operations
+  name: list_keys
+  source:
+    id: list_keys
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 349
+  summary: "Retrieve a redis cache's access keys. This operation requires write\n\
+    permission to the cache resource.\n\n:param resource_group_name: The name of the\
+    \ resource group.\n:type resource_group_name: str\n:param name: The name of the\
+    \ redis cache.\n:type name: str\n:param dict custom_headers: headers that will\
+    \ be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`RedisListKeysResult\n\
+    \ <azure.mgmt.redis.models.RedisListKeysResult>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.redis.operations.RedisOperations.list_keys
+- _type: method
+  class: azure.mgmt.redis.operations.RedisOperations
+  fullName: azure.mgmt.redis.operations.RedisOperations.regenerate_key
+  module: azure.mgmt.redis.operations
+  name: regenerate_key
+  source:
+    id: regenerate_key
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 411
+  summary: "Regenerate redis cache's access keys. This operation requires write\n\
+    permission to the cache resource.\n\n:param resource_group_name: The name of the\
+    \ resource group.\n:type resource_group_name: str\n:param name: The name of the\
+    \ redis cache.\n:type name: str\n:param key_type: Which redis access key to reset.\
+    \ Possible values\n include: 'Primary', 'Secondary'\n:type key_type: str or :class:`RedisKeyType\n\
+    \ <azure.mgmt.redis.models.RedisKeyType>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`RedisListKeysResult\n\
+    \ <azure.mgmt.redis.models.RedisListKeysResult>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.redis.operations.RedisOperations.regenerate_key

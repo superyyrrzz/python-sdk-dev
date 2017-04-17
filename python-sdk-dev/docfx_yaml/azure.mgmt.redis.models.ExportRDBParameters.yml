@@ -1,0 +1,35 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.redis.models.ExportRDBParameters
+  fullName: azure.mgmt.redis.models.ExportRDBParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.redis.models
+  name: ExportRDBParameters
+  source:
+    id: ExportRDBParameters
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/models/export_rdb_parameters.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/models/export_rdb_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Parameters for redis export operation.
+
+
+    :param format: File format.
+
+    :type format: str
+
+    :param prefix: Prifix to use for exported files.
+
+    :type prefix: str
+
+    :param container: Container name to export to.
+
+    :type container: str'
+  type: Class
+  uid: azure.mgmt.redis.models.ExportRDBParameters

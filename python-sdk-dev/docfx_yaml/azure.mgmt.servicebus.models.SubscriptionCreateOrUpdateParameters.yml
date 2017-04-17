@@ -1,0 +1,55 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.servicebus.models.SubscriptionCreateOrUpdateParameters
+  fullName: azure.mgmt.servicebus.models.SubscriptionCreateOrUpdateParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.servicebus.models
+  name: SubscriptionCreateOrUpdateParameters
+  source:
+    id: SubscriptionCreateOrUpdateParameters
+    path: azure-mgmt-servicebus/azure/mgmt/servicebus/models/subscription_create_or_update_parameters.py
+    remote:
+      branch: master
+      path: azure-mgmt-servicebus/azure/mgmt/servicebus/models/subscription_create_or_update_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Parameters supplied to the Create Or Update Subscription operation.\n\n\
+    :param location: Subscription data center location.\n:type location: str\n:param\
+    \ type: Resource manager type of the resource.\n:type type: str\n:param accessed_at:\
+    \ Last time there was a receive request to this\n subscription.\n:type accessed_at:\
+    \ datetime\n:param auto_delete_on_idle: TimeSpan idle interval after which the\
+    \ topic\n is automatically deleted. The minimum duration is 5 minutes.\n:type\
+    \ auto_delete_on_idle: str\n:param count_details:\n:type count_details: :class:`MessageCountDetails\n\
+    \ <azure.mgmt.servicebus.models.MessageCountDetails>`\n:param created_at: Exact\
+    \ time the message was created.\n:type created_at: datetime\n:param default_message_time_to_live:\
+    \ Default message time to live value.\n This is the duration after which the message\
+    \ expires, starting from when\n the message is sent to Service Bus. This is the\
+    \ default value used when\n TimeToLive is not set on a message itself.\n:type\
+    \ default_message_time_to_live: str\n:param dead_lettering_on_filter_evaluation_exceptions:\
+    \ Value that\n indicates whether a subscription has dead letter support on filter\n\
+    \ evaluation exceptions.\n:type dead_lettering_on_filter_evaluation_exceptions:\
+    \ bool\n:param dead_lettering_on_message_expiration: Value that indicates whether\n\
+    \ a subscription has dead letter support when a message expires.\n:type dead_lettering_on_message_expiration:\
+    \ bool\n:param enable_batched_operations: Value that indicates whether\n server-side\
+    \ batched operations are enabled.\n:type enable_batched_operations: bool\n:param\
+    \ entity_availability_status: Entity availability status for the\n topic. Possible\
+    \ values include: 'Available', 'Limited', 'Renaming',\n 'Restoring', 'Unknown'\n\
+    :type entity_availability_status: str or :class:`EntityAvailabilityStatus\n <azure.mgmt.servicebus.models.EntityAvailabilityStatus>`\n\
+    :param is_read_only: Value that indicates whether the entity description\n is\
+    \ read-only.\n:type is_read_only: bool\n:param lock_duration: The lock duration\
+    \ time span for the subscription.\n:type lock_duration: str\n:param max_delivery_count:\
+    \ Number of maximum deliveries.\n:type max_delivery_count: int\n:param message_count:\
+    \ Number of messages.\n:type message_count: long\n:param requires_session: Value\
+    \ indicating if a subscription supports the\n concept of sessions.\n:type requires_session:\
+    \ bool\n:param status: Enumerates the possible values for the status of a\n messaging\
+    \ entity. Possible values include: 'Active', 'Creating',\n 'Deleting', 'Disabled',\
+    \ 'ReceiveDisabled', 'Renaming', 'Restoring',\n 'SendDisabled', 'Unknown'\n:type\
+    \ status: str or :class:`EntityStatus\n <azure.mgmt.servicebus.models.EntityStatus>`\n\
+    :param updated_at: The exact time the message was updated.\n:type updated_at:\
+    \ datetime"
+  type: Class
+  uid: azure.mgmt.servicebus.models.SubscriptionCreateOrUpdateParameters

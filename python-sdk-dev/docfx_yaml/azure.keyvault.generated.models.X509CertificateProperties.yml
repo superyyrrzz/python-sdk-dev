@@ -1,0 +1,30 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.keyvault.generated.models.X509CertificateProperties
+  fullName: azure.keyvault.generated.models.X509CertificateProperties
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.keyvault.generated.models
+  name: X509CertificateProperties
+  source:
+    id: X509CertificateProperties
+    path: azure-keyvault/azure/keyvault/generated/models/x509_certificate_properties.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/models/x509_certificate_properties.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Properties of the X509 component of a certificate.\n\n:param subject:\
+    \ The subject name. Should be a valid X509 distinguished\n Name.\n:type subject:\
+    \ str\n:param ekus: The enhanced key usage.\n:type ekus: list of str\n:param subject_alternative_names:\
+    \ The subject alternative names.\n:type subject_alternative_names: :class:`SubjectAlternativeNames\n\
+    \ <azure.keyvault.generated.models.SubjectAlternativeNames>`\n:param key_usage:\
+    \ List of key usages.\n:type key_usage: list of str or :class:`KeyUsageType\n\
+    \ <azure.keyvault.generated.models.KeyUsageType>`\n:param validity_in_months:\
+    \ The duration that the ceritifcate is valid in\n months.\n:type validity_in_months:\
+    \ int"
+  type: Class
+  uid: azure.keyvault.generated.models.X509CertificateProperties

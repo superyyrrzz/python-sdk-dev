@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.IntegrationAccountSku
+  fullName: azure.mgmt.logic.models.IntegrationAccountSku
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: IntegrationAccountSku
+  source:
+    id: IntegrationAccountSku
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/integration_account_sku.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/integration_account_sku.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "IntegrationAccountSku.\n\n:param name: The sku name. Possible values include:\
+    \ 'NotSpecified',\n 'Free', 'Shared', 'Basic', 'Standard', 'Premium'\n:type name:\
+    \ str or :class:`SkuName <azure.mgmt.logic.models.SkuName>`"
+  type: Class
+  uid: azure.mgmt.logic.models.IntegrationAccountSku

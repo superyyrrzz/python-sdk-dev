@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.DiskEncryptionSettings
+  fullName: azure.mgmt.compute.models.DiskEncryptionSettings
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: DiskEncryptionSettings
+  source:
+    id: DiskEncryptionSettings
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/disk_encryption_settings.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/disk_encryption_settings.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Describes a Encryption Settings for a Disk.\n\n:param disk_encryption_key:\
+    \ the disk encryption key which is a KeyVault\n Secret.\n:type disk_encryption_key:\
+    \ :class:`KeyVaultSecretReference\n <azure.mgmt.compute.models.KeyVaultSecretReference>`\n\
+    :param key_encryption_key: the key encryption key which is KeyVault Key.\n:type\
+    \ key_encryption_key: :class:`KeyVaultKeyReference\n <azure.mgmt.compute.models.KeyVaultKeyReference>`\n\
+    :param enabled: whether disk encryption should be enabled on the Virtual\n Machine.\n\
+    :type enabled: bool"
+  type: Class
+  uid: azure.mgmt.compute.models.DiskEncryptionSettings

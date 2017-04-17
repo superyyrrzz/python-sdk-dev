@@ -1,0 +1,32 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.NodeAgentSku
+  fullName: azure.batch.models.NodeAgentSku
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: NodeAgentSku
+  source:
+    id: NodeAgentSku
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/node_agent_sku.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/node_agent_sku.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A node agent SKU supported by the Batch service.\n\nThe Batch node agent\
+    \ is a program that runs on each node in the pool, and\nprovides the command-and-control\
+    \ interface between the node and the Batch\nservice. There are different implementations\
+    \ of the node agent, known as\nSKUs, for different operating systems.\n\n:param\
+    \ id: The node agent SKU id.\n:type id: str\n:param verified_image_references:\
+    \ The list of images verified to be\n compatible with this node agent SKU. This\
+    \ collection is not exhaustive\n (the node agent may be compatible with other\
+    \ images).\n:type verified_image_references: list of :class:`ImageReference\n\
+    \ <azure.batch.models.ImageReference>`\n:param os_type: The type of operating\
+    \ system compatible with the node\n agent SKU. Possible values include: 'linux',\
+    \ 'windows', 'unmapped'\n:type os_type: str or :class:`OSType <azure.batch.models.OSType>`"
+  type: Class
+  uid: azure.batch.models.NodeAgentSku

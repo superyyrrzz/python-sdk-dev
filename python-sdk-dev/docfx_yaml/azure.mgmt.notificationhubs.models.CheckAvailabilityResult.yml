@@ -1,0 +1,30 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.notificationhubs.models.CheckAvailabilityResult
+  fullName: azure.mgmt.notificationhubs.models.CheckAvailabilityResult
+  inheritance:
+  - azure.mgmt.notificationhubs.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.notificationhubs.models
+  name: CheckAvailabilityResult
+  source:
+    id: CheckAvailabilityResult
+    path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/models/check_availability_result.py
+    remote:
+      branch: master
+      path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/models/check_availability_result.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Description of a CheckAvailibility resource.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar id: Resource\
+    \ Id\n:vartype id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type:\
+    \ Resource type\n:vartype type: str\n:param location: Resource location\n:type\
+    \ location: str\n:param tags: Resource tags\n:type tags: dict\n:param sku: The\
+    \ sku of the created namespace\n:type sku: :class:`Sku <azure.mgmt.notificationhubs.models.Sku>`\n\
+    :param is_availiable: True if the name is available and can be used to\n create\
+    \ new Namespace/NotificationHub. Otherwise false.\n:type is_availiable: bool"
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.CheckAvailabilityResult

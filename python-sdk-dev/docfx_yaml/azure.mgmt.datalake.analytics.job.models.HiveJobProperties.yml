@@ -1,0 +1,34 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.datalake.analytics.job.models.HiveJobProperties
+  fullName: azure.mgmt.datalake.analytics.job.models.HiveJobProperties
+  inheritance:
+  - azure.mgmt.datalake.analytics.job.models.job_properties.JobProperties
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.datalake.analytics.job.models
+  name: HiveJobProperties
+  source:
+    id: HiveJobProperties
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/job/models/hive_job_properties.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/job/models/hive_job_properties.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Hive job properties used when submitting and retrieving Hive jobs.\n\n\
+    Variables are only populated by the server, and will be ignored when\nsending\
+    \ a request.\n\n:param runtime_version: the runtime version of the Data Lake Analytics\n\
+    \ engine to use for the specific type of job being run.\n:type runtime_version:\
+    \ str\n:param script: the script to run\n:type script: str\n:param type: Polymorphic\
+    \ Discriminator\n:type type: str\n:ivar logs_location: the Hive logs location\n\
+    :vartype logs_location: str\n:ivar output_location: the location of Hive job output\
+    \ files (both\n execution output and results)\n:vartype output_location: str\n\
+    :ivar statement_count: the number of statements that will be run based on\n the\
+    \ script\n:vartype statement_count: int\n:ivar executed_statement_count: the number\
+    \ of statements that have been\n run based on the script\n:vartype executed_statement_count:\
+    \ int"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.job.models.HiveJobProperties

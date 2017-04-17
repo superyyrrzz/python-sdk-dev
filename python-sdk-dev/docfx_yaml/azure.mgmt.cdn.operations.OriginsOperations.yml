@@ -1,0 +1,113 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.cdn.operations.OriginsOperations.get
+  - azure.mgmt.cdn.operations.OriginsOperations.list_by_endpoint
+  - azure.mgmt.cdn.operations.OriginsOperations.update
+  class: azure.mgmt.cdn.operations.OriginsOperations
+  fullName: azure.mgmt.cdn.operations.OriginsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.cdn.operations
+  name: OriginsOperations
+  source:
+    id: OriginsOperations
+    path: azure-mgmt-cdn/azure/mgmt/cdn/operations/origins_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/operations/origins_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'OriginsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.cdn.operations.OriginsOperations
+- _type: method
+  class: azure.mgmt.cdn.operations.OriginsOperations
+  fullName: azure.mgmt.cdn.operations.OriginsOperations.get
+  module: azure.mgmt.cdn.operations
+  name: get
+  source:
+    id: get
+    path: azure-mgmt-cdn/azure/mgmt/cdn/operations/origins_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/operations/origins_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 109
+  summary: "Gets an existing origin within an endpoint.\n\n:param resource_group_name:\
+    \ Name of the Resource group within the\n Azure subscription.\n:type resource_group_name:\
+    \ str\n:param profile_name: Name of the CDN profile which is unique within\n the\
+    \ resource group.\n:type profile_name: str\n:param endpoint_name: Name of the\
+    \ endpoint under the profile which is\n unique globally.\n:type endpoint_name:\
+    \ str\n:param origin_name: Name of the origin which is unique within the\n endpoint.\n\
+    :type origin_name: str\n:param dict custom_headers: headers that will be added\
+    \ to the request\n:param bool raw: returns the direct response alongside the\n\
+    \ deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`Origin <azure.mgmt.cdn.models.Origin>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`ErrorResponseException<azure.mgmt.cdn.models.ErrorResponseException>`"
+  type: Method
+  uid: azure.mgmt.cdn.operations.OriginsOperations.get
+- _type: method
+  class: azure.mgmt.cdn.operations.OriginsOperations
+  fullName: azure.mgmt.cdn.operations.OriginsOperations.list_by_endpoint
+  module: azure.mgmt.cdn.operations
+  name: list_by_endpoint
+  source:
+    id: list_by_endpoint
+    path: azure-mgmt-cdn/azure/mgmt/cdn/operations/origins_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/operations/origins_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Lists all of the existing origins within an endpoint.\n\n:param resource_group_name:\
+    \ Name of the Resource group within the\n Azure subscription.\n:type resource_group_name:\
+    \ str\n:param profile_name: Name of the CDN profile which is unique within\n the\
+    \ resource group.\n:type profile_name: str\n:param endpoint_name: Name of the\
+    \ endpoint under the profile which is\n unique globally.\n:type endpoint_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`OriginPaged <azure.mgmt.cdn.models.OriginPaged>`\n:raises:\n :class:`ErrorResponseException<azure.mgmt.cdn.models.ErrorResponseException>`"
+  type: Method
+  uid: azure.mgmt.cdn.operations.OriginsOperations.list_by_endpoint
+- _type: method
+  class: azure.mgmt.cdn.operations.OriginsOperations
+  fullName: azure.mgmt.cdn.operations.OriginsOperations.update
+  module: azure.mgmt.cdn.operations
+  name: update
+  source:
+    id: update
+    path: azure-mgmt-cdn/azure/mgmt/cdn/operations/origins_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/operations/origins_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 179
+  summary: "Updates an existing origin within an endpoint.\n\n:param resource_group_name:\
+    \ Name of the Resource group within the\n Azure subscription.\n:type resource_group_name:\
+    \ str\n:param profile_name: Name of the CDN profile which is unique within\n the\
+    \ resource group.\n:type profile_name: str\n:param endpoint_name: Name of the\
+    \ endpoint under the profile which is\n unique globally.\n:type endpoint_name:\
+    \ str\n:param origin_name: Name of the origin which is unique within the\n endpoint.\n\
+    :type origin_name: str\n:param origin_update_properties: Origin properties\n:type\
+    \ origin_update_properties: :class:`OriginUpdateParameters\n <azure.mgmt.cdn.models.OriginUpdateParameters>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`Origin <azure.mgmt.cdn.models.Origin>`\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`ErrorResponseException<azure.mgmt.cdn.models.ErrorResponseException>`"
+  type: Method
+  uid: azure.mgmt.cdn.operations.OriginsOperations.update

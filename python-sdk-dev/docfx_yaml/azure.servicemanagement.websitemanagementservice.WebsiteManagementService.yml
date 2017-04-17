@@ -1,0 +1,332 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.servicemanagement.websitemanagementservice.WebsiteManagementService.create_site
+  - azure.servicemanagement.websitemanagementservice.WebsiteManagementService.delete_site
+  - azure.servicemanagement.websitemanagementservice.WebsiteManagementService.get_historical_usage_metrics
+  - azure.servicemanagement.websitemanagementservice.WebsiteManagementService.get_metric_definitions
+  - azure.servicemanagement.websitemanagementservice.WebsiteManagementService.get_publish_profile
+  - azure.servicemanagement.websitemanagementservice.WebsiteManagementService.get_publish_profile_xml
+  - azure.servicemanagement.websitemanagementservice.WebsiteManagementService.get_site
+  - azure.servicemanagement.websitemanagementservice.WebsiteManagementService.get_webspace
+  - azure.servicemanagement.websitemanagementservice.WebsiteManagementService.list_sites
+  - azure.servicemanagement.websitemanagementservice.WebsiteManagementService.list_webspaces
+  - azure.servicemanagement.websitemanagementservice.WebsiteManagementService.restart_site
+  - azure.servicemanagement.websitemanagementservice.WebsiteManagementService.update_site
+  class: azure.servicemanagement.websitemanagementservice.WebsiteManagementService
+  fullName: azure.servicemanagement.websitemanagementservice.WebsiteManagementService
+  inheritance:
+  - azure.servicemanagement.servicemanagementclient._ServiceManagementClient
+  - builtins.object
+  module: azure.servicemanagement.websitemanagementservice
+  name: WebsiteManagementService
+  source:
+    id: WebsiteManagementService
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 38
+  summary: 'Note that this class is a preliminary work on WebSite
+
+    management. Since it lack a lot a features, final version
+
+    can be slightly different from the current one.'
+  type: Class
+  uid: azure.servicemanagement.websitemanagementservice.WebsiteManagementService
+- _type: class
+  children:
+  - azure.servicemanagement.websitemanagementservice.WebsiteManagementService.create_site
+  - azure.servicemanagement.websitemanagementservice.WebsiteManagementService.delete_site
+  - azure.servicemanagement.websitemanagementservice.WebsiteManagementService.get_historical_usage_metrics
+  - azure.servicemanagement.websitemanagementservice.WebsiteManagementService.get_metric_definitions
+  - azure.servicemanagement.websitemanagementservice.WebsiteManagementService.get_publish_profile
+  - azure.servicemanagement.websitemanagementservice.WebsiteManagementService.get_publish_profile_xml
+  - azure.servicemanagement.websitemanagementservice.WebsiteManagementService.get_site
+  - azure.servicemanagement.websitemanagementservice.WebsiteManagementService.get_webspace
+  - azure.servicemanagement.websitemanagementservice.WebsiteManagementService.list_sites
+  - azure.servicemanagement.websitemanagementservice.WebsiteManagementService.list_webspaces
+  - azure.servicemanagement.websitemanagementservice.WebsiteManagementService.restart_site
+  - azure.servicemanagement.websitemanagementservice.WebsiteManagementService.update_site
+  class: azure.servicemanagement.websitemanagementservice.WebsiteManagementService
+  fullName: azure.servicemanagement.websitemanagementservice.WebsiteManagementService
+  inheritance:
+  - azure.servicemanagement.servicemanagementclient._ServiceManagementClient
+  - builtins.object
+  module: azure.servicemanagement.websitemanagementservice
+  name: WebsiteManagementService
+  source:
+    id: WebsiteManagementService
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 38
+  summary: "Initializes the website management service.\n\nsubscription_id:\n    Subscription\
+    \ to manage.\ncert_file:\n    Path to .pem certificate file (httplib), or location\
+    \ of the\n    certificate in your Personal certificate store (winhttp) in the\n\
+    \    CURRENT_USER\\my\\CertificateName format.\n    If a request_session is specified,\
+    \ then this is unused.\nhost:\n    Live ServiceClient URL. Defaults to Azure public\
+    \ cloud.\nrequest_session:\n    Session object to use for http requests. If this\
+    \ is specified, it\n    replaces the default use of httplib or winhttp. Also,\
+    \ the cert_file\n    parameter is unused when a session is passed in.\n    The\
+    \ session object handles authentication, and as such can support\n    multiple\
+    \ types of authentication: .pem certificate, oauth.\n    For example, you can\
+    \ pass in a Session instance from the requests\n    library. To use .pem certificate\
+    \ authentication with requests\n    library, set the path to the .pem file on\
+    \ the session.cert\n    attribute.\ntimeout:\n    Optional. Timeout for the http\
+    \ request, in seconds."
+  type: Class
+  uid: azure.servicemanagement.websitemanagementservice.WebsiteManagementService
+- &id001
+  _type: method
+  class: azure.servicemanagement.websitemanagementservice.WebsiteManagementService
+  fullName: azure.servicemanagement.websitemanagementservice.WebsiteManagementService.create_site
+  module: azure.servicemanagement.websitemanagementservice
+  name: create_site
+  source:
+    id: create_site
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 116
+  summary: "Create a website.\n\nwebspace_name:\n    The name of the webspace.\nwebsite_name:\n\
+    \    The name of the website.\ngeo_region:\n    The geographical region of the\
+    \ webspace that will be created.\nhost_names:\n    An array of fully qualified\
+    \ domain names for website. Only one\n    hostname can be specified in the azurewebsites.net\
+    \ domain.\n    The hostname should match the name of the website. Custom domains\n\
+    \    can only be specified for Shared or Standard websites.\nplan:\n    This value\
+    \ must be 'VirtualDedicatedPlan'.\ncompute_mode:\n    This value should be 'Shared'\
+    \ for the Free or Paid Shared\n    offerings, or 'Dedicated' for the Standard\
+    \ offering. The default\n    value is 'Shared'. If you set it to 'Dedicated',\
+    \ you must specify\n    a value for the server_farm parameter.\nserver_farm:\n\
+    \    The name of the Server Farm associated with this website. This is\n    a\
+    \ required value for Standard mode.\nsite_mode:\n    Can be None, 'Limited' or\
+    \ 'Basic'. This value is 'Limited' for the\n    Free offering, and 'Basic' for\
+    \ the Paid Shared offering. Standard\n    mode does not use the site_mode parameter;\
+    \ it uses the compute_mode\n    parameter."
+  type: Method
+  uid: azure.servicemanagement.websitemanagementservice.WebsiteManagementService.create_site
+- *id001
+- &id002
+  _type: method
+  class: azure.servicemanagement.websitemanagementservice.WebsiteManagementService
+  fullName: azure.servicemanagement.websitemanagementservice.WebsiteManagementService.delete_site
+  module: azure.servicemanagement.websitemanagementservice
+  name: delete_site
+  source:
+    id: delete_site
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 155
+  summary: "Delete a website.\n\nwebspace_name:\n    The name of the webspace.\nwebsite_name:\n\
+    \    The name of the website.\ndelete_empty_server_farm:\n    If the site being\
+    \ deleted is the last web site in a server farm,\n    you can delete the server\
+    \ farm by setting this to True.\ndelete_metrics:\n    To also delete the metrics\
+    \ for the site that you are deleting, you\n    can set this to True."
+  type: Method
+  uid: azure.servicemanagement.websitemanagementservice.WebsiteManagementService.delete_site
+- *id002
+- &id003
+  _type: method
+  class: azure.servicemanagement.websitemanagementservice.WebsiteManagementService
+  fullName: azure.servicemanagement.websitemanagementservice.WebsiteManagementService.get_historical_usage_metrics
+  module: azure.servicemanagement.websitemanagementservice
+  name: get_historical_usage_metrics
+  source:
+    id: get_historical_usage_metrics
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 210
+  summary: "Get historical usage metrics.\n\nwebspace_name:\n    The name of the webspace.\n\
+    website_name:\n    The name of the website.\nmetrics:\n    Optional. List of metrics\
+    \ name. Otherwise, all metrics returned.\nstart_time:\n    Optional. An ISO8601\
+    \ date. Otherwise, current hour is used.\nend_time:\n    Optional. An ISO8601\
+    \ date. Otherwise, current time is used.\ntime_grain:\n    Optional. A rollup\
+    \ name, as P1D. OTherwise, default rollup for the metrics is used.\nMore information\
+    \ and metrics name at:\nhttp://msdn.microsoft.com/en-us/library/azure/dn166964.aspx"
+  type: Method
+  uid: azure.servicemanagement.websitemanagementservice.WebsiteManagementService.get_historical_usage_metrics
+- *id003
+- &id004
+  _type: method
+  class: azure.servicemanagement.websitemanagementservice.WebsiteManagementService
+  fullName: azure.servicemanagement.websitemanagementservice.WebsiteManagementService.get_metric_definitions
+  module: azure.servicemanagement.websitemanagementservice
+  name: get_metric_definitions
+  source:
+    id: get_metric_definitions
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 239
+  summary: "Get metric definitions of metrics available of this web site.\n\nwebspace_name:\n\
+    \    The name of the webspace.\nwebsite_name:\n    The name of the website."
+  type: Method
+  uid: azure.servicemanagement.websitemanagementservice.WebsiteManagementService.get_metric_definitions
+- *id004
+- &id005
+  _type: method
+  class: azure.servicemanagement.websitemanagementservice.WebsiteManagementService
+  fullName: azure.servicemanagement.websitemanagementservice.WebsiteManagementService.get_publish_profile
+  module: azure.servicemanagement.websitemanagementservice
+  name: get_publish_profile
+  source:
+    id: get_publish_profile
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 263
+  summary: "Get a site's publish profile as an object\n\nwebspace_name:\n    The name\
+    \ of the webspace.\nwebsite_name:\n    The name of the website."
+  type: Method
+  uid: azure.servicemanagement.websitemanagementservice.WebsiteManagementService.get_publish_profile
+- *id005
+- &id006
+  _type: method
+  class: azure.servicemanagement.websitemanagementservice.WebsiteManagementService
+  fullName: azure.servicemanagement.websitemanagementservice.WebsiteManagementService.get_publish_profile_xml
+  module: azure.servicemanagement.websitemanagementservice
+  name: get_publish_profile_xml
+  source:
+    id: get_publish_profile_xml
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 251
+  summary: "Get a site's publish profile as a string\n\nwebspace_name:\n    The name\
+    \ of the webspace.\nwebsite_name:\n    The name of the website."
+  type: Method
+  uid: azure.servicemanagement.websitemanagementservice.WebsiteManagementService.get_publish_profile_xml
+- *id006
+- &id007
+  _type: method
+  class: azure.servicemanagement.websitemanagementservice.WebsiteManagementService
+  fullName: azure.servicemanagement.websitemanagementservice.WebsiteManagementService.get_site
+  module: azure.servicemanagement.websitemanagementservice
+  name: get_site
+  source:
+    id: get_site
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 103
+  summary: "List the web sites defined on this webspace.\n\nwebspace_name:\n    The\
+    \ name of the webspace.\nwebsite_name:\n    The name of the website."
+  type: Method
+  uid: azure.servicemanagement.websitemanagementservice.WebsiteManagementService.get_site
+- *id007
+- &id008
+  _type: method
+  class: azure.servicemanagement.websitemanagementservice.WebsiteManagementService
+  fullName: azure.servicemanagement.websitemanagementservice.WebsiteManagementService.get_webspace
+  module: azure.servicemanagement.websitemanagementservice
+  name: get_webspace
+  source:
+    id: get_webspace
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 83
+  summary: "Get details of a specific webspace.\n\nwebspace_name:\n    The name of\
+    \ the webspace."
+  type: Method
+  uid: azure.servicemanagement.websitemanagementservice.WebsiteManagementService.get_webspace
+- *id008
+- &id009
+  _type: method
+  class: azure.servicemanagement.websitemanagementservice.WebsiteManagementService
+  fullName: azure.servicemanagement.websitemanagementservice.WebsiteManagementService.list_sites
+  module: azure.servicemanagement.websitemanagementservice
+  name: list_sites
+  source:
+    id: list_sites
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 93
+  summary: "List the web sites defined on this webspace.\n\nwebspace_name:\n    The\
+    \ name of the webspace."
+  type: Method
+  uid: azure.servicemanagement.websitemanagementservice.WebsiteManagementService.list_sites
+- *id009
+- &id010
+  _type: method
+  class: azure.servicemanagement.websitemanagementservice.WebsiteManagementService
+  fullName: azure.servicemanagement.websitemanagementservice.WebsiteManagementService.list_webspaces
+  module: azure.servicemanagement.websitemanagementservice
+  name: list_webspaces
+  source:
+    id: list_webspaces
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 76
+  summary: List the webspaces defined on the account.
+  type: Method
+  uid: azure.servicemanagement.websitemanagementservice.WebsiteManagementService.list_webspaces
+- *id010
+- &id011
+  _type: method
+  class: azure.servicemanagement.websitemanagementservice.WebsiteManagementService
+  fullName: azure.servicemanagement.websitemanagementservice.WebsiteManagementService.restart_site
+  module: azure.servicemanagement.websitemanagementservice
+  name: restart_site
+  source:
+    id: restart_site
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 197
+  summary: "Restart a web site.\n\nwebspace_name:\n    The name of the webspace.\n\
+    website_name:\n    The name of the website."
+  type: Method
+  uid: azure.servicemanagement.websitemanagementservice.WebsiteManagementService.restart_site
+- *id011
+- &id012
+  _type: method
+  class: azure.servicemanagement.websitemanagementservice.WebsiteManagementService
+  fullName: azure.servicemanagement.websitemanagementservice.WebsiteManagementService.update_site
+  module: azure.servicemanagement.websitemanagementservice
+  name: update_site
+  source:
+    id: update_site
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 181
+  summary: "Update a web site.\n\nwebspace_name:\n    The name of the webspace.\n\
+    website_name:\n    The name of the website.\nstate:\n    The wanted state ('Running'\
+    \ or 'Stopped' accepted)"
+  type: Method
+  uid: azure.servicemanagement.websitemanagementservice.WebsiteManagementService.update_site
+- *id012

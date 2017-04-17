@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.ConnStringInfo
+  fullName: azure.mgmt.web.models.ConnStringInfo
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: ConnStringInfo
+  source:
+    id: ConnStringInfo
+    path: azure-mgmt-web/azure/mgmt/web/models/conn_string_info.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/conn_string_info.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Represents database connection string information.\n\n:param name: Name\
+    \ of connection string\n:type name: str\n:param connection_string: Connection\
+    \ string value\n:type connection_string: str\n:param type: Type of database. Possible\
+    \ values include: 'MySql',\n 'SQLServer', 'SQLAzure', 'Custom'\n:type type: str\
+    \ or :class:`DatabaseServerType\n <azure.mgmt.web.models.DatabaseServerType>`"
+  type: Class
+  uid: azure.mgmt.web.models.ConnStringInfo

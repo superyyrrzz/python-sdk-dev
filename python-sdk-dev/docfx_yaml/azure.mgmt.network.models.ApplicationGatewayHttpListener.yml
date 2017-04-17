@@ -1,0 +1,39 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.ApplicationGatewayHttpListener
+  fullName: azure.mgmt.network.models.ApplicationGatewayHttpListener
+  inheritance:
+  - azure.mgmt.network.models.sub_resource.SubResource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: ApplicationGatewayHttpListener
+  source:
+    id: ApplicationGatewayHttpListener
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/application_gateway_http_listener.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/application_gateway_http_listener.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Http listener of application gateway.\n\n:param id: Resource Id\n:type\
+    \ id: str\n:param frontend_ip_configuration: Frontend IP configuration resource\
+    \ of\n application gateway\n:type frontend_ip_configuration: :class:`SubResource\n\
+    \ <azure.mgmt.network.models.SubResource>`\n:param frontend_port: Frontend port\
+    \ resource of application gateway\n:type frontend_port: :class:`SubResource\n\
+    \ <azure.mgmt.network.models.SubResource>`\n:param protocol: Protocol. Possible\
+    \ values include: 'Http', 'Https'\n:type protocol: str or :class:`ApplicationGatewayProtocol\n\
+    \ <azure.mgmt.network.models.ApplicationGatewayProtocol>`\n:param host_name: Host\
+    \ name of http listener\n:type host_name: str\n:param ssl_certificate: Ssl certificate\
+    \ resource of application gateway\n:type ssl_certificate: :class:`SubResource\n\
+    \ <azure.mgmt.network.models.SubResource>`\n:param require_server_name_indication:\
+    \ RequireServerNameIndication of\n http listener\n:type require_server_name_indication:\
+    \ bool\n:param provisioning_state: Provisioning state of the http listener\n resource\
+    \ Updating/Deleting/Failed\n:type provisioning_state: str\n:param name: Name of\
+    \ the resource that is unique within a resource group.\n This name can be used\
+    \ to access the resource\n:type name: str\n:param etag: A unique read-only string\
+    \ that changes whenever the resource\n is updated\n:type etag: str"
+  type: Class
+  uid: azure.mgmt.network.models.ApplicationGatewayHttpListener

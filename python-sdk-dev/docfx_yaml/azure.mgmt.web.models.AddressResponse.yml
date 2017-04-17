@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.AddressResponse
+  fullName: azure.mgmt.web.models.AddressResponse
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: AddressResponse
+  source:
+    id: AddressResponse
+    path: azure-mgmt-web/azure/mgmt/web/models/address_response.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/address_response.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Describes main public ip address and any extra vips.\n\n:param service_ip_address:\
+    \ Main public vip\n:type service_ip_address: str\n:param internal_ip_address:\
+    \ VNET internal ip address of the\n hostingEnvironment (App Service Environment)\
+    \ if it is in internal\n load-balancing mode\n:type internal_ip_address: str\n\
+    :param outbound_ip_addresses: IP addresses appearing on outbound\n connections\n\
+    :type outbound_ip_addresses: list of str\n:param vip_mappings: Additional vips\n\
+    :type vip_mappings: list of :class:`VirtualIPMapping\n <azure.mgmt.web.models.VirtualIPMapping>`"
+  type: Class
+  uid: azure.mgmt.web.models.AddressResponse

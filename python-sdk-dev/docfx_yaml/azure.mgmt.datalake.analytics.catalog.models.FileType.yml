@@ -1,0 +1,22 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.datalake.analytics.catalog.models.FileType
+  fullName: azure.mgmt.datalake.analytics.catalog.models.FileType
+  inheritance:
+  - enum.Enum
+  - builtins.object
+  module: azure.mgmt.datalake.analytics.catalog.models
+  name: FileType
+  source:
+    id: FileType
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/models/data_lake_analytics_catalog_management_client_enums.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/models/data_lake_analytics_catalog_management_client_enums.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: An enumeration.
+  type: Class
+  uid: azure.mgmt.datalake.analytics.catalog.models.FileType

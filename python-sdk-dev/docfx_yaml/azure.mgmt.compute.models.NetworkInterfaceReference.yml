@@ -1,0 +1,32 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.NetworkInterfaceReference
+  fullName: azure.mgmt.compute.models.NetworkInterfaceReference
+  inheritance:
+  - azure.mgmt.compute.models.sub_resource.SubResource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: NetworkInterfaceReference
+  source:
+    id: NetworkInterfaceReference
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/network_interface_reference.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/network_interface_reference.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Describes a network interface reference.
+
+
+    :param id: Resource Id
+
+    :type id: str
+
+    :param primary: whether this is a primary NIC on a virtual machine
+
+    :type primary: bool'
+  type: Class
+  uid: azure.mgmt.compute.models.NetworkInterfaceReference

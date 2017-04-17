@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.ContainerServiceSshConfiguration
+  fullName: azure.mgmt.compute.models.ContainerServiceSshConfiguration
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: ContainerServiceSshConfiguration
+  source:
+    id: ContainerServiceSshConfiguration
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/container_service_ssh_configuration.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/container_service_ssh_configuration.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "SSH configuration for Linux based VMs running on Azure.\n\n:param public_keys:\
+    \ the list of SSH public keys used to authenticate with\n Linux based VMs\n:type\
+    \ public_keys: list of :class:`ContainerServiceSshPublicKey\n <azure.mgmt.compute.models.ContainerServiceSshPublicKey>`"
+  type: Class
+  uid: azure.mgmt.compute.models.ContainerServiceSshConfiguration

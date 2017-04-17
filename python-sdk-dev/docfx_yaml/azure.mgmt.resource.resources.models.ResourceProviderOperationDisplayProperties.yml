@@ -1,0 +1,43 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.resources.models.ResourceProviderOperationDisplayProperties
+  fullName: azure.mgmt.resource.resources.models.ResourceProviderOperationDisplayProperties
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.resource.resources.models
+  name: ResourceProviderOperationDisplayProperties
+  source:
+    id: ResourceProviderOperationDisplayProperties
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/resource_provider_operation_display_properties.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/resource_provider_operation_display_properties.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Resource provider operation''s display properties.
+
+
+    :param publisher: Operation description.
+
+    :type publisher: str
+
+    :param provider: Operation provider.
+
+    :type provider: str
+
+    :param resource: Operation resource.
+
+    :type resource: str
+
+    :param operation: Operation.
+
+    :type operation: str
+
+    :param description: Operation description.
+
+    :type description: str'
+  type: Class
+  uid: azure.mgmt.resource.resources.models.ResourceProviderOperationDisplayProperties

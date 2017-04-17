@@ -1,0 +1,22 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.storage.models.ProvisioningState
+  fullName: azure.mgmt.storage.models.ProvisioningState
+  inheritance:
+  - enum.Enum
+  - builtins.object
+  module: azure.mgmt.storage.models
+  name: ProvisioningState
+  source:
+    id: ProvisioningState
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/models/storage_management_client_enums.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/models/storage_management_client_enums.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 48
+  summary: An enumeration.
+  type: Class
+  uid: azure.mgmt.storage.models.ProvisioningState

@@ -1,0 +1,39 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.batch.models.AccountResource
+  fullName: azure.mgmt.batch.models.AccountResource
+  inheritance:
+  - azure.mgmt.batch.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.batch.models
+  name: AccountResource
+  source:
+    id: AccountResource
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/models/account_resource.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/models/account_resource.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Contains information about an Azure Batch account.\n\nVariables are only\
+    \ populated by the server, and will be ignored when\nsending a request.\n\n:ivar\
+    \ id: The id of the resource\n:vartype id: str\n:ivar name: The name of the resource\n\
+    :vartype name: str\n:ivar type: The type of the resource\n:vartype type: str\n\
+    :param location: The location of the resource\n:type location: str\n:param tags:\
+    \ The tags of the resource\n:type tags: dict\n:param account_endpoint: The endpoint\
+    \ used by this account to interact\n with the Batch services.\n:type account_endpoint:\
+    \ str\n:param provisioning_state: The provisioned state of the resource.\n Possible\
+    \ values include: 'Invalid', 'Creating', 'Deleting', 'Succeeded',\n 'Failed',\
+    \ 'Cancelled'\n:type provisioning_state: str or :class:`AccountProvisioningState\n\
+    \ <azure.mgmt.batch.models.AccountProvisioningState>`\n:param auto_storage: The\
+    \ properties and status of any auto storage\n account associated with the account.\n\
+    :type auto_storage: :class:`AutoStorageProperties\n <azure.mgmt.batch.models.AutoStorageProperties>`\n\
+    :param core_quota: The core quota for this Batch account.\n:type core_quota: int\n\
+    :param pool_quota: The pool quota for this Batch account.\n:type pool_quota: int\n\
+    :param active_job_and_job_schedule_quota: The active job and job schedule\n quota\
+    \ for this Batch account.\n:type active_job_and_job_schedule_quota: int"
+  type: Class
+  uid: azure.mgmt.batch.models.AccountResource

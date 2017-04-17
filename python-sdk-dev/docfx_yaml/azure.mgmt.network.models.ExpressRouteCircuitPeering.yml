@@ -1,0 +1,48 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.ExpressRouteCircuitPeering
+  fullName: azure.mgmt.network.models.ExpressRouteCircuitPeering
+  inheritance:
+  - azure.mgmt.network.models.sub_resource.SubResource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: ExpressRouteCircuitPeering
+  source:
+    id: ExpressRouteCircuitPeering
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/express_route_circuit_peering.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/express_route_circuit_peering.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Peering in a ExpressRouteCircuit resource.\n\n:param id: Resource Id\n\
+    :type id: str\n:param peering_type: Gets or sets PeeringType. Possible values\
+    \ include:\n 'AzurePublicPeering', 'AzurePrivatePeering', 'MicrosoftPeering'\n\
+    :type peering_type: str or :class:`ExpressRouteCircuitPeeringType\n <azure.mgmt.network.models.ExpressRouteCircuitPeeringType>`\n\
+    :param state: Gets or sets state of Peering. Possible values include:\n 'Disabled',\
+    \ 'Enabled'\n:type state: str or :class:`ExpressRouteCircuitPeeringState\n <azure.mgmt.network.models.ExpressRouteCircuitPeeringState>`\n\
+    :param azure_asn: Gets or sets the azure ASN\n:type azure_asn: int\n:param peer_asn:\
+    \ Gets or sets the peer ASN\n:type peer_asn: int\n:param primary_peer_address_prefix:\
+    \ Gets or sets the primary address\n prefix\n:type primary_peer_address_prefix:\
+    \ str\n:param secondary_peer_address_prefix: Gets or sets the secondary address\n\
+    \ prefix\n:type secondary_peer_address_prefix: str\n:param primary_azure_port:\
+    \ Gets or sets the primary port\n:type primary_azure_port: str\n:param secondary_azure_port:\
+    \ Gets or sets the secondary port\n:type secondary_azure_port: str\n:param shared_key:\
+    \ Gets or sets the shared key\n:type shared_key: str\n:param vlan_id: Gets or\
+    \ sets the vlan id\n:type vlan_id: int\n:param microsoft_peering_config: Gets\
+    \ or sets the mircosoft peering config\n:type microsoft_peering_config: :class:`ExpressRouteCircuitPeeringConfig\n\
+    \ <azure.mgmt.network.models.ExpressRouteCircuitPeeringConfig>`\n:param stats:\
+    \ Gets or peering stats\n:type stats: :class:`ExpressRouteCircuitStats\n <azure.mgmt.network.models.ExpressRouteCircuitStats>`\n\
+    :param provisioning_state: Gets provisioning state of the PublicIP\n resource\
+    \ Updating/Deleting/Failed\n:type provisioning_state: str\n:param gateway_manager_etag:\
+    \ Gets or sets the GatewayManager Etag\n:type gateway_manager_etag: str\n:param\
+    \ last_modified_by: Gets whether the provider or the customer last\n modified\
+    \ the peering\n:type last_modified_by: str\n:param name: Gets name of the resource\
+    \ that is unique within a resource\n group. This name can be used to access the\
+    \ resource\n:type name: str\n:param etag: A unique read-only string that changes\
+    \ whenever the resource\n is updated\n:type etag: str"
+  type: Class
+  uid: azure.mgmt.network.models.ExpressRouteCircuitPeering

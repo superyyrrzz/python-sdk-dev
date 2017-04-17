@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.CloudJobSchedulePaged
+  fullName: azure.batch.models.CloudJobSchedulePaged
+  inheritance:
+  - msrest.paging.Paged
+  - collections.abc.Iterator
+  - collections.abc.Iterable
+  - builtins.object
+  module: azure.batch.models
+  name: CloudJobSchedulePaged
+  source:
+    id: CloudJobSchedulePaged
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/cloud_job_schedule_paged.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/cloud_job_schedule_paged.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: A paging container for iterating over a list of CloudJobSchedule object
+  type: Class
+  uid: azure.batch.models.CloudJobSchedulePaged

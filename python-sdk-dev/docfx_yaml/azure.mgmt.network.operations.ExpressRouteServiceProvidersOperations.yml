@@ -1,0 +1,52 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.network.operations.ExpressRouteServiceProvidersOperations.list
+  class: azure.mgmt.network.operations.ExpressRouteServiceProvidersOperations
+  fullName: azure.mgmt.network.operations.ExpressRouteServiceProvidersOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.network.operations
+  name: ExpressRouteServiceProvidersOperations
+  source:
+    id: ExpressRouteServiceProvidersOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_service_providers_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_service_providers_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'ExpressRouteServiceProvidersOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.network.operations.ExpressRouteServiceProvidersOperations
+- _type: method
+  class: azure.mgmt.network.operations.ExpressRouteServiceProvidersOperations
+  fullName: azure.mgmt.network.operations.ExpressRouteServiceProvidersOperations.list
+  module: azure.mgmt.network.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_service_providers_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_service_providers_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "The List ExpressRouteServiceProvider operation retrieves all the\navailable\
+    \ ExpressRouteServiceProviders.\n\n:param dict custom_headers: headers that will\
+    \ be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ExpressRouteServiceProviderPaged\n\
+    \ <azure.mgmt.network.models.ExpressRouteServiceProviderPaged>`"
+  type: Method
+  uid: azure.mgmt.network.operations.ExpressRouteServiceProvidersOperations.list

@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.monitor.models.ManagementEventRuleCondition
+  fullName: azure.mgmt.monitor.models.ManagementEventRuleCondition
+  inheritance:
+  - azure.mgmt.monitor.models.rule_condition.RuleCondition
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.monitor.models
+  name: ManagementEventRuleCondition
+  source:
+    id: ManagementEventRuleCondition
+    path: azure-mgmt-monitor/azure/mgmt/monitor/models/management_event_rule_condition.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/models/management_event_rule_condition.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A management event rule condition.\n\n:param odatatype: Polymorphic Discriminator\n\
+    :type odatatype: str\n:param data_source: the resource from which the rule collects\
+    \ its data.\n For this type dataSource will always be of type\n RuleManagementEventDataSource.\n\
+    :type data_source: :class:`RuleDataSource\n <azure.mgmt.monitor.models.RuleDataSource>`\n\
+    :param aggregation: How the data that is collected should be combined over\n time\
+    \ and when the alert is activated. Note that for management event\n alerts aggregation\
+    \ is optional \u2013 if it is not provided then any event will\n cause the alert\
+    \ to activate.\n:type aggregation: :class:`ManagementEventAggregationCondition\n\
+    \ <azure.mgmt.monitor.models.ManagementEventAggregationCondition>`"
+  type: Class
+  uid: azure.mgmt.monitor.models.ManagementEventRuleCondition

@@ -1,0 +1,22 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.servermanager.models.PowerShellExpandOption
+  fullName: azure.mgmt.servermanager.models.PowerShellExpandOption
+  inheritance:
+  - enum.Enum
+  - builtins.object
+  module: azure.mgmt.servermanager.models
+  name: PowerShellExpandOption
+  source:
+    id: PowerShellExpandOption
+    path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/server_management_enums.py
+    remote:
+      branch: master
+      path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/server_management_enums.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 45
+  summary: An enumeration.
+  type: Class
+  uid: azure.mgmt.servermanager.models.PowerShellExpandOption

@@ -1,0 +1,22 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.X12DateFormat
+  fullName: azure.mgmt.logic.models.X12DateFormat
+  inheritance:
+  - enum.Enum
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: X12DateFormat
+  source:
+    id: X12DateFormat
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/logic_management_client_enums.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/logic_management_client_enums.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 221
+  summary: An enumeration.
+  type: Class
+  uid: azure.mgmt.logic.models.X12DateFormat

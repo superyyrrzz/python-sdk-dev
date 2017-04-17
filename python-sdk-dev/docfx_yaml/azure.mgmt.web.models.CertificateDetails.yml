@@ -1,0 +1,84 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.CertificateDetails
+  fullName: azure.mgmt.web.models.CertificateDetails
+  inheritance:
+  - azure.mgmt.web.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: CertificateDetails
+  source:
+    id: CertificateDetails
+    path: azure-mgmt-web/azure/mgmt/web/models/certificate_details.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/certificate_details.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Certificate Details.
+
+
+    :param id: Resource Id
+
+    :type id: str
+
+    :param name: Resource Name
+
+    :type name: str
+
+    :param kind: Kind of resource
+
+    :type kind: str
+
+    :param location: Resource Location
+
+    :type location: str
+
+    :param type: Resource type
+
+    :type type: str
+
+    :param tags: Resource tags
+
+    :type tags: dict
+
+    :param version: Version
+
+    :type version: int
+
+    :param serial_number: Serial Number
+
+    :type serial_number: str
+
+    :param thumbprint: Thumbprint
+
+    :type thumbprint: str
+
+    :param subject: Subject
+
+    :type subject: str
+
+    :param not_before: Valid from
+
+    :type not_before: datetime
+
+    :param not_after: Valid to
+
+    :type not_after: datetime
+
+    :param signature_algorithm: Signature Algorithm
+
+    :type signature_algorithm: str
+
+    :param issuer: Issuer
+
+    :type issuer: str
+
+    :param raw_data: Raw certificate data
+
+    :type raw_data: str'
+  type: Class
+  uid: azure.mgmt.web.models.CertificateDetails

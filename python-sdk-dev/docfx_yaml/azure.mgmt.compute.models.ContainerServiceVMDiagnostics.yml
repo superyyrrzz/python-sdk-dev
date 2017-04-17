@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.ContainerServiceVMDiagnostics
+  fullName: azure.mgmt.compute.models.ContainerServiceVMDiagnostics
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: ContainerServiceVMDiagnostics
+  source:
+    id: ContainerServiceVMDiagnostics
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/container_service_vm_diagnostics.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/container_service_vm_diagnostics.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Describes VM Diagnostics.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:param enabled: whether VM Diagnostic\
+    \ Agent should be provisioned on the\n Virtual Machine.\n:type enabled: bool\n\
+    :ivar storage_uri: whether VM Diagnostic Agent should be provisioned on\n the\
+    \ Virtual Machine.\n:vartype storage_uri: str"
+  type: Class
+  uid: azure.mgmt.compute.models.ContainerServiceVMDiagnostics

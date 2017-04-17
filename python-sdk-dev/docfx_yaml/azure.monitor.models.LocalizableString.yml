@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.monitor.models.LocalizableString
+  fullName: azure.monitor.models.LocalizableString
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.monitor.models
+  name: LocalizableString
+  source:
+    id: LocalizableString
+    path: azure-monitor/azure/monitor/models/localizable_string.py
+    remote:
+      branch: master
+      path: azure-monitor/azure/monitor/models/localizable_string.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'The localizable string class.
+
+
+    :param value: the invariant value.
+
+    :type value: str
+
+    :param localized_value: the locale specific value.
+
+    :type localized_value: str'
+  type: Class
+  uid: azure.monitor.models.LocalizableString

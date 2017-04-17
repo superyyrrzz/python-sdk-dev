@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.notificationhubs.models.SharedAccessAuthorizationRuleResourcePaged
+  fullName: azure.mgmt.notificationhubs.models.SharedAccessAuthorizationRuleResourcePaged
+  inheritance:
+  - msrest.paging.Paged
+  - collections.abc.Iterator
+  - collections.abc.Iterable
+  - builtins.object
+  module: azure.mgmt.notificationhubs.models
+  name: SharedAccessAuthorizationRuleResourcePaged
+  source:
+    id: SharedAccessAuthorizationRuleResourcePaged
+    path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/models/shared_access_authorization_rule_resource_paged.py
+    remote:
+      branch: master
+      path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/models/shared_access_authorization_rule_resource_paged.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: A paging container for iterating over a list of SharedAccessAuthorizationRuleResource
+    object
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.SharedAccessAuthorizationRuleResourcePaged

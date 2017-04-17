@@ -1,0 +1,125 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.resource.resources.operations.ProvidersOperations.get
+  - azure.mgmt.resource.resources.operations.ProvidersOperations.list
+  - azure.mgmt.resource.resources.operations.ProvidersOperations.register
+  - azure.mgmt.resource.resources.operations.ProvidersOperations.unregister
+  class: azure.mgmt.resource.resources.operations.ProvidersOperations
+  fullName: azure.mgmt.resource.resources.operations.ProvidersOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.resource.resources.operations
+  name: ProvidersOperations
+  source:
+    id: ProvidersOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/providers_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/providers_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'ProvidersOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.resource.resources.operations.ProvidersOperations
+- _type: method
+  class: azure.mgmt.resource.resources.operations.ProvidersOperations
+  fullName: azure.mgmt.resource.resources.operations.ProvidersOperations.get
+  module: azure.mgmt.resource.resources.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/providers_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/providers_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 226
+  summary: "Gets a resource provider.\n\n:param resource_provider_namespace: Namespace\
+    \ of the resource\n provider.\n:type resource_provider_namespace: str\n:param\
+    \ expand: The $expand query parameter. e.g. To include property\n aliases in response,\
+    \ use $expand=resourceTypes/aliases.\n:type expand: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`Provider\n\
+    \ <azure.mgmt.resource.resources.models.Provider>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.resource.resources.operations.ProvidersOperations.get
+- _type: method
+  class: azure.mgmt.resource.resources.operations.ProvidersOperations
+  fullName: azure.mgmt.resource.resources.operations.ProvidersOperations.list
+  module: azure.mgmt.resource.resources.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/providers_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/providers_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 154
+  summary: "Gets a list of resource providers.\n\n:param top: Query parameters. If\
+    \ null is passed returns all\n deployments.\n:type top: int\n:param expand: The\
+    \ $expand query parameter. e.g. To include property\n aliases in response, use\
+    \ $expand=resourceTypes/aliases.\n:type expand: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ProviderPaged\n\
+    \ <azure.mgmt.resource.resources.models.ProviderPaged>`"
+  type: Method
+  uid: azure.mgmt.resource.resources.operations.ProvidersOperations.list
+- _type: method
+  class: azure.mgmt.resource.resources.operations.ProvidersOperations
+  fullName: azure.mgmt.resource.resources.operations.ProvidersOperations.register
+  module: azure.mgmt.resource.resources.operations
+  name: register
+  source:
+    id: register
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/providers_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/providers_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 95
+  summary: "Registers provider to be used with a subscription.\n\n:param resource_provider_namespace:\
+    \ Namespace of the resource\n provider.\n:type resource_provider_namespace: str\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`Provider\n <azure.mgmt.resource.resources.models.Provider>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.resource.resources.operations.ProvidersOperations.register
+- _type: method
+  class: azure.mgmt.resource.resources.operations.ProvidersOperations
+  fullName: azure.mgmt.resource.resources.operations.ProvidersOperations.unregister
+  module: azure.mgmt.resource.resources.operations
+  name: unregister
+  source:
+    id: unregister
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/providers_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/providers_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Unregisters provider from a subscription.\n\n:param resource_provider_namespace:\
+    \ Namespace of the resource\n provider.\n:type resource_provider_namespace: str\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`Provider\n <azure.mgmt.resource.resources.models.Provider>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.resource.resources.operations.ProvidersOperations.unregister

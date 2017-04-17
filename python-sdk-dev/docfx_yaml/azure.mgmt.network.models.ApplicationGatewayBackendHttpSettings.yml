@@ -1,0 +1,38 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.ApplicationGatewayBackendHttpSettings
+  fullName: azure.mgmt.network.models.ApplicationGatewayBackendHttpSettings
+  inheritance:
+  - azure.mgmt.network.models.sub_resource.SubResource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: ApplicationGatewayBackendHttpSettings
+  source:
+    id: ApplicationGatewayBackendHttpSettings
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/application_gateway_backend_http_settings.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/application_gateway_backend_http_settings.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Backend address pool settings of application gateway.\n\n:param id: Resource\
+    \ Id\n:type id: str\n:param port: Port\n:type port: int\n:param protocol: Protocol.\
+    \ Possible values include: 'Http', 'Https'\n:type protocol: str or :class:`ApplicationGatewayProtocol\n\
+    \ <azure.mgmt.network.models.ApplicationGatewayProtocol>`\n:param cookie_based_affinity:\
+    \ Cookie affinity. Possible values include:\n 'Enabled', 'Disabled'\n:type cookie_based_affinity:\
+    \ str or\n :class:`ApplicationGatewayCookieBasedAffinity\n <azure.mgmt.network.models.ApplicationGatewayCookieBasedAffinity>`\n\
+    :param request_timeout: Request timeout\n:type request_timeout: int\n:param probe:\
+    \ Probe resource of application gateway\n:type probe: :class:`SubResource <azure.mgmt.network.models.SubResource>`\n\
+    :param authentication_certificates: Array of references to Application\n Gateway\
+    \ Authentication Certificates\n:type authentication_certificates: list of :class:`SubResource\n\
+    \ <azure.mgmt.network.models.SubResource>`\n:param provisioning_state: Provisioning\
+    \ state of the backend http\n settings resource Updating/Deleting/Failed\n:type\
+    \ provisioning_state: str\n:param name: Name of the resource that is unique within\
+    \ a resource group.\n This name can be used to access the resource\n:type name:\
+    \ str\n:param etag: A unique read-only string that changes whenever the resource\n\
+    \ is updated\n:type etag: str"
+  type: Class
+  uid: azure.mgmt.network.models.ApplicationGatewayBackendHttpSettings

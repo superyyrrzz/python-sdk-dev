@@ -1,0 +1,41 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.Certificate
+  fullName: azure.mgmt.web.models.Certificate
+  inheritance:
+  - azure.mgmt.web.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: Certificate
+  source:
+    id: Certificate
+    path: azure-mgmt-web/azure/mgmt/web/models/certificate.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/certificate.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "App certificate.\n\n:param id: Resource Id\n:type id: str\n:param name:\
+    \ Resource Name\n:type name: str\n:param kind: Kind of resource\n:type kind: str\n\
+    :param location: Resource Location\n:type location: str\n:param type: Resource\
+    \ type\n:type type: str\n:param tags: Resource tags\n:type tags: dict\n:param\
+    \ friendly_name: Friendly name of the certificate\n:type friendly_name: str\n\
+    :param subject_name: Subject name of the certificate\n:type subject_name: str\n\
+    :param host_names: Host names the certificate applies to\n:type host_names: list\
+    \ of str\n:param pfx_blob: Pfx blob\n:type pfx_blob: str\n:param site_name: App\
+    \ name\n:type site_name: str\n:param self_link: Self link\n:type self_link: str\n\
+    :param issuer: Certificate issuer\n:type issuer: str\n:param issue_date: Certificate\
+    \ issue Date\n:type issue_date: datetime\n:param expiration_date: Certificate\
+    \ expriration date\n:type expiration_date: datetime\n:param password: Certificate\
+    \ password\n:type password: str\n:param thumbprint: Certificate thumbprint\n:type\
+    \ thumbprint: str\n:param valid: Is the certificate valid?\n:type valid: bool\n\
+    :param cer_blob: Raw bytes of .cer file\n:type cer_blob: str\n:param public_key_hash:\
+    \ Public key hash\n:type public_key_hash: str\n:param hosting_environment_profile:\
+    \ Specification for the hosting\n environment (App Service Environment) to use\
+    \ for the certificate\n:type hosting_environment_profile: :class:`HostingEnvironmentProfile\n\
+    \ <azure.mgmt.web.models.HostingEnvironmentProfile>`"
+  type: Class
+  uid: azure.mgmt.web.models.Certificate

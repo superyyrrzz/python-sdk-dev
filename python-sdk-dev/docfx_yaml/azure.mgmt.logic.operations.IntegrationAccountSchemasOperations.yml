@@ -1,0 +1,133 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.logic.operations.IntegrationAccountSchemasOperations.create_or_update
+  - azure.mgmt.logic.operations.IntegrationAccountSchemasOperations.delete
+  - azure.mgmt.logic.operations.IntegrationAccountSchemasOperations.get
+  - azure.mgmt.logic.operations.IntegrationAccountSchemasOperations.list
+  class: azure.mgmt.logic.operations.IntegrationAccountSchemasOperations
+  fullName: azure.mgmt.logic.operations.IntegrationAccountSchemasOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.logic.operations
+  name: IntegrationAccountSchemasOperations
+  source:
+    id: IntegrationAccountSchemasOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/integration_account_schemas_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/integration_account_schemas_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'IntegrationAccountSchemasOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    :ivar api_version: The API version. Constant value: "2015-08-01-preview".'
+  type: Class
+  uid: azure.mgmt.logic.operations.IntegrationAccountSchemasOperations
+- _type: method
+  class: azure.mgmt.logic.operations.IntegrationAccountSchemasOperations
+  fullName: azure.mgmt.logic.operations.IntegrationAccountSchemasOperations.create_or_update
+  module: azure.mgmt.logic.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/integration_account_schemas_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/integration_account_schemas_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 178
+  summary: "Creates or updates an integration account schema.\n\n:param resource_group_name:\
+    \ The resource group name.\n:type resource_group_name: str\n:param integration_account_name:\
+    \ The integration account name.\n:type integration_account_name: str\n:param schema_name:\
+    \ The integration account schema name.\n:type schema_name: str\n:param schema:\
+    \ The integration account schema.\n:type schema: :class:`IntegrationAccountSchema\n\
+    \ <azure.mgmt.logic.models.IntegrationAccountSchema>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`IntegrationAccountSchema\n\
+    \ <azure.mgmt.logic.models.IntegrationAccountSchema>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.logic.operations.IntegrationAccountSchemasOperations.create_or_update
+- _type: method
+  class: azure.mgmt.logic.operations.IntegrationAccountSchemasOperations
+  fullName: azure.mgmt.logic.operations.IntegrationAccountSchemasOperations.delete
+  module: azure.mgmt.logic.operations
+  name: delete
+  source:
+    id: delete
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/integration_account_schemas_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/integration_account_schemas_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 251
+  summary: "Deletes an integration account schema.\n\n:param resource_group_name:\
+    \ The resource group name.\n:type resource_group_name: str\n:param integration_account_name:\
+    \ The integration account name.\n:type integration_account_name: str\n:param schema_name:\
+    \ The integration account schema name.\n:type schema_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.logic.operations.IntegrationAccountSchemasOperations.delete
+- _type: method
+  class: azure.mgmt.logic.operations.IntegrationAccountSchemasOperations
+  fullName: azure.mgmt.logic.operations.IntegrationAccountSchemasOperations.get
+  module: azure.mgmt.logic.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/integration_account_schemas_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/integration_account_schemas_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 114
+  summary: "Gets an integration account schema.\n\n:param resource_group_name: The\
+    \ resource group name.\n:type resource_group_name: str\n:param integration_account_name:\
+    \ The integration account name.\n:type integration_account_name: str\n:param schema_name:\
+    \ The integration account schema name.\n:type schema_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`IntegrationAccountSchema\n\
+    \ <azure.mgmt.logic.models.IntegrationAccountSchema>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.logic.operations.IntegrationAccountSchemasOperations.get
+- _type: method
+  class: azure.mgmt.logic.operations.IntegrationAccountSchemasOperations
+  fullName: azure.mgmt.logic.operations.IntegrationAccountSchemasOperations.list
+  module: azure.mgmt.logic.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/integration_account_schemas_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/integration_account_schemas_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 38
+  summary: "Gets a list of integration account schemas.\n\n:param resource_group_name:\
+    \ The resource group name.\n:type resource_group_name: str\n:param integration_account_name:\
+    \ The integration account name.\n:type integration_account_name: str\n:param top:\
+    \ The number of items to be included in the result.\n:type top: int\n:param filter:\
+    \ The filter to apply on the operation.\n:type filter: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`IntegrationAccountSchemaPaged\n\
+    \ <azure.mgmt.logic.models.IntegrationAccountSchemaPaged>`"
+  type: Method
+  uid: azure.mgmt.logic.operations.IntegrationAccountSchemasOperations.list

@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.iothub.models.StorageEndpointProperties
+  fullName: azure.mgmt.iothub.models.StorageEndpointProperties
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.iothub.models
+  name: StorageEndpointProperties
+  source:
+    id: StorageEndpointProperties
+    path: azure-mgmt-iothub/azure/mgmt/iothub/models/storage_endpoint_properties.py
+    remote:
+      branch: master
+      path: azure-mgmt-iothub/azure/mgmt/iothub/models/storage_endpoint_properties.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The properties of the Azure Storage endpoint for file upload.\n\n:param\
+    \ sas_ttl_as_iso8601: The period of time for which the the SAS URI\n generated\
+    \ by IoT Hub for file upload is valid. See:\n https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-file-upload#file-upload-notification-configuration-options.\n\
+    :type sas_ttl_as_iso8601: timedelta\n:param connection_string: The connection\
+    \ string for the Azure Storage\n account to which files are uploaded.\n:type connection_string:\
+    \ str\n:param container_name: The name of the root container where you upload\n\
+    \ files. The container need not exist but should be creatable using the\n connectionString\
+    \ specified.\n:type container_name: str"
+  type: Class
+  uid: azure.mgmt.iothub.models.StorageEndpointProperties

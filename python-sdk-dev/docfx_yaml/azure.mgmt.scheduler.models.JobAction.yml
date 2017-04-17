@@ -1,0 +1,35 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.scheduler.models.JobAction
+  fullName: azure.mgmt.scheduler.models.JobAction
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.scheduler.models
+  name: JobAction
+  source:
+    id: JobAction
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/job_action.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/job_action.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "JobAction.\n\n:param type: Gets or sets the job action type. Possible\
+    \ values include:\n 'Http', 'Https', 'StorageQueue', 'ServiceBusQueue', 'ServiceBusTopic'\n\
+    :type type: str or :class:`JobActionType\n <azure.mgmt.scheduler.models.JobActionType>`\n\
+    :param request: Gets or sets the http requests.\n:type request: :class:`HttpRequest\n\
+    \ <azure.mgmt.scheduler.models.HttpRequest>`\n:param queue_message: Gets or sets\
+    \ the storage queue message.\n:type queue_message: :class:`StorageQueueMessage\n\
+    \ <azure.mgmt.scheduler.models.StorageQueueMessage>`\n:param service_bus_queue_message:\
+    \ Gets or sets the service bus queue\n message.\n:type service_bus_queue_message:\
+    \ :class:`ServiceBusQueueMessage\n <azure.mgmt.scheduler.models.ServiceBusQueueMessage>`\n\
+    :param service_bus_topic_message: Gets or sets the service bus topic\n message.\n\
+    :type service_bus_topic_message: :class:`ServiceBusTopicMessage\n <azure.mgmt.scheduler.models.ServiceBusTopicMessage>`\n\
+    :param retry_policy: Gets or sets the retry policy.\n:type retry_policy: :class:`RetryPolicy\n\
+    \ <azure.mgmt.scheduler.models.RetryPolicy>`\n:param error_action: Gets or sets\
+    \ the error action.\n:type error_action: :class:`JobErrorAction\n <azure.mgmt.scheduler.models.JobErrorAction>`"
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobAction

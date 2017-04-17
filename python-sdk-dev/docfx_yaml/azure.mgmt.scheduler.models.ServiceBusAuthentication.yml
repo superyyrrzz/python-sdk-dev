@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.scheduler.models.ServiceBusAuthentication
+  fullName: azure.mgmt.scheduler.models.ServiceBusAuthentication
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.scheduler.models
+  name: ServiceBusAuthentication
+  source:
+    id: ServiceBusAuthentication
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/service_bus_authentication.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/service_bus_authentication.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "ServiceBusAuthentication.\n\n:param sas_key: Gets or sets the SAS key.\n\
+    :type sas_key: str\n:param sas_key_name: Gets or sets the SAS key name.\n:type\
+    \ sas_key_name: str\n:param type: Gets or sets the authentication type. Possible\
+    \ values\n include: 'NotSpecified', 'SharedAccessKey'\n:type type: str or :class:`ServiceBusAuthenticationType\n\
+    \ <azure.mgmt.scheduler.models.ServiceBusAuthenticationType>`"
+  type: Class
+  uid: azure.mgmt.scheduler.models.ServiceBusAuthentication

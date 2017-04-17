@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.VaultCertificate
+  fullName: azure.mgmt.compute.models.VaultCertificate
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: VaultCertificate
+  source:
+    id: VaultCertificate
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/vault_certificate.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/vault_certificate.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Describes a single certificate reference in a Key Vault, and where the\n\
+    certificate should reside on the VM.\n\n:param certificate_url: the URL referencing\
+    \ a secret in a Key Vault which\n contains a properly formatted certificate.\n\
+    :type certificate_url: str\n:param certificate_store: the Certificate store in\
+    \ LocalMachine to add\n the certificate to on Windows, leave empty on Linux.\n\
+    :type certificate_store: str"
+  type: Class
+  uid: azure.mgmt.compute.models.VaultCertificate

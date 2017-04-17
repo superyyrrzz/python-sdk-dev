@@ -1,0 +1,121 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.resource.features.operations.FeaturesOperations.get
+  - azure.mgmt.resource.features.operations.FeaturesOperations.list
+  - azure.mgmt.resource.features.operations.FeaturesOperations.list_all
+  - azure.mgmt.resource.features.operations.FeaturesOperations.register
+  class: azure.mgmt.resource.features.operations.FeaturesOperations
+  fullName: azure.mgmt.resource.features.operations.FeaturesOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.resource.features.operations
+  name: FeaturesOperations
+  source:
+    id: FeaturesOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/features/operations/features_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/features/operations/features_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'FeaturesOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.resource.features.operations.FeaturesOperations
+- _type: method
+  class: azure.mgmt.resource.features.operations.FeaturesOperations
+  fullName: azure.mgmt.resource.features.operations.FeaturesOperations.get
+  module: azure.mgmt.resource.features.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/features/operations/features_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/features/operations/features_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 165
+  summary: "Get all features under the subscription.\n\n:param resource_provider_namespace:\
+    \ Namespace of the resource\n provider.\n:type resource_provider_namespace: str\n\
+    :param feature_name: Previewed feature name in the resource provider.\n:type feature_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`FeatureResult\n <azure.mgmt.resource.feature.models.FeatureResult>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.resource.features.operations.FeaturesOperations.get
+- _type: method
+  class: azure.mgmt.resource.features.operations.FeaturesOperations
+  fullName: azure.mgmt.resource.features.operations.FeaturesOperations.list
+  module: azure.mgmt.resource.features.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/features/operations/features_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/features/operations/features_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 99
+  summary: "Gets a list of previewed features of a resource provider.\n\n:param resource_provider_namespace:\
+    \ The namespace of the resource\n provider.\n:type resource_provider_namespace:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`FeatureResultPaged\n <azure.mgmt.resource.feature.models.FeatureResultPaged>`"
+  type: Method
+  uid: azure.mgmt.resource.features.operations.FeaturesOperations.list
+- _type: method
+  class: azure.mgmt.resource.features.operations.FeaturesOperations
+  fullName: azure.mgmt.resource.features.operations.FeaturesOperations.list_all
+  module: azure.mgmt.resource.features.operations
+  name: list_all
+  source:
+    id: list_all
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/features/operations/features_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/features/operations/features_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Gets a list of previewed features for all the providers in the current\n\
+    subscription.\n\n:param dict custom_headers: headers that will be added to the\
+    \ request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`FeatureResultPaged\n <azure.mgmt.resource.feature.models.FeatureResultPaged>`"
+  type: Method
+  uid: azure.mgmt.resource.features.operations.FeaturesOperations.list_all
+- _type: method
+  class: azure.mgmt.resource.features.operations.FeaturesOperations
+  fullName: azure.mgmt.resource.features.operations.FeaturesOperations.register
+  module: azure.mgmt.resource.features.operations
+  name: register
+  source:
+    id: register
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/features/operations/features_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/features/operations/features_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 227
+  summary: "Registers for a previewed feature of a resource provider.\n\n:param resource_provider_namespace:\
+    \ Namespace of the resource\n provider.\n:type resource_provider_namespace: str\n\
+    :param feature_name: Previewed feature name in the resource provider.\n:type feature_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`FeatureResult\n <azure.mgmt.resource.feature.models.FeatureResult>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.resource.features.operations.FeaturesOperations.register

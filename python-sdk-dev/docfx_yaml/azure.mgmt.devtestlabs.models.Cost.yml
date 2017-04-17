@@ -1,0 +1,30 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.devtestlabs.models.Cost
+  fullName: azure.mgmt.devtestlabs.models.Cost
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.devtestlabs.models
+  name: Cost
+  source:
+    id: Cost
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/cost.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/cost.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A cost item.\n\n:param currency_code: The currency code of the cost.\n\
+    :type currency_code: str\n:param costs: The lab cost component of the cost data.\n\
+    :type costs: list of :class:`CostPerDayProperties\n <azure.mgmt.devtestlabs.models.CostPerDayProperties>`\n\
+    :param resource_costs: The resource cost component of the cost data.\n:type resource_costs:\
+    \ list of :class:`ResourceCostProperties\n <azure.mgmt.devtestlabs.models.ResourceCostProperties>`\n\
+    :param id: The identifier of the resource.\n:type id: str\n:param name: The name\
+    \ of the resource.\n:type name: str\n:param type: The type of the resource.\n\
+    :type type: str\n:param location: The location of the resource.\n:type location:\
+    \ str\n:param tags: The tags of the resource.\n:type tags: dict"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.Cost

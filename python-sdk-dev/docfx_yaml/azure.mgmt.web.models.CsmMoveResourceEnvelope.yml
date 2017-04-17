@@ -1,0 +1,33 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.CsmMoveResourceEnvelope
+  fullName: azure.mgmt.web.models.CsmMoveResourceEnvelope
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: CsmMoveResourceEnvelope
+  source:
+    id: CsmMoveResourceEnvelope
+    path: azure-mgmt-web/azure/mgmt/web/models/csm_move_resource_envelope.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/csm_move_resource_envelope.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Class containing a list of the resources that need to be moved and the
+
+    resource group they should be moved to.
+
+
+    :param target_resource_group:
+
+    :type target_resource_group: str
+
+    :param resources:
+
+    :type resources: list of str'
+  type: Class
+  uid: azure.mgmt.web.models.CsmMoveResourceEnvelope

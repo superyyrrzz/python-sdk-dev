@@ -1,0 +1,22 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.OSType
+  fullName: azure.batch.models.OSType
+  inheritance:
+  - enum.Enum
+  - builtins.object
+  module: azure.batch.models
+  name: OSType
+  source:
+    id: OSType
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/batch_service_client_enums.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/batch_service_client_enums.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: An enumeration.
+  type: Class
+  uid: azure.batch.models.OSType

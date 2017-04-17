@@ -1,0 +1,30 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.scheduler.models.JobProperties
+  fullName: azure.mgmt.scheduler.models.JobProperties
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.scheduler.models
+  name: JobProperties
+  source:
+    id: JobProperties
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/job_properties.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/job_properties.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "JobProperties.\n\nVariables are only populated by the server, and will\
+    \ be ignored when\nsending a request.\n\n:param start_time: Gets or sets the job\
+    \ start time.\n:type start_time: datetime\n:param action: Gets or sets the job\
+    \ action.\n:type action: :class:`JobAction <azure.mgmt.scheduler.models.JobAction>`\n\
+    :param recurrence: Gets or sets the job recurrence.\n:type recurrence: :class:`JobRecurrence\n\
+    \ <azure.mgmt.scheduler.models.JobRecurrence>`\n:param state: Gets or set the\
+    \ job state. Possible values include:\n 'Enabled', 'Disabled', 'Faulted', 'Completed'\n\
+    :type state: str or :class:`JobState\n <azure.mgmt.scheduler.models.JobState>`\n\
+    :ivar status: Gets the job status.\n:vartype status: :class:`JobStatus\n <azure.mgmt.scheduler.models.JobStatus>`"
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobProperties

@@ -1,0 +1,22 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.cognitiveservices.models.ProvisioningState
+  fullName: azure.mgmt.cognitiveservices.models.ProvisioningState
+  inheritance:
+  - enum.Enum
+  - builtins.object
+  module: azure.mgmt.cognitiveservices.models
+  name: ProvisioningState
+  source:
+    id: ProvisioningState
+    path: azure-mgmt-cognitiveservices/azure/mgmt/cognitiveservices/models/cognitive_services_management_client_enums.py
+    remote:
+      branch: master
+      path: azure-mgmt-cognitiveservices/azure/mgmt/cognitiveservices/models/cognitive_services_management_client_enums.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 58
+  summary: An enumeration.
+  type: Class
+  uid: azure.mgmt.cognitiveservices.models.ProvisioningState

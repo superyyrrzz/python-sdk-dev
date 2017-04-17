@@ -1,0 +1,32 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.datalake.analytics.catalog.models.USqlExternalDataSource
+  fullName: azure.mgmt.datalake.analytics.catalog.models.USqlExternalDataSource
+  inheritance:
+  - azure.mgmt.datalake.analytics.catalog.models.catalog_item.CatalogItem
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.datalake.analytics.catalog.models
+  name: USqlExternalDataSource
+  source:
+    id: USqlExternalDataSource
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/models/usql_external_data_source.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/models/usql_external_data_source.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A Data Lake Analytics catalog U-SQL external datasource item.\n\n:param\
+    \ compute_account_name: the name of the Data Lake Analytics account.\n:type compute_account_name:\
+    \ str\n:param version: the version of the catalog item.\n:type version: str\n\
+    :param database_name: the name of the database.\n:type database_name: str\n:param\
+    \ name: the name of the external data source.\n:type name: str\n:param provider:\
+    \ the name of the provider for the external data source.\n:type provider: str\n\
+    :param provider_string: the name of the provider string for the external\n data\
+    \ source.\n:type provider_string: str\n:param pushdown_types: the list of types\
+    \ to push down from the external\n data source.\n:type pushdown_types: list of\
+    \ str"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.catalog.models.USqlExternalDataSource

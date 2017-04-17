@@ -1,0 +1,39 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.eventhub.models.NamespaceResource
+  fullName: azure.mgmt.eventhub.models.NamespaceResource
+  inheritance:
+  - azure.mgmt.eventhub.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.eventhub.models
+  name: NamespaceResource
+  source:
+    id: NamespaceResource
+    path: azure-mgmt-eventhub/azure/mgmt/eventhub/models/namespace_resource.py
+    remote:
+      branch: master
+      path: azure-mgmt-eventhub/azure/mgmt/eventhub/models/namespace_resource.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Description of a namespace resource.\n\nVariables are only populated by\
+    \ the server, and will be ignored when\nsending a request.\n\n:ivar id: Resource\
+    \ Id\n:vartype id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type:\
+    \ Resource type\n:vartype type: str\n:param location: Resource location\n:type\
+    \ location: str\n:param tags: Resource tags\n:type tags: dict\n:param sku:\n:type\
+    \ sku: :class:`Sku <azure.mgmt.eventhub.models.Sku>`\n:param provisioning_state:\
+    \ Provisioning state of the namespace.\n:type provisioning_state: str\n:param\
+    \ status: State of the namespace. Possible values include: 'Unknown',\n 'Creating',\
+    \ 'Created', 'Activating', 'Enabling', 'Active', 'Disabling',\n 'Disabled', 'SoftDeleting',\
+    \ 'SoftDeleted', 'Removing', 'Removed', 'Failed'\n:type status: str or :class:`NamespaceState\n\
+    \ <azure.mgmt.eventhub.models.NamespaceState>`\n:param created_at: The time the\
+    \ namespace was created.\n:type created_at: datetime\n:param updated_at: The time\
+    \ the namespace was updated.\n:type updated_at: datetime\n:param service_bus_endpoint:\
+    \ Endpoint you can use to perform Service Bus\n operations.\n:type service_bus_endpoint:\
+    \ str\n:param create_acs_namespace: Indicates whether to create an ACS namespace.\n\
+    :type create_acs_namespace: bool\n:param enabled: Specifies whether this instance\
+    \ is enabled.\n:type enabled: bool"
+  type: Class
+  uid: azure.mgmt.eventhub.models.NamespaceResource

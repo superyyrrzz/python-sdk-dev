@@ -1,0 +1,41 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.servicebus.models.Topic.max_size_in_mega_bytes
+  class: azure.servicebus.models.Topic
+  fullName: azure.servicebus.models.Topic
+  inheritance:
+  - azure.servicebus._common_models.WindowsAzureData
+  - builtins.object
+  module: azure.servicebus.models
+  name: Topic
+  source:
+    id: Topic
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/models.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/models.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 67
+  summary: 'Topic class corresponding to Topic Description:
+
+    http://msdn.microsoft.com/en-us/library/windowsazure/hh780749.'
+  type: Class
+  uid: azure.servicebus.models.Topic
+- _type: attribute
+  class: azure.servicebus.models.Topic
+  fullName: azure.servicebus.models.Topic.max_size_in_mega_bytes
+  module: azure.servicebus.models
+  name: max_size_in_mega_bytes
+  source:
+    id: max_size_in_mega_bytes
+    path: null
+    remote:
+      branch: master
+      path: null
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: null
+  summary: ''
+  type: Property
+  uid: azure.servicebus.models.Topic.max_size_in_mega_bytes

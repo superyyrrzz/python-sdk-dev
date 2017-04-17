@@ -1,0 +1,32 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.search.models.CheckNameAvailabilityOutput
+  fullName: azure.mgmt.search.models.CheckNameAvailabilityOutput
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.search.models
+  name: CheckNameAvailabilityOutput
+  source:
+    id: CheckNameAvailabilityOutput
+    path: azure-mgmt-search/azure/mgmt/search/models/check_name_availability_output.py
+    remote:
+      branch: master
+      path: azure-mgmt-search/azure/mgmt/search/models/check_name_availability_output.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Output of check name availability API.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar is_name_available:\
+    \ A value indicating whether the name is available.\n:vartype is_name_available:\
+    \ bool\n:ivar reason: The reason why the name is not available. 'Invalid'\n indicates\
+    \ the name provided does not match the naming requirements\n (incorrect length,\
+    \ unsupported characters, etc.). 'AlreadyExists'\n indicates that the name is\
+    \ already in use and is therefore unavailable.\n Possible values include: 'Invalid',\
+    \ 'AlreadyExists'\n:vartype reason: str or :class:`UnavailableNameReason\n <azure.mgmt.search.models.UnavailableNameReason>`\n\
+    :ivar message: A message that explains why the name is invalid and\n provides\
+    \ resource naming requirements. Available only if 'Invalid' is\n returned in the\
+    \ 'reason' property.\n:vartype message: str"
+  type: Class
+  uid: azure.mgmt.search.models.CheckNameAvailabilityOutput

@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.NodeFile
+  fullName: azure.batch.models.NodeFile
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: NodeFile
+  source:
+    id: NodeFile
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/node_file.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/node_file.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Information about a file or directory on a compute node.\n\n:param name:\
+    \ The file path.\n:type name: str\n:param url: The URL of the file.\n:type url:\
+    \ str\n:param is_directory: Whether the object represents a directory.\n:type\
+    \ is_directory: bool\n:param properties: The file properties.\n:type properties:\
+    \ :class:`FileProperties\n <azure.batch.models.FileProperties>`"
+  type: Class
+  uid: azure.batch.models.NodeFile

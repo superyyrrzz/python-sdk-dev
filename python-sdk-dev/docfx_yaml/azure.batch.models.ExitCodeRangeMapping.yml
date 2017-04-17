@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.ExitCodeRangeMapping
+  fullName: azure.batch.models.ExitCodeRangeMapping
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: ExitCodeRangeMapping
+  source:
+    id: ExitCodeRangeMapping
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/exit_code_range_mapping.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/exit_code_range_mapping.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A range of exit codes and how the Batch service should respond to exit\n\
+    codes within that range.\n\n:param start: The first exit code in the range.\n\
+    :type start: int\n:param end: The last exit code in the range.\n:type end: int\n\
+    :param exit_options: An exitOptions specifying how the Batch service\n should\
+    \ respond if the task exits with an exit code in the range start to\n end.\n:type\
+    \ exit_options: :class:`ExitOptions <azure.batch.models.ExitOptions>`"
+  type: Class
+  uid: azure.batch.models.ExitCodeRangeMapping

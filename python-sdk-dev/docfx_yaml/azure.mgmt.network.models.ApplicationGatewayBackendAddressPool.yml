@@ -1,0 +1,33 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.ApplicationGatewayBackendAddressPool
+  fullName: azure.mgmt.network.models.ApplicationGatewayBackendAddressPool
+  inheritance:
+  - azure.mgmt.network.models.sub_resource.SubResource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: ApplicationGatewayBackendAddressPool
+  source:
+    id: ApplicationGatewayBackendAddressPool
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/application_gateway_backend_address_pool.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/application_gateway_backend_address_pool.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Backend Address Pool of application gateway.\n\n:param id: Resource Id\n\
+    :type id: str\n:param backend_ip_configurations: Collection of references to IPs\
+    \ defined\n in NICs\n:type backend_ip_configurations: list of\n :class:`NetworkInterfaceIPConfiguration\n\
+    \ <azure.mgmt.network.models.NetworkInterfaceIPConfiguration>`\n:param backend_addresses:\
+    \ Backend addresses\n:type backend_addresses: list of :class:`ApplicationGatewayBackendAddress\n\
+    \ <azure.mgmt.network.models.ApplicationGatewayBackendAddress>`\n:param provisioning_state:\
+    \ Provisioning state of the backend address pool\n resource Updating/Deleting/Failed\n\
+    :type provisioning_state: str\n:param name: Resource that is unique within a resource\
+    \ group. This name\n can be used to access the resource\n:type name: str\n:param\
+    \ etag: A unique read-only string that changes whenever the resource\n is updated\n\
+    :type etag: str"
+  type: Class
+  uid: azure.mgmt.network.models.ApplicationGatewayBackendAddressPool

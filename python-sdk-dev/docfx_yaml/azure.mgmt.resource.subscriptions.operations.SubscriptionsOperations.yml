@@ -1,0 +1,96 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.resource.subscriptions.operations.SubscriptionsOperations.get
+  - azure.mgmt.resource.subscriptions.operations.SubscriptionsOperations.list
+  - azure.mgmt.resource.subscriptions.operations.SubscriptionsOperations.list_locations
+  class: azure.mgmt.resource.subscriptions.operations.SubscriptionsOperations
+  fullName: azure.mgmt.resource.subscriptions.operations.SubscriptionsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.resource.subscriptions.operations
+  name: SubscriptionsOperations
+  source:
+    id: SubscriptionsOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/subscriptions/operations/subscriptions_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/subscriptions/operations/subscriptions_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'SubscriptionsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.resource.subscriptions.operations.SubscriptionsOperations
+- _type: method
+  class: azure.mgmt.resource.subscriptions.operations.SubscriptionsOperations
+  fullName: azure.mgmt.resource.subscriptions.operations.SubscriptionsOperations.get
+  module: azure.mgmt.resource.subscriptions.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/subscriptions/operations/subscriptions_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/subscriptions/operations/subscriptions_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 100
+  summary: "Gets details about particular subscription.\n\n:param subscription_id:\
+    \ Id of the subscription.\n:type subscription_id: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`Subscription\n\
+    \ <azure.mgmt.resource.subscriptions.models.Subscription>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.resource.subscriptions.operations.SubscriptionsOperations.get
+- _type: method
+  class: azure.mgmt.resource.subscriptions.operations.SubscriptionsOperations
+  fullName: azure.mgmt.resource.subscriptions.operations.SubscriptionsOperations.list
+  module: azure.mgmt.resource.subscriptions.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/subscriptions/operations/subscriptions_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/subscriptions/operations/subscriptions_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 157
+  summary: "Gets a list of subscriptions.\n\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`SubscriptionPaged\n\
+    \ <azure.mgmt.resource.subscriptions.models.SubscriptionPaged>`"
+  type: Method
+  uid: azure.mgmt.resource.subscriptions.operations.SubscriptionsOperations.list
+- _type: method
+  class: azure.mgmt.resource.subscriptions.operations.SubscriptionsOperations
+  fullName: azure.mgmt.resource.subscriptions.operations.SubscriptionsOperations.list_locations
+  module: azure.mgmt.resource.subscriptions.operations
+  name: list_locations
+  source:
+    id: list_locations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/subscriptions/operations/subscriptions_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/subscriptions/operations/subscriptions_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Gets a list of the subscription locations.\n\n:param subscription_id:\
+    \ Id of the subscription\n:type subscription_id: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`LocationPaged\n\
+    \ <azure.mgmt.resource.subscriptions.models.LocationPaged>`"
+  type: Method
+  uid: azure.mgmt.resource.subscriptions.operations.SubscriptionsOperations.list_locations

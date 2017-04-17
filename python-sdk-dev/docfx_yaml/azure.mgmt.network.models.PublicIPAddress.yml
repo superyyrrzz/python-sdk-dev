@@ -1,0 +1,43 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.PublicIPAddress
+  fullName: azure.mgmt.network.models.PublicIPAddress
+  inheritance:
+  - azure.mgmt.network.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: PublicIPAddress
+  source:
+    id: PublicIPAddress
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/public_ip_address.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/public_ip_address.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "PublicIPAddress resource.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:param id: Resource Id\n:type\
+    \ id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type: Resource\
+    \ type\n:vartype type: str\n:param location: Resource location\n:type location:\
+    \ str\n:param tags: Resource tags\n:type tags: dict\n:param public_ip_allocation_method:\
+    \ Gets or sets PublicIP allocation\n method (Static/Dynamic). Possible values\
+    \ include: 'Static', 'Dynamic'\n:type public_ip_allocation_method: str or :class:`IPAllocationMethod\n\
+    \ <azure.mgmt.network.models.IPAllocationMethod>`\n:param public_ip_address_version:\
+    \ Gets or sets PublicIP address version\n (IPv4/IPv6). Possible values include:\
+    \ 'IPv4', 'IPv6'\n:type public_ip_address_version: str or :class:`IPVersion\n\
+    \ <azure.mgmt.network.models.IPVersion>`\n:ivar ip_configuration:\n:vartype ip_configuration:\
+    \ :class:`IPConfiguration\n <azure.mgmt.network.models.IPConfiguration>`\n:param\
+    \ dns_settings: Gets or sets FQDN of the DNS record associated with\n the public\
+    \ IP address\n:type dns_settings: :class:`PublicIPAddressDnsSettings\n <azure.mgmt.network.models.PublicIPAddressDnsSettings>`\n\
+    :param ip_address:\n:type ip_address: str\n:param idle_timeout_in_minutes: Gets\
+    \ or sets the Idletimeout of the\n public IP address\n:type idle_timeout_in_minutes:\
+    \ int\n:param resource_guid: Gets or sets resource guid property of the PublicIP\n\
+    \ resource\n:type resource_guid: str\n:param provisioning_state: Gets provisioning\
+    \ state of the PublicIP\n resource Updating/Deleting/Failed\n:type provisioning_state:\
+    \ str\n:param etag: Gets a unique read-only string that changes whenever the\n\
+    \ resource is updated\n:type etag: str"
+  type: Class
+  uid: azure.mgmt.network.models.PublicIPAddress

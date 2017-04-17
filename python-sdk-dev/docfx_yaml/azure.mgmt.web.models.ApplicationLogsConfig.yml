@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.ApplicationLogsConfig
+  fullName: azure.mgmt.web.models.ApplicationLogsConfig
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: ApplicationLogsConfig
+  source:
+    id: ApplicationLogsConfig
+    path: azure-mgmt-web/azure/mgmt/web/models/application_logs_config.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/application_logs_config.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Application logs configuration.\n\n:param file_system: Application logs\
+    \ to file system configuration\n:type file_system: :class:`FileSystemApplicationLogsConfig\n\
+    \ <azure.mgmt.web.models.FileSystemApplicationLogsConfig>`\n:param azure_table_storage:\
+    \ Application logs to azure table storage\n configuration\n:type azure_table_storage:\
+    \ :class:`AzureTableStorageApplicationLogsConfig\n <azure.mgmt.web.models.AzureTableStorageApplicationLogsConfig>`\n\
+    :param azure_blob_storage: Application logs to blob storage configuration\n:type\
+    \ azure_blob_storage: :class:`AzureBlobStorageApplicationLogsConfig\n <azure.mgmt.web.models.AzureBlobStorageApplicationLogsConfig>`"
+  type: Class
+  uid: azure.mgmt.web.models.ApplicationLogsConfig

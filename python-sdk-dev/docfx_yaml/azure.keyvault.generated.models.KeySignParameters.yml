@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.keyvault.generated.models.KeySignParameters
+  fullName: azure.keyvault.generated.models.KeySignParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.keyvault.generated.models
+  name: KeySignParameters
+  source:
+    id: KeySignParameters
+    path: azure-keyvault/azure/keyvault/generated/models/key_sign_parameters.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/models/key_sign_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The key operations parameters.\n\n:param algorithm: The signing/verification\
+    \ algorithm identifier. For more\n information on possible algorithm types, see\
+    \ JsonWebKeySignatureAlgorithm.\n Possible values include: 'RS256', 'RS384', 'RS512',\
+    \ 'RSNULL'\n:type algorithm: str or :class:`JsonWebKeySignatureAlgorithm\n <azure.keyvault.generated.models.JsonWebKeySignatureAlgorithm>`\n\
+    :param value:\n:type value: bytes"
+  type: Class
+  uid: azure.keyvault.generated.models.KeySignParameters

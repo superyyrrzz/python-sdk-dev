@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.redis.models.Sku
+  fullName: azure.mgmt.redis.models.Sku
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.redis.models
+  name: Sku
+  source:
+    id: Sku
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/models/sku.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/models/sku.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Sku parameters supplied to the create redis operation.\n\n:param name:\
+    \ What type of redis cache to deploy. Valid values: (Basic,\n Standard, Premium).\
+    \ Possible values include: 'Basic', 'Standard',\n 'Premium'\n:type name: str or\
+    \ :class:`SkuName <azure.mgmt.redis.models.SkuName>`\n:param family: Which family\
+    \ to use. Valid values: (C, P). Possible values\n include: 'C', 'P'\n:type family:\
+    \ str or :class:`SkuFamily\n <azure.mgmt.redis.models.SkuFamily>`\n:param capacity:\
+    \ What size of redis cache to deploy. Valid values: for C\n family (0, 1, 2, 3,\
+    \ 4, 5, 6), for P family (1, 2, 3, 4)\n:type capacity: int"
+  type: Class
+  uid: azure.mgmt.redis.models.Sku

@@ -1,0 +1,269 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.logic.operations.WorkflowsOperations.create_or_update
+  - azure.mgmt.logic.operations.WorkflowsOperations.delete
+  - azure.mgmt.logic.operations.WorkflowsOperations.disable
+  - azure.mgmt.logic.operations.WorkflowsOperations.enable
+  - azure.mgmt.logic.operations.WorkflowsOperations.generate_upgraded_definition
+  - azure.mgmt.logic.operations.WorkflowsOperations.get
+  - azure.mgmt.logic.operations.WorkflowsOperations.list_by_resource_group
+  - azure.mgmt.logic.operations.WorkflowsOperations.list_by_subscription
+  - azure.mgmt.logic.operations.WorkflowsOperations.update
+  - azure.mgmt.logic.operations.WorkflowsOperations.validate
+  class: azure.mgmt.logic.operations.WorkflowsOperations
+  fullName: azure.mgmt.logic.operations.WorkflowsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.logic.operations
+  name: WorkflowsOperations
+  source:
+    id: WorkflowsOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflows_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflows_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'WorkflowsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    :ivar api_version: The API version. Constant value: "2016-06-01".'
+  type: Class
+  uid: azure.mgmt.logic.operations.WorkflowsOperations
+- _type: method
+  class: azure.mgmt.logic.operations.WorkflowsOperations
+  fullName: azure.mgmt.logic.operations.WorkflowsOperations.create_or_update
+  module: azure.mgmt.logic.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflows_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflows_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 239
+  summary: "Creates or updates a workflow.\n\n:param resource_group_name: The resource\
+    \ group name.\n:type resource_group_name: str\n:param workflow_name: The workflow\
+    \ name.\n:type workflow_name: str\n:param workflow: The workflow.\n:type workflow:\
+    \ :class:`Workflow <azure.mgmt.logic.models.Workflow>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`Workflow\
+    \ <azure.mgmt.logic.models.Workflow>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.logic.operations.WorkflowsOperations.create_or_update
+- _type: method
+  class: azure.mgmt.logic.operations.WorkflowsOperations
+  fullName: azure.mgmt.logic.operations.WorkflowsOperations.delete
+  module: azure.mgmt.logic.operations
+  name: delete
+  source:
+    id: delete
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflows_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflows_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 373
+  summary: "Deletes a workflow.\n\n:param resource_group_name: The resource group\
+    \ name.\n:type resource_group_name: str\n:param workflow_name: The workflow name.\n\
+    :type workflow_name: str\n:param dict custom_headers: headers that will be added\
+    \ to the request\n:param bool raw: returns the direct response alongside the\n\
+    \ deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.logic.operations.WorkflowsOperations.delete
+- _type: method
+  class: azure.mgmt.logic.operations.WorkflowsOperations
+  fullName: azure.mgmt.logic.operations.WorkflowsOperations.disable
+  module: azure.mgmt.logic.operations
+  name: disable
+  source:
+    id: disable
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflows_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflows_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 426
+  summary: "Disables a workflow.\n\n:param resource_group_name: The resource group\
+    \ name.\n:type resource_group_name: str\n:param workflow_name: The workflow name.\n\
+    :type workflow_name: str\n:param dict custom_headers: headers that will be added\
+    \ to the request\n:param bool raw: returns the direct response alongside the\n\
+    \ deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.logic.operations.WorkflowsOperations.disable
+- _type: method
+  class: azure.mgmt.logic.operations.WorkflowsOperations
+  fullName: azure.mgmt.logic.operations.WorkflowsOperations.enable
+  module: azure.mgmt.logic.operations
+  name: enable
+  source:
+    id: enable
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflows_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflows_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 479
+  summary: "Enables a workflow.\n\n:param resource_group_name: The resource group\
+    \ name.\n:type resource_group_name: str\n:param workflow_name: The workflow name.\n\
+    :type workflow_name: str\n:param dict custom_headers: headers that will be added\
+    \ to the request\n:param bool raw: returns the direct response alongside the\n\
+    \ deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.logic.operations.WorkflowsOperations.enable
+- _type: method
+  class: azure.mgmt.logic.operations.WorkflowsOperations
+  fullName: azure.mgmt.logic.operations.WorkflowsOperations.generate_upgraded_definition
+  module: azure.mgmt.logic.operations
+  name: generate_upgraded_definition
+  source:
+    id: generate_upgraded_definition
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflows_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflows_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 532
+  summary: "Generates the upgraded definition for a workflow.\n\n:param resource_group_name:\
+    \ The resource group name.\n:type resource_group_name: str\n:param workflow_name:\
+    \ The workflow name.\n:type workflow_name: str\n:param target_schema_version:\
+    \ The target schema version.\n:type target_schema_version: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: object\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.logic.operations.WorkflowsOperations.generate_upgraded_definition
+- _type: method
+  class: azure.mgmt.logic.operations.WorkflowsOperations
+  fullName: azure.mgmt.logic.operations.WorkflowsOperations.get
+  module: azure.mgmt.logic.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflows_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflows_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 179
+  summary: "Gets a workflow.\n\n:param resource_group_name: The resource group name.\n\
+    :type resource_group_name: str\n:param workflow_name: The workflow name.\n:type\
+    \ workflow_name: str\n:param dict custom_headers: headers that will be added to\
+    \ the request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`Workflow <azure.mgmt.logic.models.Workflow>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.logic.operations.WorkflowsOperations.get
+- _type: method
+  class: azure.mgmt.logic.operations.WorkflowsOperations
+  fullName: azure.mgmt.logic.operations.WorkflowsOperations.list_by_resource_group
+  module: azure.mgmt.logic.operations
+  name: list_by_resource_group
+  source:
+    id: list_by_resource_group
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflows_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflows_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 107
+  summary: "Gets a list of workflows by resource group.\n\n:param resource_group_name:\
+    \ The resource group name.\n:type resource_group_name: str\n:param top: The number\
+    \ of items to be included in the result.\n:type top: int\n:param filter: The filter\
+    \ to apply on the operation.\n:type filter: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`WorkflowPaged\
+    \ <azure.mgmt.logic.models.WorkflowPaged>`"
+  type: Method
+  uid: azure.mgmt.logic.operations.WorkflowsOperations.list_by_resource_group
+- _type: method
+  class: azure.mgmt.logic.operations.WorkflowsOperations
+  fullName: azure.mgmt.logic.operations.WorkflowsOperations.list_by_subscription
+  module: azure.mgmt.logic.operations
+  name: list_by_subscription
+  source:
+    id: list_by_subscription
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflows_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflows_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 38
+  summary: "Gets a list of workflows by subscription.\n\n:param top: The number of\
+    \ items to be included in the result.\n:type top: int\n:param filter: The filter\
+    \ to apply on the operation.\n:type filter: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`WorkflowPaged\
+    \ <azure.mgmt.logic.models.WorkflowPaged>`"
+  type: Method
+  uid: azure.mgmt.logic.operations.WorkflowsOperations.list_by_subscription
+- _type: method
+  class: azure.mgmt.logic.operations.WorkflowsOperations
+  fullName: azure.mgmt.logic.operations.WorkflowsOperations.update
+  module: azure.mgmt.logic.operations
+  name: update
+  source:
+    id: update
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflows_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflows_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 307
+  summary: "Updates a workflow.\n\n:param resource_group_name: The resource group\
+    \ name.\n:type resource_group_name: str\n:param workflow_name: The workflow name.\n\
+    :type workflow_name: str\n:param workflow: The workflow.\n:type workflow: :class:`Workflow\
+    \ <azure.mgmt.logic.models.Workflow>`\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`Workflow <azure.mgmt.logic.models.Workflow>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.logic.operations.WorkflowsOperations.update
+- _type: method
+  class: azure.mgmt.logic.operations.WorkflowsOperations
+  fullName: azure.mgmt.logic.operations.WorkflowsOperations.validate
+  module: azure.mgmt.logic.operations
+  name: validate
+  source:
+    id: validate
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflows_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflows_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 600
+  summary: "Validates the workflow definition.\n\n:param resource_group_name: The\
+    \ resource group name.\n:type resource_group_name: str\n:param location: The workflow\
+    \ location.\n:type location: str\n:param workflow_name: The workflow name.\n:type\
+    \ workflow_name: str\n:param workflow: The workflow definition.\n:type workflow:\
+    \ :class:`Workflow <azure.mgmt.logic.models.Workflow>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.logic.operations.WorkflowsOperations.validate

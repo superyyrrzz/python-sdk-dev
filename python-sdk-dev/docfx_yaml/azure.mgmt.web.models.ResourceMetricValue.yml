@@ -1,0 +1,47 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.ResourceMetricValue
+  fullName: azure.mgmt.web.models.ResourceMetricValue
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: ResourceMetricValue
+  source:
+    id: ResourceMetricValue
+    path: azure-mgmt-web/azure/mgmt/web/models/resource_metric_value.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/resource_metric_value.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Value of resource metric.
+
+
+    :param time_stamp: Value timestamp
+
+    :type time_stamp: str
+
+    :param average: Value average
+
+    :type average: float
+
+    :param minimum: Value minimum
+
+    :type minimum: float
+
+    :param maximum: Value maximum
+
+    :type maximum: float
+
+    :param total: Value total
+
+    :type total: float
+
+    :param count: Value count
+
+    :type count: float'
+  type: Class
+  uid: azure.mgmt.web.models.ResourceMetricValue

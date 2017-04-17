@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.powerbiembedded.models.WorkspaceCollection
+  fullName: azure.mgmt.powerbiembedded.models.WorkspaceCollection
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.powerbiembedded.models
+  name: WorkspaceCollection
+  source:
+    id: WorkspaceCollection
+    path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/models/workspace_collection.py
+    remote:
+      branch: master
+      path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/models/workspace_collection.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 16
+  summary: "WorkspaceCollection.\n\nVariables are only populated by the server, and\
+    \ will be ignored when\nsending a request.\n\n:param id: Resource id\n:type id:\
+    \ str\n:param name: Workspace collection name\n:type name: str\n:param type: Resource\
+    \ type\n:type type: str\n:param location: Azure location\n:type location: str\n\
+    :param tags:\n:type tags: dict\n:ivar sku:\n:vartype sku: :class:`AzureSku\n <azure.mgmt.powerbiembedded.models.AzureSku>`\n\
+    :param properties: Properties\n:type properties: object"
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.WorkspaceCollection

@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.devtestlabs.models.Subnet
+  fullName: azure.mgmt.devtestlabs.models.Subnet
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.devtestlabs.models
+  name: Subnet
+  source:
+    id: Subnet
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/subnet.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/subnet.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Subnet.\n\n:param resource_id:\n:type resource_id: str\n:param lab_subnet_name:\n\
+    :type lab_subnet_name: str\n:param allow_public_ip: Possible values include: 'Default',\
+    \ 'Deny',\n 'Allow'\n:type allow_public_ip: str or :class:`UsagePermissionType\n\
+    \ <azure.mgmt.devtestlabs.models.UsagePermissionType>`"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.Subnet

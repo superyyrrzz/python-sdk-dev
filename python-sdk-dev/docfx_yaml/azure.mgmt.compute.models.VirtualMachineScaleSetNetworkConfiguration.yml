@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.VirtualMachineScaleSetNetworkConfiguration
+  fullName: azure.mgmt.compute.models.VirtualMachineScaleSetNetworkConfiguration
+  inheritance:
+  - azure.mgmt.compute.models.sub_resource.SubResource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: VirtualMachineScaleSetNetworkConfiguration
+  source:
+    id: VirtualMachineScaleSetNetworkConfiguration
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_scale_set_network_configuration.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_scale_set_network_configuration.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Describes a virtual machine scale set network profile's network\nconfigurations.\n\
+    \n:param id: Resource Id\n:type id: str\n:param name: the network configuration\
+    \ name.\n:type name: str\n:param primary: whether this is a primary NIC on a virtual\
+    \ machine.\n:type primary: bool\n:param ip_configurations: the virtual machine\
+    \ scale set IP Configuration.\n:type ip_configurations: list of\n :class:`VirtualMachineScaleSetIPConfiguration\n\
+    \ <azure.mgmt.compute.models.VirtualMachineScaleSetIPConfiguration>`"
+  type: Class
+  uid: azure.mgmt.compute.models.VirtualMachineScaleSetNetworkConfiguration

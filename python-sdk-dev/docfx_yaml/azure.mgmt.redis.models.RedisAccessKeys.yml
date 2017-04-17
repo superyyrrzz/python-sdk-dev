@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.redis.models.RedisAccessKeys
+  fullName: azure.mgmt.redis.models.RedisAccessKeys
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.redis.models
+  name: RedisAccessKeys
+  source:
+    id: RedisAccessKeys
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/models/redis_access_keys.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/models/redis_access_keys.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Redis cache access keys.\n\n:param primary_key: The current primary key\
+    \ that clients can use to\n authenticate with redis cache.\n:type primary_key:\
+    \ str\n:param secondary_key: The current secondary key that clients can use to\n\
+    \ authenticate with redis cache.\n:type secondary_key: str"
+  type: Class
+  uid: azure.mgmt.redis.models.RedisAccessKeys

@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.iothub.models.RegistryStatistics
+  fullName: azure.mgmt.iothub.models.RegistryStatistics
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.iothub.models
+  name: RegistryStatistics
+  source:
+    id: RegistryStatistics
+    path: azure-mgmt-iothub/azure/mgmt/iothub/models/registry_statistics.py
+    remote:
+      branch: master
+      path: azure-mgmt-iothub/azure/mgmt/iothub/models/registry_statistics.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Identity registry statistics.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:ivar total_device_count: The\
+    \ total count of devices in the identity\n registry.\n:vartype total_device_count:\
+    \ long\n:ivar enabled_device_count: The count of enabled devices in the identity\n\
+    \ registry.\n:vartype enabled_device_count: long\n:ivar disabled_device_count:\
+    \ The count of disabled devices in the identity\n registry.\n:vartype disabled_device_count:\
+    \ long"
+  type: Class
+  uid: azure.mgmt.iothub.models.RegistryStatistics

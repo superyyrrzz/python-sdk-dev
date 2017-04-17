@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.authorization.models.ClassicAdministrator
+  fullName: azure.mgmt.authorization.models.ClassicAdministrator
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.authorization.models
+  name: ClassicAdministrator
+  source:
+    id: ClassicAdministrator
+    path: azure-mgmt-authorization/azure/mgmt/authorization/models/classic_administrator.py
+    remote:
+      branch: master
+      path: azure-mgmt-authorization/azure/mgmt/authorization/models/classic_administrator.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Classic Administrators.\n\n:param id: The ID of the administrator.\n:type\
+    \ id: str\n:param name: The name of the administrator.\n:type name: str\n:param\
+    \ type: The type of the administrator.\n:type type: str\n:param properties: Properties\
+    \ for the classic administrator.\n:type properties: :class:`ClassicAdministratorProperties\n\
+    \ <azure.mgmt.authorization.models.ClassicAdministratorProperties>`"
+  type: Class
+  uid: azure.mgmt.authorization.models.ClassicAdministrator

@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.cognitiveservices.models.ErrorBody
+  fullName: azure.mgmt.cognitiveservices.models.ErrorBody
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.cognitiveservices.models
+  name: ErrorBody
+  source:
+    id: ErrorBody
+    path: azure-mgmt-cognitiveservices/azure/mgmt/cognitiveservices/models/error_body.py
+    remote:
+      branch: master
+      path: azure-mgmt-cognitiveservices/azure/mgmt/cognitiveservices/models/error_body.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'ErrorBody.
+
+
+    :param code: error code
+
+    :type code: str
+
+    :param message: error message
+
+    :type message: str'
+  type: Class
+  uid: azure.mgmt.cognitiveservices.models.ErrorBody

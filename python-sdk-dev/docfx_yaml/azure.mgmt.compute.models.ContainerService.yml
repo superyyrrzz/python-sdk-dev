@@ -1,0 +1,40 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.ContainerService
+  fullName: azure.mgmt.compute.models.ContainerService
+  inheritance:
+  - azure.mgmt.compute.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: ContainerService
+  source:
+    id: ContainerService
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/container_service.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/container_service.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Container service.\n\nVariables are only populated by the server, and\
+    \ will be ignored when\nsending a request.\n\n:ivar id: Resource Id\n:vartype\
+    \ id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type: Resource\
+    \ type\n:vartype type: str\n:param location: Resource location\n:type location:\
+    \ str\n:param tags: Resource tags\n:type tags: dict\n:ivar provisioning_state:\
+    \ the provisioning state, which only appears in\n the response.\n:vartype provisioning_state:\
+    \ str\n:param orchestrator_profile: Properties of orchestrator\n:type orchestrator_profile:\
+    \ :class:`ContainerServiceOrchestratorProfile\n <azure.mgmt.compute.models.ContainerServiceOrchestratorProfile>`\n\
+    :param master_profile: Properties of master agents\n:type master_profile: :class:`ContainerServiceMasterProfile\n\
+    \ <azure.mgmt.compute.models.ContainerServiceMasterProfile>`\n:param agent_pool_profiles:\
+    \ Properties of agent pools\n:type agent_pool_profiles: list of\n :class:`ContainerServiceAgentPoolProfile\n\
+    \ <azure.mgmt.compute.models.ContainerServiceAgentPoolProfile>`\n:param windows_profile:\
+    \ Properties of Windows VMs\n:type windows_profile: :class:`ContainerServiceWindowsProfile\n\
+    \ <azure.mgmt.compute.models.ContainerServiceWindowsProfile>`\n:param linux_profile:\
+    \ Properties for Linux VMs\n:type linux_profile: :class:`ContainerServiceLinuxProfile\n\
+    \ <azure.mgmt.compute.models.ContainerServiceLinuxProfile>`\n:param diagnostics_profile:\
+    \ Properties for Diagnostic Agent\n:type diagnostics_profile: :class:`ContainerServiceDiagnosticsProfile\n\
+    \ <azure.mgmt.compute.models.ContainerServiceDiagnosticsProfile>`"
+  type: Class
+  uid: azure.mgmt.compute.models.ContainerService

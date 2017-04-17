@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.resources.models.DeploymentExportResult
+  fullName: azure.mgmt.resource.resources.models.DeploymentExportResult
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.resource.resources.models
+  name: DeploymentExportResult
+  source:
+    id: DeploymentExportResult
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/deployment_export_result.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/deployment_export_result.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'DeploymentExportResult.
+
+
+    :param template: The template content.
+
+    :type template: object'
+  type: Class
+  uid: azure.mgmt.resource.resources.models.DeploymentExportResult

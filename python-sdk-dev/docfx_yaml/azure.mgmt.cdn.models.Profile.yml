@@ -1,0 +1,36 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.cdn.models.Profile
+  fullName: azure.mgmt.cdn.models.Profile
+  inheritance:
+  - azure.mgmt.cdn.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.cdn.models
+  name: Profile
+  source:
+    id: Profile
+    path: azure-mgmt-cdn/azure/mgmt/cdn/models/profile.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/models/profile.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "CDN profile represents the top level resource and the entry point into\
+    \ the\nCDN API. This allows users to set up a logical grouping of endpoints in\n\
+    addition to creating shared configuration settings and selecting pricing\ntiers\
+    \ and providers.\n\nVariables are only populated by the server, and will be ignored\
+    \ when\nsending a request.\n\n:ivar id: Resource ID.\n:vartype id: str\n:ivar\
+    \ name: Resource name.\n:vartype name: str\n:ivar type: Resource type.\n:vartype\
+    \ type: str\n:param location: Resource location.\n:type location: str\n:param\
+    \ tags: Resource tags.\n:type tags: dict\n:param sku: The pricing tier (defines\
+    \ a CDN provider, feature list and\n rate) of the CDN profile.\n:type sku: :class:`Sku\
+    \ <azure.mgmt.cdn.models.Sku>`\n:ivar resource_state: Resource status of the profile.\
+    \ Possible values\n include: 'Creating', 'Active', 'Deleting', 'Disabled'\n:vartype\
+    \ resource_state: str or :class:`ProfileResourceState\n <azure.mgmt.cdn.models.ProfileResourceState>`\n\
+    :ivar provisioning_state: Provisioning status of the profile.\n:vartype provisioning_state:\
+    \ str"
+  type: Class
+  uid: azure.mgmt.cdn.models.Profile

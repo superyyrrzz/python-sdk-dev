@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.redis.models.RedisRegenerateKeyParameters
+  fullName: azure.mgmt.redis.models.RedisRegenerateKeyParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.redis.models
+  name: RedisRegenerateKeyParameters
+  source:
+    id: RedisRegenerateKeyParameters
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/models/redis_regenerate_key_parameters.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/models/redis_regenerate_key_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Specifies which redis access keys to reset.\n\n:param key_type: Which\
+    \ redis access key to reset. Possible values\n include: 'Primary', 'Secondary'\n\
+    :type key_type: str or :class:`RedisKeyType\n <azure.mgmt.redis.models.RedisKeyType>`"
+  type: Class
+  uid: azure.mgmt.redis.models.RedisRegenerateKeyParameters

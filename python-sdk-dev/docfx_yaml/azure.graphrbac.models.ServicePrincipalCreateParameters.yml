@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.graphrbac.models.ServicePrincipalCreateParameters
+  fullName: azure.graphrbac.models.ServicePrincipalCreateParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.graphrbac.models
+  name: ServicePrincipalCreateParameters
+  source:
+    id: ServicePrincipalCreateParameters
+    path: azure-graphrbac/azure/graphrbac/models/service_principal_create_parameters.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/models/service_principal_create_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Request parameters for creating a new service principal.\n\n:param app_id:\
+    \ application Id\n:type app_id: str\n:param account_enabled: Whether the account\
+    \ is enabled\n:type account_enabled: bool\n:param key_credentials: A collection\
+    \ of KeyCredential objects.\n:type key_credentials: list of :class:`KeyCredential\n\
+    \ <azure.graphrbac.models.KeyCredential>`\n:param password_credentials: A collection\
+    \ of PasswordCredential objects\n:type password_credentials: list of :class:`PasswordCredential\n\
+    \ <azure.graphrbac.models.PasswordCredential>`"
+  type: Class
+  uid: azure.graphrbac.models.ServicePrincipalCreateParameters

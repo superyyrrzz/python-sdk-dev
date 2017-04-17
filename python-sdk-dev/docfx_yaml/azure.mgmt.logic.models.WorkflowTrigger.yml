@@ -1,0 +1,45 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.WorkflowTrigger
+  fullName: azure.mgmt.logic.models.WorkflowTrigger
+  inheritance:
+  - azure.mgmt.logic.models.sub_resource.SubResource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: WorkflowTrigger
+  source:
+    id: WorkflowTrigger
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/workflow_trigger.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/workflow_trigger.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "WorkflowTrigger.\n\nVariables are only populated by the server, and will\
+    \ be ignored when\nsending a request.\n\n:param id: The resource id.\n:type id:\
+    \ str\n:ivar provisioning_state: Gets the provisioning state. Possible values\n\
+    \ include: 'NotSpecified', 'Accepted', 'Running', 'Ready', 'Creating',\n 'Created',\
+    \ 'Deleting', 'Deleted', 'Canceled', 'Failed', 'Succeeded',\n 'Moving', 'Updating',\
+    \ 'Registering', 'Registered', 'Unregistering',\n 'Unregistered', 'Completed'\n\
+    :vartype provisioning_state: str or\n :class:`WorkflowTriggerProvisioningState\n\
+    \ <azure.mgmt.logic.models.WorkflowTriggerProvisioningState>`\n:ivar created_time:\
+    \ Gets the created time.\n:vartype created_time: datetime\n:ivar changed_time:\
+    \ Gets the changed time.\n:vartype changed_time: datetime\n:ivar state: Gets the\
+    \ state. Possible values include: 'NotSpecified',\n 'Completed', 'Enabled', 'Disabled',\
+    \ 'Deleted', 'Suspended'\n:vartype state: str or :class:`WorkflowState\n <azure.mgmt.logic.models.WorkflowState>`\n\
+    :ivar status: Gets the status. Possible values include: 'NotSpecified',\n 'Paused',\
+    \ 'Running', 'Waiting', 'Succeeded', 'Skipped', 'Suspended',\n 'Cancelled', 'Failed',\
+    \ 'Faulted', 'TimedOut', 'Aborted', 'Ignored'\n:vartype status: str or :class:`WorkflowStatus\n\
+    \ <azure.mgmt.logic.models.WorkflowStatus>`\n:ivar last_execution_time: Gets the\
+    \ last execution time.\n:vartype last_execution_time: datetime\n:ivar next_execution_time:\
+    \ Gets the next execution time.\n:vartype next_execution_time: datetime\n:ivar\
+    \ recurrence: Gets the workflow trigger recurrence.\n:vartype recurrence: :class:`WorkflowTriggerRecurrence\n\
+    \ <azure.mgmt.logic.models.WorkflowTriggerRecurrence>`\n:ivar workflow: Gets the\
+    \ reference to workflow.\n:vartype workflow: :class:`ResourceReference\n <azure.mgmt.logic.models.ResourceReference>`\n\
+    :ivar name: Gets the workflow trigger name.\n:vartype name: str\n:ivar type: Gets\
+    \ the workflow trigger type.\n:vartype type: str"
+  type: Class
+  uid: azure.mgmt.logic.models.WorkflowTrigger

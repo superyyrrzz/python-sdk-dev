@@ -1,0 +1,48 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.InboundNatPool
+  fullName: azure.mgmt.network.models.InboundNatPool
+  inheritance:
+  - azure.mgmt.network.models.sub_resource.SubResource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: InboundNatPool
+  source:
+    id: InboundNatPool
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/inbound_nat_pool.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/inbound_nat_pool.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Inbound NAT pool of the load balancer.\n\n:param id: Resource Id\n:type\
+    \ id: str\n:param frontend_ip_configuration: Gets or sets a reference to frontend\
+    \ IP\n Addresses\n:type frontend_ip_configuration: :class:`SubResource\n <azure.mgmt.network.models.SubResource>`\n\
+    :param protocol: Gets or sets the transport protocol for the endpoint.\n Possible\
+    \ values are Udp or Tcp. Possible values include: 'Udp', 'Tcp'\n:type protocol:\
+    \ str or :class:`TransportProtocol\n <azure.mgmt.network.models.TransportProtocol>`\n\
+    :param frontend_port_range_start: Gets or sets the starting port range\n for the\
+    \ NAT pool. You can specify any port number you choose, but the\n port numbers\
+    \ specified for each role in the service must be unique.\n Possible values range\
+    \ between 1 and 65535, inclusive\n:type frontend_port_range_start: int\n:param\
+    \ frontend_port_range_end: Gets or sets the ending port range for\n the NAT pool.\
+    \ You can specify any port number you choose, but the port\n numbers specified\
+    \ for each role in the service must be unique. Possible\n values range between\
+    \ 1 and 65535, inclusive\n:type frontend_port_range_end: int\n:param backend_port:\
+    \ Gets or sets a port used for internal connections on\n the endpoint. The localPort\
+    \ attribute maps the eternal port of the\n endpoint to an internal port on a role.\
+    \ This is useful in scenarios\n where a role must communicate to an internal component\
+    \ on a port that is\n different from the one that is exposed externally. If not\
+    \ specified, the\n value of localPort is the same as the port attribute. Set the\
+    \ value of\n localPort to '*' to automatically assign an unallocated port that\
+    \ is\n discoverable using the runtime API\n:type backend_port: int\n:param provisioning_state:\
+    \ Gets provisioning state of the PublicIP\n resource Updating/Deleting/Failed\n\
+    :type provisioning_state: str\n:param name: Gets name of the resource that is\
+    \ unique within a resource\n group. This name can be used to access the resource\n\
+    :type name: str\n:param etag: A unique read-only string that changes whenever\
+    \ the resource\n is updated\n:type etag: str"
+  type: Class
+  uid: azure.mgmt.network.models.InboundNatPool

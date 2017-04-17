@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.containerregistry.models.RegistryNameCheckRequest
+  fullName: azure.mgmt.containerregistry.models.RegistryNameCheckRequest
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.containerregistry.models
+  name: RegistryNameCheckRequest
+  source:
+    id: RegistryNameCheckRequest
+    path: azure-mgmt-containerregistry/azure/mgmt/containerregistry/models/registry_name_check_request.py
+    remote:
+      branch: master
+      path: azure-mgmt-containerregistry/azure/mgmt/containerregistry/models/registry_name_check_request.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A request to check whether the container registry name is available.\n\
+    \nVariables are only populated by the server, and will be ignored when\nsending\
+    \ a request.\n\n:param name: The name of the container registry.\n:type name:\
+    \ str\n:ivar type: The resource type of the container registry. This field must\n\
+    \ be set to \"Microsoft.ContainerRegistry/registries\". Default value:\n \"Microsoft.ContainerRegistry/registries\"\
+    \ .\n:vartype type: str"
+  type: Class
+  uid: azure.mgmt.containerregistry.models.RegistryNameCheckRequest

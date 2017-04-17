@@ -1,0 +1,234 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.devtestlabs.operations.VirtualMachineOperations.apply_artifacts
+  - azure.mgmt.devtestlabs.operations.VirtualMachineOperations.create_or_update_resource
+  - azure.mgmt.devtestlabs.operations.VirtualMachineOperations.delete_resource
+  - azure.mgmt.devtestlabs.operations.VirtualMachineOperations.get_resource
+  - azure.mgmt.devtestlabs.operations.VirtualMachineOperations.list
+  - azure.mgmt.devtestlabs.operations.VirtualMachineOperations.patch_resource
+  - azure.mgmt.devtestlabs.operations.VirtualMachineOperations.start
+  - azure.mgmt.devtestlabs.operations.VirtualMachineOperations.stop
+  class: azure.mgmt.devtestlabs.operations.VirtualMachineOperations
+  fullName: azure.mgmt.devtestlabs.operations.VirtualMachineOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.devtestlabs.operations
+  name: VirtualMachineOperations
+  source:
+    id: VirtualMachineOperations
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_machine_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_machine_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 20
+  summary: 'VirtualMachineOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.devtestlabs.operations.VirtualMachineOperations
+- _type: method
+  class: azure.mgmt.devtestlabs.operations.VirtualMachineOperations
+  fullName: azure.mgmt.devtestlabs.operations.VirtualMachineOperations.apply_artifacts
+  module: azure.mgmt.devtestlabs.operations
+  name: apply_artifacts
+  source:
+    id: apply_artifacts
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_machine_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_machine_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 435
+  summary: "Apply artifacts to Lab VM. This operation can take a while to complete.\n\
+    \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param lab_name: The name of the lab.\n:type lab_name: str\n:param name:\
+    \ The name of the virtual Machine.\n:type name: str\n:param artifacts: The list\
+    \ of artifacts to apply.\n:type artifacts: list of :class:`ArtifactInstallProperties\n\
+    \ <azure.mgmt.devtestlabs.models.ArtifactInstallProperties>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.devtestlabs.operations.VirtualMachineOperations.apply_artifacts
+- _type: method
+  class: azure.mgmt.devtestlabs.operations.VirtualMachineOperations
+  fullName: azure.mgmt.devtestlabs.operations.VirtualMachineOperations.create_or_update_resource
+  module: azure.mgmt.devtestlabs.operations
+  name: create_or_update_resource
+  source:
+    id: create_or_update_resource
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_machine_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_machine_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 185
+  summary: "Create or replace an existing Virtual Machine. This operation can take\n\
+    a while to complete.\n\n:param resource_group_name: The name of the resource group.\n\
+    :type resource_group_name: str\n:param lab_name: The name of the lab.\n:type lab_name:\
+    \ str\n:param name: The name of the virtual Machine.\n:type name: str\n:param\
+    \ lab_virtual_machine:\n:type lab_virtual_machine: :class:`LabVirtualMachine\n\
+    \ <azure.mgmt.devtestlabs.models.LabVirtualMachine>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`LabVirtualMachine\n <azure.mgmt.devtestlabs.models.LabVirtualMachine>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.devtestlabs.operations.VirtualMachineOperations.create_or_update_resource
+- _type: method
+  class: azure.mgmt.devtestlabs.operations.VirtualMachineOperations
+  fullName: azure.mgmt.devtestlabs.operations.VirtualMachineOperations.delete_resource
+  module: azure.mgmt.devtestlabs.operations
+  name: delete_resource
+  source:
+    id: delete_resource
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_machine_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_machine_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 283
+  summary: "Delete virtual machine. This operation can take a while to complete.\n\
+    \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param lab_name: The name of the lab.\n:type lab_name: str\n:param name:\
+    \ The name of the virtual Machine.\n:type name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.devtestlabs.operations.VirtualMachineOperations.delete_resource
+- _type: method
+  class: azure.mgmt.devtestlabs.operations.VirtualMachineOperations
+  fullName: azure.mgmt.devtestlabs.operations.VirtualMachineOperations.get_resource
+  module: azure.mgmt.devtestlabs.operations
+  name: get_resource
+  source:
+    id: get_resource
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_machine_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_machine_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 120
+  summary: "Get virtual machine.\n\n:param resource_group_name: The name of the resource\
+    \ group.\n:type resource_group_name: str\n:param lab_name: The name of the lab.\n\
+    :type lab_name: str\n:param name: The name of the virtual Machine.\n:type name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`LabVirtualMachine\n <azure.mgmt.devtestlabs.models.LabVirtualMachine>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.devtestlabs.operations.VirtualMachineOperations.get_resource
+- _type: method
+  class: azure.mgmt.devtestlabs.operations.VirtualMachineOperations
+  fullName: azure.mgmt.devtestlabs.operations.VirtualMachineOperations.list
+  module: azure.mgmt.devtestlabs.operations
+  name: list
+  source:
+    id: list
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_machine_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_machine_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 37
+  summary: "List virtual machines in a given lab.\n\n:param resource_group_name: The\
+    \ name of the resource group.\n:type resource_group_name: str\n:param lab_name:\
+    \ The name of the lab.\n:type lab_name: str\n:param filter: The filter to apply\
+    \ on the operation.\n:type filter: str\n:param top: The maximum number of resources\
+    \ to return from the\n operation.\n:type top: int\n:param order_by: The ordering\
+    \ expression for the results, using OData\n notation.\n:type order_by: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`LabVirtualMachinePaged\n <azure.mgmt.devtestlabs.models.LabVirtualMachinePaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.devtestlabs.operations.VirtualMachineOperations.list
+- _type: method
+  class: azure.mgmt.devtestlabs.operations.VirtualMachineOperations
+  fullName: azure.mgmt.devtestlabs.operations.VirtualMachineOperations.patch_resource
+  module: azure.mgmt.devtestlabs.operations
+  name: patch_resource
+  source:
+    id: patch_resource
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_machine_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_machine_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 363
+  summary: "Modify properties of virtual machines.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param lab_name:\
+    \ The name of the lab.\n:type lab_name: str\n:param name: The name of the virtual\
+    \ Machine.\n:type name: str\n:param lab_virtual_machine:\n:type lab_virtual_machine:\
+    \ :class:`LabVirtualMachine\n <azure.mgmt.devtestlabs.models.LabVirtualMachine>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`LabVirtualMachine\n <azure.mgmt.devtestlabs.models.LabVirtualMachine>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.devtestlabs.operations.VirtualMachineOperations.patch_resource
+- _type: method
+  class: azure.mgmt.devtestlabs.operations.VirtualMachineOperations
+  fullName: azure.mgmt.devtestlabs.operations.VirtualMachineOperations.start
+  module: azure.mgmt.devtestlabs.operations
+  name: start
+  source:
+    id: start
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_machine_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_machine_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 524
+  summary: "Start a Lab VM. This operation can take a while to complete.\n\n:param\
+    \ resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param lab_name: The name of the lab.\n:type lab_name: str\n:param name:\
+    \ The name of the virtual Machine.\n:type name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.devtestlabs.operations.VirtualMachineOperations.start
+- _type: method
+  class: azure.mgmt.devtestlabs.operations.VirtualMachineOperations
+  fullName: azure.mgmt.devtestlabs.operations.VirtualMachineOperations.stop
+  module: azure.mgmt.devtestlabs.operations
+  name: stop
+  source:
+    id: stop
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_machine_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_machine_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 604
+  summary: "Stop a Lab VM. This operation can take a while to complete.\n\n:param\
+    \ resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param lab_name: The name of the lab.\n:type lab_name: str\n:param name:\
+    \ The name of the virtual Machine.\n:type name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.devtestlabs.operations.VirtualMachineOperations.stop

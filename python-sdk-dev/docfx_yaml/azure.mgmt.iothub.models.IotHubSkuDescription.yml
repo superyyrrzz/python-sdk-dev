@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.iothub.models.IotHubSkuDescription
+  fullName: azure.mgmt.iothub.models.IotHubSkuDescription
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.iothub.models
+  name: IotHubSkuDescription
+  source:
+    id: IotHubSkuDescription
+    path: azure-mgmt-iothub/azure/mgmt/iothub/models/iot_hub_sku_description.py
+    remote:
+      branch: master
+      path: azure-mgmt-iothub/azure/mgmt/iothub/models/iot_hub_sku_description.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "SKU properties.\n\nVariables are only populated by the server, and will\
+    \ be ignored when\nsending a request.\n\n:ivar resource_type: The type of the\
+    \ resource.\n:vartype resource_type: str\n:param sku:\n:type sku: :class:`IotHubSkuInfo\
+    \ <azure.mgmt.iothub.models.IotHubSkuInfo>`\n:param capacity:\n:type capacity:\
+    \ :class:`IotHubCapacity\n <azure.mgmt.iothub.models.IotHubCapacity>`"
+  type: Class
+  uid: azure.mgmt.iothub.models.IotHubSkuDescription

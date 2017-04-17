@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.storage.models.CustomDomain
+  fullName: azure.mgmt.storage.models.CustomDomain
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.storage.models
+  name: CustomDomain
+  source:
+    id: CustomDomain
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/models/custom_domain.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/models/custom_domain.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The custom domain assigned to this storage account. This can be set via\n\
+    Update.\n\n:param name: Gets or sets the custom domain name. Name is the CNAME\n\
+    \ source.\n:type name: str\n:param use_sub_domain: Indicates whether indirect\
+    \ CName validation is\n enabled. Default value is false. This should only be set\
+    \ on updates\n:type use_sub_domain: bool"
+  type: Class
+  uid: azure.mgmt.storage.models.CustomDomain

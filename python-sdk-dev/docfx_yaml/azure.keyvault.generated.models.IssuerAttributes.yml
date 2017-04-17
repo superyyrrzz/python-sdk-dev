@@ -1,0 +1,40 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.keyvault.generated.models.IssuerAttributes
+  fullName: azure.keyvault.generated.models.IssuerAttributes
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.keyvault.generated.models
+  name: IssuerAttributes
+  source:
+    id: IssuerAttributes
+    path: azure-keyvault/azure/keyvault/generated/models/issuer_attributes.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/models/issuer_attributes.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'The attributes of an issuer managed by the Key Vault service.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :param enabled: Determines whether the issuer is enabled.
+
+    :type enabled: bool
+
+    :ivar created: Creation time in UTC.
+
+    :vartype created: datetime
+
+    :ivar updated: Last updated time in UTC.
+
+    :vartype updated: datetime'
+  type: Class
+  uid: azure.keyvault.generated.models.IssuerAttributes

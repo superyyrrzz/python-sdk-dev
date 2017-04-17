@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.monitor.models.RuleEmailAction
+  fullName: azure.mgmt.monitor.models.RuleEmailAction
+  inheritance:
+  - azure.mgmt.monitor.models.rule_action.RuleAction
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.monitor.models
+  name: RuleEmailAction
+  source:
+    id: RuleEmailAction
+    path: azure-mgmt-monitor/azure/mgmt/monitor/models/rule_email_action.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/models/rule_email_action.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Specifies the action to send email when the rule condition is evaluated.\n\
+    The discriminator is always RuleEmailAction in this case.\n\n:param odatatype:\
+    \ Polymorphic Discriminator\n:type odatatype: str\n:param send_to_service_owners:\
+    \ Whether the administrators (service and\n co-adiminstrators) of the service\
+    \ should be notified when the alert is\n activated.\n:type send_to_service_owners:\
+    \ bool\n:param custom_emails: the list of administrator's custom email addresses\n\
+    \ notifiy of the activation of the alert.\n:type custom_emails: list of str"
+  type: Class
+  uid: azure.mgmt.monitor.models.RuleEmailAction

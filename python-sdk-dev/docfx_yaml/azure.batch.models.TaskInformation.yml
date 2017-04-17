@@ -1,0 +1,30 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.TaskInformation
+  fullName: azure.batch.models.TaskInformation
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: TaskInformation
+  source:
+    id: TaskInformation
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/task_information.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/task_information.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Information about a task running on a compute node.\n\n:param task_url:\
+    \ The URL of the task.\n:type task_url: str\n:param job_id: The id of the job\
+    \ to which the task belongs.\n:type job_id: str\n:param task_id: The id of the\
+    \ task.\n:type task_id: str\n:param subtask_id: The id of the subtask if the task\
+    \ is a multi-instance\n task.\n:type subtask_id: int\n:param task_state: The current\
+    \ state of the task. Possible values\n include: 'active', 'preparing', 'running',\
+    \ 'completed'\n:type task_state: str or :class:`TaskState <azure.batch.models.TaskState>`\n\
+    :param execution_info: Information about the execution of the task.\n:type execution_info:\
+    \ :class:`TaskExecutionInformation\n <azure.batch.models.TaskExecutionInformation>`"
+  type: Class
+  uid: azure.batch.models.TaskInformation

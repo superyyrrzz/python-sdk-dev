@@ -1,0 +1,35 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.devtestlabs.models.Lab
+  fullName: azure.mgmt.devtestlabs.models.Lab
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.devtestlabs.models
+  name: Lab
+  source:
+    id: Lab
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/lab.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/lab.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A lab.\n\n:param default_storage_account: The lab's default storage account.\n\
+    :type default_storage_account: str\n:param artifacts_storage_account: The artifact\
+    \ storage account of the lab.\n:type artifacts_storage_account: str\n:param vault_name:\
+    \ The name of the key vault of the lab.\n:type vault_name: str\n:param lab_storage_type:\
+    \ The type of the lab storage. Possible values\n include: 'Standard', 'Premium'\n\
+    :type lab_storage_type: str or :class:`LabStorageType\n <azure.mgmt.devtestlabs.models.LabStorageType>`\n\
+    :param created_date: The creation date of the lab.\n:type created_date: datetime\n\
+    :param provisioning_state: The provisioning status of the resource.\n:type provisioning_state:\
+    \ str\n:param unique_identifier: The unique immutable identifier of a resource\n\
+    \ (Guid).\n:type unique_identifier: str\n:param id: The identifier of the resource.\n\
+    :type id: str\n:param name: The name of the resource.\n:type name: str\n:param\
+    \ type: The type of the resource.\n:type type: str\n:param location: The location\
+    \ of the resource.\n:type location: str\n:param tags: The tags of the resource.\n\
+    :type tags: dict"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.Lab

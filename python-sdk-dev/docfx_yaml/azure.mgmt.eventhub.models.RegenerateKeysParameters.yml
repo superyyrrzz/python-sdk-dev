@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.eventhub.models.RegenerateKeysParameters
+  fullName: azure.mgmt.eventhub.models.RegenerateKeysParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.eventhub.models
+  name: RegenerateKeysParameters
+  source:
+    id: RegenerateKeysParameters
+    path: azure-mgmt-eventhub/azure/mgmt/eventhub/models/regenerate_keys_parameters.py
+    remote:
+      branch: master
+      path: azure-mgmt-eventhub/azure/mgmt/eventhub/models/regenerate_keys_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Parameters supplied to the Regenerate Authorization Rule operation.\n\n\
+    :param policykey: Key that needs to be regenerated. Possible values\n include:\
+    \ 'PrimaryKey', 'SecondaryKey'\n:type policykey: str or :class:`Policykey\n <azure.mgmt.eventhub.models.Policykey>`"
+  type: Class
+  uid: azure.mgmt.eventhub.models.RegenerateKeysParameters

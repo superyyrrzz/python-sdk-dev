@@ -1,0 +1,33 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.IntegrationAccountCertificate
+  fullName: azure.mgmt.logic.models.IntegrationAccountCertificate
+  inheritance:
+  - azure.mgmt.logic.models.integration_account_resource.IntegrationAccountResource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: IntegrationAccountCertificate
+  source:
+    id: IntegrationAccountCertificate
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/integration_account_certificate.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/integration_account_certificate.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "IntegrationAccountCertificate.\n\nVariables are only populated by the\
+    \ server, and will be ignored when\nsending a request.\n\n:param id: The resource\
+    \ id.\n:type id: str\n:param name: The resource name.\n:type name: str\n:param\
+    \ type: The resource type.\n:type type: str\n:param location: The resource location.\n\
+    :type location: str\n:param tags: The resource tags.\n:type tags: dict\n:ivar\
+    \ created_time: The created time.\n:vartype created_time: datetime\n:ivar changed_time:\
+    \ The changed time.\n:vartype changed_time: datetime\n:param metadata: The metadata.\n\
+    :type metadata: object\n:param key: The key details in the key vault.\n:type key:\
+    \ :class:`KeyVaultKeyReference\n <azure.mgmt.logic.models.KeyVaultKeyReference>`\n\
+    :param public_certificate: The public certificate.\n:type public_certificate:\
+    \ str"
+  type: Class
+  uid: azure.mgmt.logic.models.IntegrationAccountCertificate

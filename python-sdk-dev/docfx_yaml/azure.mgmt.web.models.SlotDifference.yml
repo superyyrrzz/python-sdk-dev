@@ -1,0 +1,36 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.SlotDifference
+  fullName: azure.mgmt.web.models.SlotDifference
+  inheritance:
+  - azure.mgmt.web.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: SlotDifference
+  source:
+    id: SlotDifference
+    path: azure-mgmt-web/azure/mgmt/web/models/slot_difference.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/slot_difference.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "An object describing the difference in setting values between two web\
+    \ app\nslots.\n\n:param id: Resource Id\n:type id: str\n:param name: Resource\
+    \ Name\n:type name: str\n:param kind: Kind of resource\n:type kind: str\n:param\
+    \ location: Resource Location\n:type location: str\n:param type: Resource type\n\
+    :type type: str\n:param tags: Resource tags\n:type tags: dict\n:param slot_difference_type:\
+    \ Indicates the type of the difference:\n Information, Warning or Error.\n:type\
+    \ slot_difference_type: str\n:param setting_type: The type of the settings: General,\
+    \ AppSetting or\n ConnectionString\n:type setting_type: str\n:param diff_rule:\
+    \ Rule that describes how to process the difference in\n settings during web app\
+    \ slot swap.\n:type diff_rule: str\n:param setting_name: Name of the setting\n\
+    :type setting_name: str\n:param value_in_current_slot: Value of the setting in\
+    \ the current web app\n slot\n:type value_in_current_slot: str\n:param value_in_target_slot:\
+    \ Value of the setting in the target web app\n slot\n:type value_in_target_slot:\
+    \ str\n:param description: Description of the difference\n:type description: str"
+  type: Class
+  uid: azure.mgmt.web.models.SlotDifference

@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.batch.models.AutoStorageProperties
+  fullName: azure.mgmt.batch.models.AutoStorageProperties
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.batch.models
+  name: AutoStorageProperties
+  source:
+    id: AutoStorageProperties
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/models/auto_storage_properties.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/models/auto_storage_properties.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Contains information about the auto storage account associated with a\n\
+    Batch account.\n\n:param storage_account_id: The resource id of the storage account\
+    \ to be\n used for auto storage account.\n:type storage_account_id: str\n:param\
+    \ last_key_sync: The UTC time at which storage keys were last\n synchronized with\
+    \ the Batch account.\n:type last_key_sync: datetime"
+  type: Class
+  uid: azure.mgmt.batch.models.AutoStorageProperties

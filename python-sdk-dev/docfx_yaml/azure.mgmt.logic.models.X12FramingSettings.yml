@@ -1,0 +1,33 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.X12FramingSettings
+  fullName: azure.mgmt.logic.models.X12FramingSettings
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: X12FramingSettings
+  source:
+    id: X12FramingSettings
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/x12_framing_settings.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/x12_framing_settings.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "X12FramingSettings.\n\n:param data_element_separator: The data element\
+    \ separator.\n:type data_element_separator: int\n:param component_separator: The\
+    \ component separator.\n:type component_separator: int\n:param replace_separators_in_payload:\
+    \ The value indicating whether to\n replace separators in payload.\n:type replace_separators_in_payload:\
+    \ bool\n:param replace_character: The replacement character.\n:type replace_character:\
+    \ int\n:param segment_terminator: The segment terminator.\n:type segment_terminator:\
+    \ int\n:param character_set: The X12 character set. Possible values include:\n\
+    \ 'NotSpecified', 'Basic', 'Extended', 'UTF8'\n:type character_set: str or :class:`X12CharacterSet\n\
+    \ <azure.mgmt.logic.models.X12CharacterSet>`\n:param segment_terminator_suffix:\
+    \ The segment terminator suffix. Possible\n values include: 'NotSpecified', 'None',\
+    \ 'CR', 'LF', 'CRLF'\n:type segment_terminator_suffix: str or :class:`SegmentTerminatorSuffix\n\
+    \ <azure.mgmt.logic.models.SegmentTerminatorSuffix>`"
+  type: Class
+  uid: azure.mgmt.logic.models.X12FramingSettings

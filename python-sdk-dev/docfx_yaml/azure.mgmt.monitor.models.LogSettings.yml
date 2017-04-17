@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.monitor.models.LogSettings
+  fullName: azure.mgmt.monitor.models.LogSettings
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.monitor.models
+  name: LogSettings
+  source:
+    id: LogSettings
+    path: azure-mgmt-monitor/azure/mgmt/monitor/models/log_settings.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/models/log_settings.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Part of MultiTenantDiagnosticSettings. Specifies the settings for a\n\
+    particular log.\n\n:param category: Name of a Diagnostic Log category for a resource\
+    \ type\n this setting is applied to. To obtain the list of Diagnostic Log\n categories\
+    \ for a resource, first perform a GET diagnostic settings\n operation.\n:type\
+    \ category: str\n:param enabled: a value indicating whether this log is enabled.\n\
+    :type enabled: bool\n:param retention_policy: the retention policy for this log.\n\
+    :type retention_policy: :class:`RetentionPolicy\n <azure.mgmt.monitor.models.RetentionPolicy>`"
+  type: Class
+  uid: azure.mgmt.monitor.models.LogSettings

@@ -1,0 +1,283 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.check_name_availability
+  - azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.create
+  - azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.delete
+  - azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.get_access_keys
+  - azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.get_by_name
+  - azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.list_by_resource_group
+  - azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.list_by_subscription
+  - azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.migrate
+  - azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.regenerate_key
+  - azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.update
+  class: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations
+  fullName: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.powerbiembedded.operations
+  name: WorkspaceCollectionsOperations
+  source:
+    id: WorkspaceCollectionsOperations
+    path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'WorkspaceCollectionsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations
+- _type: method
+  class: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations
+  fullName: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.check_name_availability
+  module: azure.mgmt.powerbiembedded.operations
+  name: check_name_availability
+  source:
+    id: check_name_availability
+    path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 321
+  summary: "Verify the specified Power BI Workspace Collection name is valid and\n\
+    not already in use.\n\n:param location: Azure location\n:type location: str\n\
+    :param name: Workspace collection name\n:type name: str\n:param type: Resource\
+    \ type\n:type type: str\n:param dict custom_headers: headers that will be added\
+    \ to the request\n:param bool raw: returns the direct response alongside the\n\
+    \ deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`CheckNameResponse\n\
+    \ <azure.mgmt.powerbiembedded.models.CheckNameResponse>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`ErrorException<azure.mgmt.powerbiembedded.models.ErrorException>`"
+  type: Method
+  uid: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.check_name_availability
+- _type: method
+  class: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations
+  fullName: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.create
+  module: azure.mgmt.powerbiembedded.operations
+  name: create
+  source:
+    id: create
+    path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 98
+  summary: "Creates a new Power BI Workspace Collection with the specified\nproperties.\
+    \ A Power BI Workspace Collection contains one or more\nworkspaces, and can be\
+    \ used to provision keys that provide API access\nto those workspaces.\n\n:param\
+    \ resource_group_name: Azure resource group\n:type resource_group_name: str\n\
+    :param workspace_collection_name: Power BI Embedded Workspace\n Collection name\n\
+    :type workspace_collection_name: str\n:param location: Azure location\n:type location:\
+    \ str\n:param tags:\n:type tags: dict\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`WorkspaceCollection\n\
+    \ <azure.mgmt.powerbiembedded.models.WorkspaceCollection>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`ErrorException<azure.mgmt.powerbiembedded.models.ErrorException>`"
+  type: Method
+  uid: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.create
+- _type: method
+  class: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations
+  fullName: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.delete
+  module: azure.mgmt.powerbiembedded.operations
+  name: delete
+  source:
+    id: delete
+    path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 244
+  summary: "Delete a Power BI Workspace Collection.\n\n:param resource_group_name:\
+    \ Azure resource group\n:type resource_group_name: str\n:param workspace_collection_name:\
+    \ Power BI Embedded Workspace\n Collection name\n:type workspace_collection_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`ErrorException<azure.mgmt.powerbiembedded.models.ErrorException>`"
+  type: Method
+  uid: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.delete
+- _type: method
+  class: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations
+  fullName: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.get_access_keys
+  module: azure.mgmt.powerbiembedded.operations
+  name: get_access_keys
+  source:
+    id: get_access_keys
+    path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 519
+  summary: "Retrieves the primary and secondary access keys for the specified\nPower\
+    \ BI Workspace Collection.\n\n:param resource_group_name: Azure resource group\n\
+    :type resource_group_name: str\n:param workspace_collection_name: Power BI Embedded\
+    \ Workspace\n Collection name\n:type workspace_collection_name: str\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ :class:`WorkspaceCollectionAccessKeys\n <azure.mgmt.powerbiembedded.models.WorkspaceCollectionAccessKeys>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`ErrorException<azure.mgmt.powerbiembedded.models.ErrorException>`"
+  type: Method
+  uid: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.get_access_keys
+- _type: method
+  class: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations
+  fullName: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.get_by_name
+  module: azure.mgmt.powerbiembedded.operations
+  name: get_by_name
+  source:
+    id: get_by_name
+    path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Retrieves an existing Power BI Workspace Collection.\n\n:param resource_group_name:\
+    \ Azure resource group\n:type resource_group_name: str\n:param workspace_collection_name:\
+    \ Power BI Embedded Workspace\n Collection name\n:type workspace_collection_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`WorkspaceCollection\n <azure.mgmt.powerbiembedded.models.WorkspaceCollection>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`ErrorException<azure.mgmt.powerbiembedded.models.ErrorException>`"
+  type: Method
+  uid: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.get_by_name
+- _type: method
+  class: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations
+  fullName: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.list_by_resource_group
+  module: azure.mgmt.powerbiembedded.operations
+  name: list_by_resource_group
+  source:
+    id: list_by_resource_group
+    path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 390
+  summary: "Retrieves all existing Power BI workspace collections in the specified\n\
+    resource group.\n\n:param resource_group_name: Azure resource group\n:type resource_group_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`WorkspaceCollectionPaged\n <azure.mgmt.powerbiembedded.models.WorkspaceCollectionPaged>`\n\
+    :raises:\n :class:`ErrorException<azure.mgmt.powerbiembedded.models.ErrorException>`"
+  type: Method
+  uid: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.list_by_resource_group
+- _type: method
+  class: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations
+  fullName: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.list_by_subscription
+  module: azure.mgmt.powerbiembedded.operations
+  name: list_by_subscription
+  source:
+    id: list_by_subscription
+    path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 456
+  summary: "Retrieves all existing Power BI workspace collections in the specified\n\
+    subscription.\n\n:param dict custom_headers: headers that will be added to the\
+    \ request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`WorkspaceCollectionPaged\n <azure.mgmt.powerbiembedded.models.WorkspaceCollectionPaged>`\n\
+    :raises:\n :class:`ErrorException<azure.mgmt.powerbiembedded.models.ErrorException>`"
+  type: Method
+  uid: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.list_by_subscription
+- _type: method
+  class: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations
+  fullName: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.migrate
+  module: azure.mgmt.powerbiembedded.operations
+  name: migrate
+  source:
+    id: migrate
+    path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 654
+  summary: "Migrates an existing Power BI Workspace Collection to a different\nresource\
+    \ group and/or subscription.\n\n:param resource_group_name: Azure resource group\n\
+    :type resource_group_name: str\n:param target_resource_group: Name of the resource\
+    \ group the Power BI\n workspace collections will be migrated to.\n:type target_resource_group:\
+    \ str\n:param resources:\n:type resources: list of str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`ErrorException<azure.mgmt.powerbiembedded.models.ErrorException>`"
+  type: Method
+  uid: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.migrate
+- _type: method
+  class: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations
+  fullName: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.regenerate_key
+  module: azure.mgmt.powerbiembedded.operations
+  name: regenerate_key
+  source:
+    id: regenerate_key
+    path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 582
+  summary: "Regenerates the primary or secondary access key for the specified\nPower\
+    \ BI Workspace Collection.\n\n:param resource_group_name: Azure resource group\n\
+    :type resource_group_name: str\n:param workspace_collection_name: Power BI Embedded\
+    \ Workspace\n Collection name\n:type workspace_collection_name: str\n:param key_name:\
+    \ Key name. Possible values include: 'key1', 'key2'\n:type key_name: str or :class:`AccessKeyName\n\
+    \ <azure.mgmt.powerbiembedded.models.AccessKeyName>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`WorkspaceCollectionAccessKeys\n\
+    \ <azure.mgmt.powerbiembedded.models.WorkspaceCollectionAccessKeys>`\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`ErrorException<azure.mgmt.powerbiembedded.models.ErrorException>`"
+  type: Method
+  uid: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.regenerate_key
+- _type: method
+  class: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations
+  fullName: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.update
+  module: azure.mgmt.powerbiembedded.operations
+  name: update
+  source:
+    id: update
+    path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 173
+  summary: "Update an existing Power BI Workspace Collection with the specified\n\
+    properties.\n\n:param resource_group_name: Azure resource group\n:type resource_group_name:\
+    \ str\n:param workspace_collection_name: Power BI Embedded Workspace\n Collection\
+    \ name\n:type workspace_collection_name: str\n:param tags:\n:type tags: dict\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`WorkspaceCollection\n <azure.mgmt.powerbiembedded.models.WorkspaceCollection>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`ErrorException<azure.mgmt.powerbiembedded.models.ErrorException>`"
+  type: Method
+  uid: azure.mgmt.powerbiembedded.operations.WorkspaceCollectionsOperations.update

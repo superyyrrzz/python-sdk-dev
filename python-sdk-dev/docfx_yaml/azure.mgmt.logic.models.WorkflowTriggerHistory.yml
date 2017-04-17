@@ -1,0 +1,41 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.WorkflowTriggerHistory
+  fullName: azure.mgmt.logic.models.WorkflowTriggerHistory
+  inheritance:
+  - azure.mgmt.logic.models.sub_resource.SubResource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: WorkflowTriggerHistory
+  source:
+    id: WorkflowTriggerHistory
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/workflow_trigger_history.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/workflow_trigger_history.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "WorkflowTriggerHistory.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:param id: The resource id.\n\
+    :type id: str\n:ivar start_time: Gets the start time.\n:vartype start_time: datetime\n\
+    :ivar end_time: Gets the end time.\n:vartype end_time: datetime\n:ivar status:\
+    \ Gets the status. Possible values include: 'NotSpecified',\n 'Paused', 'Running',\
+    \ 'Waiting', 'Succeeded', 'Skipped', 'Suspended',\n 'Cancelled', 'Failed', 'Faulted',\
+    \ 'TimedOut', 'Aborted', 'Ignored'\n:vartype status: str or :class:`WorkflowStatus\n\
+    \ <azure.mgmt.logic.models.WorkflowStatus>`\n:ivar code: Gets the code.\n:vartype\
+    \ code: str\n:ivar error: Gets the error.\n:vartype error: object\n:ivar tracking_id:\
+    \ Gets the tracking id.\n:vartype tracking_id: str\n:param correlation: The run\
+    \ correlation.\n:type correlation: :class:`Correlation\n <azure.mgmt.logic.models.Correlation>`\n\
+    :ivar inputs_link: Gets the link to input parameters.\n:vartype inputs_link: :class:`ContentLink\n\
+    \ <azure.mgmt.logic.models.ContentLink>`\n:ivar outputs_link: Gets the link to\
+    \ output parameters.\n:vartype outputs_link: :class:`ContentLink\n <azure.mgmt.logic.models.ContentLink>`\n\
+    :ivar fired: Gets a value indicating whether trigger was fired.\n:vartype fired:\
+    \ bool\n:ivar run: Gets the reference to workflow run.\n:vartype run: :class:`ResourceReference\n\
+    \ <azure.mgmt.logic.models.ResourceReference>`\n:ivar name: Gets the workflow\
+    \ trigger history name.\n:vartype name: str\n:ivar type: Gets the workflow trigger\
+    \ history type.\n:vartype type: str"
+  type: Class
+  uid: azure.mgmt.logic.models.WorkflowTriggerHistory

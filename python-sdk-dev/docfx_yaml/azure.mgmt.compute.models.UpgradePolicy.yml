@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.UpgradePolicy
+  fullName: azure.mgmt.compute.models.UpgradePolicy
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: UpgradePolicy
+  source:
+    id: UpgradePolicy
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/upgrade_policy.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/upgrade_policy.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Describes an upgrade policy - automatic or manual.\n\n:param mode: the\
+    \ upgrade mode. Possible values include: 'Automatic',\n 'Manual'\n:type mode:\
+    \ str or :class:`UpgradeMode\n <azure.mgmt.compute.models.UpgradeMode>`"
+  type: Class
+  uid: azure.mgmt.compute.models.UpgradePolicy

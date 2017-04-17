@@ -1,0 +1,35 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.devtestlabs.models.VirtualNetwork
+  fullName: azure.mgmt.devtestlabs.models.VirtualNetwork
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.devtestlabs.models
+  name: VirtualNetwork
+  source:
+    id: VirtualNetwork
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/virtual_network.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/virtual_network.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A virtual network.\n\n:param allowed_subnets: The allowed subnets of the\
+    \ virtual network.\n:type allowed_subnets: list of :class:`Subnet\n <azure.mgmt.devtestlabs.models.Subnet>`\n\
+    :param description: The description of the virtual network.\n:type description:\
+    \ str\n:param external_provider_resource_id: The Microsoft.Network resource\n\
+    \ identifier of the virtual network.\n:type external_provider_resource_id: str\n\
+    :param subnet_overrides: The subnet overrides of the virtual network.\n:type subnet_overrides:\
+    \ list of :class:`SubnetOverride\n <azure.mgmt.devtestlabs.models.SubnetOverride>`\n\
+    :param provisioning_state: The provisioning status of the resource.\n:type provisioning_state:\
+    \ str\n:param unique_identifier: The unique immutable identifier of a resource\n\
+    \ (Guid).\n:type unique_identifier: str\n:param id: The identifier of the resource.\n\
+    :type id: str\n:param name: The name of the resource.\n:type name: str\n:param\
+    \ type: The type of the resource.\n:type type: str\n:param location: The location\
+    \ of the resource.\n:type location: str\n:param tags: The tags of the resource.\n\
+    :type tags: dict"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.VirtualNetwork

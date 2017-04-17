@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.devtestlabs.models.WeekDetails
+  fullName: azure.mgmt.devtestlabs.models.WeekDetails
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.devtestlabs.models
+  name: WeekDetails
+  source:
+    id: WeekDetails
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/week_details.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/week_details.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Properties of a weekly schedule.
+
+
+    :param weekdays: The days of the week.
+
+    :type weekdays: list of str
+
+    :param time: The time of the day.
+
+    :type time: str'
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.WeekDetails

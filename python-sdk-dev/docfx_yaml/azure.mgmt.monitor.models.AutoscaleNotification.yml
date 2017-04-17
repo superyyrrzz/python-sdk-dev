@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.monitor.models.AutoscaleNotification
+  fullName: azure.mgmt.monitor.models.AutoscaleNotification
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.monitor.models
+  name: AutoscaleNotification
+  source:
+    id: AutoscaleNotification
+    path: azure-mgmt-monitor/azure/mgmt/monitor/models/autoscale_notification.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/models/autoscale_notification.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Autoscale notification.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:ivar operation: the operation\
+    \ associated with the notification and its\n value must be \"scale\". Default\
+    \ value: \"Scale\" .\n:vartype operation: str\n:param email: the email notification.\n\
+    :type email: :class:`EmailNotification\n <azure.mgmt.monitor.models.EmailNotification>`\n\
+    :param webhooks: the collection of webhook notifications.\n:type webhooks: list\
+    \ of :class:`WebhookNotification\n <azure.mgmt.monitor.models.WebhookNotification>`"
+  type: Class
+  uid: azure.mgmt.monitor.models.AutoscaleNotification

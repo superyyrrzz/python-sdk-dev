@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.iothub.models.MessagingEndpointProperties
+  fullName: azure.mgmt.iothub.models.MessagingEndpointProperties
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.iothub.models
+  name: MessagingEndpointProperties
+  source:
+    id: MessagingEndpointProperties
+    path: azure-mgmt-iothub/azure/mgmt/iothub/models/messaging_endpoint_properties.py
+    remote:
+      branch: master
+      path: azure-mgmt-iothub/azure/mgmt/iothub/models/messaging_endpoint_properties.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The properties of the messaging endpoints used by this IoT hub.\n\n:param\
+    \ lock_duration_as_iso8601: The lock duration. See:\n https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-file-upload.\n\
+    :type lock_duration_as_iso8601: timedelta\n:param ttl_as_iso8601: The period of\
+    \ time for which a message is available\n to consume before it is expired by the\
+    \ IoT hub. See:\n https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-file-upload.\n\
+    :type ttl_as_iso8601: timedelta\n:param max_delivery_count: The number of times\
+    \ the IoT hub attempts to\n deliver a message. See:\n https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-file-upload.\n\
+    :type max_delivery_count: int"
+  type: Class
+  uid: azure.mgmt.iothub.models.MessagingEndpointProperties

@@ -1,0 +1,42 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.EdifactAcknowledgementSettings
+  fullName: azure.mgmt.logic.models.EdifactAcknowledgementSettings
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: EdifactAcknowledgementSettings
+  source:
+    id: EdifactAcknowledgementSettings
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/edifact_acknowledgement_settings.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/edifact_acknowledgement_settings.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "EdifactAcknowledgementSettings.\n\n:param need_technical_acknowledgement:\
+    \ The value indicating whether\n technical acknowledgement is needed.\n:type need_technical_acknowledgement:\
+    \ bool\n:param batch_technical_acknowledgements: The value indicating whether\
+    \ to\n batch the technical acknowledgements.\n:type batch_technical_acknowledgements:\
+    \ bool\n:param need_functional_acknowledgement: The value indicating whether\n\
+    \ functional acknowledgement is needed.\n:type need_functional_acknowledgement:\
+    \ bool\n:param batch_functional_acknowledgements: The value indicating whether\
+    \ to\n batch functional acknowledgements.\n:type batch_functional_acknowledgements:\
+    \ bool\n:param need_loop_for_valid_messages: The value indicating whether a loop\n\
+    \ is needed for valid messages.\n:type need_loop_for_valid_messages: bool\n:param\
+    \ send_synchronous_acknowledgement: The value indicating whether to\n send synchronous\
+    \ acknowledgement.\n:type send_synchronous_acknowledgement: bool\n:param acknowledgement_control_number_prefix:\
+    \ The acknowledgement control\n number prefix.\n:type acknowledgement_control_number_prefix:\
+    \ str\n:param acknowledgement_control_number_suffix: The acknowledgement control\n\
+    \ number suffix.\n:type acknowledgement_control_number_suffix: str\n:param acknowledgement_control_number_lower_bound:\
+    \ The acknowledgement\n control number lower bound.\n:type acknowledgement_control_number_lower_bound:\
+    \ int\n:param acknowledgement_control_number_upper_bound: The acknowledgement\n\
+    \ control number upper bound.\n:type acknowledgement_control_number_upper_bound:\
+    \ int\n:param rollover_acknowledgement_control_number: The value indicating\n\
+    \ whether to rollover acknowledgement control number.\n:type rollover_acknowledgement_control_number:\
+    \ bool"
+  type: Class
+  uid: azure.mgmt.logic.models.EdifactAcknowledgementSettings

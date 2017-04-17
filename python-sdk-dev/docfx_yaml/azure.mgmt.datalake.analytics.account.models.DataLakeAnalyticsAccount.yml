@@ -1,0 +1,67 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccount
+  fullName: azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccount
+  inheritance:
+  - azure.mgmt.datalake.analytics.account.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.datalake.analytics.account.models
+  name: DataLakeAnalyticsAccount
+  source:
+    id: DataLakeAnalyticsAccount
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/models/data_lake_analytics_account.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/models/data_lake_analytics_account.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A Data Lake Analytics account object, containing all information associated\n\
+    with the named Data Lake Analytics account.\n\nVariables are only populated by\
+    \ the server, and will be ignored when\nsending a request.\n\n:ivar id: Resource\
+    \ Id\n:vartype id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type:\
+    \ Resource type\n:vartype type: str\n:param location: Resource location\n:type\
+    \ location: str\n:param tags: Resource tags\n:type tags: dict\n:ivar provisioning_state:\
+    \ the provisioning status of the Data Lake\n Analytics account. Possible values\
+    \ include: 'Failed', 'Creating',\n 'Running', 'Succeeded', 'Patching', 'Suspending',\
+    \ 'Resuming', 'Deleting',\n 'Deleted'\n:vartype provisioning_state: str or :class:`DataLakeAnalyticsAccountStatus\n\
+    \ <azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccountStatus>`\n\
+    :ivar state: the state of the Data Lake Analytics account. Possible values\n include:\
+    \ 'Active', 'Suspended'\n:vartype state: str or :class:`DataLakeAnalyticsAccountState\n\
+    \ <azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccountState>`\n\
+    :param default_data_lake_store_account: the default data lake storage\n account\
+    \ associated with this Data Lake Analytics account.\n:type default_data_lake_store_account:\
+    \ str\n:param max_degree_of_parallelism: the maximum supported degree of\n parallelism\
+    \ for this account. Default value: 30 .\n:type max_degree_of_parallelism: int\n\
+    :param query_store_retention: the number of days that job metadata is\n retained.\
+    \ Default value: 30 .\n:type query_store_retention: int\n:param max_job_count:\
+    \ the maximum supported jobs running under the account\n at the same time. Default\
+    \ value: 3 .\n:type max_job_count: int\n:ivar system_max_degree_of_parallelism:\
+    \ the system defined maximum\n supported degree of parallelism for this account,\
+    \ which restricts the\n maximum value of parallelism the user can set for the\
+    \ account..\n:vartype system_max_degree_of_parallelism: int\n:ivar system_max_job_count:\
+    \ the system defined maximum supported jobs\n running under the account at the\
+    \ same time, which restricts the maximum\n number of running jobs the user can\
+    \ set for the account.\n:vartype system_max_job_count: int\n:param data_lake_store_accounts:\
+    \ the list of Data Lake storage accounts\n associated with this account.\n:type\
+    \ data_lake_store_accounts: list of :class:`DataLakeStoreAccountInfo\n <azure.mgmt.datalake.analytics.account.models.DataLakeStoreAccountInfo>`\n\
+    :param storage_accounts: the list of Azure Blob storage accounts\n associated\
+    \ with this account.\n:type storage_accounts: list of :class:`StorageAccountInfo\n\
+    \ <azure.mgmt.datalake.analytics.account.models.StorageAccountInfo>`\n:ivar creation_time:\
+    \ the account creation time.\n:vartype creation_time: datetime\n:ivar last_modified_time:\
+    \ the account last modified time.\n:vartype last_modified_time: datetime\n:ivar\
+    \ endpoint: the full CName endpoint for this account.\n:vartype endpoint: str\n\
+    :param new_tier: the commitment tier for the next month. Possible values\n include:\
+    \ 'Consumption', 'Commitment_100AUHours', 'Commitment_500AUHours',\n 'Commitment_1000AUHours',\
+    \ 'Commitment_5000AUHours',\n 'Commitment_10000AUHours', 'Commitment_50000AUHours',\n\
+    \ 'Commitment_100000AUHours', 'Commitment_500000AUHours'\n:type new_tier: str\
+    \ or :class:`TierType\n <azure.mgmt.datalake.analytics.account.models.TierType>`\n\
+    :ivar current_tier: the commitment tier in use for the current month.\n Possible\
+    \ values include: 'Consumption', 'Commitment_100AUHours',\n 'Commitment_500AUHours',\
+    \ 'Commitment_1000AUHours',\n 'Commitment_5000AUHours', 'Commitment_10000AUHours',\n\
+    \ 'Commitment_50000AUHours', 'Commitment_100000AUHours',\n 'Commitment_500000AUHours'\n\
+    :vartype current_tier: str or :class:`TierType\n <azure.mgmt.datalake.analytics.account.models.TierType>`"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccount

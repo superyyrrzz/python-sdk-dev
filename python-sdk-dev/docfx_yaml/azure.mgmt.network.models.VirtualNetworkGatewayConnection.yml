@@ -1,0 +1,51 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.VirtualNetworkGatewayConnection
+  fullName: azure.mgmt.network.models.VirtualNetworkGatewayConnection
+  inheritance:
+  - azure.mgmt.network.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: VirtualNetworkGatewayConnection
+  source:
+    id: VirtualNetworkGatewayConnection
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/virtual_network_gateway_connection.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/virtual_network_gateway_connection.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A common class for general resource information.\n\nVariables are only\
+    \ populated by the server, and will be ignored when\nsending a request.\n\n:param\
+    \ id: Resource Id\n:type id: str\n:ivar name: Resource name\n:vartype name: str\n\
+    :ivar type: Resource type\n:vartype type: str\n:param location: Resource location\n\
+    :type location: str\n:param tags: Resource tags\n:type tags: dict\n:param authorization_key:\
+    \ The authorizationKey.\n:type authorization_key: str\n:param virtual_network_gateway1:\n\
+    :type virtual_network_gateway1: :class:`VirtualNetworkGateway\n <azure.mgmt.network.models.VirtualNetworkGateway>`\n\
+    :param virtual_network_gateway2:\n:type virtual_network_gateway2: :class:`VirtualNetworkGateway\n\
+    \ <azure.mgmt.network.models.VirtualNetworkGateway>`\n:param local_network_gateway2:\n\
+    :type local_network_gateway2: :class:`LocalNetworkGateway\n <azure.mgmt.network.models.LocalNetworkGateway>`\n\
+    :param connection_type: Gateway connection type\n -Ipsec/Dedicated/VpnClient/Vnet2Vnet.\
+    \ Possible values include: 'IPsec',\n 'Vnet2Vnet', 'ExpressRoute', 'VPNClient'\n\
+    :type connection_type: str or :class:`VirtualNetworkGatewayConnectionType\n <azure.mgmt.network.models.VirtualNetworkGatewayConnectionType>`\n\
+    :param routing_weight: The Routing weight.\n:type routing_weight: int\n:param\
+    \ shared_key: The Ipsec share key.\n:type shared_key: str\n:param connection_status:\
+    \ Virtual network Gateway connection status.\n Possible values include: 'Unknown',\
+    \ 'Connecting', 'Connected',\n 'NotConnected'\n:type connection_status: str or\n\
+    \ :class:`VirtualNetworkGatewayConnectionStatus\n <azure.mgmt.network.models.VirtualNetworkGatewayConnectionStatus>`\n\
+    :param egress_bytes_transferred: The Egress Bytes Transferred in this\n connection\n\
+    :type egress_bytes_transferred: long\n:param ingress_bytes_transferred: The Ingress\
+    \ Bytes Transferred in this\n connection\n:type ingress_bytes_transferred: long\n\
+    :param peer: The reference to peerings resource.\n:type peer: :class:`SubResource\
+    \ <azure.mgmt.network.models.SubResource>`\n:param enable_bgp: EnableBgp Flag\n\
+    :type enable_bgp: bool\n:param resource_guid: Gets or sets resource guid property\
+    \ of the\n VirtualNetworkGatewayConnection resource\n:type resource_guid: str\n\
+    :param provisioning_state: Gets provisioning state of the\n VirtualNetworkGatewayConnection\
+    \ resource Updating/Deleting/Failed\n:type provisioning_state: str\n:param etag:\
+    \ Gets a unique read-only string that changes whenever the\n resource is updated\n\
+    :type etag: str"
+  type: Class
+  uid: azure.mgmt.network.models.VirtualNetworkGatewayConnection

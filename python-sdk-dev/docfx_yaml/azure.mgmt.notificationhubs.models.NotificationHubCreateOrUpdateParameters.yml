@@ -1,0 +1,46 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.notificationhubs.models.NotificationHubCreateOrUpdateParameters
+  fullName: azure.mgmt.notificationhubs.models.NotificationHubCreateOrUpdateParameters
+  inheritance:
+  - azure.mgmt.notificationhubs.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.notificationhubs.models
+  name: NotificationHubCreateOrUpdateParameters
+  source:
+    id: NotificationHubCreateOrUpdateParameters
+    path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/models/notification_hub_create_or_update_parameters.py
+    remote:
+      branch: master
+      path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/models/notification_hub_create_or_update_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Parameters supplied to the CreateOrUpdate NotificationHub operation.\n\
+    \nVariables are only populated by the server, and will be ignored when\nsending\
+    \ a request.\n\n:ivar id: Resource Id\n:vartype id: str\n:ivar name: Resource\
+    \ name\n:vartype name: str\n:ivar type: Resource type\n:vartype type: str\n:param\
+    \ location: Resource location\n:type location: str\n:param tags: Resource tags\n\
+    :type tags: dict\n:param sku: The sku of the created namespace\n:type sku: :class:`Sku\
+    \ <azure.mgmt.notificationhubs.models.Sku>`\n:param notification_hub_create_or_update_parameters_name:\
+    \ The\n NotificationHub name.\n:type notification_hub_create_or_update_parameters_name:\
+    \ str\n:param registration_ttl: The RegistrationTtl of the created\n NotificationHub\n\
+    :type registration_ttl: str\n:param authorization_rules: The AuthorizationRules\
+    \ of the created\n NotificationHub\n:type authorization_rules: list of\n :class:`SharedAccessAuthorizationRuleProperties\n\
+    \ <azure.mgmt.notificationhubs.models.SharedAccessAuthorizationRuleProperties>`\n\
+    :param apns_credential: The ApnsCredential of the created NotificationHub\n:type\
+    \ apns_credential: :class:`ApnsCredential\n <azure.mgmt.notificationhubs.models.ApnsCredential>`\n\
+    :param wns_credential: The WnsCredential of the created NotificationHub\n:type\
+    \ wns_credential: :class:`WnsCredential\n <azure.mgmt.notificationhubs.models.WnsCredential>`\n\
+    :param gcm_credential: The GcmCredential of the created NotificationHub\n:type\
+    \ gcm_credential: :class:`GcmCredential\n <azure.mgmt.notificationhubs.models.GcmCredential>`\n\
+    :param mpns_credential: The MpnsCredential of the created NotificationHub\n:type\
+    \ mpns_credential: :class:`MpnsCredential\n <azure.mgmt.notificationhubs.models.MpnsCredential>`\n\
+    :param adm_credential: The AdmCredential of the created NotificationHub\n:type\
+    \ adm_credential: :class:`AdmCredential\n <azure.mgmt.notificationhubs.models.AdmCredential>`\n\
+    :param baidu_credential: The BaiduCredential of the created\n NotificationHub\n\
+    :type baidu_credential: :class:`BaiduCredential\n <azure.mgmt.notificationhubs.models.BaiduCredential>`"
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.NotificationHubCreateOrUpdateParameters

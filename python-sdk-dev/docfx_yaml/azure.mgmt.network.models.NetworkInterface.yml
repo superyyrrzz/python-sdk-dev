@@ -1,0 +1,45 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.NetworkInterface
+  fullName: azure.mgmt.network.models.NetworkInterface
+  inheritance:
+  - azure.mgmt.network.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: NetworkInterface
+  source:
+    id: NetworkInterface
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/network_interface.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/network_interface.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A NetworkInterface in a resource group.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:param id: Resource\
+    \ Id\n:type id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type:\
+    \ Resource type\n:vartype type: str\n:param location: Resource location\n:type\
+    \ location: str\n:param tags: Resource tags\n:type tags: dict\n:param virtual_machine:\
+    \ Gets or sets the reference of a VirtualMachine\n:type virtual_machine: :class:`SubResource\n\
+    \ <azure.mgmt.network.models.SubResource>`\n:param network_security_group: Gets\
+    \ or sets the reference of the\n NetworkSecurityGroup resource\n:type network_security_group:\
+    \ :class:`NetworkSecurityGroup\n <azure.mgmt.network.models.NetworkSecurityGroup>`\n\
+    :param ip_configurations: Gets or sets list of IPConfigurations of the\n network\
+    \ interface\n:type ip_configurations: list of :class:`NetworkInterfaceIPConfiguration\n\
+    \ <azure.mgmt.network.models.NetworkInterfaceIPConfiguration>`\n:param dns_settings:\
+    \ Gets or sets DNS settings in network interface\n:type dns_settings: :class:`NetworkInterfaceDnsSettings\n\
+    \ <azure.mgmt.network.models.NetworkInterfaceDnsSettings>`\n:param mac_address:\
+    \ Gets the MAC address of the network interface\n:type mac_address: str\n:param\
+    \ primary: Gets whether this is a primary NIC on a virtual machine\n:type primary:\
+    \ bool\n:param enable_ip_forwarding: Gets or sets whether IPForwarding is enabled\n\
+    \ on the NIC\n:type enable_ip_forwarding: bool\n:param resource_guid: Gets or\
+    \ sets resource guid property of the network\n interface resource\n:type resource_guid:\
+    \ str\n:param provisioning_state: Gets provisioning state of the PublicIP\n resource\
+    \ Updating/Deleting/Failed\n:type provisioning_state: str\n:param etag: Gets a\
+    \ unique read-only string that changes whenever the\n resource is updated\n:type\
+    \ etag: str"
+  type: Class
+  uid: azure.mgmt.network.models.NetworkInterface

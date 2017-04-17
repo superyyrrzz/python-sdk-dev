@@ -1,0 +1,32 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.NetworkFeatures
+  fullName: azure.mgmt.web.models.NetworkFeatures
+  inheritance:
+  - azure.mgmt.web.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: NetworkFeatures
+  source:
+    id: NetworkFeatures
+    path: azure-mgmt-web/azure/mgmt/web/models/network_features.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/network_features.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "This is an object used to store a full view of network features (presently\n\
+    VNET integration and Hybrid Connections)\nfor a web app.\n\n:param id: Resource\
+    \ Id\n:type id: str\n:param name: Resource Name\n:type name: str\n:param kind:\
+    \ Kind of resource\n:type kind: str\n:param location: Resource Location\n:type\
+    \ location: str\n:param type: Resource type\n:type type: str\n:param tags: Resource\
+    \ tags\n:type tags: dict\n:param virtual_network_name: The Vnet Name\n:type virtual_network_name:\
+    \ str\n:param virtual_network_connection: The Vnet Summary view\n:type virtual_network_connection:\
+    \ :class:`VnetInfo\n <azure.mgmt.web.models.VnetInfo>`\n:param hybrid_connections:\
+    \ The Hybrid Connections Summary view\n:type hybrid_connections: list of :class:`RelayServiceConnectionEntity\n\
+    \ <azure.mgmt.web.models.RelayServiceConnectionEntity>`"
+  type: Class
+  uid: azure.mgmt.web.models.NetworkFeatures

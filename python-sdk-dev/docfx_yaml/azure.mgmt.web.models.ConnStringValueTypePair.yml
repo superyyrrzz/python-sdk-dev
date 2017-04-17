@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.ConnStringValueTypePair
+  fullName: azure.mgmt.web.models.ConnStringValueTypePair
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: ConnStringValueTypePair
+  source:
+    id: ConnStringValueTypePair
+    path: azure-mgmt-web/azure/mgmt/web/models/conn_string_value_type_pair.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/conn_string_value_type_pair.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Database connection string value to type pair.\n\n:param value: Value\
+    \ of pair\n:type value: str\n:param type: Type of database. Possible values include:\
+    \ 'MySql',\n 'SQLServer', 'SQLAzure', 'Custom'\n:type type: str or :class:`DatabaseServerType\n\
+    \ <azure.mgmt.web.models.DatabaseServerType>`"
+  type: Class
+  uid: azure.mgmt.web.models.ConnStringValueTypePair

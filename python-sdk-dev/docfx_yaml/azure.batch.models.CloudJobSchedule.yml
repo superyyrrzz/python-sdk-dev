@@ -1,0 +1,49 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.CloudJobSchedule
+  fullName: azure.batch.models.CloudJobSchedule
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: CloudJobSchedule
+  source:
+    id: CloudJobSchedule
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/cloud_job_schedule.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/cloud_job_schedule.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A job schedule that allows recurring jobs by specifying when to run jobs\n\
+    and a specification used to create each job.\n\n:param id: A string that uniquely\
+    \ identifies the schedule within the\n account. It is common to use a GUID for\
+    \ the id.\n:type id: str\n:param display_name: The display name for the schedule.\n\
+    :type display_name: str\n:param url: The URL of the job schedule.\n:type url:\
+    \ str\n:param e_tag: The ETag of the job schedule.\n:type e_tag: str\n:param last_modified:\
+    \ The last modified time of the job schedule.\n:type last_modified: datetime\n\
+    :param creation_time: The creation time of the job schedule.\n:type creation_time:\
+    \ datetime\n:param state: The current state of the job schedule. Possible values\n\
+    \ include: 'active', 'completed', 'disabled', 'terminating', 'deleting'\n:type\
+    \ state: str or :class:`JobScheduleState\n <azure.batch.models.JobScheduleState>`\n\
+    :param state_transition_time: The time at which the job schedule entered\n the\
+    \ current state.\n:type state_transition_time: datetime\n:param previous_state:\
+    \ The previous state of the job schedule. Possible\n values include: 'active',\
+    \ 'completed', 'disabled', 'terminating',\n 'deleting'\n:type previous_state:\
+    \ str or :class:`JobScheduleState\n <azure.batch.models.JobScheduleState>`\n:param\
+    \ previous_state_transition_time: The time at which the job schedule\n entered\
+    \ its previous state.\n:type previous_state_transition_time: datetime\n:param\
+    \ schedule: The schedule according to which jobs will be created.\n:type schedule:\
+    \ :class:`Schedule <azure.batch.models.Schedule>`\n:param job_specification: The\
+    \ details of the jobs to be created on this\n schedule.\n:type job_specification:\
+    \ :class:`JobSpecification\n <azure.batch.models.JobSpecification>`\n:param execution_info:\
+    \ Information about jobs that have been and will be\n run under this schedule.\n\
+    :type execution_info: :class:`JobScheduleExecutionInformation\n <azure.batch.models.JobScheduleExecutionInformation>`\n\
+    :param metadata: A list of name-value pairs associated with the schedule\n as\
+    \ metadata.\n:type metadata: list of :class:`MetadataItem\n <azure.batch.models.MetadataItem>`\n\
+    :param stats: The lifetime resource usage statistics for the job schedule.\n:type\
+    \ stats: :class:`JobScheduleStatistics\n <azure.batch.models.JobScheduleStatistics>`"
+  type: Class
+  uid: azure.batch.models.CloudJobSchedule

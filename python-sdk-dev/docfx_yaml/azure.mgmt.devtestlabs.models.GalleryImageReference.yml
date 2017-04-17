@@ -1,0 +1,43 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.devtestlabs.models.GalleryImageReference
+  fullName: azure.mgmt.devtestlabs.models.GalleryImageReference
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.devtestlabs.models
+  name: GalleryImageReference
+  source:
+    id: GalleryImageReference
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/gallery_image_reference.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/gallery_image_reference.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'The reference information for an Azure Marketplace image.
+
+
+    :param offer: The offer of the gallery image.
+
+    :type offer: str
+
+    :param publisher: The publisher of the gallery image.
+
+    :type publisher: str
+
+    :param sku: The SKU of the gallery image.
+
+    :type sku: str
+
+    :param os_type: The OS type of the gallery image.
+
+    :type os_type: str
+
+    :param version: The version of the gallery image.
+
+    :type version: str'
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.GalleryImageReference

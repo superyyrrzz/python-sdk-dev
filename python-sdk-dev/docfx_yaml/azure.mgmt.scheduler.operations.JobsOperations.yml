@@ -1,0 +1,207 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.scheduler.operations.JobsOperations.create_or_update
+  - azure.mgmt.scheduler.operations.JobsOperations.delete
+  - azure.mgmt.scheduler.operations.JobsOperations.get
+  - azure.mgmt.scheduler.operations.JobsOperations.list
+  - azure.mgmt.scheduler.operations.JobsOperations.list_job_history
+  - azure.mgmt.scheduler.operations.JobsOperations.patch
+  - azure.mgmt.scheduler.operations.JobsOperations.run
+  class: azure.mgmt.scheduler.operations.JobsOperations
+  fullName: azure.mgmt.scheduler.operations.JobsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.scheduler.operations
+  name: JobsOperations
+  source:
+    id: JobsOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/operations/jobs_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/operations/jobs_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'JobsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.scheduler.operations.JobsOperations
+- _type: method
+  class: azure.mgmt.scheduler.operations.JobsOperations
+  fullName: azure.mgmt.scheduler.operations.JobsOperations.create_or_update
+  module: azure.mgmt.scheduler.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/operations/jobs_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/operations/jobs_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 100
+  summary: "Provisions a new job or updates an existing job.\n\n:param resource_group_name:\
+    \ The resource group name.\n:type resource_group_name: str\n:param job_collection_name:\
+    \ The job collection name.\n:type job_collection_name: str\n:param job_name: The\
+    \ job name.\n:type job_name: str\n:param job: The job definition.\n:type job:\
+    \ :class:`JobDefinition\n <azure.mgmt.scheduler.models.JobDefinition>`\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`JobDefinition\n <azure.mgmt.scheduler.models.JobDefinition>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.scheduler.operations.JobsOperations.create_or_update
+- _type: method
+  class: azure.mgmt.scheduler.operations.JobsOperations
+  fullName: azure.mgmt.scheduler.operations.JobsOperations.delete
+  module: azure.mgmt.scheduler.operations
+  name: delete
+  source:
+    id: delete
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/operations/jobs_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/operations/jobs_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 244
+  summary: "Deletes a job.\n\n:param resource_group_name: The resource group name.\n\
+    :type resource_group_name: str\n:param job_collection_name: The job collection\
+    \ name.\n:type job_collection_name: str\n:param job_name: The job name.\n:type\
+    \ job_name: str\n:param dict custom_headers: headers that will be added to the\
+    \ request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.scheduler.operations.JobsOperations.delete
+- _type: method
+  class: azure.mgmt.scheduler.operations.JobsOperations
+  fullName: azure.mgmt.scheduler.operations.JobsOperations.get
+  module: azure.mgmt.scheduler.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/operations/jobs_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/operations/jobs_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Gets a job.\n\n:param resource_group_name: The resource group name.\n\
+    :type resource_group_name: str\n:param job_collection_name: The job collection\
+    \ name.\n:type job_collection_name: str\n:param job_name: The job name.\n:type\
+    \ job_name: str\n:param dict custom_headers: headers that will be added to the\
+    \ request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`JobDefinition\n <azure.mgmt.scheduler.models.JobDefinition>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.scheduler.operations.JobsOperations.get
+- _type: method
+  class: azure.mgmt.scheduler.operations.JobsOperations
+  fullName: azure.mgmt.scheduler.operations.JobsOperations.list
+  module: azure.mgmt.scheduler.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/operations/jobs_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/operations/jobs_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 356
+  summary: "Lists all jobs under the specified job collection.\n\n:param resource_group_name:\
+    \ The resource group name.\n:type resource_group_name: str\n:param job_collection_name:\
+    \ The job collection name.\n:type job_collection_name: str\n:param top: The number\
+    \ of jobs to request, in the of range [1..100].\n:type top: int\n:param skip:\
+    \ The (0-based) index of the job history list from which\n to begin requesting\
+    \ entries.\n:type skip: int\n:param filter: The filter to apply on the job state.\n\
+    :type filter: str\n:param dict custom_headers: headers that will be added to the\
+    \ request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`JobDefinitionPaged\n <azure.mgmt.scheduler.models.JobDefinitionPaged>`"
+  type: Method
+  uid: azure.mgmt.scheduler.operations.JobsOperations.list
+- _type: method
+  class: azure.mgmt.scheduler.operations.JobsOperations
+  fullName: azure.mgmt.scheduler.operations.JobsOperations.list_job_history
+  module: azure.mgmt.scheduler.operations
+  name: list_job_history
+  source:
+    id: list_job_history
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/operations/jobs_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/operations/jobs_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 437
+  summary: "Lists job history.\n\n:param resource_group_name: The resource group name.\n\
+    :type resource_group_name: str\n:param job_collection_name: The job collection\
+    \ name.\n:type job_collection_name: str\n:param job_name: The job name.\n:type\
+    \ job_name: str\n:param top: the number of job history to request, in the of range\n\
+    \ [1..100].\n:type top: int\n:param skip: The (0-based) index of the job history\
+    \ list from which\n to begin requesting entries.\n:type skip: int\n:param filter:\
+    \ The filter to apply on the job state.\n:type filter: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`JobHistoryDefinitionPaged\n\
+    \ <azure.mgmt.scheduler.models.JobHistoryDefinitionPaged>`"
+  type: Method
+  uid: azure.mgmt.scheduler.operations.JobsOperations.list_job_history
+- _type: method
+  class: azure.mgmt.scheduler.operations.JobsOperations
+  fullName: azure.mgmt.scheduler.operations.JobsOperations.patch
+  module: azure.mgmt.scheduler.operations
+  name: patch
+  source:
+    id: patch
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/operations/jobs_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/operations/jobs_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 173
+  summary: "Patches an existing job.\n\n:param resource_group_name: The resource group\
+    \ name.\n:type resource_group_name: str\n:param job_collection_name: The job collection\
+    \ name.\n:type job_collection_name: str\n:param job_name: The job name.\n:type\
+    \ job_name: str\n:param job: The job definition.\n:type job: :class:`JobDefinition\n\
+    \ <azure.mgmt.scheduler.models.JobDefinition>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`JobDefinition\n\
+    \ <azure.mgmt.scheduler.models.JobDefinition>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.scheduler.operations.JobsOperations.patch
+- _type: method
+  class: azure.mgmt.scheduler.operations.JobsOperations
+  fullName: azure.mgmt.scheduler.operations.JobsOperations.run
+  module: azure.mgmt.scheduler.operations
+  name: run
+  source:
+    id: run
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/operations/jobs_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/operations/jobs_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 300
+  summary: "Runs a job.\n\n:param resource_group_name: The resource group name.\n\
+    :type resource_group_name: str\n:param job_collection_name: The job collection\
+    \ name.\n:type job_collection_name: str\n:param job_name: The job name.\n:type\
+    \ job_name: str\n:param dict custom_headers: headers that will be added to the\
+    \ request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.scheduler.operations.JobsOperations.run

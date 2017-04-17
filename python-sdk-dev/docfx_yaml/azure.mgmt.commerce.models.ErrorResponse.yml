@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.commerce.models.ErrorResponse
+  fullName: azure.mgmt.commerce.models.ErrorResponse
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.commerce.models
+  name: ErrorResponse
+  source:
+    id: ErrorResponse
+    path: azure-mgmt-commerce/azure/mgmt/commerce/models/error_response.py
+    remote:
+      branch: master
+      path: azure-mgmt-commerce/azure/mgmt/commerce/models/error_response.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 16
+  summary: 'Describes ehe format of Error response.
+
+
+    :param code: Error code
+
+    :type code: str
+
+    :param message: Error message indicating why the operation failed.
+
+    :type message: str'
+  type: Class
+  uid: azure.mgmt.commerce.models.ErrorResponse

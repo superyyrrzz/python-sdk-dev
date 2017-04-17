@@ -1,0 +1,30 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.iothub.models.FeedbackProperties
+  fullName: azure.mgmt.iothub.models.FeedbackProperties
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.iothub.models
+  name: FeedbackProperties
+  source:
+    id: FeedbackProperties
+    path: azure-mgmt-iothub/azure/mgmt/iothub/models/feedback_properties.py
+    remote:
+      branch: master
+      path: azure-mgmt-iothub/azure/mgmt/iothub/models/feedback_properties.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The properties of the feedback queue for cloud-to-device messages.\n\n\
+    :param lock_duration_as_iso8601: The lock duration for the feedback queue.\n See:\n\
+    \ https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messaging#cloud-to-device-messages.\n\
+    :type lock_duration_as_iso8601: timedelta\n:param ttl_as_iso8601: The period of\
+    \ time for which a message is available\n to consume before it is expired by the\
+    \ IoT hub. See:\n https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messaging#cloud-to-device-messages.\n\
+    :type ttl_as_iso8601: timedelta\n:param max_delivery_count: The number of times\
+    \ the IoT hub attempts to\n deliver a message on the feedback queue. See:\n https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messaging#cloud-to-device-messages.\n\
+    :type max_delivery_count: int"
+  type: Class
+  uid: azure.mgmt.iothub.models.FeedbackProperties

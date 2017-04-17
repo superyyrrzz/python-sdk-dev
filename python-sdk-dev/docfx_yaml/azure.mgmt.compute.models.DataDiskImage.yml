@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.DataDiskImage
+  fullName: azure.mgmt.compute.models.DataDiskImage
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: DataDiskImage
+  source:
+    id: DataDiskImage
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/data_disk_image.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/data_disk_image.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Contains the data disk images information.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar lun: the\
+    \ LUN number for a data disk.This value is used to identify\n data disk image\
+    \ inside the VMImage therefore it must be unique for each\n data disk.The allowed\
+    \ character for the value is digit.\n:vartype lun: int"
+  type: Class
+  uid: azure.mgmt.compute.models.DataDiskImage

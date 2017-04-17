@@ -1,0 +1,37 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.StampCapacity
+  fullName: azure.mgmt.web.models.StampCapacity
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: StampCapacity
+  source:
+    id: StampCapacity
+    path: azure-mgmt-web/azure/mgmt/web/models/stamp_capacity.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/stamp_capacity.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Class containing stamp capacity information.\n\n:param name: Name of the\
+    \ stamp\n:type name: str\n:param available_capacity: Available capacity (# of\
+    \ machines, bytes of\n storage etc...)\n:type available_capacity: long\n:param\
+    \ total_capacity: Total capacity (# of machines, bytes of storage\n etc...)\n\
+    :type total_capacity: long\n:param unit: Name of the unit\n:type unit: str\n:param\
+    \ compute_mode: Shared/Dedicated workers. Possible values include:\n 'Shared',\
+    \ 'Dedicated', 'Dynamic'\n:type compute_mode: str or :class:`ComputeModeOptions\n\
+    \ <azure.mgmt.web.models.ComputeModeOptions>`\n:param worker_size: Size of the\
+    \ machines. Possible values include:\n 'Default', 'Small', 'Medium', 'Large'\n\
+    :type worker_size: str or :class:`WorkerSizeOptions\n <azure.mgmt.web.models.WorkerSizeOptions>`\n\
+    :param worker_size_id: Size Id of machines:\n 0 - Small\n 1 - Medium\n 2 - Large\n\
+    :type worker_size_id: int\n:param exclude_from_capacity_allocation: If true it\
+    \ includes basic sites\n Basic sites are not used for capacity allocation.\n:type\
+    \ exclude_from_capacity_allocation: bool\n:param is_applicable_for_all_compute_modes:\
+    \ Is capacity applicable for\n all sites?\n:type is_applicable_for_all_compute_modes:\
+    \ bool\n:param site_mode: Shared or Dedicated\n:type site_mode: str"
+  type: Class
+  uid: azure.mgmt.web.models.StampCapacity

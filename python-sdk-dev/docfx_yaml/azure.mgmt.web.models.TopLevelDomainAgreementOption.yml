@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.TopLevelDomainAgreementOption
+  fullName: azure.mgmt.web.models.TopLevelDomainAgreementOption
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: TopLevelDomainAgreementOption
+  source:
+    id: TopLevelDomainAgreementOption
+    path: azure-mgmt-web/azure/mgmt/web/models/top_level_domain_agreement_option.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/top_level_domain_agreement_option.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Options for retrieving the list of top level domain legal agreements.\n\
+    \n:param include_privacy: If true then the list of agreements will inclue\n agreements\
+    \ for domain privacy as well.\n:type include_privacy: bool"
+  type: Class
+  uid: azure.mgmt.web.models.TopLevelDomainAgreementOption

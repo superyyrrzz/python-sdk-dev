@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.DatabaseBackupSetting
+  fullName: azure.mgmt.web.models.DatabaseBackupSetting
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: DatabaseBackupSetting
+  source:
+    id: DatabaseBackupSetting
+    path: azure-mgmt-web/azure/mgmt/web/models/database_backup_setting.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/database_backup_setting.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Note: properties are serialized in JSON format and stored in DB.\nif new\
+    \ properties are added they might not be in the previous\ndata rows\nso please\
+    \ handle nulls.\n\n:param database_type: SqlAzure / MySql\n:type database_type:\
+    \ str\n:param name:\n:type name: str\n:param connection_string_name: Contains\
+    \ a connection string name that is\n linked to the SiteConfig.ConnectionStrings.\n\
+    \ This is used during restore with overwrite connection strings\n options.\n:type\
+    \ connection_string_name: str\n:param connection_string: Contains a connection\
+    \ string to a database\n which is being backed up/restored. If the restore should\
+    \ happen to a new\n database, the database name inside is the new one.\n:type\
+    \ connection_string: str"
+  type: Class
+  uid: azure.mgmt.web.models.DatabaseBackupSetting

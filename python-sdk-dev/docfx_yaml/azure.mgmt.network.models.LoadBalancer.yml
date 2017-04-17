@@ -1,0 +1,46 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.LoadBalancer
+  fullName: azure.mgmt.network.models.LoadBalancer
+  inheritance:
+  - azure.mgmt.network.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: LoadBalancer
+  source:
+    id: LoadBalancer
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/load_balancer.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/load_balancer.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "LoadBalancer resource.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:param id: Resource Id\n:type\
+    \ id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type: Resource\
+    \ type\n:vartype type: str\n:param location: Resource location\n:type location:\
+    \ str\n:param tags: Resource tags\n:type tags: dict\n:param frontend_ip_configurations:\
+    \ Gets or sets frontend IP addresses of\n the load balancer\n:type frontend_ip_configurations:\
+    \ list of :class:`FrontendIPConfiguration\n <azure.mgmt.network.models.FrontendIPConfiguration>`\n\
+    :param backend_address_pools: Gets or sets Pools of backend IP addresses\n:type\
+    \ backend_address_pools: list of :class:`BackendAddressPool\n <azure.mgmt.network.models.BackendAddressPool>`\n\
+    :param load_balancing_rules: Gets or sets load balancing rules\n:type load_balancing_rules:\
+    \ list of :class:`LoadBalancingRule\n <azure.mgmt.network.models.LoadBalancingRule>`\n\
+    :param probes: Gets or sets list of Load balancer probes\n:type probes: list of\
+    \ :class:`Probe <azure.mgmt.network.models.Probe>`\n:param inbound_nat_rules:\
+    \ Gets or sets list of inbound rules\n:type inbound_nat_rules: list of :class:`InboundNatRule\n\
+    \ <azure.mgmt.network.models.InboundNatRule>`\n:param inbound_nat_pools: Gets\
+    \ or sets inbound NAT pools\n:type inbound_nat_pools: list of :class:`InboundNatPool\n\
+    \ <azure.mgmt.network.models.InboundNatPool>`\n:param outbound_nat_rules: Gets\
+    \ or sets outbound NAT rules\n:type outbound_nat_rules: list of :class:`OutboundNatRule\n\
+    \ <azure.mgmt.network.models.OutboundNatRule>`\n:param resource_guid: Gets or\
+    \ sets resource guid property of the Load\n balancer resource\n:type resource_guid:\
+    \ str\n:param provisioning_state: Gets provisioning state of the PublicIP\n resource\
+    \ Updating/Deleting/Failed\n:type provisioning_state: str\n:param etag: Gets a\
+    \ unique read-only string that changes whenever the\n resource is updated\n:type\
+    \ etag: str"
+  type: Class
+  uid: azure.mgmt.network.models.LoadBalancer

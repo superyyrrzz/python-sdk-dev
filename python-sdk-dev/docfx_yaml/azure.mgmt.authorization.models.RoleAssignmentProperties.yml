@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.authorization.models.RoleAssignmentProperties
+  fullName: azure.mgmt.authorization.models.RoleAssignmentProperties
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.authorization.models
+  name: RoleAssignmentProperties
+  source:
+    id: RoleAssignmentProperties
+    path: azure-mgmt-authorization/azure/mgmt/authorization/models/role_assignment_properties.py
+    remote:
+      branch: master
+      path: azure-mgmt-authorization/azure/mgmt/authorization/models/role_assignment_properties.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Role assignment properties.\n\n:param role_definition_id: The role definition\
+    \ ID used in the role\n assignment.\n:type role_definition_id: str\n:param principal_id:\
+    \ The principal ID assigned to the role. This maps to\n the ID inside the Active\
+    \ Directory. It can point to a user, service\n principal, or security group.\n\
+    :type principal_id: str"
+  type: Class
+  uid: azure.mgmt.authorization.models.RoleAssignmentProperties

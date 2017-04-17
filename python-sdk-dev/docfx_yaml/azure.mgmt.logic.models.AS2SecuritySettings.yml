@@ -1,0 +1,38 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.AS2SecuritySettings
+  fullName: azure.mgmt.logic.models.AS2SecuritySettings
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: AS2SecuritySettings
+  source:
+    id: AS2SecuritySettings
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/as2_security_settings.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/as2_security_settings.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "AS2SecuritySettings.\n\n:param override_group_signing_certificate: The\
+    \ value indicating whether\n to send or request a MDN.\n:type override_group_signing_certificate:\
+    \ bool\n:param signing_certificate_name: The name of the signing certificate.\n\
+    :type signing_certificate_name: str\n:param encryption_certificate_name: The name\
+    \ of the encryption\n certificate.\n:type encryption_certificate_name: str\n:param\
+    \ enable_nrr_for_inbound_encoded_messages: The value indicating\n whether to enable\
+    \ NRR for inbound encoded messages.\n:type enable_nrr_for_inbound_encoded_messages:\
+    \ bool\n:param enable_nrr_for_inbound_decoded_messages: The value indicating\n\
+    \ whether to enable NRR for inbound decoded messages.\n:type enable_nrr_for_inbound_decoded_messages:\
+    \ bool\n:param enable_nrr_for_outbound_mdn: The value indicating whether to\n\
+    \ enable NRR for outbound MDN.\n:type enable_nrr_for_outbound_mdn: bool\n:param\
+    \ enable_nrr_for_outbound_encoded_messages: The value indicating\n whether to\
+    \ enable NRR for outbound encoded messages.\n:type enable_nrr_for_outbound_encoded_messages:\
+    \ bool\n:param enable_nrr_for_outbound_decoded_messages: The value indicating\n\
+    \ whether to enable NRR for outbound decoded messages.\n:type enable_nrr_for_outbound_decoded_messages:\
+    \ bool\n:param enable_nrr_for_inbound_mdn: The value indicating whether to enable\n\
+    \ NRR for inbound MDN.\n:type enable_nrr_for_inbound_mdn: bool"
+  type: Class
+  uid: azure.mgmt.logic.models.AS2SecuritySettings

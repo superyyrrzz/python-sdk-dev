@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.ComputeNodeInformation
+  fullName: azure.batch.models.ComputeNodeInformation
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: ComputeNodeInformation
+  source:
+    id: ComputeNodeInformation
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/compute_node_information.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/compute_node_information.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Information about the compute node on which a task ran.\n\n:param affinity_id:\
+    \ An identifier for the compute node on which the task\n ran, which can be passed\
+    \ when adding a task to request that the task be\n scheduled close to this compute\
+    \ node.\n:type affinity_id: str\n:param node_url: The URL of the node on which\
+    \ the task ran. .\n:type node_url: str\n:param pool_id: The id of the pool on\
+    \ which the task ran.\n:type pool_id: str\n:param node_id: The id of the node\
+    \ on which the task ran.\n:type node_id: str\n:param task_root_directory: The\
+    \ root directory of the task on the compute\n node.\n:type task_root_directory:\
+    \ str\n:param task_root_directory_url: The URL to the root directory of the task\n\
+    \ on the compute node.\n:type task_root_directory_url: str"
+  type: Class
+  uid: azure.batch.models.ComputeNodeInformation

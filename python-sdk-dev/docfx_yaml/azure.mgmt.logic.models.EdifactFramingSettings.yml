@@ -1,0 +1,40 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.EdifactFramingSettings
+  fullName: azure.mgmt.logic.models.EdifactFramingSettings
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: EdifactFramingSettings
+  source:
+    id: EdifactFramingSettings
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/edifact_framing_settings.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/edifact_framing_settings.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "EdifactFramingSettings.\n\n:param service_code_list_directory_version:\
+    \ The service code list\n directory version.\n:type service_code_list_directory_version:\
+    \ str\n:param character_encoding: The character encoding.\n:type character_encoding:\
+    \ str\n:param protocol_version: The protocol version.\n:type protocol_version:\
+    \ int\n:param data_element_separator: The data element separator.\n:type data_element_separator:\
+    \ int\n:param component_separator: The component separator.\n:type component_separator:\
+    \ int\n:param segment_terminator: The segment terminator.\n:type segment_terminator:\
+    \ int\n:param release_indicator: The release indicator.\n:type release_indicator:\
+    \ int\n:param repetition_separator: The repetition separator.\n:type repetition_separator:\
+    \ int\n:param character_set: The EDIFACT frame setting characterSet. Possible\n\
+    \ values include: 'NotSpecified', 'UNOB', 'UNOA', 'UNOC', 'UNOD', 'UNOE',\n 'UNOF',\
+    \ 'UNOG', 'UNOH', 'UNOI', 'UNOJ', 'UNOK', 'UNOX', 'UNOY', 'KECA'\n:type character_set:\
+    \ str or :class:`EdifactCharacterSet\n <azure.mgmt.logic.models.EdifactCharacterSet>`\n\
+    :param decimal_point_indicator: The EDIFACT frame setting decimal\n indicator.\
+    \ Possible values include: 'NotSpecified', 'Comma', 'Decimal'\n:type decimal_point_indicator:\
+    \ str or :class:`EdifactDecimalIndicator\n <azure.mgmt.logic.models.EdifactDecimalIndicator>`\n\
+    :param segment_terminator_suffix: The EDIFACT frame setting segment\n terminator\
+    \ suffix. Possible values include: 'NotSpecified', 'None',\n 'CR', 'LF', 'CRLF'\n\
+    :type segment_terminator_suffix: str or :class:`SegmentTerminatorSuffix\n <azure.mgmt.logic.models.SegmentTerminatorSuffix>`"
+  type: Class
+  uid: azure.mgmt.logic.models.EdifactFramingSettings

@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.VirtualMachineSize
+  fullName: azure.mgmt.compute.models.VirtualMachineSize
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: VirtualMachineSize
+  source:
+    id: VirtualMachineSize
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_size.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_size.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Describes the properties of a VM size.\n\n:param name: the VM size name.\n\
+    :type name: str\n:param number_of_cores: the Number of cores supported by a VM\
+    \ size.\n:type number_of_cores: int\n:param os_disk_size_in_mb: the OS disk size\
+    \ allowed by a VM size.\n:type os_disk_size_in_mb: int\n:param resource_disk_size_in_mb:\
+    \ the Resource disk size allowed by a VM\n size.\n:type resource_disk_size_in_mb:\
+    \ int\n:param memory_in_mb: the Memory size supported by a VM size.\n:type memory_in_mb:\
+    \ int\n:param max_data_disk_count: the Maximum number of data disks allowed by\
+    \ a\n VM size.\n:type max_data_disk_count: int"
+  type: Class
+  uid: azure.mgmt.compute.models.VirtualMachineSize

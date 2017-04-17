@@ -1,0 +1,53 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.sql.models.Schema
+  fullName: azure.mgmt.sql.models.Schema
+  inheritance:
+  - azure.mgmt.sql.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.sql.models
+  name: Schema
+  source:
+    id: Schema
+    path: azure-mgmt-sql/azure/mgmt/sql/models/schema.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/models/schema.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Represents an Azure SQL Database schema.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar name: Resource name
+
+    :vartype name: str
+
+    :ivar id: Resource ID
+
+    :vartype id: str
+
+    :ivar type: Resource type
+
+    :vartype type: str
+
+    :param location: Resource location
+
+    :type location: str
+
+    :param tags: Resource tags
+
+    :type tags: dict
+
+    :ivar tables: The tables from this database.
+
+    :vartype tables: list of :class:`Table <azure.mgmt.sql.models.Table>`'
+  type: Class
+  uid: azure.mgmt.sql.models.Schema

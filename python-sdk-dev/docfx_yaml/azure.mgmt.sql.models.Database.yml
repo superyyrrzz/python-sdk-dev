@@ -1,0 +1,82 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.sql.models.Database
+  fullName: azure.mgmt.sql.models.Database
+  inheritance:
+  - azure.mgmt.sql.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.sql.models
+  name: Database
+  source:
+    id: Database
+    path: azure-mgmt-sql/azure/mgmt/sql/models/database.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/models/database.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Represents an Azure SQL Database.\n\nVariables are only populated by the\
+    \ server, and will be ignored when\nsending a request.\n\n:ivar name: Resource\
+    \ name\n:vartype name: str\n:ivar id: Resource ID\n:vartype id: str\n:ivar type:\
+    \ Resource type\n:vartype type: str\n:param location: Resource location\n:type\
+    \ location: str\n:param tags: Resource tags\n:type tags: dict\n:param collation:\
+    \ The collation of the Azure SQL database.\n:type collation: str\n:ivar creation_date:\
+    \ The creation date of the Azure SQL database (ISO8601\n format).\n:vartype creation_date:\
+    \ datetime\n:ivar containment_state: The containment state of the Azure SQL database.\n\
+    :vartype containment_state: long\n:ivar current_service_objective_id: The current\
+    \ Service Level Objective ID\n of the Azure SQL database. This is the ID of the\
+    \ Service Level Objective\n that is currently active.\n:vartype current_service_objective_id:\
+    \ str\n:ivar database_id: The ID of the Azure SQL database.\n:vartype database_id:\
+    \ str\n:ivar earliest_restore_date: The recovery period start date of the Azure\n\
+    \ SQL database. This records the start date and time when recovery is\n available\
+    \ for this Azure SQL Database (ISO8601 format).\n:vartype earliest_restore_date:\
+    \ datetime\n:param create_mode: Specifies the type of database to create. Possible\n\
+    \ values include: 'Copy', 'Default', 'NonReadableSecondary',\n 'OnlineSecondary',\
+    \ 'PointInTimeRestore', 'Recovery', 'Restore'\n:type create_mode: str or :class:`createMode\n\
+    \ <azure.mgmt.sql.models.createMode>`\n:param source_database_id: Conditional.\
+    \ Specifies the resource ID of the\n source database. If createMode is not set\
+    \ to Default, then this value must\n be specified. The name of the source database\
+    \ must be the same. NOTE:\n Collation, Edition, and MaxSizeBytes must remain the\
+    \ same while the link\n is active. Values specified for these parameters will\
+    \ be ignored.\n:type source_database_id: str\n:param edition: The edition of the\
+    \ Azure SQL database. The\n DatabaseEditions enumeration contains all the valid\
+    \ editions. Possible\n values include: 'Web', 'Business', 'Basic', 'Standard',\
+    \ 'Premium', 'Free',\n 'Stretch', 'DataWarehouse'\n:type edition: str or :class:`DatabaseEditions\n\
+    \ <azure.mgmt.sql.models.DatabaseEditions>`\n:param max_size_bytes: The max size\
+    \ of the Azure SQL database expressed in\n bytes. Note: Only the following sizes\
+    \ are supported (in addition to\n limitations being placed on each edition): {\
+    \ 100 MB | 500 MB |1 GB | 5 GB\n | 10 GB | 20 GB | 30 GB \u2026 150 GB | 200 GB\
+    \ \u2026 500 GB }\n:type max_size_bytes: str\n:param requested_service_objective_id:\
+    \ The configured Service Level\n Objective ID of the Azure SQL database. This\
+    \ is the Service Level\n Objective that is in the process of being applied to\
+    \ the Azure SQL\n database. Once successfully updated, it will match the value\
+    \ of\n currentServiceObjectiveId property.\n:type requested_service_objective_id:\
+    \ str\n:param requested_service_objective_name: The name of the configured\n Service\
+    \ Level Objective of the Azure SQL database. This is the Service\n Level Objective\
+    \ that is in the process of being applied to the Azure SQL\n database. Once successfully\
+    \ updated, it will match the value of\n serviceLevelObjective property. Possible\
+    \ values include: 'Basic', 'S0',\n 'S1', 'S2', 'S3', 'P1', 'P2', 'P3'\n:type requested_service_objective_name:\
+    \ str or\n :class:`ServiceObjectiveName <azure.mgmt.sql.models.ServiceObjectiveName>`\n\
+    :ivar service_level_objective: The current Service Level Objective of the\n Azure\
+    \ SQL database. Possible values include: 'Basic', 'S0', 'S1', 'S2',\n 'S3', 'P1',\
+    \ 'P2', 'P3'\n:vartype service_level_objective: str or :class:`ServiceObjectiveName\n\
+    \ <azure.mgmt.sql.models.ServiceObjectiveName>`\n:ivar status: The status of the\
+    \ Azure SQL database.\n:vartype status: str\n:param elastic_pool_name: The name\
+    \ of the Azure SQL Elastic Pool the\n database is in.\n:type elastic_pool_name:\
+    \ str\n:ivar default_secondary_location: The default secondary region for this\n\
+    \ database.\n:vartype default_secondary_location: str\n:ivar service_tier_advisors:\
+    \ The list of service tier advisors for this\n database. Expanded property\n:vartype\
+    \ service_tier_advisors: list of :class:`ServiceTierAdvisor\n <azure.mgmt.sql.models.ServiceTierAdvisor>`\n\
+    :ivar upgrade_hint: The upgrade hint for this database.\n:vartype upgrade_hint:\
+    \ :class:`UpgradeHint\n <azure.mgmt.sql.models.UpgradeHint>`\n:ivar schemas: The\
+    \ schemas from this database.\n:vartype schemas: list of :class:`Schema <azure.mgmt.sql.models.Schema>`\n\
+    :ivar transparent_data_encryption: The transparent data encryption info\n for\
+    \ this database.\n:vartype transparent_data_encryption: list of\n :class:`TransparentDataEncryption\n\
+    \ <azure.mgmt.sql.models.TransparentDataEncryption>`\n:ivar recommended_index:\
+    \ The recommended indices for this database.\n:vartype recommended_index: list\
+    \ of :class:`RecommendedIndex\n <azure.mgmt.sql.models.RecommendedIndex>`"
+  type: Class
+  uid: azure.mgmt.sql.models.Database

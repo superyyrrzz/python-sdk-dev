@@ -1,0 +1,47 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.servermanager.models.NodeParameters
+  fullName: azure.mgmt.servermanager.models.NodeParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.servermanager.models
+  name: NodeParameters
+  source:
+    id: NodeParameters
+    path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/node_parameters.py
+    remote:
+      branch: master
+      path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/node_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Parameter collection for operations on arm node resource.
+
+
+    :param location: Location of the resource.
+
+    :type location: str
+
+    :param tags: Resource tags.
+
+    :type tags: object
+
+    :param gateway_id: Gateway ID which will manage this node.
+
+    :type gateway_id: str
+
+    :param connection_name: myhost.domain.com
+
+    :type connection_name: str
+
+    :param user_name: User name to be used to connect to node.
+
+    :type user_name: str
+
+    :param password: Password associated with user name.
+
+    :type password: str'
+  type: Class
+  uid: azure.mgmt.servermanager.models.NodeParameters

@@ -1,0 +1,43 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.ExpressRouteCircuitRoutesTable
+  fullName: azure.mgmt.network.models.ExpressRouteCircuitRoutesTable
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: ExpressRouteCircuitRoutesTable
+  source:
+    id: ExpressRouteCircuitRoutesTable
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/express_route_circuit_routes_table.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/express_route_circuit_routes_table.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'The routes table associated with the ExpressRouteCircuit.
+
+
+    :param network: network.
+
+    :type network: str
+
+    :param next_hop: nextHop
+
+    :type next_hop: str
+
+    :param loc_prf: locPrf.
+
+    :type loc_prf: str
+
+    :param weight: weight.
+
+    :type weight: int
+
+    :param path: path .
+
+    :type path: str'
+  type: Class
+  uid: azure.mgmt.network.models.ExpressRouteCircuitRoutesTable

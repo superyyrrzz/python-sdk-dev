@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.iothub.models.CloudToDeviceProperties
+  fullName: azure.mgmt.iothub.models.CloudToDeviceProperties
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.iothub.models
+  name: CloudToDeviceProperties
+  source:
+    id: CloudToDeviceProperties
+    path: azure-mgmt-iothub/azure/mgmt/iothub/models/cloud_to_device_properties.py
+    remote:
+      branch: master
+      path: azure-mgmt-iothub/azure/mgmt/iothub/models/cloud_to_device_properties.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The IoT hub cloud-to-device messaging properties.\n\n:param max_delivery_count:\
+    \ The max delivery count for cloud-to-device\n messages in the device queue. See:\n\
+    \ https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messaging#cloud-to-device-messages.\n\
+    :type max_delivery_count: int\n:param default_ttl_as_iso8601: The default time\
+    \ to live for\n cloud-to-device messages in the device queue. See:\n https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-messaging#cloud-to-device-messages.\n\
+    :type default_ttl_as_iso8601: timedelta\n:param feedback:\n:type feedback: :class:`FeedbackProperties\n\
+    \ <azure.mgmt.iothub.models.FeedbackProperties>`"
+  type: Class
+  uid: azure.mgmt.iothub.models.CloudToDeviceProperties

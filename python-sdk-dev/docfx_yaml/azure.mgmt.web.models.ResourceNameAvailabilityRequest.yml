@@ -1,0 +1,35 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.ResourceNameAvailabilityRequest
+  fullName: azure.mgmt.web.models.ResourceNameAvailabilityRequest
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: ResourceNameAvailabilityRequest
+  source:
+    id: ResourceNameAvailabilityRequest
+    path: azure-mgmt-web/azure/mgmt/web/models/resource_name_availability_request.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/resource_name_availability_request.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Resource name availability request content.
+
+
+    :param name: Resource name to verify
+
+    :type name: str
+
+    :param type: Resource type used for verification
+
+    :type type: str
+
+    :param is_fqdn: Is fully qualified domain name
+
+    :type is_fqdn: bool'
+  type: Class
+  uid: azure.mgmt.web.models.ResourceNameAvailabilityRequest

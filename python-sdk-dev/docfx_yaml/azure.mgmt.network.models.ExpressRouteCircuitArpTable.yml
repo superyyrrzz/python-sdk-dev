@@ -1,0 +1,39 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.ExpressRouteCircuitArpTable
+  fullName: azure.mgmt.network.models.ExpressRouteCircuitArpTable
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: ExpressRouteCircuitArpTable
+  source:
+    id: ExpressRouteCircuitArpTable
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/express_route_circuit_arp_table.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/express_route_circuit_arp_table.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'The arp table associated with the ExpressRouteCircuit.
+
+
+    :param age: Age.
+
+    :type age: int
+
+    :param interface: Interface.
+
+    :type interface: str
+
+    :param ip_address: Gets ipAddress.
+
+    :type ip_address: str
+
+    :param mac_address: Gets macAddress.
+
+    :type mac_address: str'
+  type: Class
+  uid: azure.mgmt.network.models.ExpressRouteCircuitArpTable

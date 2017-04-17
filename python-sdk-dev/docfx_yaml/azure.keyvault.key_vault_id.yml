@@ -1,0 +1,30 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - azure.keyvault.key_vault_id.KeyVaultId
+  - azure.keyvault.key_vault_id.KeyVaultId
+  fullName: azure.keyvault.key_vault_id
+  module: azure.keyvault.key_vault_id
+  name: key_vault_id
+  source:
+    id: key_vault_id
+    path: azure-keyvault/azure/keyvault/key_vault_id.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/key_vault_id.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 0
+  summary: ''
+  type: Namespace
+  uid: azure.keyvault.key_vault_id
+- _type: class
+  children: []
+  fullName: azure.keyvault.key_vault_id
+  langs:
+  - python
+  module: azure.keyvault.key_vault_id
+  name: key_vault_id.Global
+  summary: Proxy object to hold module level functions
+  type: Class
+  uid: azure.keyvault.key_vault_id.Global

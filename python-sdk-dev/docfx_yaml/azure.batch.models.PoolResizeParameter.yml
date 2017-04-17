@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.PoolResizeParameter
+  fullName: azure.batch.models.PoolResizeParameter
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: PoolResizeParameter
+  source:
+    id: PoolResizeParameter
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/pool_resize_parameter.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/pool_resize_parameter.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Parameters for a CloudPoolOperations.Resize request.\n\n:param target_dedicated:\
+    \ The desired number of compute nodes in the pool.\n:type target_dedicated: int\n\
+    :param resize_timeout: The timeout for allocation of compute nodes to the\n pool\
+    \ or removal of compute nodes from the pool. The default value is 10\n minutes.\n\
+    :type resize_timeout: timedelta\n:param node_deallocation_option: When nodes may\
+    \ be removed from the pool,\n if the pool size is decreasing. Possible values\
+    \ include: 'requeue',\n 'terminate', 'taskcompletion', 'retaineddata'\n:type node_deallocation_option:\
+    \ str or\n :class:`ComputeNodeDeallocationOption\n <azure.batch.models.ComputeNodeDeallocationOption>`"
+  type: Class
+  uid: azure.batch.models.PoolResizeParameter

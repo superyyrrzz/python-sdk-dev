@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.PoolEnableAutoScaleParameter
+  fullName: azure.batch.models.PoolEnableAutoScaleParameter
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: PoolEnableAutoScaleParameter
+  source:
+    id: PoolEnableAutoScaleParameter
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/pool_enable_auto_scale_parameter.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/pool_enable_auto_scale_parameter.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Parameters for a CloudPoolOperations.EnableAutoScale request.\n\n:param\
+    \ auto_scale_formula: The formula for the desired number of compute\n nodes in\
+    \ the pool.\n:type auto_scale_formula: str\n:param auto_scale_evaluation_interval:\
+    \ A time interval for the desired\n autoscale evaluation period in the pool.\n\
+    :type auto_scale_evaluation_interval: timedelta"
+  type: Class
+  uid: azure.batch.models.PoolEnableAutoScaleParameter

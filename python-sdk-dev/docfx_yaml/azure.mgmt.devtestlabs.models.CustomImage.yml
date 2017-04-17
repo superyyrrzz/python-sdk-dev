@@ -1,0 +1,35 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.devtestlabs.models.CustomImage
+  fullName: azure.mgmt.devtestlabs.models.CustomImage
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.devtestlabs.models
+  name: CustomImage
+  source:
+    id: CustomImage
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/custom_image.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/custom_image.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A custom image.\n\n:param vm:\n:type vm: :class:`CustomImagePropertiesFromVm\n\
+    \ <azure.mgmt.devtestlabs.models.CustomImagePropertiesFromVm>`\n:param vhd: The\
+    \ VHD from which the image is to be created.\n:type vhd: :class:`CustomImagePropertiesCustom\n\
+    \ <azure.mgmt.devtestlabs.models.CustomImagePropertiesCustom>`\n:param description:\
+    \ The description of the custom image.\n:type description: str\n:param author:\
+    \ The author of the custom image.\n:type author: str\n:param creation_date: The\
+    \ creation date of the custom image.\n:type creation_date: datetime\n:param provisioning_state:\
+    \ The provisioning status of the resource.\n:type provisioning_state: str\n:param\
+    \ unique_identifier: The unique immutable identifier of a resource\n (Guid).\n\
+    :type unique_identifier: str\n:param id: The identifier of the resource.\n:type\
+    \ id: str\n:param name: The name of the resource.\n:type name: str\n:param type:\
+    \ The type of the resource.\n:type type: str\n:param location: The location of\
+    \ the resource.\n:type location: str\n:param tags: The tags of the resource.\n\
+    :type tags: dict"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.CustomImage

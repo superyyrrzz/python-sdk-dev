@@ -1,0 +1,113 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.SiteAuthSettings
+  fullName: azure.mgmt.web.models.SiteAuthSettings
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: SiteAuthSettings
+  source:
+    id: SiteAuthSettings
+    path: azure-mgmt-web/azure/mgmt/web/models/site_auth_settings.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/site_auth_settings.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Configuration settings for the Azure App Service Authentication /\nAuthorization\
+    \ feature.\n\n:param enabled: Gets or sets a value indicating whether the\n Authentication\
+    \ / Authorization feature is enabled for the current app.\n:type enabled: bool\n\
+    :param http_api_prefix_path: Gets or sets the relative path prefix used\n by platform\
+    \ HTTP APIs.\n Changing this value is not recommended except for\n compatibility\
+    \ reasons.\n:type http_api_prefix_path: str\n:param unauthenticated_client_action:\
+    \ Gets or sets the action to take\n when an unauthenticated client attempts to\
+    \ access the app. Possible\n values include: 'RedirectToLoginPage', 'AllowAnonymous'\n\
+    :type unauthenticated_client_action: str or\n :class:`UnauthenticatedClientAction\n\
+    \ <azure.mgmt.web.models.UnauthenticatedClientAction>`\n:param token_store_enabled:\
+    \ Gets or sets a value indicating whether to\n durably store platform-specific\
+    \ security tokens\n obtained during login flows. This capability is disabled by\n\
+    \ default.\n:type token_store_enabled: bool\n:param allowed_external_redirect_urls:\
+    \ Gets or sets a collection of\n external URLs that can be redirected to as part\
+    \ of logging in\n or logging out of the web app. Note that the query string\n\
+    \ part of the URL is ignored.\n This is an advanced setting typically only needed\
+    \ by Windows\n Store application backends.\n Note that URLs within the current\
+    \ domain are always\n implicitly allowed.\n:type allowed_external_redirect_urls:\
+    \ list of str\n:param default_provider: Gets or sets the default authentication\
+    \ provider\n to use when multiple providers are configured.\n This setting is\
+    \ only needed if multiple providers are\n configured and the unauthenticated client\n\
+    \ action is set to \"RedirectToLoginPage\". Possible values\n include: 'AzureActiveDirectory',\
+    \ 'Facebook', 'Google',\n 'MicrosoftAccount', 'Twitter'\n:type default_provider:\
+    \ str or :class:`BuiltInAuthenticationProvider\n <azure.mgmt.web.models.BuiltInAuthenticationProvider>`\n\
+    :param token_refresh_extension_hours: Gets or sets the number of hours\n after\
+    \ session token expiration that a session token can be used to\n call the token\
+    \ refresh API. The default is 72 hours.\n:type token_refresh_extension_hours:\
+    \ float\n:param client_id: Gets or sets the Client ID of this relying party\n\
+    \ application, known as the client_id.\n This setting is required for enabling\
+    \ OpenID Connection\n authentication with Azure Active Directory or\n other 3rd\
+    \ party OpenID Connect providers.\n More information on OpenID Connect:\n http://openid.net/specs/openid-connect-core-1_0.html\n\
+    :type client_id: str\n:param client_secret: Gets or sets the Client Secret of\
+    \ this relying\n party application (in Azure Active Directory, this is also referred\
+    \ to\n as the Key).\n This setting is optional. If no client secret is configured,\n\
+    \ the OpenID Connect implicit auth flow is used to authenticate end users.\n Otherwise,\
+    \ the OpenID Connect Authorization Code Flow is used\n to authenticate end users.\n\
+    \ More information on OpenID Connect:\n http://openid.net/specs/openid-connect-core-1_0.html\n\
+    :type client_secret: str\n:param issuer: Gets or sets the OpenID Connect Issuer\
+    \ URI that represents\n the entity which issues access tokens for this application.\n\
+    \ When using Azure Active Directory, this value is the URI of\n the directory\
+    \ tenant, e.g. https://sts.windows.net/{tenant-guid}/.\n This URI is a case-sensitive\
+    \ identifier for the token issuer.\n More information on OpenID Connect Discovery:\n\
+    \ http://openid.net/specs/openid-connect-discovery-1_0.html\n:type issuer: str\n\
+    :param allowed_audiences: Gets or sets a list of allowed audience values\n to\
+    \ consider when validating JWTs issued by\n Azure Active Directory. Note that\
+    \ the\n {Microsoft.Web.Hosting.Administration.SiteAuthSettings.ClientId} value\n\
+    \ is always considered an\n allowed audience, regardless of this setting.\n:type\
+    \ allowed_audiences: list of str\n:param additional_login_params: Gets or sets\
+    \ a list of login parameters\n to send to the OpenID Connect authorization endpoint\
+    \ when\n a user logs in. Each parameter must be in the form\n \"key=value\".\n\
+    :type additional_login_params: list of str\n:param aad_client_id:\n:type aad_client_id:\
+    \ str\n:param open_id_issuer:\n:type open_id_issuer: str\n:param google_client_id:\
+    \ Gets or sets the OpenID Connect Client ID for\n the Google web application.\n\
+    \ This setting is required for enabling Google Sign-In.\n Google Sign-In documentation:\n\
+    \ https://developers.google.com/identity/sign-in/web/\n:type google_client_id:\
+    \ str\n:param google_client_secret: Gets or sets the client secret associated\n\
+    \ with the Google web application.\n This setting is required for enabling Google\
+    \ Sign-In.\n Google Sign-In documentation:\n https://developers.google.com/identity/sign-in/web/\n\
+    :type google_client_secret: str\n:param google_oauth_scopes: Gets or sets the\
+    \ OAuth 2.0 scopes that will\n be requested as part of Google Sign-In authentication.\n\
+    \ This setting is optional. If not specified, \"openid\",\n \"profile\", and \"\
+    email\" are used as default scopes.\n Google Sign-In documentation:\n https://developers.google.com/identity/sign-in/web/\n\
+    :type google_oauth_scopes: list of str\n:param facebook_app_id: Gets or sets the\
+    \ App ID of the Facebook app used\n for login.\n This setting is required for\
+    \ enabling Facebook Login.\n Facebook Login documentation:\n https://developers.facebook.com/docs/facebook-login\n\
+    :type facebook_app_id: str\n:param facebook_app_secret: Gets or sets the App Secret\
+    \ of the Facebook\n app used for Facebook Login.\n This setting is required for\
+    \ enabling Facebook Login.\n Facebook Login documentation:\n https://developers.facebook.com/docs/facebook-login\n\
+    :type facebook_app_secret: str\n:param facebook_oauth_scopes: Gets or sets the\
+    \ OAuth 2.0 scopes that will\n be requested as part of Facebook Login authentication.\n\
+    \ This setting is optional.\n Facebook Login documentation:\n https://developers.facebook.com/docs/facebook-login\n\
+    :type facebook_oauth_scopes: list of str\n:param twitter_consumer_key: Gets or\
+    \ sets the OAuth 1.0a consumer key of\n the Twitter application used for sign-in.\n\
+    \ This setting is required for enabling Twitter Sign-In.\n Twitter Sign-In documentation:\n\
+    \ https://dev.twitter.com/web/sign-in\n:type twitter_consumer_key: str\n:param\
+    \ twitter_consumer_secret: Gets or sets the OAuth 1.0a consumer\n secret of the\
+    \ Twitter application used for sign-in.\n This setting is required for enabling\
+    \ Twitter Sign-In.\n Twitter Sign-In documentation:\n https://dev.twitter.com/web/sign-in\n\
+    :type twitter_consumer_secret: str\n:param microsoft_account_client_id: Gets or\
+    \ sets the OAuth 2.0 client ID\n that was created for the app used for authentication.\n\
+    \ This setting is required for enabling Microsoft Account\n authentication.\n\
+    \ Microsoft Account OAuth documentation:\n https://dev.onedrive.com/auth/msa_oauth.htm\n\
+    :type microsoft_account_client_id: str\n:param microsoft_account_client_secret:\
+    \ Gets or sets the OAuth 2.0 client\n secret that was created for the app used\
+    \ for authentication.\n This setting is required for enabling Microsoft Account\n\
+    \ authentication.\n Microsoft Account OAuth documentation:\n https://dev.onedrive.com/auth/msa_oauth.htm\n\
+    :type microsoft_account_client_secret: str\n:param microsoft_account_oauth_scopes:\
+    \ Gets or sets the OAuth 2.0 scopes\n that will be requested as part of Microsoft\
+    \ Account authentication.\n This setting is optional. If not specified, \"wl.basic\"\
+    \ is\n used as the default scope.\n Microsoft Account Scopes and permissions documentation:\n\
+    \ https://msdn.microsoft.com/en-us/library/dn631845.aspx\n:type microsoft_account_oauth_scopes:\
+    \ list of str"
+  type: Class
+  uid: azure.mgmt.web.models.SiteAuthSettings

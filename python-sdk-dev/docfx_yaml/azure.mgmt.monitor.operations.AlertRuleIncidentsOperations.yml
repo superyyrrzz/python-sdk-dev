@@ -1,0 +1,80 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.monitor.operations.AlertRuleIncidentsOperations.get
+  - azure.mgmt.monitor.operations.AlertRuleIncidentsOperations.list_by_alert_rule
+  class: azure.mgmt.monitor.operations.AlertRuleIncidentsOperations
+  fullName: azure.mgmt.monitor.operations.AlertRuleIncidentsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.monitor.operations
+  name: AlertRuleIncidentsOperations
+  source:
+    id: AlertRuleIncidentsOperations
+    path: azure-mgmt-monitor/azure/mgmt/monitor/operations/alert_rule_incidents_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/operations/alert_rule_incidents_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'AlertRuleIncidentsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    :ivar api_version: Client Api Version. Constant value: "2016-03-01".'
+  type: Class
+  uid: azure.mgmt.monitor.operations.AlertRuleIncidentsOperations
+- _type: method
+  class: azure.mgmt.monitor.operations.AlertRuleIncidentsOperations
+  fullName: azure.mgmt.monitor.operations.AlertRuleIncidentsOperations.get
+  module: azure.mgmt.monitor.operations
+  name: get
+  source:
+    id: get
+    path: azure-mgmt-monitor/azure/mgmt/monitor/operations/alert_rule_incidents_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/operations/alert_rule_incidents_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 38
+  summary: "Gets an incident associated to an alert rule.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param rule_name:\
+    \ The name of the rule.\n:type rule_name: str\n:param incident_name: The name\
+    \ of the incident to retrieve.\n:type incident_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`Incident\
+    \ <azure.mgmt.monitor.models.Incident>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.monitor.operations.AlertRuleIncidentsOperations.get
+- _type: method
+  class: azure.mgmt.monitor.operations.AlertRuleIncidentsOperations
+  fullName: azure.mgmt.monitor.operations.AlertRuleIncidentsOperations.list_by_alert_rule
+  module: azure.mgmt.monitor.operations
+  name: list_by_alert_rule
+  source:
+    id: list_by_alert_rule
+    path: azure-mgmt-monitor/azure/mgmt/monitor/operations/alert_rule_incidents_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/operations/alert_rule_incidents_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 102
+  summary: "Gets a list of incidents associated to an alert rule.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param rule_name:\
+    \ The name of the rule.\n:type rule_name: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`IncidentPaged\n\
+    \ <azure.mgmt.monitor.models.IncidentPaged>`\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.monitor.operations.AlertRuleIncidentsOperations.list_by_alert_rule

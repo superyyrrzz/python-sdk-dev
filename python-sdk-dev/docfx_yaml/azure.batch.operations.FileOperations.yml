@@ -1,0 +1,264 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.batch.operations.FileOperations.delete_from_compute_node
+  - azure.batch.operations.FileOperations.delete_from_task
+  - azure.batch.operations.FileOperations.get_from_compute_node
+  - azure.batch.operations.FileOperations.get_from_task
+  - azure.batch.operations.FileOperations.get_node_file_properties_from_compute_node
+  - azure.batch.operations.FileOperations.get_node_file_properties_from_task
+  - azure.batch.operations.FileOperations.list_from_compute_node
+  - azure.batch.operations.FileOperations.list_from_task
+  class: azure.batch.operations.FileOperations
+  fullName: azure.batch.operations.FileOperations
+  inheritance:
+  - builtins.object
+  module: azure.batch.operations
+  name: FileOperations
+  source:
+    id: FileOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/file_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/file_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 18
+  summary: 'FileOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.batch.operations.FileOperations
+- _type: method
+  class: azure.batch.operations.FileOperations
+  fullName: azure.batch.operations.FileOperations.delete_from_compute_node
+  module: azure.batch.operations
+  name: delete_from_compute_node
+  source:
+    id: delete_from_compute_node
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/file_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/file_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 349
+  summary: "Deletes the specified task file from the compute node.\n\n:param pool_id:\
+    \ The id of the pool that contains the compute node.\n:type pool_id: str\n:param\
+    \ node_id: The id of the compute node from which you want to\n delete the file.\n\
+    :type node_id: str\n:param file_name: The path to the file that you want to delete.\n\
+    :type file_name: str\n:param recursive: Whether to delete children of a directory.\
+    \ If the\n fileName parameter represents a directory instead of a file, you can\n\
+    \ set Recursive to true to delete the directory and all of the files\n and subdirectories\
+    \ in it. If Recursive is false then the directory\n must be empty or deletion\
+    \ will fail.\n:type recursive: bool\n:param file_delete_from_compute_node_options:\
+    \ Additional parameters\n for the operation\n:type file_delete_from_compute_node_options:\n\
+    \ :class:`FileDeleteFromComputeNodeOptions\n <azure.batch.models.FileDeleteFromComputeNodeOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.batch.operations.FileOperations.delete_from_compute_node
+- _type: method
+  class: azure.batch.operations.FileOperations
+  fullName: azure.batch.operations.FileOperations.delete_from_task
+  module: azure.batch.operations
+  name: delete_from_task
+  source:
+    id: delete_from_task
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/file_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/file_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 35
+  summary: "Deletes the specified task file from the compute node where the task\n\
+    ran.\n\n:param job_id: The id of the job that contains the task.\n:type job_id:\
+    \ str\n:param task_id: The id of the task whose file you want to delete.\n:type\
+    \ task_id: str\n:param file_name: The path to the task file that you want to delete.\n\
+    :type file_name: str\n:param recursive: Whether to delete children of a directory.\
+    \ If the\n fileName parameter represents a directory instead of a file, you can\n\
+    \ set Recursive to true to delete the directory and all of the files\n and subdirectories\
+    \ in it. If Recursive is false then the directory\n must be empty or deletion\
+    \ will fail.\n:type recursive: bool\n:param file_delete_from_task_options: Additional\
+    \ parameters for the\n operation\n:type file_delete_from_task_options:\n :class:`FileDeleteFromTaskOptions\
+    \ <azure.batch.models.FileDeleteFromTaskOptions>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.batch.operations.FileOperations.delete_from_task
+- _type: method
+  class: azure.batch.operations.FileOperations
+  fullName: azure.batch.operations.FileOperations.get_from_compute_node
+  module: azure.batch.operations
+  name: get_from_compute_node
+  source:
+    id: get_from_compute_node
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/file_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/file_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 441
+  summary: "Returns the content of the specified task file.\n\n:param pool_id: The\
+    \ id of the pool that contains the compute node.\n:type pool_id: str\n:param node_id:\
+    \ The id of the compute node that contains the file.\n:type node_id: str\n:param\
+    \ file_name: The path to the task file that you want to get the\n content of.\n\
+    :type file_name: str\n:param file_get_from_compute_node_options: Additional parameters\
+    \ for\n the operation\n:type file_get_from_compute_node_options:\n :class:`FileGetFromComputeNodeOptions\n\
+    \ <azure.batch.models.FileGetFromComputeNodeOptions>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param callback: When specified,\
+    \ will be called with each chunk of\n data that is streamed. The callback should\
+    \ take two arguments, the\n bytes of the current chunk of data and the response\
+    \ object. If the\n data is uploading, response will be None.\n:type callback:\
+    \ Callable[Bytes, response=None]\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: Generator\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.batch.operations.FileOperations.get_from_compute_node
+- _type: method
+  class: azure.batch.operations.FileOperations
+  fullName: azure.batch.operations.FileOperations.get_from_task
+  module: azure.batch.operations
+  name: get_from_task
+  source:
+    id: get_from_task
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/file_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/file_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 126
+  summary: "Returns the content of the specified task file.\n\n:param job_id: The\
+    \ id of the job that contains the task.\n:type job_id: str\n:param task_id: The\
+    \ id of the task whose file you want to retrieve.\n:type task_id: str\n:param\
+    \ file_name: The path to the task file that you want to get the\n content of.\n\
+    :type file_name: str\n:param file_get_from_task_options: Additional parameters\
+    \ for the\n operation\n:type file_get_from_task_options: :class:`FileGetFromTaskOptions\n\
+    \ <azure.batch.models.FileGetFromTaskOptions>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param callback: When specified, will\
+    \ be called with each chunk of\n data that is streamed. The callback should take\
+    \ two arguments, the\n bytes of the current chunk of data and the response object.\
+    \ If the\n data is uploading, response will be None.\n:type callback: Callable[Bytes,\
+    \ response=None]\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: Generator\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.batch.operations.FileOperations.get_from_task
+- _type: method
+  class: azure.batch.operations.FileOperations
+  fullName: azure.batch.operations.FileOperations.get_node_file_properties_from_compute_node
+  module: azure.batch.operations
+  name: get_node_file_properties_from_compute_node
+  source:
+    id: get_node_file_properties_from_compute_node
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/file_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/file_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 562
+  summary: "Gets the properties of the specified compute node file.\n\n:param pool_id:\
+    \ The id of the pool that contains the compute node.\n:type pool_id: str\n:param\
+    \ node_id: The id of the compute node that contains the file.\n:type node_id:\
+    \ str\n:param file_name: The path to the compute node file that you want to\n\
+    \ get the properties of.\n:type file_name: str\n:param file_get_node_file_properties_from_compute_node_options:\n\
+    \ Additional parameters for the operation\n:type file_get_node_file_properties_from_compute_node_options:\n\
+    \ :class:`FileGetNodeFilePropertiesFromComputeNodeOptions\n <azure.batch.models.FileGetNodeFilePropertiesFromComputeNodeOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.batch.operations.FileOperations.get_node_file_properties_from_compute_node
+- _type: method
+  class: azure.batch.operations.FileOperations
+  fullName: azure.batch.operations.FileOperations.get_node_file_properties_from_task
+  module: azure.batch.operations
+  name: get_node_file_properties_from_task
+  source:
+    id: get_node_file_properties_from_task
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/file_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/file_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 246
+  summary: "Gets the properties of the specified task file.\n\n:param job_id: The\
+    \ id of the job that contains the task.\n:type job_id: str\n:param task_id: The\
+    \ id of the task whose file you want to get the\n properties of.\n:type task_id:\
+    \ str\n:param file_name: The path to the task file that you want to get the\n\
+    \ properties of.\n:type file_name: str\n:param file_get_node_file_properties_from_task_options:\
+    \ Additional\n parameters for the operation\n:type file_get_node_file_properties_from_task_options:\n\
+    \ :class:`FileGetNodeFilePropertiesFromTaskOptions\n <azure.batch.models.FileGetNodeFilePropertiesFromTaskOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.batch.operations.FileOperations.get_node_file_properties_from_task
+- _type: method
+  class: azure.batch.operations.FileOperations
+  fullName: azure.batch.operations.FileOperations.list_from_compute_node
+  module: azure.batch.operations
+  name: list_from_compute_node
+  source:
+    id: list_from_compute_node
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/file_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/file_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 767
+  summary: "Lists all of the files in task directories on the specified compute\n\
+    node.\n\n:param pool_id: The id of the pool that contains the compute node.\n\
+    :type pool_id: str\n:param node_id: The id of the compute node whose files you\
+    \ want to\n list.\n:type node_id: str\n:param recursive: Whether to list children\
+    \ of a directory.\n:type recursive: bool\n:param file_list_from_compute_node_options:\
+    \ Additional parameters for\n the operation\n:type file_list_from_compute_node_options:\n\
+    \ :class:`FileListFromComputeNodeOptions\n <azure.batch.models.FileListFromComputeNodeOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`NodeFilePaged <azure.batch.models.NodeFilePaged>`"
+  type: Method
+  uid: azure.batch.operations.FileOperations.list_from_compute_node
+- _type: method
+  class: azure.batch.operations.FileOperations
+  fullName: azure.batch.operations.FileOperations.list_from_task
+  module: azure.batch.operations
+  name: list_from_task
+  source:
+    id: list_from_task
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/file_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/file_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 664
+  summary: "Lists the files in a task's directory on its compute node.\n\n:param job_id:\
+    \ The id of the job that contains the task.\n:type job_id: str\n:param task_id:\
+    \ The id of the task whose files you want to list.\n:type task_id: str\n:param\
+    \ recursive: Whether to list children of a directory.\n:type recursive: bool\n\
+    :param file_list_from_task_options: Additional parameters for the\n operation\n\
+    :type file_list_from_task_options: :class:`FileListFromTaskOptions\n <azure.batch.models.FileListFromTaskOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`NodeFilePaged <azure.batch.models.NodeFilePaged>`"
+  type: Method
+  uid: azure.batch.operations.FileOperations.list_from_task

@@ -1,0 +1,458 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.check_namespace_availability
+  - azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.create_namespace
+  - azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.delete_namespace
+  - azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_metrics_data_notification_hub
+  - azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_metrics_data_queue
+  - azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_metrics_data_relay
+  - azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_metrics_data_topic
+  - azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_metrics_rollups_notification_hub
+  - azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_metrics_rollups_queue
+  - azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_metrics_rollups_relay
+  - azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_metrics_rollups_topic
+  - azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_namespace
+  - azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_regions
+  - azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_supported_metrics_notification_hub
+  - azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_supported_metrics_queue
+  - azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_supported_metrics_relay
+  - azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_supported_metrics_topic
+  - azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.list_namespaces
+  - azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.list_notification_hubs
+  - azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.list_queues
+  - azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.list_relays
+  - azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.list_topics
+  class: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService
+  fullName: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService
+  inheritance:
+  - azure.servicemanagement.servicemanagementclient._ServiceManagementClient
+  - builtins.object
+  module: azure.servicemanagement.servicebusmanagementservice
+  name: ServiceBusManagementService
+  source:
+    id: ServiceBusManagementService
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 46
+  summary: "Initializes the service bus management service.\n\nsubscription_id:\n\
+    \    Subscription to manage.\ncert_file:\n    Path to .pem certificate file (httplib),\
+    \ or location of the\n    certificate in your Personal certificate store (winhttp)\
+    \ in the\n    CURRENT_USER\\my\\CertificateName format.\n    If a request_session\
+    \ is specified, then this is unused.\nhost:\n    Live ServiceClient URL. Defaults\
+    \ to Azure public cloud.\nrequest_session:\n    Session object to use for http\
+    \ requests. If this is specified, it\n    replaces the default use of httplib\
+    \ or winhttp. Also, the cert_file\n    parameter is unused when a session is passed\
+    \ in.\n    The session object handles authentication, and as such can support\n\
+    \    multiple types of authentication: .pem certificate, oauth.\n    For example,\
+    \ you can pass in a Session instance from the requests\n    library. To use .pem\
+    \ certificate authentication with requests\n    library, set the path to the .pem\
+    \ file on the session.cert\n    attribute.\ntimeout:\n    Optional. Timeout for\
+    \ the http request, in seconds."
+  type: Class
+  uid: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService
+- _type: method
+  class: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService
+  fullName: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.check_namespace_availability
+  module: azure.servicemanagement.servicebusmanagementservice
+  name: check_namespace_availability
+  source:
+    id: check_namespace_availability
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 147
+  summary: "Checks to see if the specified service bus namespace is available, or\n\
+    if it has already been taken.\n\nname:\n    Name of the service bus namespace\
+    \ to validate."
+  type: Method
+  uid: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.check_namespace_availability
+- _type: method
+  class: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService
+  fullName: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.create_namespace
+  module: azure.servicemanagement.servicebusmanagementservice
+  name: create_namespace
+  source:
+    id: create_namespace
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 119
+  summary: "Create a new service bus namespace.\n\nname:\n    Name of the service\
+    \ bus namespace to create.\nregion:\n    Region to create the namespace in."
+  type: Method
+  uid: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.create_namespace
+- _type: method
+  class: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService
+  fullName: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.delete_namespace
+  module: azure.servicemanagement.servicebusmanagementservice
+  name: delete_namespace
+  source:
+    id: delete_namespace
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 134
+  summary: "Delete a service bus namespace.\n\nname:\n    Name of the service bus\
+    \ namespace to delete."
+  type: Method
+  uid: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.delete_namespace
+- _type: method
+  class: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService
+  fullName: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_metrics_data_notification_hub
+  module: azure.servicemanagement.servicebusmanagementservice
+  name: get_metrics_data_notification_hub
+  source:
+    id: get_metrics_data_notification_hub
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 380
+  summary: "Retrieves the list of supported metrics for this namespace and topic\n\
+    \nname:\n    Name of the service bus namespace.\nhub_name:\n    Name of the service\
+    \ bus notification hub in this namespace.\nmetric:\n    name of a supported metric\n\
+    rollup:\n    name of a supported rollup\nfilter_expression:\n    filter, for instance\
+    \ \"$filter=Timestamp gt datetime'2014-10-01T00:00:00Z'\""
+  type: Method
+  uid: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_metrics_data_notification_hub
+- _type: method
+  class: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService
+  fullName: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_metrics_data_queue
+  module: azure.servicemanagement.servicebusmanagementservice
+  name: get_metrics_data_queue
+  source:
+    id: get_metrics_data_queue
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 326
+  summary: "Retrieves the list of supported metrics for this namespace and queue\n\
+    \nname:\n    Name of the service bus namespace.\nqueue_name:\n    Name of the\
+    \ service bus queue in this namespace.\nmetric:\n    name of a supported metric\n\
+    rollup:\n    name of a supported rollup\nfilter_expression:\n    filter, for instance\
+    \ \"$filter=Timestamp gt datetime'2014-10-01T00:00:00Z'\""
+  type: Method
+  uid: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_metrics_data_queue
+- _type: method
+  class: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService
+  fullName: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_metrics_data_relay
+  module: azure.servicemanagement.servicebusmanagementservice
+  name: get_metrics_data_relay
+  source:
+    id: get_metrics_data_relay
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 407
+  summary: "Retrieves the list of supported metrics for this namespace and relay\n\
+    \nname:\n    Name of the service bus namespace.\nrelay_name:\n    Name of the\
+    \ service bus relay in this namespace.\nmetric:\n    name of a supported metric\n\
+    rollup:\n    name of a supported rollup\nfilter_expression:\n    filter, for instance\
+    \ \"$filter=Timestamp gt datetime'2014-10-01T00:00:00Z'\""
+  type: Method
+  uid: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_metrics_data_relay
+- _type: method
+  class: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService
+  fullName: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_metrics_data_topic
+  module: azure.servicemanagement.servicebusmanagementservice
+  name: get_metrics_data_topic
+  source:
+    id: get_metrics_data_topic
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 353
+  summary: "Retrieves the list of supported metrics for this namespace and topic\n\
+    \nname:\n    Name of the service bus namespace.\ntopic_name:\n    Name of the\
+    \ service bus queue in this namespace.\nmetric:\n    name of a supported metric\n\
+    rollup:\n    name of a supported rollup\nfilter_expression:\n    filter, for instance\
+    \ \"$filter=Timestamp gt datetime'2014-10-01T00:00:00Z'\""
+  type: Method
+  uid: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_metrics_data_topic
+- _type: method
+  class: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService
+  fullName: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_metrics_rollups_notification_hub
+  module: azure.servicemanagement.servicebusmanagementservice
+  name: get_metrics_rollups_notification_hub
+  source:
+    id: get_metrics_rollups_notification_hub
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 484
+  summary: "This operation gets rollup data for Service Bus metrics notification hub.\n\
+    Rollup data includes the time granularity for the telemetry aggregation as well\
+    \ as\nthe retention settings for each time granularity.\n\nname:\n    Name of\
+    \ the service bus namespace.\nhub_name:\n    Name of the service bus notification\
+    \ hub in this namespace.\nmetric:\n    name of a supported metric"
+  type: Method
+  uid: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_metrics_rollups_notification_hub
+- _type: method
+  class: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService
+  fullName: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_metrics_rollups_queue
+  module: azure.servicemanagement.servicebusmanagementservice
+  name: get_metrics_rollups_queue
+  source:
+    id: get_metrics_rollups_queue
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 434
+  summary: "This operation gets rollup data for Service Bus metrics queue.\nRollup\
+    \ data includes the time granularity for the telemetry aggregation as well as\n\
+    the retention settings for each time granularity.\n\nname:\n    Name of the service\
+    \ bus namespace.\nqueue_name:\n    Name of the service bus queue in this namespace.\n\
+    metric:\n    name of a supported metric"
+  type: Method
+  uid: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_metrics_rollups_queue
+- _type: method
+  class: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService
+  fullName: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_metrics_rollups_relay
+  module: azure.servicemanagement.servicebusmanagementservice
+  name: get_metrics_rollups_relay
+  source:
+    id: get_metrics_rollups_relay
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 509
+  summary: "This operation gets rollup data for Service Bus metrics relay.\nRollup\
+    \ data includes the time granularity for the telemetry aggregation as well as\n\
+    the retention settings for each time granularity.\n\nname:\n    Name of the service\
+    \ bus namespace.\nrelay_name:\n    Name of the service bus relay in this namespace.\n\
+    metric:\n    name of a supported metric"
+  type: Method
+  uid: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_metrics_rollups_relay
+- _type: method
+  class: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService
+  fullName: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_metrics_rollups_topic
+  module: azure.servicemanagement.servicebusmanagementservice
+  name: get_metrics_rollups_topic
+  source:
+    id: get_metrics_rollups_topic
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 459
+  summary: "This operation gets rollup data for Service Bus metrics topic.\nRollup\
+    \ data includes the time granularity for the telemetry aggregation as well as\n\
+    the retention settings for each time granularity.\n\nname:\n    Name of the service\
+    \ bus namespace.\ntopic_name:\n    Name of the service bus queue in this namespace.\n\
+    metric:\n    name of a supported metric"
+  type: Method
+  uid: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_metrics_rollups_topic
+- _type: method
+  class: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService
+  fullName: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_namespace
+  module: azure.servicemanagement.servicebusmanagementservice
+  name: get_namespace
+  source:
+    id: get_namespace
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 105
+  summary: "Get details about a specific namespace.\n\nname:\n    Name of the service\
+    \ bus namespace."
+  type: Method
+  uid: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_namespace
+- _type: method
+  class: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService
+  fullName: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_regions
+  module: azure.servicemanagement.servicebusmanagementservice
+  name: get_regions
+  source:
+    id: get_regions
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 81
+  summary: Get list of available service bus regions.
+  type: Method
+  uid: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_regions
+- _type: method
+  class: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService
+  fullName: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_supported_metrics_notification_hub
+  module: azure.servicemanagement.servicebusmanagementservice
+  name: get_supported_metrics_notification_hub
+  source:
+    id: get_supported_metrics_notification_hub
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 284
+  summary: "Retrieves the list of supported metrics for this namespace and topic\n\
+    \nname:\n    Name of the service bus namespace.\nhub_name:\n    Name of the service\
+    \ bus notification hub in this namespace."
+  type: Method
+  uid: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_supported_metrics_notification_hub
+- _type: method
+  class: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService
+  fullName: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_supported_metrics_queue
+  module: azure.servicemanagement.servicebusmanagementservice
+  name: get_supported_metrics_queue
+  source:
+    id: get_supported_metrics_queue
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 242
+  summary: "Retrieves the list of supported metrics for this namespace and queue\n\
+    \nname:\n    Name of the service bus namespace.\nqueue_name:\n    Name of the\
+    \ service bus queue in this namespace."
+  type: Method
+  uid: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_supported_metrics_queue
+- _type: method
+  class: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService
+  fullName: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_supported_metrics_relay
+  module: azure.servicemanagement.servicebusmanagementservice
+  name: get_supported_metrics_relay
+  source:
+    id: get_supported_metrics_relay
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 305
+  summary: "Retrieves the list of supported metrics for this namespace and relay\n\
+    \nname:\n    Name of the service bus namespace.\nrelay_name:\n    Name of the\
+    \ service bus relay in this namespace."
+  type: Method
+  uid: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_supported_metrics_relay
+- _type: method
+  class: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService
+  fullName: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_supported_metrics_topic
+  module: azure.servicemanagement.servicebusmanagementservice
+  name: get_supported_metrics_topic
+  source:
+    id: get_supported_metrics_topic
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 263
+  summary: "Retrieves the list of supported metrics for this namespace and topic\n\
+    \nname:\n    Name of the service bus namespace.\ntopic_name:\n    Name of the\
+    \ service bus queue in this namespace."
+  type: Method
+  uid: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.get_supported_metrics_topic
+- _type: method
+  class: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService
+  fullName: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.list_namespaces
+  module: azure.servicemanagement.servicebusmanagementservice
+  name: list_namespaces
+  source:
+    id: list_namespaces
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 93
+  summary: List the service bus namespaces defined on the account.
+  type: Method
+  uid: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.list_namespaces
+- _type: method
+  class: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService
+  fullName: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.list_notification_hubs
+  module: azure.servicemanagement.servicebusmanagementservice
+  name: list_notification_hubs
+  source:
+    id: list_notification_hubs
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 204
+  summary: "Retrieves the notification hubs in the service namespace.\n\nname:\n \
+    \   Name of the service bus namespace."
+  type: Method
+  uid: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.list_notification_hubs
+- _type: method
+  class: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService
+  fullName: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.list_queues
+  module: azure.servicemanagement.servicebusmanagementservice
+  name: list_queues
+  source:
+    id: list_queues
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 164
+  summary: "Enumerates the queues in the service namespace.\n\nname:\n    Name of\
+    \ the service bus namespace."
+  type: Method
+  uid: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.list_queues
+- _type: method
+  class: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService
+  fullName: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.list_relays
+  module: azure.servicemanagement.servicebusmanagementservice
+  name: list_relays
+  source:
+    id: list_relays
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 223
+  summary: "Retrieves the relays in the service namespace.\n\nname:\n    Name of the\
+    \ service bus namespace."
+  type: Method
+  uid: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.list_relays
+- _type: method
+  class: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService
+  fullName: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.list_topics
+  module: azure.servicemanagement.servicebusmanagementservice
+  name: list_topics
+  source:
+    id: list_topics
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/servicebusmanagementservice.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 185
+  summary: "Retrieves the topics in the service namespace.\n\nname:\n    Name of the\
+    \ service bus namespace."
+  type: Method
+  uid: azure.servicemanagement.servicebusmanagementservice.ServiceBusManagementService.list_topics

@@ -1,0 +1,30 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.dns.models.SoaRecord
+  fullName: azure.mgmt.dns.models.SoaRecord
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.dns.models
+  name: SoaRecord
+  source:
+    id: SoaRecord
+    path: azure-mgmt-dns/azure/mgmt/dns/models/soa_record.py
+    remote:
+      branch: master
+      path: azure-mgmt-dns/azure/mgmt/dns/models/soa_record.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "An SOA record.\n\n:param host: The domain name of the authoritative name\
+    \ server for this\n SOA record.\n:type host: str\n:param email: The email contact\
+    \ for this SOA record.\n:type email: str\n:param serial_number: The serial number\
+    \ for this SOA record.\n:type serial_number: long\n:param refresh_time: The refresh\
+    \ value for this SOA record.\n:type refresh_time: long\n:param retry_time: The\
+    \ retry time for this SOA record.\n:type retry_time: long\n:param expire_time:\
+    \ The expire time for this SOA record.\n:type expire_time: long\n:param minimum_ttl:\
+    \ The minimum value for this SOA record. By convention\n this is used to determine\
+    \ the negative caching duration.\n:type minimum_ttl: long"
+  type: Class
+  uid: azure.mgmt.dns.models.SoaRecord

@@ -1,0 +1,134 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.network.operations.SecurityRulesOperations.create_or_update
+  - azure.mgmt.network.operations.SecurityRulesOperations.delete
+  - azure.mgmt.network.operations.SecurityRulesOperations.get
+  - azure.mgmt.network.operations.SecurityRulesOperations.list
+  class: azure.mgmt.network.operations.SecurityRulesOperations
+  fullName: azure.mgmt.network.operations.SecurityRulesOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.network.operations
+  name: SecurityRulesOperations
+  source:
+    id: SecurityRulesOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/security_rules_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/security_rules_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 20
+  summary: 'SecurityRulesOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.network.operations.SecurityRulesOperations
+- _type: method
+  class: azure.mgmt.network.operations.SecurityRulesOperations
+  fullName: azure.mgmt.network.operations.SecurityRulesOperations.create_or_update
+  module: azure.mgmt.network.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/security_rules_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/security_rules_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 183
+  summary: "The Put network security rule operation creates/updates a security\nrule\
+    \ in the specified network security group.\n\n:param resource_group_name: The\
+    \ name of the resource group.\n:type resource_group_name: str\n:param network_security_group_name:\
+    \ The name of the network security\n group.\n:type network_security_group_name:\
+    \ str\n:param security_rule_name: The name of the security rule.\n:type security_rule_name:\
+    \ str\n:param security_rule_parameters: Parameters supplied to the\n create/update\
+    \ network security rule operation\n:type security_rule_parameters: :class:`SecurityRule\n\
+    \ <azure.mgmt.network.models.SecurityRule>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`SecurityRule\n <azure.mgmt.network.models.SecurityRule>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.SecurityRulesOperations.create_or_update
+- _type: method
+  class: azure.mgmt.network.operations.SecurityRulesOperations
+  fullName: azure.mgmt.network.operations.SecurityRulesOperations.delete
+  module: azure.mgmt.network.operations
+  name: delete
+  source:
+    id: delete
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/security_rules_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/security_rules_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 37
+  summary: "The delete network security rule operation deletes the specified\nnetwork\
+    \ security rule.\n\n:param resource_group_name: The name of the resource group.\n\
+    :type resource_group_name: str\n:param network_security_group_name: The name of\
+    \ the network security\n group.\n:type network_security_group_name: str\n:param\
+    \ security_rule_name: The name of the security rule.\n:type security_rule_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.SecurityRulesOperations.delete
+- _type: method
+  class: azure.mgmt.network.operations.SecurityRulesOperations
+  fullName: azure.mgmt.network.operations.SecurityRulesOperations.get
+  module: azure.mgmt.network.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/security_rules_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/security_rules_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 118
+  summary: "The Get NetworkSecurityRule operation retrieves information about the\n\
+    specified network security rule.\n\n:param resource_group_name: The name of the\
+    \ resource group.\n:type resource_group_name: str\n:param network_security_group_name:\
+    \ The name of the network security\n group.\n:type network_security_group_name:\
+    \ str\n:param security_rule_name: The name of the security rule.\n:type security_rule_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`SecurityRule <azure.mgmt.network.models.SecurityRule>`\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.SecurityRulesOperations.get
+- _type: method
+  class: azure.mgmt.network.operations.SecurityRulesOperations
+  fullName: azure.mgmt.network.operations.SecurityRulesOperations.list
+  module: azure.mgmt.network.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/security_rules_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/security_rules_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 282
+  summary: "The List network security rule operation retrieves all the security\n\
+    rules in a network security group.\n\n:param resource_group_name: The name of\
+    \ the resource group.\n:type resource_group_name: str\n:param network_security_group_name:\
+    \ The name of the network security\n group.\n:type network_security_group_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`SecurityRulePaged\n <azure.mgmt.network.models.SecurityRulePaged>`"
+  type: Method
+  uid: azure.mgmt.network.operations.SecurityRulesOperations.list

@@ -1,0 +1,264 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.batch.operations.ApplicationOperations.activate_application_package
+  - azure.mgmt.batch.operations.ApplicationOperations.add_application
+  - azure.mgmt.batch.operations.ApplicationOperations.add_application_package
+  - azure.mgmt.batch.operations.ApplicationOperations.delete_application
+  - azure.mgmt.batch.operations.ApplicationOperations.delete_application_package
+  - azure.mgmt.batch.operations.ApplicationOperations.get_application
+  - azure.mgmt.batch.operations.ApplicationOperations.get_application_package
+  - azure.mgmt.batch.operations.ApplicationOperations.list
+  - azure.mgmt.batch.operations.ApplicationOperations.update_application
+  class: azure.mgmt.batch.operations.ApplicationOperations
+  fullName: azure.mgmt.batch.operations.ApplicationOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.batch.operations
+  name: ApplicationOperations
+  source:
+    id: ApplicationOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/application_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/application_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'ApplicationOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.batch.operations.ApplicationOperations
+- _type: method
+  class: azure.mgmt.batch.operations.ApplicationOperations
+  fullName: azure.mgmt.batch.operations.ApplicationOperations.activate_application_package
+  module: azure.mgmt.batch.operations
+  name: activate_application_package
+  source:
+    id: activate_application_package
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/application_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/application_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Activates the specified application package.\n\n:param resource_group_name:\
+    \ The name of the resource group that\n contains the Batch account.\n:type resource_group_name:\
+    \ str\n:param account_name: The name of the Batch account.\n:type account_name:\
+    \ str\n:param id: The id of the application.\n:type id: str\n:param version: The\
+    \ version of the application to activate.\n:type version: str\n:param format:\
+    \ The format of the application package binary file.\n:type format: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.batch.operations.ApplicationOperations.activate_application_package
+- _type: method
+  class: azure.mgmt.batch.operations.ApplicationOperations
+  fullName: azure.mgmt.batch.operations.ApplicationOperations.add_application
+  module: azure.mgmt.batch.operations
+  name: add_application
+  source:
+    id: add_application
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/application_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/application_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 104
+  summary: "Adds an application to the specified Batch account.\n\n:param resource_group_name:\
+    \ The name of the resource group that\n contains the Batch account.\n:type resource_group_name:\
+    \ str\n:param account_name: The name of the Batch account.\n:type account_name:\
+    \ str\n:param application_id: The id of the application.\n:type application_id:\
+    \ str\n:param allow_updates: A value indicating whether packages within the\n\
+    \ application may be overwritten using the same version string.\n:type allow_updates:\
+    \ bool\n:param display_name: The display name for the application.\n:type display_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`Application <azure.mgmt.batch.models.Application>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.batch.operations.ApplicationOperations.add_application
+- _type: method
+  class: azure.mgmt.batch.operations.ApplicationOperations
+  fullName: azure.mgmt.batch.operations.ApplicationOperations.add_application_package
+  module: azure.mgmt.batch.operations
+  name: add_application_package
+  source:
+    id: add_application_package
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/application_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/application_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 369
+  summary: "Creates an application package record.\n\n:param resource_group_name:\
+    \ The name of the resource group that\n contains the Batch account.\n:type resource_group_name:\
+    \ str\n:param account_name: The name of the Batch account.\n:type account_name:\
+    \ str\n:param application_id: The id of the application.\n:type application_id:\
+    \ str\n:param version: The version of the application.\n:type version: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`AddApplicationPackageResult\n <azure.mgmt.batch.models.AddApplicationPackageResult>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.batch.operations.ApplicationOperations.add_application_package
+- _type: method
+  class: azure.mgmt.batch.operations.ApplicationOperations
+  fullName: azure.mgmt.batch.operations.ApplicationOperations.delete_application
+  module: azure.mgmt.batch.operations
+  name: delete_application
+  source:
+    id: delete_application
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/application_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/application_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 184
+  summary: "Deletes an application.\n\n:param resource_group_name: The name of the\
+    \ resource group that\n contains the Batch account.\n:type resource_group_name:\
+    \ str\n:param account_name: The name of the Batch account.\n:type account_name:\
+    \ str\n:param application_id: The id of the application.\n:type application_id:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.batch.operations.ApplicationOperations.delete_application
+- _type: method
+  class: azure.mgmt.batch.operations.ApplicationOperations
+  fullName: azure.mgmt.batch.operations.ApplicationOperations.delete_application_package
+  module: azure.mgmt.batch.operations
+  name: delete_application_package
+  source:
+    id: delete_application_package
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/application_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/application_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 437
+  summary: "Deletes an application package record and its associated binary file.\n\
+    \n:param resource_group_name: The name of the resource group that\n contains the\
+    \ Batch account.\n:type resource_group_name: str\n:param account_name: The name\
+    \ of the Batch account.\n:type account_name: str\n:param application_id: The id\
+    \ of the application.\n:type application_id: str\n:param version: The version\
+    \ of the application to delete.\n:type version: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.batch.operations.ApplicationOperations.delete_application_package
+- _type: method
+  class: azure.mgmt.batch.operations.ApplicationOperations
+  fullName: azure.mgmt.batch.operations.ApplicationOperations.get_application
+  module: azure.mgmt.batch.operations
+  name: get_application
+  source:
+    id: get_application
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/application_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/application_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 241
+  summary: "Gets information about the specified application.\n\n:param resource_group_name:\
+    \ The name of the resource group that\n contains the Batch account.\n:type resource_group_name:\
+    \ str\n:param account_name: The name of the Batch account.\n:type account_name:\
+    \ str\n:param application_id: The id of the application.\n:type application_id:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`Application <azure.mgmt.batch.models.Application>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.batch.operations.ApplicationOperations.get_application
+- _type: method
+  class: azure.mgmt.batch.operations.ApplicationOperations
+  fullName: azure.mgmt.batch.operations.ApplicationOperations.get_application_package
+  module: azure.mgmt.batch.operations
+  name: get_application_package
+  source:
+    id: get_application_package
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/application_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/application_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 497
+  summary: "Gets information about the specified application package.\n\n:param resource_group_name:\
+    \ The name of the resource group that\n contains the Batch account.\n:type resource_group_name:\
+    \ str\n:param account_name: The name of the Batch account.\n:type account_name:\
+    \ str\n:param application_id: The id of the application.\n:type application_id:\
+    \ str\n:param version: The version of the application.\n:type version: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`GetApplicationPackageResult\n <azure.mgmt.batch.models.GetApplicationPackageResult>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.batch.operations.ApplicationOperations.get_application_package
+- _type: method
+  class: azure.mgmt.batch.operations.ApplicationOperations
+  fullName: azure.mgmt.batch.operations.ApplicationOperations.list
+  module: azure.mgmt.batch.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/application_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/application_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 565
+  summary: "Lists all of the applications in the specified account.\n\n:param resource_group_name:\
+    \ The name of the resource group that\n contains the Batch account.\n:type resource_group_name:\
+    \ str\n:param account_name: The name of the Batch account.\n:type account_name:\
+    \ str\n:param maxresults: The maximum number of items to return in the\n response.\n\
+    :type maxresults: int\n:param dict custom_headers: headers that will be added\
+    \ to the request\n:param bool raw: returns the direct response alongside the\n\
+    \ deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ApplicationPaged\n\
+    \ <azure.mgmt.batch.models.ApplicationPaged>`"
+  type: Method
+  uid: azure.mgmt.batch.operations.ApplicationOperations.list
+- _type: method
+  class: azure.mgmt.batch.operations.ApplicationOperations
+  fullName: azure.mgmt.batch.operations.ApplicationOperations.update_application
+  module: azure.mgmt.batch.operations
+  name: update_application
+  source:
+    id: update_application
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/application_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/application_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 305
+  summary: "Updates settings for the specified application.\n\n:param resource_group_name:\
+    \ The name of the resource group that\n contains the Batch account.\n:type resource_group_name:\
+    \ str\n:param account_name: The name of the Batch account.\n:type account_name:\
+    \ str\n:param application_id: The id of the application.\n:type application_id:\
+    \ str\n:param parameters: The parameters for the request.\n:type parameters: :class:`UpdateApplicationParameters\n\
+    \ <azure.mgmt.batch.models.UpdateApplicationParameters>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.batch.operations.ApplicationOperations.update_application

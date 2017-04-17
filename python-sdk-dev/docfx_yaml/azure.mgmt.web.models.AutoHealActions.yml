@@ -1,0 +1,30 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.AutoHealActions
+  fullName: azure.mgmt.web.models.AutoHealActions
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: AutoHealActions
+  source:
+    id: AutoHealActions
+    path: azure-mgmt-web/azure/mgmt/web/models/auto_heal_actions.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/auto_heal_actions.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "AutoHealActions - Describes the actions which can be\ntaken by the auto-heal\
+    \ module when a rule is triggered.\n\n:param action_type: ActionType - predefined\
+    \ action to be taken. Possible\n values include: 'Recycle', 'LogEvent', 'CustomAction'\n\
+    :type action_type: str or :class:`AutoHealActionType\n <azure.mgmt.web.models.AutoHealActionType>`\n\
+    :param custom_action: CustomAction - custom action to be taken\n:type custom_action:\
+    \ :class:`AutoHealCustomAction\n <azure.mgmt.web.models.AutoHealCustomAction>`\n\
+    :param min_process_execution_time: MinProcessExecutionTime - minimum time\n the\
+    \ process must execute\n before taking the action\n:type min_process_execution_time:\
+    \ str"
+  type: Class
+  uid: azure.mgmt.web.models.AutoHealActions

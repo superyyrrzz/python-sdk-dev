@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.DeleteCertificateError
+  fullName: azure.batch.models.DeleteCertificateError
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: DeleteCertificateError
+  source:
+    id: DeleteCertificateError
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/delete_certificate_error.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/delete_certificate_error.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "An error encountered by the Batch service when deleting a certificate.\n\
+    \n:param code: An identifier for the certificate deletion error. Codes are\n invariant\
+    \ and are intended to be consumed programmatically.\n:type code: str\n:param message:\
+    \ A message describing the certificate deletion error,\n intended to be suitable\
+    \ for display in a user interface.\n:type message: str\n:param values: A list\
+    \ of additional error details related to the\n certificate deletion error.\n:type\
+    \ values: list of :class:`NameValuePair\n <azure.batch.models.NameValuePair>`"
+  type: Class
+  uid: azure.batch.models.DeleteCertificateError

@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.PoolEvaluateAutoScaleParameter
+  fullName: azure.batch.models.PoolEvaluateAutoScaleParameter
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: PoolEvaluateAutoScaleParameter
+  source:
+    id: PoolEvaluateAutoScaleParameter
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/pool_evaluate_auto_scale_parameter.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/pool_evaluate_auto_scale_parameter.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Parameters for a CloudJobOperations.EvaluateAutoScale request.\n\n:param\
+    \ auto_scale_formula: A formula for the desired number of compute\n nodes in the\
+    \ pool.\n:type auto_scale_formula: str"
+  type: Class
+  uid: azure.batch.models.PoolEvaluateAutoScaleParameter

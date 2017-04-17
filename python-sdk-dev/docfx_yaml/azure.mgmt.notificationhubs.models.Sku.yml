@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.notificationhubs.models.Sku
+  fullName: azure.mgmt.notificationhubs.models.Sku
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.notificationhubs.models
+  name: Sku
+  source:
+    id: Sku
+    path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/models/sku.py
+    remote:
+      branch: master
+      path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/models/sku.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The Sku description for a namespace.\n\n:param name: Name of the notification\
+    \ hub sku. Possible values include:\n 'Free', 'Basic', 'Standard'\n:type name:\
+    \ str or :class:`SkuName\n <azure.mgmt.notificationhubs.models.SkuName>`\n:param\
+    \ tier: The tier of particular sku\n:type tier: str\n:param size: The Sku size\n\
+    :type size: str\n:param family: The Sku Family\n:type family: str\n:param capacity:\
+    \ The capacity of the resource\n:type capacity: int"
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.Sku

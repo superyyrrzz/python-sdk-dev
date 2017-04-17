@@ -1,0 +1,57 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.PoolSpecification
+  fullName: azure.batch.models.PoolSpecification
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: PoolSpecification
+  source:
+    id: PoolSpecification
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/pool_specification.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/pool_specification.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Specification for creating a new pool.\n\n:param display_name: The display\
+    \ name for the pool.\n:type display_name: str\n:param vm_size: The size of the\
+    \ virtual machines in the pool. All virtual\n machines in a pool are the same\
+    \ size.\n:type vm_size: str\n:param cloud_service_configuration: The cloud service\
+    \ configuration for\n the pool. This property and VirtualMachineConfiguration\
+    \ are mutually\n exclusive and one of the properties must be specified.\n:type\
+    \ cloud_service_configuration: :class:`CloudServiceConfiguration\n <azure.batch.models.CloudServiceConfiguration>`\n\
+    :param virtual_machine_configuration: The virtual machine configuration\n for\
+    \ the pool. This property and CloudServiceConfiguration are mutually\n exclusive\
+    \ and one of the properties must be specified.\n:type virtual_machine_configuration:\
+    \ :class:`VirtualMachineConfiguration\n <azure.batch.models.VirtualMachineConfiguration>`\n\
+    :param max_tasks_per_node: The maximum number of tasks that can run\n concurrently\
+    \ on a single compute node in the pool.\n:type max_tasks_per_node: int\n:param\
+    \ task_scheduling_policy: How tasks are distributed among compute\n nodes in the\
+    \ pool.\n:type task_scheduling_policy: :class:`TaskSchedulingPolicy\n <azure.batch.models.TaskSchedulingPolicy>`\n\
+    :param resize_timeout: The timeout for allocation of compute nodes to the\n pool.\n\
+    :type resize_timeout: timedelta\n:param target_dedicated: The desired number of\
+    \ compute nodes in the pool.\n:type target_dedicated: int\n:param enable_auto_scale:\
+    \ Whether the pool size should automatically\n adjust over time.\n:type enable_auto_scale:\
+    \ bool\n:param auto_scale_formula: The formula for the desired number of compute\n\
+    \ nodes in the pool.\n:type auto_scale_formula: str\n:param auto_scale_evaluation_interval:\
+    \ A time interval for the desired\n AutoScale evaluation period in the pool.\n\
+    :type auto_scale_evaluation_interval: timedelta\n:param enable_inter_node_communication:\
+    \ Whether the pool permits direct\n communication between nodes.\n:type enable_inter_node_communication:\
+    \ bool\n:param network_configuration: The network configuration for the pool.\n\
+    :type network_configuration: :class:`NetworkConfiguration\n <azure.batch.models.NetworkConfiguration>`\n\
+    :param start_task: A task to run on each compute node as it joins the\n pool.\
+    \ The task runs when the node is added to the pool or when the node\n is restarted.\n\
+    :type start_task: :class:`StartTask <azure.batch.models.StartTask>`\n:param certificate_references:\
+    \ A list of certificates to be installed on\n each compute node in the pool.\n\
+    :type certificate_references: list of :class:`CertificateReference\n <azure.batch.models.CertificateReference>`\n\
+    :param application_package_references: The list of application packages\n to be\
+    \ installed on each compute node in the pool.\n:type application_package_references:\
+    \ list of\n :class:`ApplicationPackageReference\n <azure.batch.models.ApplicationPackageReference>`\n\
+    :param metadata: A list of name-value pairs associated with the pool as\n metadata.\n\
+    :type metadata: list of :class:`MetadataItem\n <azure.batch.models.MetadataItem>`"
+  type: Class
+  uid: azure.batch.models.PoolSpecification

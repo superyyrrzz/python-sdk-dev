@@ -1,0 +1,39 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.scheduler.models.StorageQueueMessage
+  fullName: azure.mgmt.scheduler.models.StorageQueueMessage
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.scheduler.models
+  name: StorageQueueMessage
+  source:
+    id: StorageQueueMessage
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/storage_queue_message.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/storage_queue_message.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'StorageQueueMessage.
+
+
+    :param storage_account: Gets or sets the storage account name.
+
+    :type storage_account: str
+
+    :param queue_name: Gets or sets the queue name.
+
+    :type queue_name: str
+
+    :param sas_token: Gets or sets the SAS key.
+
+    :type sas_token: str
+
+    :param message: Gets or sets the message.
+
+    :type message: str'
+  type: Class
+  uid: azure.mgmt.scheduler.models.StorageQueueMessage

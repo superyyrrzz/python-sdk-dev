@@ -1,0 +1,43 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.media.models.ServiceKeys
+  fullName: azure.mgmt.media.models.ServiceKeys
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.media.models
+  name: ServiceKeys
+  source:
+    id: ServiceKeys
+    path: azure-mgmt-media/azure/mgmt/media/models/service_keys.py
+    remote:
+      branch: master
+      path: azure-mgmt-media/azure/mgmt/media/models/service_keys.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'The response body for a ListKeys API.
+
+
+    :param primary_auth_endpoint: The primary authorization endpoint.
+
+    :type primary_auth_endpoint: str
+
+    :param secondary_auth_endpoint: The secondary authorization endpoint.
+
+    :type secondary_auth_endpoint: str
+
+    :param primary_key: The primary key for the Media Service resource.
+
+    :type primary_key: str
+
+    :param secondary_key: The secondary key for the Media Service resource.
+
+    :type secondary_key: str
+
+    :param scope: The authorization scope.
+
+    :type scope: str'
+  type: Class
+  uid: azure.mgmt.media.models.ServiceKeys

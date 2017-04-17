@@ -1,0 +1,130 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.monitor.operations.AlertRulesOperations.create_or_update
+  - azure.mgmt.monitor.operations.AlertRulesOperations.delete
+  - azure.mgmt.monitor.operations.AlertRulesOperations.get
+  - azure.mgmt.monitor.operations.AlertRulesOperations.list_by_resource_group
+  class: azure.mgmt.monitor.operations.AlertRulesOperations
+  fullName: azure.mgmt.monitor.operations.AlertRulesOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.monitor.operations
+  name: AlertRulesOperations
+  source:
+    id: AlertRulesOperations
+    path: azure-mgmt-monitor/azure/mgmt/monitor/operations/alert_rules_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/operations/alert_rules_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'AlertRulesOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    :ivar api_version: Client Api Version. Constant value: "2016-03-01".'
+  type: Class
+  uid: azure.mgmt.monitor.operations.AlertRulesOperations
+- _type: method
+  class: azure.mgmt.monitor.operations.AlertRulesOperations
+  fullName: azure.mgmt.monitor.operations.AlertRulesOperations.create_or_update
+  module: azure.mgmt.monitor.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: azure-mgmt-monitor/azure/mgmt/monitor/operations/alert_rules_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/operations/alert_rules_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 38
+  summary: "Creates or updates an alert rule.\nRequest method: PUT             Request\
+    \ URI:\nhttps://management.azure.com/subscriptions/{subscription-id}/resourceGroups/{resource-group-name}/providers/microsoft.insights/alertRules/{alert-rule-name}?api-version={api-version}.\n\
+    \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param rule_name: The name of the rule.\n:type rule_name: str\n:param parameters:\
+    \ The parameters of the rule to create or update.\n:type parameters: :class:`AlertRuleResource\n\
+    \ <azure.mgmt.monitor.models.AlertRuleResource>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`AlertRuleResource\n\
+    \ <azure.mgmt.monitor.models.AlertRuleResource>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.monitor.operations.AlertRulesOperations.create_or_update
+- _type: method
+  class: azure.mgmt.monitor.operations.AlertRulesOperations
+  fullName: azure.mgmt.monitor.operations.AlertRulesOperations.delete
+  module: azure.mgmt.monitor.operations
+  name: delete
+  source:
+    id: delete
+    path: azure-mgmt-monitor/azure/mgmt/monitor/operations/alert_rules_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/operations/alert_rules_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 111
+  summary: "Deletes an alert rule.\n\n:param resource_group_name: The name of the\
+    \ resource group.\n:type resource_group_name: str\n:param rule_name: The name\
+    \ of the rule.\n:type rule_name: str\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.monitor.operations.AlertRulesOperations.delete
+- _type: method
+  class: azure.mgmt.monitor.operations.AlertRulesOperations
+  fullName: azure.mgmt.monitor.operations.AlertRulesOperations.get
+  module: azure.mgmt.monitor.operations
+  name: get
+  source:
+    id: get
+    path: azure-mgmt-monitor/azure/mgmt/monitor/operations/alert_rules_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/operations/alert_rules_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 165
+  summary: "Gets an alert rule.\n\n:param resource_group_name: The name of the resource\
+    \ group.\n:type resource_group_name: str\n:param rule_name: The name of the rule.\n\
+    :type rule_name: str\n:param dict custom_headers: headers that will be added to\
+    \ the request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`AlertRuleResource\n <azure.mgmt.monitor.models.AlertRuleResource>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.monitor.operations.AlertRulesOperations.get
+- _type: method
+  class: azure.mgmt.monitor.operations.AlertRulesOperations
+  fullName: azure.mgmt.monitor.operations.AlertRulesOperations.list_by_resource_group
+  module: azure.mgmt.monitor.operations
+  name: list_by_resource_group
+  source:
+    id: list_by_resource_group
+    path: azure-mgmt-monitor/azure/mgmt/monitor/operations/alert_rules_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/operations/alert_rules_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 227
+  summary: "List the alert rules within a resource group.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param filter:\
+    \ The filter to apply on the operation. For more\n information please see\n https://msdn.microsoft.com/en-us/library/azure/dn931934.aspx\n\
+    :type filter: str\n:param dict custom_headers: headers that will be added to the\
+    \ request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`AlertRuleResourcePaged\n <azure.mgmt.monitor.models.AlertRuleResourcePaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.monitor.operations.AlertRulesOperations.list_by_resource_group

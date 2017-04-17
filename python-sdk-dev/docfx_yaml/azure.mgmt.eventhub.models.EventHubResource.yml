@@ -1,0 +1,37 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.eventhub.models.EventHubResource
+  fullName: azure.mgmt.eventhub.models.EventHubResource
+  inheritance:
+  - azure.mgmt.eventhub.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.eventhub.models
+  name: EventHubResource
+  source:
+    id: EventHubResource
+    path: azure-mgmt-eventhub/azure/mgmt/eventhub/models/event_hub_resource.py
+    remote:
+      branch: master
+      path: azure-mgmt-eventhub/azure/mgmt/eventhub/models/event_hub_resource.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Description of the Event Hub resource.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar id: Resource\
+    \ Id\n:vartype id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type:\
+    \ Resource type\n:vartype type: str\n:param location: Resource location\n:type\
+    \ location: str\n:param tags: Resource tags\n:type tags: dict\n:param created_at:\
+    \ Exact time the Event Hub was created.\n:type created_at: datetime\n:param message_retention_in_days:\
+    \ Number of days to retain the events for\n this Event Hub.\n:type message_retention_in_days:\
+    \ long\n:param partition_count: Number of partitions created for the Event Hub.\n\
+    :type partition_count: long\n:param partition_ids: Current number of shards on\
+    \ the Event Hub.\n:type partition_ids: list of str\n:param status: Enumerates\
+    \ the possible values for the status of the Event\n Hub. Possible values include:\
+    \ 'Active', 'Disabled', 'Restoring',\n 'SendDisabled', 'ReceiveDisabled', 'Creating',\
+    \ 'Deleting', 'Renaming',\n 'Unknown'\n:type status: str or :class:`EntityStatus\n\
+    \ <azure.mgmt.eventhub.models.EntityStatus>`\n:param updated_at: The exact time\
+    \ the message was updated.\n:type updated_at: datetime"
+  type: Class
+  uid: azure.mgmt.eventhub.models.EventHubResource

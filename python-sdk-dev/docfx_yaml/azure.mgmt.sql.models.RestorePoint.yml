@@ -1,0 +1,35 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.sql.models.RestorePoint
+  fullName: azure.mgmt.sql.models.RestorePoint
+  inheritance:
+  - azure.mgmt.sql.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.sql.models
+  name: RestorePoint
+  source:
+    id: RestorePoint
+    path: azure-mgmt-sql/azure/mgmt/sql/models/restore_point.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/models/restore_point.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Represents an Azure SQL Database restore point.\n\nVariables are only\
+    \ populated by the server, and will be ignored when\nsending a request.\n\n:ivar\
+    \ name: Resource name\n:vartype name: str\n:ivar id: Resource ID\n:vartype id:\
+    \ str\n:ivar type: Resource type\n:vartype type: str\n:param location: Resource\
+    \ location\n:type location: str\n:param tags: Resource tags\n:type tags: dict\n\
+    :ivar restore_point_type: The restore point type of the Azure SQL database\n restore\
+    \ point. Possible values include: 'DISCRETE', 'CONTINUOUS'\n:vartype restore_point_type:\
+    \ str or :class:`RestorePointTypes\n <azure.mgmt.sql.models.RestorePointTypes>`\n\
+    :ivar restore_point_creation_date: Restore point creation time (ISO8601\n format).\
+    \ Populated when restorePointType = CONTINUOUS. Null otherwise.\n:vartype restore_point_creation_date:\
+    \ datetime\n:ivar earliest_restore_date: Earliest restore time (ISO8601 format).\n\
+    \ Populated when restorePointType = DISCRETE. Null otherwise.\n:vartype earliest_restore_date:\
+    \ datetime"
+  type: Class
+  uid: azure.mgmt.sql.models.RestorePoint

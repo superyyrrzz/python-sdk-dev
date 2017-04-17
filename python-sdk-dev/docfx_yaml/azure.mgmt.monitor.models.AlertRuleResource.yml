@@ -1,0 +1,37 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.monitor.models.AlertRuleResource
+  fullName: azure.mgmt.monitor.models.AlertRuleResource
+  inheritance:
+  - azure.mgmt.monitor.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.monitor.models
+  name: AlertRuleResource
+  source:
+    id: AlertRuleResource
+    path: azure-mgmt-monitor/azure/mgmt/monitor/models/alert_rule_resource.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/models/alert_rule_resource.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The alert rule resource.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:ivar id: Azure resource Id\n\
+    :vartype id: str\n:param name: Azure resource name\n:type name: str\n:ivar type:\
+    \ Azure resource type\n:vartype type: str\n:param location: Resource location\n\
+    :type location: str\n:param tags: Resource tags\n:type tags: dict\n:param alert_rule_resource_name:\
+    \ the name of the alert rule.\n:type alert_rule_resource_name: str\n:param description:\
+    \ the description of the alert rule that will be\n included in the alert email.\n\
+    :type description: str\n:param is_enabled: the flag that indicates whether the\
+    \ alert rule is\n enabled.\n:type is_enabled: bool\n:param condition: the condition\
+    \ that results in the alert rule being\n activated.\n:type condition: :class:`RuleCondition\n\
+    \ <azure.mgmt.monitor.models.RuleCondition>`\n:param actions: the array of actions\
+    \ that are performed when the alert\n rule becomes active, and when an alert condition\
+    \ is resolved.\n:type actions: list of :class:`RuleAction\n <azure.mgmt.monitor.models.RuleAction>`\n\
+    :ivar last_updated_time: Last time the rule was updated in ISO8601 format.\n:vartype\
+    \ last_updated_time: datetime"
+  type: Class
+  uid: azure.mgmt.monitor.models.AlertRuleResource

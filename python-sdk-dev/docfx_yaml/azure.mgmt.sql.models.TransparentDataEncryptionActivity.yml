@@ -1,0 +1,30 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.sql.models.TransparentDataEncryptionActivity
+  fullName: azure.mgmt.sql.models.TransparentDataEncryptionActivity
+  inheritance:
+  - azure.mgmt.sql.models.sql_sub_resource.SqlSubResource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.sql.models
+  name: TransparentDataEncryptionActivity
+  source:
+    id: TransparentDataEncryptionActivity
+    path: azure-mgmt-sql/azure/mgmt/sql/models/transparent_data_encryption_activity.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/models/transparent_data_encryption_activity.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Represents an Azure SQL Database Transparent Data Encryption Scan.\n\n\
+    Variables are only populated by the server, and will be ignored when\nsending\
+    \ a request.\n\n:ivar name: Resource name\n:vartype name: str\n:ivar id: The resource\
+    \ ID.\n:vartype id: str\n:ivar status: The status of the Azure SQL database. Possible\
+    \ values\n include: 'Encrypting', 'Decrypting'\n:vartype status: str or :class:`TransparentDataEncryptionActivityStates\n\
+    \ <azure.mgmt.sql.models.TransparentDataEncryptionActivityStates>`\n:ivar percent_complete:\
+    \ The percent complete of the transparent data\n encryption scan for a Azure SQL\
+    \ Database.\n:vartype percent_complete: float"
+  type: Class
+  uid: azure.mgmt.sql.models.TransparentDataEncryptionActivity

@@ -1,0 +1,49 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.iothub.models.IotHubProperties
+  fullName: azure.mgmt.iothub.models.IotHubProperties
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.iothub.models
+  name: IotHubProperties
+  source:
+    id: IotHubProperties
+    path: azure-mgmt-iothub/azure/mgmt/iothub/models/iot_hub_properties.py
+    remote:
+      branch: master
+      path: azure-mgmt-iothub/azure/mgmt/iothub/models/iot_hub_properties.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The properties of an IoT hub.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:param authorization_policies:\
+    \ The shared access policies you can use to\n secure a connection to the IoT hub.\n\
+    :type authorization_policies: list of\n :class:`SharedAccessSignatureAuthorizationRule\n\
+    \ <azure.mgmt.iothub.models.SharedAccessSignatureAuthorizationRule>`\n:param ip_filter_rules:\
+    \ The IP filter rules.\n:type ip_filter_rules: list of :class:`IpFilterRule\n\
+    \ <azure.mgmt.iothub.models.IpFilterRule>`\n:ivar provisioning_state: The provisioning\
+    \ state.\n:vartype provisioning_state: str\n:ivar host_name: The name of the host.\n\
+    :vartype host_name: str\n:param event_hub_endpoints: The Event Hub-compatible\
+    \ endpoint properties.\n The possible keys to this dictionary are events and\n\
+    \ operationsMonitoringEvents. Both of these keys have to be present in the\n dictionary\
+    \ while making create or update calls for the IoT hub.\n:type event_hub_endpoints:\
+    \ dict\n:param storage_endpoints: The list of Azure Storage endpoints where you\n\
+    \ can upload files. Currently you can configure only one Azure Storage\n account\
+    \ and that MUST have its key as $default. Specifying more than one\n storage account\
+    \ causes an error to be thrown. Not specifying a value for\n this property when\
+    \ the enableFileUploadNotifications property is set to\n True, causes an error\
+    \ to be thrown.\n:type storage_endpoints: dict\n:param messaging_endpoints: The\
+    \ messaging endpoint properties for the file\n upload notification queue.\n:type\
+    \ messaging_endpoints: dict\n:param enable_file_upload_notifications: If True,\
+    \ file upload\n notifications are enabled.\n:type enable_file_upload_notifications:\
+    \ bool\n:param cloud_to_device:\n:type cloud_to_device: :class:`CloudToDeviceProperties\n\
+    \ <azure.mgmt.iothub.models.CloudToDeviceProperties>`\n:param comments: Comments.\n\
+    :type comments: str\n:param operations_monitoring_properties:\n:type operations_monitoring_properties:\n\
+    \ :class:`OperationsMonitoringProperties\n <azure.mgmt.iothub.models.OperationsMonitoringProperties>`\n\
+    :param features: The capabilities and features enabled for the IoT hub.\n Possible\
+    \ values include: 'None', 'DeviceManagement'\n:type features: str or :class:`Capabilities\n\
+    \ <azure.mgmt.iothub.models.Capabilities>`"
+  type: Class
+  uid: azure.mgmt.iothub.models.IotHubProperties

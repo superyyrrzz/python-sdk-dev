@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.monitor.models.MetricValue
+  fullName: azure.monitor.models.MetricValue
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.monitor.models
+  name: MetricValue
+  source:
+    id: MetricValue
+    path: azure-monitor/azure/monitor/models/metric_value.py
+    remote:
+      branch: master
+      path: azure-monitor/azure/monitor/models/metric_value.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Represents a metric value.\n\n:param time_stamp: the timestamp for the\
+    \ metric value in ISO 8601 format.\n:type time_stamp: datetime\n:param average:\
+    \ the average value in the time range.\n:type average: float\n:param minimum:\
+    \ the least value in the time range.\n:type minimum: float\n:param maximum: the\
+    \ greatest value in the time range.\n:type maximum: float\n:param total: the sum\
+    \ of all of the values in the time range.\n:type total: float\n:param count: the\
+    \ number of samples in the time range. Can be used to\n determine the number of\
+    \ values that contributed to the average value.\n:type count: long"
+  type: Class
+  uid: azure.monitor.models.MetricValue

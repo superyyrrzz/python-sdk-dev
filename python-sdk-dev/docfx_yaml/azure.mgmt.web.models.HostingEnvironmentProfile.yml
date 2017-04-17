@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.HostingEnvironmentProfile
+  fullName: azure.mgmt.web.models.HostingEnvironmentProfile
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: HostingEnvironmentProfile
+  source:
+    id: HostingEnvironmentProfile
+    path: azure-mgmt-web/azure/mgmt/web/models/hosting_environment_profile.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/hosting_environment_profile.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Specification for a hostingEnvironment (App Service Environment) to use\n\
+    for this resource.\n\n:param id: Resource id of the hostingEnvironment (App Service\
+    \ Environment)\n:type id: str\n:param name: Name of the hostingEnvironment (App\
+    \ Service Environment)\n (read only)\n:type name: str\n:param type: Resource type\
+    \ of the hostingEnvironment (App Service\n Environment) (read only)\n:type type:\
+    \ str"
+  type: Class
+  uid: azure.mgmt.web.models.HostingEnvironmentProfile

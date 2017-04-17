@@ -1,0 +1,40 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.ContainerServiceMasterProfile
+  fullName: azure.mgmt.compute.models.ContainerServiceMasterProfile
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: ContainerServiceMasterProfile
+  source:
+    id: ContainerServiceMasterProfile
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/container_service_master_profile.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/container_service_master_profile.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Profile for container service master.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :param count: Number of masters (VMs) in the container cluster
+
+    :type count: int
+
+    :param dns_prefix: DNS prefix to be used to create FQDN for master
+
+    :type dns_prefix: str
+
+    :ivar fqdn: FDQN for the master
+
+    :vartype fqdn: str'
+  type: Class
+  uid: azure.mgmt.compute.models.ContainerServiceMasterProfile

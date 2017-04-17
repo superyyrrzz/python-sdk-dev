@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.keyvault.generated.models.KeyCreateParameters
+  fullName: azure.keyvault.generated.models.KeyCreateParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.keyvault.generated.models
+  name: KeyCreateParameters
+  source:
+    id: KeyCreateParameters
+    path: azure-keyvault/azure/keyvault/generated/models/key_create_parameters.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/models/key_create_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The key create parameters.\n\n:param kty: The type of key to create. For\
+    \ valid key types, see\n JsonWebKeyType. Supported JsonWebKey key types (kty)\
+    \ for Elliptic Curve,\n RSA, HSM, Octet. Possible values include: 'EC', 'RSA',\
+    \ 'RSA-HSM', 'oct'\n:type kty: str or :class:`JsonWebKeyType\n <azure.keyvault.generated.models.JsonWebKeyType>`\n\
+    :param key_size: The key size in bytes. For example, 1024 or 2048.\n:type key_size:\
+    \ int\n:param key_ops:\n:type key_ops: list of str or :class:`JsonWebKeyOperation\n\
+    \ <azure.keyvault.generated.models.JsonWebKeyOperation>`\n:param key_attributes:\n\
+    :type key_attributes: :class:`KeyAttributes\n <azure.keyvault.generated.models.KeyAttributes>`\n\
+    :param tags: Application specific metadata in the form of key-value pairs.\n:type\
+    \ tags: dict"
+  type: Class
+  uid: azure.keyvault.generated.models.KeyCreateParameters

@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.IntegrationAccountSchemaFilter
+  fullName: azure.mgmt.logic.models.IntegrationAccountSchemaFilter
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: IntegrationAccountSchemaFilter
+  source:
+    id: IntegrationAccountSchemaFilter
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/integration_account_schema_filter.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/integration_account_schema_filter.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "IntegrationAccountSchemaFilter.\n\n:param schema_type: The schema type\
+    \ of integration account schema.\n Possible values include: 'NotSpecified', 'Xml'\n\
+    :type schema_type: str or :class:`SchemaType\n <azure.mgmt.logic.models.SchemaType>`"
+  type: Class
+  uid: azure.mgmt.logic.models.IntegrationAccountSchemaFilter

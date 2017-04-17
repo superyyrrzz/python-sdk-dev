@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.keyvault.generated.models.CertificateMergeParameters
+  fullName: azure.keyvault.generated.models.CertificateMergeParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.keyvault.generated.models
+  name: CertificateMergeParameters
+  source:
+    id: CertificateMergeParameters
+    path: azure-keyvault/azure/keyvault/generated/models/certificate_merge_parameters.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/models/certificate_merge_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The certificate merge parameters.\n\n:param x509_certificates: The certificate\
+    \ or the certificate chain to\n merge.\n:type x509_certificates: list of bytearray\n\
+    :param certificate_attributes: The attributes of the certificate\n (optional).\n\
+    :type certificate_attributes: :class:`CertificateAttributes\n <azure.keyvault.generated.models.CertificateAttributes>`\n\
+    :param tags: Application specific metadata in the form of key-value pairs.\n:type\
+    \ tags: dict"
+  type: Class
+  uid: azure.keyvault.generated.models.CertificateMergeParameters

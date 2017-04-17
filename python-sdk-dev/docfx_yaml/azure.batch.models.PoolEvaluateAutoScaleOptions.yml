@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.PoolEvaluateAutoScaleOptions
+  fullName: azure.batch.models.PoolEvaluateAutoScaleOptions
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: PoolEvaluateAutoScaleOptions
+  source:
+    id: PoolEvaluateAutoScaleOptions
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/pool_evaluate_auto_scale_options.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/pool_evaluate_auto_scale_options.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Additional parameters for the Pool_EvaluateAutoScale operation.\n\n:param\
+    \ timeout: The maximum time that the server can spend processing the\n request,\
+    \ in seconds. The default is 30 seconds. Default value: 30 .\n:type timeout: int\n\
+    :param client_request_id: The caller-generated request identity, in the\n form\
+    \ of a GUID with no decoration such as curly braces, e.g.\n 9C4D50EE-2D56-4CD3-8152-34347DC9F2B0.\n\
+    :type client_request_id: str\n:param return_client_request_id: Whether the server\
+    \ should return the\n client-request-id identifier in the response.\n:type return_client_request_id:\
+    \ bool\n:param ocp_date: The time the request was issued. If not specified, this\n\
+    \ header will be automatically populated with the current system clock\n time.\n\
+    :type ocp_date: datetime"
+  type: Class
+  uid: azure.batch.models.PoolEvaluateAutoScaleOptions

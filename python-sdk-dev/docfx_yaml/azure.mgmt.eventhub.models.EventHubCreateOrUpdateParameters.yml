@@ -1,0 +1,35 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.eventhub.models.EventHubCreateOrUpdateParameters
+  fullName: azure.mgmt.eventhub.models.EventHubCreateOrUpdateParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.eventhub.models
+  name: EventHubCreateOrUpdateParameters
+  source:
+    id: EventHubCreateOrUpdateParameters
+    path: azure-mgmt-eventhub/azure/mgmt/eventhub/models/event_hub_create_or_update_parameters.py
+    remote:
+      branch: master
+      path: azure-mgmt-eventhub/azure/mgmt/eventhub/models/event_hub_create_or_update_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Parameters supplied to the Create Or Update Event Hub operation.\n\n:param\
+    \ location: Location of the resource.\n:type location: str\n:param type: ARM type\
+    \ of the namespace.\n:type type: str\n:param name: Name of the Event Hub.\n:type\
+    \ name: str\n:param created_at: Exact time the Event Hub was created.\n:type created_at:\
+    \ datetime\n:param message_retention_in_days: Number of days to retain the events\
+    \ for\n this Event Hub.\n:type message_retention_in_days: long\n:param partition_count:\
+    \ Number of partitions created for the Event Hub.\n:type partition_count: long\n\
+    :param partition_ids: Current number of shards on the Event Hub.\n:type partition_ids:\
+    \ list of str\n:param status: Enumerates the possible values for the status of\
+    \ the Event\n Hub. Possible values include: 'Active', 'Disabled', 'Restoring',\n\
+    \ 'SendDisabled', 'ReceiveDisabled', 'Creating', 'Deleting', 'Renaming',\n 'Unknown'\n\
+    :type status: str or :class:`EntityStatus\n <azure.mgmt.eventhub.models.EntityStatus>`\n\
+    :param updated_at: The exact time the message was updated.\n:type updated_at:\
+    \ datetime"
+  type: Class
+  uid: azure.mgmt.eventhub.models.EventHubCreateOrUpdateParameters

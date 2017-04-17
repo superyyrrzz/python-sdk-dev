@@ -1,0 +1,168 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.sql.operations.RecommendedElasticPoolsOperations.get
+  - azure.mgmt.sql.operations.RecommendedElasticPoolsOperations.get_databases
+  - azure.mgmt.sql.operations.RecommendedElasticPoolsOperations.list
+  - azure.mgmt.sql.operations.RecommendedElasticPoolsOperations.list_databases
+  - azure.mgmt.sql.operations.RecommendedElasticPoolsOperations.list_metrics
+  class: azure.mgmt.sql.operations.RecommendedElasticPoolsOperations
+  fullName: azure.mgmt.sql.operations.RecommendedElasticPoolsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.sql.operations
+  name: RecommendedElasticPoolsOperations
+  source:
+    id: RecommendedElasticPoolsOperations
+    path: azure-mgmt-sql/azure/mgmt/sql/operations/recommended_elastic_pools_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/operations/recommended_elastic_pools_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'RecommendedElasticPoolsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    :ivar api_version: The API version to use for the request. Constant value: "2014-04-01".'
+  type: Class
+  uid: azure.mgmt.sql.operations.RecommendedElasticPoolsOperations
+- _type: method
+  class: azure.mgmt.sql.operations.RecommendedElasticPoolsOperations
+  fullName: azure.mgmt.sql.operations.RecommendedElasticPoolsOperations.get
+  module: azure.mgmt.sql.operations
+  name: get
+  source:
+    id: get
+    path: azure-mgmt-sql/azure/mgmt/sql/operations/recommended_elastic_pools_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/operations/recommended_elastic_pools_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 38
+  summary: "Gets information about an Azure SQL Recommended Elastic Pool.\n\n:param\
+    \ resource_group_name: The name of the resource group that\n contains the resource.\
+    \ You can obtain this value from the Azure\n Resource Manager API or the portal.\n\
+    :type resource_group_name: str\n:param server_name: The name of the Azure SQL\
+    \ server.\n:type server_name: str\n:param recommended_elastic_pool_name: The name\
+    \ of the Azure SQL\n Recommended Elastic Pool to be retrieved.\n:type recommended_elastic_pool_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`RecommendedElasticPool\n <azure.mgmt.sql.models.RecommendedElasticPool>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.sql.operations.RecommendedElasticPoolsOperations.get
+- _type: method
+  class: azure.mgmt.sql.operations.RecommendedElasticPoolsOperations
+  fullName: azure.mgmt.sql.operations.RecommendedElasticPoolsOperations.get_databases
+  module: azure.mgmt.sql.operations
+  name: get_databases
+  source:
+    id: get_databases
+    path: azure-mgmt-sql/azure/mgmt/sql/operations/recommended_elastic_pools_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/operations/recommended_elastic_pools_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 106
+  summary: "Gets information about an Azure SQL database inside of an Azure SQL\n\
+    Recommended Elastic Pool.\n\n:param resource_group_name: The name of the resource\
+    \ group that\n contains the resource. You can obtain this value from the Azure\n\
+    \ Resource Manager API or the portal.\n:type resource_group_name: str\n:param\
+    \ server_name: The name of the Azure SQL server.\n:type server_name: str\n:param\
+    \ recommended_elastic_pool_name: The name of the Azure SQL\n Elastic Pool to be\
+    \ retrieved.\n:type recommended_elastic_pool_name: str\n:param database_name:\
+    \ The name of the Azure SQL database to be\n retrieved.\n:type database_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`Database <azure.mgmt.sql.models.Database>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.sql.operations.RecommendedElasticPoolsOperations.get_databases
+- _type: method
+  class: azure.mgmt.sql.operations.RecommendedElasticPoolsOperations
+  fullName: azure.mgmt.sql.operations.RecommendedElasticPoolsOperations.list
+  module: azure.mgmt.sql.operations
+  name: list
+  source:
+    id: list
+    path: azure-mgmt-sql/azure/mgmt/sql/operations/recommended_elastic_pools_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/operations/recommended_elastic_pools_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 178
+  summary: "Returns information about Azure SQL Recommended Elastic Pools.\n\n:param\
+    \ resource_group_name: The name of the resource group that\n contains the resource.\
+    \ You can obtain this value from the Azure\n Resource Manager API or the portal.\n\
+    :type resource_group_name: str\n:param server_name: The name of the Azure SQL\
+    \ server.\n:type server_name: str\n:param dict custom_headers: headers that will\
+    \ be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`RecommendedElasticPoolPaged\n\
+    \ <azure.mgmt.sql.models.RecommendedElasticPoolPaged>`\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.sql.operations.RecommendedElasticPoolsOperations.list
+- _type: method
+  class: azure.mgmt.sql.operations.RecommendedElasticPoolsOperations
+  fullName: azure.mgmt.sql.operations.RecommendedElasticPoolsOperations.list_databases
+  module: azure.mgmt.sql.operations
+  name: list_databases
+  source:
+    id: list_databases
+    path: azure-mgmt-sql/azure/mgmt/sql/operations/recommended_elastic_pools_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/operations/recommended_elastic_pools_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 249
+  summary: "Returns information about an Azure SQL database inside of an Azure SQL\n\
+    Recommended Elastic Pool.\n\n:param resource_group_name: The name of the resource\
+    \ group that\n contains the resource. You can obtain this value from the Azure\n\
+    \ Resource Manager API or the portal.\n:type resource_group_name: str\n:param\
+    \ server_name: The name of the Azure SQL server.\n:type server_name: str\n:param\
+    \ recommended_elastic_pool_name: The name of the Azure SQL\n Recommended Elastic\
+    \ Pool to be retrieved.\n:type recommended_elastic_pool_name: str\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ :class:`DatabasePaged <azure.mgmt.sql.models.DatabasePaged>`\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.sql.operations.RecommendedElasticPoolsOperations.list_databases
+- _type: method
+  class: azure.mgmt.sql.operations.RecommendedElasticPoolsOperations
+  fullName: azure.mgmt.sql.operations.RecommendedElasticPoolsOperations.list_metrics
+  module: azure.mgmt.sql.operations
+  name: list_metrics
+  source:
+    id: list_metrics
+    path: azure-mgmt-sql/azure/mgmt/sql/operations/recommended_elastic_pools_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/operations/recommended_elastic_pools_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 324
+  summary: "Returns information about an recommended elastic pool metrics.\n\n:param\
+    \ resource_group_name: The name of the resource group that\n contains the resource.\
+    \ You can obtain this value from the Azure\n Resource Manager API or the portal.\n\
+    :type resource_group_name: str\n:param server_name: The name of the Azure SQL\
+    \ server.\n:type server_name: str\n:param recommended_elastic_pool_name: The name\
+    \ of the Azure SQL\n Recommended Elastic Pool to be retrieved.\n:type recommended_elastic_pool_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`RecommendedElasticPoolMetricPaged\n <azure.mgmt.sql.models.RecommendedElasticPoolMetricPaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.sql.operations.RecommendedElasticPoolsOperations.list_metrics

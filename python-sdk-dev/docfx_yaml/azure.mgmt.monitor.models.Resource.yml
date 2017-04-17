@@ -1,0 +1,48 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.monitor.models.Resource
+  fullName: azure.mgmt.monitor.models.Resource
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.monitor.models
+  name: Resource
+  source:
+    id: Resource
+    path: azure-mgmt-monitor/azure/mgmt/monitor/models/resource.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/models/resource.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'An azure resource object.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar id: Azure resource Id
+
+    :vartype id: str
+
+    :param name: Azure resource name
+
+    :type name: str
+
+    :ivar type: Azure resource type
+
+    :vartype type: str
+
+    :param location: Resource location
+
+    :type location: str
+
+    :param tags: Resource tags
+
+    :type tags: dict'
+  type: Class
+  uid: azure.mgmt.monitor.models.Resource

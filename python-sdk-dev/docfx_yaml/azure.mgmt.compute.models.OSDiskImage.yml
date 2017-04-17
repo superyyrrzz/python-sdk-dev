@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.OSDiskImage
+  fullName: azure.mgmt.compute.models.OSDiskImage
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: OSDiskImage
+  source:
+    id: OSDiskImage
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/os_disk_image.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/os_disk_image.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Contains the os disk image information.\n\n:param operating_system: the\
+    \ operating system of the osDiskImage.\n Possible values include: 'Windows', 'Linux'\n\
+    :type operating_system: str or :class:`OperatingSystemTypes\n <azure.mgmt.compute.models.OperatingSystemTypes>`"
+  type: Class
+  uid: azure.mgmt.compute.models.OSDiskImage

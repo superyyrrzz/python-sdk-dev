@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.RecentJob
+  fullName: azure.batch.models.RecentJob
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: RecentJob
+  source:
+    id: RecentJob
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/recent_job.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/recent_job.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Information about the most recent job to run under the job schedule.
+
+
+    :param id: The id of the job.
+
+    :type id: str
+
+    :param url: The URL of the job.
+
+    :type url: str'
+  type: Class
+  uid: azure.batch.models.RecentJob

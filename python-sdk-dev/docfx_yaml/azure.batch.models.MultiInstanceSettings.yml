@@ -1,0 +1,32 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.MultiInstanceSettings
+  fullName: azure.batch.models.MultiInstanceSettings
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: MultiInstanceSettings
+  source:
+    id: MultiInstanceSettings
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/multi_instance_settings.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/multi_instance_settings.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Settings which specify how to run a multi-instance task.\n\nMulti-instance\
+    \ tasks are commonly used to support MPI tasks.\n\n:param number_of_instances:\
+    \ The number of compute nodes required by the\n multi-instance task.\n:type number_of_instances:\
+    \ int\n:param coordination_command_line: The command to run on the compute node\n\
+    \ instances for coordinating among the subtasks.\n:type coordination_command_line:\
+    \ str\n:param common_resource_files: A list of files that the Batch service will\n\
+    \ download before running the coordination command line. The difference\n between\
+    \ common resource files and task resource files is that common\n resource files\
+    \ are downloaded for all subtasks including the primary,\n whereas task resource\
+    \ files are downloaded only for the primary.\n:type common_resource_files: list\
+    \ of :class:`ResourceFile\n <azure.batch.models.ResourceFile>`"
+  type: Class
+  uid: azure.batch.models.MultiInstanceSettings

@@ -1,0 +1,38 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.monitor.models.AutoscaleSettingResource
+  fullName: azure.mgmt.monitor.models.AutoscaleSettingResource
+  inheritance:
+  - azure.mgmt.monitor.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.monitor.models
+  name: AutoscaleSettingResource
+  source:
+    id: AutoscaleSettingResource
+    path: azure-mgmt-monitor/azure/mgmt/monitor/models/autoscale_setting_resource.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/models/autoscale_setting_resource.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The autoscale setting resource.\n\nVariables are only populated by the\
+    \ server, and will be ignored when\nsending a request.\n\n:ivar id: Azure resource\
+    \ Id\n:vartype id: str\n:param name: Azure resource name\n:type name: str\n:ivar\
+    \ type: Azure resource type\n:vartype type: str\n:param location: Resource location\n\
+    :type location: str\n:param tags: Resource tags\n:type tags: dict\n:param profiles:\
+    \ the collection of automatic scaling profiles that specify\n different scaling\
+    \ parameters for different time periods. A maximum of 20\n profiles can be specified.\n\
+    :type profiles: list of :class:`AutoscaleProfile\n <azure.mgmt.monitor.models.AutoscaleProfile>`\n\
+    :param notifications: the collection of notifications.\n:type notifications: list\
+    \ of :class:`AutoscaleNotification\n <azure.mgmt.monitor.models.AutoscaleNotification>`\n\
+    :param enabled: the enabled flag. Specifies whether automatic scaling is\n enabled\
+    \ for the resource. The default value is 'true'. Default value: True\n .\n:type\
+    \ enabled: bool\n:param autoscale_setting_resource_name: the name of the autoscale\
+    \ setting.\n:type autoscale_setting_resource_name: str\n:param target_resource_uri:\
+    \ the resource identifier of the resource that\n the autoscale setting should\
+    \ be added to.\n:type target_resource_uri: str"
+  type: Class
+  uid: azure.mgmt.monitor.models.AutoscaleSettingResource

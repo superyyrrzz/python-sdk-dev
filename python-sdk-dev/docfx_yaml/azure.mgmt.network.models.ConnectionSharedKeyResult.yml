@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.ConnectionSharedKeyResult
+  fullName: azure.mgmt.network.models.ConnectionSharedKeyResult
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: ConnectionSharedKeyResult
+  source:
+    id: ConnectionSharedKeyResult
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/connection_shared_key_result.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/connection_shared_key_result.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Response for CheckConnectionSharedKey Api service call.
+
+
+    :param value: The virtual network connection shared key value
+
+    :type value: str'
+  type: Class
+  uid: azure.mgmt.network.models.ConnectionSharedKeyResult

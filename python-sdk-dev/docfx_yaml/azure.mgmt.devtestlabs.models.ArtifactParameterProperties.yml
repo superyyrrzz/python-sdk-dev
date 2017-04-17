@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.devtestlabs.models.ArtifactParameterProperties
+  fullName: azure.mgmt.devtestlabs.models.ArtifactParameterProperties
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.devtestlabs.models
+  name: ArtifactParameterProperties
+  source:
+    id: ArtifactParameterProperties
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/artifact_parameter_properties.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/artifact_parameter_properties.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Properties of an artifact parameter.
+
+
+    :param name: The name of the artifact parameter.
+
+    :type name: str
+
+    :param value: The value of the artifact parameter.
+
+    :type value: str'
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.ArtifactParameterProperties

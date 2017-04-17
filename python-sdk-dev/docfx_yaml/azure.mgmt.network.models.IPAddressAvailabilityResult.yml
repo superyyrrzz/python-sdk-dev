@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.IPAddressAvailabilityResult
+  fullName: azure.mgmt.network.models.IPAddressAvailabilityResult
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: IPAddressAvailabilityResult
+  source:
+    id: IPAddressAvailabilityResult
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/ip_address_availability_result.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/ip_address_availability_result.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Response for CheckIPAddressAvailability Api service call.\n\n:param available:\
+    \ Private IP address availability\n:type available: bool\n:param available_ip_addresses:\
+    \ Contains other available private IP\n addresses if the asked for address is\
+    \ taken\n:type available_ip_addresses: list of str"
+  type: Class
+  uid: azure.mgmt.network.models.IPAddressAvailabilityResult

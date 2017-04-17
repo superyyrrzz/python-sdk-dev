@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.EffectiveNetworkSecurityGroupAssociation
+  fullName: azure.mgmt.network.models.EffectiveNetworkSecurityGroupAssociation
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: EffectiveNetworkSecurityGroupAssociation
+  source:
+    id: EffectiveNetworkSecurityGroupAssociation
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/effective_network_security_group_association.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/effective_network_security_group_association.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Effective NetworkSecurityGroup association.\n\n:param subnet: Gets the\
+    \ id of subnet if assigned\n:type subnet: :class:`SubResource <azure.mgmt.network.models.SubResource>`\n\
+    :param network_interface: Gets the id of network interface if assigned\n:type\
+    \ network_interface: :class:`SubResource\n <azure.mgmt.network.models.SubResource>`"
+  type: Class
+  uid: azure.mgmt.network.models.EffectiveNetworkSecurityGroupAssociation

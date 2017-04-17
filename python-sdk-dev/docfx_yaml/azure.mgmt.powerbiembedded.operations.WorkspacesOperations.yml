@@ -1,0 +1,54 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.powerbiembedded.operations.WorkspacesOperations.list
+  class: azure.mgmt.powerbiembedded.operations.WorkspacesOperations
+  fullName: azure.mgmt.powerbiembedded.operations.WorkspacesOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.powerbiembedded.operations
+  name: WorkspacesOperations
+  source:
+    id: WorkspacesOperations
+    path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspaces_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspaces_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 18
+  summary: 'WorkspacesOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.powerbiembedded.operations.WorkspacesOperations
+- _type: method
+  class: azure.mgmt.powerbiembedded.operations.WorkspacesOperations
+  fullName: azure.mgmt.powerbiembedded.operations.WorkspacesOperations.list
+  module: azure.mgmt.powerbiembedded.operations
+  name: list
+  source:
+    id: list
+    path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspaces_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspaces_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 35
+  summary: "Retrieves all existing Power BI workspaces in the specified workspace\n\
+    collection.\n\n:param resource_group_name: Azure resource group\n:type resource_group_name:\
+    \ str\n:param workspace_collection_name: Power BI Embedded Workspace\n Collection\
+    \ name\n:type workspace_collection_name: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`WorkspacePaged\n\
+    \ <azure.mgmt.powerbiembedded.models.WorkspacePaged>`\n:raises:\n :class:`ErrorException<azure.mgmt.powerbiembedded.models.ErrorException>`"
+  type: Method
+  uid: azure.mgmt.powerbiembedded.operations.WorkspacesOperations.list

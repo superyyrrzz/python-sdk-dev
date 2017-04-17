@@ -1,0 +1,35 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.sql.models.Server
+  fullName: azure.mgmt.sql.models.Server
+  inheritance:
+  - azure.mgmt.sql.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.sql.models
+  name: Server
+  source:
+    id: Server
+    path: azure-mgmt-sql/azure/mgmt/sql/models/server.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/models/server.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Represents an Azure SQL server.\n\nVariables are only populated by the\
+    \ server, and will be ignored when\nsending a request.\n\n:ivar name: Resource\
+    \ name\n:vartype name: str\n:ivar id: Resource ID\n:vartype id: str\n:ivar type:\
+    \ Resource type\n:vartype type: str\n:param location: Resource location\n:type\
+    \ location: str\n:param tags: Resource tags\n:type tags: dict\n:ivar fully_qualified_domain_name:\
+    \ The fully qualified domain name of the\n server.\n:vartype fully_qualified_domain_name:\
+    \ str\n:param version: The version of the server. Possible values include: '2.0',\n\
+    \ '12.0'\n:type version: str or :class:`ServerVersion\n <azure.mgmt.sql.models.ServerVersion>`\n\
+    :param administrator_login: Administrator username for the server. Can\n only\
+    \ be specified when the server is being created (and is required for\n creation).\n\
+    :type administrator_login: str\n:param administrator_login_password: The administrator\
+    \ login password\n (required for server creation).\n:type administrator_login_password:\
+    \ str"
+  type: Class
+  uid: azure.mgmt.sql.models.Server

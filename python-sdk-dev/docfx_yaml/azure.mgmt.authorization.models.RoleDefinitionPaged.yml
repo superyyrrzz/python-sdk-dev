@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.authorization.models.RoleDefinitionPaged
+  fullName: azure.mgmt.authorization.models.RoleDefinitionPaged
+  inheritance:
+  - msrest.paging.Paged
+  - collections.abc.Iterator
+  - collections.abc.Iterable
+  - builtins.object
+  module: azure.mgmt.authorization.models
+  name: RoleDefinitionPaged
+  source:
+    id: RoleDefinitionPaged
+    path: azure-mgmt-authorization/azure/mgmt/authorization/models/role_definition_paged.py
+    remote:
+      branch: master
+      path: azure-mgmt-authorization/azure/mgmt/authorization/models/role_definition_paged.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: A paging container for iterating over a list of RoleDefinition object
+  type: Class
+  uid: azure.mgmt.authorization.models.RoleDefinitionPaged

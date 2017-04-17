@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.ApplicationGatewaySslPolicy
+  fullName: azure.mgmt.network.models.ApplicationGatewaySslPolicy
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: ApplicationGatewaySslPolicy
+  source:
+    id: ApplicationGatewaySslPolicy
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/application_gateway_ssl_policy.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/application_gateway_ssl_policy.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Application gateway SSL policy.\n\n:param disabled_ssl_protocols: SSL\
+    \ protocols to be disabled on\n Application Gateway\n:type disabled_ssl_protocols:\
+    \ list of str or\n :class:`ApplicationGatewaySslProtocol\n <azure.mgmt.network.models.ApplicationGatewaySslProtocol>`"
+  type: Class
+  uid: azure.mgmt.network.models.ApplicationGatewaySslPolicy

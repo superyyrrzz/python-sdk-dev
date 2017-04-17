@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.batch.models.ApplicationPackage
+  fullName: azure.mgmt.batch.models.ApplicationPackage
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.batch.models
+  name: ApplicationPackage
+  source:
+    id: ApplicationPackage
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/models/application_package.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/models/application_package.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Contains information about an application package.\n\n:param version:\
+    \ The version of the application package.\n:type version: str\n:param state: The\
+    \ current state of the application package. Possible\n values include: 'pending',\
+    \ 'active', 'unmapped'\n:type state: str or :class:`PackageState\n <azure.mgmt.batch.models.PackageState>`\n\
+    :param format: The format of the application package, if the package has\n been\
+    \ activated.\n:type format: str\n:param last_activation_time: The time at which\
+    \ the package was last\n activated, if the package is active.\n:type last_activation_time:\
+    \ datetime"
+  type: Class
+  uid: azure.mgmt.batch.models.ApplicationPackage

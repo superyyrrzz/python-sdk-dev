@@ -1,0 +1,123 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.monitor.operations.LogProfilesOperations.create_or_update
+  - azure.mgmt.monitor.operations.LogProfilesOperations.delete
+  - azure.mgmt.monitor.operations.LogProfilesOperations.get
+  - azure.mgmt.monitor.operations.LogProfilesOperations.list
+  class: azure.mgmt.monitor.operations.LogProfilesOperations
+  fullName: azure.mgmt.monitor.operations.LogProfilesOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.monitor.operations
+  name: LogProfilesOperations
+  source:
+    id: LogProfilesOperations
+    path: azure-mgmt-monitor/azure/mgmt/monitor/operations/log_profiles_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/operations/log_profiles_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'LogProfilesOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    :ivar api_version: Client Api Version. Constant value: "2016-03-01".'
+  type: Class
+  uid: azure.mgmt.monitor.operations.LogProfilesOperations
+- _type: method
+  class: azure.mgmt.monitor.operations.LogProfilesOperations
+  fullName: azure.mgmt.monitor.operations.LogProfilesOperations.create_or_update
+  module: azure.mgmt.monitor.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: azure-mgmt-monitor/azure/mgmt/monitor/operations/log_profiles_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/operations/log_profiles_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 148
+  summary: "Create or update a log profile in Azure Monitoring REST API.\n\n:param\
+    \ log_profile_name: The name of the log profile.\n:type log_profile_name: str\n\
+    :param parameters: Parameters supplied to the operation.\n:type parameters: :class:`LogProfileProperties\n\
+    \ <azure.mgmt.monitor.models.LogProfileProperties>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`LogProfileResource\n\
+    \ <azure.mgmt.monitor.models.LogProfileResource>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.monitor.operations.LogProfilesOperations.create_or_update
+- _type: method
+  class: azure.mgmt.monitor.operations.LogProfilesOperations
+  fullName: azure.mgmt.monitor.operations.LogProfilesOperations.delete
+  module: azure.mgmt.monitor.operations
+  name: delete
+  source:
+    id: delete
+    path: azure-mgmt-monitor/azure/mgmt/monitor/operations/log_profiles_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/operations/log_profiles_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 38
+  summary: "Deletes the log profile.\n\n:param log_profile_name: The name of the log\
+    \ profile.\n:type log_profile_name: str\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.monitor.operations.LogProfilesOperations.delete
+- _type: method
+  class: azure.mgmt.monitor.operations.LogProfilesOperations
+  fullName: azure.mgmt.monitor.operations.LogProfilesOperations.get
+  module: azure.mgmt.monitor.operations
+  name: get
+  source:
+    id: get
+    path: azure-mgmt-monitor/azure/mgmt/monitor/operations/log_profiles_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/operations/log_profiles_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 89
+  summary: "Gets the log profile.\n\n:param log_profile_name: The name of the log\
+    \ profile.\n:type log_profile_name: str\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`LogProfileResource\n\
+    \ <azure.mgmt.monitor.models.LogProfileResource>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.monitor.operations.LogProfilesOperations.get
+- _type: method
+  class: azure.mgmt.monitor.operations.LogProfilesOperations
+  fullName: azure.mgmt.monitor.operations.LogProfilesOperations.list
+  module: azure.mgmt.monitor.operations
+  name: list
+  source:
+    id: list
+    path: azure-mgmt-monitor/azure/mgmt/monitor/operations/log_profiles_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/operations/log_profiles_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 214
+  summary: "List the log profiles.\n\n:param dict custom_headers: headers that will\
+    \ be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`LogProfileResourcePaged\n\
+    \ <azure.mgmt.monitor.models.LogProfileResourcePaged>`\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.monitor.operations.LogProfilesOperations.list

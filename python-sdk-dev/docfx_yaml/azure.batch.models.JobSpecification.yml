@@ -1,0 +1,47 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.JobSpecification
+  fullName: azure.batch.models.JobSpecification
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: JobSpecification
+  source:
+    id: JobSpecification
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/job_specification.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/job_specification.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Specifies details of the jobs to be created on a schedule.\n\n:param priority:\
+    \ The priority of jobs created under this schedule.\n Priority values can range\
+    \ from -1000 to 1000, with -1000 being the\n lowest priority and 1000 being the\
+    \ highest priority. The default value\n is 0.\n:type priority: int\n:param display_name:\
+    \ The display name for jobs created under this\n schedule. The name need not be\
+    \ unique and can contain any Unicode\n characters up to a maximum length of 1024.\n\
+    :type display_name: str\n:param uses_task_dependencies: The flag that determines\
+    \ if this job will\n use tasks with dependencies.\n:type uses_task_dependencies:\
+    \ bool\n:param constraints: The execution constraints for jobs created under this\n\
+    \ schedule.\n:type constraints: :class:`JobConstraints\n <azure.batch.models.JobConstraints>`\n\
+    :param job_manager_task: The details of a Job Manager task to be launched\n when\
+    \ a job is started under this schedule.\n:type job_manager_task: :class:`JobManagerTask\n\
+    \ <azure.batch.models.JobManagerTask>`\n:param job_preparation_task: The Job Preparation\
+    \ task for jobs created\n under this schedule.\n:type job_preparation_task: :class:`JobPreparationTask\n\
+    \ <azure.batch.models.JobPreparationTask>`\n:param job_release_task: The Job Release\
+    \ task for jobs created under this\n schedule.\n:type job_release_task: :class:`JobReleaseTask\n\
+    \ <azure.batch.models.JobReleaseTask>`\n:param common_environment_settings: A\
+    \ list of common environment variable\n settings. These environment variables\
+    \ are set for all tasks in jobs\n created under this schedule (including the Job\
+    \ Manager, Job Preparation\n and Job Release tasks).\n:type common_environment_settings:\
+    \ list of :class:`EnvironmentSetting\n <azure.batch.models.EnvironmentSetting>`\n\
+    :param pool_info: The pool on which the Batch service runs the tasks of\n jobs\
+    \ created under this schedule.\n:type pool_info: :class:`PoolInformation\n <azure.batch.models.PoolInformation>`\n\
+    :param metadata: A list of name-value pairs associated with each job\n created\
+    \ under this schedule as metadata.\n:type metadata: list of :class:`MetadataItem\n\
+    \ <azure.batch.models.MetadataItem>`"
+  type: Class
+  uid: azure.batch.models.JobSpecification

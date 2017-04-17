@@ -1,0 +1,35 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.devtestlabs.models.EvaluatePoliciesProperties
+  fullName: azure.mgmt.devtestlabs.models.EvaluatePoliciesProperties
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.devtestlabs.models
+  name: EvaluatePoliciesProperties
+  source:
+    id: EvaluatePoliciesProperties
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/evaluate_policies_properties.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/evaluate_policies_properties.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Properties for evaluating a policy set.
+
+
+    :param fact_name: The fact name.
+
+    :type fact_name: str
+
+    :param fact_data: The fact data.
+
+    :type fact_data: str
+
+    :param value_offset: The value offset.
+
+    :type value_offset: str'
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.EvaluatePoliciesProperties

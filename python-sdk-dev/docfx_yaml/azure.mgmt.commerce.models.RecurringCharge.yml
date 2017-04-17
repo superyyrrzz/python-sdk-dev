@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.commerce.models.RecurringCharge
+  fullName: azure.mgmt.commerce.models.RecurringCharge
+  inheritance:
+  - azure.mgmt.commerce.models.offer_term_info.OfferTermInfo
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.commerce.models
+  name: RecurringCharge
+  source:
+    id: RecurringCharge
+    path: azure-mgmt-commerce/azure/mgmt/commerce/models/recurring_charge.py
+    remote:
+      branch: master
+      path: azure-mgmt-commerce/azure/mgmt/commerce/models/recurring_charge.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "RecurringCharge.\n\n:param effective_date: Indicates the date from which\
+    \ the meter rate or\n offer term is effective.\n:type effective_date: datetime\n\
+    :param excluded_meter_ids: An array of meter ids that are excluded from\n the\
+    \ given offer terms.\n:type excluded_meter_ids: list of str\n:param Name: Polymorphic\
+    \ Discriminator\n:type Name: str\n:param recurring_charge: The amount of recurring\
+    \ charge as per the offer\n term.\n:type recurring_charge: int"
+  type: Class
+  uid: azure.mgmt.commerce.models.RecurringCharge

@@ -1,0 +1,44 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.X12ProtocolSettings
+  fullName: azure.mgmt.logic.models.X12ProtocolSettings
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: X12ProtocolSettings
+  source:
+    id: X12ProtocolSettings
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/x12_protocol_settings.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/x12_protocol_settings.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "X12ProtocolSettings.\n\n:param validation_settings: The X12 validation\
+    \ settings.\n:type validation_settings: :class:`X12ValidationSettings\n <azure.mgmt.logic.models.X12ValidationSettings>`\n\
+    :param framing_settings: The X12 framing settings.\n:type framing_settings: :class:`X12FramingSettings\n\
+    \ <azure.mgmt.logic.models.X12FramingSettings>`\n:param envelope_settings: The\
+    \ X12 envelope settings.\n:type envelope_settings: :class:`X12EnvelopeSettings\n\
+    \ <azure.mgmt.logic.models.X12EnvelopeSettings>`\n:param acknowledgement_settings:\
+    \ The X12 acknowledgment settings.\n:type acknowledgement_settings: :class:`X12AcknowledgementSettings\n\
+    \ <azure.mgmt.logic.models.X12AcknowledgementSettings>`\n:param message_filter:\
+    \ The X12 message filter.\n:type message_filter: :class:`X12MessageFilter\n <azure.mgmt.logic.models.X12MessageFilter>`\n\
+    :param security_settings: The X12 security settings.\n:type security_settings:\
+    \ :class:`X12SecuritySettings\n <azure.mgmt.logic.models.X12SecuritySettings>`\n\
+    :param processing_settings: The X12 processing settings.\n:type processing_settings:\
+    \ :class:`X12ProcessingSettings\n <azure.mgmt.logic.models.X12ProcessingSettings>`\n\
+    :param envelope_overrides: The X12 envelope override settings.\n:type envelope_overrides:\
+    \ list of :class:`X12EnvelopeOverride\n <azure.mgmt.logic.models.X12EnvelopeOverride>`\n\
+    :param validation_overrides: The X12 validation override settings.\n:type validation_overrides:\
+    \ list of :class:`X12ValidationOverride\n <azure.mgmt.logic.models.X12ValidationOverride>`\n\
+    :param message_filter_list: The X12 message filter list.\n:type message_filter_list:\
+    \ list of :class:`X12MessageIdentifier\n <azure.mgmt.logic.models.X12MessageIdentifier>`\n\
+    :param schema_references: The X12 schema references.\n:type schema_references:\
+    \ list of :class:`X12SchemaReference\n <azure.mgmt.logic.models.X12SchemaReference>`\n\
+    :param x12_delimiter_overrides: The X12 delimiter override settings.\n:type x12_delimiter_overrides:\
+    \ list of :class:`X12DelimiterOverrides\n <azure.mgmt.logic.models.X12DelimiterOverrides>`"
+  type: Class
+  uid: azure.mgmt.logic.models.X12ProtocolSettings

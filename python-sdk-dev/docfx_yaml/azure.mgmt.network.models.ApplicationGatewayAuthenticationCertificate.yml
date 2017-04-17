@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.ApplicationGatewayAuthenticationCertificate
+  fullName: azure.mgmt.network.models.ApplicationGatewayAuthenticationCertificate
+  inheritance:
+  - azure.mgmt.network.models.sub_resource.SubResource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: ApplicationGatewayAuthenticationCertificate
+  source:
+    id: ApplicationGatewayAuthenticationCertificate
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/application_gateway_authentication_certificate.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/application_gateway_authentication_certificate.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Authentication certificates of application gateway.\n\n:param id: Resource\
+    \ Id\n:type id: str\n:param data: Certificate public data\n:type data: str\n:param\
+    \ provisioning_state: Provisioning state of the authentication\n certificate resource\
+    \ Updating/Deleting/Failed\n:type provisioning_state: str\n:param name: Name of\
+    \ the resource that is unique within a resource group.\n This name can be used\
+    \ to access the resource\n:type name: str\n:param etag: A unique read-only string\
+    \ that changes whenever the resource\n is updated\n:type etag: str"
+  type: Class
+  uid: azure.mgmt.network.models.ApplicationGatewayAuthenticationCertificate

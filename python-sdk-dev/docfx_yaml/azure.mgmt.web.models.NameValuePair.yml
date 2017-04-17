@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.NameValuePair
+  fullName: azure.mgmt.web.models.NameValuePair
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: NameValuePair
+  source:
+    id: NameValuePair
+    path: azure-mgmt-web/azure/mgmt/web/models/name_value_pair.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/name_value_pair.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Name value pair.
+
+
+    :param name: Pair name
+
+    :type name: str
+
+    :param value: Pair value
+
+    :type value: str'
+  type: Class
+  uid: azure.mgmt.web.models.NameValuePair

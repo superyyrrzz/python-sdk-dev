@@ -1,0 +1,73 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.search.models.SearchService
+  fullName: azure.mgmt.search.models.SearchService
+  inheritance:
+  - azure.mgmt.search.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.search.models
+  name: SearchService
+  source:
+    id: SearchService
+    path: azure-mgmt-search/azure/mgmt/search/models/search_service.py
+    remote:
+      branch: master
+      path: azure-mgmt-search/azure/mgmt/search/models/search_service.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Describes an Azure Search service and its current state.\n\nVariables\
+    \ are only populated by the server, and will be ignored when\nsending a request.\n\
+    \n:ivar id: The ID of the resource. This can be used with the Azure Resource\n\
+    \ Manager to link resources together.\n:vartype id: str\n:ivar name: The name\
+    \ of the resource.\n:vartype name: str\n:ivar type: The resource type.\n:vartype\
+    \ type: str\n:param location: The geographic location of the resource. This must\
+    \ be one\n of the supported and registered Azure Geo Regions (for example, West\
+    \ US,\n East US, Southeast Asia, and so forth).\n:type location: str\n:param tags:\
+    \ Tags to help categorize the resource in the Azure portal.\n:type tags: dict\n\
+    :param replica_count: The number of replicas in the Search service. If\n specified,\
+    \ it must be a value between 1 and 12 inclusive for standard SKUs\n or between\
+    \ 1 and 3 inclusive for basic SKU. Default value: 1 .\n:type replica_count: int\n\
+    :param partition_count: The number of partitions in the Search service; if\n specified,\
+    \ it can be 1, 2, 3, 4, 6, or 12. Values greater than 1 are only\n valid for standard\
+    \ SKUs. For 'standard3' services with hostingMode set to\n 'highDensity', the\
+    \ allowed values are between 1 and 3. Default value: 1 .\n:type partition_count:\
+    \ int\n:param hosting_mode: Applicable only for the standard3 SKU. You can set\n\
+    \ this property to enable up to 3 high density partitions that allow up to\n 1000\
+    \ indexes, which is much higher than the maximum indexes allowed for\n any other\
+    \ SKU. For the standard3 SKU, the value is either 'default' or\n 'highDensity'.\
+    \ For all other SKUs, this value must be 'default'. Possible\n values include:\
+    \ 'default', 'highDensity'. Default value: \"default\" .\n:type hosting_mode:\
+    \ str or :class:`HostingMode\n <azure.mgmt.search.models.HostingMode>`\n:ivar\
+    \ status: The status of the Search service. Possible values include:\n 'running':\
+    \ The Search service is running and no provisioning operations\n are underway.\
+    \ 'provisioning': The Search service is being provisioned or\n scaled up or down.\
+    \ 'deleting': The Search service is being deleted.\n 'degraded': The Search service\
+    \ is degraded. This can occur when the\n underlying search units are not healthy.\
+    \ The Search service is most likely\n operational, but performance might be slow\
+    \ and some requests might be\n dropped. 'disabled': The Search service is disabled.\
+    \ In this state, the\n service will reject all API requests. 'error': The Search\
+    \ service is in an\n error state. If your service is in the degraded, disabled,\
+    \ or error\n states, it means the Azure Search team is actively investigating\
+    \ the\n underlying issue. Dedicated services in these states are still chargeable\n\
+    \ based on the number of search units provisioned. Possible values include:\n\
+    \ 'running', 'provisioning', 'deleting', 'degraded', 'disabled', 'error'\n:vartype\
+    \ status: str or :class:`SearchServiceStatus\n <azure.mgmt.search.models.SearchServiceStatus>`\n\
+    :ivar status_details: The details of the Search service status.\n:vartype status_details:\
+    \ str\n:ivar provisioning_state: The state of the last provisioning operation\n\
+    \ performed on the Search service. Provisioning is an intermediate state\n that\
+    \ occurs while service capacity is being established. After capacity is\n set\
+    \ up, provisioningState changes to either 'succeeded' or 'failed'.\n Client applications\
+    \ can poll provisioning status (the recommended polling\n interval is from 30\
+    \ seconds to one minute) by using the Get Search Service\n operation to see when\
+    \ an operation is completed. If you are using the free\n service, this value tends\
+    \ to come back as 'succeeded' directly in the call\n to Create Search service.\
+    \ This is because the free service uses capacity\n that is already set up. Possible\
+    \ values include: 'succeeded',\n 'provisioning', 'failed'\n:vartype provisioning_state:\
+    \ str or :class:`ProvisioningState\n <azure.mgmt.search.models.ProvisioningState>`\n\
+    :param sku: The SKU of the Search Service, which determines price tier and\n capacity\
+    \ limits.\n:type sku: :class:`Sku <azure.mgmt.search.models.Sku>`"
+  type: Class
+  uid: azure.mgmt.search.models.SearchService

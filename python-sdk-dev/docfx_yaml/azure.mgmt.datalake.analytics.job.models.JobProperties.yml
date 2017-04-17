@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.datalake.analytics.job.models.JobProperties
+  fullName: azure.mgmt.datalake.analytics.job.models.JobProperties
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.datalake.analytics.job.models
+  name: JobProperties
+  source:
+    id: JobProperties
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/job/models/job_properties.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/job/models/job_properties.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The common Data Lake Analytics job properties.\n\n:param runtime_version:\
+    \ the runtime version of the Data Lake Analytics\n engine to use for the specific\
+    \ type of job being run.\n:type runtime_version: str\n:param script: the script\
+    \ to run\n:type script: str\n:param type: Polymorphic Discriminator\n:type type:\
+    \ str"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.job.models.JobProperties

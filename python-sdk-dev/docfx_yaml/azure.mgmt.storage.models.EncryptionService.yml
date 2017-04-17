@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.storage.models.EncryptionService
+  fullName: azure.mgmt.storage.models.EncryptionService
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.storage.models
+  name: EncryptionService
+  source:
+    id: EncryptionService
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/models/encryption_service.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/models/encryption_service.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "An encrypted service.\n\nVariables are only populated by the server, and\
+    \ will be ignored when\nsending a request.\n\n:param enabled: A boolean indicating\
+    \ whether or not the service is\n encrypted.\n:type enabled: bool\n:ivar last_enabled_time:\
+    \ Gets a time value indicating when was the\n encryption enabled by the user last\
+    \ time. We return this value only when\n encryption is enabled. There might be\
+    \ some unencrypted blobs which were\n written after this time. This time is just\
+    \ to give a rough estimate of\n when encryption was enabled.\n:vartype last_enabled_time:\
+    \ datetime"
+  type: Class
+  uid: azure.mgmt.storage.models.EncryptionService

@@ -1,0 +1,22 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.powerbiembedded.models.CheckNameReason
+  fullName: azure.mgmt.powerbiembedded.models.CheckNameReason
+  inheritance:
+  - enum.Enum
+  - builtins.object
+  module: azure.mgmt.powerbiembedded.models
+  name: CheckNameReason
+  source:
+    id: CheckNameReason
+    path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/models/power_bi_embedded_management_client_enums.py
+    remote:
+      branch: master
+      path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/models/power_bi_embedded_management_client_enums.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 21
+  summary: An enumeration.
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.CheckNameReason

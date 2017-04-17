@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.sql.models.ServerMetricPaged
+  fullName: azure.mgmt.sql.models.ServerMetricPaged
+  inheritance:
+  - msrest.paging.Paged
+  - collections.abc.Iterator
+  - collections.abc.Iterable
+  - builtins.object
+  module: azure.mgmt.sql.models
+  name: ServerMetricPaged
+  source:
+    id: ServerMetricPaged
+    path: azure-mgmt-sql/azure/mgmt/sql/models/server_metric_paged.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/models/server_metric_paged.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: A paging container for iterating over a list of ServerMetric object
+  type: Class
+  uid: azure.mgmt.sql.models.ServerMetricPaged

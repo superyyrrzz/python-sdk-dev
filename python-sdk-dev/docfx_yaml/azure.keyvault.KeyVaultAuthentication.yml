@@ -1,0 +1,39 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.keyvault.KeyVaultAuthentication.signed_session
+  class: azure.keyvault.KeyVaultAuthentication
+  fullName: azure.keyvault.KeyVaultAuthentication
+  inheritance:
+  - msrest.authentication.Authentication
+  - builtins.object
+  module: azure.keyvault
+  name: KeyVaultAuthentication
+  source:
+    id: KeyVaultAuthentication
+    path: azure-keyvault/azure/keyvault/key_vault_authentication.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/key_vault_authentication.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 48
+  summary: ''
+  type: Class
+  uid: azure.keyvault.KeyVaultAuthentication
+- _type: method
+  class: azure.keyvault.KeyVaultAuthentication
+  fullName: azure.keyvault.KeyVaultAuthentication.signed_session
+  module: azure.keyvault
+  name: signed_session
+  source:
+    id: signed_session
+    path: azure-keyvault/azure/keyvault/key_vault_authentication.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/key_vault_authentication.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 55
+  summary: ''
+  type: Method
+  uid: azure.keyvault.KeyVaultAuthentication.signed_session

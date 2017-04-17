@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.redis.models.ScheduleEntry
+  fullName: azure.mgmt.redis.models.ScheduleEntry
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.redis.models
+  name: ScheduleEntry
+  source:
+    id: ScheduleEntry
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/models/schedule_entry.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/models/schedule_entry.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "ScheduleEntry.\n\n:param day_of_week: Day of week when cache can be patched.\
+    \ Possible\n values include: 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday',\n\
+    \ 'Saturday', 'Sunday'\n:type day_of_week: str or :class:`DayOfWeek\n <azure.mgmt.redis.models.DayOfWeek>`\n\
+    :param start_hour_utc: Start hour after which cache patching can start.\n:type\
+    \ start_hour_utc: int\n:param maintenance_window: ISO8601 timespan specifying\
+    \ how much time\n cache patching can take.\n:type maintenance_window: timedelta"
+  type: Class
+  uid: azure.mgmt.redis.models.ScheduleEntry

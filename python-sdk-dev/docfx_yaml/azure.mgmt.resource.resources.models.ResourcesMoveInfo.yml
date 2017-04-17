@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.resources.models.ResourcesMoveInfo
+  fullName: azure.mgmt.resource.resources.models.ResourcesMoveInfo
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.resource.resources.models
+  name: ResourcesMoveInfo
+  source:
+    id: ResourcesMoveInfo
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/resources_move_info.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/resources_move_info.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Parameters of move resources.
+
+
+    :param resources: The ids of the resources.
+
+    :type resources: list of str
+
+    :param target_resource_group: The target resource group.
+
+    :type target_resource_group: str'
+  type: Class
+  uid: azure.mgmt.resource.resources.models.ResourcesMoveInfo

@@ -1,0 +1,32 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.scheduler.models.JobStatus
+  fullName: azure.mgmt.scheduler.models.JobStatus
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.scheduler.models
+  name: JobStatus
+  source:
+    id: JobStatus
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/job_status.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/job_status.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "JobStatus.\n\nVariables are only populated by the server, and will be\
+    \ ignored when\nsending a request.\n\n:ivar execution_count: Gets the number of\
+    \ times this job has executed.\n:vartype execution_count: int\n:ivar failure_count:\
+    \ Gets the number of times this job has failed.\n:vartype failure_count: int\n\
+    :ivar faulted_count: Gets the number of faulted occurrences (occurrences\n that\
+    \ were retried and failed as many times as the retry policy states).\n:vartype\
+    \ faulted_count: int\n:ivar last_execution_time: Gets the time the last occurrence\
+    \ executed in\n ISO-8601 format.  Could be empty if job has not run yet.\n:vartype\
+    \ last_execution_time: datetime\n:ivar next_execution_time: Gets the time of the\
+    \ next occurrence in\n ISO-8601 format. Could be empty if the job is completed.\n\
+    :vartype next_execution_time: datetime"
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobStatus

@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.search.models.SearchManagementRequestOptions
+  fullName: azure.mgmt.search.models.SearchManagementRequestOptions
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.search.models
+  name: SearchManagementRequestOptions
+  source:
+    id: SearchManagementRequestOptions
+    path: azure-mgmt-search/azure/mgmt/search/models/search_management_request_options.py
+    remote:
+      branch: master
+      path: azure-mgmt-search/azure/mgmt/search/models/search_management_request_options.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Additional parameters for a set of operations.\n\n:param client_request_id:\
+    \ A client-generated GUID value that identifies\n this request. If specified,\
+    \ this will be included in response information\n as a way to track the request.\n\
+    :type client_request_id: str"
+  type: Class
+  uid: azure.mgmt.search.models.SearchManagementRequestOptions

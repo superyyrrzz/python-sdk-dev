@@ -1,0 +1,41 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.JobUpdateParameter
+  fullName: azure.batch.models.JobUpdateParameter
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: JobUpdateParameter
+  source:
+    id: JobUpdateParameter
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/job_update_parameter.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/job_update_parameter.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Parameters for a CloudJobOperations.Update request.\n\n:param priority:\
+    \ The priority of the job. Priority values can range from\n -1000 to 1000, with\
+    \ -1000 being the lowest priority and 1000 being the\n highest priority. If omitted,\
+    \ it is set to the default value 0.\n:type priority: int\n:param constraints:\
+    \ The execution constraints for the job. If omitted,\n the constraints are cleared.\n\
+    :type constraints: :class:`JobConstraints\n <azure.batch.models.JobConstraints>`\n\
+    :param pool_info: The pool on which the Batch service runs the job's\n tasks.\
+    \ You may change the pool for a job only when the job is disabled.\n The Update\
+    \ Job call will fail if you include the poolInfo element and\n the job is not\
+    \ disabled. If you specify an autoPoolSpecification\n specification in the poolInfo,\
+    \ only the keepAlive property can be\n updated, and then only if the auto pool\
+    \ has a poolLifetimeOption of job.\n:type pool_info: :class:`PoolInformation\n\
+    \ <azure.batch.models.PoolInformation>`\n:param metadata: A list of name-value\
+    \ pairs associated with the job as\n metadata. If omitted, it takes the default\
+    \ value of an empty list; in\n effect, any existing metadata is deleted.\n:type\
+    \ metadata: list of :class:`MetadataItem\n <azure.batch.models.MetadataItem>`\n\
+    :param on_all_tasks_complete: Specifies an action the Batch service\n should take\
+    \ when all tasks in the job are in the completed state.\n Possible values include:\
+    \ 'noAction', 'terminateJob'\n:type on_all_tasks_complete: str or :class:`OnAllTasksComplete\n\
+    \ <azure.batch.models.OnAllTasksComplete>`"
+  type: Class
+  uid: azure.batch.models.JobUpdateParameter

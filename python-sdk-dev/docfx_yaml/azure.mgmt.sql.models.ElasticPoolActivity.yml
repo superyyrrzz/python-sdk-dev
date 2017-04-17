@@ -1,0 +1,47 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.sql.models.ElasticPoolActivity
+  fullName: azure.mgmt.sql.models.ElasticPoolActivity
+  inheritance:
+  - azure.mgmt.sql.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.sql.models
+  name: ElasticPoolActivity
+  source:
+    id: ElasticPoolActivity
+    path: azure-mgmt-sql/azure/mgmt/sql/models/elastic_pool_activity.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/models/elastic_pool_activity.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Represents the activity on an Azure SQL Elastic Pool.\n\nVariables are\
+    \ only populated by the server, and will be ignored when\nsending a request.\n\
+    \n:ivar name: Resource name\n:vartype name: str\n:ivar id: Resource ID\n:vartype\
+    \ id: str\n:ivar type: Resource type\n:vartype type: str\n:param location: Resource\
+    \ location\n:type location: str\n:param tags: Resource tags\n:type tags: dict\n\
+    :ivar end_time: The time the operation finished (ISO8601 format).\n:vartype end_time:\
+    \ datetime\n:ivar error_code: The error code if available.\n:vartype error_code:\
+    \ int\n:ivar error_message: The error message if available.\n:vartype error_message:\
+    \ str\n:ivar error_severity: The error severity if available.\n:vartype error_severity:\
+    \ int\n:ivar operation: The operation name.\n:vartype operation: str\n:ivar operation_id:\
+    \ The unique operation ID.\n:vartype operation_id: str\n:ivar percent_complete:\
+    \ The percentage complete if available.\n:vartype percent_complete: int\n:ivar\
+    \ requested_database_dtu_max: The requested max DTU per database if\n available.\n\
+    :vartype requested_database_dtu_max: int\n:ivar requested_database_dtu_min: The\
+    \ requested min DTU per database if\n available.\n:vartype requested_database_dtu_min:\
+    \ int\n:ivar requested_dtu: The requested DTU for the pool if available.\n:vartype\
+    \ requested_dtu: int\n:ivar requested_elastic_pool_name: The requested name for\
+    \ the Elastic Pool\n if available.\n:vartype requested_elastic_pool_name: str\n\
+    :ivar requested_storage_limit_in_gb: The requested storage limit for the\n pool\
+    \ in GB if available.\n:vartype requested_storage_limit_in_gb: long\n:ivar elastic_pool_name:\
+    \ The name of the Elastic Pool.\n:vartype elastic_pool_name: str\n:ivar server_name:\
+    \ The name of the Azure SQL server the Elastic Pool is\n in.\n:vartype server_name:\
+    \ str\n:ivar start_time: The time the operation started (ISO8601 format).\n:vartype\
+    \ start_time: datetime\n:ivar state: The current state of the operation.\n:vartype\
+    \ state: str"
+  type: Class
+  uid: azure.mgmt.sql.models.ElasticPoolActivity

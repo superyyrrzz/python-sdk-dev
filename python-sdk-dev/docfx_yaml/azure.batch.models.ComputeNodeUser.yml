@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.ComputeNodeUser
+  fullName: azure.batch.models.ComputeNodeUser
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: ComputeNodeUser
+  source:
+    id: ComputeNodeUser
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/compute_node_user.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/compute_node_user.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "An user account on a compute node.\n\n:param name: The user name of the\
+    \ account.\n:type name: str\n:param is_admin: Whether the account should be an\
+    \ administrator on the\n compute node.\n:type is_admin: bool\n:param expiry_time:\
+    \ The time at which the account should expire. If\n omitted, the default is 1\
+    \ day from the current time.\n:type expiry_time: datetime\n:param password: The\
+    \ password of the account.\n:type password: str\n:param ssh_public_key: The SSH\
+    \ public key that can be used for remote\n login to the compute node.\n:type ssh_public_key:\
+    \ str"
+  type: Class
+  uid: azure.batch.models.ComputeNodeUser

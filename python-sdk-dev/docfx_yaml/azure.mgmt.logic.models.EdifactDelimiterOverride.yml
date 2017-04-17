@@ -1,0 +1,39 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.EdifactDelimiterOverride
+  fullName: azure.mgmt.logic.models.EdifactDelimiterOverride
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: EdifactDelimiterOverride
+  source:
+    id: EdifactDelimiterOverride
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/edifact_delimiter_override.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/edifact_delimiter_override.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "EdifactDelimiterOverride.\n\n:param message_id: The message id.\n:type\
+    \ message_id: str\n:param message_version: The message version.\n:type message_version:\
+    \ str\n:param message_release: The message releaseversion.\n:type message_release:\
+    \ str\n:param data_element_separator: The data element separator.\n:type data_element_separator:\
+    \ int\n:param component_separator: The component separator.\n:type component_separator:\
+    \ int\n:param segment_terminator: The segment terminator.\n:type segment_terminator:\
+    \ int\n:param repetition_separator: The repetition separator.\n:type repetition_separator:\
+    \ int\n:param segment_terminator_suffix: The segment terminator suffix. Possible\n\
+    \ values include: 'NotSpecified', 'None', 'CR', 'LF', 'CRLF'\n:type segment_terminator_suffix:\
+    \ str or :class:`SegmentTerminatorSuffix\n <azure.mgmt.logic.models.SegmentTerminatorSuffix>`\n\
+    :param decimal_point_indicator: The decimal point indicator. Possible\n values\
+    \ include: 'NotSpecified', 'Comma', 'Decimal'\n:type decimal_point_indicator:\
+    \ str or :class:`EdifactDecimalIndicator\n <azure.mgmt.logic.models.EdifactDecimalIndicator>`\n\
+    :param release_indicator: The release indicator.\n:type release_indicator: int\n\
+    :param message_association_assigned_code: The message association\n assigned code.\n\
+    :type message_association_assigned_code: str\n:param target_namespace: The target\
+    \ namespace on which this delimiter\n settings has to be applied.\n:type target_namespace:\
+    \ str"
+  type: Class
+  uid: azure.mgmt.logic.models.EdifactDelimiterOverride

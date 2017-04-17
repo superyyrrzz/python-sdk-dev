@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.NodeDisableSchedulingParameter
+  fullName: azure.batch.models.NodeDisableSchedulingParameter
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: NodeDisableSchedulingParameter
+  source:
+    id: NodeDisableSchedulingParameter
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/node_disable_scheduling_parameter.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/node_disable_scheduling_parameter.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Parameters for a ComputeNodeOperations.DisableScheduling request.\n\n\
+    :param node_disable_scheduling_option: What to do with currently running\n tasks\
+    \ when disable task scheduling on the compute node. The default\n value is requeue.\
+    \ Possible values include: 'requeue', 'terminate',\n 'taskcompletion'\n:type node_disable_scheduling_option:\
+    \ str or\n :class:`DisableComputeNodeSchedulingOption\n <azure.batch.models.DisableComputeNodeSchedulingOption>`"
+  type: Class
+  uid: azure.batch.models.NodeDisableSchedulingParameter

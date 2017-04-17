@@ -1,0 +1,55 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.monitor.operations.EventCategoriesOperations.list
+  class: azure.monitor.operations.EventCategoriesOperations
+  fullName: azure.monitor.operations.EventCategoriesOperations
+  inheritance:
+  - builtins.object
+  module: azure.monitor.operations
+  name: EventCategoriesOperations
+  source:
+    id: EventCategoriesOperations
+    path: azure-monitor/azure/monitor/operations/event_categories_operations.py
+    remote:
+      branch: master
+      path: azure-monitor/azure/monitor/operations/event_categories_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'EventCategoriesOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    :ivar api_version: Client Api Version. Constant value: "2015-04-01".'
+  type: Class
+  uid: azure.monitor.operations.EventCategoriesOperations
+- _type: method
+  class: azure.monitor.operations.EventCategoriesOperations
+  fullName: azure.monitor.operations.EventCategoriesOperations.list
+  module: azure.monitor.operations
+  name: list
+  source:
+    id: list
+    path: azure-monitor/azure/monitor/operations/event_categories_operations.py
+    remote:
+      branch: master
+      path: azure-monitor/azure/monitor/operations/event_categories_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 38
+  summary: "get the list of available event categories supported in the Activity\n\
+    Log Service. The current list includes the following: Aministrative,\nSecurity,\
+    \ ServiceHealth, Alert, Recommendation, Policy.\n\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`LocalizableStringPaged\n\
+    \ <azure.monitor.models.LocalizableStringPaged>`\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.monitor.operations.EventCategoriesOperations.list

@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.resources.models.Provider
+  fullName: azure.mgmt.resource.resources.models.Provider
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.resource.resources.models
+  name: Provider
+  source:
+    id: Provider
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/provider.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/provider.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Resource provider information.\n\n:param id: The provider id.\n:type id:\
+    \ str\n:param namespace: The namespace of the provider.\n:type namespace: str\n\
+    :param registration_state: The registration state of the provider.\n:type registration_state:\
+    \ str\n:param resource_types: The collection of provider resource types.\n:type\
+    \ resource_types: list of :class:`ProviderResourceType\n <azure.mgmt.resource.resources.models.ProviderResourceType>`"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.Provider

@@ -1,0 +1,30 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.VpnClientConfiguration
+  fullName: azure.mgmt.network.models.VpnClientConfiguration
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: VpnClientConfiguration
+  source:
+    id: VpnClientConfiguration
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/vpn_client_configuration.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/vpn_client_configuration.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "VpnClientConfiguration for P2S client.\n\n:param vpn_client_address_pool:\
+    \ Gets or sets the reference of the Address\n space resource which represents\
+    \ Address space for P2S VpnClient.\n:type vpn_client_address_pool: :class:`AddressSpace\n\
+    \ <azure.mgmt.network.models.AddressSpace>`\n:param vpn_client_root_certificates:\
+    \ VpnClientRootCertificate for Virtual\n network gateway.\n:type vpn_client_root_certificates:\
+    \ list of\n :class:`VpnClientRootCertificate\n <azure.mgmt.network.models.VpnClientRootCertificate>`\n\
+    :param vpn_client_revoked_certificates: VpnClientRevokedCertificate for\n Virtual\
+    \ network gateway.\n:type vpn_client_revoked_certificates: list of\n :class:`VpnClientRevokedCertificate\n\
+    \ <azure.mgmt.network.models.VpnClientRevokedCertificate>`"
+  type: Class
+  uid: azure.mgmt.network.models.VpnClientConfiguration

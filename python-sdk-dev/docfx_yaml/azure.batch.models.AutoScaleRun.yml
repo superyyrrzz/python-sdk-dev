@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.AutoScaleRun
+  fullName: azure.batch.models.AutoScaleRun
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: AutoScaleRun
+  source:
+    id: AutoScaleRun
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/auto_scale_run.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/auto_scale_run.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The results and errors from an execution of a pool autoscale formula.\n\
+    \n:param timestamp: The time at which the autoscale formula was last\n evaluated.\n\
+    :type timestamp: datetime\n:param results: The final values of all variables used\
+    \ in the evaluation\n of the autoscale formula. Each variable value is returned\
+    \ in the form\n $variable=value, and variables are separated by semicolons.\n\
+    :type results: str\n:param error: Details of the error encountered evaluating\
+    \ the autoscale\n formula on the pool, if the evaluation was unsuccessful.\n:type\
+    \ error: :class:`AutoScaleRunError\n <azure.batch.models.AutoScaleRunError>`"
+  type: Class
+  uid: azure.batch.models.AutoScaleRun

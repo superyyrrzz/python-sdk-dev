@@ -1,0 +1,36 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.KeyValuePairStringString
+  fullName: azure.mgmt.web.models.KeyValuePairStringString
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: KeyValuePairStringString
+  source:
+    id: KeyValuePairStringString
+    path: azure-mgmt-web/azure/mgmt/web/models/key_value_pair_string_string.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/key_value_pair_string_string.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'KeyValuePairStringString.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar key:
+
+    :vartype key: str
+
+    :ivar value:
+
+    :vartype value: str'
+  type: Class
+  uid: azure.mgmt.web.models.KeyValuePairStringString

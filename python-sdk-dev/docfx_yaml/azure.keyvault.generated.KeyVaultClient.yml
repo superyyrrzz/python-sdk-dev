@@ -1,0 +1,1200 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.keyvault.generated.KeyVaultClient.backup_key
+  - azure.keyvault.generated.KeyVaultClient.create_certificate
+  - azure.keyvault.generated.KeyVaultClient.create_key
+  - azure.keyvault.generated.KeyVaultClient.decrypt
+  - azure.keyvault.generated.KeyVaultClient.delete_certificate
+  - azure.keyvault.generated.KeyVaultClient.delete_certificate_contacts
+  - azure.keyvault.generated.KeyVaultClient.delete_certificate_issuer
+  - azure.keyvault.generated.KeyVaultClient.delete_certificate_operation
+  - azure.keyvault.generated.KeyVaultClient.delete_key
+  - azure.keyvault.generated.KeyVaultClient.delete_secret
+  - azure.keyvault.generated.KeyVaultClient.encrypt
+  - azure.keyvault.generated.KeyVaultClient.get_certificate
+  - azure.keyvault.generated.KeyVaultClient.get_certificate_contacts
+  - azure.keyvault.generated.KeyVaultClient.get_certificate_issuer
+  - azure.keyvault.generated.KeyVaultClient.get_certificate_issuers
+  - azure.keyvault.generated.KeyVaultClient.get_certificate_operation
+  - azure.keyvault.generated.KeyVaultClient.get_certificate_policy
+  - azure.keyvault.generated.KeyVaultClient.get_certificate_versions
+  - azure.keyvault.generated.KeyVaultClient.get_certificates
+  - azure.keyvault.generated.KeyVaultClient.get_key
+  - azure.keyvault.generated.KeyVaultClient.get_key_versions
+  - azure.keyvault.generated.KeyVaultClient.get_keys
+  - azure.keyvault.generated.KeyVaultClient.get_secret
+  - azure.keyvault.generated.KeyVaultClient.get_secret_versions
+  - azure.keyvault.generated.KeyVaultClient.get_secrets
+  - azure.keyvault.generated.KeyVaultClient.import_certificate
+  - azure.keyvault.generated.KeyVaultClient.import_key
+  - azure.keyvault.generated.KeyVaultClient.merge_certificate
+  - azure.keyvault.generated.KeyVaultClient.restore_key
+  - azure.keyvault.generated.KeyVaultClient.set_certificate_contacts
+  - azure.keyvault.generated.KeyVaultClient.set_certificate_issuer
+  - azure.keyvault.generated.KeyVaultClient.set_secret
+  - azure.keyvault.generated.KeyVaultClient.sign
+  - azure.keyvault.generated.KeyVaultClient.unwrap_key
+  - azure.keyvault.generated.KeyVaultClient.update_certificate
+  - azure.keyvault.generated.KeyVaultClient.update_certificate_issuer
+  - azure.keyvault.generated.KeyVaultClient.update_certificate_operation
+  - azure.keyvault.generated.KeyVaultClient.update_certificate_policy
+  - azure.keyvault.generated.KeyVaultClient.update_key
+  - azure.keyvault.generated.KeyVaultClient.update_secret
+  - azure.keyvault.generated.KeyVaultClient.verify
+  - azure.keyvault.generated.KeyVaultClient.wrap_key
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient
+  inheritance:
+  - builtins.object
+  module: azure.keyvault.generated
+  name: KeyVaultClient
+  source:
+    id: KeyVaultClient
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 67
+  summary: "The key vault client performs cryptographic key operations and vault operations\
+    \ against the Key Vault service.\n\n:ivar config: Configuration for client.\n\
+    :vartype config: KeyVaultClientConfiguration\n\n:param credentials: Credentials\
+    \ needed for the client to connect to Azure.\n:type credentials: :mod:`A msrestazure\
+    \ Credentials\n object<msrestazure.azure_active_directory>`\n:param api_version:\
+    \ Client API version.\n:type api_version: str\n:param accept_language: Gets or\
+    \ sets the preferred language for the\n response.\n:type accept_language: str\n\
+    :param long_running_operation_retry_timeout: Gets or sets the retry\n timeout\
+    \ in seconds for Long Running Operations. Default value is 30.\n:type long_running_operation_retry_timeout:\
+    \ int\n:param generate_client_request_id: When set to true a unique\n x-ms-client-request-id\
+    \ value is generated and included in each request.\n Default is true.\n:type generate_client_request_id:\
+    \ bool\n:param str filepath: Existing config"
+  type: Class
+  uid: azure.keyvault.generated.KeyVaultClient
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.backup_key
+  module: azure.keyvault.generated
+  name: backup_key
+  source:
+    id: backup_key
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 631
+  summary: "Requests that a backup of the specified key be downloaded to the\nclient.\n\
+    \n:param vault_base_url: The vault name, for example\n https://myvault.vault.azure.net.\n\
+    :type vault_base_url: str\n:param key_name: The name of the key.\n:type key_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`BackupKeyResult\n <azure.keyvault.generated.models.BackupKeyResult>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.backup_key
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.create_certificate
+  module: azure.keyvault.generated
+  name: create_certificate
+  source:
+    id: create_certificate
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 2308
+  summary: "Creates a new certificate. If this is the first version, the\ncertificate\
+    \ resource is created.\n\n:param vault_base_url: The vault name, for example\n\
+    \ https://myvault.vault.azure.net.\n:type vault_base_url: str\n:param certificate_name:\
+    \ The name of the certificate.\n:type certificate_name: str\n:param certificate_policy:\
+    \ The management policy for the certificate.\n:type certificate_policy: :class:`CertificatePolicy\n\
+    \ <azure.keyvault.generated.models.CertificatePolicy>`\n:param certificate_attributes:\
+    \ The attributes of the certificate\n (optional).\n:type certificate_attributes:\
+    \ :class:`CertificateAttributes\n <azure.keyvault.generated.models.CertificateAttributes>`\n\
+    :param tags: Application specific metadata in the form of key-value\n pairs.\n\
+    :type tags: dict\n:param dict custom_headers: headers that will be added to the\
+    \ request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`CertificateOperation\n <azure.keyvault.generated.models.CertificateOperation>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.create_certificate
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.create_key
+  module: azure.keyvault.generated
+  name: create_key
+  source:
+    id: create_key
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 102
+  summary: "Creates a new key, stores it, then returns key parameters and\nattributes\
+    \ to the client. The create key operation can be used to\ncreate any key type\
+    \ in Azure Key Vault. If the named key already\nexists, Azure Key Vault creates\
+    \ a new version of the key.\nAuthorization: Requires the keys/create permission.\n\
+    \n:param vault_base_url: The vault name, for example\n https://myvault.vault.azure.net.\n\
+    :type vault_base_url: str\n:param key_name: The name for the new key. The system\
+    \ will generate\n the version name for the new key.\n:type key_name: str\n:param\
+    \ kty: The type of key to create. For valid key types, see\n JsonWebKeyType. Supported\
+    \ JsonWebKey key types (kty) for Elliptic\n Curve, RSA, HSM, Octet. Possible values\
+    \ include: 'EC', 'RSA',\n 'RSA-HSM', 'oct'\n:type kty: str or :class:`JsonWebKeyType\n\
+    \ <azure.keyvault.generated.models.JsonWebKeyType>`\n:param key_size: The key\
+    \ size in bytes. For example, 1024 or 2048.\n:type key_size: int\n:param key_ops:\n\
+    :type key_ops: list of str or :class:`JsonWebKeyOperation\n <azure.keyvault.generated.models.JsonWebKeyOperation>`\n\
+    :param key_attributes:\n:type key_attributes: :class:`KeyAttributes\n <azure.keyvault.generated.models.KeyAttributes>`\n\
+    :param tags: Application specific metadata in the form of key-value\n pairs.\n\
+    :type tags: dict\n:param dict custom_headers: headers that will be added to the\
+    \ request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`KeyBundle <azure.keyvault.generated.models.KeyBundle>`\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.create_key
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.decrypt
+  module: azure.keyvault.generated
+  name: decrypt
+  source:
+    id: decrypt
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 836
+  summary: "Decrypts a single block of encrypted data.\n\n:param vault_base_url: The\
+    \ vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
+    \ str\n:param key_name: The name of the key.\n:type key_name: str\n:param key_version:\
+    \ The version of the key.\n:type key_version: str\n:param algorithm: algorithm\
+    \ identifier. Possible values include:\n 'RSA-OAEP', 'RSA1_5'\n:type algorithm:\
+    \ str or :class:`JsonWebKeyEncryptionAlgorithm\n <azure.keyvault.generated.models.JsonWebKeyEncryptionAlgorithm>`\n\
+    :param value:\n:type value: bytes\n:param dict custom_headers: headers that will\
+    \ be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`KeyOperationResult\n\
+    \ <azure.keyvault.generated.models.KeyOperationResult>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.decrypt
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.delete_certificate
+  module: azure.keyvault.generated
+  name: delete_certificate
+  source:
+    id: delete_certificate
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1717
+  summary: "Deletes a certificate from a specified key vault.\n\n:param vault_base_url:\
+    \ The vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
+    \ str\n:param certificate_name: The name of the certificate.\n:type certificate_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`CertificateBundle\n <azure.keyvault.generated.models.CertificateBundle>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.delete_certificate
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.delete_certificate_contacts
+  module: azure.keyvault.generated
+  name: delete_certificate_contacts
+  source:
+    id: delete_certificate_contacts
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1901
+  summary: "Deletes the certificate contacts for a specified key vault.\n\n:param\
+    \ vault_base_url: The vault name, for example\n https://myvault.vault.azure.net.\n\
+    :type vault_base_url: str\n:param dict custom_headers: headers that will be added\
+    \ to the request\n:param bool raw: returns the direct response alongside the\n\
+    \ deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`Contacts <azure.keyvault.generated.models.Contacts>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.delete_certificate_contacts
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.delete_certificate_issuer
+  module: azure.keyvault.generated
+  name: delete_certificate_issuer
+  source:
+    id: delete_certificate_issuer
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 2247
+  summary: "Deletes the specified certificate issuer.\n\n:param vault_base_url: The\
+    \ vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
+    \ str\n:param issuer_name: The name of the issuer.\n:type issuer_name: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`IssuerBundle\n <azure.keyvault.generated.models.IssuerBundle>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.delete_certificate_issuer
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.delete_certificate_operation
+  module: azure.keyvault.generated
+  name: delete_certificate_operation
+  source:
+    id: delete_certificate_operation
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 2952
+  summary: "Deletes the operation for a specified certificate.\n\n:param vault_base_url:\
+    \ The vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
+    \ str\n:param certificate_name: The name of the certificate.\n:type certificate_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`CertificateOperation\n <azure.keyvault.generated.models.CertificateOperation>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.delete_certificate_operation
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.delete_key
+  module: azure.keyvault.generated
+  name: delete_key
+  source:
+    id: delete_key
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 271
+  summary: "Deletes a key of any type from storage in Azure Key Vault. The delete\n\
+    key operation cannot be used to remove individual versions of a key.\nThis operation\
+    \ removes the cryptographic material associated with the\nkey, which means the\
+    \ key is not usable for Sign/Verify, Wrap/Unwrap or\nEncrypt/Decrypt operations.\
+    \ Authorization: Requires the keys/delete\npermission.\n\n:param vault_base_url:\
+    \ The vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
+    \ str\n:param key_name: The name of the key to delete.\n:type key_name: str\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`KeyBundle <azure.keyvault.generated.models.KeyBundle>`\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.delete_key
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.delete_secret
+  module: azure.keyvault.generated
+  name: delete_secret
+  source:
+    id: delete_secret
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1300
+  summary: "Deletes a secret from a specified key vault.\n\n:param vault_base_url:\
+    \ The vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
+    \ str\n:param secret_name: The name of the secret.\n:type secret_name: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`SecretBundle\n <azure.keyvault.generated.models.SecretBundle>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.delete_secret
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.encrypt
+  module: azure.keyvault.generated
+  name: encrypt
+  source:
+    id: encrypt
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 759
+  summary: "Encrypts an arbitrary sequence of bytes using an encryption key that is\n\
+    stored in a key vault.\n\n:param vault_base_url: The vault name, for example\n\
+    \ https://myvault.vault.azure.net.\n:type vault_base_url: str\n:param key_name:\
+    \ The name of the key.\n:type key_name: str\n:param key_version: The version of\
+    \ the key.\n:type key_version: str\n:param algorithm: algorithm identifier. Possible\
+    \ values include:\n 'RSA-OAEP', 'RSA1_5'\n:type algorithm: str or :class:`JsonWebKeyEncryptionAlgorithm\n\
+    \ <azure.keyvault.generated.models.JsonWebKeyEncryptionAlgorithm>`\n:param value:\n\
+    :type value: bytes\n:param dict custom_headers: headers that will be added to\
+    \ the request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`KeyOperationResult\n <azure.keyvault.generated.models.KeyOperationResult>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.encrypt
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.get_certificate
+  module: azure.keyvault.generated
+  name: get_certificate
+  source:
+    id: get_certificate
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 2756
+  summary: "Gets information about a specified certificate.\n\n:param vault_base_url:\
+    \ The vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
+    \ str\n:param certificate_name: The name of the certificate in the given\n vault.\n\
+    :type certificate_name: str\n:param certificate_version: The version of the certificate.\n\
+    :type certificate_version: str\n:param dict custom_headers: headers that will\
+    \ be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`CertificateBundle\n\
+    \ <azure.keyvault.generated.models.CertificateBundle>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.get_certificate
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.get_certificate_contacts
+  module: azure.keyvault.generated
+  name: get_certificate_contacts
+  source:
+    id: get_certificate_contacts
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1844
+  summary: "Lists the certificate contacts for a specified key vault.\n\n:param vault_base_url:\
+    \ The vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`Contacts <azure.keyvault.generated.models.Contacts>`\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.get_certificate_contacts
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.get_certificate_issuer
+  module: azure.keyvault.generated
+  name: get_certificate_issuer
+  source:
+    id: get_certificate_issuer
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 2186
+  summary: "Lists the specified certificate issuer.\n\n:param vault_base_url: The\
+    \ vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
+    \ str\n:param issuer_name: The name of the issuer.\n:type issuer_name: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`IssuerBundle\n <azure.keyvault.generated.models.IssuerBundle>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.get_certificate_issuer
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.get_certificate_issuers
+  module: azure.keyvault.generated
+  name: get_certificate_issuers
+  source:
+    id: get_certificate_issuers
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1958
+  summary: "List certificate issuers for a specified key vault.\n\n:param vault_base_url:\
+    \ The vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
+    \ str\n:param maxresults: Maximum number of results to return in a page. If\n\
+    \ not specified the service will return up to 25 results.\n:type maxresults: int\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`CertificateIssuerItemPaged\n <azure.keyvault.generated.models.CertificateIssuerItemPaged>`\n\
+    :raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.get_certificate_issuers
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.get_certificate_operation
+  module: azure.keyvault.generated
+  name: get_certificate_operation
+  source:
+    id: get_certificate_operation
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 2891
+  summary: "Gets the operation associated with a specified certificate.\n\n:param\
+    \ vault_base_url: The vault name, for example\n https://myvault.vault.azure.net.\n\
+    :type vault_base_url: str\n:param certificate_name: The name of the certificate.\n\
+    :type certificate_name: str\n:param dict custom_headers: headers that will be\
+    \ added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`CertificateOperation\n\
+    \ <azure.keyvault.generated.models.CertificateOperation>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.get_certificate_operation
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.get_certificate_policy
+  module: azure.keyvault.generated
+  name: get_certificate_policy
+  source:
+    id: get_certificate_policy
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 2543
+  summary: "Lists the policy for a certificate.\n\n:param vault_base_url: The vault\
+    \ name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
+    \ str\n:param certificate_name: The name of the certificate in a given key\n vault.\n\
+    :type certificate_name: str\n:param dict custom_headers: headers that will be\
+    \ added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`CertificatePolicy\n\
+    \ <azure.keyvault.generated.models.CertificatePolicy>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.get_certificate_policy
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.get_certificate_versions
+  module: azure.keyvault.generated
+  name: get_certificate_versions
+  source:
+    id: get_certificate_versions
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 2470
+  summary: "List the versions of a certificate.\n\n:param vault_base_url: The vault\
+    \ name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
+    \ str\n:param certificate_name: The name of the certificate.\n:type certificate_name:\
+    \ str\n:param maxresults: Maximum number of results to return in a page. If\n\
+    \ not specified the service will return up to 25 results.\n:type maxresults: int\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`CertificateItemPaged\n <azure.keyvault.generated.models.CertificateItemPaged>`\n\
+    :raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.get_certificate_versions
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.get_certificates
+  module: azure.keyvault.generated
+  name: get_certificates
+  source:
+    id: get_certificates
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1647
+  summary: "List certificates in a specified key vault.\n\n:param vault_base_url:\
+    \ The vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
+    \ str\n:param maxresults: Maximum number of results to return in a page. If\n\
+    \ not specified the service will return up to 25 results.\n:type maxresults: int\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`CertificateItemPaged\n <azure.keyvault.generated.models.CertificateItemPaged>`\n\
+    :raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.get_certificates
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.get_key
+  module: azure.keyvault.generated
+  name: get_key
+  source:
+    id: get_key
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 419
+  summary: "Gets the public part of a stored key. The get key operation is\napplicable\
+    \ to all key types. If the requested key is symmetric, then no\nkey material is\
+    \ released in the response. Authorization: Requires the\nkeys/get permission.\n\
+    \n:param vault_base_url: The vault name, for example\n https://myvault.vault.azure.net.\n\
+    :type vault_base_url: str\n:param key_name: The name of the key to get.\n:type\
+    \ key_name: str\n:param key_version: Adding the version parameter retrieves a\
+    \ specific\n version of a key.\n:type key_version: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`KeyBundle\
+    \ <azure.keyvault.generated.models.KeyBundle>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.get_key
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.get_key_versions
+  module: azure.keyvault.generated
+  name: get_key_versions
+  source:
+    id: get_key_versions
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 486
+  summary: "Retrieves a list of individual key versions with the same key name. The\n\
+    full key identifier, attributes, and tags are provided in the response.\nAuthorization:\
+    \ Requires the keys/list permission.\n\n:param vault_base_url: The vault name,\
+    \ for example\n https://myvault.vault.azure.net.\n:type vault_base_url: str\n\
+    :param key_name: The name of the key.\n:type key_name: str\n:param maxresults:\
+    \ Maximum number of results to return in a page. If\n not specified the service\
+    \ will return up to 25 results.\n:type maxresults: int\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`KeyItemPaged\n\
+    \ <azure.keyvault.generated.models.KeyItemPaged>`\n:raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.get_key_versions
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.get_keys
+  module: azure.keyvault.generated
+  name: get_keys
+  source:
+    id: get_keys
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 561
+  summary: "List keys in the specified vault.\n\n:param vault_base_url: The vault\
+    \ name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
+    \ str\n:param maxresults: Maximum number of results to return in a page. If\n\
+    \ not specified the service will return up to 25 results.\n:type maxresults: int\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`KeyItemPaged\n <azure.keyvault.generated.models.KeyItemPaged>`\n\
+    :raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.get_keys
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.get_secret
+  module: azure.keyvault.generated
+  name: get_secret
+  source:
+    id: get_secret
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1440
+  summary: "Get a specified secret from a given key vault.\n\n:param vault_base_url:\
+    \ The vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
+    \ str\n:param secret_name: The name of the secret.\n:type secret_name: str\n:param\
+    \ secret_version: The version of the secret.\n:type secret_version: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`SecretBundle\n <azure.keyvault.generated.models.SecretBundle>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.get_secret
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.get_secret_versions
+  module: azure.keyvault.generated
+  name: get_secret_versions
+  source:
+    id: get_secret_versions
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1574
+  summary: "List the versions of the specified secret.\n\n:param vault_base_url: The\
+    \ vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
+    \ str\n:param secret_name: The name of the secret.\n:type secret_name: str\n:param\
+    \ maxresults: Maximum number of results to return in a page. If\n not specified\
+    \ the service will return up to 25 results.\n:type maxresults: int\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ :class:`SecretItemPaged\n <azure.keyvault.generated.models.SecretItemPaged>`\n\
+    :raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.get_secret_versions
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.get_secrets
+  module: azure.keyvault.generated
+  name: get_secrets
+  source:
+    id: get_secrets
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1504
+  summary: "List secrets in a specified key vault.\n\n:param vault_base_url: The vault\
+    \ name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
+    \ str\n:param maxresults: Maximum number of results to return in a page. If\n\
+    \ not specified the service will return up to 25 results.\n:type maxresults: int\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`SecretItemPaged\n <azure.keyvault.generated.models.SecretItemPaged>`\n\
+    :raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.get_secrets
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.import_certificate
+  module: azure.keyvault.generated
+  name: import_certificate
+  source:
+    id: import_certificate
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 2386
+  summary: "Imports a certificate into a specified key vault.\n\n:param vault_base_url:\
+    \ The vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
+    \ str\n:param certificate_name: The name of the certificate.\n:type certificate_name:\
+    \ str\n:param base64_encoded_certificate: Base64 encoded representation of\n the\
+    \ certificate object to import. This certificate needs to contain\n the private\
+    \ key.\n:type base64_encoded_certificate: str\n:param password: If the private\
+    \ key in base64EncodedCertificate is\n encrypted, the password used for encryption.\n\
+    :type password: str\n:param certificate_policy: The management policy for the\
+    \ certificate.\n:type certificate_policy: :class:`CertificatePolicy\n <azure.keyvault.generated.models.CertificatePolicy>`\n\
+    :param certificate_attributes: The attributes of the certificate\n (optional).\n\
+    :type certificate_attributes: :class:`CertificateAttributes\n <azure.keyvault.generated.models.CertificateAttributes>`\n\
+    :param tags: Application specific metadata in the form of key-value\n pairs.\n\
+    :type tags: dict\n:param dict custom_headers: headers that will be added to the\
+    \ request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`CertificateBundle\n <azure.keyvault.generated.models.CertificateBundle>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.import_certificate
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.import_key
+  module: azure.keyvault.generated
+  name: import_key
+  source:
+    id: import_key
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 190
+  summary: "Imports an externally created key, stores it, and returns key\nparameters\
+    \ and attributes to the client. The import key operation may\nbe used to import\
+    \ any key type into an Azure Key Vault. If the named\nkey already exists, Azure\
+    \ Key Vault creates a new version of the key.\nAuthorization: requires the keys/import\
+    \ permission. .\n\n:param vault_base_url: The vault name, for example\n https://myvault.vault.azure.net.\n\
+    :type vault_base_url: str\n:param key_name: Name for the imported key.\n:type\
+    \ key_name: str\n:param key: The Json web key\n:type key: :class:`JsonWebKey\n\
+    \ <azure.keyvault.generated.models.JsonWebKey>`\n:param hsm: Whether to import\
+    \ as a hardware key (HSM) or software key.\n:type hsm: bool\n:param key_attributes:\
+    \ The key management attributes.\n:type key_attributes: :class:`KeyAttributes\n\
+    \ <azure.keyvault.generated.models.KeyAttributes>`\n:param tags: Application specific\
+    \ metadata in the form of key-value\n pairs.\n:type tags: dict\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`KeyBundle\
+    \ <azure.keyvault.generated.models.KeyBundle>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.import_key
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.merge_certificate
+  module: azure.keyvault.generated
+  name: merge_certificate
+  source:
+    id: merge_certificate
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 3013
+  summary: "Merges a certificate or a certificate chain with a key pair existing on\n\
+    the server.\n\n:param vault_base_url: The vault name, for example\n https://myvault.vault.azure.net.\n\
+    :type vault_base_url: str\n:param certificate_name: The name of the certificate.\n\
+    :type certificate_name: str\n:param x509_certificates: The certificate or the\
+    \ certificate chain to\n merge.\n:type x509_certificates: list of bytearray\n\
+    :param certificate_attributes: The attributes of the certificate\n (optional).\n\
+    :type certificate_attributes: :class:`CertificateAttributes\n <azure.keyvault.generated.models.CertificateAttributes>`\n\
+    :param tags: Application specific metadata in the form of key-value\n pairs.\n\
+    :type tags: dict\n:param dict custom_headers: headers that will be added to the\
+    \ request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`CertificateBundle\n <azure.keyvault.generated.models.CertificateBundle>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.merge_certificate
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.restore_key
+  module: azure.keyvault.generated
+  name: restore_key
+  source:
+    id: restore_key
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 693
+  summary: "Restores a backed up key to a vault.\n\n:param vault_base_url: The vault\
+    \ name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
+    \ str\n:param key_bundle_backup: The backup blob associated with a key\n bundle.\n\
+    :type key_bundle_backup: bytes\n:param dict custom_headers: headers that will\
+    \ be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`KeyBundle <azure.keyvault.generated.models.KeyBundle>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.restore_key
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.set_certificate_contacts
+  module: azure.keyvault.generated
+  name: set_certificate_contacts
+  source:
+    id: set_certificate_contacts
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1778
+  summary: "Sets the certificate contacts for the specified key vault.\n\n:param vault_base_url:\
+    \ The vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
+    \ str\n:param contact_list: The contact list for the vault certificates.\n:type\
+    \ contact_list: list of :class:`Contact\n <azure.keyvault.generated.models.Contact>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`Contacts <azure.keyvault.generated.models.Contacts>`\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.set_certificate_contacts
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.set_certificate_issuer
+  module: azure.keyvault.generated
+  name: set_certificate_issuer
+  source:
+    id: set_certificate_issuer
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 2028
+  summary: "Sets the specified certificate issuer.\n\n:param vault_base_url: The vault\
+    \ name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
+    \ str\n:param issuer_name: The name of the issuer.\n:type issuer_name: str\n:param\
+    \ provider: The issuer provider.\n:type provider: str\n:param credentials: The\
+    \ credentials to be used for the issuer.\n:type credentials: :class:`IssuerCredentials\n\
+    \ <azure.keyvault.generated.models.IssuerCredentials>`\n:param organization_details:\
+    \ Details of the organization as provided\n to the issuer.\n:type organization_details:\
+    \ :class:`OrganizationDetails\n <azure.keyvault.generated.models.OrganizationDetails>`\n\
+    :param attributes: Attributes of the issuer object.\n:type attributes: :class:`IssuerAttributes\n\
+    \ <azure.keyvault.generated.models.IssuerAttributes>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`IssuerBundle\n\
+    \ <azure.keyvault.generated.models.IssuerBundle>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.set_certificate_issuer
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.set_secret
+  module: azure.keyvault.generated
+  name: set_secret
+  source:
+    id: set_secret
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1223
+  summary: "Sets a secret in a specified key vault.\n\n:param vault_base_url: The\
+    \ vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
+    \ str\n:param secret_name: The name of the secret.\n:type secret_name: str\n:param\
+    \ value: The value of the secret.\n:type value: str\n:param tags: Application\
+    \ specific metadata in the form of key-value\n pairs.\n:type tags: dict\n:param\
+    \ content_type: Type of the secret value such as a password.\n:type content_type:\
+    \ str\n:param secret_attributes: The secret management attributes.\n:type secret_attributes:\
+    \ :class:`SecretAttributes\n <azure.keyvault.generated.models.SecretAttributes>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`SecretBundle\n <azure.keyvault.generated.models.SecretBundle>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.set_secret
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.sign
+  module: azure.keyvault.generated
+  name: sign
+  source:
+    id: sign
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 912
+  summary: "Creates a signature from a digest using the specified key.\n\n:param vault_base_url:\
+    \ The vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
+    \ str\n:param key_name: The name of the key.\n:type key_name: str\n:param key_version:\
+    \ The version of the key.\n:type key_version: str\n:param algorithm: The signing/verification\
+    \ algorithm identifier. For\n more information on possible algorithm types, see\n\
+    \ JsonWebKeySignatureAlgorithm. Possible values include: 'RS256',\n 'RS384', 'RS512',\
+    \ 'RSNULL'\n:type algorithm: str or :class:`JsonWebKeySignatureAlgorithm\n <azure.keyvault.generated.models.JsonWebKeySignatureAlgorithm>`\n\
+    :param value:\n:type value: bytes\n:param dict custom_headers: headers that will\
+    \ be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`KeyOperationResult\n\
+    \ <azure.keyvault.generated.models.KeyOperationResult>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.sign
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.unwrap_key
+  module: azure.keyvault.generated
+  name: unwrap_key
+  source:
+    id: unwrap_key
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1146
+  summary: "Unwraps a symmetric key using the specified key that was initially used\n\
+    for wrapping that key.\n\n:param vault_base_url: The vault name, for example\n\
+    \ https://myvault.vault.azure.net.\n:type vault_base_url: str\n:param key_name:\
+    \ The name of the key.\n:type key_name: str\n:param key_version: The version of\
+    \ the key.\n:type key_version: str\n:param algorithm: algorithm identifier. Possible\
+    \ values include:\n 'RSA-OAEP', 'RSA1_5'\n:type algorithm: str or :class:`JsonWebKeyEncryptionAlgorithm\n\
+    \ <azure.keyvault.generated.models.JsonWebKeyEncryptionAlgorithm>`\n:param value:\n\
+    :type value: bytes\n:param dict custom_headers: headers that will be added to\
+    \ the request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`KeyOperationResult\n <azure.keyvault.generated.models.KeyOperationResult>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.unwrap_key
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.update_certificate
+  module: azure.keyvault.generated
+  name: update_certificate
+  source:
+    id: update_certificate
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 2675
+  summary: "Updates the specified attributes associated with the given certificate.\n\
+    \n:param vault_base_url: The vault name, for example\n https://myvault.vault.azure.net.\n\
+    :type vault_base_url: str\n:param certificate_name: The name of the certificate\
+    \ in the given key\n vault.\n:type certificate_name: str\n:param certificate_version:\
+    \ The version of the certificate.\n:type certificate_version: str\n:param certificate_policy:\
+    \ The management policy for the certificate.\n:type certificate_policy: :class:`CertificatePolicy\n\
+    \ <azure.keyvault.generated.models.CertificatePolicy>`\n:param certificate_attributes:\
+    \ The attributes of the certificate\n (optional).\n:type certificate_attributes:\
+    \ :class:`CertificateAttributes\n <azure.keyvault.generated.models.CertificateAttributes>`\n\
+    :param tags: Application specific metadata in the form of key-value\n pairs.\n\
+    :type tags: dict\n:param dict custom_headers: headers that will be added to the\
+    \ request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`CertificateBundle\n <azure.keyvault.generated.models.CertificateBundle>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.update_certificate
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.update_certificate_issuer
+  module: azure.keyvault.generated
+  name: update_certificate_issuer
+  source:
+    id: update_certificate_issuer
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 2107
+  summary: "Updates the specified certificate issuer.\n\n:param vault_base_url: The\
+    \ vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
+    \ str\n:param issuer_name: The name of the issuer.\n:type issuer_name: str\n:param\
+    \ provider: The issuer provider.\n:type provider: str\n:param credentials: The\
+    \ credentials to be used for the issuer.\n:type credentials: :class:`IssuerCredentials\n\
+    \ <azure.keyvault.generated.models.IssuerCredentials>`\n:param organization_details:\
+    \ Details of the organization as provided\n to the issuer.\n:type organization_details:\
+    \ :class:`OrganizationDetails\n <azure.keyvault.generated.models.OrganizationDetails>`\n\
+    :param attributes: Attributes of the issuer object.\n:type attributes: :class:`IssuerAttributes\n\
+    \ <azure.keyvault.generated.models.IssuerAttributes>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`IssuerBundle\n\
+    \ <azure.keyvault.generated.models.IssuerBundle>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.update_certificate_issuer
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.update_certificate_operation
+  module: azure.keyvault.generated
+  name: update_certificate_operation
+  source:
+    id: update_certificate_operation
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 2821
+  summary: "Updates a certificate operation.\n\n:param vault_base_url: The vault name,\
+    \ for example\n https://myvault.vault.azure.net.\n:type vault_base_url: str\n\
+    :param certificate_name: The name of the certificate.\n:type certificate_name:\
+    \ str\n:param cancellation_requested: Indicates if cancellation was requested\n\
+    \ on the certificate operation.\n:type cancellation_requested: bool\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ :class:`CertificateOperation\n <azure.keyvault.generated.models.CertificateOperation>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.update_certificate_operation
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.update_certificate_policy
+  module: azure.keyvault.generated
+  name: update_certificate_policy
+  source:
+    id: update_certificate_policy
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 2605
+  summary: "Updates the policy for a certificate. Set specified members in the\ncertificate\
+    \ policy. Leave others as null.\n\n:param vault_base_url: The vault name, for\
+    \ example\n https://myvault.vault.azure.net.\n:type vault_base_url: str\n:param\
+    \ certificate_name: The name of the certificate in the given\n vault.\n:type certificate_name:\
+    \ str\n:param certificate_policy: The policy for the certificate.\n:type certificate_policy:\
+    \ :class:`CertificatePolicy\n <azure.keyvault.generated.models.CertificatePolicy>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`CertificatePolicy\n <azure.keyvault.generated.models.CertificatePolicy>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.update_certificate_policy
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.update_key
+  module: azure.keyvault.generated
+  name: update_key
+  source:
+    id: update_key
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 336
+  summary: "The update key operation changes specified attributes of a stored key\n\
+    and can be applied to any key type and key version stored in Azure Key\nVault.\
+    \ The cryptographic material of a key itself cannot be changed. In\norder to perform\
+    \ this operation, the key must already exist in the Key\nVault. Authorization:\
+    \ requires the keys/update permission.\n\n:param vault_base_url: The vault name,\
+    \ for example\n https://myvault.vault.azure.net.\n:type vault_base_url: str\n\
+    :param key_name: The name of key to update.\n:type key_name: str\n:param key_version:\
+    \ The version of the key to update.\n:type key_version: str\n:param key_ops: Json\
+    \ web key operations. For more information on\n possible key operations, see JsonWebKeyOperation.\n\
+    :type key_ops: list of str or :class:`JsonWebKeyOperation\n <azure.keyvault.generated.models.JsonWebKeyOperation>`\n\
+    :param key_attributes:\n:type key_attributes: :class:`KeyAttributes\n <azure.keyvault.generated.models.KeyAttributes>`\n\
+    :param tags: Application specific metadata in the form of key-value\n pairs.\n\
+    :type tags: dict\n:param dict custom_headers: headers that will be added to the\
+    \ request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`KeyBundle <azure.keyvault.generated.models.KeyBundle>`\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.update_key
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.update_secret
+  module: azure.keyvault.generated
+  name: update_secret
+  source:
+    id: update_secret
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1361
+  summary: "Updates the attributes associated with a specified secret in a given\n\
+    key vault.\n\n:param vault_base_url: The vault name, for example\n https://myvault.vault.azure.net.\n\
+    :type vault_base_url: str\n:param secret_name: The name of the secret.\n:type\
+    \ secret_name: str\n:param secret_version: The version of the secret.\n:type secret_version:\
+    \ str\n:param content_type: Type of the secret value such as a password.\n:type\
+    \ content_type: str\n:param secret_attributes: The secret management attributes.\n\
+    :type secret_attributes: :class:`SecretAttributes\n <azure.keyvault.generated.models.SecretAttributes>`\n\
+    :param tags: Application specific metadata in the form of key-value\n pairs.\n\
+    :type tags: dict\n:param dict custom_headers: headers that will be added to the\
+    \ request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`SecretBundle\n <azure.keyvault.generated.models.SecretBundle>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.update_secret
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.verify
+  module: azure.keyvault.generated
+  name: verify
+  source:
+    id: verify
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 990
+  summary: "Verifies a signature using a specified key.\n\n:param vault_base_url:\
+    \ The vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
+    \ str\n:param key_name: The name of the key.\n:type key_name: str\n:param key_version:\
+    \ The version of the key.\n:type key_version: str\n:param algorithm: The signing/verification\
+    \ algorithm. For more\n information on possible algorithm types, see\n JsonWebKeySignatureAlgorithm.\
+    \ Possible values include: 'RS256',\n 'RS384', 'RS512', 'RSNULL'\n:type algorithm:\
+    \ str or :class:`JsonWebKeySignatureAlgorithm\n <azure.keyvault.generated.models.JsonWebKeySignatureAlgorithm>`\n\
+    :param digest: The digest used for signing.\n:type digest: bytes\n:param signature:\
+    \ The signature to be verified.\n:type signature: bytes\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`KeyVerifyResult\n\
+    \ <azure.keyvault.generated.models.KeyVerifyResult>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.verify
+- _type: method
+  class: azure.keyvault.generated.KeyVaultClient
+  fullName: azure.keyvault.generated.KeyVaultClient.wrap_key
+  module: azure.keyvault.generated
+  name: wrap_key
+  source:
+    id: wrap_key
+    path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1070
+  summary: "Wraps a symmetric key using a specified key.\n\n:param vault_base_url:\
+    \ The vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
+    \ str\n:param key_name: The name of the key.\n:type key_name: str\n:param key_version:\
+    \ The version of the key.\n:type key_version: str\n:param algorithm: algorithm\
+    \ identifier. Possible values include:\n 'RSA-OAEP', 'RSA1_5'\n:type algorithm:\
+    \ str or :class:`JsonWebKeyEncryptionAlgorithm\n <azure.keyvault.generated.models.JsonWebKeyEncryptionAlgorithm>`\n\
+    :param value:\n:type value: bytes\n:param dict custom_headers: headers that will\
+    \ be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`KeyOperationResult\n\
+    \ <azure.keyvault.generated.models.KeyOperationResult>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`KeyVaultErrorException<azure.keyvault.generated.models.KeyVaultErrorException>`"
+  type: Method
+  uid: azure.keyvault.generated.KeyVaultClient.wrap_key

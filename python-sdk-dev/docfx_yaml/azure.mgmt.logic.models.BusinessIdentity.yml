@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.BusinessIdentity
+  fullName: azure.mgmt.logic.models.BusinessIdentity
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: BusinessIdentity
+  source:
+    id: BusinessIdentity
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/business_identity.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/business_identity.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'BusinessIdentity.
+
+
+    :param qualifier: The business identity qualifier.
+
+    :type qualifier: str
+
+    :param value: The business identity value.
+
+    :type value: str'
+  type: Class
+  uid: azure.mgmt.logic.models.BusinessIdentity

@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.devtestlabs.models.CustomImagePropertiesCustom
+  fullName: azure.mgmt.devtestlabs.models.CustomImagePropertiesCustom
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.devtestlabs.models
+  name: CustomImagePropertiesCustom
+  source:
+    id: CustomImagePropertiesCustom
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/custom_image_properties_custom.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/custom_image_properties_custom.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Properties for creating a custom image from a VHD.\n\n:param image_name:\
+    \ The image name.\n:type image_name: str\n:param sys_prep: Indicates whether sysprep\
+    \ has been run on the VHD.\n:type sys_prep: bool\n:param os_type: The OS type\
+    \ of the custom image. Possible values include:\n 'Windows', 'Linux', 'None'\n\
+    :type os_type: str or :class:`CustomImageOsType\n <azure.mgmt.devtestlabs.models.CustomImageOsType>`"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.CustomImagePropertiesCustom

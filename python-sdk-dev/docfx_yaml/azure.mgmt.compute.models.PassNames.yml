@@ -1,0 +1,22 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.PassNames
+  fullName: azure.mgmt.compute.models.PassNames
+  inheritance:
+  - enum.Enum
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: PassNames
+  source:
+    id: PassNames
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/compute_management_client_enums.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/compute_management_client_enums.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 109
+  summary: An enumeration.
+  type: Class
+  uid: azure.mgmt.compute.models.PassNames

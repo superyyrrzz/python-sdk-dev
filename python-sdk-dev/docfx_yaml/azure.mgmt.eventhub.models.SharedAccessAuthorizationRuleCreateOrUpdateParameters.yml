@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.eventhub.models.SharedAccessAuthorizationRuleCreateOrUpdateParameters
+  fullName: azure.mgmt.eventhub.models.SharedAccessAuthorizationRuleCreateOrUpdateParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.eventhub.models
+  name: SharedAccessAuthorizationRuleCreateOrUpdateParameters
+  source:
+    id: SharedAccessAuthorizationRuleCreateOrUpdateParameters
+    path: azure-mgmt-eventhub/azure/mgmt/eventhub/models/shared_access_authorization_rule_create_or_update_parameters.py
+    remote:
+      branch: master
+      path: azure-mgmt-eventhub/azure/mgmt/eventhub/models/shared_access_authorization_rule_create_or_update_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Parameters supplied to the Create Or Update Authorization Rules operation.\n\
+    \n:param location: Data center location.\n:type location: str\n:param name: Name\
+    \ of the authorization rule.\n:type name: str\n:param rights: The rights associated\
+    \ with the rule.\n:type rights: list of str or :class:`AccessRights\n <azure.mgmt.eventhub.models.AccessRights>`"
+  type: Class
+  uid: azure.mgmt.eventhub.models.SharedAccessAuthorizationRuleCreateOrUpdateParameters

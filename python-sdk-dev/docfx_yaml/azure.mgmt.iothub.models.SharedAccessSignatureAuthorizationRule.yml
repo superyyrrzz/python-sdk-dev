@@ -1,0 +1,33 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.iothub.models.SharedAccessSignatureAuthorizationRule
+  fullName: azure.mgmt.iothub.models.SharedAccessSignatureAuthorizationRule
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.iothub.models
+  name: SharedAccessSignatureAuthorizationRule
+  source:
+    id: SharedAccessSignatureAuthorizationRule
+    path: azure-mgmt-iothub/azure/mgmt/iothub/models/shared_access_signature_authorization_rule.py
+    remote:
+      branch: master
+      path: azure-mgmt-iothub/azure/mgmt/iothub/models/shared_access_signature_authorization_rule.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The properties of an IoT hub shared access policy.\n\n:param key_name:\
+    \ The name of the shared access policy.\n:type key_name: str\n:param primary_key:\
+    \ The primary key.\n:type primary_key: str\n:param secondary_key: The secondary\
+    \ key.\n:type secondary_key: str\n:param rights: The permissions assigned to the\
+    \ shared access policy.\n Possible values include: 'RegistryRead', 'RegistryWrite',\n\
+    \ 'ServiceConnect', 'DeviceConnect', 'RegistryRead, RegistryWrite',\n 'RegistryRead,\
+    \ ServiceConnect', 'RegistryRead, DeviceConnect',\n 'RegistryWrite, ServiceConnect',\
+    \ 'RegistryWrite, DeviceConnect',\n 'ServiceConnect, DeviceConnect', 'RegistryRead,\
+    \ RegistryWrite,\n ServiceConnect', 'RegistryRead, RegistryWrite, DeviceConnect',\n\
+    \ 'RegistryRead, ServiceConnect, DeviceConnect', 'RegistryWrite,\n ServiceConnect,\
+    \ DeviceConnect', 'RegistryRead, RegistryWrite,\n ServiceConnect, DeviceConnect'\n\
+    :type rights: str or :class:`AccessRights\n <azure.mgmt.iothub.models.AccessRights>`"
+  type: Class
+  uid: azure.mgmt.iothub.models.SharedAccessSignatureAuthorizationRule

@@ -1,0 +1,381 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.create_or_update
+  - azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.deallocate
+  - azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.delete
+  - azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.delete_instances
+  - azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.get
+  - azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.get_instance_view
+  - azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.list
+  - azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.list_all
+  - azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.list_skus
+  - azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.power_off
+  - azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.reimage
+  - azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.restart
+  - azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.start
+  - azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.update_instances
+  class: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.compute.operations
+  name: VirtualMachineScaleSetsOperations
+  source:
+    id: VirtualMachineScaleSetsOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 20
+  summary: 'VirtualMachineScaleSetsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    :ivar api_version: Client Api Version. Constant value: "2016-03-30".'
+  type: Class
+  uid: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.create_or_update
+  module: azure.mgmt.compute.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 39
+  summary: "Allows you to create or update a virtual machine scale set by\nproviding\
+    \ parameters or a path to pre-configured parameter file.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param name:\
+    \ Parameters supplied to the Create Virtual Machine Scale\n Set operation.\n:type\
+    \ name: str\n:param parameters: Parameters supplied to the Create Virtual Machine\n\
+    \ Scale Set operation.\n:type parameters: :class:`VirtualMachineScaleSet\n <azure.mgmt.compute.models.VirtualMachineScaleSet>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`VirtualMachineScaleSet\n <azure.mgmt.compute.models.VirtualMachineScaleSet>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.create_or_update
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.deallocate
+  module: azure.mgmt.compute.operations
+  name: deallocate
+  source:
+    id: deallocate
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 135
+  summary: "Allows you to deallocate virtual machines in a virtual machine scale\n\
+    set. Shuts down the virtual machines and releases the compute\nresources. You\
+    \ are not billed for the compute resources that this\nvirtual machine scale set\
+    \ uses.\n\n:param resource_group_name: The name of the resource group.\n:type\
+    \ resource_group_name: str\n:param vm_scale_set_name: The name of the virtual\
+    \ machine scale set.\n:type vm_scale_set_name: str\n:param instance_ids: the virtual\
+    \ machine scale set instance ids.\n:type instance_ids: list of str\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:rtype:\n\
+    \ :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.deallocate
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.delete
+  module: azure.mgmt.compute.operations
+  name: delete
+  source:
+    id: delete
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 227
+  summary: "Allows you to delete a virtual machine scale set.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param vm_scale_set_name:\
+    \ The name of the virtual machine scale set.\n:type vm_scale_set_name: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:rtype:\n\
+    \ :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.delete
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.delete_instances
+  module: azure.mgmt.compute.operations
+  name: delete_instances
+  source:
+    id: delete_instances
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 364
+  summary: "Allows you to delete virtual machines in a virtual machine scale set.\n\
+    \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param vm_scale_set_name: The name of the virtual machine scale set.\n\
+    :type vm_scale_set_name: str\n:param instance_ids: the virtual machine scale set\
+    \ instance ids.\n:type instance_ids: list of str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.delete_instances
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.get
+  module: azure.mgmt.compute.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 303
+  summary: "Display information about a virtual machine scale set.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param vm_scale_set_name:\
+    \ The name of the virtual machine scale set.\n:type vm_scale_set_name: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`VirtualMachineScaleSet\n <azure.mgmt.compute.models.VirtualMachineScaleSet>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.get
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.get_instance_view
+  module: azure.mgmt.compute.operations
+  name: get_instance_view
+  source:
+    id: get_instance_view
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 448
+  summary: "Displays status of a virtual machine scale set instance.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param vm_scale_set_name:\
+    \ The name of the virtual machine scale set.\n:type vm_scale_set_name: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`VirtualMachineScaleSetInstanceView\n <azure.mgmt.compute.models.VirtualMachineScaleSetInstanceView>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.get_instance_view
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.list
+  module: azure.mgmt.compute.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 509
+  summary: "Lists all virtual machine scale sets under a resource group.\n\n:param\
+    \ resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`VirtualMachineScaleSetPaged\n <azure.mgmt.compute.models.VirtualMachineScaleSetPaged>`"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.list
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.list_all
+  module: azure.mgmt.compute.operations
+  name: list_all
+  source:
+    id: list_all
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 574
+  summary: "Lists all Virtual Machine Scale Sets in the subscription. Use nextLink\n\
+    property in the response to get the next page of Virtual Machine\nScale Sets.\
+    \ Do this till nextLink is not null to fetch all the\nVirtual Machine Scale Sets.\n\
+    \n:param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`VirtualMachineScaleSetPaged\n <azure.mgmt.compute.models.VirtualMachineScaleSetPaged>`"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.list_all
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.list_skus
+  module: azure.mgmt.compute.operations
+  name: list_skus
+  source:
+    id: list_skus
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 639
+  summary: "Displays available skus for your virtual machine scale set including\n\
+    the minimum and maximum vm instances allowed for a particular sku.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param vm_scale_set_name:\
+    \ The name of the virtual machine scale set.\n:type vm_scale_set_name: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`VirtualMachineScaleSetSkuPaged\n <azure.mgmt.compute.models.VirtualMachineScaleSetSkuPaged>`"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.list_skus
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.power_off
+  module: azure.mgmt.compute.operations
+  name: power_off
+  source:
+    id: power_off
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 708
+  summary: "Allows you to power off (stop) virtual machines in a virtual machine\n\
+    scale set. Note that resources are still attached and you are getting\ncharged\
+    \ for the resources. Use deallocate to release resources.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param vm_scale_set_name:\
+    \ The name of the virtual machine scale set.\n:type vm_scale_set_name: str\n:param\
+    \ instance_ids: the virtual machine scale set instance ids.\n:type instance_ids:\
+    \ list of str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.power_off
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.reimage
+  module: azure.mgmt.compute.operations
+  name: reimage
+  source:
+    id: reimage
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 1062
+  summary: "Allows you to re-image(update the version of the installed operating\n\
+    system) virtual machines in a virtual machine scale set.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param vm_scale_set_name:\
+    \ The name of the virtual machine scale set.\n:type vm_scale_set_name: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:rtype:\n\
+    \ :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.reimage
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.restart
+  module: azure.mgmt.compute.operations
+  name: restart
+  source:
+    id: restart
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 799
+  summary: "Allows you to restart virtual machines in a virtual machine scale set.\n\
+    \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param vm_scale_set_name: The name of the virtual machine scale set.\n\
+    :type vm_scale_set_name: str\n:param instance_ids: the virtual machine scale set\
+    \ instance ids.\n:type instance_ids: list of str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.restart
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.start
+  module: azure.mgmt.compute.operations
+  name: start
+  source:
+    id: start
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 888
+  summary: "Allows you to start virtual machines in a virtual machine scale set.\n\
+    \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param vm_scale_set_name: The name of the virtual machine scale set.\n\
+    :type vm_scale_set_name: str\n:param instance_ids: the virtual machine scale set\
+    \ instance ids.\n:type instance_ids: list of str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.start
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.update_instances
+  module: azure.mgmt.compute.operations
+  name: update_instances
+  source:
+    id: update_instances
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 977
+  summary: "Allows you to manually upgrade virtual machines in a virtual machine\n\
+    scale set.\n\n:param resource_group_name: The name of the resource group.\n:type\
+    \ resource_group_name: str\n:param vm_scale_set_name: The name of the virtual\
+    \ machine scale set.\n:type vm_scale_set_name: str\n:param instance_ids: the virtual\
+    \ machine scale set instance ids.\n:type instance_ids: list of str\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:rtype:\n\
+    \ :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachineScaleSetsOperations.update_instances

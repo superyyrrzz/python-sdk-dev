@@ -1,0 +1,22 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.notificationhubs.models.NamespaceType
+  fullName: azure.mgmt.notificationhubs.models.NamespaceType
+  inheritance:
+  - enum.Enum
+  - builtins.object
+  module: azure.mgmt.notificationhubs.models
+  name: NamespaceType
+  source:
+    id: NamespaceType
+    path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/models/notification_hubs_management_client_enums.py
+    remote:
+      branch: master
+      path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/models/notification_hubs_management_client_enums.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 22
+  summary: An enumeration.
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.NamespaceType

@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.cdn.models.CheckNameAvailabilityInput
+  fullName: azure.mgmt.cdn.models.CheckNameAvailabilityInput
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.cdn.models
+  name: CheckNameAvailabilityInput
+  source:
+    id: CheckNameAvailabilityInput
+    path: azure-mgmt-cdn/azure/mgmt/cdn/models/check_name_availability_input.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/models/check_name_availability_input.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Input of CheckNameAvailability API.\n\nVariables are only populated by\
+    \ the server, and will be ignored when\nsending a request.\n\n:param name: The\
+    \ resource name to validate.\n:type name: str\n:ivar type: The type of the resource\
+    \ whose name is to be validated.\n Default value: \"Microsoft.Cdn/Profiles/Endpoints\"\
+    \ .\n:vartype type: str"
+  type: Class
+  uid: azure.mgmt.cdn.models.CheckNameAvailabilityInput

@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.ExpressRouteCircuitRoutesTableSummary
+  fullName: azure.mgmt.network.models.ExpressRouteCircuitRoutesTableSummary
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: ExpressRouteCircuitRoutesTableSummary
+  source:
+    id: ExpressRouteCircuitRoutesTableSummary
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/express_route_circuit_routes_table_summary.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/express_route_circuit_routes_table_summary.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The routes table associated with the ExpressRouteCircuit.\n\n:param neighbor:\
+    \ Neighbor.\n:type neighbor: str\n:param v: BGP version number spoken to the neighbor.\n\
+    :type v: int\n:param as_property: Autonomous system number.\n:type as_property:\
+    \ int\n:param up_down: The length of time that the BGP session has been in the\n\
+    \ Established state, or the current status if not in the Established state.\n\
+    :type up_down: str\n:param state_pfx_rcd: Current state of the BGP session, and\
+    \ the number of\n prefixes that have been received from a neighbor or peer group.\n\
+    :type state_pfx_rcd: str"
+  type: Class
+  uid: azure.mgmt.network.models.ExpressRouteCircuitRoutesTableSummary

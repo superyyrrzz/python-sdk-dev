@@ -1,0 +1,40 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.KeyVaultKeyReferenceKeyVault
+  fullName: azure.mgmt.logic.models.KeyVaultKeyReferenceKeyVault
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: KeyVaultKeyReferenceKeyVault
+  source:
+    id: KeyVaultKeyReferenceKeyVault
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/key_vault_key_reference_key_vault.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/key_vault_key_reference_key_vault.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'The key vault reference.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :param id: The resource id.
+
+    :type id: str
+
+    :ivar name: The resource name.
+
+    :vartype name: str
+
+    :ivar type: The resource type.
+
+    :vartype type: str'
+  type: Class
+  uid: azure.mgmt.logic.models.KeyVaultKeyReferenceKeyVault

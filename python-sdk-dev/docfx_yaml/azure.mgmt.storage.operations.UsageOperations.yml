@@ -1,0 +1,51 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.storage.operations.UsageOperations.list
+  class: azure.mgmt.storage.operations.UsageOperations
+  fullName: azure.mgmt.storage.operations.UsageOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.storage.operations
+  name: UsageOperations
+  source:
+    id: UsageOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/operations/usage_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/operations/usage_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'UsageOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.storage.operations.UsageOperations
+- _type: method
+  class: azure.mgmt.storage.operations.UsageOperations
+  fullName: azure.mgmt.storage.operations.UsageOperations.list
+  module: azure.mgmt.storage.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/operations/usage_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/operations/usage_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Gets the current usage count and the limit for the resources under the\n\
+    subscription.\n\n:param dict custom_headers: headers that will be added to the\
+    \ request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`UsagePaged <azure.mgmt.storage.models.UsagePaged>`"
+  type: Method
+  uid: azure.mgmt.storage.operations.UsageOperations.list

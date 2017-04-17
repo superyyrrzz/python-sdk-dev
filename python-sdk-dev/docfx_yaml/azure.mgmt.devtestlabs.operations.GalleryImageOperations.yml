@@ -1,0 +1,57 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.devtestlabs.operations.GalleryImageOperations.list
+  class: azure.mgmt.devtestlabs.operations.GalleryImageOperations
+  fullName: azure.mgmt.devtestlabs.operations.GalleryImageOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.devtestlabs.operations
+  name: GalleryImageOperations
+  source:
+    id: GalleryImageOperations
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/gallery_image_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/gallery_image_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'GalleryImageOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.devtestlabs.operations.GalleryImageOperations
+- _type: method
+  class: azure.mgmt.devtestlabs.operations.GalleryImageOperations
+  fullName: azure.mgmt.devtestlabs.operations.GalleryImageOperations.list
+  module: azure.mgmt.devtestlabs.operations
+  name: list
+  source:
+    id: list
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/gallery_image_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/gallery_image_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "List gallery images in a given lab.\n\n:param resource_group_name: The\
+    \ name of the resource group.\n:type resource_group_name: str\n:param lab_name:\
+    \ The name of the lab.\n:type lab_name: str\n:param filter: The filter to apply\
+    \ on the operation.\n:type filter: str\n:param top: The maximum number of resources\
+    \ to return from the\n operation.\n:type top: int\n:param order_by: The ordering\
+    \ expression for the results, using OData\n notation.\n:type order_by: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`GalleryImagePaged\n <azure.mgmt.devtestlabs.models.GalleryImagePaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.devtestlabs.operations.GalleryImageOperations.list

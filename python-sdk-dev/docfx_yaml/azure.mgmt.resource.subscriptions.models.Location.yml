@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.subscriptions.models.Location
+  fullName: azure.mgmt.resource.subscriptions.models.Location
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.resource.subscriptions.models
+  name: Location
+  source:
+    id: Location
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/subscriptions/models/location.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/subscriptions/models/location.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Location information.\n\nVariables are only populated by the server, and\
+    \ will be ignored when\nsending a request.\n\n:ivar id: The fully qualified Id\
+    \ of the location. For example,\n /subscriptions/00000000-0000-0000-0000-000000000000/locations/westus.\n\
+    :vartype id: str\n:ivar subscription_id: The subscription Id.\n:vartype subscription_id:\
+    \ str\n:ivar name: The location name.\n:vartype name: str\n:ivar display_name:\
+    \ The display name of the location.\n:vartype display_name: str\n:ivar latitude:\
+    \ The latitude of the location.\n:vartype latitude: str\n:ivar longitude: The\
+    \ longitude of the location.\n:vartype longitude: str"
+  type: Class
+  uid: azure.mgmt.resource.subscriptions.models.Location

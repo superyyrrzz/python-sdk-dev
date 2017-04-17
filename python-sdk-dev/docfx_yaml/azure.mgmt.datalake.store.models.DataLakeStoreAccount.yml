@@ -1,0 +1,69 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.datalake.store.models.DataLakeStoreAccount
+  fullName: azure.mgmt.datalake.store.models.DataLakeStoreAccount
+  inheritance:
+  - azure.mgmt.datalake.store.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.datalake.store.models
+  name: DataLakeStoreAccount
+  source:
+    id: DataLakeStoreAccount
+    path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/models/data_lake_store_account.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/models/data_lake_store_account.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Data Lake Store account information.\n\nVariables are only populated by\
+    \ the server, and will be ignored when\nsending a request.\n\n:ivar id: Resource\
+    \ Id\n:vartype id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type:\
+    \ Resource type\n:vartype type: str\n:param location: Resource location\n:type\
+    \ location: str\n:param tags: Resource tags\n:type tags: dict\n:param identity:\
+    \ The Key vault encryption identity, if any.\n:type identity: :class:`EncryptionIdentity\n\
+    \ <azure.mgmt.datalake.store.models.EncryptionIdentity>`\n:ivar provisioning_state:\
+    \ the status of the Data Lake Store account while\n being provisioned. Possible\
+    \ values include: 'Failed', 'Creating',\n 'Running', 'Succeeded', 'Patching',\
+    \ 'Suspending', 'Resuming', 'Deleting',\n 'Deleted'\n:vartype provisioning_state:\
+    \ str or :class:`DataLakeStoreAccountStatus\n <azure.mgmt.datalake.store.models.DataLakeStoreAccountStatus>`\n\
+    :ivar state: the status of the Data Lake Store account after provisioning\n has\
+    \ completed. Possible values include: 'Active', 'Suspended'\n:vartype state: str\
+    \ or :class:`DataLakeStoreAccountState\n <azure.mgmt.datalake.store.models.DataLakeStoreAccountState>`\n\
+    :ivar creation_time: the account creation time.\n:vartype creation_time: datetime\n\
+    :param encryption_state: The current state of encryption for this Data\n Lake\
+    \ store account. Possible values include: 'Enabled', 'Disabled'\n:type encryption_state:\
+    \ str or :class:`EncryptionState\n <azure.mgmt.datalake.store.models.EncryptionState>`\n\
+    :ivar encryption_provisioning_state: The current state of encryption\n provisioning\
+    \ for this Data Lake store account. Possible values include:\n 'Creating', 'Succeeded'\n\
+    :vartype encryption_provisioning_state: str or\n :class:`EncryptionProvisioningState\n\
+    \ <azure.mgmt.datalake.store.models.EncryptionProvisioningState>`\n:param encryption_config:\
+    \ The Key vault encryption configuration.\n:type encryption_config: :class:`EncryptionConfig\n\
+    \ <azure.mgmt.datalake.store.models.EncryptionConfig>`\n:param firewall_state:\
+    \ The current state of the IP address firewall for\n this Data Lake store account.\
+    \ Possible values include: 'Enabled',\n 'Disabled'\n:type firewall_state: str\
+    \ or :class:`FirewallState\n <azure.mgmt.datalake.store.models.FirewallState>`\n\
+    :param firewall_rules: The list of firewall rules associated with this\n Data\
+    \ Lake store account.\n:type firewall_rules: list of :class:`FirewallRule\n <azure.mgmt.datalake.store.models.FirewallRule>`\n\
+    :param trusted_id_provider_state: The current state of the trusted\n identity\
+    \ provider feature for this Data Lake store account. Possible\n values include:\
+    \ 'Enabled', 'Disabled'\n:type trusted_id_provider_state: str or :class:`TrustedIdProviderState\n\
+    \ <azure.mgmt.datalake.store.models.TrustedIdProviderState>`\n:param trusted_id_providers:\
+    \ The list of trusted identity providers\n associated with this Data Lake store\
+    \ account.\n:type trusted_id_providers: list of :class:`TrustedIdProvider\n <azure.mgmt.datalake.store.models.TrustedIdProvider>`\n\
+    :ivar last_modified_time: the account last modified time.\n:vartype last_modified_time:\
+    \ datetime\n:ivar endpoint: the gateway host.\n:vartype endpoint: str\n:param\
+    \ default_group: the default owner group for all new folders and\n files created\
+    \ in the Data Lake Store account.\n:type default_group: str\n:param new_tier:\
+    \ the commitment tier to use for next month. Possible\n values include: 'Consumption',\
+    \ 'Commitment_1TB', 'Commitment_10TB',\n 'Commitment_100TB', 'Commitment_500TB',\
+    \ 'Commitment_1PB', 'Commitment_5PB'\n:type new_tier: str or :class:`TierType\n\
+    \ <azure.mgmt.datalake.store.models.TierType>`\n:ivar current_tier: the commitment\
+    \ tier in use for the current month.\n Possible values include: 'Consumption',\
+    \ 'Commitment_1TB',\n 'Commitment_10TB', 'Commitment_100TB', 'Commitment_500TB',\n\
+    \ 'Commitment_1PB', 'Commitment_5PB'\n:vartype current_tier: str or :class:`TierType\n\
+    \ <azure.mgmt.datalake.store.models.TierType>`"
+  type: Class
+  uid: azure.mgmt.datalake.store.models.DataLakeStoreAccount

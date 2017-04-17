@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.devtestlabs.models.ApplyArtifactsRequest
+  fullName: azure.mgmt.devtestlabs.models.ApplyArtifactsRequest
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.devtestlabs.models
+  name: ApplyArtifactsRequest
+  source:
+    id: ApplyArtifactsRequest
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/apply_artifacts_request.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/apply_artifacts_request.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Request body for applying artifacts to a virtual machine.\n\n:param artifacts:\
+    \ The list of artifacts to apply.\n:type artifacts: list of :class:`ArtifactInstallProperties\n\
+    \ <azure.mgmt.devtestlabs.models.ArtifactInstallProperties>`"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.ApplyArtifactsRequest

@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.monitor.models.SenderAuthorization
+  fullName: azure.monitor.models.SenderAuthorization
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.monitor.models
+  name: SenderAuthorization
+  source:
+    id: SenderAuthorization
+    path: azure-monitor/azure/monitor/models/sender_authorization.py
+    remote:
+      branch: master
+      path: azure-monitor/azure/monitor/models/sender_authorization.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The RBAC properties of the event.\n\n:param action: the permissible actions.\
+    \ For instance:\n microsoft.support/supporttickets/write\n:type action: str\n\
+    :param role: the role of the user. For instance: Subscription Admin\n:type role:\
+    \ str\n:param scope: the scope.\n:type scope: str"
+  type: Class
+  uid: azure.monitor.models.SenderAuthorization

@@ -1,0 +1,44 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.EdifactProtocolSettings
+  fullName: azure.mgmt.logic.models.EdifactProtocolSettings
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: EdifactProtocolSettings
+  source:
+    id: EdifactProtocolSettings
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/edifact_protocol_settings.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/edifact_protocol_settings.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "EdifactProtocolSettings.\n\n:param validation_settings: The EDIFACT validation\
+    \ settings.\n:type validation_settings: :class:`EdifactValidationSettings\n <azure.mgmt.logic.models.EdifactValidationSettings>`\n\
+    :param framing_settings: The EDIFACT framing settings.\n:type framing_settings:\
+    \ :class:`EdifactFramingSettings\n <azure.mgmt.logic.models.EdifactFramingSettings>`\n\
+    :param envelope_settings: The EDIFACT envelope settings.\n:type envelope_settings:\
+    \ :class:`EdifactEnvelopeSettings\n <azure.mgmt.logic.models.EdifactEnvelopeSettings>`\n\
+    :param acknowledgement_settings: The EDIFACT acknowledgement settings.\n:type\
+    \ acknowledgement_settings: :class:`EdifactAcknowledgementSettings\n <azure.mgmt.logic.models.EdifactAcknowledgementSettings>`\n\
+    :param message_filter: The EDIFACT message filter.\n:type message_filter: :class:`EdifactMessageFilter\n\
+    \ <azure.mgmt.logic.models.EdifactMessageFilter>`\n:param processing_settings:\
+    \ The EDIFACT processing Settings.\n:type processing_settings: :class:`EdifactProcessingSettings\n\
+    \ <azure.mgmt.logic.models.EdifactProcessingSettings>`\n:param envelope_overrides:\
+    \ The EDIFACT envelope override settings.\n:type envelope_overrides: list of :class:`EdifactEnvelopeOverride\n\
+    \ <azure.mgmt.logic.models.EdifactEnvelopeOverride>`\n:param message_filter_list:\
+    \ The EDIFACT message filter list.\n:type message_filter_list: list of :class:`EdifactMessageIdentifier\n\
+    \ <azure.mgmt.logic.models.EdifactMessageIdentifier>`\n:param schema_references:\
+    \ The EDIFACT schema references.\n:type schema_references: list of :class:`EdifactSchemaReference\n\
+    \ <azure.mgmt.logic.models.EdifactSchemaReference>`\n:param validation_overrides:\
+    \ The EDIFACT validation override settings.\n:type validation_overrides: list\
+    \ of :class:`EdifactValidationOverride\n <azure.mgmt.logic.models.EdifactValidationOverride>`\n\
+    :param edifact_delimiter_overrides: The EDIFACT delimiter override\n settings.\n\
+    :type edifact_delimiter_overrides: list of\n :class:`EdifactDelimiterOverride\n\
+    \ <azure.mgmt.logic.models.EdifactDelimiterOverride>`"
+  type: Class
+  uid: azure.mgmt.logic.models.EdifactProtocolSettings

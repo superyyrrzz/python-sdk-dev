@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.NodeRebootParameter
+  fullName: azure.batch.models.NodeRebootParameter
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: NodeRebootParameter
+  source:
+    id: NodeRebootParameter
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/node_reboot_parameter.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/node_reboot_parameter.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Parameters for a ComputeNodeOperations.Reboot request.\n\n:param node_reboot_option:\
+    \ When to reboot the compute node and what to do\n with currently running tasks.\
+    \ The default value is requeue. Possible\n values include: 'requeue', 'terminate',\
+    \ 'taskcompletion', 'retaineddata'\n:type node_reboot_option: str or :class:`ComputeNodeRebootOption\n\
+    \ <azure.batch.models.ComputeNodeRebootOption>`"
+  type: Class
+  uid: azure.batch.models.NodeRebootParameter

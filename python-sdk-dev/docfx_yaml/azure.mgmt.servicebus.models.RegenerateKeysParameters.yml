@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.servicebus.models.RegenerateKeysParameters
+  fullName: azure.mgmt.servicebus.models.RegenerateKeysParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.servicebus.models
+  name: RegenerateKeysParameters
+  source:
+    id: RegenerateKeysParameters
+    path: azure-mgmt-servicebus/azure/mgmt/servicebus/models/regenerate_keys_parameters.py
+    remote:
+      branch: master
+      path: azure-mgmt-servicebus/azure/mgmt/servicebus/models/regenerate_keys_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Parameters supplied to the Regenerate Authorization Rule operation.\n\n\
+    :param policykey: Key that needs to be regenerated. Possible values\n include:\
+    \ 'PrimaryKey', 'SecondaryKey'\n:type policykey: str or :class:`Policykey\n <azure.mgmt.servicebus.models.Policykey>`"
+  type: Class
+  uid: azure.mgmt.servicebus.models.RegenerateKeysParameters

@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.VirtualDirectory
+  fullName: azure.mgmt.web.models.VirtualDirectory
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: VirtualDirectory
+  source:
+    id: VirtualDirectory
+    path: azure-mgmt-web/azure/mgmt/web/models/virtual_directory.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/virtual_directory.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'VirtualDirectory.
+
+
+    :param virtual_path:
+
+    :type virtual_path: str
+
+    :param physical_path:
+
+    :type physical_path: str'
+  type: Class
+  uid: azure.mgmt.web.models.VirtualDirectory

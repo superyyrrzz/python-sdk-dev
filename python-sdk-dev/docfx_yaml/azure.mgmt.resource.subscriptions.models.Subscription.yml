@@ -1,0 +1,35 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.subscriptions.models.Subscription
+  fullName: azure.mgmt.resource.subscriptions.models.Subscription
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.resource.subscriptions.models
+  name: Subscription
+  source:
+    id: Subscription
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/subscriptions/models/subscription.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/subscriptions/models/subscription.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Subscription information.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:ivar id: The fully qualified\
+    \ Id. For example,\n /subscriptions/00000000-0000-0000-0000-000000000000.\n:vartype\
+    \ id: str\n:ivar subscription_id: The subscription Id.\n:vartype subscription_id:\
+    \ str\n:ivar tenant_id: The tenant Id.\n:vartype tenant_id: str\n:ivar display_name:\
+    \ The subscription display name.\n:vartype display_name: str\n:ivar state: The\
+    \ subscription state. Possible values include: 'Enabled',\n 'Warned', 'PastDue',\
+    \ 'Disabled', 'Deleted'\n:vartype state: str or :class:`SubscriptionState\n <azure.mgmt.resource.subscriptions.models.SubscriptionState>`\n\
+    :param subscription_policies: The subscription policies.\n:type subscription_policies:\
+    \ :class:`SubscriptionPolicies\n <azure.mgmt.resource.subscriptions.models.SubscriptionPolicies>`\n\
+    :param authorization_source: The authorization source of the request.\n Valid\
+    \ values are one or more combinations of Legacy, RoleBased,\n Bypassed, Direct\
+    \ and Management. For example, 'Legacy, RoleBased'.\n:type authorization_source:\
+    \ str"
+  type: Class
+  uid: azure.mgmt.resource.subscriptions.models.Subscription

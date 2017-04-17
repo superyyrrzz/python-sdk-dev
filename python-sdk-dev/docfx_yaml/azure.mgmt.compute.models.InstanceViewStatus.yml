@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.InstanceViewStatus
+  fullName: azure.mgmt.compute.models.InstanceViewStatus
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: InstanceViewStatus
+  source:
+    id: InstanceViewStatus
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/instance_view_status.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/instance_view_status.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Instance view status.\n\n:param code: the status Code.\n:type code: str\n\
+    :param level: the level Code. Possible values include: 'Info', 'Warning',\n 'Error'\n\
+    :type level: str or :class:`StatusLevelTypes\n <azure.mgmt.compute.models.StatusLevelTypes>`\n\
+    :param display_status: the short localizable label for the status.\n:type display_status:\
+    \ str\n:param message: the detailed Message, including for alerts and error\n\
+    \ messages.\n:type message: str\n:param time: the time of the status.\n:type time:\
+    \ datetime"
+  type: Class
+  uid: azure.mgmt.compute.models.InstanceViewStatus

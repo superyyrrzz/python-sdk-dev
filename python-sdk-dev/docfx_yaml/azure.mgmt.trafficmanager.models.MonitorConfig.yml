@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.trafficmanager.models.MonitorConfig
+  fullName: azure.mgmt.trafficmanager.models.MonitorConfig
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.trafficmanager.models
+  name: MonitorConfig
+  source:
+    id: MonitorConfig
+    path: azure-mgmt-trafficmanager/azure/mgmt/trafficmanager/models/monitor_config.py
+    remote:
+      branch: master
+      path: azure-mgmt-trafficmanager/azure/mgmt/trafficmanager/models/monitor_config.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Class containing endpoint monitoring settings in a Traffic Manager profile.\n\
+    \n:param profile_monitor_status: Gets or sets the profile-level monitoring\n status\
+    \ of the Traffic Manager profile.\n:type profile_monitor_status: str\n:param protocol:\
+    \ Gets or sets the protocol (HTTP or HTTPS) used to probe\n for endpoint health.\n\
+    :type protocol: str\n:param port: Gets or sets the TCP port used to probe for\
+    \ endpoint health.\n:type port: long\n:param path: Gets or sets the path relative\
+    \ to the endpoint domain name\n used to probe for endpoint health.\n:type path:\
+    \ str"
+  type: Class
+  uid: azure.mgmt.trafficmanager.models.MonitorConfig

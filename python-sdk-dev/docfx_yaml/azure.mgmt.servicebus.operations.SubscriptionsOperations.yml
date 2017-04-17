@@ -1,0 +1,134 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.servicebus.operations.SubscriptionsOperations.create_or_update
+  - azure.mgmt.servicebus.operations.SubscriptionsOperations.delete
+  - azure.mgmt.servicebus.operations.SubscriptionsOperations.get
+  - azure.mgmt.servicebus.operations.SubscriptionsOperations.list_all
+  class: azure.mgmt.servicebus.operations.SubscriptionsOperations
+  fullName: azure.mgmt.servicebus.operations.SubscriptionsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.servicebus.operations
+  name: SubscriptionsOperations
+  source:
+    id: SubscriptionsOperations
+    path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/subscriptions_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/subscriptions_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'SubscriptionsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.servicebus.operations.SubscriptionsOperations
+- _type: method
+  class: azure.mgmt.servicebus.operations.SubscriptionsOperations
+  fullName: azure.mgmt.servicebus.operations.SubscriptionsOperations.create_or_update
+  module: azure.mgmt.servicebus.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/subscriptions_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/subscriptions_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 108
+  summary: "Creates a topic subscription.\n\n:param resource_group_name: The name\
+    \ of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
+    \ The namespace name.\n:type namespace_name: str\n:param topic_name: The topic\
+    \ name.\n:type topic_name: str\n:param subscription_name: The subscription name.\n\
+    :type subscription_name: str\n:param parameters: Parameters supplied to create\
+    \ a subscription\n resource.\n:type parameters: :class:`SubscriptionCreateOrUpdateParameters\n\
+    \ <azure.mgmt.servicebus.models.SubscriptionCreateOrUpdateParameters>`\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`SubscriptionResource\n <azure.mgmt.servicebus.models.SubscriptionResource>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.servicebus.operations.SubscriptionsOperations.create_or_update
+- _type: method
+  class: azure.mgmt.servicebus.operations.SubscriptionsOperations
+  fullName: azure.mgmt.servicebus.operations.SubscriptionsOperations.delete
+  module: azure.mgmt.servicebus.operations
+  name: delete
+  source:
+    id: delete
+    path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/subscriptions_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/subscriptions_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 184
+  summary: "Deletes a subscription from the specified topic.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
+    \ The namespace name.\n:type namespace_name: str\n:param topic_name: The topic\
+    \ name.\n:type topic_name: str\n:param subscription_name: The subscription name.\n\
+    :type subscription_name: str\n:param dict custom_headers: headers that will be\
+    \ added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.servicebus.operations.SubscriptionsOperations.delete
+- _type: method
+  class: azure.mgmt.servicebus.operations.SubscriptionsOperations
+  fullName: azure.mgmt.servicebus.operations.SubscriptionsOperations.get
+  module: azure.mgmt.servicebus.operations
+  name: get
+  source:
+    id: get
+    path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/subscriptions_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/subscriptions_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 244
+  summary: "Returns a subscription description for the specified topic.\n\n:param\
+    \ resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param namespace_name: The namespace name.\n:type namespace_name: str\n\
+    :param topic_name: The topic name.\n:type topic_name: str\n:param subscription_name:\
+    \ The subscription name.\n:type subscription_name: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`SubscriptionResource\n\
+    \ <azure.mgmt.servicebus.models.SubscriptionResource>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.servicebus.operations.SubscriptionsOperations.get
+- _type: method
+  class: azure.mgmt.servicebus.operations.SubscriptionsOperations
+  fullName: azure.mgmt.servicebus.operations.SubscriptionsOperations.list_all
+  module: azure.mgmt.servicebus.operations
+  name: list_all
+  source:
+    id: list_all
+    path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/subscriptions_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-servicebus/azure/mgmt/servicebus/operations/subscriptions_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Lsit all the subscriptions under a specified topic.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
+    \ The namespace name.\n:type namespace_name: str\n:param topic_name: The topic\
+    \ name.\n:type topic_name: str\n:param dict custom_headers: headers that will\
+    \ be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`SubscriptionResourcePaged\n\
+    \ <azure.mgmt.servicebus.models.SubscriptionResourcePaged>`\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.servicebus.operations.SubscriptionsOperations.list_all

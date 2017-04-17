@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.keyvault.generated.models.Contacts
+  fullName: azure.keyvault.generated.models.Contacts
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.keyvault.generated.models
+  name: Contacts
+  source:
+    id: Contacts
+    path: azure-keyvault/azure/keyvault/generated/models/contacts.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/models/contacts.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The contacts for the vault certificates.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar id: Identifier\
+    \ for the contacts collection.\n:vartype id: str\n:param contact_list: The contact\
+    \ list for the vault certificates.\n:type contact_list: list of :class:`Contact\n\
+    \ <azure.keyvault.generated.models.Contact>`"
+  type: Class
+  uid: azure.keyvault.generated.models.Contacts

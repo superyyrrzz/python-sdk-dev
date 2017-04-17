@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.BgpSettings
+  fullName: azure.mgmt.network.models.BgpSettings
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: BgpSettings
+  source:
+    id: BgpSettings
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/bgp_settings.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/bgp_settings.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "BgpSettings.\n\n:param asn: Gets or sets this BGP speaker's ASN\n:type\
+    \ asn: long\n:param bgp_peering_address: Gets or sets the BGP peering address\
+    \ and BGP\n identifier of this BGP speaker\n:type bgp_peering_address: str\n:param\
+    \ peer_weight: Gets or sets the weight added to routes learned from\n this BGP\
+    \ speaker\n:type peer_weight: int"
+  type: Class
+  uid: azure.mgmt.network.models.BgpSettings

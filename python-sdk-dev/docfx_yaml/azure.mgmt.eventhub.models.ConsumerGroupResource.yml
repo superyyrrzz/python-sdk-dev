@@ -1,0 +1,65 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.eventhub.models.ConsumerGroupResource
+  fullName: azure.mgmt.eventhub.models.ConsumerGroupResource
+  inheritance:
+  - azure.mgmt.eventhub.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.eventhub.models
+  name: ConsumerGroupResource
+  source:
+    id: ConsumerGroupResource
+    path: azure-mgmt-eventhub/azure/mgmt/eventhub/models/consumer_group_resource.py
+    remote:
+      branch: master
+      path: azure-mgmt-eventhub/azure/mgmt/eventhub/models/consumer_group_resource.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Description of the consumer group resource.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar id: Resource Id
+
+    :vartype id: str
+
+    :ivar name: Resource name
+
+    :vartype name: str
+
+    :ivar type: Resource type
+
+    :vartype type: str
+
+    :param location: Resource location
+
+    :type location: str
+
+    :param tags: Resource tags
+
+    :type tags: dict
+
+    :param created_at: Exact time the message was created.
+
+    :type created_at: datetime
+
+    :param event_hub_path: The path of the Event Hub.
+
+    :type event_hub_path: str
+
+    :param updated_at: The exact time the message was updated.
+
+    :type updated_at: datetime
+
+    :param user_metadata: The user metadata.
+
+    :type user_metadata: str'
+  type: Class
+  uid: azure.mgmt.eventhub.models.ConsumerGroupResource

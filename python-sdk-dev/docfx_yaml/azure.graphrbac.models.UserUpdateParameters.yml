@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.graphrbac.models.UserUpdateParameters
+  fullName: azure.graphrbac.models.UserUpdateParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.graphrbac.models
+  name: UserUpdateParameters
+  source:
+    id: UserUpdateParameters
+    path: azure-graphrbac/azure/graphrbac/models/user_update_parameters.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/models/user_update_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Request parameters for updating an existing work or school account user.\n\
+    \n:param account_enabled: Whether the account is enabled.\n:type account_enabled:\
+    \ bool\n:param display_name: The display name of the user.\n:type display_name:\
+    \ str\n:param password_profile: The password profile of the user.\n:type password_profile:\
+    \ :class:`PasswordProfile\n <azure.graphrbac.models.PasswordProfile>`\n:param\
+    \ mail_nickname: The mail alias for the user.\n:type mail_nickname: str"
+  type: Class
+  uid: azure.graphrbac.models.UserUpdateParameters

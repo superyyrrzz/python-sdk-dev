@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.resources.models.TagDetails
+  fullName: azure.mgmt.resource.resources.models.TagDetails
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.resource.resources.models
+  name: TagDetails
+  source:
+    id: TagDetails
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/tag_details.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/tag_details.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Tag details.\n\n:param id: The tag ID.\n:type id: str\n:param tag_name:\
+    \ The tag name.\n:type tag_name: str\n:param count: The tag count.\n:type count:\
+    \ :class:`TagCount\n <azure.mgmt.resource.resources.models.TagCount>`\n:param\
+    \ values: The list of tag values.\n:type values: list of :class:`TagValue\n <azure.mgmt.resource.resources.models.TagValue>`"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.TagDetails

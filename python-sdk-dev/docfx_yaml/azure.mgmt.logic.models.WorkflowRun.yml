@@ -1,0 +1,41 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.WorkflowRun
+  fullName: azure.mgmt.logic.models.WorkflowRun
+  inheritance:
+  - azure.mgmt.logic.models.sub_resource.SubResource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: WorkflowRun
+  source:
+    id: WorkflowRun
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/workflow_run.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/workflow_run.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "WorkflowRun.\n\nVariables are only populated by the server, and will be\
+    \ ignored when\nsending a request.\n\n:param id: The resource id.\n:type id: str\n\
+    :ivar start_time: Gets the start time.\n:vartype start_time: datetime\n:ivar end_time:\
+    \ Gets the end time.\n:vartype end_time: datetime\n:ivar status: Gets the status.\
+    \ Possible values include: 'NotSpecified',\n 'Paused', 'Running', 'Waiting', 'Succeeded',\
+    \ 'Skipped', 'Suspended',\n 'Cancelled', 'Failed', 'Faulted', 'TimedOut', 'Aborted',\
+    \ 'Ignored'\n:vartype status: str or :class:`WorkflowStatus\n <azure.mgmt.logic.models.WorkflowStatus>`\n\
+    :ivar code: Gets the code.\n:vartype code: str\n:ivar error: Gets the error.\n\
+    :vartype error: object\n:ivar correlation_id: Gets the correlation id.\n:vartype\
+    \ correlation_id: str\n:param correlation: The run correlation.\n:type correlation:\
+    \ :class:`Correlation\n <azure.mgmt.logic.models.Correlation>`\n:ivar workflow:\
+    \ Gets the reference to workflow version.\n:vartype workflow: :class:`ResourceReference\n\
+    \ <azure.mgmt.logic.models.ResourceReference>`\n:ivar trigger: Gets the fired\
+    \ trigger.\n:vartype trigger: :class:`WorkflowRunTrigger\n <azure.mgmt.logic.models.WorkflowRunTrigger>`\n\
+    :ivar outputs: Gets the outputs.\n:vartype outputs: dict\n:ivar response: Gets\
+    \ the response of the flow run.\n:vartype response: :class:`WorkflowRunTrigger\n\
+    \ <azure.mgmt.logic.models.WorkflowRunTrigger>`\n:ivar name: Gets the workflow\
+    \ run name.\n:vartype name: str\n:ivar type: Gets the workflow run type.\n:vartype\
+    \ type: str"
+  type: Class
+  uid: azure.mgmt.logic.models.WorkflowRun

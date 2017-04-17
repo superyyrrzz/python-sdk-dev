@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.EdifactOneWayAgreement
+  fullName: azure.mgmt.logic.models.EdifactOneWayAgreement
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: EdifactOneWayAgreement
+  source:
+    id: EdifactOneWayAgreement
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/edifact_one_way_agreement.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/edifact_one_way_agreement.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "EdifactOneWayAgreement.\n\n:param sender_business_identity: The sender\
+    \ business identity\n:type sender_business_identity: :class:`BusinessIdentity\n\
+    \ <azure.mgmt.logic.models.BusinessIdentity>`\n:param receiver_business_identity:\
+    \ The receiver business identity\n:type receiver_business_identity: :class:`BusinessIdentity\n\
+    \ <azure.mgmt.logic.models.BusinessIdentity>`\n:param protocol_settings: The EDIFACT\
+    \ protocol settings.\n:type protocol_settings: :class:`EdifactProtocolSettings\n\
+    \ <azure.mgmt.logic.models.EdifactProtocolSettings>`"
+  type: Class
+  uid: azure.mgmt.logic.models.EdifactOneWayAgreement

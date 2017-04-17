@@ -1,0 +1,39 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.monitor.models.LogProfileResource
+  fullName: azure.mgmt.monitor.models.LogProfileResource
+  inheritance:
+  - azure.mgmt.monitor.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.monitor.models
+  name: LogProfileResource
+  source:
+    id: LogProfileResource
+    path: azure-mgmt-monitor/azure/mgmt/monitor/models/log_profile_resource.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/models/log_profile_resource.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The log profile resource.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:ivar id: Azure resource Id\n\
+    :vartype id: str\n:param name: Azure resource name\n:type name: str\n:ivar type:\
+    \ Azure resource type\n:vartype type: str\n:param location: Resource location\n\
+    :type location: str\n:param tags: Resource tags\n:type tags: dict\n:param storage_account_id:\
+    \ the resource id of the storage account to which\n you would like to send the\
+    \ Activity Log.\n:type storage_account_id: str\n:param service_bus_rule_id: The\
+    \ service bus rule ID of the service bus\n namespace in which you would like to\
+    \ have Event Hubs created for streaming\n the Activity Log. The rule ID is of\
+    \ the format: '{service bus resource\n ID}/authorizationrules/{key name}'.\n:type\
+    \ service_bus_rule_id: str\n:param locations: List of regions for which Activity\
+    \ Log events should be\n stored or streamed. It is a comma separated list of valid\
+    \ ARM locations\n including the 'global' location.\n:type locations: list of str\n\
+    :param categories: the categories of the logs. These categories are\n created\
+    \ as is convenient to the user. Some values are: 'Write', 'Delete',\n and/or 'Action.'\n\
+    :type categories: list of str\n:param retention_policy: the retention policy for\
+    \ the events in the log.\n:type retention_policy: :class:`RetentionPolicy\n <azure.mgmt.monitor.models.RetentionPolicy>`"
+  type: Class
+  uid: azure.mgmt.monitor.models.LogProfileResource

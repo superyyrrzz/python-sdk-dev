@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.scheduler.models.RetryPolicy
+  fullName: azure.mgmt.scheduler.models.RetryPolicy
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.scheduler.models
+  name: RetryPolicy
+  source:
+    id: RetryPolicy
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/retry_policy.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/retry_policy.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "RetryPolicy.\n\n:param retry_type: Gets or sets the retry strategy to\
+    \ be used. Possible\n values include: 'None', 'Fixed'\n:type retry_type: str or\
+    \ :class:`RetryType\n <azure.mgmt.scheduler.models.RetryType>`\n:param retry_interval:\
+    \ Gets or sets the retry interval between retries.\n:type retry_interval: timedelta\n\
+    :param retry_count: Gets or sets the number of times a retry should be\n attempted.\n\
+    :type retry_count: int"
+  type: Class
+  uid: azure.mgmt.scheduler.models.RetryPolicy

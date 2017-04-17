@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.ContainerServiceOrchestratorProfile
+  fullName: azure.mgmt.compute.models.ContainerServiceOrchestratorProfile
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: ContainerServiceOrchestratorProfile
+  source:
+    id: ContainerServiceOrchestratorProfile
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/container_service_orchestrator_profile.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/container_service_orchestrator_profile.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Profile for Orchestrator.\n\n:param orchestrator_type: Specifies what\
+    \ orchestrator will be used to\n manage container cluster resources. Possible\
+    \ values include: 'Swarm',\n 'DCOS'\n:type orchestrator_type: str or :class:`ContainerServiceOchestratorTypes\n\
+    \ <azure.mgmt.compute.models.ContainerServiceOchestratorTypes>`"
+  type: Class
+  uid: azure.mgmt.compute.models.ContainerServiceOrchestratorProfile

@@ -1,0 +1,22 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.servermanager.models.PromptFieldType
+  fullName: azure.mgmt.servermanager.models.PromptFieldType
+  inheritance:
+  - enum.Enum
+  - builtins.object
+  module: azure.mgmt.servermanager.models
+  name: PromptFieldType
+  source:
+    id: PromptFieldType
+    path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/server_management_enums.py
+    remote:
+      branch: master
+      path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/server_management_enums.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 32
+  summary: An enumeration.
+  type: Class
+  uid: azure.mgmt.servermanager.models.PromptFieldType

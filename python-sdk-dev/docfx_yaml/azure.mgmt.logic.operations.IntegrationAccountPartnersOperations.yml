@@ -1,0 +1,134 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.logic.operations.IntegrationAccountPartnersOperations.create_or_update
+  - azure.mgmt.logic.operations.IntegrationAccountPartnersOperations.delete
+  - azure.mgmt.logic.operations.IntegrationAccountPartnersOperations.get
+  - azure.mgmt.logic.operations.IntegrationAccountPartnersOperations.list
+  class: azure.mgmt.logic.operations.IntegrationAccountPartnersOperations
+  fullName: azure.mgmt.logic.operations.IntegrationAccountPartnersOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.logic.operations
+  name: IntegrationAccountPartnersOperations
+  source:
+    id: IntegrationAccountPartnersOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/integration_account_partners_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/integration_account_partners_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'IntegrationAccountPartnersOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    :ivar api_version: The API version. Constant value: "2015-08-01-preview".'
+  type: Class
+  uid: azure.mgmt.logic.operations.IntegrationAccountPartnersOperations
+- _type: method
+  class: azure.mgmt.logic.operations.IntegrationAccountPartnersOperations
+  fullName: azure.mgmt.logic.operations.IntegrationAccountPartnersOperations.create_or_update
+  module: azure.mgmt.logic.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/integration_account_partners_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/integration_account_partners_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 178
+  summary: "Creates or updates an integration account partner.\n\n:param resource_group_name:\
+    \ The resource group name.\n:type resource_group_name: str\n:param integration_account_name:\
+    \ The integration account name.\n:type integration_account_name: str\n:param partner_name:\
+    \ The integration account partner name.\n:type partner_name: str\n:param partner:\
+    \ The integration account partner.\n:type partner: :class:`IntegrationAccountPartner\n\
+    \ <azure.mgmt.logic.models.IntegrationAccountPartner>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`IntegrationAccountPartner\n\
+    \ <azure.mgmt.logic.models.IntegrationAccountPartner>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.logic.operations.IntegrationAccountPartnersOperations.create_or_update
+- _type: method
+  class: azure.mgmt.logic.operations.IntegrationAccountPartnersOperations
+  fullName: azure.mgmt.logic.operations.IntegrationAccountPartnersOperations.delete
+  module: azure.mgmt.logic.operations
+  name: delete
+  source:
+    id: delete
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/integration_account_partners_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/integration_account_partners_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 251
+  summary: "Deletes an integration account partner.\n\n:param resource_group_name:\
+    \ The resource group name.\n:type resource_group_name: str\n:param integration_account_name:\
+    \ The integration account name.\n:type integration_account_name: str\n:param partner_name:\
+    \ The integration account partner name.\n:type partner_name: str\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.logic.operations.IntegrationAccountPartnersOperations.delete
+- _type: method
+  class: azure.mgmt.logic.operations.IntegrationAccountPartnersOperations
+  fullName: azure.mgmt.logic.operations.IntegrationAccountPartnersOperations.get
+  module: azure.mgmt.logic.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/integration_account_partners_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/integration_account_partners_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 114
+  summary: "Gets an integration account partner.\n\n:param resource_group_name: The\
+    \ resource group name.\n:type resource_group_name: str\n:param integration_account_name:\
+    \ The integration account name.\n:type integration_account_name: str\n:param partner_name:\
+    \ The integration account partner name.\n:type partner_name: str\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ :class:`IntegrationAccountPartner\n <azure.mgmt.logic.models.IntegrationAccountPartner>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.logic.operations.IntegrationAccountPartnersOperations.get
+- _type: method
+  class: azure.mgmt.logic.operations.IntegrationAccountPartnersOperations
+  fullName: azure.mgmt.logic.operations.IntegrationAccountPartnersOperations.list
+  module: azure.mgmt.logic.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/integration_account_partners_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/integration_account_partners_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 38
+  summary: "Gets a list of integration account partners.\n\n:param resource_group_name:\
+    \ The resource group name.\n:type resource_group_name: str\n:param integration_account_name:\
+    \ The integration account name.\n:type integration_account_name: str\n:param top:\
+    \ The number of items to be included in the result.\n:type top: int\n:param filter:\
+    \ The filter to apply on the operation.\n:type filter: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`IntegrationAccountPartnerPaged\n\
+    \ <azure.mgmt.logic.models.IntegrationAccountPartnerPaged>`"
+  type: Method
+  uid: azure.mgmt.logic.operations.IntegrationAccountPartnersOperations.list

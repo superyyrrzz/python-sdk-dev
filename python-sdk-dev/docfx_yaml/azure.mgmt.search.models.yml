@@ -1,0 +1,44 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - azure.mgmt.search.models.CheckNameAvailabilityInput
+  - azure.mgmt.search.models.CheckNameAvailabilityOutput
+  - azure.mgmt.search.models.AdminKeyResult
+  - azure.mgmt.search.models.QueryKey
+  - azure.mgmt.search.models.Sku
+  - azure.mgmt.search.models.SearchService
+  - azure.mgmt.search.models.Resource
+  - azure.mgmt.search.models.SearchManagementRequestOptions
+  - azure.mgmt.search.models.QueryKeyPaged
+  - azure.mgmt.search.models.SearchServicePaged
+  - azure.mgmt.search.models.UnavailableNameReason
+  - azure.mgmt.search.models.SkuName
+  - azure.mgmt.search.models.HostingMode
+  - azure.mgmt.search.models.SearchServiceStatus
+  - azure.mgmt.search.models.ProvisioningState
+  - azure.mgmt.search.models.AdminKeyKind
+  fullName: azure.mgmt.search.models
+  module: azure.mgmt.search.models
+  name: models
+  source:
+    id: models
+    path: azure-mgmt-search/azure/mgmt/search/models/__init__.py
+    remote:
+      branch: master
+      path: azure-mgmt-search/azure/mgmt/search/models/__init__.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 0
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.search.models
+- _type: class
+  children: []
+  fullName: azure.mgmt.search.models
+  langs:
+  - python
+  module: azure.mgmt.search.models
+  name: models.Global
+  summary: Proxy object to hold module level functions
+  type: Class
+  uid: azure.mgmt.search.models.Global

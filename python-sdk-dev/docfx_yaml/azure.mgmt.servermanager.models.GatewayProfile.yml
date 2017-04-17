@@ -1,0 +1,33 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.servermanager.models.GatewayProfile
+  fullName: azure.mgmt.servermanager.models.GatewayProfile
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.servermanager.models
+  name: GatewayProfile
+  source:
+    id: GatewayProfile
+    path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/gateway_profile.py
+    remote:
+      branch: master
+      path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/gateway_profile.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "JSON properties that the gateway service uses know how to communicate\
+    \ with\nthe resource.\n\n:param data_plane_service_base_address: The Dataplane\
+    \ connection URL.\n:type data_plane_service_base_address: str\n:param gateway_id:\
+    \ The ID of the gateway.\n:type gateway_id: str\n:param environment: The environment\
+    \ for the gateway (DEV, DogFood, or\n Production).\n:type environment: str\n:param\
+    \ upgrade_manifest_url: Gateway upgrade manifest URL.\n:type upgrade_manifest_url:\
+    \ str\n:param messaging_namespace: Messaging namespace.\n:type messaging_namespace:\
+    \ str\n:param messaging_account: Messaging Account.\n:type messaging_account:\
+    \ str\n:param messaging_key: Messaging Key.\n:type messaging_key: str\n:param\
+    \ request_queue: Request queue name.\n:type request_queue: str\n:param response_topic:\
+    \ Response topic name.\n:type response_topic: str\n:param status_blob_signature:\
+    \ The gateway status blob SAS URL.\n:type status_blob_signature: str"
+  type: Class
+  uid: azure.mgmt.servermanager.models.GatewayProfile

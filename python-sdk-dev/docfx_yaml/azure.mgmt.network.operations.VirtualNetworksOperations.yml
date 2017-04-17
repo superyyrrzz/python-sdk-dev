@@ -1,0 +1,174 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.network.operations.VirtualNetworksOperations.check_ip_address_availability
+  - azure.mgmt.network.operations.VirtualNetworksOperations.create_or_update
+  - azure.mgmt.network.operations.VirtualNetworksOperations.delete
+  - azure.mgmt.network.operations.VirtualNetworksOperations.get
+  - azure.mgmt.network.operations.VirtualNetworksOperations.list
+  - azure.mgmt.network.operations.VirtualNetworksOperations.list_all
+  class: azure.mgmt.network.operations.VirtualNetworksOperations
+  fullName: azure.mgmt.network.operations.VirtualNetworksOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.network.operations
+  name: VirtualNetworksOperations
+  source:
+    id: VirtualNetworksOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_networks_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_networks_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 20
+  summary: 'VirtualNetworksOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.network.operations.VirtualNetworksOperations
+- _type: method
+  class: azure.mgmt.network.operations.VirtualNetworksOperations
+  fullName: azure.mgmt.network.operations.VirtualNetworksOperations.check_ip_address_availability
+  module: azure.mgmt.network.operations
+  name: check_ip_address_availability
+  source:
+    id: check_ip_address_availability
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_networks_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_networks_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 403
+  summary: "Checks whether a private Ip address is available for use.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param virtual_network_name:\
+    \ The name of the virtual network.\n:type virtual_network_name: str\n:param ip_address:\
+    \ The private IP address to be verified.\n:type ip_address: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`IPAddressAvailabilityResult\n\
+    \ <azure.mgmt.network.models.IPAddressAvailabilityResult>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.VirtualNetworksOperations.check_ip_address_availability
+- _type: method
+  class: azure.mgmt.network.operations.VirtualNetworksOperations
+  fullName: azure.mgmt.network.operations.VirtualNetworksOperations.create_or_update
+  module: azure.mgmt.network.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_networks_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_networks_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 180
+  summary: "The Put VirtualNetwork operation creates/updates a virtual network in\n\
+    the specified resource group.\n\n:param resource_group_name: The name of the resource\
+    \ group.\n:type resource_group_name: str\n:param virtual_network_name: The name\
+    \ of the virtual network.\n:type virtual_network_name: str\n:param parameters:\
+    \ Parameters supplied to the create/update Virtual\n Network operation\n:type\
+    \ parameters: :class:`VirtualNetwork\n <azure.mgmt.network.models.VirtualNetwork>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`VirtualNetwork\n <azure.mgmt.network.models.VirtualNetwork>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.VirtualNetworksOperations.create_or_update
+- _type: method
+  class: azure.mgmt.network.operations.VirtualNetworksOperations
+  fullName: azure.mgmt.network.operations.VirtualNetworksOperations.delete
+  module: azure.mgmt.network.operations
+  name: delete
+  source:
+    id: delete
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_networks_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_networks_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 37
+  summary: "The Delete VirtualNetwork operation deletes the specified virtual\nnetwork.\n\
+    \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param virtual_network_name: The name of the virtual network.\n:type virtual_network_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.VirtualNetworksOperations.delete
+- _type: method
+  class: azure.mgmt.network.operations.VirtualNetworksOperations
+  fullName: azure.mgmt.network.operations.VirtualNetworksOperations.get
+  module: azure.mgmt.network.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_networks_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_networks_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 114
+  summary: "The Get VirtualNetwork operation retrieves information about the\nspecified\
+    \ virtual network.\n\n:param resource_group_name: The name of the resource group.\n\
+    :type resource_group_name: str\n:param virtual_network_name: The name of the virtual\
+    \ network.\n:type virtual_network_name: str\n:param expand: expand references\
+    \ resources.\n:type expand: str\n:param dict custom_headers: headers that will\
+    \ be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`VirtualNetwork\n <azure.mgmt.network.models.VirtualNetwork>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.VirtualNetworksOperations.get
+- _type: method
+  class: azure.mgmt.network.operations.VirtualNetworksOperations
+  fullName: azure.mgmt.network.operations.VirtualNetworksOperations.list
+  module: azure.mgmt.network.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_networks_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_networks_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 337
+  summary: "The list VirtualNetwork returns all Virtual Networks in a resource\ngroup.\n\
+    \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`VirtualNetworkPaged\n <azure.mgmt.network.models.VirtualNetworkPaged>`"
+  type: Method
+  uid: azure.mgmt.network.operations.VirtualNetworksOperations.list
+- _type: method
+  class: azure.mgmt.network.operations.VirtualNetworksOperations
+  fullName: azure.mgmt.network.operations.VirtualNetworksOperations.list_all
+  module: azure.mgmt.network.operations
+  name: list_all
+  source:
+    id: list_all
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_networks_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_networks_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 275
+  summary: "The list VirtualNetwork returns all Virtual Networks in a subscription.\n\
+    \n:param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`VirtualNetworkPaged\n <azure.mgmt.network.models.VirtualNetworkPaged>`"
+  type: Method
+  uid: azure.mgmt.network.operations.VirtualNetworksOperations.list_all

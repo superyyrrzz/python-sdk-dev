@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.Usage
+  fullName: azure.mgmt.compute.models.Usage
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: Usage
+  source:
+    id: Usage
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/usage.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/usage.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Describes Compute Resource Usage.\n\nVariables are only populated by the\
+    \ server, and will be ignored when\nsending a request.\n\n:ivar unit: an enum\
+    \ describing the unit of measurement. Default value:\n \"Count\" .\n:vartype unit:\
+    \ str\n:param current_value: the current value of the usage.\n:type current_value:\
+    \ int\n:param limit: the limit of usage.\n:type limit: long\n:param name: the\
+    \ name of the type of usage.\n:type name: :class:`UsageName <azure.mgmt.compute.models.UsageName>`"
+  type: Class
+  uid: azure.mgmt.compute.models.Usage

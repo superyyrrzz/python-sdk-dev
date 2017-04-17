@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: module
+  children:
+  - azure.mgmt.search.SearchManagementClient
+  fullName: azure.mgmt.search
+  module: azure.mgmt.search
+  name: search
+  source:
+    id: search
+    path: azure-mgmt-search/azure/mgmt/search/__init__.py
+    remote:
+      branch: master
+      path: azure-mgmt-search/azure/mgmt/search/__init__.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 0
+  summary: ''
+  type: Namespace
+  uid: azure.mgmt.search
+- _type: class
+  children: []
+  fullName: azure.mgmt.search
+  langs:
+  - python
+  module: azure.mgmt.search
+  name: search.Global
+  summary: Proxy object to hold module level functions
+  type: Class
+  uid: azure.mgmt.search.Global

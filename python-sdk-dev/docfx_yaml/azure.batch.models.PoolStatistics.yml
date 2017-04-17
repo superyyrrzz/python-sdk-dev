@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.PoolStatistics
+  fullName: azure.batch.models.PoolStatistics
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: PoolStatistics
+  source:
+    id: PoolStatistics
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/pool_statistics.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/pool_statistics.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Contains utilization and resource usage statistics for the lifetime of\
+    \ a\npool.\n\n:param url: The URL for the statistics.\n:type url: str\n:param\
+    \ start_time: The start time of the time range covered by the\n statistics.\n\
+    :type start_time: datetime\n:param last_update_time: The time at which the statistics\
+    \ were last\n updated. All statistics are limited to the range between startTime\
+    \ and\n lastUpdateTime.\n:type last_update_time: datetime\n:param usage_stats:\
+    \ Statistics related to pool usage, such as the amount\n of core-time used.\n\
+    :type usage_stats: :class:`UsageStatistics\n <azure.batch.models.UsageStatistics>`\n\
+    :param resource_stats: Statistics related to resource consumption by\n compute\
+    \ nodes in the pool.\n:type resource_stats: :class:`ResourceStatistics\n <azure.batch.models.ResourceStatistics>`"
+  type: Class
+  uid: azure.batch.models.PoolStatistics

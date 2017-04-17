@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.WorkflowTriggerRecurrence
+  fullName: azure.mgmt.logic.models.WorkflowTriggerRecurrence
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: WorkflowTriggerRecurrence
+  source:
+    id: WorkflowTriggerRecurrence
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/workflow_trigger_recurrence.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/workflow_trigger_recurrence.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "WorkflowTriggerRecurrence.\n\n:param frequency: The frequency. Possible\
+    \ values include: 'NotSpecified',\n 'Second', 'Minute', 'Hour', 'Day', 'Week',\
+    \ 'Month', 'Year'\n:type frequency: str or :class:`RecurrenceFrequency\n <azure.mgmt.logic.models.RecurrenceFrequency>`\n\
+    :param interval: The interval.\n:type interval: int\n:param start_time: The start\
+    \ time.\n:type start_time: datetime\n:param end_time: The end time.\n:type end_time:\
+    \ datetime\n:param time_zone: The time zone.\n:type time_zone: str\n:param schedule:\
+    \ The recurrence schedule.\n:type schedule: :class:`RecurrenceSchedule\n <azure.mgmt.logic.models.RecurrenceSchedule>`"
+  type: Class
+  uid: azure.mgmt.logic.models.WorkflowTriggerRecurrence

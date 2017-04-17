@@ -1,0 +1,152 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.authorization.operations.RoleDefinitionsOperations.create_or_update
+  - azure.mgmt.authorization.operations.RoleDefinitionsOperations.delete
+  - azure.mgmt.authorization.operations.RoleDefinitionsOperations.get
+  - azure.mgmt.authorization.operations.RoleDefinitionsOperations.get_by_id
+  - azure.mgmt.authorization.operations.RoleDefinitionsOperations.list
+  class: azure.mgmt.authorization.operations.RoleDefinitionsOperations
+  fullName: azure.mgmt.authorization.operations.RoleDefinitionsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.authorization.operations
+  name: RoleDefinitionsOperations
+  source:
+    id: RoleDefinitionsOperations
+    path: azure-mgmt-authorization/azure/mgmt/authorization/operations/role_definitions_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-authorization/azure/mgmt/authorization/operations/role_definitions_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'RoleDefinitionsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.authorization.operations.RoleDefinitionsOperations
+- _type: method
+  class: azure.mgmt.authorization.operations.RoleDefinitionsOperations
+  fullName: azure.mgmt.authorization.operations.RoleDefinitionsOperations.create_or_update
+  module: azure.mgmt.authorization.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: azure-mgmt-authorization/azure/mgmt/authorization/operations/role_definitions_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-authorization/azure/mgmt/authorization/operations/role_definitions_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 158
+  summary: "Creates or updates a role definition.\n\n:param scope: The scope of the\
+    \ role definition.\n:type scope: str\n:param role_definition_id: The ID of the\
+    \ role definition.\n:type role_definition_id: str\n:param role_definition: The\
+    \ values for the role definition.\n:type role_definition: :class:`RoleDefinition\n\
+    \ <azure.mgmt.authorization.models.RoleDefinition>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`RoleDefinition\n\
+    \ <azure.mgmt.authorization.models.RoleDefinition>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.authorization.operations.RoleDefinitionsOperations.create_or_update
+- _type: method
+  class: azure.mgmt.authorization.operations.RoleDefinitionsOperations
+  fullName: azure.mgmt.authorization.operations.RoleDefinitionsOperations.delete
+  module: azure.mgmt.authorization.operations
+  name: delete
+  source:
+    id: delete
+    path: azure-mgmt-authorization/azure/mgmt/authorization/operations/role_definitions_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-authorization/azure/mgmt/authorization/operations/role_definitions_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Deletes a role definition.\n\n:param scope: The scope of the role definition.\n\
+    :type scope: str\n:param role_definition_id: The ID of the role definition to\
+    \ delete.\n:type role_definition_id: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`RoleDefinition\n\
+    \ <azure.mgmt.authorization.models.RoleDefinition>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.authorization.operations.RoleDefinitionsOperations.delete
+- _type: method
+  class: azure.mgmt.authorization.operations.RoleDefinitionsOperations
+  fullName: azure.mgmt.authorization.operations.RoleDefinitionsOperations.get
+  module: azure.mgmt.authorization.operations
+  name: get
+  source:
+    id: get
+    path: azure-mgmt-authorization/azure/mgmt/authorization/operations/role_definitions_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-authorization/azure/mgmt/authorization/operations/role_definitions_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 97
+  summary: "Get role definition by name (GUID).\n\n:param scope: The scope of the\
+    \ role definition.\n:type scope: str\n:param role_definition_id: The ID of the\
+    \ role definition.\n:type role_definition_id: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`RoleDefinition\n\
+    \ <azure.mgmt.authorization.models.RoleDefinition>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.authorization.operations.RoleDefinitionsOperations.get
+- _type: method
+  class: azure.mgmt.authorization.operations.RoleDefinitionsOperations
+  fullName: azure.mgmt.authorization.operations.RoleDefinitionsOperations.get_by_id
+  module: azure.mgmt.authorization.operations
+  name: get_by_id
+  source:
+    id: get_by_id
+    path: azure-mgmt-authorization/azure/mgmt/authorization/operations/role_definitions_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-authorization/azure/mgmt/authorization/operations/role_definitions_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 226
+  summary: "Gets a role definition by ID.\n\n:param role_definition_id: The fully\
+    \ qualified role definition ID to\n get.\n:type role_definition_id: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`RoleDefinition\n <azure.mgmt.authorization.models.RoleDefinition>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.authorization.operations.RoleDefinitionsOperations.get_by_id
+- _type: method
+  class: azure.mgmt.authorization.operations.RoleDefinitionsOperations
+  fullName: azure.mgmt.authorization.operations.RoleDefinitionsOperations.list
+  module: azure.mgmt.authorization.operations
+  name: list
+  source:
+    id: list
+    path: azure-mgmt-authorization/azure/mgmt/authorization/operations/role_definitions_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-authorization/azure/mgmt/authorization/operations/role_definitions_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 285
+  summary: "Get all role definitions that are applicable at scope and above.\n\n:param\
+    \ scope: The scope of the role definition.\n:type scope: str\n:param filter: The\
+    \ filter to apply on the operation. Use\n atScopeAndBelow filter to search below\
+    \ the given scope as well.\n:type filter: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`RoleDefinitionPaged\n\
+    \ <azure.mgmt.authorization.models.RoleDefinitionPaged>`\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.authorization.operations.RoleDefinitionsOperations.list

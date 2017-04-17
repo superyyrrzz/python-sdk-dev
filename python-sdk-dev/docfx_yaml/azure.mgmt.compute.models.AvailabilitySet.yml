@@ -1,0 +1,33 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.AvailabilitySet
+  fullName: azure.mgmt.compute.models.AvailabilitySet
+  inheritance:
+  - azure.mgmt.compute.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: AvailabilitySet
+  source:
+    id: AvailabilitySet
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/availability_set.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/availability_set.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Create or update Availability Set parameters.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar id: Resource\
+    \ Id\n:vartype id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type:\
+    \ Resource type\n:vartype type: str\n:param location: Resource location\n:type\
+    \ location: str\n:param tags: Resource tags\n:type tags: dict\n:param platform_update_domain_count:\
+    \ Update Domain count.\n:type platform_update_domain_count: int\n:param platform_fault_domain_count:\
+    \ Fault Domain count.\n:type platform_fault_domain_count: int\n:param virtual_machines:\
+    \ a list containing reference to all Virtual\n Machines created under this Availability\
+    \ Set.\n:type virtual_machines: list of :class:`SubResource\n <azure.mgmt.compute.models.SubResource>`\n\
+    :param statuses: the resource status information.\n:type statuses: list of :class:`InstanceViewStatus\n\
+    \ <azure.mgmt.compute.models.InstanceViewStatus>`"
+  type: Class
+  uid: azure.mgmt.compute.models.AvailabilitySet

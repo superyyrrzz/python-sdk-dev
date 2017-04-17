@@ -1,0 +1,32 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.keyvault.generated.models.CertificateImportParameters
+  fullName: azure.keyvault.generated.models.CertificateImportParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.keyvault.generated.models
+  name: CertificateImportParameters
+  source:
+    id: CertificateImportParameters
+    path: azure-keyvault/azure/keyvault/generated/models/certificate_import_parameters.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/models/certificate_import_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The certificate import parameters.\n\n:param base64_encoded_certificate:\
+    \ Base64 encoded representation of the\n certificate object to import. This certificate\
+    \ needs to contain the\n private key.\n:type base64_encoded_certificate: str\n\
+    :param password: If the private key in base64EncodedCertificate is\n encrypted,\
+    \ the password used for encryption.\n:type password: str\n:param certificate_policy:\
+    \ The management policy for the certificate.\n:type certificate_policy: :class:`CertificatePolicy\n\
+    \ <azure.keyvault.generated.models.CertificatePolicy>`\n:param certificate_attributes:\
+    \ The attributes of the certificate\n (optional).\n:type certificate_attributes:\
+    \ :class:`CertificateAttributes\n <azure.keyvault.generated.models.CertificateAttributes>`\n\
+    :param tags: Application specific metadata in the form of key-value pairs.\n:type\
+    \ tags: dict"
+  type: Class
+  uid: azure.keyvault.generated.models.CertificateImportParameters

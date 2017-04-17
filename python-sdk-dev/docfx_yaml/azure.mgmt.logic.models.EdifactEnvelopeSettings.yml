@@ -1,0 +1,84 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.EdifactEnvelopeSettings
+  fullName: azure.mgmt.logic.models.EdifactEnvelopeSettings
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: EdifactEnvelopeSettings
+  source:
+    id: EdifactEnvelopeSettings
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/edifact_envelope_settings.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/edifact_envelope_settings.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "EdifactEnvelopeSettings.\n\n:param group_association_assigned_code: The\
+    \ group association assigned\n code.\n:type group_association_assigned_code: str\n\
+    :param communication_agreement_id: The communication agreement id.\n:type communication_agreement_id:\
+    \ str\n:param apply_delimiter_string_advice: The value indicating whether to\n\
+    \ apply delimiter string advice.\n:type apply_delimiter_string_advice: bool\n\
+    :param create_grouping_segments: The value indicating whether to create\n grouping\
+    \ segments.\n:type create_grouping_segments: bool\n:param enable_default_group_headers:\
+    \ The value indicating whether to\n enable default group headers.\n:type enable_default_group_headers:\
+    \ bool\n:param recipient_reference_password_value: The recipient reference\n password\
+    \ value.\n:type recipient_reference_password_value: str\n:param recipient_reference_password_qualifier:\
+    \ The recipient reference\n password qualifier.\n:type recipient_reference_password_qualifier:\
+    \ str\n:param application_reference_id: The application reference id.\n:type application_reference_id:\
+    \ str\n:param processing_priority_code: The processing priority code.\n:type processing_priority_code:\
+    \ str\n:param interchange_control_number_lower_bound: The interchange control\n\
+    \ number lower bound.\n:type interchange_control_number_lower_bound: long\n:param\
+    \ interchange_control_number_upper_bound: The interchange control\n number upper\
+    \ bound.\n:type interchange_control_number_upper_bound: long\n:param rollover_interchange_control_number:\
+    \ The value indicating whether\n to rollover interchange control number.\n:type\
+    \ rollover_interchange_control_number: bool\n:param interchange_control_number_prefix:\
+    \ The interchange control number\n prefix.\n:type interchange_control_number_prefix:\
+    \ str\n:param interchange_control_number_suffix: The interchange control number\n\
+    \ suffix.\n:type interchange_control_number_suffix: str\n:param sender_reverse_routing_address:\
+    \ The sender reverse routing address.\n:type sender_reverse_routing_address: str\n\
+    :param receiver_reverse_routing_address: The receiver reverse routing\n address.\n\
+    :type receiver_reverse_routing_address: str\n:param functional_group_id: The functional\
+    \ group id.\n:type functional_group_id: str\n:param group_controlling_agency_code:\
+    \ The group controlling agency code.\n:type group_controlling_agency_code: str\n\
+    :param group_message_version: The group message version.\n:type group_message_version:\
+    \ str\n:param group_message_release: The group message release.\n:type group_message_release:\
+    \ str\n:param group_control_number_lower_bound: The group control number lower\n\
+    \ bound.\n:type group_control_number_lower_bound: long\n:param group_control_number_upper_bound:\
+    \ The group control number upper\n bound.\n:type group_control_number_upper_bound:\
+    \ long\n:param rollover_group_control_number: The value indicating whether to\n\
+    \ rollover group control number.\n:type rollover_group_control_number: bool\n\
+    :param group_control_number_prefix: The group control number prefix.\n:type group_control_number_prefix:\
+    \ str\n:param group_control_number_suffix: The group control number suffix.\n\
+    :type group_control_number_suffix: str\n:param group_application_receiver_qualifier:\
+    \ The group application\n receiver qualifier.\n:type group_application_receiver_qualifier:\
+    \ str\n:param group_application_receiver_id: The group application receiver id.\n\
+    :type group_application_receiver_id: str\n:param group_application_sender_qualifier:\
+    \ The group application sender\n qualifier.\n:type group_application_sender_qualifier:\
+    \ str\n:param group_application_sender_id: The group application sender id.\n\
+    :type group_application_sender_id: str\n:param group_application_password: The\
+    \ group application password.\n:type group_application_password: str\n:param overwrite_existing_transaction_set_control_number:\
+    \ The value\n indicating whether to overwrite existing transaction set control\
+    \ number.\n:type overwrite_existing_transaction_set_control_number: bool\n:param\
+    \ transaction_set_control_number_prefix: The transaction set control\n number\
+    \ prefix.\n:type transaction_set_control_number_prefix: str\n:param transaction_set_control_number_suffix:\
+    \ The transaction set control\n number suffix.\n:type transaction_set_control_number_suffix:\
+    \ str\n:param transaction_set_control_number_lower_bound: The transaction set\n\
+    \ control number lower bound.\n:type transaction_set_control_number_lower_bound:\
+    \ long\n:param transaction_set_control_number_upper_bound: The transaction set\n\
+    \ control number upper bound.\n:type transaction_set_control_number_upper_bound:\
+    \ long\n:param rollover_transaction_set_control_number: The value indicating\n\
+    \ whether to rollover transaction set control number.\n:type rollover_transaction_set_control_number:\
+    \ bool\n:param is_test_interchange: The value indicating whether the message is\
+    \ a\n test interchange.\n:type is_test_interchange: bool\n:param sender_internal_identification:\
+    \ The sender internal identification.\n:type sender_internal_identification: str\n\
+    :param sender_internal_sub_identification: The sender internal sub\n identification.\n\
+    :type sender_internal_sub_identification: str\n:param receiver_internal_identification:\
+    \ The receiver internal\n identification.\n:type receiver_internal_identification:\
+    \ str\n:param receiver_internal_sub_identification: The receiver internal sub\n\
+    \ identification.\n:type receiver_internal_sub_identification: str"
+  type: Class
+  uid: azure.mgmt.logic.models.EdifactEnvelopeSettings

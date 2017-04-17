@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.monitor.models.AutoscaleSettingResourcePaged
+  fullName: azure.mgmt.monitor.models.AutoscaleSettingResourcePaged
+  inheritance:
+  - msrest.paging.Paged
+  - collections.abc.Iterator
+  - collections.abc.Iterable
+  - builtins.object
+  module: azure.mgmt.monitor.models
+  name: AutoscaleSettingResourcePaged
+  source:
+    id: AutoscaleSettingResourcePaged
+    path: azure-mgmt-monitor/azure/mgmt/monitor/models/autoscale_setting_resource_paged.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/models/autoscale_setting_resource_paged.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: A paging container for iterating over a list of AutoscaleSettingResource
+    object
+  type: Class
+  uid: azure.mgmt.monitor.models.AutoscaleSettingResourcePaged

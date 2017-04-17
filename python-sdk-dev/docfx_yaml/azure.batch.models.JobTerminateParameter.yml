@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.JobTerminateParameter
+  fullName: azure.batch.models.JobTerminateParameter
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: JobTerminateParameter
+  source:
+    id: JobTerminateParameter
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/job_terminate_parameter.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/job_terminate_parameter.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Parameters for a CloudJobOperations.Terminate request.\n\n:param terminate_reason:\
+    \ The text you want to appear as the job's\n TerminateReason. The default is 'UserTerminate'.\n\
+    :type terminate_reason: str"
+  type: Class
+  uid: azure.batch.models.JobTerminateParameter

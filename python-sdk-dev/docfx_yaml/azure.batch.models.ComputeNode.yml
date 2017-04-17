@@ -1,0 +1,59 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.ComputeNode
+  fullName: azure.batch.models.ComputeNode
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: ComputeNode
+  source:
+    id: ComputeNode
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/compute_node.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/compute_node.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A compute node in the Batch service.\n\n:param id: The id of the compute\
+    \ node.\n:type id: str\n:param url: The URL of the compute node.\n:type url: str\n\
+    :param state: The current state of the compute node. Possible values\n include:\
+    \ 'idle', 'rebooting', 'reimaging', 'running', 'unusable',\n 'creating', 'starting',\
+    \ 'waitingforstarttask', 'starttaskfailed',\n 'unknown', 'leavingpool', 'offline'\n\
+    :type state: str or :class:`ComputeNodeState\n <azure.batch.models.ComputeNodeState>`\n\
+    :param scheduling_state: Whether the compute node should be available for\n task\
+    \ scheduling. Possible values include: 'enabled', 'disabled'\n:type scheduling_state:\
+    \ str or :class:`SchedulingState\n <azure.batch.models.SchedulingState>`\n:param\
+    \ state_transition_time: The time at which the compute node entered\n its current\
+    \ state.\n:type state_transition_time: datetime\n:param last_boot_time: The time\
+    \ at which the compute node was started.\n:type last_boot_time: datetime\n:param\
+    \ allocation_time: The time at which this compute node was allocated\n to the\
+    \ pool.\n:type allocation_time: datetime\n:param ip_address: The IP address that\
+    \ other compute nodes can use to\n communicate with this compute node.\n:type\
+    \ ip_address: str\n:param affinity_id: An identifier which can be passed in the\
+    \ Add Task API\n to request that the task be scheduled close to this compute node.\n\
+    :type affinity_id: str\n:param vm_size: The size of the virtual machine hosting\
+    \ the compute node.\n:type vm_size: str\n:param total_tasks_run: The total number\
+    \ of job tasks completed on the\n compute node. This includes Job Preparation,\
+    \ Job Release and Job Manager\n tasks, but not the pool start task.\n:type total_tasks_run:\
+    \ int\n:param running_tasks_count: The total number of currently running job\n\
+    \ tasks on the compute node. This includes Job Preparation, Job Release,\n and\
+    \ Job Manager tasks, but not the pool start task.\n:type running_tasks_count:\
+    \ int\n:param total_tasks_succeeded: The total number of job tasks which\n completed\
+    \ successfully (with exitCode 0) on the compute node. This\n includes Job Preparation,\
+    \ Job Release, and Job Manager tasks, but not\n the pool start task.\n:type total_tasks_succeeded:\
+    \ int\n:param recent_tasks: The list of tasks that are currently running on the\n\
+    \ compute node.\n:type recent_tasks: list of :class:`TaskInformation\n <azure.batch.models.TaskInformation>`\n\
+    :param start_task: The task specified to run on the compute node as it\n joins\
+    \ the pool.\n:type start_task: :class:`StartTask <azure.batch.models.StartTask>`\n\
+    :param start_task_info: Runtime information about the execution of the\n start\
+    \ task on the compute node.\n:type start_task_info: :class:`StartTaskInformation\n\
+    \ <azure.batch.models.StartTaskInformation>`\n:param certificate_references: The\
+    \ list of certificates installed on the\n compute node.\n:type certificate_references:\
+    \ list of :class:`CertificateReference\n <azure.batch.models.CertificateReference>`\n\
+    :param errors: The list of errors that are currently being encountered by\n the\
+    \ compute node.\n:type errors: list of :class:`ComputeNodeError\n <azure.batch.models.ComputeNodeError>`"
+  type: Class
+  uid: azure.batch.models.ComputeNode

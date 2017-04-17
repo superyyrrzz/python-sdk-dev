@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.devtestlabs.models.SubscriptionNotificationProperties
+  fullName: azure.mgmt.devtestlabs.models.SubscriptionNotificationProperties
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.devtestlabs.models
+  name: SubscriptionNotificationProperties
+  source:
+    id: SubscriptionNotificationProperties
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/subscription_notification_properties.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/subscription_notification_properties.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'SubscriptionNotificationProperties.
+
+
+    :param tenant_id:
+
+    :type tenant_id: str'
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.SubscriptionNotificationProperties

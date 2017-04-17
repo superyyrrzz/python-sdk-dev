@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.cdn.models.GeoFilter
+  fullName: azure.mgmt.cdn.models.GeoFilter
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.cdn.models
+  name: GeoFilter
+  source:
+    id: GeoFilter
+    path: azure-mgmt-cdn/azure/mgmt/cdn/models/geo_filter.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/models/geo_filter.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Rules defining user geo access within a CDN endpoint.\n\n:param relative_path:\
+    \ Relative path applicable to geo filter. (e.g.\n '/mypictures', '/mypicture/kitty.jpg',\
+    \ and etc.)\n:type relative_path: str\n:param action: Action of the geo filter,\
+    \ i.e. allow or block access.\n Possible values include: 'Block', 'Allow'\n:type\
+    \ action: str or :class:`GeoFilterActions\n <azure.mgmt.cdn.models.GeoFilterActions>`\n\
+    :param country_codes: Two letter country codes defining user country\n access\
+    \ in a geo filter, e.g. AU, MX, US.\n:type country_codes: list of str"
+  type: Class
+  uid: azure.mgmt.cdn.models.GeoFilter

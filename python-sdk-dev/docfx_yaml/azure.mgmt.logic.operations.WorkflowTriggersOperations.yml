@@ -1,0 +1,129 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.logic.operations.WorkflowTriggersOperations.get
+  - azure.mgmt.logic.operations.WorkflowTriggersOperations.list
+  - azure.mgmt.logic.operations.WorkflowTriggersOperations.list_callback_url
+  - azure.mgmt.logic.operations.WorkflowTriggersOperations.run
+  class: azure.mgmt.logic.operations.WorkflowTriggersOperations
+  fullName: azure.mgmt.logic.operations.WorkflowTriggersOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.logic.operations
+  name: WorkflowTriggersOperations
+  source:
+    id: WorkflowTriggersOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflow_triggers_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflow_triggers_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'WorkflowTriggersOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    :ivar api_version: The API version. Constant value: "2016-06-01".'
+  type: Class
+  uid: azure.mgmt.logic.operations.WorkflowTriggersOperations
+- _type: method
+  class: azure.mgmt.logic.operations.WorkflowTriggersOperations
+  fullName: azure.mgmt.logic.operations.WorkflowTriggersOperations.get
+  module: azure.mgmt.logic.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflow_triggers_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflow_triggers_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 114
+  summary: "Gets a workflow trigger.\n\n:param resource_group_name: The resource group\
+    \ name.\n:type resource_group_name: str\n:param workflow_name: The workflow name.\n\
+    :type workflow_name: str\n:param trigger_name: The workflow trigger name.\n:type\
+    \ trigger_name: str\n:param dict custom_headers: headers that will be added to\
+    \ the request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`WorkflowTrigger\n <azure.mgmt.logic.models.WorkflowTrigger>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.logic.operations.WorkflowTriggersOperations.get
+- _type: method
+  class: azure.mgmt.logic.operations.WorkflowTriggersOperations
+  fullName: azure.mgmt.logic.operations.WorkflowTriggersOperations.list
+  module: azure.mgmt.logic.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflow_triggers_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflow_triggers_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 38
+  summary: "Gets a list of workflow triggers.\n\n:param resource_group_name: The resource\
+    \ group name.\n:type resource_group_name: str\n:param workflow_name: The workflow\
+    \ name.\n:type workflow_name: str\n:param top: The number of items to be included\
+    \ in the result.\n:type top: int\n:param filter: The filter to apply on the operation.\n\
+    :type filter: str\n:param dict custom_headers: headers that will be added to the\
+    \ request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`WorkflowTriggerPaged\n <azure.mgmt.logic.models.WorkflowTriggerPaged>`"
+  type: Method
+  uid: azure.mgmt.logic.operations.WorkflowTriggersOperations.list
+- _type: method
+  class: azure.mgmt.logic.operations.WorkflowTriggersOperations
+  fullName: azure.mgmt.logic.operations.WorkflowTriggersOperations.list_callback_url
+  module: azure.mgmt.logic.operations
+  name: list_callback_url
+  source:
+    id: list_callback_url
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflow_triggers_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflow_triggers_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 232
+  summary: "Gets the callback URL for a workflow trigger.\n\n:param resource_group_name:\
+    \ The resource group name.\n:type resource_group_name: str\n:param workflow_name:\
+    \ The workflow name.\n:type workflow_name: str\n:param trigger_name: The workflow\
+    \ trigger name.\n:type trigger_name: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`WorkflowTriggerCallbackUrl\n\
+    \ <azure.mgmt.logic.models.WorkflowTriggerCallbackUrl>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.logic.operations.WorkflowTriggersOperations.list_callback_url
+- _type: method
+  class: azure.mgmt.logic.operations.WorkflowTriggersOperations
+  fullName: azure.mgmt.logic.operations.WorkflowTriggersOperations.run
+  module: azure.mgmt.logic.operations
+  name: run
+  source:
+    id: run
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflow_triggers_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflow_triggers_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 178
+  summary: "Runs a workflow trigger.\n\n:param resource_group_name: The resource group\
+    \ name.\n:type resource_group_name: str\n:param workflow_name: The workflow name.\n\
+    :type workflow_name: str\n:param trigger_name: The workflow trigger name.\n:type\
+    \ trigger_name: str\n:param dict custom_headers: headers that will be added to\
+    \ the request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: object\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.logic.operations.WorkflowTriggersOperations.run

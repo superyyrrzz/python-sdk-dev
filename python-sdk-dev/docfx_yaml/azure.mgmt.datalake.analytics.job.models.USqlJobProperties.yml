@@ -1,0 +1,57 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.datalake.analytics.job.models.USqlJobProperties
+  fullName: azure.mgmt.datalake.analytics.job.models.USqlJobProperties
+  inheritance:
+  - azure.mgmt.datalake.analytics.job.models.job_properties.JobProperties
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.datalake.analytics.job.models
+  name: USqlJobProperties
+  source:
+    id: USqlJobProperties
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/job/models/usql_job_properties.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/job/models/usql_job_properties.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "U-SQL job properties used when submitting and retrieving U-SQL jobs.\n\
+    \nVariables are only populated by the server, and will be ignored when\nsending\
+    \ a request.\n\n:param runtime_version: the runtime version of the Data Lake Analytics\n\
+    \ engine to use for the specific type of job being run.\n:type runtime_version:\
+    \ str\n:param script: the script to run\n:type script: str\n:param type: Polymorphic\
+    \ Discriminator\n:type type: str\n:param resources: the list of resources that\
+    \ are required by the job\n:type resources: list of :class:`JobResource\n <azure.mgmt.datalake.analytics.job.models.JobResource>`\n\
+    :param statistics: the job specific statistics.\n:type statistics: :class:`JobStatistics\n\
+    \ <azure.mgmt.datalake.analytics.job.models.JobStatistics>`\n:param debug_data:\
+    \ the job specific debug data locations.\n:type debug_data: :class:`JobDataPath\n\
+    \ <azure.mgmt.datalake.analytics.job.models.JobDataPath>`\n:param diagnostics:\
+    \ the diagnostics for the job.\n:type diagnostics: list of :class:`Diagnostics\n\
+    \ <azure.mgmt.datalake.analytics.job.models.Diagnostics>`\n:ivar algebra_file_path:\
+    \ the algebra file path after the job has completed\n:vartype algebra_file_path:\
+    \ str\n:ivar total_compilation_time: the total time this job spent compiling.\n\
+    \ This value should not be set by the user and will be ignored if it is.\n:vartype\
+    \ total_compilation_time: timedelta\n:ivar total_pause_time: the total time this\
+    \ job spent paused. This value\n should not be set by the user and will be ignored\
+    \ if it is.\n:vartype total_pause_time: timedelta\n:ivar total_queued_time: the\
+    \ total time this job spent queued. This value\n should not be set by the user\
+    \ and will be ignored if it is.\n:vartype total_queued_time: timedelta\n:ivar\
+    \ total_running_time: the total time this job spent executing. This\n value should\
+    \ not be set by the user and will be ignored if it is.\n:vartype total_running_time:\
+    \ timedelta\n:ivar root_process_node_id: the ID used to identify the job manager\n\
+    \ coordinating job execution. This value should not be set by the user and\n will\
+    \ be ignored if it is.\n:vartype root_process_node_id: str\n:ivar yarn_application_id:\
+    \ the ID used to identify the yarn application\n executing the job. This value\
+    \ should not be set by the user and will be\n ignored if it is.\n:vartype yarn_application_id:\
+    \ str\n:ivar yarn_application_time_stamp: the timestamp (in ticks) for the yarn\n\
+    \ application executing the job. This value should not be set by the user\n and\
+    \ will be ignored if it is.\n:vartype yarn_application_time_stamp: long\n:param\
+    \ compile_mode: Optionally enforces a specific compilation mode for\n the job\
+    \ during execution. If this is not specified during submission, the\n server will\
+    \ determine the optimal compilation mode. Possible values\n include: 'Semantic',\
+    \ 'Full', 'SingleBox'\n:type compile_mode: str or :class:`CompileMode\n <azure.mgmt.datalake.analytics.job.models.CompileMode>`"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.job.models.USqlJobProperties

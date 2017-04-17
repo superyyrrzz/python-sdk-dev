@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.TaskConstraints
+  fullName: azure.batch.models.TaskConstraints
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: TaskConstraints
+  source:
+    id: TaskConstraints
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/task_constraints.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/task_constraints.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Constraints to apply to the Job Manager task.\n\n:param max_wall_clock_time:\
+    \ The maximum elapsed time that the task may\n run, measured from the time the\
+    \ task starts. If the task does not\n complete within the time limit, the Batch\
+    \ service terminates it.\n:type max_wall_clock_time: timedelta\n:param retention_time:\
+    \ The minimum time to retain the working directory\n for the task on the compute\
+    \ node where it ran, from the time it\n completes execution. After this time,\
+    \ the Batch service may delete the\n working directory and all its contents. The\
+    \ default is infinite.\n:type retention_time: timedelta\n:param max_task_retry_count:\
+    \ The maximum number of times the task may be\n retried. The Batch service retries\
+    \ a task if its exit code is nonzero.\n:type max_task_retry_count: int"
+  type: Class
+  uid: azure.batch.models.TaskConstraints

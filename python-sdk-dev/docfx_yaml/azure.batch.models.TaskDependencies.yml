@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.TaskDependencies
+  fullName: azure.batch.models.TaskDependencies
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: TaskDependencies
+  source:
+    id: TaskDependencies
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/task_dependencies.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/task_dependencies.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Specifies any dependencies of a task. Any task that is explicitly\nspecified\
+    \ or within a dependency range must complete before the dependant\ntask will be\
+    \ scheduled.\n\n:param task_ids: The list of task ids that must complete before\
+    \ this task\n can be scheduled.\n:type task_ids: list of str\n:param task_id_ranges:\
+    \ The list of task ranges that must complete before\n this task can be scheduled.\n\
+    :type task_id_ranges: list of :class:`TaskIdRange\n <azure.batch.models.TaskIdRange>`"
+  type: Class
+  uid: azure.batch.models.TaskDependencies

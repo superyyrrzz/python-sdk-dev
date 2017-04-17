@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.ContainerServiceSshPublicKey
+  fullName: azure.mgmt.compute.models.ContainerServiceSshPublicKey
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: ContainerServiceSshPublicKey
+  source:
+    id: ContainerServiceSshPublicKey
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/container_service_ssh_public_key.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/container_service_ssh_public_key.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Contains information about SSH certificate public key data.\n\n:param\
+    \ key_data: Certificate public key used to authenticate with VM\n through SSH.\
+    \ The certificate must be in Pem format with or without\n headers.\n:type key_data:\
+    \ str"
+  type: Class
+  uid: azure.mgmt.compute.models.ContainerServiceSshPublicKey

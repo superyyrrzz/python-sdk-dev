@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.HostNameSslState
+  fullName: azure.mgmt.web.models.HostNameSslState
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: HostNameSslState
+  source:
+    id: HostNameSslState
+    path: azure-mgmt-web/azure/mgmt/web/models/host_name_ssl_state.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/host_name_ssl_state.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Object that represents a SSL-enabled host name.\n\n:param name: Host name\n\
+    :type name: str\n:param ssl_state: SSL type. Possible values include: 'Disabled',\n\
+    \ 'SniEnabled', 'IpBasedEnabled'\n:type ssl_state: str or :class:`SslState <azure.mgmt.web.models.SslState>`\n\
+    :param virtual_ip: Virtual IP address assigned to the host name if IP\n based\
+    \ SSL is enabled\n:type virtual_ip: str\n:param thumbprint: SSL cert thumbprint\n\
+    :type thumbprint: str\n:param to_update: Set this flag to update existing host\
+    \ name\n:type to_update: bool"
+  type: Class
+  uid: azure.mgmt.web.models.HostNameSslState

@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.monitor.models.WebhookNotification
+  fullName: azure.mgmt.monitor.models.WebhookNotification
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.monitor.models
+  name: WebhookNotification
+  source:
+    id: WebhookNotification
+    path: azure-mgmt-monitor/azure/mgmt/monitor/models/webhook_notification.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/models/webhook_notification.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Webhook notification of an autoscale event.
+
+
+    :param service_uri: the service address to receive the notification.
+
+    :type service_uri: str
+
+    :param properties: a property bag of settings. This value can be empty.
+
+    :type properties: dict'
+  type: Class
+  uid: azure.mgmt.monitor.models.WebhookNotification

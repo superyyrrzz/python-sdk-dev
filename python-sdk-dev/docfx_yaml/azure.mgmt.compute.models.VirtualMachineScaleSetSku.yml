@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.VirtualMachineScaleSetSku
+  fullName: azure.mgmt.compute.models.VirtualMachineScaleSetSku
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: VirtualMachineScaleSetSku
+  source:
+    id: VirtualMachineScaleSetSku
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_scale_set_sku.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_scale_set_sku.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Describes an available virtual machine scale set sku.\n\nVariables are\
+    \ only populated by the server, and will be ignored when\nsending a request.\n\
+    \n:ivar resource_type: the type of resource the sku applies to.\n:vartype resource_type:\
+    \ str\n:ivar sku: the Sku.\n:vartype sku: :class:`Sku <azure.mgmt.compute.models.Sku>`\n\
+    :ivar capacity: available scaling information.\n:vartype capacity: :class:`VirtualMachineScaleSetSkuCapacity\n\
+    \ <azure.mgmt.compute.models.VirtualMachineScaleSetSkuCapacity>`"
+  type: Class
+  uid: azure.mgmt.compute.models.VirtualMachineScaleSetSku

@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.resources.models.AliasPathType
+  fullName: azure.mgmt.resource.resources.models.AliasPathType
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.resource.resources.models
+  name: AliasPathType
+  source:
+    id: AliasPathType
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/alias_path_type.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/alias_path_type.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'AliasPathType.
+
+
+    :param path: The path of an alias.
+
+    :type path: str
+
+    :param api_versions: The api versions.
+
+    :type api_versions: list of str'
+  type: Class
+  uid: azure.mgmt.resource.resources.models.AliasPathType

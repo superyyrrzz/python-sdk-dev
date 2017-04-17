@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.FileProperties
+  fullName: azure.batch.models.FileProperties
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: FileProperties
+  source:
+    id: FileProperties
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/file_properties.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/file_properties.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The properties of a file on a compute node.\n\n:param creation_time: The\
+    \ file creation time.\n:type creation_time: datetime\n:param last_modified: The\
+    \ time at which the file was last modified.\n:type last_modified: datetime\n:param\
+    \ content_length: The length of the file.\n:type content_length: long\n:param\
+    \ content_type: The content type of the file.\n:type content_type: str\n:param\
+    \ file_mode: The file mode attribute in octal format. This property\n will be\
+    \ returned only from a Linux compute node.\n:type file_mode: str"
+  type: Class
+  uid: azure.batch.models.FileProperties

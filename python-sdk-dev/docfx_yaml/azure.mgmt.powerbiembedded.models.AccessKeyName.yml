@@ -1,0 +1,22 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.powerbiembedded.models.AccessKeyName
+  fullName: azure.mgmt.powerbiembedded.models.AccessKeyName
+  inheritance:
+  - enum.Enum
+  - builtins.object
+  module: azure.mgmt.powerbiembedded.models
+  name: AccessKeyName
+  source:
+    id: AccessKeyName
+    path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/models/power_bi_embedded_management_client_enums.py
+    remote:
+      branch: master
+      path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/models/power_bi_embedded_management_client_enums.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: An enumeration.
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.AccessKeyName

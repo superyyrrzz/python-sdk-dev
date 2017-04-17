@@ -1,0 +1,54 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.datalake.analytics.job.models.JobInformation
+  fullName: azure.mgmt.datalake.analytics.job.models.JobInformation
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.datalake.analytics.job.models
+  name: JobInformation
+  source:
+    id: JobInformation
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/job/models/job_information.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/job/models/job_information.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The common Data Lake Analytics job information properties.\n\nVariables\
+    \ are only populated by the server, and will be ignored when\nsending a request.\n\
+    \n:ivar job_id: the job's unique identifier (a GUID).\n:vartype job_id: str\n\
+    :param name: the friendly name of the job.\n:type name: str\n:param type: the\
+    \ job type of the current job (Hive or USql). Possible\n values include: 'USql',\
+    \ 'Hive'\n:type type: str or :class:`JobType\n <azure.mgmt.datalake.analytics.job.models.JobType>`\n\
+    :ivar submitter: the user or account that submitted the job.\n:vartype submitter:\
+    \ str\n:ivar error_message: the error message details for the job, if the job\n\
+    \ failed.\n:vartype error_message: list of :class:`JobErrorDetails\n <azure.mgmt.datalake.analytics.job.models.JobErrorDetails>`\n\
+    :param degree_of_parallelism: the degree of parallelism used for this job.\n This\
+    \ must be greater than 0. Default value: 1 .\n:type degree_of_parallelism: int\n\
+    :param priority: the priority value for the current job. Lower numbers\n have\
+    \ a higher priority. By default, a job has a priority of 1000. This\n must be\
+    \ greater than 0.\n:type priority: int\n:ivar submit_time: the time the job was\
+    \ submitted to the service.\n:vartype submit_time: datetime\n:ivar start_time:\
+    \ the start time of the job.\n:vartype start_time: datetime\n:ivar end_time: the\
+    \ completion time of the job.\n:vartype end_time: datetime\n:ivar state: the job\
+    \ state. When the job is in the Ended state, refer to\n Result and ErrorMessage\
+    \ for details. Possible values include: 'Accepted',\n 'Compiling', 'Ended', 'New',\
+    \ 'Queued', 'Running', 'Scheduling',\n 'Starting', 'Paused', 'WaitingForCapacity'\n\
+    :vartype state: str or :class:`JobState\n <azure.mgmt.datalake.analytics.job.models.JobState>`\n\
+    :ivar result: the result of job execution or the current result of the\n running\
+    \ job. Possible values include: 'None', 'Succeeded', 'Cancelled',\n 'Failed'\n\
+    :vartype result: str or :class:`JobResult\n <azure.mgmt.datalake.analytics.job.models.JobResult>`\n\
+    :ivar log_folder: the log folder path to use in the following format:\n adl://<accountName>.azuredatalakestore.net/system/jobservice/jobs/Usql/2016/03/13/17/18/5fe51957-93bc-4de0-8ddc-c5a4753b068b/logs/.\n\
+    :vartype log_folder: str\n:param log_file_patterns: the list of log file name\
+    \ patterns to find in\n the logFolder. '*' is the only matching character allowed.\
+    \ Example format:\n jobExecution*.log or *mylog*.txt\n:type log_file_patterns:\
+    \ list of str\n:ivar state_audit_records: the job state audit records, indicating\
+    \ when\n various operations have been performed on this job.\n:vartype state_audit_records:\
+    \ list of :class:`JobStateAuditRecord\n <azure.mgmt.datalake.analytics.job.models.JobStateAuditRecord>`\n\
+    :param properties: the job specific properties.\n:type properties: :class:`JobProperties\n\
+    \ <azure.mgmt.datalake.analytics.job.models.JobProperties>`"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.job.models.JobInformation

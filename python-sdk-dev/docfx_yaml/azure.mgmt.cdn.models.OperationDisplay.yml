@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.cdn.models.OperationDisplay
+  fullName: azure.mgmt.cdn.models.OperationDisplay
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.cdn.models
+  name: OperationDisplay
+  source:
+    id: OperationDisplay
+    path: azure-mgmt-cdn/azure/mgmt/cdn/models/operation_display.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/models/operation_display.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The object that represents the operation.\n\n:param provider: Service\
+    \ provider: Microsoft.Cdn\n:type provider: str\n:param resource: Resource on which\
+    \ the operation is performed: Profile,\n endpoint, etc.\n:type resource: str\n\
+    :param operation: Operation type: Read, write, delete, etc.\n:type operation:\
+    \ str"
+  type: Class
+  uid: azure.mgmt.cdn.models.OperationDisplay

@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.datalake.analytics.catalog.models.ExternalTable
+  fullName: azure.mgmt.datalake.analytics.catalog.models.ExternalTable
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.datalake.analytics.catalog.models
+  name: ExternalTable
+  source:
+    id: ExternalTable
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/models/external_table.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/models/external_table.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A Data Lake Analytics catalog external table item.\n\n:param table_name:\
+    \ the name of the table associated with this database and\n schema.\n:type table_name:\
+    \ str\n:param data_source: the data source associated with this external table.\n\
+    :type data_source: :class:`EntityId\n <azure.mgmt.datalake.analytics.catalog.models.EntityId>`"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.catalog.models.ExternalTable

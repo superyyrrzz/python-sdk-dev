@@ -1,0 +1,76 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.RelayServiceConnectionEntity
+  fullName: azure.mgmt.web.models.RelayServiceConnectionEntity
+  inheritance:
+  - azure.mgmt.web.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: RelayServiceConnectionEntity
+  source:
+    id: RelayServiceConnectionEntity
+    path: azure-mgmt-web/azure/mgmt/web/models/relay_service_connection_entity.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/relay_service_connection_entity.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Class that represents a Biztalk Hybrid Connection.
+
+
+    :param id: Resource Id
+
+    :type id: str
+
+    :param name: Resource Name
+
+    :type name: str
+
+    :param kind: Kind of resource
+
+    :type kind: str
+
+    :param location: Resource Location
+
+    :type location: str
+
+    :param type: Resource type
+
+    :type type: str
+
+    :param tags: Resource tags
+
+    :type tags: dict
+
+    :param entity_name:
+
+    :type entity_name: str
+
+    :param entity_connection_string:
+
+    :type entity_connection_string: str
+
+    :param resource_type:
+
+    :type resource_type: str
+
+    :param resource_connection_string:
+
+    :type resource_connection_string: str
+
+    :param hostname:
+
+    :type hostname: str
+
+    :param port:
+
+    :type port: int
+
+    :param biztalk_uri:
+
+    :type biztalk_uri: str'
+  type: Class
+  uid: azure.mgmt.web.models.RelayServiceConnectionEntity

@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.devtestlabs.models.SubnetOverride
+  fullName: azure.mgmt.devtestlabs.models.SubnetOverride
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.devtestlabs.models
+  name: SubnetOverride
+  source:
+    id: SubnetOverride
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/subnet_override.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/subnet_override.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Property overrides on a subnet of a virtual network.\n\n:param resource_id:\
+    \ The resource identifier of the subnet.\n:type resource_id: str\n:param lab_subnet_name:\
+    \ The name given to the subnet within the lab.\n:type lab_subnet_name: str\n:param\
+    \ use_in_vm_creation_permission: Indicates whether this subnet can be\n used during\
+    \ virtual machine creation. Possible values include: 'Default',\n 'Deny', 'Allow'\n\
+    :type use_in_vm_creation_permission: str or :class:`UsagePermissionType\n <azure.mgmt.devtestlabs.models.UsagePermissionType>`\n\
+    :param use_public_ip_address_permission: Indicates whether public IP\n addresses\
+    \ can be assigned to virtual machines on this subnet. Possible\n values include:\
+    \ 'Default', 'Deny', 'Allow'\n:type use_public_ip_address_permission: str or :class:`UsagePermissionType\n\
+    \ <azure.mgmt.devtestlabs.models.UsagePermissionType>`"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.SubnetOverride

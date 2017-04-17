@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.graphrbac.models.AADObjectPaged
+  fullName: azure.graphrbac.models.AADObjectPaged
+  inheritance:
+  - msrest.paging.Paged
+  - collections.abc.Iterator
+  - collections.abc.Iterable
+  - builtins.object
+  module: azure.graphrbac.models
+  name: AADObjectPaged
+  source:
+    id: AADObjectPaged
+    path: azure-graphrbac/azure/graphrbac/models/aad_object_paged.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/models/aad_object_paged.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: A paging container for iterating over a list of AADObject object
+  type: Class
+  uid: azure.graphrbac.models.AADObjectPaged

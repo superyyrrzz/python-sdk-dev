@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.resources.models.DeploymentValidateResult
+  fullName: azure.mgmt.resource.resources.models.DeploymentValidateResult
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.resource.resources.models
+  name: DeploymentValidateResult
+  source:
+    id: DeploymentValidateResult
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/deployment_validate_result.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/deployment_validate_result.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Information from validate template deployment response.\n\n:param error:\
+    \ Validation error.\n:type error: :class:`ResourceManagementErrorWithDetails\n\
+    \ <azure.mgmt.resource.resources.models.ResourceManagementErrorWithDetails>`\n\
+    :param properties: The template deployment properties.\n:type properties: :class:`DeploymentPropertiesExtended\n\
+    \ <azure.mgmt.resource.resources.models.DeploymentPropertiesExtended>`"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.DeploymentValidateResult

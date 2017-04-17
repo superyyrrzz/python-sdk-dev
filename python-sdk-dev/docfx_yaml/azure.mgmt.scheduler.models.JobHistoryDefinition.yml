@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.scheduler.models.JobHistoryDefinition
+  fullName: azure.mgmt.scheduler.models.JobHistoryDefinition
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.scheduler.models
+  name: JobHistoryDefinition
+  source:
+    id: JobHistoryDefinition
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/job_history_definition.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/job_history_definition.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "JobHistoryDefinition.\n\nVariables are only populated by the server, and\
+    \ will be ignored when\nsending a request.\n\n:ivar id: Gets the job history identifier.\n\
+    :vartype id: str\n:ivar type: Gets the job history resource type.\n:vartype type:\
+    \ str\n:ivar name: Gets the job history name.\n:vartype name: str\n:ivar properties:\
+    \ Gets or sets the job history properties.\n:vartype properties: :class:`JobHistoryDefinitionProperties\n\
+    \ <azure.mgmt.scheduler.models.JobHistoryDefinitionProperties>`"
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobHistoryDefinition

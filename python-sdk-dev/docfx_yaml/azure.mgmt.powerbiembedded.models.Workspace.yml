@@ -1,0 +1,39 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.powerbiembedded.models.Workspace
+  fullName: azure.mgmt.powerbiembedded.models.Workspace
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.powerbiembedded.models
+  name: Workspace
+  source:
+    id: Workspace
+    path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/models/workspace.py
+    remote:
+      branch: master
+      path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/models/workspace.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Workspace.
+
+
+    :param id: Workspace id
+
+    :type id: str
+
+    :param name: Workspace name
+
+    :type name: str
+
+    :param type: Resource type
+
+    :type type: str
+
+    :param properties: Property bag
+
+    :type properties: object'
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.Workspace

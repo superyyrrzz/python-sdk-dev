@@ -1,0 +1,42 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.resources.models.DeploymentPropertiesExtended
+  fullName: azure.mgmt.resource.resources.models.DeploymentPropertiesExtended
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.resource.resources.models
+  name: DeploymentPropertiesExtended
+  source:
+    id: DeploymentPropertiesExtended
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/deployment_properties_extended.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/deployment_properties_extended.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Deployment properties with additional details.\n\n:param provisioning_state:\
+    \ The state of the provisioning.\n:type provisioning_state: str\n:param correlation_id:\
+    \ The correlation ID of the deployment.\n:type correlation_id: str\n:param timestamp:\
+    \ The timestamp of the template deployment.\n:type timestamp: datetime\n:param\
+    \ outputs: Key/value pairs that represent deploymentoutput.\n:type outputs: object\n\
+    :param providers: The list of resource providers needed for the\n deployment.\n\
+    :type providers: list of :class:`Provider\n <azure.mgmt.resource.resources.models.Provider>`\n\
+    :param dependencies: The list of deployment dependencies.\n:type dependencies:\
+    \ list of :class:`Dependency\n <azure.mgmt.resource.resources.models.Dependency>`\n\
+    :param template: The template content. Use only one of Template or\n TemplateLink.\n\
+    :type template: object\n:param template_link: The URI referencing the template.\
+    \ Use only one of\n Template or TemplateLink.\n:type template_link: :class:`TemplateLink\n\
+    \ <azure.mgmt.resource.resources.models.TemplateLink>`\n:param parameters: Deployment\
+    \ parameters. Use only one of Parameters or\n ParametersLink.\n:type parameters:\
+    \ object\n:param parameters_link: The URI referencing the parameters. Use only\
+    \ one\n of Parameters or ParametersLink.\n:type parameters_link: :class:`ParametersLink\n\
+    \ <azure.mgmt.resource.resources.models.ParametersLink>`\n:param mode: The deployment\
+    \ mode. Possible values include: 'Incremental',\n 'Complete'\n:type mode: str\
+    \ or :class:`DeploymentMode\n <azure.mgmt.resource.resources.models.DeploymentMode>`\n\
+    :param debug_setting: The debug setting of the deployment.\n:type debug_setting:\
+    \ :class:`DebugSetting\n <azure.mgmt.resource.resources.models.DebugSetting>`"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.DeploymentPropertiesExtended

@@ -1,0 +1,51 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.LogicManagementClient
+  fullName: azure.mgmt.logic.LogicManagementClient
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.logic
+  name: LogicManagementClient
+  source:
+    id: LogicManagementClient
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/logic_management_client.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/logic_management_client.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 81
+  summary: "Composite Swagger for Logic Management Client\n\n:ivar config: Configuration\
+    \ for client.\n:vartype config: LogicManagementClientConfiguration\n\n:ivar workflows:\
+    \ Workflows operations\n:vartype workflows: .operations.WorkflowsOperations\n\
+    :ivar workflow_versions: WorkflowVersions operations\n:vartype workflow_versions:\
+    \ .operations.WorkflowVersionsOperations\n:ivar workflow_triggers: WorkflowTriggers\
+    \ operations\n:vartype workflow_triggers: .operations.WorkflowTriggersOperations\n\
+    :ivar workflow_trigger_histories: WorkflowTriggerHistories operations\n:vartype\
+    \ workflow_trigger_histories: .operations.WorkflowTriggerHistoriesOperations\n\
+    :ivar workflow_runs: WorkflowRuns operations\n:vartype workflow_runs: .operations.WorkflowRunsOperations\n\
+    :ivar workflow_run_actions: WorkflowRunActions operations\n:vartype workflow_run_actions:\
+    \ .operations.WorkflowRunActionsOperations\n:ivar integration_accounts: IntegrationAccounts\
+    \ operations\n:vartype integration_accounts: .operations.IntegrationAccountsOperations\n\
+    :ivar integration_account_schemas: IntegrationAccountSchemas operations\n:vartype\
+    \ integration_account_schemas: .operations.IntegrationAccountSchemasOperations\n\
+    :ivar integration_account_maps: IntegrationAccountMaps operations\n:vartype integration_account_maps:\
+    \ .operations.IntegrationAccountMapsOperations\n:ivar integration_account_partners:\
+    \ IntegrationAccountPartners operations\n:vartype integration_account_partners:\
+    \ .operations.IntegrationAccountPartnersOperations\n:ivar integration_account_agreements:\
+    \ IntegrationAccountAgreements operations\n:vartype integration_account_agreements:\
+    \ .operations.IntegrationAccountAgreementsOperations\n:ivar integration_account_certificates:\
+    \ IntegrationAccountCertificates operations\n:vartype integration_account_certificates:\
+    \ .operations.IntegrationAccountCertificatesOperations\n\n:param credentials:\
+    \ Credentials needed for the client to connect to Azure.\n:type credentials: :mod:`A\
+    \ msrestazure Credentials\n object<msrestazure.azure_active_directory>`\n:param\
+    \ subscription_id: The subscription id.\n:type subscription_id: str\n:param accept_language:\
+    \ Gets or sets the preferred language for the\n response.\n:type accept_language:\
+    \ str\n:param long_running_operation_retry_timeout: Gets or sets the retry\n timeout\
+    \ in seconds for Long Running Operations. Default value is 30.\n:type long_running_operation_retry_timeout:\
+    \ int\n:param generate_client_request_id: When set to true a unique\n x-ms-client-request-id\
+    \ value is generated and included in each request.\n Default is true.\n:type generate_client_request_id:\
+    \ bool\n:param str base_url: Service URL\n:param str filepath: Existing config"
+  type: Class
+  uid: azure.mgmt.logic.LogicManagementClient

@@ -1,0 +1,40 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.VirtualMachineExtension
+  fullName: azure.mgmt.compute.models.VirtualMachineExtension
+  inheritance:
+  - azure.mgmt.compute.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: VirtualMachineExtension
+  source:
+    id: VirtualMachineExtension
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_extension.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_extension.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Describes a Virtual Machine Extension.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar id: Resource\
+    \ Id\n:vartype id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type:\
+    \ Resource type\n:vartype type: str\n:param location: Resource location\n:type\
+    \ location: str\n:param tags: Resource tags\n:type tags: dict\n:param force_update_tag:\
+    \ how the extension handler should be forced to\n update even if the extension\
+    \ configuration has not changed.\n:type force_update_tag: str\n:param publisher:\
+    \ the name of the extension handler publisher.\n:type publisher: str\n:param virtual_machine_extension_type:\
+    \ the type of the extension handler.\n:type virtual_machine_extension_type: str\n\
+    :param type_handler_version: the type version of the extension handler.\n:type\
+    \ type_handler_version: str\n:param auto_upgrade_minor_version: whether the extension\
+    \ handler should\n be automatically upgraded across minor versions.\n:type auto_upgrade_minor_version:\
+    \ bool\n:param settings: Json formatted public settings for the extension.\n:type\
+    \ settings: object\n:param protected_settings: Json formatted protected settings\
+    \ for the\n extension.\n:type protected_settings: object\n:ivar provisioning_state:\
+    \ the provisioning state, which only appears in\n the response.\n:vartype provisioning_state:\
+    \ str\n:param instance_view: the virtual machine extension instance view.\n:type\
+    \ instance_view: :class:`VirtualMachineExtensionInstanceView\n <azure.mgmt.compute.models.VirtualMachineExtensionInstanceView>`"
+  type: Class
+  uid: azure.mgmt.compute.models.VirtualMachineExtension

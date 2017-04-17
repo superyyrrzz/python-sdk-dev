@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.keyvault.generated.models.CertificateItem
+  fullName: azure.keyvault.generated.models.CertificateItem
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.keyvault.generated.models
+  name: CertificateItem
+  source:
+    id: CertificateItem
+    path: azure-keyvault/azure/keyvault/generated/models/certificate_item.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/models/certificate_item.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The certificate item containing certificate metadata.\n\n:param id: Certificate\
+    \ identifier.\n:type id: str\n:param attributes: The certificate management attributes.\n\
+    :type attributes: :class:`CertificateAttributes\n <azure.keyvault.generated.models.CertificateAttributes>`\n\
+    :param tags: Application specific metadata in the form of key-value pairs.\n:type\
+    \ tags: dict\n:param x509_thumbprint: Thumbprint of the certificate.\n:type x509_thumbprint:\
+    \ bytes"
+  type: Class
+  uid: azure.keyvault.generated.models.CertificateItem

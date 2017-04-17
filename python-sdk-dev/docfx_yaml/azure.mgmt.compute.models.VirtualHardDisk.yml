@@ -1,0 +1,23 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.VirtualHardDisk
+  fullName: azure.mgmt.compute.models.VirtualHardDisk
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: VirtualHardDisk
+  source:
+    id: VirtualHardDisk
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_hard_disk.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_hard_disk.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Describes the uri of a disk.\n\n:param uri: the virtual hard disk's uri.\
+    \ It should be a valid Uri to a\n virtual hard disk.\n:type uri: str"
+  type: Class
+  uid: azure.mgmt.compute.models.VirtualHardDisk

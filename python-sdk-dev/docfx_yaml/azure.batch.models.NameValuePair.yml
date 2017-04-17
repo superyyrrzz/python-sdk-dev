@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.NameValuePair
+  fullName: azure.batch.models.NameValuePair
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: NameValuePair
+  source:
+    id: NameValuePair
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/name_value_pair.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/name_value_pair.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Represents a name-value pair.
+
+
+    :param name: The name in the name-value pair.
+
+    :type name: str
+
+    :param value: The value in the name-value pair.
+
+    :type value: str'
+  type: Class
+  uid: azure.batch.models.NameValuePair

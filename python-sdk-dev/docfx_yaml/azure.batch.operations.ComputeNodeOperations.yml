@@ -1,0 +1,342 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.batch.operations.ComputeNodeOperations.add_user
+  - azure.batch.operations.ComputeNodeOperations.delete_user
+  - azure.batch.operations.ComputeNodeOperations.disable_scheduling
+  - azure.batch.operations.ComputeNodeOperations.enable_scheduling
+  - azure.batch.operations.ComputeNodeOperations.get
+  - azure.batch.operations.ComputeNodeOperations.get_remote_desktop
+  - azure.batch.operations.ComputeNodeOperations.get_remote_login_settings
+  - azure.batch.operations.ComputeNodeOperations.list
+  - azure.batch.operations.ComputeNodeOperations.reboot
+  - azure.batch.operations.ComputeNodeOperations.reimage
+  - azure.batch.operations.ComputeNodeOperations.update_user
+  class: azure.batch.operations.ComputeNodeOperations
+  fullName: azure.batch.operations.ComputeNodeOperations
+  inheritance:
+  - builtins.object
+  module: azure.batch.operations
+  name: ComputeNodeOperations
+  source:
+    id: ComputeNodeOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 18
+  summary: 'ComputeNodeOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.batch.operations.ComputeNodeOperations
+- _type: method
+  class: azure.batch.operations.ComputeNodeOperations
+  fullName: azure.batch.operations.ComputeNodeOperations.add_user
+  module: azure.batch.operations
+  name: add_user
+  source:
+    id: add_user
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 35
+  summary: "Adds a user account to the specified compute node.\n\n:param pool_id:\
+    \ The id of the pool that contains the compute node.\n:type pool_id: str\n:param\
+    \ node_id: The id of the machine on which you want to create a\n user account.\n\
+    :type node_id: str\n:param user: The user account to be created.\n:type user:\
+    \ :class:`ComputeNodeUser\n <azure.batch.models.ComputeNodeUser>`\n:param compute_node_add_user_options:\
+    \ Additional parameters for the\n operation\n:type compute_node_add_user_options:\n\
+    \ :class:`ComputeNodeAddUserOptions <azure.batch.models.ComputeNodeAddUserOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.batch.operations.ComputeNodeOperations.add_user
+- _type: method
+  class: azure.batch.operations.ComputeNodeOperations
+  fullName: azure.batch.operations.ComputeNodeOperations.delete_user
+  module: azure.batch.operations
+  name: delete_user
+  source:
+    id: delete_user
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 125
+  summary: "Deletes a user account from the specified compute node.\n\n:param pool_id:\
+    \ The id of the pool that contains the compute node.\n:type pool_id: str\n:param\
+    \ node_id: The id of the machine on which you want to delete a\n user account.\n\
+    :type node_id: str\n:param user_name: The name of the user account to delete.\n\
+    :type user_name: str\n:param compute_node_delete_user_options: Additional parameters\
+    \ for\n the operation\n:type compute_node_delete_user_options:\n :class:`ComputeNodeDeleteUserOptions\n\
+    \ <azure.batch.models.ComputeNodeDeleteUserOptions>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.batch.operations.ComputeNodeOperations.delete_user
+- _type: method
+  class: azure.batch.operations.ComputeNodeOperations
+  fullName: azure.batch.operations.ComputeNodeOperations.disable_scheduling
+  module: azure.batch.operations
+  name: disable_scheduling
+  source:
+    id: disable_scheduling
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 596
+  summary: "Disables task scheduling on the specified compute node.\n\n:param pool_id:\
+    \ The id of the pool that contains the compute node.\n:type pool_id: str\n:param\
+    \ node_id: The id of the compute node on which you want to\n disable task scheduling.\n\
+    :type node_id: str\n:param compute_node_disable_scheduling_options: Additional\
+    \ parameters\n for the operation\n:type compute_node_disable_scheduling_options:\n\
+    \ :class:`ComputeNodeDisableSchedulingOptions\n <azure.batch.models.ComputeNodeDisableSchedulingOptions>`\n\
+    :param node_disable_scheduling_option: What to do with currently\n running tasks\
+    \ when disable task scheduling on the compute node. The\n default value is requeue.\
+    \ Possible values include: 'requeue',\n 'terminate', 'taskcompletion'\n:type node_disable_scheduling_option:\
+    \ str or\n :class:`DisableComputeNodeSchedulingOption\n <azure.batch.models.DisableComputeNodeSchedulingOption>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.batch.operations.ComputeNodeOperations.disable_scheduling
+- _type: method
+  class: azure.batch.operations.ComputeNodeOperations
+  fullName: azure.batch.operations.ComputeNodeOperations.enable_scheduling
+  module: azure.batch.operations
+  name: enable_scheduling
+  source:
+    id: enable_scheduling
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 697
+  summary: "Enables task scheduling on the specified compute node.\n\n:param pool_id:\
+    \ The id of the pool that contains the compute node.\n:type pool_id: str\n:param\
+    \ node_id: The id of the compute node on which you want to\n enable task scheduling.\n\
+    :type node_id: str\n:param compute_node_enable_scheduling_options: Additional\
+    \ parameters\n for the operation\n:type compute_node_enable_scheduling_options:\n\
+    \ :class:`ComputeNodeEnableSchedulingOptions\n <azure.batch.models.ComputeNodeEnableSchedulingOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.batch.operations.ComputeNodeOperations.enable_scheduling
+- _type: method
+  class: azure.batch.operations.ComputeNodeOperations
+  fullName: azure.batch.operations.ComputeNodeOperations.get
+  module: azure.batch.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 304
+  summary: "Gets information about the specified compute node.\n\n:param pool_id:\
+    \ The id of the pool that contains the compute node.\n:type pool_id: str\n:param\
+    \ node_id: The id of the compute node that you want to get\n information about.\n\
+    :type node_id: str\n:param compute_node_get_options: Additional parameters for\
+    \ the\n operation\n:type compute_node_get_options: :class:`ComputeNodeGetOptions\n\
+    \ <azure.batch.models.ComputeNodeGetOptions>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ComputeNode\
+    \ <azure.batch.models.ComputeNode>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.batch.operations.ComputeNodeOperations.get
+- _type: method
+  class: azure.batch.operations.ComputeNodeOperations
+  fullName: azure.batch.operations.ComputeNodeOperations.get_remote_desktop
+  module: azure.batch.operations
+  name: get_remote_desktop
+  source:
+    id: get_remote_desktop
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 874
+  summary: "Gets the Remote Desktop Protocol file for the specified compute node.\n\
+    \n:param pool_id: The id of the pool that contains the compute node.\n:type pool_id:\
+    \ str\n:param node_id: The id of the compute node for which you want to get\n\
+    \ the Remote Desktop Protocol file.\n:type node_id: str\n:param compute_node_get_remote_desktop_options:\
+    \ Additional parameters\n for the operation\n:type compute_node_get_remote_desktop_options:\n\
+    \ :class:`ComputeNodeGetRemoteDesktopOptions\n <azure.batch.models.ComputeNodeGetRemoteDesktopOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param callback: When specified, will be called with each chunk of\n data that\
+    \ is streamed. The callback should take two arguments, the\n bytes of the current\
+    \ chunk of data and the response object. If the\n data is uploading, response\
+    \ will be None.\n:type callback: Callable[Bytes, response=None]\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ Generator\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.batch.operations.ComputeNodeOperations.get_remote_desktop
+- _type: method
+  class: azure.batch.operations.ComputeNodeOperations
+  fullName: azure.batch.operations.ComputeNodeOperations.get_remote_login_settings
+  module: azure.batch.operations
+  name: get_remote_login_settings
+  source:
+    id: get_remote_login_settings
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 781
+  summary: "Gets the settings required for remote login to a compute node.\n\n:param\
+    \ pool_id: The id of the pool that contains the compute node.\n:type pool_id:\
+    \ str\n:param node_id: The id of the compute node for which to obtain the\n remote\
+    \ login settings.\n:type node_id: str\n:param compute_node_get_remote_login_settings_options:\
+    \ Additional\n parameters for the operation\n:type compute_node_get_remote_login_settings_options:\n\
+    \ :class:`ComputeNodeGetRemoteLoginSettingsOptions\n <azure.batch.models.ComputeNodeGetRemoteLoginSettingsOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`ComputeNodeGetRemoteLoginSettingsResult\n <azure.batch.models.ComputeNodeGetRemoteLoginSettingsResult>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.batch.operations.ComputeNodeOperations.get_remote_login_settings
+- _type: method
+  class: azure.batch.operations.ComputeNodeOperations
+  fullName: azure.batch.operations.ComputeNodeOperations.list
+  module: azure.batch.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 971
+  summary: "Lists the compute nodes in the specified pool.\n\n:param pool_id: The\
+    \ id of the pool from which you want to list nodes.\n:type pool_id: str\n:param\
+    \ compute_node_list_options: Additional parameters for the\n operation\n:type\
+    \ compute_node_list_options: :class:`ComputeNodeListOptions\n <azure.batch.models.ComputeNodeListOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`ComputeNodePaged\n <azure.batch.models.ComputeNodePaged>`"
+  type: Method
+  uid: azure.batch.operations.ComputeNodeOperations.list
+- _type: method
+  class: azure.batch.operations.ComputeNodeOperations
+  fullName: azure.batch.operations.ComputeNodeOperations.reboot
+  module: azure.batch.operations
+  name: reboot
+  source:
+    id: reboot
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 400
+  summary: "Restarts the specified compute node.\n\n:param pool_id: The id of the\
+    \ pool that contains the compute node.\n:type pool_id: str\n:param node_id: The\
+    \ id of the compute node that you want to restart.\n:type node_id: str\n:param\
+    \ compute_node_reboot_options: Additional parameters for the\n operation\n:type\
+    \ compute_node_reboot_options: :class:`ComputeNodeRebootOptions\n <azure.batch.models.ComputeNodeRebootOptions>`\n\
+    :param node_reboot_option: When to reboot the compute node and what\n to do with\
+    \ currently running tasks. The default value is requeue.\n Possible values include:\
+    \ 'requeue', 'terminate', 'taskcompletion',\n 'retaineddata'\n:type node_reboot_option:\
+    \ str or :class:`ComputeNodeRebootOption\n <azure.batch.models.ComputeNodeRebootOption>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.batch.operations.ComputeNodeOperations.reboot
+- _type: method
+  class: azure.batch.operations.ComputeNodeOperations
+  fullName: azure.batch.operations.ComputeNodeOperations.reimage
+  module: azure.batch.operations
+  name: reimage
+  source:
+    id: reimage
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 498
+  summary: "Reinstalls the operating system on the specified compute node.\n\n:param\
+    \ pool_id: The id of the pool that contains the compute node.\n:type pool_id:\
+    \ str\n:param node_id: The id of the compute node that you want to restart.\n\
+    :type node_id: str\n:param compute_node_reimage_options: Additional parameters\
+    \ for the\n operation\n:type compute_node_reimage_options: :class:`ComputeNodeReimageOptions\n\
+    \ <azure.batch.models.ComputeNodeReimageOptions>`\n:param node_reimage_option:\
+    \ When to reimage the compute node and what\n to do with currently running tasks.\
+    \ The default value is requeue.\n Possible values include: 'requeue', 'terminate',\
+    \ 'taskcompletion',\n 'retaineddata'\n:type node_reimage_option: str or :class:`ComputeNodeReimageOption\n\
+    \ <azure.batch.models.ComputeNodeReimageOption>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.batch.operations.ComputeNodeOperations.reimage
+- _type: method
+  class: azure.batch.operations.ComputeNodeOperations
+  fullName: azure.batch.operations.ComputeNodeOperations.update_user
+  module: azure.batch.operations
+  name: update_user
+  source:
+    id: update_user
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 209
+  summary: "Updates the password or expiration time of a user account on the\nspecified\
+    \ compute node.\n\n:param pool_id: The id of the pool that contains the compute\
+    \ node.\n:type pool_id: str\n:param node_id: The id of the machine on which you\
+    \ want to update a\n user account.\n:type node_id: str\n:param user_name: The\
+    \ name of the user account to update.\n:type user_name: str\n:param node_update_user_parameter:\
+    \ The parameters for the request.\n:type node_update_user_parameter: :class:`NodeUpdateUserParameter\n\
+    \ <azure.batch.models.NodeUpdateUserParameter>`\n:param compute_node_update_user_options:\
+    \ Additional parameters for\n the operation\n:type compute_node_update_user_options:\n\
+    \ :class:`ComputeNodeUpdateUserOptions\n <azure.batch.models.ComputeNodeUpdateUserOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.batch.operations.ComputeNodeOperations.update_user

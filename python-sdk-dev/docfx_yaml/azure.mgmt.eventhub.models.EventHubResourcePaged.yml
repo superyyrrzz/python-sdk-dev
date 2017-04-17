@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.eventhub.models.EventHubResourcePaged
+  fullName: azure.mgmt.eventhub.models.EventHubResourcePaged
+  inheritance:
+  - msrest.paging.Paged
+  - collections.abc.Iterator
+  - collections.abc.Iterable
+  - builtins.object
+  module: azure.mgmt.eventhub.models
+  name: EventHubResourcePaged
+  source:
+    id: EventHubResourcePaged
+    path: azure-mgmt-eventhub/azure/mgmt/eventhub/models/event_hub_resource_paged.py
+    remote:
+      branch: master
+      path: azure-mgmt-eventhub/azure/mgmt/eventhub/models/event_hub_resource_paged.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: A paging container for iterating over a list of EventHubResource object
+  type: Class
+  uid: azure.mgmt.eventhub.models.EventHubResourcePaged

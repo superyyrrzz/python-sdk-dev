@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.containerregistry.models.StorageAccountProperties
+  fullName: azure.mgmt.containerregistry.models.StorageAccountProperties
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.containerregistry.models
+  name: StorageAccountProperties
+  source:
+    id: StorageAccountProperties
+    path: azure-mgmt-containerregistry/azure/mgmt/containerregistry/models/storage_account_properties.py
+    remote:
+      branch: master
+      path: azure-mgmt-containerregistry/azure/mgmt/containerregistry/models/storage_account_properties.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'The properties of a storage account for a container registry.
+
+
+    :param name: The name of the storage account.
+
+    :type name: str
+
+    :param access_key: The access key to the storage account.
+
+    :type access_key: str'
+  type: Class
+  uid: azure.mgmt.containerregistry.models.StorageAccountProperties

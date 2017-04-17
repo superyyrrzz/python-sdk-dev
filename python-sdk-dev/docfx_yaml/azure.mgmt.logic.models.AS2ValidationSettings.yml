@@ -1,0 +1,38 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.AS2ValidationSettings
+  fullName: azure.mgmt.logic.models.AS2ValidationSettings
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: AS2ValidationSettings
+  source:
+    id: AS2ValidationSettings
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/as2_validation_settings.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/as2_validation_settings.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "AS2ValidationSettings.\n\n:param override_message_properties: The value\
+    \ indicating whether to\n override incoming message properties with those in agreement.\n\
+    :type override_message_properties: bool\n:param encrypt_message: The value indicating\
+    \ whether the message has to\n be encrypted.\n:type encrypt_message: bool\n:param\
+    \ sign_message: The value indicating whether the message has to be\n signed.\n\
+    :type sign_message: bool\n:param compress_message: The value indicating whether\
+    \ the message has to\n be compressed.\n:type compress_message: bool\n:param check_duplicate_message:\
+    \ The value indicating whether to check for\n duplicate message.\n:type check_duplicate_message:\
+    \ bool\n:param interchange_duplicates_validity_days: The number of days to look\n\
+    \ back for duplicate interchange.\n:type interchange_duplicates_validity_days:\
+    \ int\n:param check_certificate_revocation_list_on_send: The value indicating\n\
+    \ whether to check for certificate revocation list on send.\n:type check_certificate_revocation_list_on_send:\
+    \ bool\n:param check_certificate_revocation_list_on_receive: The value indicating\n\
+    \ whether to check for certificate revocation list on receive.\n:type check_certificate_revocation_list_on_receive:\
+    \ bool\n:param encryption_algorithm: The encryption algorithm. Possible values\n\
+    \ include: 'NotSpecified', 'None', 'DES3', 'RC2', 'AES128', 'AES192',\n 'AES256'\n\
+    :type encryption_algorithm: str or :class:`EncryptionAlgorithm\n <azure.mgmt.logic.models.EncryptionAlgorithm>`"
+  type: Class
+  uid: azure.mgmt.logic.models.AS2ValidationSettings

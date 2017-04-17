@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.containerregistry.models.Resource
+  fullName: azure.mgmt.containerregistry.models.Resource
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.containerregistry.models
+  name: Resource
+  source:
+    id: Resource
+    path: azure-mgmt-containerregistry/azure/mgmt/containerregistry/models/resource.py
+    remote:
+      branch: master
+      path: azure-mgmt-containerregistry/azure/mgmt/containerregistry/models/resource.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "An Azure resource.\n\nVariables are only populated by the server, and\
+    \ will be ignored when\nsending a request.\n\n:ivar id: The resource ID.\n:vartype\
+    \ id: str\n:ivar name: The name of the resource.\n:vartype name: str\n:ivar type:\
+    \ The type of the resource.\n:vartype type: str\n:param location: The location\
+    \ of the resource. This cannot be changed\n after the resource is created.\n:type\
+    \ location: str\n:param tags: The tags of the resource.\n:type tags: dict"
+  type: Class
+  uid: azure.mgmt.containerregistry.models.Resource

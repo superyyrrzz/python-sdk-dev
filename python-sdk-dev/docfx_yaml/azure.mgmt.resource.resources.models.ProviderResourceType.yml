@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.resources.models.ProviderResourceType
+  fullName: azure.mgmt.resource.resources.models.ProviderResourceType
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.resource.resources.models
+  name: ProviderResourceType
+  source:
+    id: ProviderResourceType
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/provider_resource_type.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/provider_resource_type.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Resource type managed by the resource provider.\n\n:param resource_type:\
+    \ The resource type.\n:type resource_type: str\n:param locations: The collection\
+    \ of locations where this resource type\n can be created in.\n:type locations:\
+    \ list of str\n:param aliases: The aliases that are supported by this resource\
+    \ type.\n:type aliases: list of :class:`AliasType\n <azure.mgmt.resource.resources.models.AliasType>`\n\
+    :param api_versions: The api version.\n:type api_versions: list of str\n:param\
+    \ properties: The properties.\n:type properties: dict"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.ProviderResourceType

@@ -1,0 +1,51 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.EdifactSchemaReference
+  fullName: azure.mgmt.logic.models.EdifactSchemaReference
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: EdifactSchemaReference
+  source:
+    id: EdifactSchemaReference
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/edifact_schema_reference.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/edifact_schema_reference.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'EdifactSchemaReference.
+
+
+    :param message_id: The message id.
+
+    :type message_id: str
+
+    :param message_version: The message version.
+
+    :type message_version: str
+
+    :param message_release: The message release version.
+
+    :type message_release: str
+
+    :param sender_application_id: The sender application id.
+
+    :type sender_application_id: str
+
+    :param sender_application_qualifier: The sender application qualifier.
+
+    :type sender_application_qualifier: str
+
+    :param association_assigned_code: The association assigned code.
+
+    :type association_assigned_code: str
+
+    :param schema_name: The schema name.
+
+    :type schema_name: str'
+  type: Class
+  uid: azure.mgmt.logic.models.EdifactSchemaReference

@@ -1,0 +1,34 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.ApplicationGatewayProbe
+  fullName: azure.mgmt.network.models.ApplicationGatewayProbe
+  inheritance:
+  - azure.mgmt.network.models.sub_resource.SubResource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: ApplicationGatewayProbe
+  source:
+    id: ApplicationGatewayProbe
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/application_gateway_probe.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/application_gateway_probe.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Probe of application gateway.\n\n:param id: Resource Id\n:type id: str\n\
+    :param protocol: Protocol. Possible values include: 'Http', 'Https'\n:type protocol:\
+    \ str or :class:`ApplicationGatewayProtocol\n <azure.mgmt.network.models.ApplicationGatewayProtocol>`\n\
+    :param host: Host to send probe to\n:type host: str\n:param path: Relative path\
+    \ of probe\n:type path: str\n:param interval: Probing interval in seconds\n:type\
+    \ interval: int\n:param timeout: Probing timeout in seconds\n:type timeout: int\n\
+    :param unhealthy_threshold: Probing unhealthy threshold\n:type unhealthy_threshold:\
+    \ int\n:param provisioning_state: Provisioning state of the backend http\n settings\
+    \ resource Updating/Deleting/Failed\n:type provisioning_state: str\n:param name:\
+    \ Name of the resource that is unique within a resource group.\n This name can\
+    \ be used to access the resource\n:type name: str\n:param etag: A unique read-only\
+    \ string that changes whenever the resource\n is updated\n:type etag: str"
+  type: Class
+  uid: azure.mgmt.network.models.ApplicationGatewayProbe

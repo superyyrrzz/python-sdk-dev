@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.ResourceMetricName
+  fullName: azure.mgmt.web.models.ResourceMetricName
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: ResourceMetricName
+  source:
+    id: ResourceMetricName
+    path: azure-mgmt-web/azure/mgmt/web/models/resource_metric_name.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/resource_metric_name.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Name of a metric for any resource.
+
+
+    :param value: metric name value
+
+    :type value: str
+
+    :param localized_value: Localized metric name value
+
+    :type localized_value: str'
+  type: Class
+  uid: azure.mgmt.web.models.ResourceMetricName

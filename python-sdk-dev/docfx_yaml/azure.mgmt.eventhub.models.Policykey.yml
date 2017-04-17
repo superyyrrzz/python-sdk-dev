@@ -1,0 +1,22 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.eventhub.models.Policykey
+  fullName: azure.mgmt.eventhub.models.Policykey
+  inheritance:
+  - enum.Enum
+  - builtins.object
+  module: azure.mgmt.eventhub.models
+  name: Policykey
+  source:
+    id: Policykey
+    path: azure-mgmt-eventhub/azure/mgmt/eventhub/models/event_hub_management_client_enums.py
+    remote:
+      branch: master
+      path: azure-mgmt-eventhub/azure/mgmt/eventhub/models/event_hub_management_client_enums.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 53
+  summary: An enumeration.
+  type: Class
+  uid: azure.mgmt.eventhub.models.Policykey

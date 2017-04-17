@@ -1,0 +1,158 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.batch.operations.CertificateOperations.add
+  - azure.batch.operations.CertificateOperations.cancel_deletion
+  - azure.batch.operations.CertificateOperations.delete
+  - azure.batch.operations.CertificateOperations.get
+  - azure.batch.operations.CertificateOperations.list
+  class: azure.batch.operations.CertificateOperations
+  fullName: azure.batch.operations.CertificateOperations
+  inheritance:
+  - builtins.object
+  module: azure.batch.operations
+  name: CertificateOperations
+  source:
+    id: CertificateOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/certificate_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/certificate_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 18
+  summary: 'CertificateOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.batch.operations.CertificateOperations
+- _type: method
+  class: azure.batch.operations.CertificateOperations
+  fullName: azure.batch.operations.CertificateOperations.add
+  module: azure.batch.operations
+  name: add
+  source:
+    id: add
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/certificate_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/certificate_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 35
+  summary: "Adds a certificate to the specified account.\n\n:param certificate: The\
+    \ certificate to be added.\n:type certificate: :class:`CertificateAddParameter\n\
+    \ <azure.batch.models.CertificateAddParameter>`\n:param certificate_add_options:\
+    \ Additional parameters for the\n operation\n:type certificate_add_options: :class:`CertificateAddOptions\n\
+    \ <azure.batch.models.CertificateAddOptions>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.batch.operations.CertificateOperations.add
+- _type: method
+  class: azure.batch.operations.CertificateOperations
+  fullName: azure.batch.operations.CertificateOperations.cancel_deletion
+  module: azure.batch.operations
+  name: cancel_deletion
+  source:
+    id: cancel_deletion
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/certificate_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/certificate_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 212
+  summary: "Cancels a failed deletion of a certificate from the specified account.\n\
+    \n:param thumbprint_algorithm: The algorithm used to derive the\n thumbprint parameter.\
+    \ This must be sha1.\n:type thumbprint_algorithm: str\n:param thumbprint: The\
+    \ thumbprint of the certificate being deleted.\n:type thumbprint: str\n:param\
+    \ certificate_cancel_deletion_options: Additional parameters for\n the operation\n\
+    :type certificate_cancel_deletion_options:\n :class:`CertificateCancelDeletionOptions\n\
+    \ <azure.batch.models.CertificateCancelDeletionOptions>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.batch.operations.CertificateOperations.cancel_deletion
+- _type: method
+  class: azure.batch.operations.CertificateOperations
+  fullName: azure.batch.operations.CertificateOperations.delete
+  module: azure.batch.operations
+  name: delete
+  source:
+    id: delete
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/certificate_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/certificate_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 296
+  summary: "Deletes a certificate from the specified account.\n\n:param thumbprint_algorithm:\
+    \ The algorithm used to derive the\n thumbprint parameter. This must be sha1.\n\
+    :type thumbprint_algorithm: str\n:param thumbprint: The thumbprint of the certificate\
+    \ to be deleted.\n:type thumbprint: str\n:param certificate_delete_options: Additional\
+    \ parameters for the\n operation\n:type certificate_delete_options: :class:`CertificateDeleteOptions\n\
+    \ <azure.batch.models.CertificateDeleteOptions>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
+    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.batch.operations.CertificateOperations.delete
+- _type: method
+  class: azure.batch.operations.CertificateOperations
+  fullName: azure.batch.operations.CertificateOperations.get
+  module: azure.batch.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/certificate_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/certificate_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 378
+  summary: "Gets information about the specified certificate.\n\n:param thumbprint_algorithm:\
+    \ The algorithm used to derive the\n thumbprint parameter. This must be sha1.\n\
+    :type thumbprint_algorithm: str\n:param thumbprint: The thumbprint of the certificate\
+    \ to get.\n:type thumbprint: str\n:param certificate_get_options: Additional parameters\
+    \ for the\n operation\n:type certificate_get_options: :class:`CertificateGetOptions\n\
+    \ <azure.batch.models.CertificateGetOptions>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`Certificate\
+    \ <azure.batch.models.Certificate>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.batch.operations.CertificateOperations.get
+- _type: method
+  class: azure.batch.operations.CertificateOperations
+  fullName: azure.batch.operations.CertificateOperations.list
+  module: azure.batch.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/certificate_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/certificate_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 115
+  summary: "Lists all of the certificates that have been added to the specified\n\
+    account.\n\n:param certificate_list_options: Additional parameters for the\n operation\n\
+    :type certificate_list_options: :class:`CertificateListOptions\n <azure.batch.models.CertificateListOptions>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`CertificatePaged\n <azure.batch.models.CertificatePaged>`"
+  type: Method
+  uid: azure.batch.operations.CertificateOperations.list

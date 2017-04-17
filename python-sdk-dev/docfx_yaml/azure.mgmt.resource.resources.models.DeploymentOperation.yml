@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.resources.models.DeploymentOperation
+  fullName: azure.mgmt.resource.resources.models.DeploymentOperation
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.resource.resources.models
+  name: DeploymentOperation
+  source:
+    id: DeploymentOperation
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/deployment_operation.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/deployment_operation.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Deployment operation information.\n\n:param id: Full deployment operation\
+    \ id.\n:type id: str\n:param operation_id: Deployment operation id.\n:type operation_id:\
+    \ str\n:param properties: Deployment properties.\n:type properties: :class:`DeploymentOperationProperties\n\
+    \ <azure.mgmt.resource.resources.models.DeploymentOperationProperties>`"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.DeploymentOperation

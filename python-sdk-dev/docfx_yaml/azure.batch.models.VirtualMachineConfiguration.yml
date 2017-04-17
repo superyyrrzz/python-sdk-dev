@@ -1,0 +1,33 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.VirtualMachineConfiguration
+  fullName: azure.batch.models.VirtualMachineConfiguration
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: VirtualMachineConfiguration
+  source:
+    id: VirtualMachineConfiguration
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/virtual_machine_configuration.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/virtual_machine_configuration.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The configuration for compute nodes in a pool based on the Azure Virtual\n\
+    Machines infrastructure.\n\n:param image_reference: A reference to the Azure Virtual\
+    \ Machines\n Marketplace image to use.\n:type image_reference: :class:`ImageReference\n\
+    \ <azure.batch.models.ImageReference>`\n:param node_agent_sku_id: The SKU of Batch\
+    \ Node Agent to be provisioned\n on the compute node. The Batch node agent is\
+    \ a program that runs on each\n node in the pool, and provides the command-and-control\
+    \ interface between\n the node and the Batch service. There are different implementations\
+    \ of\n the node agent, known as SKUs, for different operating systems.\n:type\
+    \ node_agent_sku_id: str\n:param windows_configuration: Windows operating system\
+    \ settings on the\n virtual machine. This property must not be specified if the\n\
+    \ imageReference property specifies a Linux OS image.\n:type windows_configuration:\
+    \ :class:`WindowsConfiguration\n <azure.batch.models.WindowsConfiguration>`"
+  type: Class
+  uid: azure.batch.models.VirtualMachineConfiguration

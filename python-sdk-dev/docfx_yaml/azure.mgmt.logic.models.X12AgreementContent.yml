@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.X12AgreementContent
+  fullName: azure.mgmt.logic.models.X12AgreementContent
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: X12AgreementContent
+  source:
+    id: X12AgreementContent
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/x12_agreement_content.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/x12_agreement_content.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "X12AgreementContent.\n\n:param receive_agreement: The X12 one-way receive\
+    \ agreement.\n:type receive_agreement: :class:`X12OneWayAgreement\n <azure.mgmt.logic.models.X12OneWayAgreement>`\n\
+    :param send_agreement: The X12 one-way send agreement.\n:type send_agreement:\
+    \ :class:`X12OneWayAgreement\n <azure.mgmt.logic.models.X12OneWayAgreement>`"
+  type: Class
+  uid: azure.mgmt.logic.models.X12AgreementContent

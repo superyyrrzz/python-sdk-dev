@@ -1,0 +1,23 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.TaskAddCollectionParameter
+  fullName: azure.batch.models.TaskAddCollectionParameter
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: TaskAddCollectionParameter
+  source:
+    id: TaskAddCollectionParameter
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/task_add_collection_parameter.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/task_add_collection_parameter.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A collection of Azure Batch tasks to add.\n\n:param value: The collection\
+    \ of tasks to add.\n:type value: list of :class:`TaskAddParameter\n <azure.batch.models.TaskAddParameter>`"
+  type: Class
+  uid: azure.batch.models.TaskAddCollectionParameter

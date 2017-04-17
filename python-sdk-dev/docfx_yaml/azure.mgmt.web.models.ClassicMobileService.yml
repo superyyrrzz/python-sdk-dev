@@ -1,0 +1,52 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.ClassicMobileService
+  fullName: azure.mgmt.web.models.ClassicMobileService
+  inheritance:
+  - azure.mgmt.web.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: ClassicMobileService
+  source:
+    id: ClassicMobileService
+    path: azure-mgmt-web/azure/mgmt/web/models/classic_mobile_service.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/classic_mobile_service.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'A mobile service.
+
+
+    :param id: Resource Id
+
+    :type id: str
+
+    :param name: Resource Name
+
+    :type name: str
+
+    :param kind: Kind of resource
+
+    :type kind: str
+
+    :param location: Resource Location
+
+    :type location: str
+
+    :param type: Resource type
+
+    :type type: str
+
+    :param tags: Resource tags
+
+    :type tags: dict
+
+    :param classic_mobile_service_name: Name of the mobile service
+
+    :type classic_mobile_service_name: str'
+  type: Class
+  uid: azure.mgmt.web.models.ClassicMobileService

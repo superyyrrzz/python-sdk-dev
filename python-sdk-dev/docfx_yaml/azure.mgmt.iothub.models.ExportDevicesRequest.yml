@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.iothub.models.ExportDevicesRequest
+  fullName: azure.mgmt.iothub.models.ExportDevicesRequest
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.iothub.models
+  name: ExportDevicesRequest
+  source:
+    id: ExportDevicesRequest
+    path: azure-mgmt-iothub/azure/mgmt/iothub/models/export_devices_request.py
+    remote:
+      branch: master
+      path: azure-mgmt-iothub/azure/mgmt/iothub/models/export_devices_request.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Use to provide parameters when requesting an export of all devices in\
+    \ the\nIoT hub.\n\n:param export_blob_container_uri: The export blob container\
+    \ URI.\n:type export_blob_container_uri: str\n:param exclude_keys: The value indicating\
+    \ whether keys should be excluded\n during export.\n:type exclude_keys: bool"
+  type: Class
+  uid: azure.mgmt.iothub.models.ExportDevicesRequest

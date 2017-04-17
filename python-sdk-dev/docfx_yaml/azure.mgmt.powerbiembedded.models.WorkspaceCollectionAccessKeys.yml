@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.powerbiembedded.models.WorkspaceCollectionAccessKeys
+  fullName: azure.mgmt.powerbiembedded.models.WorkspaceCollectionAccessKeys
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.powerbiembedded.models
+  name: WorkspaceCollectionAccessKeys
+  source:
+    id: WorkspaceCollectionAccessKeys
+    path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/models/workspace_collection_access_keys.py
+    remote:
+      branch: master
+      path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/models/workspace_collection_access_keys.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'WorkspaceCollectionAccessKeys.
+
+
+    :param key1: Access key 1
+
+    :type key1: str
+
+    :param key2: Access key 2
+
+    :type key2: str'
+  type: Class
+  uid: azure.mgmt.powerbiembedded.models.WorkspaceCollectionAccessKeys

@@ -1,0 +1,42 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.datalake.analytics.catalog.models.USqlType
+  fullName: azure.mgmt.datalake.analytics.catalog.models.USqlType
+  inheritance:
+  - azure.mgmt.datalake.analytics.catalog.models.catalog_item.CatalogItem
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.datalake.analytics.catalog.models
+  name: USqlType
+  source:
+    id: USqlType
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/models/usql_type.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/models/usql_type.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A Data Lake Analytics catalog U-SQL type item.\n\n:param compute_account_name:\
+    \ the name of the Data Lake Analytics account.\n:type compute_account_name: str\n\
+    :param version: the version of the catalog item.\n:type version: str\n:param database_name:\
+    \ the name of the database.\n:type database_name: str\n:param schema_name: the\
+    \ name of the schema associated with this table and\n database.\n:type schema_name:\
+    \ str\n:param name: the name of type for this type.\n:type name: str\n:param type_family:\
+    \ the type family for this type.\n:type type_family: str\n:param c_sharp_name:\
+    \ the C# name for this type.\n:type c_sharp_name: str\n:param full_csharp_name:\
+    \ the fully qualified C# name for this type.\n:type full_csharp_name: str\n:param\
+    \ system_type_id: the system type ID for this type.\n:type system_type_id: int\n\
+    :param user_type_id: the user type ID for this type.\n:type user_type_id: int\n\
+    :param schema_id: the schema ID for this type.\n:type schema_id: int\n:param principal_id:\
+    \ the principal ID for this type.\n:type principal_id: int\n:param is_nullable:\
+    \ the the switch indicating if this type is nullable.\n:type is_nullable: bool\n\
+    :param is_user_defined: the the switch indicating if this type is user\n defined.\n\
+    :type is_user_defined: bool\n:param is_assembly_type: the the switch indicating\
+    \ if this type is an\n assembly type.\n:type is_assembly_type: bool\n:param is_table_type:\
+    \ the the switch indicating if this type is a table\n type.\n:type is_table_type:\
+    \ bool\n:param is_complex_type: the the switch indicating if this type is a\n\
+    \ complex type.\n:type is_complex_type: bool"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.catalog.models.USqlType

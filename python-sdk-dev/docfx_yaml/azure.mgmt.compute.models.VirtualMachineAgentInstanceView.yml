@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.compute.models.VirtualMachineAgentInstanceView
+  fullName: azure.mgmt.compute.models.VirtualMachineAgentInstanceView
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.compute.models
+  name: VirtualMachineAgentInstanceView
+  source:
+    id: VirtualMachineAgentInstanceView
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_agent_instance_view.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_agent_instance_view.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The instance view of the VM Agent running on the virtual machine.\n\n\
+    :param vm_agent_version: the VM Agent full version.\n:type vm_agent_version: str\n\
+    :param extension_handlers: the virtual machine extension handler instance\n view.\n\
+    :type extension_handlers: list of\n :class:`VirtualMachineExtensionHandlerInstanceView\n\
+    \ <azure.mgmt.compute.models.VirtualMachineExtensionHandlerInstanceView>`\n:param\
+    \ statuses: the resource status information.\n:type statuses: list of :class:`InstanceViewStatus\n\
+    \ <azure.mgmt.compute.models.InstanceViewStatus>`"
+  type: Class
+  uid: azure.mgmt.compute.models.VirtualMachineAgentInstanceView

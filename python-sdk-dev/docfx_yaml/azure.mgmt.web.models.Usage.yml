@@ -1,0 +1,37 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.Usage
+  fullName: azure.mgmt.web.models.Usage
+  inheritance:
+  - azure.mgmt.web.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: Usage
+  source:
+    id: Usage
+    path: azure-mgmt-web/azure/mgmt/web/models/usage.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/usage.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Class that represents usage of the quota resource.\n\n:param id: Resource\
+    \ Id\n:type id: str\n:param name: Resource Name\n:type name: str\n:param kind:\
+    \ Kind of resource\n:type kind: str\n:param location: Resource Location\n:type\
+    \ location: str\n:param type: Resource type\n:type type: str\n:param tags: Resource\
+    \ tags\n:type tags: dict\n:param display_name: Friendly name shown in the UI\n\
+    :type display_name: str\n:param usage_name: Name of the quota\n:type usage_name:\
+    \ str\n:param resource_name: Name of the quota resource\n:type resource_name:\
+    \ str\n:param unit: Units of measurement for the quota resource\n:type unit: str\n\
+    :param current_value: The current value of the resource counter\n:type current_value:\
+    \ long\n:param limit: The resource limit\n:type limit: long\n:param next_reset_time:\
+    \ Next reset time for the resource counter\n:type next_reset_time: datetime\n\
+    :param compute_mode: ComputeMode used for this usage. Possible values\n include:\
+    \ 'Shared', 'Dedicated', 'Dynamic'\n:type compute_mode: str or :class:`ComputeModeOptions\n\
+    \ <azure.mgmt.web.models.ComputeModeOptions>`\n:param site_mode: SiteMode used\
+    \ for this usage\n:type site_mode: str"
+  type: Class
+  uid: azure.mgmt.web.models.Usage

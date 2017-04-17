@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.monitor.models.UsageMetric
+  fullName: azure.monitor.models.UsageMetric
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.monitor.models
+  name: UsageMetric
+  source:
+    id: UsageMetric
+    path: azure-monitor/azure/monitor/models/usage_metric.py
+    remote:
+      branch: master
+      path: azure-monitor/azure/monitor/models/usage_metric.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Usage Metric data.\n\n:param name: the usage metric name and display name.\n\
+    :type name: :class:`LocalizableString\n <azure.monitor.models.LocalizableString>`\n\
+    :param current_value: the current value for the usage metric.\n:type current_value:\
+    \ float\n:param id: the id for the usage metric.\n:type id: str\n:param limit:\
+    \ the quota limit the usage metric.\n:type limit: float\n:param unit: the unit\
+    \ for the usage metric.\n:type unit: str\n:param next_reset_time: the next reset\
+    \ time for the current value.\n:type next_reset_time: datetime\n:param quota_period:\
+    \ the amount of time it takes to reset the value.\n:type quota_period: timedelta"
+  type: Class
+  uid: azure.monitor.models.UsageMetric

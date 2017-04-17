@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.notificationhubs.models.SubResource
+  fullName: azure.mgmt.notificationhubs.models.SubResource
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.notificationhubs.models
+  name: SubResource
+  source:
+    id: SubResource
+    path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/models/sub_resource.py
+    remote:
+      branch: master
+      path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/models/sub_resource.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'SubResource.
+
+
+    :param id: Resource Id
+
+    :type id: str'
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.SubResource

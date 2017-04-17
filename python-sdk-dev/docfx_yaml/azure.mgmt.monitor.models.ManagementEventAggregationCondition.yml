@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.monitor.models.ManagementEventAggregationCondition
+  fullName: azure.mgmt.monitor.models.ManagementEventAggregationCondition
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.monitor.models
+  name: ManagementEventAggregationCondition
+  source:
+    id: ManagementEventAggregationCondition
+    path: azure-mgmt-monitor/azure/mgmt/monitor/models/management_event_aggregation_condition.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/models/management_event_aggregation_condition.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "How the data that is collected should be combined over time.\n\n:param\
+    \ operator: the condition operator. Possible values include:\n 'GreaterThan',\
+    \ 'GreaterThanOrEqual', 'LessThan', 'LessThanOrEqual'\n:type operator: str or\
+    \ :class:`ConditionOperator\n <azure.mgmt.monitor.models.ConditionOperator>`\n\
+    :param threshold: The threshold value that activates the alert.\n:type threshold:\
+    \ float\n:param window_size: the period of time (in ISO 8601 duration format)\
+    \ that\n is used to monitor alert activity based on the threshold. If specified\n\
+    \ then it must be between 5 minutes and 1 day.\n:type window_size: timedelta"
+  type: Class
+  uid: azure.mgmt.monitor.models.ManagementEventAggregationCondition

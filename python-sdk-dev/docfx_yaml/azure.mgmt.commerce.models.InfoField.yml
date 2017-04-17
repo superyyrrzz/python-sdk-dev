@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.commerce.models.InfoField
+  fullName: azure.mgmt.commerce.models.InfoField
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.commerce.models
+  name: InfoField
+  source:
+    id: InfoField
+    path: azure-mgmt-commerce/azure/mgmt/commerce/models/info_field.py
+    remote:
+      branch: master
+      path: azure-mgmt-commerce/azure/mgmt/commerce/models/info_field.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Key-value pairs of instance details in the legacy format.\n\n:param project:\
+    \ Identifies the name of the instance provisioned by the\n user.\n:type project:\
+    \ str"
+  type: Class
+  uid: azure.mgmt.commerce.models.InfoField

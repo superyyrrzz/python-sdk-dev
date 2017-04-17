@@ -1,0 +1,30 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.resources.models.ResourceGroup
+  fullName: azure.mgmt.resource.resources.models.ResourceGroup
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.resource.resources.models
+  name: ResourceGroup
+  source:
+    id: ResourceGroup
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/resource_group.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/resource_group.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Resource group information.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:ivar id: The ID of the resource\
+    \ group.\n:vartype id: str\n:param name: The Name of the resource group.\n:type\
+    \ name: str\n:param properties:\n:type properties: :class:`ResourceGroupProperties\n\
+    \ <azure.mgmt.resource.resources.models.ResourceGroupProperties>`\n:param location:\
+    \ The location of the resource group. It cannot be changed\n after the resource\
+    \ group has been created. Has to be one of the\n supported Azure Locations, such\
+    \ as West US, East US, West Europe, East\n Asia, etc.\n:type location: str\n:param\
+    \ tags: The tags attached to the resource group.\n:type tags: dict"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.ResourceGroup

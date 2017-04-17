@@ -1,0 +1,37 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.devtestlabs.models.Schedule
+  fullName: azure.mgmt.devtestlabs.models.Schedule
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.devtestlabs.models
+  name: Schedule
+  source:
+    id: Schedule
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/schedule.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/schedule.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A schedule.\n\n:param status: The status of the schedule. Possible values\
+    \ include:\n 'Enabled', 'Disabled'\n:type status: str or :class:`EnableStatus\n\
+    \ <azure.mgmt.devtestlabs.models.EnableStatus>`\n:param task_type: The task type\
+    \ of the schedule.\n:type task_type: str\n:param weekly_recurrence: The weekly\
+    \ recurrence of the schedule.\n:type weekly_recurrence: :class:`WeekDetails\n\
+    \ <azure.mgmt.devtestlabs.models.WeekDetails>`\n:param daily_recurrence: The daily\
+    \ recurrence of the schedule.\n:type daily_recurrence: :class:`DayDetails\n <azure.mgmt.devtestlabs.models.DayDetails>`\n\
+    :param hourly_recurrence: The hourly recurrence of the schedule.\n:type hourly_recurrence:\
+    \ :class:`HourDetails\n <azure.mgmt.devtestlabs.models.HourDetails>`\n:param time_zone_id:\
+    \ The time zone id.\n:type time_zone_id: str\n:param provisioning_state: The provisioning\
+    \ status of the resource.\n:type provisioning_state: str\n:param unique_identifier:\
+    \ The unique immutable identifier of a resource\n (Guid).\n:type unique_identifier:\
+    \ str\n:param id: The identifier of the resource.\n:type id: str\n:param name:\
+    \ The name of the resource.\n:type name: str\n:param type: The type of the resource.\n\
+    :type type: str\n:param location: The location of the resource.\n:type location:\
+    \ str\n:param tags: The tags of the resource.\n:type tags: dict"
+  type: Class
+  uid: azure.mgmt.devtestlabs.models.Schedule

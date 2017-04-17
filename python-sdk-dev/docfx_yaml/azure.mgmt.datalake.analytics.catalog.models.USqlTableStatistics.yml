@@ -1,0 +1,40 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.datalake.analytics.catalog.models.USqlTableStatistics
+  fullName: azure.mgmt.datalake.analytics.catalog.models.USqlTableStatistics
+  inheritance:
+  - azure.mgmt.datalake.analytics.catalog.models.catalog_item.CatalogItem
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.datalake.analytics.catalog.models
+  name: USqlTableStatistics
+  source:
+    id: USqlTableStatistics
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/models/usql_table_statistics.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/models/usql_table_statistics.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "A Data Lake Analytics catalog U-SQL table statistics item.\n\n:param compute_account_name:\
+    \ the name of the Data Lake Analytics account.\n:type compute_account_name: str\n\
+    :param version: the version of the catalog item.\n:type version: str\n:param database_name:\
+    \ the name of the database.\n:type database_name: str\n:param schema_name: the\
+    \ name of the schema associated with this table and\n database.\n:type schema_name:\
+    \ str\n:param table_name: the name of the table.\n:type table_name: str\n:param\
+    \ name: the name of the table statistics.\n:type name: str\n:param user_stat_name:\
+    \ the name of the user statistics.\n:type user_stat_name: str\n:param stat_data_path:\
+    \ the path to the statistics data.\n:type stat_data_path: str\n:param create_time:\
+    \ the creation time of the statistics.\n:type create_time: datetime\n:param update_time:\
+    \ the last time the statistics were updated.\n:type update_time: datetime\n:param\
+    \ is_user_created: the switch indicating if these statistics are user\n created.\n\
+    :type is_user_created: bool\n:param is_auto_created: the switch indicating if\
+    \ these statistics are\n automatically created.\n:type is_auto_created: bool\n\
+    :param has_filter: the switch indicating if these statistics have a\n filter.\n\
+    :type has_filter: bool\n:param filter_definition: the filter definition for the\
+    \ statistics.\n:type filter_definition: str\n:param col_names: the list of column\
+    \ names associated with these\n statistics.\n:type col_names: list of str"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.catalog.models.USqlTableStatistics

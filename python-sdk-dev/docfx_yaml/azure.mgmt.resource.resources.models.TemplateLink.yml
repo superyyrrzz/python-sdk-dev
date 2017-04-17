@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.resources.models.TemplateLink
+  fullName: azure.mgmt.resource.resources.models.TemplateLink
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.resource.resources.models
+  name: TemplateLink
+  source:
+    id: TemplateLink
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/template_link.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/template_link.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Entity representing the reference to the template.\n\n:param uri: URI\
+    \ referencing the template.\n:type uri: str\n:param content_version: If included\
+    \ it must match the ContentVersion in\n the template.\n:type content_version:\
+    \ str"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.TemplateLink

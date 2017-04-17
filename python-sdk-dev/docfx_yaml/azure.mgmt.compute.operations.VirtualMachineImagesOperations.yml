@@ -1,0 +1,149 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.compute.operations.VirtualMachineImagesOperations.get
+  - azure.mgmt.compute.operations.VirtualMachineImagesOperations.list
+  - azure.mgmt.compute.operations.VirtualMachineImagesOperations.list_offers
+  - azure.mgmt.compute.operations.VirtualMachineImagesOperations.list_publishers
+  - azure.mgmt.compute.operations.VirtualMachineImagesOperations.list_skus
+  class: azure.mgmt.compute.operations.VirtualMachineImagesOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachineImagesOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.compute.operations
+  name: VirtualMachineImagesOperations
+  source:
+    id: VirtualMachineImagesOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_images_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_images_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'VirtualMachineImagesOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    :ivar api_version: Client Api Version. Constant value: "2016-03-30".'
+  type: Class
+  uid: azure.mgmt.compute.operations.VirtualMachineImagesOperations
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachineImagesOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachineImagesOperations.get
+  module: azure.mgmt.compute.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_images_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_images_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 38
+  summary: "Gets a virtual machine image.\n\n:param location:\n:type location: str\n\
+    :param publisher_name:\n:type publisher_name: str\n:param offer:\n:type offer:\
+    \ str\n:param skus:\n:type skus: str\n:param version:\n:type version: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`VirtualMachineImage\n <azure.mgmt.compute.models.VirtualMachineImage>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachineImagesOperations.get
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachineImagesOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachineImagesOperations.list
+  module: azure.mgmt.compute.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_images_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_images_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 108
+  summary: "Gets a list of virtual machine images.\n\n:param location:\n:type location:\
+    \ str\n:param publisher_name:\n:type publisher_name: str\n:param offer:\n:type\
+    \ offer: str\n:param skus:\n:type skus: str\n:param filter: The filter to apply\
+    \ on the operation.\n:type filter: str\n:param top:\n:type top: int\n:param orderby:\n\
+    :type orderby: str\n:param dict custom_headers: headers that will be added to\
+    \ the request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: list of :class:`VirtualMachineImageResource\n <azure.mgmt.compute.models.VirtualMachineImageResource>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachineImagesOperations.list
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachineImagesOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachineImagesOperations.list_offers
+  module: azure.mgmt.compute.operations
+  name: list_offers
+  source:
+    id: list_offers
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_images_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_images_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 187
+  summary: "Gets a list of virtual machine image offers.\n\n:param location:\n:type\
+    \ location: str\n:param publisher_name:\n:type publisher_name: str\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ list of :class:`VirtualMachineImageResource\n <azure.mgmt.compute.models.VirtualMachineImageResource>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachineImagesOperations.list_offers
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachineImagesOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachineImagesOperations.list_publishers
+  module: azure.mgmt.compute.operations
+  name: list_publishers
+  source:
+    id: list_publishers
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_images_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_images_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 248
+  summary: "Gets a list of virtual machine image publishers.\n\n:param location:\n\
+    :type location: str\n:param dict custom_headers: headers that will be added to\
+    \ the request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: list of :class:`VirtualMachineImageResource\n <azure.mgmt.compute.models.VirtualMachineImageResource>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachineImagesOperations.list_publishers
+- _type: method
+  class: azure.mgmt.compute.operations.VirtualMachineImagesOperations
+  fullName: azure.mgmt.compute.operations.VirtualMachineImagesOperations.list_skus
+  module: azure.mgmt.compute.operations
+  name: list_skus
+  source:
+    id: list_skus
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_images_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_images_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 306
+  summary: "Gets a list of virtual machine image skus.\n\n:param location:\n:type\
+    \ location: str\n:param publisher_name:\n:type publisher_name: str\n:param offer:\n\
+    :type offer: str\n:param dict custom_headers: headers that will be added to the\
+    \ request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: list of :class:`VirtualMachineImageResource\n <azure.mgmt.compute.models.VirtualMachineImageResource>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.compute.operations.VirtualMachineImagesOperations.list_skus

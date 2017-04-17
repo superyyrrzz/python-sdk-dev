@@ -1,0 +1,225 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.resource.resources.operations.DeploymentsOperations.cancel
+  - azure.mgmt.resource.resources.operations.DeploymentsOperations.check_existence
+  - azure.mgmt.resource.resources.operations.DeploymentsOperations.create_or_update
+  - azure.mgmt.resource.resources.operations.DeploymentsOperations.delete
+  - azure.mgmt.resource.resources.operations.DeploymentsOperations.export_template
+  - azure.mgmt.resource.resources.operations.DeploymentsOperations.get
+  - azure.mgmt.resource.resources.operations.DeploymentsOperations.list
+  - azure.mgmt.resource.resources.operations.DeploymentsOperations.validate
+  class: azure.mgmt.resource.resources.operations.DeploymentsOperations
+  fullName: azure.mgmt.resource.resources.operations.DeploymentsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.resource.resources.operations
+  name: DeploymentsOperations
+  source:
+    id: DeploymentsOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/deployments_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/deployments_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 20
+  summary: 'DeploymentsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.resource.resources.operations.DeploymentsOperations
+- _type: method
+  class: azure.mgmt.resource.resources.operations.DeploymentsOperations
+  fullName: azure.mgmt.resource.resources.operations.DeploymentsOperations.cancel
+  module: azure.mgmt.resource.resources.operations
+  name: cancel
+  source:
+    id: cancel
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/deployments_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/deployments_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 328
+  summary: "Cancel a currently running template deployment.\n\n:param resource_group_name:\
+    \ The name of the resource group. The name\n is case insensitive.\n:type resource_group_name:\
+    \ str\n:param deployment_name: The name of the deployment.\n:type deployment_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.resource.resources.operations.DeploymentsOperations.cancel
+- _type: method
+  class: azure.mgmt.resource.resources.operations.DeploymentsOperations
+  fullName: azure.mgmt.resource.resources.operations.DeploymentsOperations.check_existence
+  module: azure.mgmt.resource.resources.operations
+  name: check_existence
+  source:
+    id: check_existence
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/deployments_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/deployments_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 114
+  summary: "Checks whether deployment exists.\n\n:param resource_group_name: The name\
+    \ of the resource group to check.\n The name is case insensitive.\n:type resource_group_name:\
+    \ str\n:param deployment_name: The name of the deployment.\n:type deployment_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: bool\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.resource.resources.operations.DeploymentsOperations.check_existence
+- _type: method
+  class: azure.mgmt.resource.resources.operations.DeploymentsOperations
+  fullName: azure.mgmt.resource.resources.operations.DeploymentsOperations.create_or_update
+  module: azure.mgmt.resource.resources.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/deployments_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/deployments_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 170
+  summary: "Create a named template deployment using a template.\n\n:param resource_group_name:\
+    \ The name of the resource group. The name\n is case insensitive.\n:type resource_group_name:\
+    \ str\n:param deployment_name: The name of the deployment.\n:type deployment_name:\
+    \ str\n:param properties: The deployment properties.\n:type properties: :class:`DeploymentProperties\n\
+    \ <azure.mgmt.resource.resources.models.DeploymentProperties>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`DeploymentExtended\n <azure.mgmt.resource.resources.models.DeploymentExtended>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.resource.resources.operations.DeploymentsOperations.create_or_update
+- _type: method
+  class: azure.mgmt.resource.resources.operations.DeploymentsOperations
+  fullName: azure.mgmt.resource.resources.operations.DeploymentsOperations.delete
+  module: azure.mgmt.resource.resources.operations
+  name: delete
+  source:
+    id: delete
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/deployments_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/deployments_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 37
+  summary: "Delete deployment.\n\n:param resource_group_name: The name of the resource\
+    \ group. The name\n is case insensitive.\n:type resource_group_name: str\n:param\
+    \ deployment_name: The name of the deployment to be deleted.\n:type deployment_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.resource.resources.operations.DeploymentsOperations.delete
+- _type: method
+  class: azure.mgmt.resource.resources.operations.DeploymentsOperations
+  fullName: azure.mgmt.resource.resources.operations.DeploymentsOperations.export_template
+  module: azure.mgmt.resource.resources.operations
+  name: export_template
+  source:
+    id: export_template
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/deployments_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/deployments_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 455
+  summary: "Exports a deployment template.\n\n:param resource_group_name: The name\
+    \ of the resource group. The name\n is case insensitive.\n:type resource_group_name:\
+    \ str\n:param deployment_name: The name of the deployment.\n:type deployment_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`DeploymentExportResult\n <azure.mgmt.resource.resources.models.DeploymentExportResult>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.resource.resources.operations.DeploymentsOperations.export_template
+- _type: method
+  class: azure.mgmt.resource.resources.operations.DeploymentsOperations
+  fullName: azure.mgmt.resource.resources.operations.DeploymentsOperations.get
+  module: azure.mgmt.resource.resources.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/deployments_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/deployments_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 266
+  summary: "Get a deployment.\n\n:param resource_group_name: The name of the resource\
+    \ group to get.\n The name is case insensitive.\n:type resource_group_name: str\n\
+    :param deployment_name: The name of the deployment.\n:type deployment_name: str\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`DeploymentExtended\n <azure.mgmt.resource.resources.models.DeploymentExtended>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.resource.resources.operations.DeploymentsOperations.get
+- _type: method
+  class: azure.mgmt.resource.resources.operations.DeploymentsOperations
+  fullName: azure.mgmt.resource.resources.operations.DeploymentsOperations.list
+  module: azure.mgmt.resource.resources.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/deployments_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/deployments_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 517
+  summary: "Get a list of deployments.\n\n:param resource_group_name: The name of\
+    \ the resource group to filter\n by. The name is case insensitive.\n:type resource_group_name:\
+    \ str\n:param filter: The filter to apply on the operation.\n:type filter: str\n\
+    :param top: Query parameters. If null is passed returns all\n deployments.\n:type\
+    \ top: int\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`DeploymentExtendedPaged\n <azure.mgmt.resource.resources.models.DeploymentExtendedPaged>`"
+  type: Method
+  uid: azure.mgmt.resource.resources.operations.DeploymentsOperations.list
+- _type: method
+  class: azure.mgmt.resource.resources.operations.DeploymentsOperations
+  fullName: azure.mgmt.resource.resources.operations.DeploymentsOperations.validate
+  module: azure.mgmt.resource.resources.operations
+  name: validate
+  source:
+    id: validate
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/deployments_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/deployments_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 382
+  summary: "Validate a deployment template.\n\n:param resource_group_name: The name\
+    \ of the resource group. The name\n is case insensitive.\n:type resource_group_name:\
+    \ str\n:param deployment_name: The name of the deployment.\n:type deployment_name:\
+    \ str\n:param properties: The deployment properties.\n:type properties: :class:`DeploymentProperties\n\
+    \ <azure.mgmt.resource.resources.models.DeploymentProperties>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`DeploymentValidateResult\n\
+    \ <azure.mgmt.resource.resources.models.DeploymentValidateResult>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.resource.resources.operations.DeploymentsOperations.validate

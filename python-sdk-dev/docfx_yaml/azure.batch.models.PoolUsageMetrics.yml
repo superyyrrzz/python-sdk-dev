@@ -1,0 +1,32 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.PoolUsageMetrics
+  fullName: azure.batch.models.PoolUsageMetrics
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: PoolUsageMetrics
+  source:
+    id: PoolUsageMetrics
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/pool_usage_metrics.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/pool_usage_metrics.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Usage metrics for a pool across an aggregation interval.\n\n:param pool_id:\
+    \ The id of the pool whose metrics are being aggregated.\n:type pool_id: str\n\
+    :param start_time: The start time of the aggregation interval.\n:type start_time:\
+    \ datetime\n:param end_time: The end time of the aggregation interval.\n:type\
+    \ end_time: datetime\n:param vm_size: The size of virtual machines in the pool.\
+    \ All VMs in a\n pool are the same size.\n:type vm_size: str\n:param total_core_hours:\
+    \ The total core hours used in the pool during\n this aggregation interval.\n\
+    :type total_core_hours: float\n:param data_ingress_gi_b: The cross data center\
+    \ network ingress in GiB to\n the pool during this interval.\n:type data_ingress_gi_b:\
+    \ float\n:param data_egress_gi_b: The cross data center network egress in GiB\
+    \ from\n the pool during this interval.\n:type data_egress_gi_b: float"
+  type: Class
+  uid: azure.batch.models.PoolUsageMetrics

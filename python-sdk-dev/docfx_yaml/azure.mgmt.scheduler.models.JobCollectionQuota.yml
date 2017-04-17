@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.scheduler.models.JobCollectionQuota
+  fullName: azure.mgmt.scheduler.models.JobCollectionQuota
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.scheduler.models
+  name: JobCollectionQuota
+  source:
+    id: JobCollectionQuota
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/job_collection_quota.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/job_collection_quota.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "JobCollectionQuota.\n\n:param max_job_count: Gets or set the maximum job\
+    \ count.\n:type max_job_count: int\n:param max_job_occurrence: Gets or sets the\
+    \ maximum job occurrence.\n:type max_job_occurrence: int\n:param max_recurrence:\
+    \ Gets or set the maximum recurrence.\n:type max_recurrence: :class:`JobMaxRecurrence\n\
+    \ <azure.mgmt.scheduler.models.JobMaxRecurrence>`"
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobCollectionQuota

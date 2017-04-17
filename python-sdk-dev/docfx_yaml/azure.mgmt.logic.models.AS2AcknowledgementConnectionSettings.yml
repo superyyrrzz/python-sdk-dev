@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.AS2AcknowledgementConnectionSettings
+  fullName: azure.mgmt.logic.models.AS2AcknowledgementConnectionSettings
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: AS2AcknowledgementConnectionSettings
+  source:
+    id: AS2AcknowledgementConnectionSettings
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/as2_acknowledgement_connection_settings.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/as2_acknowledgement_connection_settings.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "AS2AcknowledgementConnectionSettings.\n\n:param ignore_certificate_name_mismatch:\
+    \ The value indicating whether to\n ignore mismatch in certificate name.\n:type\
+    \ ignore_certificate_name_mismatch: bool\n:param support_http_status_code_continue:\
+    \ The value indicating whether to\n support HTTP status code 'CONTINUE'.\n:type\
+    \ support_http_status_code_continue: bool\n:param keep_http_connection_alive:\
+    \ The value indicating whether to keep\n the connection alive.\n:type keep_http_connection_alive:\
+    \ bool\n:param unfold_http_headers: The value indicating whether to unfold the\n\
+    \ HTTP headers.\n:type unfold_http_headers: bool"
+  type: Class
+  uid: azure.mgmt.logic.models.AS2AcknowledgementConnectionSettings

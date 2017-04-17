@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.resources.models.TagValue
+  fullName: azure.mgmt.resource.resources.models.TagValue
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.resource.resources.models
+  name: TagValue
+  source:
+    id: TagValue
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/tag_value.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/tag_value.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Tag information.\n\n:param id: The tag ID.\n:type id: str\n:param tag_value:\
+    \ The tag value.\n:type tag_value: str\n:param count: The tag value count.\n:type\
+    \ count: :class:`TagCount\n <azure.mgmt.resource.resources.models.TagCount>`"
+  type: Class
+  uid: azure.mgmt.resource.resources.models.TagValue

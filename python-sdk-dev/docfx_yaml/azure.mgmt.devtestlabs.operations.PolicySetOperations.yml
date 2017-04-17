@@ -1,0 +1,56 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.devtestlabs.operations.PolicySetOperations.evaluate_policies
+  class: azure.mgmt.devtestlabs.operations.PolicySetOperations
+  fullName: azure.mgmt.devtestlabs.operations.PolicySetOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.devtestlabs.operations
+  name: PolicySetOperations
+  source:
+    id: PolicySetOperations
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/policy_set_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/policy_set_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'PolicySetOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.devtestlabs.operations.PolicySetOperations
+- _type: method
+  class: azure.mgmt.devtestlabs.operations.PolicySetOperations
+  fullName: azure.mgmt.devtestlabs.operations.PolicySetOperations.evaluate_policies
+  module: azure.mgmt.devtestlabs.operations
+  name: evaluate_policies
+  source:
+    id: evaluate_policies
+    path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/policy_set_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/policy_set_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Evaluates Lab Policy.\n\n:param resource_group_name: The name of the resource\
+    \ group.\n:type resource_group_name: str\n:param lab_name: The name of the lab.\n\
+    :type lab_name: str\n:param name: The name of the policy set.\n:type name: str\n\
+    :param policies: Policies to evaluate.\n:type policies: list of :class:`EvaluatePoliciesProperties\n\
+    \ <azure.mgmt.devtestlabs.models.EvaluatePoliciesProperties>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`EvaluatePoliciesResponse\n\
+    \ <azure.mgmt.devtestlabs.models.EvaluatePoliciesResponse>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.devtestlabs.operations.PolicySetOperations.evaluate_policies

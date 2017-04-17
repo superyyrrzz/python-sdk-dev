@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.AutoHealRules
+  fullName: azure.mgmt.web.models.AutoHealRules
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: AutoHealRules
+  source:
+    id: AutoHealRules
+    path: azure-mgmt-web/azure/mgmt/web/models/auto_heal_rules.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/auto_heal_rules.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "AutoHealRules - describes the rules which can be defined for auto-heal.\n\
+    \n:param triggers: Triggers - Conditions that describe when to execute the\n auto-heal\
+    \ actions\n:type triggers: :class:`AutoHealTriggers\n <azure.mgmt.web.models.AutoHealTriggers>`\n\
+    :param actions: Actions - Actions to be executed when a rule is triggered\n:type\
+    \ actions: :class:`AutoHealActions\n <azure.mgmt.web.models.AutoHealActions>`"
+  type: Class
+  uid: azure.mgmt.web.models.AutoHealRules

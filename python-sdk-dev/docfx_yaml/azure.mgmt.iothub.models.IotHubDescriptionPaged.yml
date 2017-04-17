@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.iothub.models.IotHubDescriptionPaged
+  fullName: azure.mgmt.iothub.models.IotHubDescriptionPaged
+  inheritance:
+  - msrest.paging.Paged
+  - collections.abc.Iterator
+  - collections.abc.Iterable
+  - builtins.object
+  module: azure.mgmt.iothub.models
+  name: IotHubDescriptionPaged
+  source:
+    id: IotHubDescriptionPaged
+    path: azure-mgmt-iothub/azure/mgmt/iothub/models/iot_hub_description_paged.py
+    remote:
+      branch: master
+      path: azure-mgmt-iothub/azure/mgmt/iothub/models/iot_hub_description_paged.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: A paging container for iterating over a list of IotHubDescription object
+  type: Class
+  uid: azure.mgmt.iothub.models.IotHubDescriptionPaged

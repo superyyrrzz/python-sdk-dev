@@ -1,0 +1,35 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.SiteLimits
+  fullName: azure.mgmt.web.models.SiteLimits
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: SiteLimits
+  source:
+    id: SiteLimits
+    path: azure-mgmt-web/azure/mgmt/web/models/site_limits.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/site_limits.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Represents metric limits set on a web app.
+
+
+    :param max_percentage_cpu: Maximum allowed CPU usage percentage
+
+    :type max_percentage_cpu: float
+
+    :param max_memory_in_mb: Maximum allowed memory usage in MB
+
+    :type max_memory_in_mb: long
+
+    :param max_disk_size_in_mb: Maximum allowed disk size usage in MB
+
+    :type max_disk_size_in_mb: long'
+  type: Class
+  uid: azure.mgmt.web.models.SiteLimits

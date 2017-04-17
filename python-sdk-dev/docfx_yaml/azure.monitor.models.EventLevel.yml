@@ -1,0 +1,22 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.monitor.models.EventLevel
+  fullName: azure.monitor.models.EventLevel
+  inheritance:
+  - enum.Enum
+  - builtins.object
+  module: azure.monitor.models
+  name: EventLevel
+  source:
+    id: EventLevel
+    path: azure-monitor/azure/monitor/models/insights_client_enums.py
+    remote:
+      branch: master
+      path: azure-monitor/azure/monitor/models/insights_client_enums.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 23
+  summary: An enumeration.
+  type: Class
+  uid: azure.monitor.models.EventLevel

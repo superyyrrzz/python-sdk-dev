@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.keyvault.models.Sku
+  fullName: azure.mgmt.keyvault.models.Sku
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.keyvault.models
+  name: Sku
+  source:
+    id: Sku
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/keyvault/models/sku.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/keyvault/models/sku.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "SKU details.\n\nVariables are only populated by the server, and will be\
+    \ ignored when\nsending a request.\n\n:ivar family: SKU family name. Default value:\
+    \ \"A\" .\n:vartype family: str\n:param name: SKU name to specify whether the\
+    \ key vault is a standard\n vault or a premium vault. Possible values include:\
+    \ 'standard', 'premium'\n:type name: str or :class:`SkuName <azure.keyvault.models.SkuName>`"
+  type: Class
+  uid: azure.mgmt.keyvault.models.Sku

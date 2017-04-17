@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.containerregistry.models.RegistryNameStatus
+  fullName: azure.mgmt.containerregistry.models.RegistryNameStatus
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.containerregistry.models
+  name: RegistryNameStatus
+  source:
+    id: RegistryNameStatus
+    path: azure-mgmt-containerregistry/azure/mgmt/containerregistry/models/registry_name_status.py
+    remote:
+      branch: master
+      path: azure-mgmt-containerregistry/azure/mgmt/containerregistry/models/registry_name_status.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The result of a request to check the availability of a container registry\n\
+    name.\n\n:param name_available: The value that indicates whether the name is\n\
+    \ available.\n:type name_available: bool\n:param reason: If any, the reason that\
+    \ the name is not available.\n:type reason: str\n:param message: If any, the error\
+    \ message that provides more detail for\n the reason that the name is not available.\n\
+    :type message: str"
+  type: Class
+  uid: azure.mgmt.containerregistry.models.RegistryNameStatus

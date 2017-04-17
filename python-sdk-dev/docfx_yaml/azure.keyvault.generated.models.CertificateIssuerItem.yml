@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.keyvault.generated.models.CertificateIssuerItem
+  fullName: azure.keyvault.generated.models.CertificateIssuerItem
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.keyvault.generated.models
+  name: CertificateIssuerItem
+  source:
+    id: CertificateIssuerItem
+    path: azure-keyvault/azure/keyvault/generated/models/certificate_issuer_item.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/models/certificate_issuer_item.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'The certificate issuer item containing certificate issuer metadata.
+
+
+    :param id: Certificate Identifier.
+
+    :type id: str
+
+    :param provider: The issuer provider.
+
+    :type provider: str'
+  type: Class
+  uid: azure.keyvault.generated.models.CertificateIssuerItem

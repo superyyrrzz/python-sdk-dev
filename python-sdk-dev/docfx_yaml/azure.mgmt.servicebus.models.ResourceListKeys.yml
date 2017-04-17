@@ -1,0 +1,30 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.servicebus.models.ResourceListKeys
+  fullName: azure.mgmt.servicebus.models.ResourceListKeys
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.servicebus.models
+  name: ResourceListKeys
+  source:
+    id: ResourceListKeys
+    path: azure-mgmt-servicebus/azure/mgmt/servicebus/models/resource_list_keys.py
+    remote:
+      branch: master
+      path: azure-mgmt-servicebus/azure/mgmt/servicebus/models/resource_list_keys.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Namespace/ServiceBus Connection String.\n\n:param primary_connection_string:\
+    \ Primary connection string of the\n created namespace authorization rule.\n:type\
+    \ primary_connection_string: str\n:param secondary_connection_string: Secondary\
+    \ connection string of the\n created namespace authorization rule.\n:type secondary_connection_string:\
+    \ str\n:param primary_key: A base64-encoded 256-bit primary key for signing and\n\
+    \ validating the SAS token.\n:type primary_key: str\n:param secondary_key: A base64-encoded\
+    \ 256-bit primary key for signing\n and validating the SAS token.\n:type secondary_key:\
+    \ str\n:param key_name: A string that describes the authorization rule.\n:type\
+    \ key_name: str"
+  type: Class
+  uid: azure.mgmt.servicebus.models.ResourceListKeys

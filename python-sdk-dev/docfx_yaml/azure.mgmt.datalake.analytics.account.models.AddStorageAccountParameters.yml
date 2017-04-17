@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.datalake.analytics.account.models.AddStorageAccountParameters
+  fullName: azure.mgmt.datalake.analytics.account.models.AddStorageAccountParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.datalake.analytics.account.models
+  name: AddStorageAccountParameters
+  source:
+    id: AddStorageAccountParameters
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/models/add_storage_account_parameters.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/models/add_storage_account_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Storage account parameters for a storage account being added to a Data\
+    \ Lake\nAnalytics account.\n\n:param access_key: the access key associated with\
+    \ this Azure Storage\n account that will be used to connect to it.\n:type access_key:\
+    \ str\n:param suffix: the optional suffix for the storage account.\n:type suffix:\
+    \ str"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.account.models.AddStorageAccountParameters

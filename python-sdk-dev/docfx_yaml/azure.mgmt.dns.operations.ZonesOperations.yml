@@ -1,0 +1,161 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.dns.operations.ZonesOperations.create_or_update
+  - azure.mgmt.dns.operations.ZonesOperations.delete
+  - azure.mgmt.dns.operations.ZonesOperations.get
+  - azure.mgmt.dns.operations.ZonesOperations.list
+  - azure.mgmt.dns.operations.ZonesOperations.list_by_resource_group
+  class: azure.mgmt.dns.operations.ZonesOperations
+  fullName: azure.mgmt.dns.operations.ZonesOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.dns.operations
+  name: ZonesOperations
+  source:
+    id: ZonesOperations
+    path: azure-mgmt-dns/azure/mgmt/dns/operations/zones_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-dns/azure/mgmt/dns/operations/zones_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 20
+  summary: 'ZonesOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.dns.operations.ZonesOperations
+- _type: method
+  class: azure.mgmt.dns.operations.ZonesOperations
+  fullName: azure.mgmt.dns.operations.ZonesOperations.create_or_update
+  module: azure.mgmt.dns.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: azure-mgmt-dns/azure/mgmt/dns/operations/zones_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-dns/azure/mgmt/dns/operations/zones_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 37
+  summary: "Creates or updates a DNS zone. Does not modify DNS records within the\n\
+    zone.\n\n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param zone_name: The name of the DNS zone (without a terminating\n dot).\n\
+    :type zone_name: str\n:param parameters: Parameters supplied to the CreateOrUpdate\n\
+    \ operation.\n:type parameters: :class:`Zone <azure.mgmt.dns.models.Zone>`\n:param\
+    \ if_match: The etag of the DNS zone. Omit this value to always\n overwrite the\
+    \ current zone. Specify the last-seen etag value to\n prevent accidentally overwritting\
+    \ any concurrent changes.\n:type if_match: str\n:param if_none_match: Set to '*'\
+    \ to allow a new DNS zone to be\n created, but to prevent updating an existing\
+    \ zone. Other values will\n be ignored.\n:type if_none_match: str\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ :class:`Zone <azure.mgmt.dns.models.Zone>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.dns.operations.ZonesOperations.create_or_update
+- _type: method
+  class: azure.mgmt.dns.operations.ZonesOperations
+  fullName: azure.mgmt.dns.operations.ZonesOperations.delete
+  module: azure.mgmt.dns.operations
+  name: delete
+  source:
+    id: delete
+    path: azure-mgmt-dns/azure/mgmt/dns/operations/zones_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-dns/azure/mgmt/dns/operations/zones_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 121
+  summary: "Deletes a DNS zone. WARNING: All DNS records in the zone will also be\n\
+    deleted. This operation cannot be undone.\n\n:param resource_group_name: The name\
+    \ of the resource group.\n:type resource_group_name: str\n:param zone_name: The\
+    \ name of the DNS zone (without a terminating\n dot).\n:type zone_name: str\n\
+    :param if_match: The etag of the DNS zone. Omit this value to always\n delete\
+    \ the current zone. Specify the last-seen etag value to prevent\n accidentally\
+    \ deleting any concurrent changes.\n:type if_match: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`ZoneDeleteResult\n <azure.mgmt.dns.models.ZoneDeleteResult>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.dns.operations.ZonesOperations.delete
+- _type: method
+  class: azure.mgmt.dns.operations.ZonesOperations
+  fullName: azure.mgmt.dns.operations.ZonesOperations.get
+  module: azure.mgmt.dns.operations
+  name: get
+  source:
+    id: get
+    path: azure-mgmt-dns/azure/mgmt/dns/operations/zones_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-dns/azure/mgmt/dns/operations/zones_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 214
+  summary: "Gets a DNS zone. Retrieves the zone properties, but not the record\nsets\
+    \ within the zone.\n\n:param resource_group_name: The name of the resource group.\n\
+    :type resource_group_name: str\n:param zone_name: The name of the DNS zone (without\
+    \ a terminating\n dot).\n:type zone_name: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`Zone\
+    \ <azure.mgmt.dns.models.Zone>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.dns.operations.ZonesOperations.get
+- _type: method
+  class: azure.mgmt.dns.operations.ZonesOperations
+  fullName: azure.mgmt.dns.operations.ZonesOperations.list
+  module: azure.mgmt.dns.operations
+  name: list
+  source:
+    id: list
+    path: azure-mgmt-dns/azure/mgmt/dns/operations/zones_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-dns/azure/mgmt/dns/operations/zones_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 347
+  summary: "Lists the DNS zones in all resource groups in a subscription.\n\n:param\
+    \ top: The maximum number of DNS zones to return. If not\n specified, returns\
+    \ up to 100 zones.\n:type top: int\n:param dict custom_headers: headers that will\
+    \ be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ZonePaged <azure.mgmt.dns.models.ZonePaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.dns.operations.ZonesOperations.list
+- _type: method
+  class: azure.mgmt.dns.operations.ZonesOperations
+  fullName: azure.mgmt.dns.operations.ZonesOperations.list_by_resource_group
+  module: azure.mgmt.dns.operations
+  name: list_by_resource_group
+  source:
+    id: list_by_resource_group
+    path: azure-mgmt-dns/azure/mgmt/dns/operations/zones_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-dns/azure/mgmt/dns/operations/zones_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 277
+  summary: "Lists the DNS zones within a resource group.\n\n:param resource_group_name:\
+    \ The name of the resource group.\n:type resource_group_name: str\n:param top:\
+    \ The maximum number of record sets to return. If not\n specified, returns up\
+    \ to 100 record sets.\n:type top: int\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ZonePaged <azure.mgmt.dns.models.ZonePaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.dns.operations.ZonesOperations.list_by_resource_group

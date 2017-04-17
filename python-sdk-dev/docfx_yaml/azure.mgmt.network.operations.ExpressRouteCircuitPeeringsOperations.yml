@@ -1,0 +1,132 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.network.operations.ExpressRouteCircuitPeeringsOperations.create_or_update
+  - azure.mgmt.network.operations.ExpressRouteCircuitPeeringsOperations.delete
+  - azure.mgmt.network.operations.ExpressRouteCircuitPeeringsOperations.get
+  - azure.mgmt.network.operations.ExpressRouteCircuitPeeringsOperations.list
+  class: azure.mgmt.network.operations.ExpressRouteCircuitPeeringsOperations
+  fullName: azure.mgmt.network.operations.ExpressRouteCircuitPeeringsOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.network.operations
+  name: ExpressRouteCircuitPeeringsOperations
+  source:
+    id: ExpressRouteCircuitPeeringsOperations
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuit_peerings_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuit_peerings_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 20
+  summary: 'ExpressRouteCircuitPeeringsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.network.operations.ExpressRouteCircuitPeeringsOperations
+- _type: method
+  class: azure.mgmt.network.operations.ExpressRouteCircuitPeeringsOperations
+  fullName: azure.mgmt.network.operations.ExpressRouteCircuitPeeringsOperations.create_or_update
+  module: azure.mgmt.network.operations
+  name: create_or_update
+  source:
+    id: create_or_update
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuit_peerings_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuit_peerings_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 182
+  summary: "The Put Peering operation creates/updates an peering in the specified\n\
+    ExpressRouteCircuits.\n\n:param resource_group_name: The name of the resource\
+    \ group.\n:type resource_group_name: str\n:param circuit_name: The name of the\
+    \ express route circuit.\n:type circuit_name: str\n:param peering_name: The name\
+    \ of the peering.\n:type peering_name: str\n:param peering_parameters: Parameters\
+    \ supplied to the create/update\n ExpressRouteCircuit Peering operation\n:type\
+    \ peering_parameters: :class:`ExpressRouteCircuitPeering\n <azure.mgmt.network.models.ExpressRouteCircuitPeering>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`ExpressRouteCircuitPeering\n <azure.mgmt.network.models.ExpressRouteCircuitPeering>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.ExpressRouteCircuitPeeringsOperations.create_or_update
+- _type: method
+  class: azure.mgmt.network.operations.ExpressRouteCircuitPeeringsOperations
+  fullName: azure.mgmt.network.operations.ExpressRouteCircuitPeeringsOperations.delete
+  module: azure.mgmt.network.operations
+  name: delete
+  source:
+    id: delete
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuit_peerings_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuit_peerings_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 37
+  summary: "The delete peering operation deletes the specified peering from the\n\
+    ExpressRouteCircuit.\n\n:param resource_group_name: The name of the resource group.\n\
+    :type resource_group_name: str\n:param circuit_name: The name of the express route\
+    \ circuit.\n:type circuit_name: str\n:param peering_name: The name of the peering.\n\
+    :type peering_name: str\n:param dict custom_headers: headers that will be added\
+    \ to the request\n:param bool raw: returns the direct response alongside the\n\
+    \ deserialized response\n:rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.ExpressRouteCircuitPeeringsOperations.delete
+- _type: method
+  class: azure.mgmt.network.operations.ExpressRouteCircuitPeeringsOperations
+  fullName: azure.mgmt.network.operations.ExpressRouteCircuitPeeringsOperations.get
+  module: azure.mgmt.network.operations
+  name: get
+  source:
+    id: get
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuit_peerings_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuit_peerings_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 117
+  summary: "The GET peering operation retrieves the specified authorization from\n\
+    the ExpressRouteCircuit.\n\n:param resource_group_name: The name of the resource\
+    \ group.\n:type resource_group_name: str\n:param circuit_name: The name of the\
+    \ express route circuit.\n:type circuit_name: str\n:param peering_name: The name\
+    \ of the peering.\n:type peering_name: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ExpressRouteCircuitPeering\n\
+    \ <azure.mgmt.network.models.ExpressRouteCircuitPeering>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true"
+  type: Method
+  uid: azure.mgmt.network.operations.ExpressRouteCircuitPeeringsOperations.get
+- _type: method
+  class: azure.mgmt.network.operations.ExpressRouteCircuitPeeringsOperations
+  fullName: azure.mgmt.network.operations.ExpressRouteCircuitPeeringsOperations.list
+  module: azure.mgmt.network.operations
+  name: list
+  source:
+    id: list
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuit_peerings_operations.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuit_peerings_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 280
+  summary: "The List peering operation retrieves all the peerings in an\nExpressRouteCircuit.\n\
+    \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
+    \ str\n:param circuit_name: The name of the circuit.\n:type circuit_name: str\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`ExpressRouteCircuitPeeringPaged\n <azure.mgmt.network.models.ExpressRouteCircuitPeeringPaged>`"
+  type: Method
+  uid: azure.mgmt.network.operations.ExpressRouteCircuitPeeringsOperations.list

@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.scheduler.models.JobCollectionDefinition
+  fullName: azure.mgmt.scheduler.models.JobCollectionDefinition
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.scheduler.models
+  name: JobCollectionDefinition
+  source:
+    id: JobCollectionDefinition
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/job_collection_definition.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/job_collection_definition.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "JobCollectionDefinition.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:ivar id: Gets the job collection\
+    \ resource identifier.\n:vartype id: str\n:ivar type: Gets the job collection\
+    \ resource type.\n:vartype type: str\n:param name: Gets or sets the job collection\
+    \ resource name.\n:type name: str\n:param location: Gets or sets the storage account\
+    \ location.\n:type location: str\n:param tags: Gets or sets the tags.\n:type tags:\
+    \ dict\n:param properties: Gets or sets the job collection properties.\n:type\
+    \ properties: :class:`JobCollectionProperties\n <azure.mgmt.scheduler.models.JobCollectionProperties>`"
+  type: Class
+  uid: azure.mgmt.scheduler.models.JobCollectionDefinition

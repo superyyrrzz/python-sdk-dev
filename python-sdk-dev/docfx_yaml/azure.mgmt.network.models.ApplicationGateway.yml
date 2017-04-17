@@ -1,0 +1,64 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.ApplicationGateway
+  fullName: azure.mgmt.network.models.ApplicationGateway
+  inheritance:
+  - azure.mgmt.network.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: ApplicationGateway
+  source:
+    id: ApplicationGateway
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/application_gateway.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/application_gateway.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "ApplicationGateways resource.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:param id: Resource Id\n:type\
+    \ id: str\n:ivar name: Resource name\n:vartype name: str\n:ivar type: Resource\
+    \ type\n:vartype type: str\n:param location: Resource location\n:type location:\
+    \ str\n:param tags: Resource tags\n:type tags: dict\n:param sku: Sku of application\
+    \ gateway resource\n:type sku: :class:`ApplicationGatewaySku\n <azure.mgmt.network.models.ApplicationGatewaySku>`\n\
+    :param ssl_policy: SSL policy of application gateway resource\n:type ssl_policy:\
+    \ :class:`ApplicationGatewaySslPolicy\n <azure.mgmt.network.models.ApplicationGatewaySslPolicy>`\n\
+    :ivar operational_state: Operational state of application gateway\n resource.\
+    \ Possible values include: 'Stopped', 'Starting', 'Running',\n 'Stopping'\n:vartype\
+    \ operational_state: str or\n :class:`ApplicationGatewayOperationalState\n <azure.mgmt.network.models.ApplicationGatewayOperationalState>`\n\
+    :param gateway_ip_configurations: Subnets of application gateway resource\n:type\
+    \ gateway_ip_configurations: list of\n :class:`ApplicationGatewayIPConfiguration\n\
+    \ <azure.mgmt.network.models.ApplicationGatewayIPConfiguration>`\n:param authentication_certificates:\
+    \ Authentication certificates of\n application gateway resource\n:type authentication_certificates:\
+    \ list of\n :class:`ApplicationGatewayAuthenticationCertificate\n <azure.mgmt.network.models.ApplicationGatewayAuthenticationCertificate>`\n\
+    :param ssl_certificates: SSL certificates of application gateway resource\n:type\
+    \ ssl_certificates: list of :class:`ApplicationGatewaySslCertificate\n <azure.mgmt.network.models.ApplicationGatewaySslCertificate>`\n\
+    :param frontend_ip_configurations: Frontend IP addresses of application\n gateway\
+    \ resource\n:type frontend_ip_configurations: list of\n :class:`ApplicationGatewayFrontendIPConfiguration\n\
+    \ <azure.mgmt.network.models.ApplicationGatewayFrontendIPConfiguration>`\n:param\
+    \ frontend_ports: Frontend ports of application gateway resource\n:type frontend_ports:\
+    \ list of :class:`ApplicationGatewayFrontendPort\n <azure.mgmt.network.models.ApplicationGatewayFrontendPort>`\n\
+    :param probes: Probes of application gateway resource\n:type probes: list of :class:`ApplicationGatewayProbe\n\
+    \ <azure.mgmt.network.models.ApplicationGatewayProbe>`\n:param backend_address_pools:\
+    \ Backend address pool of application gateway\n resource\n:type backend_address_pools:\
+    \ list of\n :class:`ApplicationGatewayBackendAddressPool\n <azure.mgmt.network.models.ApplicationGatewayBackendAddressPool>`\n\
+    :param backend_http_settings_collection: Backend http settings of\n application\
+    \ gateway resource\n:type backend_http_settings_collection: list of\n :class:`ApplicationGatewayBackendHttpSettings\n\
+    \ <azure.mgmt.network.models.ApplicationGatewayBackendHttpSettings>`\n:param http_listeners:\
+    \ HTTP listeners of application gateway resource\n:type http_listeners: list of\
+    \ :class:`ApplicationGatewayHttpListener\n <azure.mgmt.network.models.ApplicationGatewayHttpListener>`\n\
+    :param url_path_maps: URL path map of application gateway resource\n:type url_path_maps:\
+    \ list of :class:`ApplicationGatewayUrlPathMap\n <azure.mgmt.network.models.ApplicationGatewayUrlPathMap>`\n\
+    :param request_routing_rules: Request routing rules of application\n gateway resource\n\
+    :type request_routing_rules: list of\n :class:`ApplicationGatewayRequestRoutingRule\n\
+    \ <azure.mgmt.network.models.ApplicationGatewayRequestRoutingRule>`\n:param resource_guid:\
+    \ Resource guid property of the ApplicationGateway\n resource\n:type resource_guid:\
+    \ str\n:param provisioning_state: Provisioning state of the ApplicationGateway\n\
+    \ resource Updating/Deleting/Failed\n:type provisioning_state: str\n:param etag:\
+    \ A unique read-only string that changes whenever the resource\n is updated\n\
+    :type etag: str"
+  type: Class
+  uid: azure.mgmt.network.models.ApplicationGateway

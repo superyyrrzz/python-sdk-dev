@@ -1,0 +1,52 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.servermanager.models.Resource
+  fullName: azure.mgmt.servermanager.models.Resource
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.servermanager.models
+  name: Resource
+  source:
+    id: Resource
+    path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/resource.py
+    remote:
+      branch: master
+      path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/resource.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Resource Manager Resource Information.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :ivar id: Resource Manager Resource ID.
+
+    :vartype id: str
+
+    :ivar type: Resource Manager Resource Type.
+
+    :vartype type: str
+
+    :ivar name: Resource Manager Resource Name.
+
+    :vartype name: str
+
+    :ivar location: Resource Manager Resource Location.
+
+    :vartype location: str
+
+    :param tags: Resource Manager Resource Tags.
+
+    :type tags: dict
+
+    :param etag:
+
+    :type etag: str'
+  type: Class
+  uid: azure.mgmt.servermanager.models.Resource

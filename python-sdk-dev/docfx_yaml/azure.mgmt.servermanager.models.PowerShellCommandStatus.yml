@@ -1,0 +1,32 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.servermanager.models.PowerShellCommandStatus
+  fullName: azure.mgmt.servermanager.models.PowerShellCommandStatus
+  inheritance:
+  - azure.mgmt.servermanager.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.servermanager.models
+  name: PowerShellCommandStatus
+  source:
+    id: PowerShellCommandStatus
+    path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/power_shell_command_status.py
+    remote:
+      branch: master
+      path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/power_shell_command_status.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Result status from invoking a PowerShell command.\n\nVariables are only\
+    \ populated by the server, and will be ignored when\nsending a request.\n\n:ivar\
+    \ id: Resource Manager Resource ID.\n:vartype id: str\n:ivar type: Resource Manager\
+    \ Resource Type.\n:vartype type: str\n:ivar name: Resource Manager Resource Name.\n\
+    :vartype name: str\n:ivar location: Resource Manager Resource Location.\n:vartype\
+    \ location: str\n:param tags: Resource Manager Resource Tags.\n:type tags: dict\n\
+    :param etag:\n:type etag: str\n:param results:\n:type results: list of :class:`PowerShellCommandResult\n\
+    \ <azure.mgmt.servermanager.models.PowerShellCommandResult>`\n:param pssession:\n\
+    :type pssession: str\n:param command:\n:type command: str\n:param completed:\n\
+    :type completed: bool"
+  type: Class
+  uid: azure.mgmt.servermanager.models.PowerShellCommandStatus

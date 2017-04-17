@@ -1,0 +1,320 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.web.operations.GlobalModelOperations.check_name_availability
+  - azure.mgmt.web.operations.GlobalModelOperations.get_all_certificates
+  - azure.mgmt.web.operations.GlobalModelOperations.get_all_classic_mobile_services
+  - azure.mgmt.web.operations.GlobalModelOperations.get_all_hosting_environments
+  - azure.mgmt.web.operations.GlobalModelOperations.get_all_managed_hosting_environments
+  - azure.mgmt.web.operations.GlobalModelOperations.get_all_server_farms
+  - azure.mgmt.web.operations.GlobalModelOperations.get_all_sites
+  - azure.mgmt.web.operations.GlobalModelOperations.get_subscription_geo_regions
+  - azure.mgmt.web.operations.GlobalModelOperations.get_subscription_publishing_credentials
+  - azure.mgmt.web.operations.GlobalModelOperations.is_hosting_environment_name_available
+  - azure.mgmt.web.operations.GlobalModelOperations.is_hosting_environment_with_legacy_name_available
+  - azure.mgmt.web.operations.GlobalModelOperations.list_premier_add_on_offers
+  - azure.mgmt.web.operations.GlobalModelOperations.update_subscription_publishing_credentials
+  class: azure.mgmt.web.operations.GlobalModelOperations
+  fullName: azure.mgmt.web.operations.GlobalModelOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.web.operations
+  name: GlobalModelOperations
+  source:
+    id: GlobalModelOperations
+    path: azure-mgmt-web/azure/mgmt/web/operations/global_model_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/global_model_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'GlobalModelOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.web.operations.GlobalModelOperations
+- _type: method
+  class: azure.mgmt.web.operations.GlobalModelOperations
+  fullName: azure.mgmt.web.operations.GlobalModelOperations.check_name_availability
+  module: azure.mgmt.web.operations
+  name: check_name_availability
+  source:
+    id: check_name_availability
+    path: azure-mgmt-web/azure/mgmt/web/operations/global_model_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/global_model_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 778
+  summary: "Check if resource name is available.\n\n:param request: Name availability\
+    \ request\n:type request: :class:`ResourceNameAvailabilityRequest\n <azure.mgmt.web.models.ResourceNameAvailabilityRequest>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`ResourceNameAvailability\n <azure.mgmt.web.models.ResourceNameAvailability>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.GlobalModelOperations.check_name_availability
+- _type: method
+  class: azure.mgmt.web.operations.GlobalModelOperations
+  fullName: azure.mgmt.web.operations.GlobalModelOperations.get_all_certificates
+  module: azure.mgmt.web.operations
+  name: get_all_certificates
+  source:
+    id: get_all_certificates
+    path: azure-mgmt-web/azure/mgmt/web/operations/global_model_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/global_model_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 223
+  summary: "Get all certificates for a subscription.\n\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`CertificatePaged\n\
+    \ <azure.mgmt.web.models.CertificatePaged>`\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.GlobalModelOperations.get_all_certificates
+- _type: method
+  class: azure.mgmt.web.operations.GlobalModelOperations
+  fullName: azure.mgmt.web.operations.GlobalModelOperations.get_all_classic_mobile_services
+  module: azure.mgmt.web.operations
+  name: get_all_classic_mobile_services
+  source:
+    id: get_all_classic_mobile_services
+    path: azure-mgmt-web/azure/mgmt/web/operations/global_model_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/global_model_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 544
+  summary: "Gets all mobile services for a subscription.\n\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ClassicMobileServicePaged\n\
+    \ <azure.mgmt.web.models.ClassicMobileServicePaged>`\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.GlobalModelOperations.get_all_classic_mobile_services
+- _type: method
+  class: azure.mgmt.web.operations.GlobalModelOperations
+  fullName: azure.mgmt.web.operations.GlobalModelOperations.get_all_hosting_environments
+  module: azure.mgmt.web.operations
+  name: get_all_hosting_environments
+  source:
+    id: get_all_hosting_environments
+    path: azure-mgmt-web/azure/mgmt/web/operations/global_model_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/global_model_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 417
+  summary: "Gets all hostingEnvironments (App Service Environment) for a\nsubscription.\n\
+    \n:param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`HostingEnvironmentPaged\n <azure.mgmt.web.models.HostingEnvironmentPaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.GlobalModelOperations.get_all_hosting_environments
+- _type: method
+  class: azure.mgmt.web.operations.GlobalModelOperations
+  fullName: azure.mgmt.web.operations.GlobalModelOperations.get_all_managed_hosting_environments
+  module: azure.mgmt.web.operations
+  name: get_all_managed_hosting_environments
+  source:
+    id: get_all_managed_hosting_environments
+    path: azure-mgmt-web/azure/mgmt/web/operations/global_model_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/global_model_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 481
+  summary: "Gets all managed hosting environments for a subscription.\n\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ :class:`ManagedHostingEnvironmentPaged\n <azure.mgmt.web.models.ManagedHostingEnvironmentPaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.GlobalModelOperations.get_all_managed_hosting_environments
+- _type: method
+  class: azure.mgmt.web.operations.GlobalModelOperations
+  fullName: azure.mgmt.web.operations.GlobalModelOperations.get_all_server_farms
+  module: azure.mgmt.web.operations
+  name: get_all_server_farms
+  source:
+    id: get_all_server_farms
+    path: azure-mgmt-web/azure/mgmt/web/operations/global_model_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/global_model_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 286
+  summary: "Gets all App Service Plans for a subcription.\n\n:param detailed: False\
+    \ to return a subset of App Service Plan\n properties, true to return all of the\
+    \ properties.\n Retrieval of all properties may increase the API latency.\n:type\
+    \ detailed: bool\n:param dict custom_headers: headers that will be added to the\
+    \ request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`ServerFarmWithRichSkuPaged\n <azure.mgmt.web.models.ServerFarmWithRichSkuPaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.GlobalModelOperations.get_all_server_farms
+- _type: method
+  class: azure.mgmt.web.operations.GlobalModelOperations
+  fullName: azure.mgmt.web.operations.GlobalModelOperations.get_all_sites
+  module: azure.mgmt.web.operations
+  name: get_all_sites
+  source:
+    id: get_all_sites
+    path: azure-mgmt-web/azure/mgmt/web/operations/global_model_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/global_model_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 355
+  summary: "Gets all Web Apps for a subscription.\n\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`SitePaged\
+    \ <azure.mgmt.web.models.SitePaged>`\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.GlobalModelOperations.get_all_sites
+- _type: method
+  class: azure.mgmt.web.operations.GlobalModelOperations
+  fullName: azure.mgmt.web.operations.GlobalModelOperations.get_subscription_geo_regions
+  module: azure.mgmt.web.operations
+  name: get_subscription_geo_regions
+  source:
+    id: get_subscription_geo_regions
+    path: azure-mgmt-web/azure/mgmt/web/operations/global_model_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/global_model_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 152
+  summary: "Gets list of available geo regions.\n\n:param sku: Filter only to regions\
+    \ that support this sku\n:type sku: str\n:param linux_workers_enabled: Filter\
+    \ only to regions that support\n linux workers\n:type linux_workers_enabled: bool\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`GeoRegionPaged <azure.mgmt.web.models.GeoRegionPaged>`\n:raises:\
+    \ :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.GlobalModelOperations.get_subscription_geo_regions
+- _type: method
+  class: azure.mgmt.web.operations.GlobalModelOperations
+  fullName: azure.mgmt.web.operations.GlobalModelOperations.get_subscription_publishing_credentials
+  module: azure.mgmt.web.operations
+  name: get_subscription_publishing_credentials
+  source:
+    id: get_subscription_publishing_credentials
+    path: azure-mgmt-web/azure/mgmt/web/operations/global_model_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/global_model_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Gets publishing credentials for the subscription owner.\n\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ :class:`User <azure.mgmt.web.models.User>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.GlobalModelOperations.get_subscription_publishing_credentials
+- _type: method
+  class: azure.mgmt.web.operations.GlobalModelOperations
+  fullName: azure.mgmt.web.operations.GlobalModelOperations.is_hosting_environment_name_available
+  module: azure.mgmt.web.operations
+  name: is_hosting_environment_name_available
+  source:
+    id: is_hosting_environment_name_available
+    path: azure-mgmt-web/azure/mgmt/web/operations/global_model_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/global_model_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 662
+  summary: "Whether hosting environment name is available.\n\n:param name: Hosting\
+    \ environment name\n:type name: str\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: object\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.GlobalModelOperations.is_hosting_environment_name_available
+- _type: method
+  class: azure.mgmt.web.operations.GlobalModelOperations
+  fullName: azure.mgmt.web.operations.GlobalModelOperations.is_hosting_environment_with_legacy_name_available
+  module: azure.mgmt.web.operations
+  name: is_hosting_environment_with_legacy_name_available
+  source:
+    id: is_hosting_environment_with_legacy_name_available
+    path: azure-mgmt-web/azure/mgmt/web/operations/global_model_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/global_model_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 720
+  summary: "Whether hosting environment name is available.\n\n:param name: Hosting\
+    \ environment name\n:type name: str\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: object\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.GlobalModelOperations.is_hosting_environment_with_legacy_name_available
+- _type: method
+  class: azure.mgmt.web.operations.GlobalModelOperations
+  fullName: azure.mgmt.web.operations.GlobalModelOperations.list_premier_add_on_offers
+  module: azure.mgmt.web.operations
+  name: list_premier_add_on_offers
+  source:
+    id: list_premier_add_on_offers
+    path: azure-mgmt-web/azure/mgmt/web/operations/global_model_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/global_model_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 607
+  summary: "List premier add on offers.\n\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: object\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.GlobalModelOperations.list_premier_add_on_offers
+- _type: method
+  class: azure.mgmt.web.operations.GlobalModelOperations
+  fullName: azure.mgmt.web.operations.GlobalModelOperations.update_subscription_publishing_credentials
+  module: azure.mgmt.web.operations
+  name: update_subscription_publishing_credentials
+  source:
+    id: update_subscription_publishing_credentials
+    path: azure-mgmt-web/azure/mgmt/web/operations/global_model_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/operations/global_model_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 91
+  summary: "Updates publishing credentials for the subscription owner.\n\n:param request_message:\
+    \ requestMessage with new publishing credentials\n:type request_message: :class:`User\
+    \ <azure.mgmt.web.models.User>`\n:param dict custom_headers: headers that will\
+    \ be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`User <azure.mgmt.web.models.User>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.operations.GlobalModelOperations.update_subscription_publishing_credentials

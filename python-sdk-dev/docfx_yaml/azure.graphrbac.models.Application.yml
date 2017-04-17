@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.graphrbac.models.Application
+  fullName: azure.graphrbac.models.Application
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.graphrbac.models
+  name: Application
+  source:
+    id: Application
+    path: azure-graphrbac/azure/graphrbac/models/application.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/models/application.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Active Directory application information.\n\n:param object_id: The object\
+    \ ID.\n:type object_id: str\n:param object_type: The object type.\n:type object_type:\
+    \ str\n:param app_id: The application ID.\n:type app_id: str\n:param app_permissions:\
+    \ The application permissions.\n:type app_permissions: list of str\n:param available_to_other_tenants:\
+    \ Whether the application is be available\n to other tenants.\n:type available_to_other_tenants:\
+    \ bool\n:param display_name: The display name of the application.\n:type display_name:\
+    \ str\n:param identifier_uris: A collection of URIs for the application.\n:type\
+    \ identifier_uris: list of str\n:param reply_urls: A collection of reply URLs\
+    \ for the application.\n:type reply_urls: list of str\n:param homepage: The home\
+    \ page of the application.\n:type homepage: str"
+  type: Class
+  uid: azure.graphrbac.models.Application

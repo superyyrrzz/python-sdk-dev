@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.batch.models.ActivateApplicationPackageParameters
+  fullName: azure.mgmt.batch.models.ActivateApplicationPackageParameters
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.batch.models
+  name: ActivateApplicationPackageParameters
+  source:
+    id: ActivateApplicationPackageParameters
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/models/activate_application_package_parameters.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/models/activate_application_package_parameters.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Parameters for an ApplicationOperations.ActivateApplicationPackage request.
+
+
+    :param format: The format of the application package binary file.
+
+    :type format: str'
+  type: Class
+  uid: azure.mgmt.batch.models.ActivateApplicationPackageParameters

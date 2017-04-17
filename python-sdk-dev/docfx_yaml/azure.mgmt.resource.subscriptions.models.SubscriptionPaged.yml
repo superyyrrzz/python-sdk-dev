@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.subscriptions.models.SubscriptionPaged
+  fullName: azure.mgmt.resource.subscriptions.models.SubscriptionPaged
+  inheritance:
+  - msrest.paging.Paged
+  - collections.abc.Iterator
+  - collections.abc.Iterable
+  - builtins.object
+  module: azure.mgmt.resource.subscriptions.models
+  name: SubscriptionPaged
+  source:
+    id: SubscriptionPaged
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/subscriptions/models/subscription_paged.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/subscriptions/models/subscription_paged.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: A paging container for iterating over a list of Subscription object
+  type: Class
+  uid: azure.mgmt.resource.subscriptions.models.SubscriptionPaged

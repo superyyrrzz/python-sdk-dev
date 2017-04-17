@@ -1,0 +1,68 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.SourceControl
+  fullName: azure.mgmt.web.models.SourceControl
+  inheritance:
+  - azure.mgmt.web.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: SourceControl
+  source:
+    id: SourceControl
+    path: azure-mgmt-web/azure/mgmt/web/models/source_control.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/source_control.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Describes the Source Control OAuth Token.
+
+
+    :param id: Resource Id
+
+    :type id: str
+
+    :param name: Resource Name
+
+    :type name: str
+
+    :param kind: Kind of resource
+
+    :type kind: str
+
+    :param location: Resource Location
+
+    :type location: str
+
+    :param type: Resource type
+
+    :type type: str
+
+    :param tags: Resource tags
+
+    :type tags: dict
+
+    :param source_control_name: Name or Source Control Type
+
+    :type source_control_name: str
+
+    :param token: OAuth Access Token
+
+    :type token: str
+
+    :param token_secret: OAuth Access Token Secret
+
+    :type token_secret: str
+
+    :param refresh_token: OAuth Refresh Token
+
+    :type refresh_token: str
+
+    :param expiration_time: OAuth Token Expiration
+
+    :type expiration_time: datetime'
+  type: Class
+  uid: azure.mgmt.web.models.SourceControl

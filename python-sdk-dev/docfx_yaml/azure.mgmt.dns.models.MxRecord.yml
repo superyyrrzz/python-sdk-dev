@@ -1,0 +1,31 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.dns.models.MxRecord
+  fullName: azure.mgmt.dns.models.MxRecord
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.dns.models
+  name: MxRecord
+  source:
+    id: MxRecord
+    path: azure-mgmt-dns/azure/mgmt/dns/models/mx_record.py
+    remote:
+      branch: master
+      path: azure-mgmt-dns/azure/mgmt/dns/models/mx_record.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'An MX record.
+
+
+    :param preference: The preference value for this MX record.
+
+    :type preference: int
+
+    :param exchange: The domain name of the mail host for this MX record.
+
+    :type exchange: str'
+  type: Class
+  uid: azure.mgmt.dns.models.MxRecord

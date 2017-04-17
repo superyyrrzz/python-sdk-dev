@@ -1,0 +1,37 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.cdn.models.CustomDomain
+  fullName: azure.mgmt.cdn.models.CustomDomain
+  inheritance:
+  - azure.mgmt.cdn.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.cdn.models
+  name: CustomDomain
+  source:
+    id: CustomDomain
+    path: azure-mgmt-cdn/azure/mgmt/cdn/models/custom_domain.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/models/custom_domain.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Customer provided domain for branding purposes, e.g. www.consoto.com.\n\
+    \nVariables are only populated by the server, and will be ignored when\nsending\
+    \ a request.\n\n:ivar id: Resource ID.\n:vartype id: str\n:ivar name: Resource\
+    \ name.\n:vartype name: str\n:ivar type: Resource type.\n:vartype type: str\n\
+    :param location: Resource location.\n:type location: str\n:param tags: Resource\
+    \ tags.\n:type tags: dict\n:param host_name: The host name of the custom domain.\
+    \ Must be a domain\n name.\n:type host_name: str\n:ivar resource_state: Resource\
+    \ status of the custom domain. Possible\n values include: 'Creating', 'Active',\
+    \ 'Deleting'\n:vartype resource_state: str or :class:`CustomDomainResourceState\n\
+    \ <azure.mgmt.cdn.models.CustomDomainResourceState>`\n:param validation_data:\
+    \ Special validation or data may be required when\n delivering CDN to some regions\
+    \ due to local compliance reasons. E.g. ICP\n license number of a custom domain\
+    \ is required to deliver content in China.\n:type validation_data: str\n:ivar\
+    \ provisioning_state: Provisioning status of the custom domain.\n:vartype provisioning_state:\
+    \ str"
+  type: Class
+  uid: azure.mgmt.cdn.models.CustomDomain

@@ -1,0 +1,116 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.servermanager.operations.SessionOperations.create
+  - azure.mgmt.servermanager.operations.SessionOperations.delete
+  - azure.mgmt.servermanager.operations.SessionOperations.get
+  class: azure.mgmt.servermanager.operations.SessionOperations
+  fullName: azure.mgmt.servermanager.operations.SessionOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.servermanager.operations
+  name: SessionOperations
+  source:
+    id: SessionOperations
+    path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/session_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/session_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'SessionOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.servermanager.operations.SessionOperations
+- _type: method
+  class: azure.mgmt.servermanager.operations.SessionOperations
+  fullName: azure.mgmt.servermanager.operations.SessionOperations.create
+  module: azure.mgmt.servermanager.operations
+  name: create
+  source:
+    id: create
+    path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/session_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/session_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Creates a session for a node.\n\n:param resource_group_name: The resource\
+    \ group name uniquely\n identifies the resource group within the user subscriptionId.\n\
+    :type resource_group_name: str\n:param node_name: The node name (256 characters\
+    \ maximum).\n:type node_name: str\n:param session: The sessionId from the user.\n\
+    :type session: str\n:param user_name: Encrypted User name to be used to connect\
+    \ to node.\n:type user_name: str\n:param password: Encrypted Password associated\
+    \ with user name.\n:type password: str\n:param retention_period: Session retention\
+    \ period. Possible values\n include: 'Session', 'Persistent'\n:type retention_period:\
+    \ str or :class:`retentionPeriod\n <azure.mgmt.servermanager.models.retentionPeriod>`\n\
+    :param credential_data_format: Credential data format. Possible values\n include:\
+    \ 'RsaEncrypted'\n:type credential_data_format: str or :class:`credentialDataFormat\n\
+    \ <azure.mgmt.servermanager.models.credentialDataFormat>`\n:param encryption_certificate_thumbprint:\
+    \ Encryption certificate\n thumbprint.\n:type encryption_certificate_thumbprint:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
+    \ instance that returns :class:`SessionResource\n <azure.mgmt.servermanager.models.SessionResource>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`ErrorException<azure.mgmt.servermanager.models.ErrorException>`"
+  type: Method
+  uid: azure.mgmt.servermanager.operations.SessionOperations.create
+- _type: method
+  class: azure.mgmt.servermanager.operations.SessionOperations
+  fullName: azure.mgmt.servermanager.operations.SessionOperations.delete
+  module: azure.mgmt.servermanager.operations
+  name: delete
+  source:
+    id: delete
+    path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/session_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/session_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 147
+  summary: "Deletes a session for a node.\n\n:param resource_group_name: The resource\
+    \ group name uniquely\n identifies the resource group within the user subscriptionId.\n\
+    :type resource_group_name: str\n:param node_name: The node name (256 characters\
+    \ maximum).\n:type node_name: str\n:param session: The sessionId from the user.\n\
+    :type session: str\n:param dict custom_headers: headers that will be added to\
+    \ the request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`ErrorException<azure.mgmt.servermanager.models.ErrorException>`"
+  type: Method
+  uid: azure.mgmt.servermanager.operations.SessionOperations.delete
+- _type: method
+  class: azure.mgmt.servermanager.operations.SessionOperations
+  fullName: azure.mgmt.servermanager.operations.SessionOperations.get
+  module: azure.mgmt.servermanager.operations
+  name: get
+  source:
+    id: get
+    path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/session_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/session_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 204
+  summary: "Gets a session for a node.\n\n:param resource_group_name: The resource\
+    \ group name uniquely\n identifies the resource group within the user subscriptionId.\n\
+    :type resource_group_name: str\n:param node_name: The node name (256 characters\
+    \ maximum).\n:type node_name: str\n:param session: The sessionId from the user.\n\
+    :type session: str\n:param dict custom_headers: headers that will be added to\
+    \ the request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`SessionResource\n <azure.mgmt.servermanager.models.SessionResource>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`ErrorException<azure.mgmt.servermanager.models.ErrorException>`"
+  type: Method
+  uid: azure.mgmt.servermanager.operations.SessionOperations.get

@@ -1,0 +1,36 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.MetadataItem
+  fullName: azure.batch.models.MetadataItem
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: MetadataItem
+  source:
+    id: MetadataItem
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/metadata_item.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/metadata_item.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'A name-value pair associated with a Batch service resource.
+
+
+    The Batch service does not assign any meaning to this metadata; it is
+
+    solely for the use of user code.
+
+
+    :param name: The name of the metadata item.
+
+    :type name: str
+
+    :param value: The value of the metadata item.
+
+    :type value: str'
+  type: Class
+  uid: azure.batch.models.MetadataItem

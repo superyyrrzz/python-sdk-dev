@@ -1,0 +1,33 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.RouteTable
+  fullName: azure.mgmt.network.models.RouteTable
+  inheritance:
+  - azure.mgmt.network.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: RouteTable
+  source:
+    id: RouteTable
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/route_table.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/route_table.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "RouteTable resource.\n\nVariables are only populated by the server, and\
+    \ will be ignored when\nsending a request.\n\n:param id: Resource Id\n:type id:\
+    \ str\n:ivar name: Resource name\n:vartype name: str\n:ivar type: Resource type\n\
+    :vartype type: str\n:param location: Resource location\n:type location: str\n\
+    :param tags: Resource tags\n:type tags: dict\n:param routes: Gets or sets Routes\
+    \ in a Route Table\n:type routes: list of :class:`Route <azure.mgmt.network.models.Route>`\n\
+    :ivar subnets: Gets collection of references to subnets\n:vartype subnets: list\
+    \ of :class:`Subnet\n <azure.mgmt.network.models.Subnet>`\n:param provisioning_state:\
+    \ Gets provisioning state of the resource\n Updating/Deleting/Failed\n:type provisioning_state:\
+    \ str\n:param etag: Gets a unique read-only string that changes whenever the\n\
+    \ resource is updated\n:type etag: str"
+  type: Class
+  uid: azure.mgmt.network.models.RouteTable

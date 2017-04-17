@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.cdn.models.EdgenodeResult
+  fullName: azure.mgmt.cdn.models.EdgenodeResult
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.cdn.models
+  name: EdgenodeResult
+  source:
+    id: EdgenodeResult
+    path: azure-mgmt-cdn/azure/mgmt/cdn/models/edgenode_result.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/models/edgenode_result.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Result of the request to list CDN edgenodes. It contains a list of ip
+
+    address group and a URL link to get the next set of results.
+
+
+    :param value: Edge node of CDN service.
+
+    :type value: list of :class:`EdgeNode <azure.mgmt.cdn.models.EdgeNode>`'
+  type: Class
+  uid: azure.mgmt.cdn.models.EdgenodeResult

@@ -1,0 +1,39 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.ApplicationGatewayRequestRoutingRule
+  fullName: azure.mgmt.network.models.ApplicationGatewayRequestRoutingRule
+  inheritance:
+  - azure.mgmt.network.models.sub_resource.SubResource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: ApplicationGatewayRequestRoutingRule
+  source:
+    id: ApplicationGatewayRequestRoutingRule
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/application_gateway_request_routing_rule.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/application_gateway_request_routing_rule.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Request routing rule of application gateway.\n\n:param id: Resource Id\n\
+    :type id: str\n:param rule_type: Rule type. Possible values include: 'Basic',\n\
+    \ 'PathBasedRouting'\n:type rule_type: str or :class:`ApplicationGatewayRequestRoutingRuleType\n\
+    \ <azure.mgmt.network.models.ApplicationGatewayRequestRoutingRuleType>`\n:param\
+    \ backend_address_pool: Backend address pool resource of application\n gateway\n\
+    :type backend_address_pool: :class:`SubResource\n <azure.mgmt.network.models.SubResource>`\n\
+    :param backend_http_settings: Frontend port resource of application\n gateway\n\
+    :type backend_http_settings: :class:`SubResource\n <azure.mgmt.network.models.SubResource>`\n\
+    :param http_listener: Http listener resource of application gateway\n:type http_listener:\
+    \ :class:`SubResource\n <azure.mgmt.network.models.SubResource>`\n:param url_path_map:\
+    \ Url path map resource of application gateway\n:type url_path_map: :class:`SubResource\n\
+    \ <azure.mgmt.network.models.SubResource>`\n:param provisioning_state: Provisioning\
+    \ state of the request routing rule\n resource Updating/Deleting/Failed\n:type\
+    \ provisioning_state: str\n:param name: Name of the resource that is unique within\
+    \ a resource group.\n This name can be used to access the resource\n:type name:\
+    \ str\n:param etag: A unique read-only string that changes whenever the resource\n\
+    \ is updated\n:type etag: str"
+  type: Class
+  uid: azure.mgmt.network.models.ApplicationGatewayRequestRoutingRule

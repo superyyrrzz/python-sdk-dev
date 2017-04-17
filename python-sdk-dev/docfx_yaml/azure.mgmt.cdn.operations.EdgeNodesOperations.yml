@@ -1,0 +1,52 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.cdn.operations.EdgeNodesOperations.list
+  class: azure.mgmt.cdn.operations.EdgeNodesOperations
+  fullName: azure.mgmt.cdn.operations.EdgeNodesOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.cdn.operations
+  name: EdgeNodesOperations
+  source:
+    id: EdgeNodesOperations
+    path: azure-mgmt-cdn/azure/mgmt/cdn/operations/edge_nodes_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/operations/edge_nodes_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 18
+  summary: 'EdgeNodesOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.cdn.operations.EdgeNodesOperations
+- _type: method
+  class: azure.mgmt.cdn.operations.EdgeNodesOperations
+  fullName: azure.mgmt.cdn.operations.EdgeNodesOperations.list
+  module: azure.mgmt.cdn.operations
+  name: list
+  source:
+    id: list
+    path: azure-mgmt-cdn/azure/mgmt/cdn/operations/edge_nodes_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/operations/edge_nodes_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 35
+  summary: "Lists all the edge nodes of a CDN service.\n\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`EdgenodeResult\
+    \ <azure.mgmt.cdn.models.EdgenodeResult>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`ErrorResponseException<azure.mgmt.cdn.models.ErrorResponseException>`"
+  type: Method
+  uid: azure.mgmt.cdn.operations.EdgeNodesOperations.list

@@ -1,0 +1,35 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.iothub.models.IotHubDescription
+  fullName: azure.mgmt.iothub.models.IotHubDescription
+  inheritance:
+  - azure.mgmt.iothub.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.iothub.models
+  name: IotHubDescription
+  source:
+    id: IotHubDescription
+    path: azure-mgmt-iothub/azure/mgmt/iothub/models/iot_hub_description.py
+    remote:
+      branch: master
+      path: azure-mgmt-iothub/azure/mgmt/iothub/models/iot_hub_description.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The description of the IoT hub.\n\nVariables are only populated by the\
+    \ server, and will be ignored when\nsending a request.\n\n:ivar id: The resource\
+    \ identifier.\n:vartype id: str\n:ivar name: The resource name.\n:vartype name:\
+    \ str\n:ivar type: The resource type.\n:vartype type: str\n:param location: The\
+    \ resource location.\n:type location: str\n:param tags: The resource tags.\n:type\
+    \ tags: dict\n:param subscriptionid: The subscription identifier.\n:type subscriptionid:\
+    \ str\n:param resourcegroup: The name of the resource group that contains the\
+    \ IoT\n hub. A resource group name uniquely identifies the resource group within\n\
+    \ the subscription.\n:type resourcegroup: str\n:param etag: The Etag field is\
+    \ *not* required. If it is provided in the\n response body, it must also be provided\
+    \ as a header per the normal ETag\n convention.\n:type etag: str\n:param properties:\n\
+    :type properties: :class:`IotHubProperties\n <azure.mgmt.iothub.models.IotHubProperties>`\n\
+    :param sku:\n:type sku: :class:`IotHubSkuInfo <azure.mgmt.iothub.models.IotHubSkuInfo>`"
+  type: Class
+  uid: azure.mgmt.iothub.models.IotHubDescription

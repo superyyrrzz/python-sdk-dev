@@ -1,0 +1,25 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.keyvault.generated.models.PendingCertificateSigningRequestResult
+  fullName: azure.keyvault.generated.models.PendingCertificateSigningRequestResult
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.keyvault.generated.models
+  name: PendingCertificateSigningRequestResult
+  source:
+    id: PendingCertificateSigningRequestResult
+    path: azure-keyvault/azure/keyvault/generated/models/pending_certificate_signing_request_result.py
+    remote:
+      branch: master
+      path: azure-keyvault/azure/keyvault/generated/models/pending_certificate_signing_request_result.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The pending certificate signing request result.\n\nVariables are only\
+    \ populated by the server, and will be ignored when\nsending a request.\n\n:ivar\
+    \ value: The pending certificate signing request as Base64 encoded\n string.\n\
+    :vartype value: str"
+  type: Class
+  uid: azure.keyvault.generated.models.PendingCertificateSigningRequestResult

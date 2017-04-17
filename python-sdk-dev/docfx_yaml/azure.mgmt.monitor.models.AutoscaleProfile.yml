@@ -1,0 +1,32 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.monitor.models.AutoscaleProfile
+  fullName: azure.mgmt.monitor.models.AutoscaleProfile
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.monitor.models
+  name: AutoscaleProfile
+  source:
+    id: AutoscaleProfile
+    path: azure-mgmt-monitor/azure/mgmt/monitor/models/autoscale_profile.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/models/autoscale_profile.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Autoscale profile.\n\n:param name: the name of the profile.\n:type name:\
+    \ str\n:param capacity: the number of instances that can be used during this\n\
+    \ profile.\n:type capacity: :class:`ScaleCapacity\n <azure.mgmt.monitor.models.ScaleCapacity>`\n\
+    :param rules: the collection of rules that provide the triggers and\n parameters\
+    \ for the scaling action. A maximum of 10 rules can be specified.\n:type rules:\
+    \ list of :class:`ScaleRule\n <azure.mgmt.monitor.models.ScaleRule>`\n:param fixed_date:\
+    \ the specific date-time for the profile. This element is\n not used if the Recurrence\
+    \ element is used.\n:type fixed_date: :class:`TimeWindow\n <azure.mgmt.monitor.models.TimeWindow>`\n\
+    :param recurrence: the repeating times at which this profile begins. This\n element\
+    \ is not used if the FixedDate element is used.\n:type recurrence: :class:`Recurrence\n\
+    \ <azure.mgmt.monitor.models.Recurrence>`"
+  type: Class
+  uid: azure.mgmt.monitor.models.AutoscaleProfile

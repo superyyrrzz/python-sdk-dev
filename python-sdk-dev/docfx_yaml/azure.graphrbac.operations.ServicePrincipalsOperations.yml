@@ -1,0 +1,221 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.graphrbac.operations.ServicePrincipalsOperations.create
+  - azure.graphrbac.operations.ServicePrincipalsOperations.delete
+  - azure.graphrbac.operations.ServicePrincipalsOperations.get
+  - azure.graphrbac.operations.ServicePrincipalsOperations.list
+  - azure.graphrbac.operations.ServicePrincipalsOperations.list_key_credentials
+  - azure.graphrbac.operations.ServicePrincipalsOperations.list_password_credentials
+  - azure.graphrbac.operations.ServicePrincipalsOperations.update_key_credentials
+  - azure.graphrbac.operations.ServicePrincipalsOperations.update_password_credentials
+  class: azure.graphrbac.operations.ServicePrincipalsOperations
+  fullName: azure.graphrbac.operations.ServicePrincipalsOperations
+  inheritance:
+  - builtins.object
+  module: azure.graphrbac.operations
+  name: ServicePrincipalsOperations
+  source:
+    id: ServicePrincipalsOperations
+    path: azure-graphrbac/azure/graphrbac/operations/service_principals_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/service_principals_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 18
+  summary: 'ServicePrincipalsOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.
+
+    :ivar api_version: Client API version. Constant value: "1.6".'
+  type: Class
+  uid: azure.graphrbac.operations.ServicePrincipalsOperations
+- _type: method
+  class: azure.graphrbac.operations.ServicePrincipalsOperations
+  fullName: azure.graphrbac.operations.ServicePrincipalsOperations.create
+  module: azure.graphrbac.operations
+  name: create
+  source:
+    id: create
+    path: azure-graphrbac/azure/graphrbac/operations/service_principals_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/service_principals_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 37
+  summary: "Creates a service principal in the directory.\n\n:param parameters: Parameters\
+    \ to create a service principal.\n:type parameters: :class:`ServicePrincipalCreateParameters\n\
+    \ <azure.graphrbac.models.ServicePrincipalCreateParameters>`\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ServicePrincipal\n\
+    \ <azure.graphrbac.models.ServicePrincipal>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`"
+  type: Method
+  uid: azure.graphrbac.operations.ServicePrincipalsOperations.create
+- _type: method
+  class: azure.graphrbac.operations.ServicePrincipalsOperations
+  fullName: azure.graphrbac.operations.ServicePrincipalsOperations.delete
+  module: azure.graphrbac.operations
+  name: delete
+  source:
+    id: delete
+    path: azure-graphrbac/azure/graphrbac/operations/service_principals_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/service_principals_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 171
+  summary: "Deletes a service principal from the directory.\n\n:param object_id: The\
+    \ object ID of the service principal to delete.\n:type object_id: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`"
+  type: Method
+  uid: azure.graphrbac.operations.ServicePrincipalsOperations.delete
+- _type: method
+  class: azure.graphrbac.operations.ServicePrincipalsOperations
+  fullName: azure.graphrbac.operations.ServicePrincipalsOperations.get
+  module: azure.graphrbac.operations
+  name: get
+  source:
+    id: get
+    path: azure-graphrbac/azure/graphrbac/operations/service_principals_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/service_principals_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 221
+  summary: "Gets service principal information from the directory.\n\n:param object_id:\
+    \ The object ID of the service principal to get.\n:type object_id: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`ServicePrincipal\n <azure.graphrbac.models.ServicePrincipal>`\n\
+    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
+    :raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`"
+  type: Method
+  uid: azure.graphrbac.operations.ServicePrincipalsOperations.get
+- _type: method
+  class: azure.graphrbac.operations.ServicePrincipalsOperations
+  fullName: azure.graphrbac.operations.ServicePrincipalsOperations.list
+  module: azure.graphrbac.operations
+  name: list
+  source:
+    id: list
+    path: azure-graphrbac/azure/graphrbac/operations/service_principals_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/service_principals_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 99
+  summary: "Gets a list of service principals from the current tenant.\n\n:param filter:\
+    \ The filter to apply to the operation.\n:type filter: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ServicePrincipalPaged\n\
+    \ <azure.graphrbac.models.ServicePrincipalPaged>`\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`"
+  type: Method
+  uid: azure.graphrbac.operations.ServicePrincipalsOperations.list
+- _type: method
+  class: azure.graphrbac.operations.ServicePrincipalsOperations
+  fullName: azure.graphrbac.operations.ServicePrincipalsOperations.list_key_credentials
+  module: azure.graphrbac.operations
+  name: list_key_credentials
+  source:
+    id: list_key_credentials
+    path: azure-graphrbac/azure/graphrbac/operations/service_principals_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/service_principals_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 279
+  summary: "Get the keyCredentials associated with the specified service principal.\n\
+    \n:param object_id: The object ID of the service principal for which to\n get\
+    \ keyCredentials.\n:type object_id: str\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`KeyCredentialPaged\n\
+    \ <azure.graphrbac.models.KeyCredentialPaged>`\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`"
+  type: Method
+  uid: azure.graphrbac.operations.ServicePrincipalsOperations.list_key_credentials
+- _type: method
+  class: azure.graphrbac.operations.ServicePrincipalsOperations
+  fullName: azure.graphrbac.operations.ServicePrincipalsOperations.list_password_credentials
+  module: azure.graphrbac.operations
+  name: list_password_credentials
+  source:
+    id: list_password_credentials
+    path: azure-graphrbac/azure/graphrbac/operations/service_principals_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/service_principals_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 405
+  summary: "Gets the passwordCredentials associated with a service principal.\n\n\
+    :param object_id: The object ID of the service principal.\n:type object_id: str\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`PasswordCredentialPaged\n <azure.graphrbac.models.PasswordCredentialPaged>`\n\
+    :raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`"
+  type: Method
+  uid: azure.graphrbac.operations.ServicePrincipalsOperations.list_password_credentials
+- _type: method
+  class: azure.graphrbac.operations.ServicePrincipalsOperations
+  fullName: azure.graphrbac.operations.ServicePrincipalsOperations.update_key_credentials
+  module: azure.graphrbac.operations
+  name: update_key_credentials
+  source:
+    id: update_key_credentials
+    path: azure-graphrbac/azure/graphrbac/operations/service_principals_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/service_principals_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 345
+  summary: "Update the keyCredentials associated with a service principal.\n\n:param\
+    \ object_id: The object ID for which to get service principal\n information.\n\
+    :type object_id: str\n:param value: A collection of KeyCredentials.\n:type value:\
+    \ list of :class:`KeyCredential\n <azure.graphrbac.models.KeyCredential>`\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`"
+  type: Method
+  uid: azure.graphrbac.operations.ServicePrincipalsOperations.update_key_credentials
+- _type: method
+  class: azure.graphrbac.operations.ServicePrincipalsOperations
+  fullName: azure.graphrbac.operations.ServicePrincipalsOperations.update_password_credentials
+  module: azure.graphrbac.operations
+  name: update_password_credentials
+  source:
+    id: update_password_credentials
+    path: azure-graphrbac/azure/graphrbac/operations/service_principals_operations.py
+    remote:
+      branch: master
+      path: azure-graphrbac/azure/graphrbac/operations/service_principals_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 470
+  summary: "Updates the passwordCredentials associated with a service principal.\n\
+    \n:param object_id: The object ID of the service principal.\n:type object_id:\
+    \ str\n:param value: A collection of PasswordCredentials.\n:type value: list of\
+    \ :class:`PasswordCredential\n <azure.graphrbac.models.PasswordCredential>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises:\n :class:`GraphErrorException<azure.graphrbac.models.GraphErrorException>`"
+  type: Method
+  uid: azure.graphrbac.operations.ServicePrincipalsOperations.update_password_credentials

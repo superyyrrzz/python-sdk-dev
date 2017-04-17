@@ -1,0 +1,35 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.resource.resources.models.GenericResourceFilter
+  fullName: azure.mgmt.resource.resources.models.GenericResourceFilter
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.resource.resources.models
+  name: GenericResourceFilter
+  source:
+    id: GenericResourceFilter
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/generic_resource_filter.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/generic_resource_filter.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Resource filter.
+
+
+    :param resource_type: The resource type.
+
+    :type resource_type: str
+
+    :param tagname: The tag name.
+
+    :type tagname: str
+
+    :param tagvalue: The tag value.
+
+    :type tagvalue: str'
+  type: Class
+  uid: azure.mgmt.resource.resources.models.GenericResourceFilter

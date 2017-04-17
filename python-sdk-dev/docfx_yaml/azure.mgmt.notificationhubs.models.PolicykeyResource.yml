@@ -1,0 +1,24 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.notificationhubs.models.PolicykeyResource
+  fullName: azure.mgmt.notificationhubs.models.PolicykeyResource
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.notificationhubs.models
+  name: PolicykeyResource
+  source:
+    id: PolicykeyResource
+    path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/models/policykey_resource.py
+    remote:
+      branch: master
+      path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/models/policykey_resource.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Namespace/NotificationHub Regenerate Keys.\n\n:param policy_key: Name\
+    \ of the key that has to be regenerated for the\n Namespace/Notification Hub Authorization\
+    \ Rule. The value can be Primary\n Key/Secondary Key.\n:type policy_key: str"
+  type: Class
+  uid: azure.mgmt.notificationhubs.models.PolicykeyResource

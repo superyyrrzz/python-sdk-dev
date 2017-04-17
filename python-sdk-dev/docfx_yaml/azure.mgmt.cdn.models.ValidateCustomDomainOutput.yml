@@ -1,0 +1,26 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.cdn.models.ValidateCustomDomainOutput
+  fullName: azure.mgmt.cdn.models.ValidateCustomDomainOutput
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.cdn.models
+  name: ValidateCustomDomainOutput
+  source:
+    id: ValidateCustomDomainOutput
+    path: azure-mgmt-cdn/azure/mgmt/cdn/models/validate_custom_domain_output.py
+    remote:
+      branch: master
+      path: azure-mgmt-cdn/azure/mgmt/cdn/models/validate_custom_domain_output.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Output of custom domain validation.\n\n:param custom_domain_validated:\
+    \ Indicates whether the custom domain is\n validated or not.\n:type custom_domain_validated:\
+    \ bool\n:param reason: The reason why the custom domain is not valid.\n:type reason:\
+    \ str\n:param message: Error message describing why the custom domain is not\n\
+    \ valid.\n:type message: str"
+  type: Class
+  uid: azure.mgmt.cdn.models.ValidateCustomDomainOutput

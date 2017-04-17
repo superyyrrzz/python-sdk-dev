@@ -1,0 +1,29 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.monitor.models.RuleWebhookAction
+  fullName: azure.mgmt.monitor.models.RuleWebhookAction
+  inheritance:
+  - azure.mgmt.monitor.models.rule_action.RuleAction
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.monitor.models
+  name: RuleWebhookAction
+  source:
+    id: RuleWebhookAction
+    path: azure-mgmt-monitor/azure/mgmt/monitor/models/rule_webhook_action.py
+    remote:
+      branch: master
+      path: azure-mgmt-monitor/azure/mgmt/monitor/models/rule_webhook_action.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Specifies the action to post to service when the rule condition is\nevaluated.\
+    \ The discriminator is always RuleWebhookAction in this case.\n\n:param odatatype:\
+    \ Polymorphic Discriminator\n:type odatatype: str\n:param service_uri: the service\
+    \ uri to Post the notitication when the\n alert activates or resolves.\n:type\
+    \ service_uri: str\n:param properties: the dictionary of custom properties to\
+    \ include with the\n post operation. These data are appended to the webhook payload.\n\
+    :type properties: dict"
+  type: Class
+  uid: azure.mgmt.monitor.models.RuleWebhookAction

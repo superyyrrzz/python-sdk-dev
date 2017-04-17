@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.batch.models.NodeUpdateUserParameter
+  fullName: azure.batch.models.NodeUpdateUserParameter
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.batch.models
+  name: NodeUpdateUserParameter
+  source:
+    id: NodeUpdateUserParameter
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/node_update_user_parameter.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/node_update_user_parameter.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Parameters for a ComputeNodeOperations.UpdateUser request.\n\n:param password:\
+    \ The password of the account.\n:type password: str\n:param expiry_time: The time\
+    \ at which the account should expire. If\n omitted, the default is 1 day from\
+    \ the current time.\n:type expiry_time: datetime\n:param ssh_public_key: The SSH\
+    \ public key that can be used for remote\n login to the compute node.\n:type ssh_public_key:\
+    \ str"
+  type: Class
+  uid: azure.batch.models.NodeUpdateUserParameter

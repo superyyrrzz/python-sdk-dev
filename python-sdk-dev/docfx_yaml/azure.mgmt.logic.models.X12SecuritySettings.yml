@@ -1,0 +1,39 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.X12SecuritySettings
+  fullName: azure.mgmt.logic.models.X12SecuritySettings
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: X12SecuritySettings
+  source:
+    id: X12SecuritySettings
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/x12_security_settings.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/x12_security_settings.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'X12SecuritySettings.
+
+
+    :param authorization_qualifier: The authorization qualifier.
+
+    :type authorization_qualifier: str
+
+    :param authorization_value: The authorization value.
+
+    :type authorization_value: str
+
+    :param security_qualifier: The security qualifier.
+
+    :type security_qualifier: str
+
+    :param password_value: The password value.
+
+    :type password_value: str'
+  type: Class
+  uid: azure.mgmt.logic.models.X12SecuritySettings

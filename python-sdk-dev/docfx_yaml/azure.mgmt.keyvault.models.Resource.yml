@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.keyvault.models.Resource
+  fullName: azure.mgmt.keyvault.models.Resource
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.keyvault.models
+  name: Resource
+  source:
+    id: Resource
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/keyvault/models/resource.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/keyvault/models/resource.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Key Vault resource.\n\nVariables are only populated by the server, and\
+    \ will be ignored when\nsending a request.\n\n:ivar id: The Azure Resource Manager\
+    \ resource ID for the key vault.\n:vartype id: str\n:param name: The name of the\
+    \ key vault.\n:type name: str\n:ivar type: The resource type of the key vault.\n\
+    :vartype type: str\n:param location: The supported Azure location where the key\
+    \ vault should\n be created.\n:type location: str\n:param tags: The tags that\
+    \ will be assigned to the key vault.\n:type tags: dict"
+  type: Class
+  uid: azure.mgmt.keyvault.models.Resource

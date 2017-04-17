@@ -1,0 +1,27 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.logic.models.X12OneWayAgreement
+  fullName: azure.mgmt.logic.models.X12OneWayAgreement
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.logic.models
+  name: X12OneWayAgreement
+  source:
+    id: X12OneWayAgreement
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/x12_one_way_agreement.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/x12_one_way_agreement.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "X12OneWayAgreement.\n\n:param sender_business_identity: The sender business\
+    \ identity\n:type sender_business_identity: :class:`BusinessIdentity\n <azure.mgmt.logic.models.BusinessIdentity>`\n\
+    :param receiver_business_identity: The receiver business identity\n:type receiver_business_identity:\
+    \ :class:`BusinessIdentity\n <azure.mgmt.logic.models.BusinessIdentity>`\n:param\
+    \ protocol_settings: The X12 protocol settings.\n:type protocol_settings: :class:`X12ProtocolSettings\n\
+    \ <azure.mgmt.logic.models.X12ProtocolSettings>`"
+  type: Class
+  uid: azure.mgmt.logic.models.X12OneWayAgreement

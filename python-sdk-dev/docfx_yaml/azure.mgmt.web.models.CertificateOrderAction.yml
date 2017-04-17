@@ -1,0 +1,33 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.CertificateOrderAction
+  fullName: azure.mgmt.web.models.CertificateOrderAction
+  inheritance:
+  - azure.mgmt.web.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: CertificateOrderAction
+  source:
+    id: CertificateOrderAction
+    path: azure-mgmt-web/azure/mgmt/web/models/certificate_order_action.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/certificate_order_action.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "Represents a certificate action.\n\n:param id: Resource Id\n:type id:\
+    \ str\n:param name: Resource Name\n:type name: str\n:param kind: Kind of resource\n\
+    :type kind: str\n:param location: Resource Location\n:type location: str\n:param\
+    \ type: Resource type\n:type type: str\n:param tags: Resource tags\n:type tags:\
+    \ dict\n:param certificate_order_action_type: Type. Possible values include:\n\
+    \ 'CertificateIssued', 'CertificateOrderCanceled',\n 'CertificateOrderCreated',\
+    \ 'CertificateRevoked',\n 'DomainValidationComplete', 'FraudDetected', 'OrgNameChange',\n\
+    \ 'OrgValidationComplete', 'SanDrop'\n:type certificate_order_action_type: str\
+    \ or\n :class:`CertificateOrderActionType\n <azure.mgmt.web.models.CertificateOrderActionType>`\n\
+    :param created_at: Time at which the certificate action was performed\n:type created_at:\
+    \ datetime"
+  type: Class
+  uid: azure.mgmt.web.models.CertificateOrderAction

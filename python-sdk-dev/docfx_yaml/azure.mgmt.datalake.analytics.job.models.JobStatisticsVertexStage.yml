@@ -1,0 +1,49 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.datalake.analytics.job.models.JobStatisticsVertexStage
+  fullName: azure.mgmt.datalake.analytics.job.models.JobStatisticsVertexStage
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.datalake.analytics.job.models
+  name: JobStatisticsVertexStage
+  source:
+    id: JobStatisticsVertexStage
+    path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/job/models/job_statistics_vertex_stage.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/job/models/job_statistics_vertex_stage.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "The Data Lake Analytics job statistics vertex stage information.\n\nVariables\
+    \ are only populated by the server, and will be ignored when\nsending a request.\n\
+    \n:ivar data_read: the amount of data read, in bytes.\n:vartype data_read: long\n\
+    :ivar data_read_cross_pod: the amount of data read across multiple pods,\n in\
+    \ bytes.\n:vartype data_read_cross_pod: long\n:ivar data_read_intra_pod: the amount\
+    \ of data read in one pod, in bytes.\n:vartype data_read_intra_pod: long\n:ivar\
+    \ data_to_read: the amount of data remaining to be read, in bytes.\n:vartype data_to_read:\
+    \ long\n:ivar data_written: the amount of data written, in bytes.\n:vartype data_written:\
+    \ long\n:ivar duplicate_discard_count: the number of duplicates that were\n discarded.\n\
+    :vartype duplicate_discard_count: int\n:ivar failed_count: the number of failures\
+    \ that occured in this stage.\n:vartype failed_count: int\n:ivar max_vertex_data_read:\
+    \ the maximum amount of data read in a single\n vertex, in bytes.\n:vartype max_vertex_data_read:\
+    \ long\n:ivar min_vertex_data_read: the minimum amount of data read in a single\n\
+    \ vertex, in bytes.\n:vartype min_vertex_data_read: long\n:ivar read_failure_count:\
+    \ the number of read failures in this stage.\n:vartype read_failure_count: int\n\
+    :ivar revocation_count: the number of vertices that were revoked during\n this\
+    \ stage.\n:vartype revocation_count: int\n:ivar running_count: the number of currently\
+    \ running vertices in this\n stage.\n:vartype running_count: int\n:ivar scheduled_count:\
+    \ the number of currently scheduled vertices in this\n stage\n:vartype scheduled_count:\
+    \ int\n:ivar stage_name: the name of this stage in job execution.\n:vartype stage_name:\
+    \ str\n:ivar succeeded_count: the number of vertices that succeeded in this\n\
+    \ stage.\n:vartype succeeded_count: int\n:ivar temp_data_written: the amount of\
+    \ temporary data written, in bytes.\n:vartype temp_data_written: long\n:ivar total_count:\
+    \ the total vertex count for this stage.\n:vartype total_count: int\n:ivar total_failed_time:\
+    \ the amount of time that failed vertices took up\n in this stage.\n:vartype total_failed_time:\
+    \ timedelta\n:ivar total_progress: the current progress of this stage, as a percentage.\n\
+    :vartype total_progress: int\n:ivar total_succeeded_time: the amount of time all\
+    \ successful vertices\n took in this stage.\n:vartype total_succeeded_time: timedelta"
+  type: Class
+  uid: azure.mgmt.datalake.analytics.job.models.JobStatisticsVertexStage

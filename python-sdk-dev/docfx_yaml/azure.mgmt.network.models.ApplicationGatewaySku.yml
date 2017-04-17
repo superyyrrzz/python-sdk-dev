@@ -1,0 +1,28 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.network.models.ApplicationGatewaySku
+  fullName: azure.mgmt.network.models.ApplicationGatewaySku
+  inheritance:
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.network.models
+  name: ApplicationGatewaySku
+  source:
+    id: ApplicationGatewaySku
+    path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/application_gateway_sku.py
+    remote:
+      branch: master
+      path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/application_gateway_sku.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: "SKU of application gateway.\n\n:param name: Name of application gateway\
+    \ SKU. Possible values include:\n 'Standard_Small', 'Standard_Medium', 'Standard_Large'\n\
+    :type name: str or :class:`ApplicationGatewaySkuName\n <azure.mgmt.network.models.ApplicationGatewaySkuName>`\n\
+    :param tier: Tier of application gateway. Possible values include:\n 'Standard'\n\
+    :type tier: str or :class:`ApplicationGatewayTier\n <azure.mgmt.network.models.ApplicationGatewayTier>`\n\
+    :param capacity: Capacity (instance count) of application gateway\n:type capacity:\
+    \ int"
+  type: Class
+  uid: azure.mgmt.network.models.ApplicationGatewaySku

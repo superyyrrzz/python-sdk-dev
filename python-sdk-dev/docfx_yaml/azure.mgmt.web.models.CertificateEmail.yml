@@ -1,0 +1,56 @@
+api_name: []
+items:
+- _type: class
+  children: []
+  class: azure.mgmt.web.models.CertificateEmail
+  fullName: azure.mgmt.web.models.CertificateEmail
+  inheritance:
+  - azure.mgmt.web.models.resource.Resource
+  - msrest.serialization.Model
+  - builtins.object
+  module: azure.mgmt.web.models
+  name: CertificateEmail
+  source:
+    id: CertificateEmail
+    path: azure-mgmt-web/azure/mgmt/web/models/certificate_email.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/models/certificate_email.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 15
+  summary: 'Certificate Email.
+
+
+    :param id: Resource Id
+
+    :type id: str
+
+    :param name: Resource Name
+
+    :type name: str
+
+    :param kind: Kind of resource
+
+    :type kind: str
+
+    :param location: Resource Location
+
+    :type location: str
+
+    :param type: Resource type
+
+    :type type: str
+
+    :param tags: Resource tags
+
+    :type tags: dict
+
+    :param email_id: Email id
+
+    :type email_id: str
+
+    :param time_stamp: Time stamp
+
+    :type time_stamp: datetime'
+  type: Class
+  uid: azure.mgmt.web.models.CertificateEmail

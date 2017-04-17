@@ -1,0 +1,80 @@
+api_name: []
+items:
+- _type: class
+  children:
+  - azure.mgmt.authorization.operations.ProviderOperationsMetadataOperations.get
+  - azure.mgmt.authorization.operations.ProviderOperationsMetadataOperations.list
+  class: azure.mgmt.authorization.operations.ProviderOperationsMetadataOperations
+  fullName: azure.mgmt.authorization.operations.ProviderOperationsMetadataOperations
+  inheritance:
+  - builtins.object
+  module: azure.mgmt.authorization.operations
+  name: ProviderOperationsMetadataOperations
+  source:
+    id: ProviderOperationsMetadataOperations
+    path: azure-mgmt-authorization/azure/mgmt/authorization/operations/provider_operations_metadata_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-authorization/azure/mgmt/authorization/operations/provider_operations_metadata_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 19
+  summary: 'ProviderOperationsMetadataOperations operations.
+
+
+    :param client: Client for service requests.
+
+    :param config: Configuration of service client.
+
+    :param serializer: An object model serializer.
+
+    :param deserializer: An objec model deserializer.'
+  type: Class
+  uid: azure.mgmt.authorization.operations.ProviderOperationsMetadataOperations
+- _type: method
+  class: azure.mgmt.authorization.operations.ProviderOperationsMetadataOperations
+  fullName: azure.mgmt.authorization.operations.ProviderOperationsMetadataOperations.get
+  module: azure.mgmt.authorization.operations
+  name: get
+  source:
+    id: get
+    path: azure-mgmt-authorization/azure/mgmt/authorization/operations/provider_operations_metadata_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-authorization/azure/mgmt/authorization/operations/provider_operations_metadata_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 36
+  summary: "Gets provider operations metadata for the specified resource provider.\n\
+    \n:param resource_provider_namespace: The namespace of the resource\n provider.\n\
+    :type resource_provider_namespace: str\n:param api_version: The API version to\
+    \ use for the operation.\n:type api_version: str\n:param expand: Specifies whether\
+    \ to expand the values.\n:type expand: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ProviderOperationsMetadata\n\
+    \ <azure.mgmt.authorization.models.ProviderOperationsMetadata>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.authorization.operations.ProviderOperationsMetadataOperations.get
+- _type: method
+  class: azure.mgmt.authorization.operations.ProviderOperationsMetadataOperations
+  fullName: azure.mgmt.authorization.operations.ProviderOperationsMetadataOperations.list
+  module: azure.mgmt.authorization.operations
+  name: list
+  source:
+    id: list
+    path: azure-mgmt-authorization/azure/mgmt/authorization/operations/provider_operations_metadata_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-authorization/azure/mgmt/authorization/operations/provider_operations_metadata_operations.py
+      repo: https://github.com/Azure/azure-sdk-for-python/
+    startLine: 101
+  summary: "Gets provider operations metadata for all resource providers.\n\n:param\
+    \ api_version: The API version to use for this operation.\n:type api_version:\
+    \ str\n:param expand: Specifies whether to expand the values.\n:type expand: str\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`ProviderOperationsMetadataPaged\n <azure.mgmt.authorization.models.ProviderOperationsMetadataPaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.authorization.operations.ProviderOperationsMetadataOperations.list
