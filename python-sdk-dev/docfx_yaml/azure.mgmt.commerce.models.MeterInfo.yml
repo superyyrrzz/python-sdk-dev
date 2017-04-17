@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-commerce/azure/mgmt/commerce/models/meter_info.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Detailed information about the meter.\n\n:param meter_id: The unique identifier\
     \ of the resource.\n:type meter_id: str\n:param meter_name: The name of the meter,\

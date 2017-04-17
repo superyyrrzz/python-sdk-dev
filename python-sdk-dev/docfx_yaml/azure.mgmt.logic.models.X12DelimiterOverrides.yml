@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/x12_delimiter_overrides.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "X12DelimiterOverrides.\n\n:param protocol_version: The protocol version.\n\
     :type protocol_version: str\n:param message_id: The message id.\n:type message_id:\

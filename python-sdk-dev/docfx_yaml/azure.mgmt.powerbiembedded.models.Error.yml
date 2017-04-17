@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/models/error.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 16
   summary: "Error.\n\n:param code:\n:type code: str\n:param message:\n:type message:\
     \ str\n:param target:\n:type target: str\n:param details:\n:type details: list\

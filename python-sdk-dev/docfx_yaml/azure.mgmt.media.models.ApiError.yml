@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-media/azure/mgmt/media/models/api_error.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 16
   summary: 'The error returned from a failed Media Services REST API call.
 

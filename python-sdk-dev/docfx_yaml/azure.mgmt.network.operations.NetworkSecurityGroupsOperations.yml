@@ -19,7 +19,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_security_groups_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 20
   summary: 'NetworkSecurityGroupsOperations operations.
 
@@ -44,7 +44,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_security_groups_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 182
   summary: "The Put NetworkSecurityGroup operation creates/updates a network\nsecurity\
     \ group in the specified resource group.\n\n:param resource_group_name: The name\
@@ -70,7 +70,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_security_groups_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 37
   summary: "The Delete NetworkSecurityGroup operation deletes the specified\nnetwork\
     \ security group.\n\n:param resource_group_name: The name of the resource group.\n\
@@ -94,7 +94,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_security_groups_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 115
   summary: "The Get NetworkSecurityGroups operation retrieves information about\n\
     the specified network security group.\n\n:param resource_group_name: The name\
@@ -119,7 +119,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_security_groups_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 341
   summary: "The list NetworkSecurityGroups returns all network security groups in\n\
     a resource group.\n\n:param resource_group_name: The name of the resource group.\n\
@@ -141,7 +141,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_security_groups_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 278
   summary: "The list NetworkSecurityGroups returns all network security groups in\n\
     a subscription.\n\n:param dict custom_headers: headers that will be added to the\

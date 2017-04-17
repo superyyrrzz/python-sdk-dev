@@ -14,7 +14,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/scheduler_management_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 76
   summary: ":ivar config: Configuration for client.\n:vartype config: SchedulerManagementClientConfiguration\n\
     \n:ivar job_collections: JobCollections operations\n:vartype job_collections:\

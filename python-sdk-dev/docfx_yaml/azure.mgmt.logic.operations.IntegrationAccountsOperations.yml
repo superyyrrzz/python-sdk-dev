@@ -21,7 +21,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/integration_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'IntegrationAccountsOperations operations.
 
@@ -48,7 +48,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/integration_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 234
   summary: "Creates or updates an integration account.\n\n:param resource_group_name:\
     \ The resource group name.\n:type resource_group_name: str\n:param integration_account_name:\
@@ -73,7 +73,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/integration_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 372
   summary: "Deletes an integration account.\n\n:param resource_group_name: The resource\
     \ group name.\n:type resource_group_name: str\n:param integration_account_name:\
@@ -96,7 +96,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/integration_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 173
   summary: "Gets an integration account.\n\n:param resource_group_name: The resource\
     \ group name.\n:type resource_group_name: str\n:param integration_account_name:\
@@ -119,7 +119,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/integration_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 104
   summary: "Gets a list of integration accounts by resource group.\n\n:param resource_group_name:\
     \ The resource group name.\n:type resource_group_name: str\n:param top: The number\
@@ -141,7 +141,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/integration_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 38
   summary: "Gets a list of integration accounts by subscription.\n\n:param top: The\
     \ number of items to be included in the result.\n:type top: int\n:param dict custom_headers:\
@@ -162,7 +162,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/integration_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 425
   summary: "Lists the integration account callback URL.\n\n:param resource_group_name:\
     \ The resource group name.\n:type resource_group_name: str\n:param integration_account_name:\
@@ -186,7 +186,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/integration_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 304
   summary: "Updates an integration account.\n\n:param resource_group_name: The resource\
     \ group name.\n:type resource_group_name: str\n:param integration_account_name:\

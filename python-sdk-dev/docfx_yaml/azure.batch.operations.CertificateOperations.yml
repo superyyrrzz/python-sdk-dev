@@ -19,7 +19,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/certificate_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 18
   summary: 'CertificateOperations operations.
 
@@ -44,7 +44,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/certificate_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 35
   summary: "Adds a certificate to the specified account.\n\n:param certificate: The\
     \ certificate to be added.\n:type certificate: :class:`CertificateAddParameter\n\
@@ -68,7 +68,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/certificate_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 212
   summary: "Cancels a failed deletion of a certificate from the specified account.\n\
     \n:param thumbprint_algorithm: The algorithm used to derive the\n thumbprint parameter.\
@@ -94,7 +94,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/certificate_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 296
   summary: "Deletes a certificate from the specified account.\n\n:param thumbprint_algorithm:\
     \ The algorithm used to derive the\n thumbprint parameter. This must be sha1.\n\
@@ -119,7 +119,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/certificate_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 378
   summary: "Gets information about the specified certificate.\n\n:param thumbprint_algorithm:\
     \ The algorithm used to derive the\n thumbprint parameter. This must be sha1.\n\
@@ -145,7 +145,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/certificate_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 115
   summary: "Lists all of the certificates that have been added to the specified\n\
     account.\n\n:param certificate_list_options: Additional parameters for the\n operation\n\

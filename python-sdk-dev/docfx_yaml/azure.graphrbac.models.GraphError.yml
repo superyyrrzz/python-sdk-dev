@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/models/graph_error.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 16
   summary: 'Active Directory error information.
 

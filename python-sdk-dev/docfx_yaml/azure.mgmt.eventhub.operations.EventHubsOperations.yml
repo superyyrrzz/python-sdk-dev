@@ -24,7 +24,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/event_hubs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'EventHubsOperations operations.
 
@@ -49,7 +49,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/event_hubs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 105
   summary: "Creates or updates a new Event Hub as a nested resource within a\nnamespace.\n\
     \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
@@ -76,7 +76,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/event_hubs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 373
   summary: "Creates or updates an authorization rule for the specified Event Hub.\n\
     \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
@@ -104,7 +104,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/event_hubs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 179
   summary: "Deletes an Event Hub from the specified namespace and resource group.\n\
     \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
@@ -128,7 +128,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/event_hubs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 517
   summary: "Deletes an Event Hubs authorization rule.\n\n:param resource_group_name:\
     \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
@@ -153,7 +153,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/event_hubs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 236
   summary: "Gets an Event Hubs description for the specified Event Hub.\n\n:param\
     \ resource_group_name: The name of the resource group.\n:type resource_group_name:\
@@ -178,7 +178,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/event_hubs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 449
   summary: "Gets an authorization rule for an Event Hub by rule name.\n\n:param resource_group_name:\
     \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
@@ -204,7 +204,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/event_hubs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 36
   summary: "Gets all the Event Hubs in a namespace.\n\n:param resource_group_name:\
     \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
@@ -226,7 +226,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/event_hubs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 301
   summary: "Gets the authorization rules for an Event Hub.\n\n:param resource_group_name:\
     \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
@@ -250,7 +250,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/event_hubs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 577
   summary: "Gets the ACS and SAS connection strings for the Event Hub.\n\n:param resource_group_name:\
     \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
@@ -276,7 +276,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/event_hubs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 646
   summary: "Regenerates the ACS and SAS connection strings for the Event Hub.\n\n\
     :param resource_group_name: The name of the resource group.\n:type resource_group_name:\

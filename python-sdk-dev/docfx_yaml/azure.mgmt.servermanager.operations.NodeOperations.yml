@@ -20,7 +20,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/node_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'NodeOperations operations.
 
@@ -45,7 +45,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/node_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 36
   summary: "Creates or updates a management node.\n\n:param resource_group_name: The\
     \ resource group name uniquely\n identifies the resource group within the user\
@@ -75,7 +75,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/node_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 244
   summary: "deletes a management node.\n\n:param resource_group_name: The resource\
     \ group name uniquely\n identifies the resource group within the user subscriptionId.\n\
@@ -98,7 +98,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/node_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 298
   summary: "Gets a management node.\n\n:param resource_group_name: The resource group\
     \ name uniquely\n identifies the resource group within the user subscriptionId.\n\
@@ -122,7 +122,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/node_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 360
   summary: "Lists nodes in a subscription.\n\n:param dict custom_headers: headers\
     \ that will be added to the request\n:param bool raw: returns the direct response\
@@ -142,7 +142,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/node_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 422
   summary: "Lists nodes in a resource group.\n\n:param resource_group_name: The resource\
     \ group name uniquely\n identifies the resource group within the user subscriptionId.\n\
@@ -164,7 +164,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/node_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 141
   summary: "Updates a management node.\n\n:param resource_group_name: The resource\
     \ group name uniquely\n identifies the resource group within the user subscriptionId.\n\

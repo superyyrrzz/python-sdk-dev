@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/task_constraints.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Constraints to apply to the Job Manager task.\n\n:param max_wall_clock_time:\
     \ The maximum elapsed time that the task may\n run, measured from the time the\

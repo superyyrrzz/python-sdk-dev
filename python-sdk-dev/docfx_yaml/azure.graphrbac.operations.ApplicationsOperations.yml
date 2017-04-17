@@ -23,7 +23,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/applications_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 18
   summary: 'ApplicationsOperations operations.
 
@@ -50,7 +50,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/applications_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 37
   summary: "Create a new application.\n\n:param parameters: The parameters for creating\
     \ an application.\n:type parameters: :class:`ApplicationCreateParameters\n <azure.graphrbac.models.ApplicationCreateParameters>`\n\
@@ -72,7 +72,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/applications_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 170
   summary: "Delete an application.\n\n:param application_object_id: Application object\
     \ ID.\n:type application_object_id: str\n:param dict custom_headers: headers that\
@@ -93,7 +93,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/applications_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 220
   summary: "Get an application by object ID.\n\n:param application_object_id: Application\
     \ object ID.\n:type application_object_id: str\n:param dict custom_headers: headers\
@@ -115,7 +115,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/applications_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 98
   summary: "Lists applications by filter parameters.\n\n:param filter: The filters\
     \ to apply to the operation.\n:type filter: str\n:param dict custom_headers: headers\
@@ -136,7 +136,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/applications_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 334
   summary: "Get the keyCredentials associated with an application.\n\n:param application_object_id:\
     \ Application object ID.\n:type application_object_id: str\n:param dict custom_headers:\
@@ -157,7 +157,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/applications_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 458
   summary: "Get the passwordCredentials associated with an application.\n\n:param\
     \ application_object_id: Application object ID.\n:type application_object_id:\
@@ -179,7 +179,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/applications_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 277
   summary: "Update an existing application.\n\n:param application_object_id: Application\
     \ object ID.\n:type application_object_id: str\n:param parameters: Parameters\
@@ -203,7 +203,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/applications_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 399
   summary: "Update the keyCredentials associated with an application.\n\n:param application_object_id:\
     \ Application object ID.\n:type application_object_id: str\n:param value: A collection\
@@ -226,7 +226,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/applications_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 523
   summary: "Update passwordCredentials associated with an application.\n\n:param application_object_id:\
     \ Application object ID.\n:type application_object_id: str\n:param value: A collection\

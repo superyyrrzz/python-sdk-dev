@@ -16,41 +16,44 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/domain.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "Represents a domain.\n\n:param id: Resource Id\n:type id: str\n:param\
-    \ name: Resource Name\n:type name: str\n:param kind: Kind of resource\n:type kind:\
-    \ str\n:param location: Resource Location\n:type location: str\n:param type: Resource\
-    \ type\n:type type: str\n:param tags: Resource tags\n:type tags: dict\n:param\
-    \ contact_admin: Admin contact information\n:type contact_admin: :class:`Contact\
-    \ <azure.mgmt.web.models.Contact>`\n:param contact_billing: Billing contact information\n\
-    :type contact_billing: :class:`Contact <azure.mgmt.web.models.Contact>`\n:param\
-    \ contact_registrant: Registrant contact information\n:type contact_registrant:\
-    \ :class:`Contact <azure.mgmt.web.models.Contact>`\n:param contact_tech: Technical\
-    \ contact information\n:type contact_tech: :class:`Contact <azure.mgmt.web.models.Contact>`\n\
-    :param registration_status: Domain registration status. Possible values\n include:\
-    \ 'Active', 'Awaiting', 'Cancelled', 'Confiscated', 'Disabled',\n 'Excluded',\
-    \ 'Expired', 'Failed', 'Held', 'Locked', 'Parked', 'Pending',\n 'Reserved', 'Reverted',\
-    \ 'Suspended', 'Transferred', 'Unknown',\n 'Unlocked', 'Unparked', 'Updated',\
-    \ 'JsonConverterFailed'\n:type registration_status: str or :class:`DomainStatus\n\
-    \ <azure.mgmt.web.models.DomainStatus>`\n:param provisioning_state: Domain provisioning\
-    \ state. Possible values\n include: 'Succeeded', 'Failed', 'Canceled', 'InProgress',\
-    \ 'Deleting'\n:type provisioning_state: str or :class:`ProvisioningState\n <azure.mgmt.web.models.ProvisioningState>`\n\
-    :param name_servers: Name servers\n:type name_servers: list of str\n:param privacy:\
-    \ If true then domain privacy is enabled for this domain\n:type privacy: bool\n\
-    :param created_time: Domain creation timestamp\n:type created_time: datetime\n\
-    :param expiration_time: Domain expiration timestamp\n:type expiration_time: datetime\n\
-    :param last_renewed_time: Timestamp when the domain was renewed last time\n:type\
-    \ last_renewed_time: datetime\n:param auto_renew: If true then domain will renewed\
-    \ automatically\n:type auto_renew: bool\n:param ready_for_dns_record_management:\
-    \ If true then Azure can assign\n this domain to Web Apps. This value will be\
-    \ true if domain registration\n status is active and it is hosted on name servers\
-    \ Azure has programmatic\n access to\n:type ready_for_dns_record_management: bool\n\
-    :param managed_host_names: All hostnames derived from the domain and\n assigned\
-    \ to Azure resources\n:type managed_host_names: list of :class:`HostName\n <azure.mgmt.web.models.HostName>`\n\
-    :param consent: Legal agreement consent\n:type consent: :class:`DomainPurchaseConsent\n\
-    \ <azure.mgmt.web.models.DomainPurchaseConsent>`\n:param domain_not_renewable_reasons:\
-    \ Reasons why domain is not renewable\n:type domain_not_renewable_reasons: list\
-    \ of str"
+  summary: "Information about a domain.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:ivar id: Resource Id.\n:vartype\
+    \ id: str\n:param name: Resource Name.\n:type name: str\n:param kind: Kind of\
+    \ resource.\n:type kind: str\n:param location: Resource Location.\n:type location:\
+    \ str\n:param type: Resource type.\n:type type: str\n:param tags: Resource tags.\n\
+    :type tags: dict\n:param contact_admin: Administrative contact.\n:type contact_admin:\
+    \ :class:`Contact <azure.mgmt.web.models.Contact>`\n:param contact_billing: Billing\
+    \ contact.\n:type contact_billing: :class:`Contact <azure.mgmt.web.models.Contact>`\n\
+    :param contact_registrant: Registrant contact.\n:type contact_registrant: :class:`Contact\
+    \ <azure.mgmt.web.models.Contact>`\n:param contact_tech: Technical contact.\n\
+    :type contact_tech: :class:`Contact <azure.mgmt.web.models.Contact>`\n:ivar registration_status:\
+    \ Domain registration status. Possible values\n include: 'Active', 'Awaiting',\
+    \ 'Cancelled', 'Confiscated', 'Disabled',\n 'Excluded', 'Expired', 'Failed', 'Held',\
+    \ 'Locked', 'Parked', 'Pending',\n 'Reserved', 'Reverted', 'Suspended', 'Transferred',\
+    \ 'Unknown', 'Unlocked',\n 'Unparked', 'Updated', 'JsonConverterFailed'\n:vartype\
+    \ registration_status: str or :class:`DomainStatus\n <azure.mgmt.web.models.DomainStatus>`\n\
+    :ivar provisioning_state: Domain provisioning state. Possible values\n include:\
+    \ 'Succeeded', 'Failed', 'Canceled', 'InProgress', 'Deleting'\n:vartype provisioning_state:\
+    \ str or :class:`ProvisioningState\n <azure.mgmt.web.models.ProvisioningState>`\n\
+    :param name_servers: Name servers.\n:type name_servers: list of str\n:param privacy:\
+    \ <code>true</code> if domain privacy is enabled for this\n domain; otherwise,\
+    \ <code>false</code>.\n:type privacy: bool\n:ivar created_time: Domain creation\
+    \ timestamp.\n:vartype created_time: datetime\n:ivar expiration_time: Domain expiration\
+    \ timestamp.\n:vartype expiration_time: datetime\n:ivar last_renewed_time: Timestamp\
+    \ when the domain was renewed last time.\n:vartype last_renewed_time: datetime\n\
+    :param auto_renew: <code>true</code> if the domain should be automatically\n renewed;\
+    \ otherwise, <code>false</code>. Default value: True .\n:type auto_renew: bool\n\
+    :ivar ready_for_dns_record_management: <code>true</code> if Azure can\n assign\
+    \ this domain to App Service apps; otherwise, <code>false</code>.\n This value\
+    \ will be <code>true</code> if domain registration status is\n active and\n it\
+    \ is hosted on name servers Azure has programmatic access to.\n:vartype ready_for_dns_record_management:\
+    \ bool\n:param managed_host_names: All hostnames derived from the domain and\n\
+    \ assigned to Azure resources.\n:type managed_host_names: list of :class:`HostName\n\
+    \ <azure.mgmt.web.models.HostName>`\n:param consent: Legal agreement consent.\n\
+    :type consent: :class:`DomainPurchaseConsent\n <azure.mgmt.web.models.DomainPurchaseConsent>`\n\
+    :param domain_not_renewable_reasons: Reasons why domain is not renewable.\n:type\
+    \ domain_not_renewable_reasons: list of str"
   type: Class
   uid: azure.mgmt.web.models.Domain

@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/operations/usage_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'UsageOperations operations.
 
@@ -40,7 +40,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/operations/usage_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 36
   summary: "Gets the current usage count and the limit for the resources under the\n\
     subscription.\n\n:param dict custom_headers: headers that will be added to the\

@@ -15,11 +15,11 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/ip_security_restriction.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "Represents an ip security restriction on a web app.\n\n:param ip_address:\
-    \ IP address the security restriction is valid for\n:type ip_address: str\n:param\
-    \ subnet_mask: Subnet mask for the range of IP addresses the\n restriction is\
-    \ valid for\n:type subnet_mask: str"
+  summary: "IP security restriction on an app.\n\n:param ip_address: IP address the\
+    \ security restriction is valid for.\n:type ip_address: str\n:param subnet_mask:\
+    \ Subnet mask for the range of IP addresses the\n restriction is valid for.\n\
+    :type subnet_mask: str"
   type: Class
   uid: azure.mgmt.web.models.IpSecurityRestriction

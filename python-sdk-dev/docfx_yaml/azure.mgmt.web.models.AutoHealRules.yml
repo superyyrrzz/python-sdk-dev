@@ -15,12 +15,11 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/auto_heal_rules.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "AutoHealRules - describes the rules which can be defined for auto-heal.\n\
-    \n:param triggers: Triggers - Conditions that describe when to execute the\n auto-heal\
-    \ actions\n:type triggers: :class:`AutoHealTriggers\n <azure.mgmt.web.models.AutoHealTriggers>`\n\
-    :param actions: Actions - Actions to be executed when a rule is triggered\n:type\
-    \ actions: :class:`AutoHealActions\n <azure.mgmt.web.models.AutoHealActions>`"
+  summary: "Rules that can be defined for auto-heal.\n\n:param triggers: Conditions\
+    \ that describe when to execute the auto-heal\n actions.\n:type triggers: :class:`AutoHealTriggers\n\
+    \ <azure.mgmt.web.models.AutoHealTriggers>`\n:param actions: Actions to be executed\
+    \ when a rule is triggered.\n:type actions: :class:`AutoHealActions\n <azure.mgmt.web.models.AutoHealActions>`"
   type: Class
   uid: azure.mgmt.web.models.AutoHealRules

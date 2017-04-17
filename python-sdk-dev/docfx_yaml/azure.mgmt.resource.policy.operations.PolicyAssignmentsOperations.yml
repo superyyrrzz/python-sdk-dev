@@ -23,7 +23,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/policy/operations/policy_assignments_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'PolicyAssignmentsOperations operations.
 
@@ -48,7 +48,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/policy/operations/policy_assignments_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 97
   summary: "Create policy assignment.\n\n:param scope: Scope of the policy assignment.\n\
     :type scope: str\n:param policy_assignment_name: Policy assignment name.\n:type\
@@ -72,7 +72,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/policy/operations/policy_assignments_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 501
   summary: "Create policy assignment by Id.\n\n:param policy_assignment_id: Policy\
     \ assignment Id\n:type policy_assignment_id: str\n:param parameters: Policy assignment.\n\
@@ -95,7 +95,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/policy/operations/policy_assignments_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 36
   summary: "Delete policy assignment.\n\n:param scope: Scope of the policy assignment.\n\
     :type scope: str\n:param policy_assignment_name: Policy assignment name.\n:type\
@@ -118,7 +118,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/policy/operations/policy_assignments_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 443
   summary: "Delete policy assignment.\n\n:param policy_assignment_id: Policy assignment\
     \ Id\n:type policy_assignment_id: str\n:param dict custom_headers: headers that\
@@ -140,7 +140,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/policy/operations/policy_assignments_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 165
   summary: "Get single policy assignment.\n\n:param scope: Scope of the policy assignment.\n\
     :type scope: str\n:param policy_assignment_name: Policy assignment name.\n:type\
@@ -163,7 +163,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/policy/operations/policy_assignments_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 566
   summary: "Get single policy assignment.\n\n:param policy_assignment_id: Policy assignment\
     \ Id\n:type policy_assignment_id: str\n:param dict custom_headers: headers that\
@@ -185,7 +185,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/policy/operations/policy_assignments_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 377
   summary: "Gets all the policy assignments of a subscription.\n\n:param filter: The\
     \ filter to apply on the operation.\n:type filter: str\n:param dict custom_headers:\
@@ -206,7 +206,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/policy/operations/policy_assignments_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 295
   summary: "Gets policy assignments of the resource.\n\n:param resource_group_name:\
     \ The name of the resource group. The name\n is case insensitive.\n:type resource_group_name:\
@@ -232,7 +232,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/policy/operations/policy_assignments_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 226
   summary: "Gets policy assignments of the resource group.\n\n:param resource_group_name:\
     \ Resource group name.\n:type resource_group_name: str\n:param filter: The filter\

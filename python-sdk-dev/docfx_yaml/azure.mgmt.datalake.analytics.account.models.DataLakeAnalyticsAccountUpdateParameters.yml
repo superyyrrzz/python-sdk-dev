@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/models/data_lake_analytics_account_update_parameters.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "The parameters that can be used to update an existing Data Lake Analytics\n\
     account.\n\n:param tags: Resource tags\n:type tags: dict\n:param max_degree_of_parallelism:\
@@ -27,6 +27,16 @@ items:
     \ values include: 'Consumption', 'Commitment_100AUHours',\n 'Commitment_500AUHours',\
     \ 'Commitment_1000AUHours',\n 'Commitment_5000AUHours', 'Commitment_10000AUHours',\n\
     \ 'Commitment_50000AUHours', 'Commitment_100000AUHours',\n 'Commitment_500000AUHours'\n\
-    :type new_tier: str or :class:`TierType\n <azure.mgmt.datalake.analytics.account.models.TierType>`"
+    :type new_tier: str or :class:`TierType\n <azure.mgmt.datalake.analytics.account.models.TierType>`\n\
+    :param firewall_state: The current state of the IP address firewall for\n this\
+    \ Data Lake Analytics account. Possible values include: 'Enabled',\n 'Disabled'\n\
+    :type firewall_state: str or :class:`FirewallState\n <azure.mgmt.datalake.analytics.account.models.FirewallState>`\n\
+    :param firewall_allow_azure_ips: The current state of allowing or\n disallowing\
+    \ IPs originating within Azure through the firewall. If the\n firewall is disabled,\
+    \ this is not enforced. Possible values include:\n 'Enabled', 'Disabled'\n:type\
+    \ firewall_allow_azure_ips: str or :class:`FirewallAllowAzureIpsState\n <azure.mgmt.datalake.analytics.account.models.FirewallAllowAzureIpsState>`\n\
+    :param firewall_rules: The list of firewall rules associated with this\n Data\
+    \ Lake Analytics account.\n:type firewall_rules: list of :class:`FirewallRule\n\
+    \ <azure.mgmt.datalake.analytics.account.models.FirewallRule>`"
   type: Class
   uid: azure.mgmt.datalake.analytics.account.models.DataLakeAnalyticsAccountUpdateParameters

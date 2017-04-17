@@ -16,7 +16,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-search/azure/mgmt/search/operations/admin_keys_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'AdminKeysOperations operations.
 
@@ -41,7 +41,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-search/azure/mgmt/search/operations/admin_keys_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 36
   summary: "Gets the primary and secondary admin API keys for the specified Azure\n\
     Search service.\n\n:param resource_group_name: The name of the resource group\
@@ -70,7 +70,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-search/azure/mgmt/search/operations/admin_keys_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 113
   summary: "Regenerates either the primary or secondary admin API key. You can only\n\
     regenerate one key at a time.\n\n:param resource_group_name: The name of the resource\

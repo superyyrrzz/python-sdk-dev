@@ -15,11 +15,13 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/virtual_application.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "VirtualApplication.\n\n:param virtual_path:\n:type virtual_path: str\n\
-    :param physical_path:\n:type physical_path: str\n:param preload_enabled:\n:type\
-    \ preload_enabled: bool\n:param virtual_directories:\n:type virtual_directories:\
-    \ list of :class:`VirtualDirectory\n <azure.mgmt.web.models.VirtualDirectory>`"
+  summary: "Virtual application in an app.\n\n:param virtual_path: Virtual path.\n\
+    :type virtual_path: str\n:param physical_path: Physical path.\n:type physical_path:\
+    \ str\n:param preload_enabled: <code>true</code> if preloading is enabled;\n otherwise,\
+    \ <code>false</code>.\n:type preload_enabled: bool\n:param virtual_directories:\
+    \ Virtual directories for virtual application.\n:type virtual_directories: list\
+    \ of :class:`VirtualDirectory\n <azure.mgmt.web.models.VirtualDirectory>`"
   type: Class
   uid: azure.mgmt.web.models.VirtualApplication

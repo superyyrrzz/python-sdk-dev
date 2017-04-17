@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/keyvault/models/vault_properties.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Properties of the vault.\n\n:param vault_uri: The URI of the vault for\
     \ performing operations on keys\n and secrets.\n:type vault_uri: str\n:param tenant_id:\

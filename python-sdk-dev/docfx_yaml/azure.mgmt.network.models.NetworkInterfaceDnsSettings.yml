@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/network_interface_dns_settings.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Dns settings of a network interface.\n\n:param dns_servers: Gets or sets\
     \ list of DNS servers IP addresses\n:type dns_servers: list of str\n:param applied_dns_servers:\

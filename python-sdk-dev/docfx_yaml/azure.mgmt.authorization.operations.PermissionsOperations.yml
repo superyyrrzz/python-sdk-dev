@@ -16,7 +16,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-authorization/azure/mgmt/authorization/operations/permissions_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'PermissionsOperations operations.
 
@@ -41,7 +41,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-authorization/azure/mgmt/authorization/operations/permissions_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 103
   summary: "Gets all permissions the caller has for a resource.\n\n:param resource_group_name:\
     \ The name of the resource group containing\n the resource. The name is case insensitive.\n\
@@ -68,7 +68,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-authorization/azure/mgmt/authorization/operations/permissions_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 36
   summary: "Gets all permissions the caller has for a resource group.\n\n:param resource_group_name:\
     \ The name of the resource group to get the\n permissions for. The name is case\

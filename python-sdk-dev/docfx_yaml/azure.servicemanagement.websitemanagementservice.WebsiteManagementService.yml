@@ -27,7 +27,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 38
   summary: 'Note that this class is a preliminary work on WebSite
 
@@ -63,7 +63,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 38
   summary: "Initializes the website management service.\n\nsubscription_id:\n    Subscription\
     \ to manage.\ncert_file:\n    Path to .pem certificate file (httplib), or location\
@@ -93,7 +93,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 116
   summary: "Create a website.\n\nwebspace_name:\n    The name of the webspace.\nwebsite_name:\n\
     \    The name of the website.\ngeo_region:\n    The geographical region of the\
@@ -125,7 +125,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 155
   summary: "Delete a website.\n\nwebspace_name:\n    The name of the webspace.\nwebsite_name:\n\
     \    The name of the website.\ndelete_empty_server_farm:\n    If the site being\
@@ -147,7 +147,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 210
   summary: "Get historical usage metrics.\n\nwebspace_name:\n    The name of the webspace.\n\
     website_name:\n    The name of the website.\nmetrics:\n    Optional. List of metrics\
@@ -171,7 +171,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 239
   summary: "Get metric definitions of metrics available of this web site.\n\nwebspace_name:\n\
     \    The name of the webspace.\nwebsite_name:\n    The name of the website."
@@ -190,7 +190,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 263
   summary: "Get a site's publish profile as an object\n\nwebspace_name:\n    The name\
     \ of the webspace.\nwebsite_name:\n    The name of the website."
@@ -209,7 +209,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 251
   summary: "Get a site's publish profile as a string\n\nwebspace_name:\n    The name\
     \ of the webspace.\nwebsite_name:\n    The name of the website."
@@ -228,7 +228,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 103
   summary: "List the web sites defined on this webspace.\n\nwebspace_name:\n    The\
     \ name of the webspace.\nwebsite_name:\n    The name of the website."
@@ -247,7 +247,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 83
   summary: "Get details of a specific webspace.\n\nwebspace_name:\n    The name of\
     \ the webspace."
@@ -266,7 +266,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 93
   summary: "List the web sites defined on this webspace.\n\nwebspace_name:\n    The\
     \ name of the webspace."
@@ -285,7 +285,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 76
   summary: List the webspaces defined on the account.
   type: Method
@@ -303,7 +303,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 197
   summary: "Restart a web site.\n\nwebspace_name:\n    The name of the webspace.\n\
     website_name:\n    The name of the website."
@@ -322,7 +322,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/websitemanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 181
   summary: "Update a web site.\n\nwebspace_name:\n    The name of the webspace.\n\
     website_name:\n    The name of the website.\nstate:\n    The wanted state ('Running'\

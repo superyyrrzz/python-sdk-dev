@@ -23,7 +23,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/groups_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 18
   summary: 'GroupsOperations operations.
 
@@ -50,7 +50,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/groups_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 158
   summary: "Add a member to a group.\n\n:param group_object_id: The object ID of the\
     \ group to which to add the\n member.\n:type group_object_id: str\n:param url:\
@@ -75,7 +75,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/groups_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 271
   summary: "Create a group in the directory.\n\n:param display_name: Group display\
     \ name\n:type display_name: str\n:param mail_nickname: Mail nickname\n:type mail_nickname:\
@@ -97,7 +97,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/groups_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 221
   summary: "Delete a group from the directory.\n\n:param group_object_id: The object\
     \ ID of the group to delete.\n:type group_object_id: str\n:param dict custom_headers:\
@@ -119,7 +119,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/groups_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 478
   summary: "Gets group information from the directory.\n\n:param object_id: The object\
     \ ID of the user for which to get group\n information.\n:type object_id: str\n\
@@ -141,7 +141,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/groups_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 406
   summary: "Gets the members of a group.\n\n:param object_id: The object ID of the\
     \ group whose members should be\n retrieved.\n:type object_id: str\n:param dict\
@@ -163,7 +163,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/groups_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 536
   summary: "Gets a collection of object IDs of groups of which the specified group\n\
     is a member.\n\n:param object_id: The object ID of the group for which to get\
@@ -187,7 +187,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/groups_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 37
   summary: "Checks whether the specified user, group, contact, or service principal\n\
     is a direct or transitive member of the specified group.\n\n:param group_id: The\
@@ -212,7 +212,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/groups_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 335
   summary: "Gets list of groups for the current tenant.\n\n:param filter: The filter\
     \ to apply to the operation.\n:type filter: str\n:param dict custom_headers: headers\
@@ -233,7 +233,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/groups_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 104
   summary: "Remove a member from a group.\n\n:param group_object_id: The object ID\
     \ of the group from which to\n remove the member.\n:type group_object_id: str\n\

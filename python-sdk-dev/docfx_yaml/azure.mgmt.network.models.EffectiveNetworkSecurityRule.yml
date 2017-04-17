@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/effective_network_security_rule.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Effective NetworkSecurityRules.\n\n:param name: Gets the name of the security\
     \ rule specified by the user (if\n created by the user)\n:type name: str\n:param\

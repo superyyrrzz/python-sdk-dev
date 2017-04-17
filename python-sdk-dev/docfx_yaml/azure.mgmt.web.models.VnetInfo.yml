@@ -16,21 +16,23 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/vnet_info.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "VNETInfo contract. This contract is public and is a stripped down version\n\
-    of VNETInfoInternal.\n\n:param id: Resource Id\n:type id: str\n:param name: Resource\
-    \ Name\n:type name: str\n:param kind: Kind of resource\n:type kind: str\n:param\
-    \ location: Resource Location\n:type location: str\n:param type: Resource type\n\
-    :type type: str\n:param tags: Resource tags\n:type tags: dict\n:param vnet_resource_id:\
-    \ The vnet resource id\n:type vnet_resource_id: str\n:param cert_thumbprint: The\
-    \ client certificate thumbprint\n:type cert_thumbprint: str\n:param cert_blob:\
-    \ A certificate file (.cer) blob containing the public\n key of the private key\
+  summary: "Virtual Network information contract.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar id: Resource\
+    \ Id.\n:vartype id: str\n:param name: Resource Name.\n:type name: str\n:param\
+    \ kind: Kind of resource.\n:type kind: str\n:param location: Resource Location.\n\
+    :type location: str\n:param type: Resource type.\n:type type: str\n:param tags:\
+    \ Resource tags.\n:type tags: dict\n:param vnet_resource_id: The Virtual Network's\
+    \ resource ID.\n:type vnet_resource_id: str\n:ivar cert_thumbprint: The client\
+    \ certificate thumbprint.\n:vartype cert_thumbprint: str\n:param cert_blob: A\
+    \ certificate file (.cer) blob containing the public key\n of the private key\
     \ used to authenticate a\n Point-To-Site VPN connection.\n:type cert_blob: str\n\
-    :param routes: The routes that this virtual network connection uses.\n:type routes:\
-    \ list of :class:`VnetRoute <azure.mgmt.web.models.VnetRoute>`\n:param resync_required:\
-    \ Flag to determine if a resync is required\n:type resync_required: bool\n:param\
-    \ dns_servers: Dns servers to be used by this VNET. This should be a\n comma-separated\
-    \ list of IP addresses.\n:type dns_servers: str"
+    :ivar routes: The routes that this Virtual Network connection uses.\n:vartype\
+    \ routes: list of :class:`VnetRoute\n <azure.mgmt.web.models.VnetRoute>`\n:ivar\
+    \ resync_required: <code>true</code> if a resync is required;\n otherwise, <code>false</code>.\n\
+    :vartype resync_required: bool\n:param dns_servers: DNS servers to be used by\
+    \ this Virtual Network. This\n should be a comma-separated list of IP addresses.\n\
+    :type dns_servers: str"
   type: Class
   uid: azure.mgmt.web.models.VnetInfo

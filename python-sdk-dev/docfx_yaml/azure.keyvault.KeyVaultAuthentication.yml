@@ -16,7 +16,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/key_vault_authentication.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 48
   summary: ''
   type: Class
@@ -32,7 +32,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/key_vault_authentication.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 55
   summary: ''
   type: Method

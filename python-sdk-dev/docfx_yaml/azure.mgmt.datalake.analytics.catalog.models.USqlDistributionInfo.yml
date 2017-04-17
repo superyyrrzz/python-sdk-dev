@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/models/usql_distribution_info.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "A Data Lake Analytics catalog U-SQL distribution information object.\n\
     \n:param type: the type of this distribution.\n:type type: int\n:param keys: the\

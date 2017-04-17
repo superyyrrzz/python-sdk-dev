@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-trafficmanager/azure/mgmt/trafficmanager/models/traffic_manager_name_availability.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Class representing a Traffic Manager Name Availability response.\n\n:param\
     \ name: The relative name.\n:type name: str\n:param type: Traffic Manager profile\

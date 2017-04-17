@@ -15,9 +15,9 @@ items:
     remote:
       branch: master
       path: azure-mgmt-sql/azure/mgmt/sql/models/recommended_elastic_pool_metric.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "Represents Azure SQL recommended elastic pool metric.\n\n:param date_time_property:\
+  summary: "Represents recommended elastic pool metric.\n\n:param date_time_property:\
     \ The time of metric (ISO8601 format).\n:type date_time_property: datetime\n:param\
     \ dtu: Gets or sets the DTUs (Database Transaction Units). See\n https://azure.microsoft.com/documentation/articles/sql-database-what-is-a-dtu/\n\
     :type dtu: float\n:param size_gb: Gets or sets size in gigabytes.\n:type size_gb:\

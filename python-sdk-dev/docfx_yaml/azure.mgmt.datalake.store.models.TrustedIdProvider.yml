@@ -16,9 +16,9 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/models/trusted_id_provider.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: 'Data Lake Store firewall rule information.
+  summary: 'Data Lake Store Trusted Identity Provider information.
 
 
     Variables are only populated by the server, and will be ignored when

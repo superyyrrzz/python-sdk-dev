@@ -15,11 +15,12 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/network_access_control_entry.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "NetworkAccessControlEntry.\n\n:param action: Possible values include:\
-    \ 'Permit', 'Deny'\n:type action: str or :class:`AccessControlEntryAction\n <azure.mgmt.web.models.AccessControlEntryAction>`\n\
-    :param description:\n:type description: str\n:param order:\n:type order: int\n\
-    :param remote_subnet:\n:type remote_subnet: str"
+  summary: "Network access control entry.\n\n:param action: Action object. Possible\
+    \ values include: 'Permit', 'Deny'\n:type action: str or :class:`AccessControlEntryAction\n\
+    \ <azure.mgmt.web.models.AccessControlEntryAction>`\n:param description: Description.\n\
+    :type description: str\n:param order: Order of precedence.\n:type order: int\n\
+    :param remote_subnet: Remote subnet.\n:type remote_subnet: str"
   type: Class
   uid: azure.mgmt.web.models.NetworkAccessControlEntry

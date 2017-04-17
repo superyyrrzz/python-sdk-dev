@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/power_shell_session_resources.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "A collection of PowerShell session resources.\n\n:param value: Collection\
     \ of PowerShell session resources.\n:type value: list of :class:`PowerShellSessionResource\n\

@@ -27,7 +27,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 41
   summary: 'Note that this class is a preliminary work on Scheduler
 
@@ -63,7 +63,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 41
   summary: "Initializes the scheduler management service.\n\nsubscription_id:\n  \
     \  Subscription to manage.\ncert_file:\n    Path to .pem certificate file (httplib),\
@@ -93,7 +93,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 139
   summary: "The Check Name Availability operation checks if a new job collection with\n\
     the given name may be created, or if it is unavailable. The result of the\noperation\
@@ -114,7 +114,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 87
   summary: "The Create Cloud Service request creates a new cloud service. When job\n\
     collections are created, they are hosted within a cloud service.\nA cloud service\
@@ -138,7 +138,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 221
   summary: "The Create Job request creates a new job.\ncloud_service_id:\n    The\
     \ cloud service id\njob_collection_id:\n    Name of the hosted service.\njob_id:\n\
@@ -158,7 +158,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 158
   summary: "The Create Job Collection request is specified as follows. Replace <subscription-id>\n\
     with your subscription ID, <cloud-service-id> with your cloud service ID, and\n\
@@ -181,7 +181,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 127
   summary: "The Get Cloud Service operation gets all the resources (job collections)\n\
     in the cloud service.\n\ncloud_service_id:\n    The cloud service id"
@@ -200,7 +200,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 244
   summary: "The Delete Job request creates a new job.\ncloud_service_id:\n    The\
     \ cloud service id\njob_collection_id:\n    Name of the hosted service.\njob_id:\n\
@@ -220,7 +220,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 183
   summary: "The Delete Job Collection request is specified as follows. Replace <subscription-id>\n\
     with your subscription ID, <cloud-service-id> with your cloud service ID, and\n\
@@ -242,7 +242,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 287
   summary: "The Get All Jobs operation gets all the jobs in a job collection.\nThe\
     \ full list of jobs can be accessed by excluding any job ID in the\nGET call (i.e.\
@@ -263,7 +263,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 115
   summary: "The Get Cloud Service operation gets all the resources (job collections)\n\
     in the cloud service.\n\ncloud_service_id:\n    The cloud service id"
@@ -282,7 +282,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 262
   summary: "The Get Job operation gets the details (including the current job status)\n\
     of the specified job from the specified job collection.\n\nThe return type is\n\
@@ -303,7 +303,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 204
   summary: "The Get Job Collection operation gets the details of a job collection\n\
     \ncloud_service_id:\n    The cloud service id\njob_collection_id:\n    Name of\
@@ -323,7 +323,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/schedulermanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 80
   summary: List the cloud services for scheduling defined on the account.
   type: Method

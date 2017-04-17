@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/models/policykey_resource.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Namespace/NotificationHub Regenerate Keys.\n\n:param policy_key: Name\
     \ of the key that has to be regenerated for the\n Namespace/Notification Hub Authorization\

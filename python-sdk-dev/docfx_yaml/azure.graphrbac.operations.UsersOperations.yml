@@ -20,7 +20,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/users_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 18
   summary: 'UsersOperations operations.
 
@@ -47,7 +47,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/users_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 37
   summary: "Create a new user.\n\n:param parameters: Parameters to create a user.\n\
     :type parameters: :class:`UserCreateParameters\n <azure.graphrbac.models.UserCreateParameters>`\n\
@@ -69,7 +69,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/users_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 285
   summary: "Delete a user.\n\n:param upn_or_object_id: The object ID or principal\
     \ name of the user\n to delete.\n:type upn_or_object_id: str\n:param dict custom_headers:\
@@ -91,7 +91,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/users_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 169
   summary: "Gets user information from the directory.\n\n:param upn_or_object_id:\
     \ The object ID or principal name of the user\n for which to get information.\n\
@@ -114,7 +114,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/users_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 336
   summary: "Gets a collection that contains the object IDs of the groups of which\n\
     the user is a member.\n\n:param object_id: The object ID of the user for which\
@@ -138,7 +138,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/users_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 98
   summary: "Gets list of users for the current tenant.\n\n:param filter: The filter\
     \ to apply to the operation.\n:type filter: str\n:param dict custom_headers: headers\
@@ -159,7 +159,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/users_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 227
   summary: "Updates a user.\n\n:param upn_or_object_id: The object ID or principal\
     \ name of the user\n to update.\n:type upn_or_object_id: str\n:param parameters:\

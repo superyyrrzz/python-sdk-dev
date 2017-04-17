@@ -17,7 +17,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_extension_images_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'VirtualMachineExtensionImagesOperations operations.
 
@@ -44,7 +44,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_extension_images_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 38
   summary: "Gets a virtual machine extension image.\n\n:param location:\n:type location:\
     \ str\n:param publisher_name:\n:type publisher_name: str\n:param type:\n:type\
@@ -67,7 +67,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_extension_images_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 105
   summary: "Gets a list of virtual machine extension image types.\n\n:param location:\n\
     :type location: str\n:param publisher_name:\n:type publisher_name: str\n:param\
@@ -89,7 +89,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_extension_images_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 166
   summary: "Gets a list of virtual machine extension image versions.\n\n:param location:\n\
     :type location: str\n:param publisher_name:\n:type publisher_name: str\n:param\

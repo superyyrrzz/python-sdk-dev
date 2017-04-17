@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/edifact_processing_settings.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "EdifactProcessingSettings.\n\n:param mask_security_info: The value indicating\
     \ whether to mask security\n information.\n:type mask_security_info: bool\n:param\

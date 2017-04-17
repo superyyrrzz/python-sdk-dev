@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/linux_configuration.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Describes Windows Configuration of the OS Profile.\n\n:param disable_password_authentication:\
     \ whether Authentication using user\n name and password is allowed or not\n:type\

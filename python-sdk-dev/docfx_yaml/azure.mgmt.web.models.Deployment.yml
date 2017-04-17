@@ -16,72 +16,77 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/deployment.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: 'Represents user crendentials used for publishing activity.
+  summary: 'User crendentials used for publishing activity.
 
 
-    :param id: Resource Id
+    Variables are only populated by the server, and will be ignored when
 
-    :type id: str
+    sending a request.
 
-    :param name: Resource Name
+
+    :ivar id: Resource Id.
+
+    :vartype id: str
+
+    :param name: Resource Name.
 
     :type name: str
 
-    :param kind: Kind of resource
+    :param kind: Kind of resource.
 
     :type kind: str
 
-    :param location: Resource Location
+    :param location: Resource Location.
 
     :type location: str
 
-    :param type: Resource type
+    :param type: Resource type.
 
     :type type: str
 
-    :param tags: Resource tags
+    :param tags: Resource tags.
 
     :type tags: dict
 
-    :param deployment_id: Id
+    :param deployment_id: ID.
 
     :type deployment_id: str
 
-    :param status: Status
+    :param status: Status.
 
     :type status: int
 
-    :param message: Message
+    :param message: Message.
 
     :type message: str
 
-    :param author: Author
+    :param author: Author.
 
     :type author: str
 
-    :param deployer: Deployer
+    :param deployer: Deployer.
 
     :type deployer: str
 
-    :param author_email: AuthorEmail
+    :param author_email: Author email.
 
     :type author_email: str
 
-    :param start_time: StartTime
+    :param start_time: Start time.
 
     :type start_time: datetime
 
-    :param end_time: EndTime
+    :param end_time: End time.
 
     :type end_time: datetime
 
-    :param active: Active
+    :param active: Active.
 
     :type active: bool
 
-    :param details: Detail
+    :param details: Detail.
 
     :type details: str'
   type: Class

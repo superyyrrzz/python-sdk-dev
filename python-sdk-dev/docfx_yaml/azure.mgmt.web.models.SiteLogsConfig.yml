@@ -16,19 +16,20 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/site_logs_config.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "Configuration of Azure web site.\n\n:param id: Resource Id\n:type id:\
-    \ str\n:param name: Resource Name\n:type name: str\n:param kind: Kind of resource\n\
-    :type kind: str\n:param location: Resource Location\n:type location: str\n:param\
-    \ type: Resource type\n:type type: str\n:param tags: Resource tags\n:type tags:\
-    \ dict\n:param application_logs: Application logs configuration\n:type application_logs:\
-    \ :class:`ApplicationLogsConfig\n <azure.mgmt.web.models.ApplicationLogsConfig>`\n\
-    :param http_logs: Http logs configuration\n:type http_logs: :class:`HttpLogsConfig\n\
+  summary: "Configuration of App Service site logs.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar id: Resource\
+    \ Id.\n:vartype id: str\n:param name: Resource Name.\n:type name: str\n:param\
+    \ kind: Kind of resource.\n:type kind: str\n:param location: Resource Location.\n\
+    :type location: str\n:param type: Resource type.\n:type type: str\n:param tags:\
+    \ Resource tags.\n:type tags: dict\n:param application_logs: Application logs\
+    \ configuration.\n:type application_logs: :class:`ApplicationLogsConfig\n <azure.mgmt.web.models.ApplicationLogsConfig>`\n\
+    :param http_logs: HTTP logs configuration.\n:type http_logs: :class:`HttpLogsConfig\n\
     \ <azure.mgmt.web.models.HttpLogsConfig>`\n:param failed_requests_tracing: Failed\
-    \ requests tracing configuration\n:type failed_requests_tracing: :class:`EnabledConfig\n\
+    \ requests tracing configuration.\n:type failed_requests_tracing: :class:`EnabledConfig\n\
     \ <azure.mgmt.web.models.EnabledConfig>`\n:param detailed_error_messages: Detailed\
-    \ error messages configuration\n:type detailed_error_messages: :class:`EnabledConfig\n\
+    \ error messages configuration.\n:type detailed_error_messages: :class:`EnabledConfig\n\
     \ <azure.mgmt.web.models.EnabledConfig>`"
   type: Class
   uid: azure.mgmt.web.models.SiteLogsConfig

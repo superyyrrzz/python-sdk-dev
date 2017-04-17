@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servicebus/azure/mgmt/servicebus/models/subscription_create_or_update_parameters.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Parameters supplied to the Create Or Update Subscription operation.\n\n\
     :param location: Subscription data center location.\n:type location: str\n:param\

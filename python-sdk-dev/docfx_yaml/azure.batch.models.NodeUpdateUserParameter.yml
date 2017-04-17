@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/node_update_user_parameter.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Parameters for a ComputeNodeOperations.UpdateUser request.\n\n:param password:\
     \ The password of the account.\n:type password: str\n:param expiry_time: The time\

@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/container_service_linux_profile.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Profile for Linux VMs.\n\n:param admin_username: The administrator username\
     \ to use for all Linux VMs\n:type admin_username: str\n:param ssh: Specifies the\

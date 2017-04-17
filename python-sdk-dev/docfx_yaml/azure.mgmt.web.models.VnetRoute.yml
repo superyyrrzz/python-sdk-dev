@@ -16,24 +16,26 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/vnet_route.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "VnetRoute contract used to pass routing information for a vnet.\n\n:param\
-    \ id: Resource Id\n:type id: str\n:param name: Resource Name\n:type name: str\n\
-    :param kind: Kind of resource\n:type kind: str\n:param location: Resource Location\n\
-    :type location: str\n:param type: Resource type\n:type type: str\n:param tags:\
-    \ Resource tags\n:type tags: dict\n:param vnet_route_name: The name of this route.\
-    \ This is only returned by\n the server and does not need to be set by the client.\n\
-    :type vnet_route_name: str\n:param start_address: The starting address for this\
-    \ route. This may also\n include a CIDR notation, in which case the end address\
-    \ must not be\n specified.\n:type start_address: str\n:param end_address: The\
-    \ ending address for this route. If the start\n address is specified in CIDR notation,\
-    \ this must be omitted.\n:type end_address: str\n:param route_type: The type of\
-    \ route this is:\n DEFAULT - By default, every web app has routes to the local\n\
-    \ address ranges specified by RFC1918\n INHERITED - Routes inherited from the\
-    \ real Virtual Network\n routes\n STATIC - Static route set on the web app only\n\
-    \ These values will be used for syncing a Web App's routes with\n those from a\
-    \ Virtual Network. This operation will clear all DEFAULT and\n INHERITED routes\
-    \ and replace them\n with new INHERITED routes.\n:type route_type: str"
+  summary: "Virtual Network route contract used to pass routing information for a\n\
+    Virtual Network.\n\nVariables are only populated by the server, and will be ignored\
+    \ when\nsending a request.\n\n:ivar id: Resource Id.\n:vartype id: str\n:param\
+    \ name: Resource Name.\n:type name: str\n:param kind: Kind of resource.\n:type\
+    \ kind: str\n:param location: Resource Location.\n:type location: str\n:param\
+    \ type: Resource type.\n:type type: str\n:param tags: Resource tags.\n:type tags:\
+    \ dict\n:param vnet_route_name: The name of this route. This is only returned\
+    \ by\n the server and does not need to be set by the client.\n:type vnet_route_name:\
+    \ str\n:param start_address: The starting address for this route. This may also\n\
+    \ include a CIDR notation, in which case the end address must not be\n specified.\n\
+    :type start_address: str\n:param end_address: The ending address for this route.\
+    \ If the start\n address is specified in CIDR notation, this must be omitted.\n\
+    :type end_address: str\n:param route_type: The type of route this is:\n DEFAULT\
+    \ - By default, every app has routes to the local address ranges\n specified by\
+    \ RFC1918\n INHERITED - Routes inherited from the real Virtual Network routes\n\
+    \ STATIC - Static route set on the app only\n These values will be used for syncing\
+    \ an app's routes with those from a\n Virtual Network. Possible values include:\
+    \ 'DEFAULT', 'INHERITED', 'STATIC'\n:type route_type: str or :class:`RouteType\n\
+    \ <azure.mgmt.web.models.RouteType>`"
   type: Class
   uid: azure.mgmt.web.models.VnetRoute

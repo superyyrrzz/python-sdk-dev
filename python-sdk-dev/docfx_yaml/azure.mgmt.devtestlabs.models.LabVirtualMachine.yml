@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/lab_virtual_machine.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "A virtual machine.\n\n:param notes: The notes of the virtual machine.\n\
     :type notes: str\n:param owner_object_id: The object identifier of the owner of\

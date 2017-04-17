@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/models.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1162
   summary: "Initializes a network configuration input endpoint.\n\nname:\n    Specifies\
     \ the name for the external endpoint.\nprotocol:\n    Specifies the protocol to\

@@ -18,7 +18,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuit_authorizations_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 20
   summary: 'ExpressRouteCircuitAuthorizationsOperations operations.
 
@@ -43,7 +43,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuit_authorizations_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 182
   summary: "The Put Authorization operation creates/updates an authorization in\n\
     the specified ExpressRouteCircuits.\n\n:param resource_group_name: The name of\
@@ -70,7 +70,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuit_authorizations_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 37
   summary: "The delete authorization operation deletes the specified authorization\n\
     from the specified ExpressRouteCircuit.\n\n:param resource_group_name: The name\
@@ -94,7 +94,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuit_authorizations_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 117
   summary: "The GET authorization operation retrieves the specified authorization\n\
     from the specified ExpressRouteCircuit.\n\n:param resource_group_name: The name\
@@ -119,7 +119,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/express_route_circuit_authorizations_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 281
   summary: "The List authorization operation retrieves all the authorizations in\n\
     an ExpressRouteCircuit.\n\n:param resource_group_name: The name of the resource\

@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/models/operation_list.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "OperationList.\n\n:param value:\n:type value: list of :class:`Operation\n\
     \ <azure.mgmt.powerbiembedded.models.Operation>`"

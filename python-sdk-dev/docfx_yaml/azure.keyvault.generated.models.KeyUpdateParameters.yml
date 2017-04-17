@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/models/key_update_parameters.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "The key update parameters.\n\n:param key_ops: Json web key operations.\
     \ For more information on possible\n key operations, see JsonWebKeyOperation.\n\

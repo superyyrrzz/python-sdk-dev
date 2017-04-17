@@ -15,21 +15,12 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/resource_name_availability_request.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: 'Resource name availability request content.
-
-
-    :param name: Resource name to verify
-
-    :type name: str
-
-    :param type: Resource type used for verification
-
-    :type type: str
-
-    :param is_fqdn: Is fully qualified domain name
-
-    :type is_fqdn: bool'
+  summary: "Resource name availability request content.\n\n:param name: Resource name\
+    \ to verify.\n:type name: str\n:param type: Resource type used for verification.\
+    \ Possible values include:\n 'Site', 'Slot', 'HostingEnvironment'\n:type type:\
+    \ str or :class:`CheckNameResourceTypes\n <azure.mgmt.web.models.CheckNameResourceTypes>`\n\
+    :param is_fqdn: Is fully qualified domain name.\n:type is_fqdn: bool"
   type: Class
   uid: azure.mgmt.web.models.ResourceNameAvailabilityRequest

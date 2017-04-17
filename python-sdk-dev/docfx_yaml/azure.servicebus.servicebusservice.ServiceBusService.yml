@@ -56,7 +56,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 78
   summary: "Initializes the service bus service for a namespace with the specified\n\
     authentication settings (SAS or ACS).\n\nservice_namespace:\n    Service bus namespace,\
@@ -88,7 +88,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: null
   summary: ''
   type: Property
@@ -104,7 +104,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1049
   summary: "Creates a new Event Hub.\n\nhub_name:\n    Name of event hub.\nhub:\n\
     \    Optional. Event hub properties. Instance of EventHub class.\nhub.message_retention_in_days:\n\
@@ -125,7 +125,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 230
   summary: "Creates a new queue. Once created, this queue's resource manifest is\n\
     immutable.\n\nqueue_name:\n    Name of the queue to create.\nqueue:\n    Queue\
@@ -144,7 +144,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 414
   summary: "Creates a new rule. Once created, this rule's resource manifest is\nimmutable.\n\
     \ntopic_name:\n    Name of the topic.\nsubscription_name:\n    Name of the subscription.\n\
@@ -163,7 +163,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 539
   summary: "Creates a new subscription. Once created, this subscription resource\n\
     manifest is immutable.\n\ntopic_name:\n    Name of the topic.\nsubscription_name:\n\
@@ -182,7 +182,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 322
   summary: "Creates a new topic. Once created, this topic resource manifest is\nimmutable.\n\
     \ntopic_name:\n    Name of the topic to create.\ntopic:\n    Topic object to create.\n\
@@ -200,7 +200,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1108
   summary: "Deletes an Event Hub. This operation will also remove all associated\n\
     state.\n\nhub_name:\n    Name of the event hub to delete.\nfail_not_exist:\n \
@@ -218,7 +218,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 261
   summary: "Deletes an existing queue. This operation will also remove all\nassociated\
     \ state including messages in the queue.\n\nqueue_name:\n    Name of the queue\
@@ -237,7 +237,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 979
   summary: "Completes processing on a locked message and delete it from the queue.\n\
     This operation should only be called after processing a previously\nlocked message\
@@ -259,7 +259,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 452
   summary: "Deletes an existing rule.\n\ntopic_name:\n    Name of the topic.\nsubscription_name:\n\
     \    Name of the subscription.\nrule_name:\n    Name of the rule to delete.  DEFAULT_RULE_NAME=$Default.\n\
@@ -278,7 +278,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 574
   summary: "Deletes an existing subscription.\n\ntopic_name:\n    Name of the topic.\n\
     subscription_name:\n    Name of the subscription to delete.\nfail_not_exist:\n\
@@ -297,7 +297,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 809
   summary: "Completes processing on a locked message and delete it from the\nsubscription.\
     \ This operation should only be called after processing a\npreviously locked message\
@@ -319,7 +319,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 353
   summary: "Deletes an existing topic. This operation will also remove all\nassociated\
     \ state including associated subscriptions.\n\ntopic_name:\n    Name of the topic\
@@ -338,7 +338,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 157
   summary: Get the dead letter name of this queue
   type: Method
@@ -354,7 +354,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 162
   summary: Get the dead letter name of this subscription
   type: Method
@@ -370,7 +370,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1136
   summary: "Retrieves an existing event hub.\n\nhub_name:\n    Name of the event hub."
   type: Method
@@ -386,7 +386,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 289
   summary: "Retrieves an existing queue.\n\nqueue_name:\n    Name of the queue."
   type: Method
@@ -402,7 +402,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 489
   summary: "Retrieves the description for the specified rule.\n\ntopic_name:\n   \
     \ Name of the topic.\nsubscription_name:\n    Name of the subscription.\nrule_name:\n\
@@ -420,7 +420,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 607
   summary: "Gets an existing subscription.\n\ntopic_name:\n    Name of the topic.\n\
     subscription_name:\n    Name of the subscription."
@@ -437,7 +437,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 381
   summary: "Retrieves the description for the specified topic.\n\ntopic_name:\n  \
     \  Name of the topic."
@@ -454,7 +454,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: null
   summary: ''
   type: Property
@@ -470,7 +470,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 307
   summary: Enumerates the queues in the service namespace.
   type: Method
@@ -486,7 +486,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 515
   summary: "Retrieves the rules that exist under the specified subscription.\n\ntopic_name:\n\
     \    Name of the topic.\nsubscription_name:\n    Name of the subscription."
@@ -503,7 +503,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 629
   summary: "Retrieves the subscriptions in the specified topic.\n\ntopic_name:\n \
     \   Name of the topic."
@@ -520,7 +520,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 399
   summary: Retrieves the topics in the service namespace.
   type: Method
@@ -536,7 +536,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 869
   summary: "Automically retrieves and locks a message from a queue for processing.\n\
     The message is guaranteed not to be delivered to other receivers (on\nthe same\
@@ -561,7 +561,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 674
   summary: "This operation is used to atomically retrieve and lock a message for\n\
     processing. The message is guaranteed not to be delivered to other\nreceivers\
@@ -588,7 +588,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 955
   summary: "Reads and deletes a message from a queue as an atomic operation. This\n\
     operation should be used when a best-effort guarantee is sufficient\nfor an application;\
@@ -608,7 +608,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 779
   summary: "Read and delete a message from a subscription as an atomic operation.\n\
     This operation should be used when a best-effort guarantee is\nsufficient for\
@@ -629,7 +629,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1008
   summary: "Receive a message from a queue for processing.\n\nqueue_name:\n    Name\
     \ of the queue.\npeek_lock:\n    Optional. True to retrieve and lock the message.\
@@ -648,7 +648,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1025
   summary: "Receive a message from a subscription for processing.\n\ntopic_name:\n\
     \    Name of the topic.\nsubscription_name:\n    Name of the subscription.\npeek_lock:\n\
@@ -668,7 +668,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 927
   summary: "Renew lock on an already locked message on a given\nqueue. A message must\
     \ have first been locked by a\nreceiver before this operation is called.\n\nqueue_name:\n\
@@ -689,7 +689,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 746
   summary: "Renew the lock on an already locked message on a given\nsubscription.\
     \ A message must have first been locked by a\nreceiver before this operation is\
@@ -711,7 +711,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1154
   summary: Sends a new message event to an Event Hub.
   type: Method
@@ -727,7 +727,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 843
   summary: "Sends a message into the specified queue. The limit to the number of\n\
     messages which may be present in the topic is governed by the message\nsize the\
@@ -748,7 +748,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 648
   summary: "Enqueues a message into the specified topic. The limit to the number\n\
     of messages which may be present in the topic is governed by the\nmessage size\
@@ -769,7 +769,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 207
   summary: "Sets the proxy server host and port for the HTTP CONNECT Tunnelling.\n\
     \nhost:\n    Address of the proxy. Ex: '192.168.0.100'\nport:\n    Port of the\
@@ -788,7 +788,7 @@ items:
     remote:
       branch: master
       path: null
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: null
   summary: ''
   type: Property
@@ -804,7 +804,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 898
   summary: "Unlocks a message for processing by other receivers on a given\nqueue.\
     \ This operation deletes the lock object, causing the\nmessage to be unlocked.\
@@ -826,7 +826,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 712
   summary: "Unlock a message for processing by other receivers on a given\nsubscription.\
     \ This operation deletes the lock object, causing the\nmessage to be unlocked.\
@@ -849,7 +849,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1084
   summary: "Updates an Event Hub.\n\nhub_name:\n    Name of event hub.\nhub:\n   \
     \ Optional. Event hub properties. Instance of EventHub class.\nhub.message_retention_in_days:\n\
@@ -867,7 +867,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicebus/servicebusservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 186
   summary: 'Returns a new service which will process requests with the specified
 

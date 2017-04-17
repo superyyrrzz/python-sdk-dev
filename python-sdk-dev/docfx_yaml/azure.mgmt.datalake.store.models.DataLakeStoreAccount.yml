@@ -16,7 +16,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/models/data_lake_store_account.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Data Lake Store account information.\n\nVariables are only populated by\
     \ the server, and will be ignored when\nsending a request.\n\n:ivar id: Resource\
@@ -64,6 +64,10 @@ items:
     \ tier in use for the current month.\n Possible values include: 'Consumption',\
     \ 'Commitment_1TB',\n 'Commitment_10TB', 'Commitment_100TB', 'Commitment_500TB',\n\
     \ 'Commitment_1PB', 'Commitment_5PB'\n:vartype current_tier: str or :class:`TierType\n\
-    \ <azure.mgmt.datalake.store.models.TierType>`"
+    \ <azure.mgmt.datalake.store.models.TierType>`\n:param firewall_allow_azure_ips:\
+    \ The current state of allowing or\n disallowing IPs originating within Azure\
+    \ through the firewall. If the\n firewall is disabled, this is not enforced. Possible\
+    \ values include:\n 'Enabled', 'Disabled'\n:type firewall_allow_azure_ips: str\
+    \ or :class:`FirewallAllowAzureIpsState\n <azure.mgmt.datalake.store.models.FirewallAllowAzureIpsState>`"
   type: Class
   uid: azure.mgmt.datalake.store.models.DataLakeStoreAccount

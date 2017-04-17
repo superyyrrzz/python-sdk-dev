@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/models/data_lake_store_account_update_parameters.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Data Lake Store account information to update.\n\n:param tags: Resource\
     \ tags\n:type tags: dict\n:param firewall_state: The current state of the IP address\
@@ -33,6 +33,10 @@ items:
     \ the commitment tier to use for next month. Possible\n values include: 'Consumption',\
     \ 'Commitment_1TB', 'Commitment_10TB',\n 'Commitment_100TB', 'Commitment_500TB',\
     \ 'Commitment_1PB', 'Commitment_5PB'\n:type new_tier: str or :class:`TierType\n\
-    \ <azure.mgmt.datalake.store.models.TierType>`"
+    \ <azure.mgmt.datalake.store.models.TierType>`\n:param firewall_allow_azure_ips:\
+    \ The current state of allowing or\n disallowing IPs originating within Azure\
+    \ through the firewall. If the\n firewall is disabled, this is not enforced. Possible\
+    \ values include:\n 'Enabled', 'Disabled'\n:type firewall_allow_azure_ips: str\
+    \ or :class:`FirewallAllowAzureIpsState\n <azure.mgmt.datalake.store.models.FirewallAllowAzureIpsState>`"
   type: Class
   uid: azure.mgmt.datalake.store.models.DataLakeStoreAccountUpdateParameters

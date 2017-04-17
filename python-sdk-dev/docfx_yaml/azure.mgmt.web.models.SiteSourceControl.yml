@@ -16,18 +16,21 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/site_source_control.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "Describes the source control configuration for web app.\n\n:param id:\
-    \ Resource Id\n:type id: str\n:param name: Resource Name\n:type name: str\n:param\
-    \ kind: Kind of resource\n:type kind: str\n:param location: Resource Location\n\
-    :type location: str\n:param type: Resource type\n:type type: str\n:param tags:\
-    \ Resource tags\n:type tags: dict\n:param repo_url: Repository or source control\
-    \ url\n:type repo_url: str\n:param branch: Name of branch to use for deployment\n\
-    :type branch: str\n:param is_manual_integration: Whether to manual or continuous\
-    \ integration\n:type is_manual_integration: bool\n:param deployment_rollback_enabled:\
-    \ Whether to manual or continuous\n integration\n:type deployment_rollback_enabled:\
-    \ bool\n:param is_mercurial: Mercurial or Git repository type\n:type is_mercurial:\
-    \ bool"
+  summary: "Source control configuration for an app.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar id: Resource\
+    \ Id.\n:vartype id: str\n:param name: Resource Name.\n:type name: str\n:param\
+    \ kind: Kind of resource.\n:type kind: str\n:param location: Resource Location.\n\
+    :type location: str\n:param type: Resource type.\n:type type: str\n:param tags:\
+    \ Resource tags.\n:type tags: dict\n:param repo_url: Repository or source control\
+    \ URL.\n:type repo_url: str\n:param branch: Name of branch to use for deployment.\n\
+    :type branch: str\n:param is_manual_integration: <code>true</code> to limit to\
+    \ manual\n integration; <code>false</code> to enable continuous integration (which\n\
+    \ configures webhooks into online repos like GitHub).\n:type is_manual_integration:\
+    \ bool\n:param deployment_rollback_enabled: <code>true</code> to enable deployment\n\
+    \ rollback; otherwise, <code>false</code>.\n:type deployment_rollback_enabled:\
+    \ bool\n:param is_mercurial: <code>true</code> for a Mercurial repository;\n <code>false</code>\
+    \ for a Git repository.\n:type is_mercurial: bool"
   type: Class
   uid: azure.mgmt.web.models.SiteSourceControl

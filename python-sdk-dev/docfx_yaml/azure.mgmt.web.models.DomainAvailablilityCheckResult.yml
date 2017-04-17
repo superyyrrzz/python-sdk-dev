@@ -15,12 +15,14 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/domain_availablility_check_result.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "Domain availablility check result.\n\n:param name: Name of the domain\n\
-    :type name: str\n:param available: If true then domain can be purchased using\
-    \ CreateDomain\n Api\n:type available: bool\n:param domain_type: Domain type.\
-    \ Possible values include: 'Regular',\n 'SoftDeleted'\n:type domain_type: str\
-    \ or :class:`DomainType\n <azure.mgmt.web.models.DomainType>`"
+  summary: "Domain availablility check result.\n\n:param name: Name of the domain.\n\
+    :type name: str\n:param available: <code>true</code> if domain can be purchased\
+    \ using\n CreateDomain API; otherwise, <code>false</code>.\n:type available: bool\n\
+    :param domain_type: Valid values are Regular domain: Azure will charge the\n full\
+    \ price of domain registration, SoftDeleted: Purchasing this domain\n will simply\
+    \ restore it and this operation will not cost anything. Possible\n values include:\
+    \ 'Regular', 'SoftDeleted'\n:type domain_type: str or :class:`DomainType\n <azure.mgmt.web.models.DomainType>`"
   type: Class
   uid: azure.mgmt.web.models.DomainAvailablilityCheckResult

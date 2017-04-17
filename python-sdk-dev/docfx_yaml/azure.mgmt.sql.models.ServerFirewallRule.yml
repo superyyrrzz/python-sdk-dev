@@ -16,16 +16,19 @@ items:
     remote:
       branch: master
       path: azure-mgmt-sql/azure/mgmt/sql/models/server_firewall_rule.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "Represents an Azure SQL server firewall rule.\n\nVariables are only populated\
-    \ by the server, and will be ignored when\nsending a request.\n\n:ivar name: Resource\
+  summary: "Represents a server firewall rule.\n\nVariables are only populated by\
+    \ the server, and will be ignored when\nsending a request.\n\n:ivar name: Resource\
     \ name\n:vartype name: str\n:ivar id: The resource ID.\n:vartype id: str\n:ivar\
     \ kind: Kind of server that contains this firewall rule.\n:vartype kind: str\n\
     :ivar location: Location of the server that contains this firewall rule.\n:vartype\
-    \ location: str\n:param start_ip_address: The start IP address of the Azure SQL\
-    \ server\n firewall rule. Must be IPv4 format.\n:type start_ip_address: str\n\
-    :param end_ip_address: The end IP address of the Azure SQL server firewall\n rule.\
-    \ Must be IPv4 format.\n:type end_ip_address: str"
+    \ location: str\n:ivar type: Type of resource this is.\n:vartype type: str\n:param\
+    \ start_ip_address: The start IP address of the firewall rule. Must\n be IPv4\
+    \ format. Use value '0.0.0.0' to represent all Azure-internal IP\n addresses.\n\
+    :type start_ip_address: str\n:param end_ip_address: The end IP address of the\
+    \ firewall rule. Must be\n IPv4 format. Must be greater than or equal to startIpAddress.\
+    \ Use value\n '0.0.0.0' to represent all Azure-internal IP addresses.\n:type end_ip_address:\
+    \ str"
   type: Class
   uid: azure.mgmt.sql.models.ServerFirewallRule

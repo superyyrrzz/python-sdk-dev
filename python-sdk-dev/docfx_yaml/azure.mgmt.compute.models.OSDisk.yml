@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/os_disk.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Describes an Operating System disk.\n\n:param os_type: the Operating System\
     \ type. Possible values include:\n 'Windows', 'Linux'\n:type os_type: str or :class:`OperatingSystemTypes\n\

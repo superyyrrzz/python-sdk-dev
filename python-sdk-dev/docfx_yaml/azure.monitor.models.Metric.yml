@@ -15,10 +15,12 @@ items:
     remote:
       branch: master
       path: azure-monitor/azure/monitor/models/metric.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "A set of metric values in a time range.\n\n:param name: the name and the\
-    \ display name of the metric, i.e. it is\n localizable string.\n:type name: :class:`LocalizableString\n\
+  summary: "A set of metric values in a time range.\n\n:param id: the id, resourceId,\
+    \ of the metric.\n:type id: str\n:param type: the resource type of the metric\
+    \ resource.\n:type type: str\n:param name: the name and the display name of the\
+    \ metric, i.e. it is\n localizable string.\n:type name: :class:`LocalizableString\n\
     \ <azure.monitor.models.LocalizableString>`\n:param unit: the unit of the metric.\
     \ Possible values include: 'Count',\n 'Bytes', 'Seconds', 'CountPerSecond', 'BytesPerSecond',\
     \ 'Percent',\n 'MilliSeconds'\n:type unit: str or :class:`Unit <azure.monitor.models.Unit>`\n\

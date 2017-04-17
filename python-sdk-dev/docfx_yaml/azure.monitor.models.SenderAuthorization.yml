@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-monitor/azure/monitor/models/sender_authorization.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "The RBAC properties of the event.\n\n:param action: the permissible actions.\
     \ For instance:\n microsoft.support/supporttickets/write\n:type action: str\n\

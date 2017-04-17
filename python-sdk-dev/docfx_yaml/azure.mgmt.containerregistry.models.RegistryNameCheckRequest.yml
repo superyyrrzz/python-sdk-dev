@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-containerregistry/azure/mgmt/containerregistry/models/registry_name_check_request.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "A request to check whether the container registry name is available.\n\
     \nVariables are only populated by the server, and will be ignored when\nsending\

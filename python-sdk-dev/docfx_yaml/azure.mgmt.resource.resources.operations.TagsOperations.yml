@@ -19,7 +19,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/tags_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'TagsOperations operations.
 
@@ -44,7 +44,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/tags_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 152
   summary: "Create a subscription resource tag.\n\n:param tag_name: The name of the\
     \ tag.\n:type tag_name: str\n:param dict custom_headers: headers that will be\
@@ -65,7 +65,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/tags_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 89
   summary: "Create a subscription resource tag value.\n\n:param tag_name: The name\
     \ of the tag.\n:type tag_name: str\n:param tag_value: The value of the tag.\n\
@@ -87,7 +87,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/tags_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 212
   summary: "Delete a subscription resource tag.\n\n:param tag_name: The name of the\
     \ tag.\n:type tag_name: str\n:param dict custom_headers: headers that will be\
@@ -108,7 +108,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/tags_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 36
   summary: "Delete a subscription resource tag value.\n\n:param tag_name: The name\
     \ of the tag.\n:type tag_name: str\n:param tag_value: The value of the tag.\n\
@@ -130,7 +130,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/tags_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 262
   summary: "Get a list of subscription resource tags.\n\n:param dict custom_headers:\
     \ headers that will be added to the request\n:param bool raw: returns the direct\

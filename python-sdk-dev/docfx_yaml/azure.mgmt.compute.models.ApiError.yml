@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/api_error.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Api error.\n\n:param details: the Api error details\n:type details: list\
     \ of :class:`ApiErrorBase\n <azure.mgmt.compute.models.ApiErrorBase>`\n:param\

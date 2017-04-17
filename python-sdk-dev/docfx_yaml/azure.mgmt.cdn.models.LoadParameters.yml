@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/models/load_parameters.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Parameters required for content load.\n\n:param content_paths: The path\
     \ to the content to be loaded. Path should be\n a relative file URL of the origin.\n\

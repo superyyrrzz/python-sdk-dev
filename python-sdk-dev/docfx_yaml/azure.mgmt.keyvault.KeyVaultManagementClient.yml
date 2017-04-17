@@ -14,7 +14,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/keyvault/key_vault_management_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 77
   summary: "The Azure management API provides a RESTful set of web services that interact\
     \ with Azure Key Vault.\n\n:ivar config: Configuration for client.\n:vartype config:\

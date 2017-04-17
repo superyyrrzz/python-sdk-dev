@@ -16,7 +16,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/models/custom_domain.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Customer provided domain for branding purposes, e.g. www.consoto.com.\n\
     \nVariables are only populated by the server, and will be ignored when\nsending\

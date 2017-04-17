@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/as2_agreement_content.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "AS2AgreementContent.\n\n:param receive_agreement: The AS2 one-way receive\
     \ agreement.\n:type receive_agreement: :class:`AS2OneWayAgreement\n <azure.mgmt.logic.models.AS2OneWayAgreement>`\n\

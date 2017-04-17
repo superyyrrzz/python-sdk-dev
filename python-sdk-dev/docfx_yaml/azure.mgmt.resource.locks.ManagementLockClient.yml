@@ -14,7 +14,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/locks/management_lock_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 77
   summary: ":ivar config: Configuration for client.\n:vartype config: ManagementLockClientConfiguration\n\
     \n:ivar management_locks: ManagementLocks operations\n:vartype management_locks:\

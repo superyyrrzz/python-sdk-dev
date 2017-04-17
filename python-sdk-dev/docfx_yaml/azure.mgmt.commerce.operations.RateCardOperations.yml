@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-commerce/azure/mgmt/commerce/operations/rate_card_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 18
   summary: 'RateCardOperations operations.
 
@@ -40,7 +40,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-commerce/azure/mgmt/commerce/operations/rate_card_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 35
   summary: "Enables you to query for the resource/meter metadata and related\nprices\
     \ used in a given subscription by Offer ID, Currency, Locale and\nRegion. The\

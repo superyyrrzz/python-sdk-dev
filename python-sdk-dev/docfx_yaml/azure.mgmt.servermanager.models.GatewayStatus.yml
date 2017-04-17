@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/gateway_status.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Expanded gateway status information.\n\n:param available_memory_mbyte:\
     \ The available memory on the gateway host\n machine in megabytes.\n:type available_memory_mbyte:\

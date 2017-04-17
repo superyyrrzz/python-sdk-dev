@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/models/redis_properties.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Properties supplied to CreateOrUpdate redis operation.\n\n:param redis_version:\
     \ RedisVersion parameter has been deprecated. As\n such, it is no longer necessary\

@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/os_disk_image.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Contains the os disk image information.\n\n:param operating_system: the\
     \ operating system of the osDiskImage.\n Possible values include: 'Windows', 'Linux'\n\

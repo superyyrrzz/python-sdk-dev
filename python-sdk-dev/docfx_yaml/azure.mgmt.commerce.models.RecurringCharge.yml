@@ -16,7 +16,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-commerce/azure/mgmt/commerce/models/recurring_charge.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "RecurringCharge.\n\n:param effective_date: Indicates the date from which\
     \ the meter rate or\n offer term is effective.\n:type effective_date: datetime\n\

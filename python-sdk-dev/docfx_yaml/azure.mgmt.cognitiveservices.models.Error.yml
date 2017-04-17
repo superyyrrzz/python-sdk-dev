@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cognitiveservices/azure/mgmt/cognitiveservices/models/error.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 16
   summary: "Error.\n\n:param error:\n:type error: :class:`ErrorBody\n <azure.mgmt.cognitiveservices.models.ErrorBody>`"
   type: Class

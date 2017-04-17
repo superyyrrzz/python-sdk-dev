@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/job_recurrence_schedule.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "JobRecurrenceSchedule.\n\n:param week_days: Gets or sets the days of the\
     \ week that the job should\n execute on.\n:type week_days: list of str or :class:`DayOfWeek\n\

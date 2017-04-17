@@ -16,7 +16,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/express_route_circuit_peering.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Peering in a ExpressRouteCircuit resource.\n\n:param id: Resource Id\n\
     :type id: str\n:param peering_type: Gets or sets PeeringType. Possible values\

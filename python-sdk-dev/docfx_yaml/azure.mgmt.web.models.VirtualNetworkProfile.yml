@@ -15,24 +15,29 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/virtual_network_profile.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: 'Specification for using a virtual network.
+  summary: 'Specification for using a Virtual Network.
 
 
-    :param id: Resource id of the virtual network
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :param id: Resource id of the Virtual Network.
 
     :type id: str
 
-    :param name: Name of the virtual network (read-only)
+    :ivar name: Name of the Virtual Network (read-only).
 
-    :type name: str
+    :vartype name: str
 
-    :param type: Resource type of the virtual network (read-only)
+    :ivar type: Resource type of the Virtual Network (read-only).
 
-    :type type: str
+    :vartype type: str
 
-    :param subnet: Subnet within the virtual network
+    :param subnet: Subnet within the Virtual Network.
 
     :type subnet: str'
   type: Class

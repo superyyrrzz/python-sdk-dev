@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-monitor/azure/mgmt/monitor/models/autoscale_profile.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Autoscale profile.\n\n:param name: the name of the profile.\n:type name:\
     \ str\n:param capacity: the number of instances that can be used during this\n\

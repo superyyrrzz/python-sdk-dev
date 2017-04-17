@@ -21,7 +21,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-trafficmanager/azure/mgmt/trafficmanager/operations/profiles_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'ProfilesOperations operations.
 
@@ -46,7 +46,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-trafficmanager/azure/mgmt/trafficmanager/operations/profiles_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 36
   summary: "Checks the availability of a Traffic Manager Relative DNS name.\n\n:param\
     \ name: Gets or sets the name of the resource.\n:type name: str\n:param type:\
@@ -69,7 +69,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-trafficmanager/azure/mgmt/trafficmanager/operations/profiles_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 290
   summary: "Create or update a Traffic Manager profile.\n\n:param resource_group_name:\
     \ The name of the resource group containing\n the Traffic Manager profile.\n:type\
@@ -95,7 +95,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-trafficmanager/azure/mgmt/trafficmanager/operations/profiles_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 361
   summary: "Deletes a Traffic Manager profile.\n\n:param resource_group_name: The\
     \ name of the resource group containing\n the Traffic Manager profile to be deleted.\n\
@@ -118,7 +118,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-trafficmanager/azure/mgmt/trafficmanager/operations/profiles_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 229
   summary: "Gets a Traffic Manager profile.\n\n:param resource_group_name: The name\
     \ of the resource group containing\n the Traffic Manager profile.\n:type resource_group_name:\
@@ -141,7 +141,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-trafficmanager/azure/mgmt/trafficmanager/operations/profiles_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 167
   summary: "Lists all Traffic Manager profiles within a subscription.\n\n:param dict\
     \ custom_headers: headers that will be added to the request\n:param bool raw:\
@@ -161,7 +161,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-trafficmanager/azure/mgmt/trafficmanager/operations/profiles_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 101
   summary: "Lists all Traffic Manager profiles within a resource group.\n\n:param\
     \ resource_group_name: The name of the resource group containing\n the Traffic\
@@ -183,7 +183,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-trafficmanager/azure/mgmt/trafficmanager/operations/profiles_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 416
   summary: "Update a Traffic Manager profile.\n\n:param resource_group_name: The name\
     \ of the resource group containing\n the Traffic Manager profile.\n:type resource_group_name:\

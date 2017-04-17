@@ -19,7 +19,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_images_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'VirtualMachineImagesOperations operations.
 
@@ -46,7 +46,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_images_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 38
   summary: "Gets a virtual machine image.\n\n:param location:\n:type location: str\n\
     :param publisher_name:\n:type publisher_name: str\n:param offer:\n:type offer:\
@@ -69,7 +69,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_images_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 108
   summary: "Gets a list of virtual machine images.\n\n:param location:\n:type location:\
     \ str\n:param publisher_name:\n:type publisher_name: str\n:param offer:\n:type\
@@ -93,7 +93,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_images_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 187
   summary: "Gets a list of virtual machine image offers.\n\n:param location:\n:type\
     \ location: str\n:param publisher_name:\n:type publisher_name: str\n:param dict\
@@ -115,7 +115,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_images_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 248
   summary: "Gets a list of virtual machine image publishers.\n\n:param location:\n\
     :type location: str\n:param dict custom_headers: headers that will be added to\
@@ -136,7 +136,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_images_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 306
   summary: "Gets a list of virtual machine image skus.\n\n:param location:\n:type\
     \ location: str\n:param publisher_name:\n:type publisher_name: str\n:param offer:\n\

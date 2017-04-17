@@ -15,16 +15,16 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/requests_based_trigger.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: 'RequestsBasedTrigger.
+  summary: 'Trigger based on total requests.
 
 
-    :param count: Count
+    :param count: Count.
 
     :type count: int
 
-    :param time_interval: TimeInterval
+    :param time_interval: Time interval.
 
     :type time_interval: str'
   type: Class

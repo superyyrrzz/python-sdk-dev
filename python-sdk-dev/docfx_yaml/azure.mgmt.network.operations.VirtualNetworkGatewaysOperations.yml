@@ -20,7 +20,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_network_gateways_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 20
   summary: 'VirtualNetworkGatewaysOperations operations.
 
@@ -45,7 +45,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_network_gateways_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 37
   summary: "The Put VirtualNetworkGateway operation creates/updates a virtual\nnetwork\
     \ gateway in the specified resource group through Network\nresource provider.\n\
@@ -72,7 +72,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_network_gateways_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 198
   summary: "The Delete VirtualNetworkGateway operation deletes the specified\nvirtual\
     \ network Gateway through Network resource provider.\n\n:param resource_group_name:\
@@ -96,7 +96,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_network_gateways_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 437
   summary: "The Generatevpnclientpackage operation generates Vpn client package\n\
     for P2S client of the virtual network gateway in the specified\nresource group\
@@ -124,7 +124,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_network_gateways_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 134
   summary: "The Get VirtualNetworkGateway operation retrieves information about\n\
     the specified virtual network gateway through Network resource\nprovider.\n\n\
@@ -149,7 +149,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_network_gateways_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 276
   summary: "The List VirtualNetworkGateways operation retrieves all the virtual\n\
     network gateways stored.\n\n:param resource_group_name: The name of the resource\
@@ -171,7 +171,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_network_gateways_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 342
   summary: "The Reset VirtualNetworkGateway operation resets the primary of the\n\
     virtual network gateway in the specified resource group through\nNetwork resource\

@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/models/ip_address_group.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "CDN Ip address group.\n\n:param delivery_region: The delivery region of\
     \ the ip address group\n:type delivery_region: str\n:param ipv4_addresses: The\

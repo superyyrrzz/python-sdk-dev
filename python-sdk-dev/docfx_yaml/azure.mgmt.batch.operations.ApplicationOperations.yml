@@ -23,7 +23,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/application_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'ApplicationOperations operations.
 
@@ -48,7 +48,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/application_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 36
   summary: "Activates the specified application package.\n\n:param resource_group_name:\
     \ The name of the resource group that\n contains the Batch account.\n:type resource_group_name:\
@@ -74,7 +74,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/application_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 104
   summary: "Adds an application to the specified Batch account.\n\n:param resource_group_name:\
     \ The name of the resource group that\n contains the Batch account.\n:type resource_group_name:\
@@ -101,7 +101,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/application_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 369
   summary: "Creates an application package record.\n\n:param resource_group_name:\
     \ The name of the resource group that\n contains the Batch account.\n:type resource_group_name:\
@@ -126,7 +126,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/application_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 184
   summary: "Deletes an application.\n\n:param resource_group_name: The name of the\
     \ resource group that\n contains the Batch account.\n:type resource_group_name:\
@@ -150,7 +150,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/application_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 437
   summary: "Deletes an application package record and its associated binary file.\n\
     \n:param resource_group_name: The name of the resource group that\n contains the\
@@ -175,7 +175,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/application_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 241
   summary: "Gets information about the specified application.\n\n:param resource_group_name:\
     \ The name of the resource group that\n contains the Batch account.\n:type resource_group_name:\
@@ -199,7 +199,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/application_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 497
   summary: "Gets information about the specified application package.\n\n:param resource_group_name:\
     \ The name of the resource group that\n contains the Batch account.\n:type resource_group_name:\
@@ -224,7 +224,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/application_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 565
   summary: "Lists all of the applications in the specified account.\n\n:param resource_group_name:\
     \ The name of the resource group that\n contains the Batch account.\n:type resource_group_name:\
@@ -248,7 +248,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/application_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 305
   summary: "Updates settings for the specified application.\n\n:param resource_group_name:\
     \ The name of the resource group that\n contains the Batch account.\n:type resource_group_name:\

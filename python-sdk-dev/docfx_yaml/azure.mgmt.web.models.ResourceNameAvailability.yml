@@ -15,14 +15,19 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/resource_name_availability.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "Describes if a resource name is available.\n\n:param name_available: True\
-    \ indicates name is valid and available.  False\n indicates the name is invalid,\
-    \ unavailable, or both.\n:type name_available: bool\n:param reason: Required if\
-    \ nameAvailable is false. 'Invalid' indicates\n the name provided does not match\
-    \ Azure WebApp service\u2019s naming\n requirements. 'AlreadyExists' indicates\
-    \ that the name is already in use\n and is therefore unavailable.\n:type reason:\
-    \ str\n:param message:\n:type message: str"
+  summary: "Information regarding availbility of a resource name.\n\n:param name_available:\
+    \ <code>true</code> indicates name is valid and\n available. <code>false</code>\
+    \ indicates the name is invalid, unavailable,\n or both.\n:type name_available:\
+    \ bool\n:param reason: <code>Invalid</code> indicates the name provided does not\n\
+    \ match Azure App Service naming requirements. <code>AlreadyExists</code>\n indicates\
+    \ that the name is already in use and is therefore unavailable.\n Possible values\
+    \ include: 'Invalid', 'AlreadyExists'\n:type reason: str or :class:`InAvailabilityReasonType\n\
+    \ <azure.mgmt.web.models.InAvailabilityReasonType>`\n:param message: If reason\
+    \ == invalid, provide the user with the reason why\n the given name is invalid,\
+    \ and provide the resource naming requirements so\n that the user can select a\
+    \ valid name. If reason == AlreadyExists, explain\n that resource name is already\
+    \ in use, and direct them to select a\n different name.\n:type message: str"
   type: Class
   uid: azure.mgmt.web.models.ResourceNameAvailability

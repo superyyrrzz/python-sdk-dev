@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-iothub/azure/mgmt/iothub/models/shared_access_signature_authorization_rule.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "The properties of an IoT hub shared access policy.\n\n:param key_name:\
     \ The name of the shared access policy.\n:type key_name: str\n:param primary_key:\

@@ -6,6 +6,7 @@ items:
   - azure.mgmt.datalake.store.operations.FirewallRulesOperations.delete
   - azure.mgmt.datalake.store.operations.FirewallRulesOperations.get
   - azure.mgmt.datalake.store.operations.FirewallRulesOperations.list_by_account
+  - azure.mgmt.datalake.store.operations.FirewallRulesOperations.update
   class: azure.mgmt.datalake.store.operations.FirewallRulesOperations
   fullName: azure.mgmt.datalake.store.operations.FirewallRulesOperations
   inheritance:
@@ -18,7 +19,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/operations/firewall_rules_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'FirewallRulesOperations operations.
 
@@ -43,13 +44,13 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/operations/firewall_rules_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 36
   summary: "Creates or updates the specified firewall rule. During update, the\nfirewall\
     \ rule with the specified name will be replaced with this new\nfirewall rule.\n\
     \n:param resource_group_name: The name of the Azure resource group that\n contains\
     \ the Data Lake Store account.\n:type resource_group_name: str\n:param account_name:\
-    \ The name of the Data Lake Store account to which\n to add the firewall rule.\n\
+    \ The name of the Data Lake Store account to add or\n replace the firewall rule.\n\
     :type account_name: str\n:param firewall_rule_name: The name of the firewall rule\
     \ to create or\n update.\n:type firewall_rule_name: str\n:param parameters: Parameters\
     \ supplied to create or update the\n firewall rule.\n:type parameters: :class:`FirewallRule\n\
@@ -72,8 +73,8 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/operations/firewall_rules_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
-    startLine: 114
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
+    startLine: 200
   summary: "Deletes the specified firewall rule from the specified Data Lake Store\n\
     account.\n\n:param resource_group_name: The name of the Azure resource group that\n\
     \ contains the Data Lake Store account.\n:type resource_group_name: str\n:param\
@@ -98,8 +99,8 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/operations/firewall_rules_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
-    startLine: 174
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
+    startLine: 260
   summary: "Gets the specified Data Lake Store firewall rule.\n\n:param resource_group_name:\
     \ The name of the Azure resource group that\n contains the Data Lake Store account.\n\
     :type resource_group_name: str\n:param account_name: The name of the Data Lake\
@@ -124,8 +125,8 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/operations/firewall_rules_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
-    startLine: 241
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
+    startLine: 327
   summary: "Lists the Data Lake Store firewall rules within the specified Data Lake\n\
     Store account.\n\n:param resource_group_name: The name of the Azure resource group\
     \ that\n contains the Data Lake Store account.\n:type resource_group_name: str\n\
@@ -137,3 +138,33 @@ items:
     \ <azure.mgmt.datalake.store.models.FirewallRulePaged>`\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
   type: Method
   uid: azure.mgmt.datalake.store.operations.FirewallRulesOperations.list_by_account
+- _type: method
+  class: azure.mgmt.datalake.store.operations.FirewallRulesOperations
+  fullName: azure.mgmt.datalake.store.operations.FirewallRulesOperations.update
+  module: azure.mgmt.datalake.store.operations
+  name: update
+  source:
+    id: update
+    path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/operations/firewall_rules_operations.py
+    remote:
+      branch: master
+      path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/operations/firewall_rules_operations.py
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
+    startLine: 114
+  summary: "Updates the specified firewall rule.\n\n:param resource_group_name: The\
+    \ name of the Azure resource group that\n contains the Data Lake Store account.\n\
+    :type resource_group_name: str\n:param account_name: The name of the Data Lake\
+    \ Store account to which\n to update the firewall rule.\n:type account_name: str\n\
+    :param firewall_rule_name: The name of the firewall rule to update.\n:type firewall_rule_name:\
+    \ str\n:param start_ip_address: the start IP address for the firewall rule.\n\
+    \ This can be either ipv4 or ipv6. Start and End should be in the same\n protocol.\n\
+    :type start_ip_address: str\n:param end_ip_address: the end IP address for the\
+    \ firewall rule. This\n can be either ipv4 or ipv6. Start and End should be in\
+    \ the same\n protocol.\n:type end_ip_address: str\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`FirewallRule\n\
+    \ <azure.mgmt.datalake.store.models.FirewallRule>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.datalake.store.operations.FirewallRulesOperations.update

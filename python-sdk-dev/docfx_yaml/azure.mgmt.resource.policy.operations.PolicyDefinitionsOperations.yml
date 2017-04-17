@@ -18,7 +18,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/policy/operations/policy_definitions_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'PolicyDefinitionsOperations operations.
 
@@ -43,7 +43,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/policy/operations/policy_definitions_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 36
   summary: "Create or update a policy definition.\n\n:param policy_definition_name:\
     \ The policy definition name.\n:type policy_definition_name: str\n:param parameters:\
@@ -67,7 +67,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/policy/operations/policy_definitions_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 101
   summary: "Deletes the policy definition.\n\n:param policy_definition_name: The policy\
     \ definition name.\n:type policy_definition_name: str\n:param dict custom_headers:\
@@ -88,7 +88,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/policy/operations/policy_definitions_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 151
   summary: "Gets the policy definition.\n\n:param policy_definition_name: The policy\
     \ definition name.\n:type policy_definition_name: str\n:param dict custom_headers:\
@@ -110,7 +110,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/policy/operations/policy_definitions_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 209
   summary: "Gets all the policy definitions of a subscription.\n\n:param filter: The\
     \ filter to apply on the operation.\n:type filter: str\n:param dict custom_headers:\

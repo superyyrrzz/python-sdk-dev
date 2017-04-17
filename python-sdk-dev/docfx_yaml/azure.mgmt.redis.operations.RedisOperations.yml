@@ -24,7 +24,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 20
   summary: 'RedisOperations operations.
 
@@ -49,7 +49,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 37
   summary: "Create a redis cache, or replace (overwrite/recreate, with potential\n\
     downtime) an existing cache.\n\n:param resource_group_name: The name of the resource\
@@ -75,7 +75,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 109
   summary: "Deletes a redis cache. This operation takes a while to complete.\n\n:param\
     \ resource_group_name: The name of the resource group.\n:type resource_group_name:\
@@ -98,7 +98,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 637
   summary: "Import data into redis cache.\n\n:param resource_group_name: The name\
     \ of the resource group.\n:type resource_group_name: str\n:param name: The name\
@@ -122,7 +122,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 483
   summary: "Reboot specified redis node(s). This operation requires write\npermission\
     \ to the cache resource. There can be potential data loss.\n\n:param resource_group_name:\
@@ -150,7 +150,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 162
   summary: "Gets a redis cache (resource description).\n\n:param resource_group_name:\
     \ The name of the resource group.\n:type resource_group_name: str\n:param name:\
@@ -173,7 +173,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 551
   summary: "Import data into redis cache.\n\n:param resource_group_name: The name\
     \ of the resource group.\n:type resource_group_name: str\n:param name: The name\
@@ -196,7 +196,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 287
   summary: "Gets all redis caches in the specified subscription.\n\n:param dict custom_headers:\
     \ headers that will be added to the request\n:param bool raw: returns the direct\
@@ -216,7 +216,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 222
   summary: "Gets all redis caches in a resource group.\n\n:param resource_group_name:\
     \ The name of the resource group.\n:type resource_group_name: str\n:param dict\
@@ -237,7 +237,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 349
   summary: "Retrieve a redis cache's access keys. This operation requires write\n\
     permission to the cache resource.\n\n:param resource_group_name: The name of the\
@@ -261,7 +261,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/operations/redis_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 411
   summary: "Regenerate redis cache's access keys. This operation requires write\n\
     permission to the cache resource.\n\n:param resource_group_name: The name of the\

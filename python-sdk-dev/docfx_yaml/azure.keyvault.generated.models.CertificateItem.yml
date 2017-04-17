@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/models/certificate_item.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "The certificate item containing certificate metadata.\n\n:param id: Certificate\
     \ identifier.\n:type id: str\n:param attributes: The certificate management attributes.\n\

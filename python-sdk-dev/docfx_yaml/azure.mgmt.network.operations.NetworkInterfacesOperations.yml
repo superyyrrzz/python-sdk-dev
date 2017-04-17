@@ -24,7 +24,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 20
   summary: 'NetworkInterfacesOperations operations.
 
@@ -49,7 +49,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 180
   summary: "The Put NetworkInterface operation creates/updates a networkInterface.\n\
     \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
@@ -74,7 +74,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 37
   summary: "The delete netwokInterface operation deletes the specified\nnetwokInterface.\n\
     \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
@@ -97,7 +97,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 114
   summary: "The Get network interface operation retrieves information about the\n\
     specified network interface.\n\n:param resource_group_name: The name of the resource\
@@ -122,7 +122,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 620
   summary: "The get effective routetable operation retrieves all the route tables\n\
     applied on a networkInterface.\n\n:param resource_group_name: The name of the\
@@ -146,7 +146,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 418
   summary: "The Get network interface operation retrieves information about the\n\
     specified network interface in a virtual machine scale set.\n\n:param resource_group_name:\
@@ -173,7 +173,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 554
   summary: "The List networkInterfaces operation retrieves all the\nnetworkInterfaces\
     \ in a resource group.\n\n:param resource_group_name: The name of the resource\
@@ -195,7 +195,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 491
   summary: "The List networkInterfaces operation retrieves all the\nnetworkInterfaces\
     \ in a subscription.\n\n:param dict custom_headers: headers that will be added\
@@ -216,7 +216,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 705
   summary: "The list effective network security group operation retrieves all the\n\
     network security groups applied on a networkInterface.\n\n:param resource_group_name:\
@@ -240,7 +240,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 348
   summary: "The list network interface operation retrieves information about all\n\
     network interfaces in a virtual machine scale set.\n\n:param resource_group_name:\
@@ -263,7 +263,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/network_interfaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 274
   summary: "The list network interface operation retrieves information about all\n\
     network interfaces in a virtual machine from a virtual machine scale\nset.\n\n\

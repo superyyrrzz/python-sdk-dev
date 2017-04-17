@@ -16,7 +16,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/application_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 18
   summary: 'ApplicationOperations operations.
 
@@ -41,7 +41,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/application_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 121
   summary: "Gets information about the specified application.\n\n:param application_id:\
     \ The id of the application.\n:type application_id: str\n:param application_get_options:\
@@ -65,7 +65,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/application_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 35
   summary: "Lists all of the applications available in the specified account.\n\n\
     :param application_list_options: Additional parameters for the\n operation\n:type\

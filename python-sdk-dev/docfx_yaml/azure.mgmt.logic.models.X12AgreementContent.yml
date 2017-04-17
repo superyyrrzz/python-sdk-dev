@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/x12_agreement_content.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "X12AgreementContent.\n\n:param receive_agreement: The X12 one-way receive\
     \ agreement.\n:type receive_agreement: :class:`X12OneWayAgreement\n <azure.mgmt.logic.models.X12OneWayAgreement>`\n\

@@ -17,7 +17,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/subscriptions/operations/subscriptions_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'SubscriptionsOperations operations.
 
@@ -42,7 +42,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/subscriptions/operations/subscriptions_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 100
   summary: "Gets details about particular subscription.\n\n:param subscription_id:\
     \ Id of the subscription.\n:type subscription_id: str\n:param dict custom_headers:\
@@ -64,7 +64,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/subscriptions/operations/subscriptions_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 157
   summary: "Gets a list of subscriptions.\n\n:param dict custom_headers: headers that\
     \ will be added to the request\n:param bool raw: returns the direct response alongside\
@@ -84,7 +84,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/subscriptions/operations/subscriptions_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 36
   summary: "Gets a list of the subscription locations.\n\n:param subscription_id:\
     \ Id of the subscription\n:type subscription_id: str\n:param dict custom_headers:\

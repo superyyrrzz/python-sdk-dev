@@ -22,7 +22,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/storage_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'StorageAccountsOperations operations.
 
@@ -47,7 +47,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/storage_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 242
   summary: "Updates the specified Data Lake Analytics account to add an Azure\nStorage\
     \ account.\n\n:param resource_group_name: The name of the Azure resource group\
@@ -76,7 +76,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/storage_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 105
   summary: "Updates the specified Data Lake Analytics account to remove an Azure\n\
     Storage account.\n\n:param resource_group_name: The name of the Azure resource\
@@ -102,7 +102,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/storage_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 36
   summary: "Gets the specified Azure Storage account linked to the given Data Lake\n\
     Analytics account.\n\n:param resource_group_name: The name of the Azure resource\
@@ -130,7 +130,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/storage_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 314
   summary: "Gets the specified Azure Storage container associated with the given\n\
     Data Lake Analytics and Azure Storage accounts.\n\n:param resource_group_name:\
@@ -159,7 +159,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/storage_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 544
   summary: "Gets the first page of Azure Storage accounts, if any, linked to the\n\
     specified Data Lake Analytics account. The response includes a link to\nthe next\
@@ -196,7 +196,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/storage_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 464
   summary: "Gets the SAS token associated with the specified Data Lake Analytics\n\
     and Azure Storage account and container combination.\n\n:param resource_group_name:\
@@ -225,7 +225,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/storage_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 387
   summary: "Lists the Azure Storage containers, if any, associated with the\nspecified\
     \ Data Lake Analytics and Azure Storage account combination.\nThe response includes\
@@ -253,7 +253,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/storage_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 166
   summary: "Updates the Data Lake Analytics account to replace Azure Storage blob\n\
     account details, such as the access key and/or suffix.\n\n:param resource_group_name:\

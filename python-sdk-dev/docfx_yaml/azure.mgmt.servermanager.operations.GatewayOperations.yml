@@ -23,7 +23,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/gateway_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'GatewayOperations operations.
 
@@ -48,7 +48,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/gateway_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 36
   summary: "Creates or updates a ManagementService gateway.\n\n:param resource_group_name:\
     \ The resource group name uniquely\n identifies the resource group within the\
@@ -78,7 +78,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/gateway_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 240
   summary: "Deletes a gateway from a resource group.\n\n:param resource_group_name:\
     \ The resource group name uniquely\n identifies the resource group within the\
@@ -102,7 +102,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/gateway_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 294
   summary: "Gets a gateway.\n\n:param resource_group_name: The resource group name\
     \ uniquely\n identifies the resource group within the user subscriptionId.\n:type\
@@ -130,7 +130,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/gateway_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 646
   summary: "Gets a gateway profile.\n\n:param resource_group_name: The resource group\
     \ name uniquely\n identifies the resource group within the user subscriptionId.\n\
@@ -154,7 +154,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/gateway_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 364
   summary: "Returns gateways in a subscription.\n\n:param dict custom_headers: headers\
     \ that will be added to the request\n:param bool raw: returns the direct response\
@@ -174,7 +174,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/gateway_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 426
   summary: "Returns gateways in a resource group.\n\n:param resource_group_name: The\
     \ resource group name uniquely\n identifies the resource group within the user\
@@ -196,7 +196,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/gateway_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 569
   summary: "Regenerate a gateway's profile.\n\n:param resource_group_name: The resource\
     \ group name uniquely\n identifies the resource group within the user subscriptionId.\n\
@@ -219,7 +219,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/gateway_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 139
   summary: "Updates a gateway belonging to a resource group.\n\n:param resource_group_name:\
     \ The resource group name uniquely\n identifies the resource group within the\
@@ -249,7 +249,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/gateway_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 492
   summary: "Upgrades a gateway.\n\n:param resource_group_name: The resource group\
     \ name uniquely\n identifies the resource group within the user subscriptionId.\n\

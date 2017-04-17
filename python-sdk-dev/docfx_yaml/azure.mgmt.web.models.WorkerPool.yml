@@ -16,20 +16,21 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/worker_pool.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "Worker pool of a hostingEnvironment (App Service Environment).\n\n:param\
-    \ id: Resource Id\n:type id: str\n:param name: Resource Name\n:type name: str\n\
-    :param kind: Kind of resource\n:type kind: str\n:param location: Resource Location\n\
-    :type location: str\n:param type: Resource type\n:type type: str\n:param tags:\
-    \ Resource tags\n:type tags: dict\n:param worker_size_id: Worker size id for referencing\
-    \ this worker pool\n:type worker_size_id: int\n:param compute_mode: Shared or\
-    \ dedicated web app hosting. Possible values\n include: 'Shared', 'Dedicated',\
+  summary: "Worker pool of an App Service Environment.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar id: Resource\
+    \ Id.\n:vartype id: str\n:param name: Resource Name.\n:type name: str\n:param\
+    \ kind: Kind of resource.\n:type kind: str\n:param location: Resource Location.\n\
+    :type location: str\n:param type: Resource type.\n:type type: str\n:param tags:\
+    \ Resource tags.\n:type tags: dict\n:param worker_size_id: Worker size ID for\
+    \ referencing this worker pool.\n:type worker_size_id: int\n:param compute_mode:\
+    \ Shared or dedicated app hosting. Possible values\n include: 'Shared', 'Dedicated',\
     \ 'Dynamic'\n:type compute_mode: str or :class:`ComputeModeOptions\n <azure.mgmt.web.models.ComputeModeOptions>`\n\
-    :param worker_size: VM size of the worker pool instances\n:type worker_size: str\n\
-    :param worker_count: Number of instances in the worker pool\n:type worker_count:\
-    \ int\n:param instance_names: Names of all instances in the worker pool (read\n\
-    \ only)\n:type instance_names: list of str\n:param sku:\n:type sku: :class:`SkuDescription\
+    :param worker_size: VM size of the worker pool instances.\n:type worker_size:\
+    \ str\n:param worker_count: Number of instances in the worker pool.\n:type worker_count:\
+    \ int\n:ivar instance_names: Names of all instances in the worker pool (read\n\
+    \ only).\n:vartype instance_names: list of str\n:param sku:\n:type sku: :class:`SkuDescription\
     \ <azure.mgmt.web.models.SkuDescription>`"
   type: Class
   uid: azure.mgmt.web.models.WorkerPool

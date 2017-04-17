@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/formula_properties_from_vm.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Information about a VM from which a formula is to be created.\n\n:param\
     \ lab_vm_id: The identifier of the VM from which a formula is to be\n created.\n\

@@ -15,15 +15,15 @@ items:
     remote:
       branch: master
       path: azure-mgmt-sql/azure/mgmt/sql/models/slo_usage_metric.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Represents a Slo Usage Metric.\n\n:param service_level_objective: The\
     \ serviceLevelObjective for SLO usage\n metric. Possible values include: 'Basic',\
-    \ 'S0', 'S1', 'S2', 'S3', 'P1',\n 'P2', 'P3'\n:type service_level_objective: str\
-    \ or :class:`ServiceObjectiveName\n <azure.mgmt.sql.models.ServiceObjectiveName>`\n\
-    :param service_level_objective_id: The serviceLevelObjectiveId for SLO\n usage\
-    \ metric.\n:type service_level_objective_id: str\n:param in_range_time_ratio:\
-    \ Gets or sets inRangeTimeRatio for SLO usage\n metric.\n:type in_range_time_ratio:\
-    \ float"
+    \ 'S0', 'S1', 'S2', 'S3', 'P1',\n 'P2', 'P3', 'P4', 'P6', 'P11', 'P15', 'System',\
+    \ 'ElasticPool'\n:type service_level_objective: str or :class:`ServiceObjectiveName\n\
+    \ <azure.mgmt.sql.models.ServiceObjectiveName>`\n:param service_level_objective_id:\
+    \ The serviceLevelObjectiveId for SLO\n usage metric.\n:type service_level_objective_id:\
+    \ str\n:param in_range_time_ratio: Gets or sets inRangeTimeRatio for SLO usage\n\
+    \ metric.\n:type in_range_time_ratio: float"
   type: Class
   uid: azure.mgmt.sql.models.SloUsageMetric

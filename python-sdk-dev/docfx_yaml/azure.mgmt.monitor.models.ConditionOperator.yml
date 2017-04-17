@@ -11,11 +11,11 @@ items:
   name: ConditionOperator
   source:
     id: ConditionOperator
-    path: azure-mgmt-monitor/azure/mgmt/monitor/models/insights_management_client_enums.py
+    path: azure-mgmt-monitor/azure/mgmt/monitor/models/monitor_management_client_enums.py
     remote:
       branch: master
-      path: azure-mgmt-monitor/azure/mgmt/monitor/models/insights_management_client_enums.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      path: azure-mgmt-monitor/azure/mgmt/monitor/models/monitor_management_client_enums.py
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 68
   summary: An enumeration.
   type: Class

@@ -16,7 +16,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/application_gateway_authentication_certificate.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Authentication certificates of application gateway.\n\n:param id: Resource\
     \ Id\n:type id: str\n:param data: Certificate public data\n:type data: str\n:param\

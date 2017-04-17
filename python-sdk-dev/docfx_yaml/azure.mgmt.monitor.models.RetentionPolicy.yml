@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-monitor/azure/mgmt/monitor/models/retention_policy.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Specifies the retention policy for the log.\n\n:param enabled: a value\
     \ indicating whether the retention policy is\n enabled.\n:type enabled: bool\n\

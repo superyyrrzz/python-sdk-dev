@@ -14,7 +14,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-trafficmanager/azure/mgmt/trafficmanager/traffic_manager_management_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 78
   summary: ":ivar config: Configuration for client.\n:vartype config: TrafficManagerManagementClientConfiguration\n\
     \n:ivar endpoints: Endpoints operations\n:vartype endpoints: .operations.EndpointsOperations\n\

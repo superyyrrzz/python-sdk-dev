@@ -16,45 +16,50 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/geo_region.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: 'Geographical region.
 
 
-    :param id: Resource Id
+    Variables are only populated by the server, and will be ignored when
 
-    :type id: str
+    sending a request.
 
-    :param name: Resource Name
+
+    :ivar id: Resource Id.
+
+    :vartype id: str
+
+    :param name: Resource Name.
 
     :type name: str
 
-    :param kind: Kind of resource
+    :param kind: Kind of resource.
 
     :type kind: str
 
-    :param location: Resource Location
+    :param location: Resource Location.
 
     :type location: str
 
-    :param type: Resource type
+    :param type: Resource type.
 
     :type type: str
 
-    :param tags: Resource tags
+    :param tags: Resource tags.
 
     :type tags: dict
 
-    :param geo_region_name: Region name
+    :ivar geo_region_name: Region name.
 
-    :type geo_region_name: str
+    :vartype geo_region_name: str
 
-    :param description: Region description
+    :ivar description: Region description.
 
-    :type description: str
+    :vartype description: str
 
-    :param display_name: Display name for region
+    :ivar display_name: Display name for region.
 
-    :type display_name: str'
+    :vartype display_name: str'
   type: Class
   uid: azure.mgmt.web.models.GeoRegion

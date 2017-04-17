@@ -23,7 +23,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/operations/storage_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 20
   summary: 'StorageAccountsOperations operations.
 
@@ -48,7 +48,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/operations/storage_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 37
   summary: "Checks that account name is valid and is not in use.\n\n:param name:\n\
     :type name: str\n:param dict custom_headers: headers that will be added to the\
@@ -69,7 +69,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/operations/storage_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 100
   summary: "Asynchronously creates a new storage account with the specified\nparameters.\
     \ If an account is already created and subsequent create\nrequest is issued with\
@@ -100,7 +100,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/operations/storage_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 200
   summary: "Deletes a storage account in Microsoft Azure.\n\n:param resource_group_name:\
     \ The name of the resource group within the\n user's subscription.\n:type resource_group_name:\
@@ -125,7 +125,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/operations/storage_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 257
   summary: "Returns the properties for the specified storage account including but\n\
     not limited to name, account type, location, and account status. The\nListKeys\
@@ -152,7 +152,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/operations/storage_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 405
   summary: "Lists all the storage accounts available under the subscription. Note\n\
     that storage keys are not returned; use the ListKeys operation for\nthis.\n\n\
@@ -173,7 +173,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/operations/storage_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 469
   summary: "Lists all the storage accounts available under the given resource\ngroup.\
     \ Note that storage keys are not returned; use the ListKeys\noperation for this.\n\
@@ -196,7 +196,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/operations/storage_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 537
   summary: "Lists the access keys for the specified storage account.\n\n:param resource_group_name:\
     \ The name of the resource group.\n:type resource_group_name: str\n:param account_name:\
@@ -219,7 +219,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/operations/storage_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 598
   summary: "Regenerates the access keys for the specified storage account.\n\n:param\
     \ resource_group_name: The name of the resource group within the\n user's subscription.\n\
@@ -245,7 +245,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/operations/storage_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 324
   summary: "The update operation can be used to update the account type,\nencryption,\
     \ or tags for a storage account. It can also be used to map\nthe account to a\

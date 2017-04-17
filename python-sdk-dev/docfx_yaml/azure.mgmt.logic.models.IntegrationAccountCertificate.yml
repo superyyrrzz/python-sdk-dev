@@ -16,7 +16,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/integration_account_certificate.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "IntegrationAccountCertificate.\n\nVariables are only populated by the\
     \ server, and will be ignored when\nsending a request.\n\n:param id: The resource\

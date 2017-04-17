@@ -21,7 +21,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/operations/jobs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'JobsOperations operations.
 
@@ -46,7 +46,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/operations/jobs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 100
   summary: "Provisions a new job or updates an existing job.\n\n:param resource_group_name:\
     \ The resource group name.\n:type resource_group_name: str\n:param job_collection_name:\
@@ -71,7 +71,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/operations/jobs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 244
   summary: "Deletes a job.\n\n:param resource_group_name: The resource group name.\n\
     :type resource_group_name: str\n:param job_collection_name: The job collection\
@@ -94,7 +94,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/operations/jobs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 36
   summary: "Gets a job.\n\n:param resource_group_name: The resource group name.\n\
     :type resource_group_name: str\n:param job_collection_name: The job collection\
@@ -117,7 +117,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/operations/jobs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 356
   summary: "Lists all jobs under the specified job collection.\n\n:param resource_group_name:\
     \ The resource group name.\n:type resource_group_name: str\n:param job_collection_name:\
@@ -142,7 +142,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/operations/jobs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 437
   summary: "Lists job history.\n\n:param resource_group_name: The resource group name.\n\
     :type resource_group_name: str\n:param job_collection_name: The job collection\
@@ -168,7 +168,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/operations/jobs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 173
   summary: "Patches an existing job.\n\n:param resource_group_name: The resource group\
     \ name.\n:type resource_group_name: str\n:param job_collection_name: The job collection\
@@ -193,7 +193,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/operations/jobs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 300
   summary: "Runs a job.\n\n:param resource_group_name: The resource group name.\n\
     :type resource_group_name: str\n:param job_collection_name: The job collection\

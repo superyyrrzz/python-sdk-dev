@@ -17,7 +17,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/cdn_management_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 83
   summary: "Use these APIs to manage Azure CDN resources through the Azure Resource\
     \ Manager. You must make sure that requests made to these resources are secure.\n\
@@ -51,7 +51,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/cdn_management_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 143
   summary: "Check the availability of a resource name. This is needed for resources\n\
     where name is globally unique, such as a CDN endpoint.\n\n:param name: The resource\
@@ -74,7 +74,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/cdn_management_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 203
   summary: "Check the quota and actual usage of the CDN profiles under the given\n\
     subscription.\n\n:param dict custom_headers: headers that will be added to the\
@@ -95,7 +95,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/cdn_management_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 266
   summary: "Lists all of the available CDN REST API operations.\n\n:param dict custom_headers:\
     \ headers that will be added to the request\n:param bool raw: returns the direct\

@@ -22,7 +22,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_machine_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 20
   summary: 'VirtualMachineOperations operations.
 
@@ -47,7 +47,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_machine_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 435
   summary: "Apply artifacts to Lab VM. This operation can take a while to complete.\n\
     \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
@@ -72,7 +72,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_machine_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 185
   summary: "Create or replace an existing Virtual Machine. This operation can take\n\
     a while to complete.\n\n:param resource_group_name: The name of the resource group.\n\
@@ -98,7 +98,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_machine_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 283
   summary: "Delete virtual machine. This operation can take a while to complete.\n\
     \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
@@ -121,7 +121,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_machine_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 120
   summary: "Get virtual machine.\n\n:param resource_group_name: The name of the resource\
     \ group.\n:type resource_group_name: str\n:param lab_name: The name of the lab.\n\
@@ -145,7 +145,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_machine_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 37
   summary: "List virtual machines in a given lab.\n\n:param resource_group_name: The\
     \ name of the resource group.\n:type resource_group_name: str\n:param lab_name:\
@@ -171,7 +171,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_machine_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 363
   summary: "Modify properties of virtual machines.\n\n:param resource_group_name:\
     \ The name of the resource group.\n:type resource_group_name: str\n:param lab_name:\
@@ -197,7 +197,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_machine_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 524
   summary: "Start a Lab VM. This operation can take a while to complete.\n\n:param\
     \ resource_group_name: The name of the resource group.\n:type resource_group_name:\
@@ -220,7 +220,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_machine_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 604
   summary: "Stop a Lab VM. This operation can take a while to complete.\n\n:param\
     \ resource_group_name: The name of the resource group.\n:type resource_group_name:\

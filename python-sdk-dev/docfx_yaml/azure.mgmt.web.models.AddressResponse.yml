@@ -15,14 +15,14 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/address_response.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "Describes main public ip address and any extra vips.\n\n:param service_ip_address:\
-    \ Main public vip\n:type service_ip_address: str\n:param internal_ip_address:\
-    \ VNET internal ip address of the\n hostingEnvironment (App Service Environment)\
-    \ if it is in internal\n load-balancing mode\n:type internal_ip_address: str\n\
-    :param outbound_ip_addresses: IP addresses appearing on outbound\n connections\n\
-    :type outbound_ip_addresses: list of str\n:param vip_mappings: Additional vips\n\
-    :type vip_mappings: list of :class:`VirtualIPMapping\n <azure.mgmt.web.models.VirtualIPMapping>`"
+  summary: "Describes main public IP address and any extra virtual IPs.\n\n:param\
+    \ service_ip_address: Main public virtual IP.\n:type service_ip_address: str\n\
+    :param internal_ip_address: Virtual Network internal IP address of the App\n Service\
+    \ Environment if it is in internal load-balancing mode.\n:type internal_ip_address:\
+    \ str\n:param outbound_ip_addresses: IP addresses appearing on outbound\n connections.\n\
+    :type outbound_ip_addresses: list of str\n:param vip_mappings: Additional virtual\
+    \ IPs.\n:type vip_mappings: list of :class:`VirtualIPMapping\n <azure.mgmt.web.models.VirtualIPMapping>`"
   type: Class
   uid: azure.mgmt.web.models.AddressResponse

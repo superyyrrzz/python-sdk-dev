@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-media/azure/mgmt/media/models/storage_account.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "The properties of a storage account associated with this resource.\n\n\
     :param id: The id of the storage account resource. Media Services relies\n on\

@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/network_management_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 98
   summary: "The Microsoft Azure Network management API provides a RESTful set of web\
     \ services that interact with Microsoft Azure Networks service to manage your\
@@ -75,7 +75,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/network_management_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 215
   summary: "Checks whether a domain name in the cloudapp.net zone is available for\n\
     use.\n\n:param location: The location of the domain name\n:type location: str\n\

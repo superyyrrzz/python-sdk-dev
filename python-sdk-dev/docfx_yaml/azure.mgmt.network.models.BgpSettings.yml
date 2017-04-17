@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/bgp_settings.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "BgpSettings.\n\n:param asn: Gets or sets this BGP speaker's ASN\n:type\
     \ asn: long\n:param bgp_peering_address: Gets or sets the BGP peering address\

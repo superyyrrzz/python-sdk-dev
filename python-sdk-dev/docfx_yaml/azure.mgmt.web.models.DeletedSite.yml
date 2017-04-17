@@ -16,68 +16,74 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/deleted_site.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "Reports deleted site including the timestamp of operation.\n\nVariables\
-    \ are only populated by the server, and will be ignored when\nsending a request.\n\
-    \n:param id: Resource Id\n:type id: str\n:param name: Resource Name\n:type name:\
-    \ str\n:param kind: Kind of resource\n:type kind: str\n:param location: Resource\
-    \ Location\n:type location: str\n:param type: Resource type\n:type type: str\n\
-    :param tags: Resource tags\n:type tags: dict\n:param deleted_timestamp: Time when\
-    \ the site was deleted\n:type deleted_timestamp: datetime\n:param deleted_site_name:\
-    \ Name of web app\n:type deleted_site_name: str\n:ivar state: State of the web\
-    \ app\n:vartype state: str\n:ivar host_names: Hostnames associated with web app\n\
-    :vartype host_names: list of str\n:ivar repository_site_name: Name of repository\
-    \ site\n:vartype repository_site_name: str\n:ivar usage_state: State indicating\
-    \ whether web app has exceeded its\n quota usage. Possible values include: 'Normal',\
+  summary: "A deleted app.\n\nVariables are only populated by the server, and will\
+    \ be ignored when\nsending a request.\n\n:ivar id: Resource Id.\n:vartype id:\
+    \ str\n:param name: Resource Name.\n:type name: str\n:param kind: Kind of resource.\n\
+    :type kind: str\n:param location: Resource Location.\n:type location: str\n:param\
+    \ type: Resource type.\n:type type: str\n:param tags: Resource tags.\n:type tags:\
+    \ dict\n:ivar deleted_timestamp: Time in UTC when the app was deleted.\n:vartype\
+    \ deleted_timestamp: datetime\n:ivar state: Current state of the app.\n:vartype\
+    \ state: str\n:ivar host_names: Hostnames associated with the app.\n:vartype host_names:\
+    \ list of str\n:ivar repository_site_name: Name of the repository site.\n:vartype\
+    \ repository_site_name: str\n:ivar usage_state: State indicating whether the app\
+    \ has exceeded its quota\n usage. Read-only. Possible values include: 'Normal',\
     \ 'Exceeded'\n:vartype usage_state: str or :class:`UsageState\n <azure.mgmt.web.models.UsageState>`\n\
-    :param enabled: True if the site is enabled; otherwise, false. Setting\n this\
-    \  value to false disables the site (takes the site off line).\n:type enabled:\
-    \ bool\n:ivar enabled_host_names: Hostnames for the web app that are enabled.\n\
-    \ Hostnames need to be assigned and enabled. If some hostnames are\n assigned\
-    \ but not enabled\n the app is not served on those hostnames\n:vartype enabled_host_names:\
-    \ list of str\n:ivar availability_state: Management information availability state\
-    \ for\n the web app. Possible values are Normal or Limited.\n Normal means that\
-    \ the site is running correctly and that\n management information for the site\
-    \ is available.\n Limited means that only partial management information for\n\
-    \ the site is available and that detailed site information is unavailable.\n Possible\
-    \ values include: 'Normal', 'Limited', 'DisasterRecoveryMode'\n:vartype availability_state:\
-    \ str or :class:`SiteAvailabilityState\n <azure.mgmt.web.models.SiteAvailabilityState>`\n\
-    :param host_name_ssl_states: Hostname SSL states are  used to manage the\n SSL\
-    \ bindings for site's hostnames.\n:type host_name_ssl_states: list of :class:`HostNameSslState\n\
-    \ <azure.mgmt.web.models.HostNameSslState>`\n:param server_farm_id:\n:type server_farm_id:\
-    \ str\n:ivar last_modified_time_utc: Last time web app was modified in UTC\n:vartype\
-    \ last_modified_time_utc: datetime\n:param site_config: Configuration of web app\n\
-    :type site_config: :class:`SiteConfig <azure.mgmt.web.models.SiteConfig>`\n:ivar\
-    \ traffic_manager_host_names: Read-only list of Azure Traffic manager\n hostnames\
-    \ associated with web app\n:vartype traffic_manager_host_names: list of str\n\
-    :ivar premium_app_deployed: If set indicates whether web app is deployed\n as\
-    \ a premium app\n:vartype premium_app_deployed: bool\n:param scm_site_also_stopped:\
-    \ If set indicates whether to stop SCM (KUDU)\n site when the web app is stopped.\
-    \ Default is false.\n:type scm_site_also_stopped: bool\n:ivar target_swap_slot:\
-    \ Read-only property that specifies which slot this\n app will swap into\n:vartype\
-    \ target_swap_slot: str\n:param hosting_environment_profile: Specification for\
-    \ the hosting\n environment (App Service Environment) to use for the web app\n\
-    :type hosting_environment_profile: :class:`HostingEnvironmentProfile\n <azure.mgmt.web.models.HostingEnvironmentProfile>`\n\
-    :param micro_service:\n:type micro_service: str\n:param gateway_site_name: Name\
-    \ of gateway app associated with web app\n:type gateway_site_name: str\n:param\
-    \ client_affinity_enabled: Specifies if the client affinity is\n enabled when\
-    \ load balancing http request for multiple instances of the\n web app\n:type client_affinity_enabled:\
-    \ bool\n:param client_cert_enabled: Specifies if the client certificate is\n enabled\
-    \ for the web app\n:type client_cert_enabled: bool\n:param host_names_disabled:\
-    \ Specifies if the public hostnames are\n disabled the web app.\n If set to true\
-    \ the app is only accessible via API Management\n process\n:type host_names_disabled:\
-    \ bool\n:ivar outbound_ip_addresses: List of comma separated IP addresses that\n\
-    \ this web app uses for outbound connections. Those can be used when\n configuring\
-    \ firewall rules for databases accessed by this web app.\n:vartype outbound_ip_addresses:\
-    \ str\n:param container_size: Size of a function container\n:type container_size:\
-    \ int\n:param max_number_of_workers: Maximum number of workers\n This only applies\
-    \ to function container\n:type max_number_of_workers: int\n:param cloning_info:\
-    \ This is only valid for web app creation. If\n specified, web app is cloned from\n\
-    \ a source web app\n:type cloning_info: :class:`CloningInfo\n <azure.mgmt.web.models.CloningInfo>`\n\
-    :ivar resource_group: Resource group web app belongs to\n:vartype resource_group:\
-    \ str\n:ivar is_default_container: Site is a default container\n:vartype is_default_container:\
-    \ bool\n:ivar default_host_name: Default hostname of the web app\n:vartype default_host_name:\
-    \ str"
+    :param enabled: <code>true</code> if the app is enabled; otherwise,\n <code>false</code>.\
+    \ Setting this value to false disables the app (takes\n the app offline).\n:type\
+    \ enabled: bool\n:ivar enabled_host_names: Enabled hostnames for the app.Hostnames\
+    \ need to\n be assigned (see HostNames) AND enabled. Otherwise,\n the app is not\
+    \ served on those hostnames.\n:vartype enabled_host_names: list of str\n:ivar\
+    \ availability_state: Management information availability state for\n the app.\
+    \ Possible values include: 'Normal', 'Limited',\n 'DisasterRecoveryMode'\n:vartype\
+    \ availability_state: str or :class:`SiteAvailabilityState\n <azure.mgmt.web.models.SiteAvailabilityState>`\n\
+    :param host_name_ssl_states: Hostname SSL states are used to manage the\n SSL\
+    \ bindings for app's hostnames.\n:type host_name_ssl_states: list of :class:`HostNameSslState\n\
+    \ <azure.mgmt.web.models.HostNameSslState>`\n:param server_farm_id: Resource ID\
+    \ of the associated App Service plan,\n formatted as:\n \"/subscriptions/{subscriptionID}/resourceGroups/{groupName}/providers/Microsoft.Web/serverfarms/{appServicePlanName}\"\
+    .\n:type server_farm_id: str\n:param reserved: <code>true</code> if reserved;\
+    \ otherwise,\n <code>false</code>. Default value: False .\n:type reserved: bool\n\
+    :ivar last_modified_time_utc: Last time the app was modified, in UTC.\n Read-only.\n\
+    :vartype last_modified_time_utc: datetime\n:param site_config: Configuration of\
+    \ the app.\n:type site_config: :class:`SiteConfig <azure.mgmt.web.models.SiteConfig>`\n\
+    :ivar traffic_manager_host_names: Azure Traffic Manager hostnames\n associated\
+    \ with the app. Read-only.\n:vartype traffic_manager_host_names: list of str\n\
+    :ivar premium_app_deployed: Indicates whether app is deployed as a premium\n app.\n\
+    :vartype premium_app_deployed: bool\n:param scm_site_also_stopped: <code>true</code>\
+    \ to stop SCM (KUDU) site\n when the app is stopped; otherwise, <code>false</code>.\
+    \ The default is\n <code>false</code>. Default value: False .\n:type scm_site_also_stopped:\
+    \ bool\n:ivar target_swap_slot: Specifies which deployment slot this app will\
+    \ swap\n into. Read-only.\n:vartype target_swap_slot: str\n:param hosting_environment_profile:\
+    \ App Service Environment to use for the\n app.\n:type hosting_environment_profile:\
+    \ :class:`HostingEnvironmentProfile\n <azure.mgmt.web.models.HostingEnvironmentProfile>`\n\
+    :param micro_service: Micro services like apps, logic apps. Default value:\n \"\
+    false\" .\n:type micro_service: str\n:param gateway_site_name: Name of gateway\
+    \ app associated with the app.\n:type gateway_site_name: str\n:param client_affinity_enabled:\
+    \ <code>true</code> to enable client\n affinity; <code>false</code> to stop sending\
+    \ session affinity cookies,\n which route client requests in the same session\
+    \ to the same instance.\n Default is <code>true</code>.\n:type client_affinity_enabled:\
+    \ bool\n:param client_cert_enabled: <code>true</code> to enable client certificate\n\
+    \ authentication (TLS mutual authentication); otherwise, <code>false</code>.\n\
+    \ Default is <code>false</code>.\n:type client_cert_enabled: bool\n:param host_names_disabled:\
+    \ <code>true</code> to disable the public\n hostnames of the app; otherwise, <code>false</code>.\n\
+    \ If <code>true</code>, the app is only accessible via API management\n process.\n\
+    :type host_names_disabled: bool\n:ivar outbound_ip_addresses: List of IP addresses\
+    \ that the app uses for\n outbound connections (e.g. database access). Read-only.\n\
+    :vartype outbound_ip_addresses: str\n:param container_size: Size of the function\
+    \ container.\n:type container_size: int\n:param daily_memory_time_quota: Maximum\
+    \ allowed daily memory-time quota\n (applicable on dynamic apps only).\n:type\
+    \ daily_memory_time_quota: int\n:ivar suspended_till: App suspended till in case\
+    \ memory-time quota is\n exceeded.\n:vartype suspended_till: datetime\n:ivar max_number_of_workers:\
+    \ Maximum number of workers.\n This only applies to Functions container.\n:vartype\
+    \ max_number_of_workers: int\n:param cloning_info: If specified during app creation,\
+    \ the app is cloned\n from a source app.\n:type cloning_info: :class:`CloningInfo\n\
+    \ <azure.mgmt.web.models.CloningInfo>`\n:ivar resource_group: Name of the resource\
+    \ group the app belongs to.\n Read-only.\n:vartype resource_group: str\n:ivar\
+    \ is_default_container: <code>true</code> if the app is a default\n container;\
+    \ otherwise, <code>false</code>.\n:vartype is_default_container: bool\n:ivar default_host_name:\
+    \ Default hostname of the app. Read-only.\n:vartype default_host_name: str\n:ivar\
+    \ slot_swap_status: Status of the last deployment slot swap operation.\n:vartype\
+    \ slot_swap_status: :class:`SlotSwapStatus\n <azure.mgmt.web.models.SlotSwapStatus>`"
   type: Class
   uid: azure.mgmt.web.models.DeletedSite

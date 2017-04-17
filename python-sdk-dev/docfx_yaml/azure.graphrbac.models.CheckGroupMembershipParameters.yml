@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/models/check_group_membership_parameters.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Request parameters for IsMemberOf API call.\n\n:param group_id: The object\
     \ ID of the group to check.\n:type group_id: str\n:param member_id: The object\

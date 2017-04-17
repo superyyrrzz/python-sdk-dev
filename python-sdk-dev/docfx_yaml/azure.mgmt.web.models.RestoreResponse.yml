@@ -16,14 +16,15 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/restore_response.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "Response for a restore site request.\n\n:param id: Resource Id\n:type\
-    \ id: str\n:param name: Resource Name\n:type name: str\n:param kind: Kind of resource\n\
-    :type kind: str\n:param location: Resource Location\n:type location: str\n:param\
-    \ type: Resource type\n:type type: str\n:param tags: Resource tags\n:type tags:\
-    \ dict\n:param operation_id: When server starts the restore process, it will\n\
-    \ return an OperationId identifying that particular restore operation\n:type operation_id:\
-    \ str"
+  summary: "Response for an app restore request.\n\nVariables are only populated by\
+    \ the server, and will be ignored when\nsending a request.\n\n:ivar id: Resource\
+    \ Id.\n:vartype id: str\n:param name: Resource Name.\n:type name: str\n:param\
+    \ kind: Kind of resource.\n:type kind: str\n:param location: Resource Location.\n\
+    :type location: str\n:param type: Resource type.\n:type type: str\n:param tags:\
+    \ Resource tags.\n:type tags: dict\n:ivar operation_id: When server starts the\
+    \ restore process, it will return\n an operation ID identifying that particular\
+    \ restore operation.\n:vartype operation_id: str"
   type: Class
   uid: azure.mgmt.web.models.RestoreResponse

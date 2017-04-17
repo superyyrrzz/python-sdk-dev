@@ -16,40 +16,45 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/certificate_email.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: 'Certificate Email.
+  summary: 'SSL certificate email.
 
 
-    :param id: Resource Id
+    Variables are only populated by the server, and will be ignored when
 
-    :type id: str
+    sending a request.
 
-    :param name: Resource Name
+
+    :ivar id: Resource Id.
+
+    :vartype id: str
+
+    :param name: Resource Name.
 
     :type name: str
 
-    :param kind: Kind of resource
+    :param kind: Kind of resource.
 
     :type kind: str
 
-    :param location: Resource Location
+    :param location: Resource Location.
 
     :type location: str
 
-    :param type: Resource type
+    :param type: Resource type.
 
     :type type: str
 
-    :param tags: Resource tags
+    :param tags: Resource tags.
 
     :type tags: dict
 
-    :param email_id: Email id
+    :param email_id: Email id.
 
     :type email_id: str
 
-    :param time_stamp: Time stamp
+    :param time_stamp: Time stamp.
 
     :type time_stamp: datetime'
   type: Class

@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/pool_specification.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Specification for creating a new pool.\n\n:param display_name: The display\
     \ name for the pool.\n:type display_name: str\n:param vm_size: The size of the\

@@ -16,7 +16,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/power_shell_command_status.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Result status from invoking a PowerShell command.\n\nVariables are only\
     \ populated by the server, and will be ignored when\nsending a request.\n\n:ivar\

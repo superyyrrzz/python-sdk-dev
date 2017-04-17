@@ -22,7 +22,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/deployments_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 20
   summary: 'DeploymentsOperations operations.
 
@@ -47,7 +47,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/deployments_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 328
   summary: "Cancel a currently running template deployment.\n\n:param resource_group_name:\
     \ The name of the resource group. The name\n is case insensitive.\n:type resource_group_name:\
@@ -70,7 +70,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/deployments_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 114
   summary: "Checks whether deployment exists.\n\n:param resource_group_name: The name\
     \ of the resource group to check.\n The name is case insensitive.\n:type resource_group_name:\
@@ -93,7 +93,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/deployments_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 170
   summary: "Create a named template deployment using a template.\n\n:param resource_group_name:\
     \ The name of the resource group. The name\n is case insensitive.\n:type resource_group_name:\
@@ -117,7 +117,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/deployments_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 37
   summary: "Delete deployment.\n\n:param resource_group_name: The name of the resource\
     \ group. The name\n is case insensitive.\n:type resource_group_name: str\n:param\
@@ -140,7 +140,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/deployments_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 455
   summary: "Exports a deployment template.\n\n:param resource_group_name: The name\
     \ of the resource group. The name\n is case insensitive.\n:type resource_group_name:\
@@ -163,7 +163,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/deployments_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 266
   summary: "Get a deployment.\n\n:param resource_group_name: The name of the resource\
     \ group to get.\n The name is case insensitive.\n:type resource_group_name: str\n\
@@ -186,7 +186,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/deployments_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 517
   summary: "Get a list of deployments.\n\n:param resource_group_name: The name of\
     \ the resource group to filter\n by. The name is case insensitive.\n:type resource_group_name:\
@@ -209,7 +209,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/deployments_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 382
   summary: "Validate a deployment template.\n\n:param resource_group_name: The name\
     \ of the resource group. The name\n is case insensitive.\n:type resource_group_name:\

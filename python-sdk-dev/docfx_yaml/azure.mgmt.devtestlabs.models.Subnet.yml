@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/subnet.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Subnet.\n\n:param resource_id:\n:type resource_id: str\n:param lab_subnet_name:\n\
     :type lab_subnet_name: str\n:param allow_public_ip: Possible values include: 'Default',\

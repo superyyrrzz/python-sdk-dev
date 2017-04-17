@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/compute_node_get_remote_login_settings_result.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Response to a ComputeNodeOperation.GetRemoteLoginSettings request.\n\n\
     :param remote_login_ip_address: The IP address used for remote login to\n the\

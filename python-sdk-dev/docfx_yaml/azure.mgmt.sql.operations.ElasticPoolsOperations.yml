@@ -22,7 +22,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-sql/azure/mgmt/sql/operations/elastic_pools_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 20
   summary: 'ElasticPoolsOperations operations.
 
@@ -49,16 +49,16 @@ items:
     remote:
       branch: master
       path: azure-mgmt-sql/azure/mgmt/sql/operations/elastic_pools_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 39
-  summary: "Creates a new Azure SQL elastic pool or updates an existing Azure SQL\n\
-    elastic pool.\n\n:param resource_group_name: The name of the resource group that\n\
-    \ contains the resource. You can obtain this value from the Azure\n Resource Manager\
-    \ API or the portal.\n:type resource_group_name: str\n:param server_name: The\
-    \ name of the Azure SQL server.\n:type server_name: str\n:param elastic_pool_name:\
-    \ The name of the Azure SQL Elastic Pool to be\n operated on (Updated or created).\n\
-    :type elastic_pool_name: str\n:param parameters: The required parameters for creating\
-    \ or updating an\n Elastic Pool.\n:type parameters: :class:`ElasticPool\n <azure.mgmt.sql.models.ElasticPool>`\n\
+  summary: "Creates a new elastic pool or updates an existing elastic pool.\n\n:param\
+    \ resource_group_name: The name of the resource group that\n contains the resource.\
+    \ You can obtain this value from the Azure\n Resource Manager API or the portal.\n\
+    :type resource_group_name: str\n:param server_name: The name of the server.\n\
+    :type server_name: str\n:param elastic_pool_name: The name of the elastic pool\
+    \ to be operated\n on (updated or created).\n:type elastic_pool_name: str\n:param\
+    \ parameters: The required parameters for creating or updating an\n elastic pool.\n\
+    :type parameters: :class:`ElasticPool\n <azure.mgmt.sql.models.ElasticPool>`\n\
     :param dict custom_headers: headers that will be added to the request\n:param\
     \ bool raw: returns the direct response alongside the\n deserialized response\n\
     :rtype:\n :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`\n\
@@ -78,19 +78,18 @@ items:
     remote:
       branch: master
       path: azure-mgmt-sql/azure/mgmt/sql/operations/elastic_pools_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
-    startLine: 143
-  summary: "Deletes the Azure SQL elastic pool.\n\n:param resource_group_name: The\
-    \ name of the resource group that\n contains the resource. You can obtain this\
-    \ value from the Azure\n Resource Manager API or the portal.\n:type resource_group_name:\
-    \ str\n:param server_name: The name of the Azure SQL server.\n:type server_name:\
-    \ str\n:param elastic_pool_name: The name of the Azure SQL Elastic Pool to be\n\
-    \ deleted.\n:type elastic_pool_name: str\n:param dict custom_headers: headers\
-    \ that will be added to the request\n:param bool raw: returns the direct response\
-    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
-    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: None\n:rtype:\
-    \ :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
-    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
+    startLine: 140
+  summary: "Deletes the elastic pool.\n\n:param resource_group_name: The name of the\
+    \ resource group that\n contains the resource. You can obtain this value from\
+    \ the Azure\n Resource Manager API or the portal.\n:type resource_group_name:\
+    \ str\n:param server_name: The name of the server.\n:type server_name: str\n:param\
+    \ elastic_pool_name: The name of the elastic pool to be deleted.\n:type elastic_pool_name:\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
   type: Method
   uid: azure.mgmt.sql.operations.ElasticPoolsOperations.delete
 - _type: method
@@ -104,18 +103,17 @@ items:
     remote:
       branch: master
       path: azure-mgmt-sql/azure/mgmt/sql/operations/elastic_pools_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
-    startLine: 203
-  summary: "Gets information about an Azure SQL elastic pool.\n\n:param resource_group_name:\
-    \ The name of the resource group that\n contains the resource. You can obtain\
-    \ this value from the Azure\n Resource Manager API or the portal.\n:type resource_group_name:\
-    \ str\n:param server_name: The name of the Azure SQL server.\n:type server_name:\
-    \ str\n:param elastic_pool_name: The name of the Azure SQL Elastic Pool to be\n\
-    \ retrieved.\n:type elastic_pool_name: str\n:param dict custom_headers: headers\
-    \ that will be added to the request\n:param bool raw: returns the direct response\
-    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
-    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ElasticPool\
-    \ <azure.mgmt.sql.models.ElasticPool>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
+    startLine: 199
+  summary: "Gets an elastic pool.\n\n:param resource_group_name: The name of the resource\
+    \ group that\n contains the resource. You can obtain this value from the Azure\n\
+    \ Resource Manager API or the portal.\n:type resource_group_name: str\n:param\
+    \ server_name: The name of the server.\n:type server_name: str\n:param elastic_pool_name:\
+    \ The name of the elastic pool to be\n retrieved.\n:type elastic_pool_name: str\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`ElasticPool <azure.mgmt.sql.models.ElasticPool>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
     \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
   type: Method
   uid: azure.mgmt.sql.operations.ElasticPoolsOperations.get
@@ -130,21 +128,19 @@ items:
     remote:
       branch: master
       path: azure-mgmt-sql/azure/mgmt/sql/operations/elastic_pools_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
-    startLine: 491
-  summary: "Gets information about an Azure SQL database inside of an Azure SQL\n\
-    elastic pool.\n\n:param resource_group_name: The name of the resource group that\n\
-    \ contains the resource. You can obtain this value from the Azure\n Resource Manager\
-    \ API or the portal.\n:type resource_group_name: str\n:param server_name: The\
-    \ name of the Azure SQL server.\n:type server_name: str\n:param elastic_pool_name:\
-    \ The name of the Azure SQL Elastic Pool to be\n retrieved.\n:type elastic_pool_name:\
-    \ str\n:param database_name: The name of the Azure SQL database to be\n retrieved.\n\
-    :type database_name: str\n:param dict custom_headers: headers that will be added\
-    \ to the request\n:param bool raw: returns the direct response alongside the\n\
-    \ deserialized response\n:param operation_config: :ref:`Operation configuration\n\
-    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`Database <azure.mgmt.sql.models.Database>`\n\
-    :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n if raw=true\n\
-    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
+    startLine: 486
+  summary: "Gets a database inside of an elastic pool.\n\n:param resource_group_name:\
+    \ The name of the resource group that\n contains the resource. You can obtain\
+    \ this value from the Azure\n Resource Manager API or the portal.\n:type resource_group_name:\
+    \ str\n:param server_name: The name of the server.\n:type server_name: str\n:param\
+    \ elastic_pool_name: The name of the elastic pool to be\n retrieved.\n:type elastic_pool_name:\
+    \ str\n:param database_name: The name of the database to be retrieved.\n:type\
+    \ database_name: str\n:param dict custom_headers: headers that will be added to\
+    \ the request\n:param bool raw: returns the direct response alongside the\n deserialized\
+    \ response\n:param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`Database <azure.mgmt.sql.models.Database>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
   type: Method
   uid: azure.mgmt.sql.operations.ElasticPoolsOperations.get_database
 - _type: method
@@ -158,19 +154,18 @@ items:
     remote:
       branch: master
       path: azure-mgmt-sql/azure/mgmt/sql/operations/elastic_pools_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
-    startLine: 341
-  summary: "Returns information about Azure SQL elastic pool activities.\n\n:param\
-    \ resource_group_name: The name of the resource group that\n contains the resource.\
-    \ You can obtain this value from the Azure\n Resource Manager API or the portal.\n\
-    :type resource_group_name: str\n:param server_name: The name of the Azure SQL\
-    \ server.\n:type server_name: str\n:param elastic_pool_name: The name of the Azure\
-    \ SQL Elastic Pool for\n which to get the current activity.\n:type elastic_pool_name:\
-    \ str\n:param dict custom_headers: headers that will be added to the request\n\
-    :param bool raw: returns the direct response alongside the\n deserialized response\n\
-    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
-    :rtype: :class:`ElasticPoolActivityPaged\n <azure.mgmt.sql.models.ElasticPoolActivityPaged>`\n\
-    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
+    startLine: 337
+  summary: "Returns elastic pool activities.\n\n:param resource_group_name: The name\
+    \ of the resource group that\n contains the resource. You can obtain this value\
+    \ from the Azure\n Resource Manager API or the portal.\n:type resource_group_name:\
+    \ str\n:param server_name: The name of the server.\n:type server_name: str\n:param\
+    \ elastic_pool_name: The name of the elastic pool for which to\n get the current\
+    \ activity.\n:type elastic_pool_name: str\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ElasticPoolActivityPaged\n\
+    \ <azure.mgmt.sql.models.ElasticPoolActivityPaged>`\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
   type: Method
   uid: azure.mgmt.sql.operations.ElasticPoolsOperations.list_activity
 - _type: method
@@ -184,15 +179,15 @@ items:
     remote:
       branch: master
       path: azure-mgmt-sql/azure/mgmt/sql/operations/elastic_pools_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
-    startLine: 270
-  summary: "Returns information about Azure SQL elastic pools.\n\n:param resource_group_name:\
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
+    startLine: 266
+  summary: "Returns a list of elastic pools in a server.\n\n:param resource_group_name:\
     \ The name of the resource group that\n contains the resource. You can obtain\
     \ this value from the Azure\n Resource Manager API or the portal.\n:type resource_group_name:\
-    \ str\n:param server_name: The name of the Azure SQL server.\n:type server_name:\
-    \ str\n:param dict custom_headers: headers that will be added to the request\n\
-    :param bool raw: returns the direct response alongside the\n deserialized response\n\
-    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    \ str\n:param server_name: The name of the server.\n:type server_name: str\n:param\
+    \ dict custom_headers: headers that will be added to the request\n:param bool\
+    \ raw: returns the direct response alongside the\n deserialized response\n:param\
+    \ operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
     :rtype: :class:`ElasticPoolPaged\n <azure.mgmt.sql.models.ElasticPoolPaged>`\n\
     :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
   type: Method
@@ -208,16 +203,15 @@ items:
     remote:
       branch: master
       path: azure-mgmt-sql/azure/mgmt/sql/operations/elastic_pools_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
-    startLine: 416
-  summary: "Returns information about activity on Azure SQL databases inside of an\n\
-    Azure SQL elastic pool.\n\n:param resource_group_name: The name of the resource\
-    \ group that\n contains the resource. You can obtain this value from the Azure\n\
-    \ Resource Manager API or the portal.\n:type resource_group_name: str\n:param\
-    \ server_name: The name of the Azure SQL server.\n:type server_name: str\n:param\
-    \ elastic_pool_name: The name of the Azure SQL Elastic Pool.\n:type elastic_pool_name:\
-    \ str\n:param dict custom_headers: headers that will be added to the request\n\
-    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
+    startLine: 412
+  summary: "Returns activity on databases inside of an elastic pool.\n\n:param resource_group_name:\
+    \ The name of the resource group that\n contains the resource. You can obtain\
+    \ this value from the Azure\n Resource Manager API or the portal.\n:type resource_group_name:\
+    \ str\n:param server_name: The name of the server.\n:type server_name: str\n:param\
+    \ elastic_pool_name: The name of the elastic pool.\n:type elastic_pool_name: str\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
     :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
     :rtype: :class:`ElasticPoolDatabaseActivityPaged\n <azure.mgmt.sql.models.ElasticPoolDatabaseActivityPaged>`\n\
     :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
@@ -234,14 +228,13 @@ items:
     remote:
       branch: master
       path: azure-mgmt-sql/azure/mgmt/sql/operations/elastic_pools_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
-    startLine: 563
-  summary: "Returns information about an Azure SQL database inside of an Azure SQL\n\
-    elastic pool.\n\n:param resource_group_name: The name of the resource group that\n\
-    \ contains the resource. You can obtain this value from the Azure\n Resource Manager\
-    \ API or the portal.\n:type resource_group_name: str\n:param server_name: The\
-    \ name of the Azure SQL server.\n:type server_name: str\n:param elastic_pool_name:\
-    \ The name of the Azure SQL Elastic Pool to be\n retrieved.\n:type elastic_pool_name:\
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
+    startLine: 556
+  summary: "Returns a list of databases in an elastic pool.\n\n:param resource_group_name:\
+    \ The name of the resource group that\n contains the resource. You can obtain\
+    \ this value from the Azure\n Resource Manager API or the portal.\n:type resource_group_name:\
+    \ str\n:param server_name: The name of the server.\n:type server_name: str\n:param\
+    \ elastic_pool_name: The name of the elastic pool to be\n retrieved.\n:type elastic_pool_name:\
     \ str\n:param dict custom_headers: headers that will be added to the request\n\
     :param bool raw: returns the direct response alongside the\n deserialized response\n\
     :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\

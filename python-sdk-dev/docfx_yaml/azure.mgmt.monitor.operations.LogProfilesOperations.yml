@@ -18,7 +18,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-monitor/azure/mgmt/monitor/operations/log_profiles_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'LogProfilesOperations operations.
 
@@ -45,12 +45,12 @@ items:
     remote:
       branch: master
       path: azure-mgmt-monitor/azure/mgmt/monitor/operations/log_profiles_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 148
   summary: "Create or update a log profile in Azure Monitoring REST API.\n\n:param\
     \ log_profile_name: The name of the log profile.\n:type log_profile_name: str\n\
-    :param parameters: Parameters supplied to the operation.\n:type parameters: :class:`LogProfileProperties\n\
-    \ <azure.mgmt.monitor.models.LogProfileProperties>`\n:param dict custom_headers:\
+    :param parameters: Parameters supplied to the operation.\n:type parameters: :class:`LogProfileResource\n\
+    \ <azure.mgmt.monitor.models.LogProfileResource>`\n:param dict custom_headers:\
     \ headers that will be added to the request\n:param bool raw: returns the direct\
     \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
     \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`LogProfileResource\n\
@@ -69,7 +69,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-monitor/azure/mgmt/monitor/operations/log_profiles_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 38
   summary: "Deletes the log profile.\n\n:param log_profile_name: The name of the log\
     \ profile.\n:type log_profile_name: str\n:param dict custom_headers: headers that\
@@ -90,7 +90,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-monitor/azure/mgmt/monitor/operations/log_profiles_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 89
   summary: "Gets the log profile.\n\n:param log_profile_name: The name of the log\
     \ profile.\n:type log_profile_name: str\n:param dict custom_headers: headers that\
@@ -112,7 +112,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-monitor/azure/mgmt/monitor/operations/log_profiles_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 214
   summary: "List the log profiles.\n\n:param dict custom_headers: headers that will\
     \ be added to the request\n:param bool raw: returns the direct response alongside\

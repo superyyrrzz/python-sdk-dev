@@ -73,18 +73,8 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/models/__init__.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 0
   summary: ''
   type: Namespace
   uid: azure.keyvault.generated.models
-- _type: class
-  children: []
-  fullName: azure.keyvault.generated.models
-  langs:
-  - python
-  module: azure.keyvault.generated.models
-  name: models.Global
-  summary: Proxy object to hold module level functions
-  type: Class
-  uid: azure.keyvault.generated.models.Global

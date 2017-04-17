@@ -21,7 +21,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/operations/account_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 20
   summary: 'AccountOperations operations.
 
@@ -46,7 +46,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/operations/account_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 37
   summary: "Creates the specified Data Lake Store account.\n\n:param resource_group_name:\
     \ The name of the Azure resource group that\n contains the Data Lake Store account.\n\
@@ -72,7 +72,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/operations/account_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 229
   summary: "Deletes the specified Data Lake Store account.\n\n:param resource_group_name:\
     \ The name of the Azure resource group that\n contains the Data Lake Store account.\n\
@@ -95,7 +95,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/operations/account_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 370
   summary: "Attempts to enable a user managed key vault for encryption of the\nspecified\
     \ Data Lake Store account.\n\n:param resource_group_name: The name of the Azure\
@@ -120,7 +120,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/operations/account_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 307
   summary: "Gets the specified Data Lake Store account.\n\n:param resource_group_name:\
     \ The name of the Azure resource group that\n contains the Data Lake Store account.\n\
@@ -144,7 +144,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/operations/account_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 527
   summary: "Lists the Data Lake Store accounts within the subscription. The\nresponse\
     \ includes a link to the next page of results, if any.\n\n:param filter: OData\
@@ -176,7 +176,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/operations/account_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 427
   summary: "Lists the Data Lake Store accounts within a specific resource group.\n\
     The response includes a link to the next page of results, if any.\n\n:param resource_group_name:\
@@ -210,7 +210,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/operations/account_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 133
   summary: "Updates the specified Data Lake Store account information.\n\n:param resource_group_name:\
     \ The name of the Azure resource group that\n contains the Data Lake Store account.\n\

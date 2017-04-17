@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-commerce/azure/mgmt/commerce/models/usage_aggregation.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Describes the usageAggregation.\n\n:param id: Unique Id for the usage\
     \ aggregate.\n:type id: str\n:param name: Name of the usage aggregate.\n:type\

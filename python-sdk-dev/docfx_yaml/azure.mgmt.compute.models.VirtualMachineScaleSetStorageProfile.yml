@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_scale_set_storage_profile.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Describes a virtual machine scale set storage profile.\n\n:param image_reference:\
     \ the image reference.\n:type image_reference: :class:`ImageReference\n <azure.mgmt.compute.models.ImageReference>`\n\

@@ -16,7 +16,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/models/profile.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "CDN profile represents the top level resource and the entry point into\
     \ the\nCDN API. This allows users to set up a logical grouping of endpoints in\n\

@@ -15,11 +15,11 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/csm_slot_entity.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "Class containing deployment slot parameters.\n\n:param target_slot: Set\
-    \ the destination deployment slot during swap\n operation\n:type target_slot:\
-    \ str\n:param preserve_vnet: Get or set the flag indicating it should preserve\n\
-    \ VNet to the slot during swap\n:type preserve_vnet: bool"
+  summary: "Deployment slot parameters.\n\n:param target_slot: Destination deployment\
+    \ slot during swap operation.\n:type target_slot: str\n:param preserve_vnet: <code>true</code>\
+    \ to preserve Virtual Network to the\n slot during swap; otherwise, <code>false</code>.\n\
+    :type preserve_vnet: bool"
   type: Class
   uid: azure.mgmt.web.models.CsmSlotEntity

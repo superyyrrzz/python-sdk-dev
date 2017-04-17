@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/models/group_get_member_groups_parameters.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Request parameters for GetMemberGroups API call.\n\n:param security_enabled_only:\
     \ If true, only membership in security-enabled\n groups should be checked. Otherwise,\

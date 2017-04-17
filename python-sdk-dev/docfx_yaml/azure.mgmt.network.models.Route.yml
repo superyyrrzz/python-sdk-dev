@@ -16,7 +16,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/route.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Route resource.\n\n:param id: Resource Id\n:type id: str\n:param address_prefix:\
     \ Gets or sets the destination CIDR to which the\n route applies.\n:type address_prefix:\

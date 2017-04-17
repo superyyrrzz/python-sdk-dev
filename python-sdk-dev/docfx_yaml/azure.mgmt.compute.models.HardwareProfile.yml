@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/hardware_profile.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Describes a hardware profile.\n\n:param vm_size: The virtual machine size\
     \ name. Possible values include:\n 'Basic_A0', 'Basic_A1', 'Basic_A2', 'Basic_A3',\

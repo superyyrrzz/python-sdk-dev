@@ -17,7 +17,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/session_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'SessionOperations operations.
 
@@ -42,7 +42,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/session_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 36
   summary: "Creates a session for a node.\n\n:param resource_group_name: The resource\
     \ group name uniquely\n identifies the resource group within the user subscriptionId.\n\
@@ -76,7 +76,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/session_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 147
   summary: "Deletes a session for a node.\n\n:param resource_group_name: The resource\
     \ group name uniquely\n identifies the resource group within the user subscriptionId.\n\
@@ -100,7 +100,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/session_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 204
   summary: "Gets a session for a node.\n\n:param resource_group_name: The resource\
     \ group name uniquely\n identifies the resource group within the user subscriptionId.\n\

@@ -16,63 +16,75 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/site_config.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "Configuration of Azure web site.\n\n:param id: Resource Id\n:type id:\
-    \ str\n:param name: Resource Name\n:type name: str\n:param kind: Kind of resource\n\
-    :type kind: str\n:param location: Resource Location\n:type location: str\n:param\
-    \ type: Resource type\n:type type: str\n:param tags: Resource tags\n:type tags:\
-    \ dict\n:param number_of_workers: Number of workers\n:type number_of_workers:\
-    \ int\n:param default_documents: Default documents\n:type default_documents: list\
-    \ of str\n:param net_framework_version: Net Framework Version\n:type net_framework_version:\
-    \ str\n:param php_version: Version of PHP\n:type php_version: str\n:param python_version:\
-    \ Version of Python\n:type python_version: str\n:param node_version: Version of\
-    \ Node\n:type node_version: str\n:param request_tracing_enabled: Enable request\
-    \ tracing\n:type request_tracing_enabled: bool\n:param request_tracing_expiration_time:\
-    \ Request tracing expiration time\n:type request_tracing_expiration_time: datetime\n\
-    :param remote_debugging_enabled: Remote Debugging Enabled\n:type remote_debugging_enabled:\
-    \ bool\n:param remote_debugging_version: Remote Debugging Version\n:type remote_debugging_version:\
-    \ str\n:param http_logging_enabled: HTTP logging Enabled\n:type http_logging_enabled:\
-    \ bool\n:param logs_directory_size_limit: HTTP Logs Directory size limit\n:type\
-    \ logs_directory_size_limit: int\n:param detailed_error_logging_enabled: Detailed\
-    \ error logging enabled\n:type detailed_error_logging_enabled: bool\n:param publishing_username:\
-    \ Publishing user name\n:type publishing_username: str\n:param publishing_password:\
-    \ Publishing password\n:type publishing_password: str\n:param app_settings: Application\
-    \ Settings\n:type app_settings: list of :class:`NameValuePair\n <azure.mgmt.web.models.NameValuePair>`\n\
-    :param metadata: Site Metadata\n:type metadata: list of :class:`NameValuePair\n\
-    \ <azure.mgmt.web.models.NameValuePair>`\n:param connection_strings: Connection\
-    \ strings\n:type connection_strings: list of :class:`ConnStringInfo\n <azure.mgmt.web.models.ConnStringInfo>`\n\
-    :param handler_mappings: Handler mappings\n:type handler_mappings: list of :class:`HandlerMapping\n\
-    \ <azure.mgmt.web.models.HandlerMapping>`\n:param document_root: Document root\n\
-    :type document_root: str\n:param scm_type: SCM type\n:type scm_type: str\n:param\
-    \ use32_bit_worker_process: Use 32 bit worker process\n:type use32_bit_worker_process:\
-    \ bool\n:param web_sockets_enabled: Web socket enabled.\n:type web_sockets_enabled:\
-    \ bool\n:param always_on: Always On\n:type always_on: bool\n:param java_version:\
-    \ Java version\n:type java_version: str\n:param java_container: Java container\n\
-    :type java_container: str\n:param java_container_version: Java container version\n\
-    :type java_container_version: str\n:param app_command_line: App Command Line to\
-    \ launch\n:type app_command_line: str\n:param managed_pipeline_mode: Managed pipeline\
-    \ mode. Possible values\n include: 'Integrated', 'Classic'\n:type managed_pipeline_mode:\
-    \ str or :class:`ManagedPipelineMode\n <azure.mgmt.web.models.ManagedPipelineMode>`\n\
-    :param virtual_applications: Virtual applications\n:type virtual_applications:\
+  summary: "Configuration of an App Service app.\n\nVariables are only populated by\
+    \ the server, and will be ignored when\nsending a request.\n\n:ivar id: Resource\
+    \ Id.\n:vartype id: str\n:param name: Resource Name.\n:type name: str\n:param\
+    \ kind: Kind of resource.\n:type kind: str\n:param location: Resource Location.\n\
+    :type location: str\n:param type: Resource type.\n:type type: str\n:param tags:\
+    \ Resource tags.\n:type tags: dict\n:param number_of_workers: Number of workers.\n\
+    :type number_of_workers: int\n:param default_documents: Default documents.\n:type\
+    \ default_documents: list of str\n:param net_framework_version: .NET Framework\
+    \ version. Default value:\n \"v4.6\" .\n:type net_framework_version: str\n:param\
+    \ php_version: Version of PHP.\n:type php_version: str\n:param python_version:\
+    \ Version of Python.\n:type python_version: str\n:param node_version: Version\
+    \ of Node.js.\n:type node_version: str\n:param linux_fx_version: Linux App Framework\
+    \ and version\n:type linux_fx_version: str\n:param request_tracing_enabled: <code>true</code>\
+    \ if request tracing is\n enabled; otherwise, <code>false</code>.\n:type request_tracing_enabled:\
+    \ bool\n:param request_tracing_expiration_time: Request tracing expiration time.\n\
+    :type request_tracing_expiration_time: datetime\n:param remote_debugging_enabled:\
+    \ <code>true</code> if remote debugging is\n enabled; otherwise, <code>false</code>.\n\
+    :type remote_debugging_enabled: bool\n:param remote_debugging_version: Remote\
+    \ debugging version.\n:type remote_debugging_version: str\n:param http_logging_enabled:\
+    \ <code>true</code> if HTTP logging is enabled;\n otherwise, <code>false</code>.\n\
+    :type http_logging_enabled: bool\n:param logs_directory_size_limit: HTTP logs\
+    \ directory size limit.\n:type logs_directory_size_limit: int\n:param detailed_error_logging_enabled:\
+    \ <code>true</code> if detailed error\n logging is enabled; otherwise, <code>false</code>.\n\
+    :type detailed_error_logging_enabled: bool\n:param publishing_username: Publishing\
+    \ user name.\n:type publishing_username: str\n:param app_settings: Application\
+    \ settings.\n:type app_settings: list of :class:`NameValuePair\n <azure.mgmt.web.models.NameValuePair>`\n\
+    :param connection_strings: Connection strings.\n:type connection_strings: list\
+    \ of :class:`ConnStringInfo\n <azure.mgmt.web.models.ConnStringInfo>`\n:ivar machine_key:\
+    \ Site MachineKey.\n:vartype machine_key: :class:`SiteMachineKey\n <azure.mgmt.web.models.SiteMachineKey>`\n\
+    :param handler_mappings: Handler mappings.\n:type handler_mappings: list of :class:`HandlerMapping\n\
+    \ <azure.mgmt.web.models.HandlerMapping>`\n:param document_root: Document root.\n\
+    :type document_root: str\n:param scm_type: SCM type. Possible values include:\
+    \ 'None', 'Dropbox',\n 'Tfs', 'LocalGit', 'GitHub', 'CodePlexGit', 'CodePlexHg',\
+    \ 'BitbucketGit',\n 'BitbucketHg', 'ExternalGit', 'ExternalHg', 'OneDrive', 'VSO'\n\
+    :type scm_type: str or :class:`ScmType <azure.mgmt.web.models.ScmType>`\n:param\
+    \ use32_bit_worker_process: <code>true</code> to use 32-bit worker\n process;\
+    \ otherwise, <code>false</code>.\n:type use32_bit_worker_process: bool\n:param\
+    \ web_sockets_enabled: <code>true</code> if WebSocket is enabled;\n otherwise,\
+    \ <code>false</code>.\n:type web_sockets_enabled: bool\n:param always_on: <code>true</code>\
+    \ if Always On is enabled; otherwise,\n <code>false</code>.\n:type always_on:\
+    \ bool\n:param java_version: Java version.\n:type java_version: str\n:param java_container:\
+    \ Java container.\n:type java_container: str\n:param java_container_version: Java\
+    \ container version.\n:type java_container_version: str\n:param app_command_line:\
+    \ App command line to launch.\n:type app_command_line: str\n:param managed_pipeline_mode:\
+    \ Managed pipeline mode. Possible values\n include: 'Integrated', 'Classic'\n\
+    :type managed_pipeline_mode: str or :class:`ManagedPipelineMode\n <azure.mgmt.web.models.ManagedPipelineMode>`\n\
+    :param virtual_applications: Virtual applications.\n:type virtual_applications:\
     \ list of :class:`VirtualApplication\n <azure.mgmt.web.models.VirtualApplication>`\n\
     :param load_balancing: Site load balancing. Possible values include:\n 'WeightedRoundRobin',\
     \ 'LeastRequests', 'LeastResponseTime',\n 'WeightedTotalTraffic', 'RequestHash'\n\
     :type load_balancing: str or :class:`SiteLoadBalancing\n <azure.mgmt.web.models.SiteLoadBalancing>`\n\
-    :param experiments: This is work around for polymophic types\n:type experiments:\
+    :param experiments: This is work around for polymophic types.\n:type experiments:\
     \ :class:`Experiments\n <azure.mgmt.web.models.Experiments>`\n:param limits: Site\
-    \ limits\n:type limits: :class:`SiteLimits <azure.mgmt.web.models.SiteLimits>`\n\
-    :param auto_heal_enabled: Auto heal enabled\n:type auto_heal_enabled: bool\n:param\
-    \ auto_heal_rules: Auto heal rules\n:type auto_heal_rules: :class:`AutoHealRules\n\
-    \ <azure.mgmt.web.models.AutoHealRules>`\n:param tracing_options: Tracing options\n\
-    :type tracing_options: str\n:param vnet_name: Vnet name\n:type vnet_name: str\n\
-    :param cors: Cross-Origin Resource Sharing (CORS) settings.\n:type cors: :class:`CorsSettings\
-    \ <azure.mgmt.web.models.CorsSettings>`\n:param api_definition: Information about\
-    \ the formal API definition for\n the web app.\n:type api_definition: :class:`ApiDefinitionInfo\n\
-    \ <azure.mgmt.web.models.ApiDefinitionInfo>`\n:param auto_swap_slot_name: Auto\
-    \ swap slot name\n:type auto_swap_slot_name: str\n:param local_my_sql_enabled:\
-    \ Local mysql enabled\n:type local_my_sql_enabled: bool\n:param ip_security_restrictions:\
-    \ Ip Security restrictions\n:type ip_security_restrictions: list of :class:`IpSecurityRestriction\n\
-    \ <azure.mgmt.web.models.IpSecurityRestriction>`"
+    \ limits.\n:type limits: :class:`SiteLimits <azure.mgmt.web.models.SiteLimits>`\n\
+    :param auto_heal_enabled: <code>true</code> if Auto Heal is enabled;\n otherwise,\
+    \ <code>false</code>.\n:type auto_heal_enabled: bool\n:param auto_heal_rules:\
+    \ Auto Heal rules.\n:type auto_heal_rules: :class:`AutoHealRules\n <azure.mgmt.web.models.AutoHealRules>`\n\
+    :param tracing_options: Tracing options.\n:type tracing_options: str\n:param vnet_name:\
+    \ Virtual Network name.\n:type vnet_name: str\n:param cors: Cross-Origin Resource\
+    \ Sharing (CORS) settings.\n:type cors: :class:`CorsSettings <azure.mgmt.web.models.CorsSettings>`\n\
+    :param push: Push endpoint settings.\n:type push: :class:`PushSettings <azure.mgmt.web.models.PushSettings>`\n\
+    :param api_definition: Information about the formal API definition for the\n app.\n\
+    :type api_definition: :class:`ApiDefinitionInfo\n <azure.mgmt.web.models.ApiDefinitionInfo>`\n\
+    :param auto_swap_slot_name: Auto-swap slot name.\n:type auto_swap_slot_name: str\n\
+    :param local_my_sql_enabled: <code>true</code> to enable local MySQL;\n otherwise,\
+    \ <code>false</code>. Default value: False .\n:type local_my_sql_enabled: bool\n\
+    :param ip_security_restrictions: IP security restrictions.\n:type ip_security_restrictions:\
+    \ list of :class:`IpSecurityRestriction\n <azure.mgmt.web.models.IpSecurityRestriction>`"
   type: Class
   uid: azure.mgmt.web.models.SiteConfig

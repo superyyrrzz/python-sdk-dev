@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/models/key_verify_parameters.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "The key verify parameters.\n\n:param algorithm: The signing/verification\
     \ algorithm. For more information\n on possible algorithm types, see JsonWebKeySignatureAlgorithm.\

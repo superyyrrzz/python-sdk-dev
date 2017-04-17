@@ -15,33 +15,14 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/resource_metric_value.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: 'Value of resource metric.
-
-
-    :param time_stamp: Value timestamp
-
-    :type time_stamp: str
-
-    :param average: Value average
-
-    :type average: float
-
-    :param minimum: Value minimum
-
-    :type minimum: float
-
-    :param maximum: Value maximum
-
-    :type maximum: float
-
-    :param total: Value total
-
-    :type total: float
-
-    :param count: Value count
-
-    :type count: float'
+  summary: "Value of resource metric.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:ivar timestamp: Value timestamp.\n\
+    :vartype timestamp: str\n:ivar average: Value average.\n:vartype average: float\n\
+    :ivar minimum: Value minimum.\n:vartype minimum: float\n:ivar maximum: Value maximum.\n\
+    :vartype maximum: float\n:ivar total: Value total.\n:vartype total: float\n:ivar\
+    \ count: Value count.\n:vartype count: float\n:ivar properties: Properties.\n\
+    :vartype properties: list of :class:`ResourceMetricProperty\n <azure.mgmt.web.models.ResourceMetricProperty>`"
   type: Class
   uid: azure.mgmt.web.models.ResourceMetricValue

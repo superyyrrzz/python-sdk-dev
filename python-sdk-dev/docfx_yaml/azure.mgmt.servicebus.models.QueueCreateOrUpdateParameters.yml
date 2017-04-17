@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servicebus/azure/mgmt/servicebus/models/queue_create_or_update_parameters.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Parameters supplied to the Create Or Update Queue operation.\n\n:param\
     \ name: Queue name.\n:type name: str\n:param location: location of the resource.\n\

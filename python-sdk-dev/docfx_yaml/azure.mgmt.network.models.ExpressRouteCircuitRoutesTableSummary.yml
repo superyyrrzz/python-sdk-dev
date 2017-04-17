@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/express_route_circuit_routes_table_summary.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "The routes table associated with the ExpressRouteCircuit.\n\n:param neighbor:\
     \ Neighbor.\n:type neighbor: str\n:param v: BGP version number spoken to the neighbor.\n\

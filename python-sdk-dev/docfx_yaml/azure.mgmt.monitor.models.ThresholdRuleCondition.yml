@@ -16,7 +16,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-monitor/azure/mgmt/monitor/models/threshold_rule_condition.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "A rule condition based on a metric crossing a threshold.\n\n:param odatatype:\
     \ Polymorphic Discriminator\n:type odatatype: str\n:param data_source: the resource\

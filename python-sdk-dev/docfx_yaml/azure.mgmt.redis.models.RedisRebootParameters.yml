@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/models/redis_reboot_parameters.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Specifies which redis node(s) to reboot.\n\n:param reboot_type: Which\
     \ redis node(s) to reboot. Depending on this\n value data loss is possible. Possible\

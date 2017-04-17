@@ -19,7 +19,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/http_bearer_challenge.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 11
   summary: Parses an HTTP WWW-Authentication Bearer challenge from a server.
   type: Class
@@ -35,7 +35,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/http_bearer_challenge.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 54
   summary: Returns the URI for the authorization server if present, otherwise empty
     string.
@@ -52,7 +52,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/http_bearer_challenge.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 63
   summary: Returns the resource if present, otherwise empty string.
   type: Method
@@ -68,7 +68,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/http_bearer_challenge.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 67
   summary: Returns the scope if present, otherwise empty string.
   type: Method
@@ -84,7 +84,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/http_bearer_challenge.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 51
   summary: ''
   type: Method
@@ -100,7 +100,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/http_bearer_challenge.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 41
   summary: 'Tests whether an authentication header is a Bearer challenge.
 

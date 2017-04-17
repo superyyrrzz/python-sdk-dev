@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_instance_view.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "The instance view of a virtual machine.\n\n:param platform_update_domain:\
     \ the Update Domain count.\n:type platform_update_domain: int\n:param platform_fault_domain:\

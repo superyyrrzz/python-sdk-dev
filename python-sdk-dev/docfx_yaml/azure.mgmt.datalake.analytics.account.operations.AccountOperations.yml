@@ -20,7 +20,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/account_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 20
   summary: 'AccountOperations operations.
 
@@ -45,7 +45,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/account_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 377
   summary: "Creates the specified Data Lake Analytics account. This supplies the\n\
     user with computation services for Data Lake Analytics workloads.\n\n:param resource_group_name:\
@@ -74,7 +74,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/account_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 297
   summary: "Begins the delete delete process for the Data Lake Analytics account\n\
     object specified by the account name.\n\n:param resource_group_name: The name\
@@ -98,7 +98,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/account_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 233
   summary: "Gets details of the specified Data Lake Analytics account.\n\n:param resource_group_name:\
     \ The name of the Azure resource group that\n contains the Data Lake Analytics\
@@ -123,7 +123,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/account_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 137
   summary: "Gets the first page of Data Lake Analytics accounts, if any, within the\n\
     current subscription. This includes a link to the next page, if any.\n\n:param\
@@ -156,7 +156,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/account_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 37
   summary: "Gets the first page of Data Lake Analytics accounts, if any, within a\n\
     specific resource group. This includes a link to the next page, if any.\n\n:param\
@@ -191,7 +191,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/account_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 476
   summary: "Updates the Data Lake Analytics account object specified by the\naccountName\
     \ with the contents of the account object.\n\n:param resource_group_name: The\

@@ -5,7 +5,6 @@ items:
   class: azure.mgmt.web.models.CertificateDetails
   fullName: azure.mgmt.web.models.CertificateDetails
   inheritance:
-  - azure.mgmt.web.models.resource.Resource
   - msrest.serialization.Model
   - builtins.object
   module: azure.mgmt.web.models
@@ -16,69 +15,50 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/certificate_details.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: 'Certificate Details.
+  summary: 'SSL certificate details.
 
 
-    :param id: Resource Id
+    Variables are only populated by the server, and will be ignored when
 
-    :type id: str
+    sending a request.
 
-    :param name: Resource Name
 
-    :type name: str
+    :ivar version: Version.
 
-    :param kind: Kind of resource
+    :vartype version: int
 
-    :type kind: str
+    :ivar serial_number: Serial Number.
 
-    :param location: Resource Location
+    :vartype serial_number: str
 
-    :type location: str
+    :ivar thumbprint: Thumbprint.
 
-    :param type: Resource type
+    :vartype thumbprint: str
 
-    :type type: str
+    :ivar subject: Subject.
 
-    :param tags: Resource tags
+    :vartype subject: str
 
-    :type tags: dict
+    :ivar not_before: Valid from.
 
-    :param version: Version
+    :vartype not_before: datetime
 
-    :type version: int
+    :ivar not_after: Valid to.
 
-    :param serial_number: Serial Number
+    :vartype not_after: datetime
 
-    :type serial_number: str
+    :ivar signature_algorithm: Signature algorithm.
 
-    :param thumbprint: Thumbprint
+    :vartype signature_algorithm: str
 
-    :type thumbprint: str
+    :ivar issuer: Issuer.
 
-    :param subject: Subject
+    :vartype issuer: str
 
-    :type subject: str
+    :ivar raw_data: Raw certificate data.
 
-    :param not_before: Valid from
-
-    :type not_before: datetime
-
-    :param not_after: Valid to
-
-    :type not_after: datetime
-
-    :param signature_algorithm: Signature Algorithm
-
-    :type signature_algorithm: str
-
-    :param issuer: Issuer
-
-    :type issuer: str
-
-    :param raw_data: Raw certificate data
-
-    :type raw_data: str'
+    :vartype raw_data: str'
   type: Class
   uid: azure.mgmt.web.models.CertificateDetails

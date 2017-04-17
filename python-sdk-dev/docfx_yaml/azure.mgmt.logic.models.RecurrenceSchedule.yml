@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/recurrence_schedule.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "RecurrenceSchedule.\n\n:param minutes: The minutes.\n:type minutes: list\
     \ of int\n:param hours: The hours.\n:type hours: list of int\n:param week_days:\

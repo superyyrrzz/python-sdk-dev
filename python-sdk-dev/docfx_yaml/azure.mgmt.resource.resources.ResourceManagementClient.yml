@@ -14,7 +14,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/resource_management_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 82
   summary: ":ivar config: Configuration for client.\n:vartype config: ResourceManagementClientConfiguration\n\
     \n:ivar deployments: Deployments operations\n:vartype deployments: .operations.DeploymentsOperations\n\

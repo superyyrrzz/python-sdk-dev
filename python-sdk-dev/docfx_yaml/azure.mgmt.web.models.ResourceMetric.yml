@@ -15,16 +15,18 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/resource_metric.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "Object representing a metric for any resource.\n\n:param name: Name of\
-    \ metric\n:type name: :class:`ResourceMetricName\n <azure.mgmt.web.models.ResourceMetricName>`\n\
-    :param unit: Metric unit\n:type unit: str\n:param time_grain: Metric granularity.\
-    \ E.g PT1H, PT5M, P1D\n:type time_grain: str\n:param start_time: Metric start\
-    \ time\n:type start_time: datetime\n:param end_time: Metric end time\n:type end_time:\
-    \ datetime\n:param resource_id: Metric resource Id\n:type resource_id: str\n:param\
-    \ metric_values: Metric values\n:type metric_values: list of :class:`ResourceMetricValue\n\
-    \ <azure.mgmt.web.models.ResourceMetricValue>`\n:param properties: Properties\n\
-    :type properties: list of :class:`KeyValuePairStringString\n <azure.mgmt.web.models.KeyValuePairStringString>`"
+  summary: "Object representing a metric for any resource .\n\nVariables are only\
+    \ populated by the server, and will be ignored when\nsending a request.\n\n:ivar\
+    \ name: Name of metric.\n:vartype name: :class:`ResourceMetricName\n <azure.mgmt.web.models.ResourceMetricName>`\n\
+    :ivar unit: Metric unit.\n:vartype unit: str\n:ivar time_grain: Metric granularity.\
+    \ E.g PT1H, PT5M, P1D\n:vartype time_grain: str\n:ivar start_time: Metric start\
+    \ time.\n:vartype start_time: datetime\n:ivar end_time: Metric end time.\n:vartype\
+    \ end_time: datetime\n:ivar resource_id: Metric resource Id.\n:vartype resource_id:\
+    \ str\n:ivar id: Resource Id.\n:vartype id: str\n:ivar metric_values: Metric values.\n\
+    :vartype metric_values: list of :class:`ResourceMetricValue\n <azure.mgmt.web.models.ResourceMetricValue>`\n\
+    :ivar properties: Properties.\n:vartype properties: list of :class:`ResourceMetricProperty\n\
+    \ <azure.mgmt.web.models.ResourceMetricProperty>`"
   type: Class
   uid: azure.mgmt.web.models.ResourceMetric

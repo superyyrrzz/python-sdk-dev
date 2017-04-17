@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/power_bi_embedded_management_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 81
   summary: "Client to manage your Power BI Embedded workspace collections and retrieve\
     \ workspaces.\n\n:ivar config: Configuration for client.\n:vartype config: PowerBIEmbeddedManagementClientConfiguration\n\
@@ -47,7 +47,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/power_bi_embedded_management_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 130
   summary: "Indicates which operations can be performed by the Power BI Resource\n\
     Provider.\n\n:param dict custom_headers: headers that will be added to the request\n\

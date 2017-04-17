@@ -16,30 +16,33 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/restore_request.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "Description of a restore request.\n\n:param id: Resource Id\n:type id:\
-    \ str\n:param name: Resource Name\n:type name: str\n:param kind: Kind of resource\n\
-    :type kind: str\n:param location: Resource Location\n:type location: str\n:param\
-    \ type: Resource type\n:type type: str\n:param tags: Resource tags\n:type tags:\
-    \ dict\n:param storage_account_url: SAS URL to the container\n:type storage_account_url:\
-    \ str\n:param blob_name: Name of a blob which contains the backup\n:type blob_name:\
-    \ str\n:param overwrite: True if the restore operation can overwrite target\n\
-    \ site. \"True\" needed if trying to restore over an existing site.\n:type overwrite:\
-    \ bool\n:param site_name: Name of a site (Web App)\n:type site_name: str\n:param\
-    \ databases: Collection of databses which should be restored. This\n list has\
-    \ to match the list of databases included in the backup.\n:type databases: list\
-    \ of :class:`DatabaseBackupSetting\n <azure.mgmt.web.models.DatabaseBackupSetting>`\n\
-    :param ignore_conflicting_host_names: Changes a logic when restoring a\n site\
-    \ with custom domains. If \"true\", custom domains are removed\n automatically.\
-    \ If \"false\", custom domains are added to\n the site object when it is being\
-    \ restored, but that might\n fail due to conflicts during the operation.\n:type\
-    \ ignore_conflicting_host_names: bool\n:param operation_type: Operation type.\
-    \ Possible values include:\n 'Default', 'Clone', 'Relocation'\n:type operation_type:\
-    \ str or :class:`BackupRestoreOperationType\n <azure.mgmt.web.models.BackupRestoreOperationType>`\n\
-    :param adjust_connection_strings: Gets or sets a flag showing if\n SiteConfig.ConnectionStrings\
-    \ should be set in new site\n:type adjust_connection_strings: bool\n:param hosting_environment:\
-    \ App Service Environment name, if needed (only\n when restoring a site to an\
-    \ App Service Environment)\n:type hosting_environment: str"
+  summary: "Description of a restore request.\n\nVariables are only populated by the\
+    \ server, and will be ignored when\nsending a request.\n\n:ivar id: Resource Id.\n\
+    :vartype id: str\n:param name: Resource Name.\n:type name: str\n:param kind: Kind\
+    \ of resource.\n:type kind: str\n:param location: Resource Location.\n:type location:\
+    \ str\n:param type: Resource type.\n:type type: str\n:param tags: Resource tags.\n\
+    :type tags: dict\n:param storage_account_url: SAS URL to the container.\n:type\
+    \ storage_account_url: str\n:param blob_name: Name of a blob which contains the\
+    \ backup.\n:type blob_name: str\n:param overwrite: <code>true</code> if the restore\
+    \ operation can overwrite\n target app; otherwise, <code>false</code>. <code>true</code>\
+    \ is needed if\n trying to restore over an existing app.\n:type overwrite: bool\n\
+    :param site_name: Name of an app.\n:type site_name: str\n:param databases: Collection\
+    \ of databases which should be restored. This\n list has to match the list of\
+    \ databases included in the backup.\n:type databases: list of :class:`DatabaseBackupSetting\n\
+    \ <azure.mgmt.web.models.DatabaseBackupSetting>`\n:param ignore_conflicting_host_names:\
+    \ Changes a logic when restoring an\n app with custom domains. <code>true</code>\
+    \ to remove custom domains\n automatically. If <code>false</code>, custom domains\
+    \ are added to\n the app's object when it is being restored, but that might fail\
+    \ due to\n conflicts during the operation. Default value: False .\n:type ignore_conflicting_host_names:\
+    \ bool\n:param operation_type: Operation type. Possible values include: 'Default',\n\
+    \ 'Clone', 'Relocation'. Default value: \"Default\" .\n:type operation_type: str\
+    \ or :class:`BackupRestoreOperationType\n <azure.mgmt.web.models.BackupRestoreOperationType>`\n\
+    :param adjust_connection_strings: <code>true</code> if\n SiteConfig.ConnectionStrings\
+    \ should be set in new app; otherwise,\n <code>false</code>.\n:type adjust_connection_strings:\
+    \ bool\n:param hosting_environment: App Service Environment name, if needed (only\n\
+    \ when restoring an app to an App Service Environment).\n:type hosting_environment:\
+    \ str"
   type: Class
   uid: azure.mgmt.web.models.RestoreRequest

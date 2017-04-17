@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-authorization/azure/mgmt/authorization/models/role_definition.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Role definition.\n\n:param id: The role definition ID.\n:type id: str\n\
     :param name: The role definition name.\n:type name: str\n:param type: The role\

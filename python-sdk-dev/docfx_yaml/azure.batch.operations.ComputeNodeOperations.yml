@@ -25,7 +25,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 18
   summary: 'ComputeNodeOperations operations.
 
@@ -50,7 +50,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 35
   summary: "Adds a user account to the specified compute node.\n\n:param pool_id:\
     \ The id of the pool that contains the compute node.\n:type pool_id: str\n:param\
@@ -77,7 +77,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 125
   summary: "Deletes a user account from the specified compute node.\n\n:param pool_id:\
     \ The id of the pool that contains the compute node.\n:type pool_id: str\n:param\
@@ -103,7 +103,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 596
   summary: "Disables task scheduling on the specified compute node.\n\n:param pool_id:\
     \ The id of the pool that contains the compute node.\n:type pool_id: str\n:param\
@@ -133,7 +133,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 697
   summary: "Enables task scheduling on the specified compute node.\n\n:param pool_id:\
     \ The id of the pool that contains the compute node.\n:type pool_id: str\n:param\
@@ -159,7 +159,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 304
   summary: "Gets information about the specified compute node.\n\n:param pool_id:\
     \ The id of the pool that contains the compute node.\n:type pool_id: str\n:param\
@@ -185,7 +185,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 874
   summary: "Gets the Remote Desktop Protocol file for the specified compute node.\n\
     \n:param pool_id: The id of the pool that contains the compute node.\n:type pool_id:\
@@ -215,7 +215,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 781
   summary: "Gets the settings required for remote login to a compute node.\n\n:param\
     \ pool_id: The id of the pool that contains the compute node.\n:type pool_id:\
@@ -241,7 +241,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 971
   summary: "Lists the compute nodes in the specified pool.\n\n:param pool_id: The\
     \ id of the pool from which you want to list nodes.\n:type pool_id: str\n:param\
@@ -264,7 +264,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 400
   summary: "Restarts the specified compute node.\n\n:param pool_id: The id of the\
     \ pool that contains the compute node.\n:type pool_id: str\n:param node_id: The\
@@ -293,7 +293,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 498
   summary: "Reinstalls the operating system on the specified compute node.\n\n:param\
     \ pool_id: The id of the pool that contains the compute node.\n:type pool_id:\
@@ -322,7 +322,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/compute_node_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 209
   summary: "Updates the password or expiration time of a user account on the\nspecified\
     \ compute node.\n\n:param pool_id: The id of the pool that contains the compute\

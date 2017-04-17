@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/scheduler/models/service_bus_brokered_message_properties.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "ServiceBusBrokeredMessageProperties.\n\n:param content_type: Gets or sets\
     \ the content type.\n:type content_type: str\n:param correlation_id: Gets or sets\

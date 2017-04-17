@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-monitor/azure/monitor/operations/metrics_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'MetricsOperations operations.
 
@@ -42,25 +42,28 @@ items:
     remote:
       branch: master
       path: azure-monitor/azure/monitor/operations/metrics_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 38
-  summary: "Lists the metric values for a resource. The $filter is used to reduce\n\
-    the set of metric data returned. Some common properties for this\nexpression will\
-    \ be: name.value, aggregationType, startTime, endTime,\ntimeGrain. The filter\
-    \ expression uses these properties with comparison\noperators (eg. eq, gt, lt)\
-    \ and multiple expressions can be combined\nwith parentheses and 'and/or' operators.\
-    \ Some example filter\nexpressions are: - $filter=(name.value eq 'RunsSucceeded')\
-    \ and\naggregationType eq 'Total' and startTime eq 2016-02-20 and endTime eq\n\
-    2016-02-21 and timeGrain eq duration'PT1M', - $filter=(name.value eq\n'RunsSucceeded')\
-    \ and (aggregationType eq 'Total' or aggregationType eq\n'Average') and startTime\
-    \ eq 2016-02-20 and endTime eq 2016-02-21 and\ntimeGrain eq duration'PT1H', -\
+  summary: "**Lists the metric values for a resource**.<br>The **$filter** is used\n\
+    to reduce the set of metric data returned. Some common properties for\nthis expression\
+    \ will be: name.value, aggregationType, startTime,\nendTime, timeGrain. The filter\
+    \ expression uses these properties with\ncomparison operators (eg. eq, gt, lt)\
+    \ and multiple expressions can be\ncombined with parentheses and 'and/or' operators.<br>Some\
+    \ example\nfilter expressions are:<br>- $filter=(name.value eq 'RunsSucceeded')\n\
+    and aggregationType eq 'Total' and startTime eq 2016-02-20 and endTime\neq 2016-02-21\
+    \ and timeGrain eq duration'PT1M',<br>- $filter=(name.value\neq 'RunsSucceeded')\
+    \ and (aggregationType eq 'Total' or aggregationType\neq 'Average') and startTime\
+    \ eq 2016-02-20 and endTime eq 2016-02-21 and\ntimeGrain eq duration'PT1H',<br>-\
     \ $filter=(name.value eq\n'ActionsCompleted' or name.value eq 'RunsSucceeded')\
     \ and\n(aggregationType eq 'Total' or aggregationType eq 'Average') and\nstartTime\
-    \ eq 2016-02-20 and endTime eq 2016-02-21 and timeGrain eq\nduration'PT1M'.\n\n\
-    :param resource_uri: The identifier of the resource.\n:type resource_uri: str\n\
-    :param filter: Reduces the set of data collected. The syntax allowed\n depends\
-    \ on the operation. See the operation's description for details.\n:type filter:\
-    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    \ eq 2016-02-20 and endTime eq 2016-02-21 and timeGrain eq\nduration'PT1M'.<br><br>\
+    \ >**NOTE**: When a metrics query comes in with\nmultiple metrics, but with no\
+    \ aggregation types defined, the service\nwill pick the Primary aggregation type\
+    \ of the first metrics to be used\nas the default aggregation type for all the\
+    \ metrics.\n\n:param resource_uri: The identifier of the resource.\n:type resource_uri:\
+    \ str\n:param filter: Reduces the set of data collected. The syntax allowed\n\
+    \ depends on the operation. See the operation's description for details.\n:type\
+    \ filter: str\n:param dict custom_headers: headers that will be added to the request\n\
     :param bool raw: returns the direct response alongside the\n deserialized response\n\
     :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
     :rtype: :class:`MetricPaged <azure.monitor.models.MetricPaged>`\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"

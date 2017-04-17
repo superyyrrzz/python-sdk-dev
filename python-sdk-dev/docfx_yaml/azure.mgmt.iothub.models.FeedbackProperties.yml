@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-iothub/azure/mgmt/iothub/models/feedback_properties.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "The properties of the feedback queue for cloud-to-device messages.\n\n\
     :param lock_duration_as_iso8601: The lock duration for the feedback queue.\n See:\n\

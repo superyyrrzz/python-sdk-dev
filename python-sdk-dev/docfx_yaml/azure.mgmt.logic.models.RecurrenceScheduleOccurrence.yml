@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/recurrence_schedule_occurrence.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "RecurrenceScheduleOccurrence.\n\n:param day: The day of the week. Possible\
     \ values include: 'Sunday',\n 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday',\

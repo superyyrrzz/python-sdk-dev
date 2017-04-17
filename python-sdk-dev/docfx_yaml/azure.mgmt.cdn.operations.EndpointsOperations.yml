@@ -25,7 +25,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'EndpointsOperations operations.
 
@@ -50,7 +50,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 172
   summary: "Creates a new CDN endpoint with the specified endpoint name under the\n\
     specified subscription, resource group and profile.\n\n:param resource_group_name:\
@@ -78,7 +78,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 376
   summary: "Deletes an existing CDN endpoint with the specified endpoint name under\n\
     the specified subscription, resource group and profile.\n\n:param resource_group_name:\
@@ -104,7 +104,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 105
   summary: "Gets an existing CDN endpoint with the specified endpoint name under\n\
     the specified subscription, resource group and profile.\n\n:param resource_group_name:\
@@ -130,7 +130,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 36
   summary: "Lists existing CDN endpoints.\n\n:param resource_group_name: Name of the\
     \ Resource group within the\n Azure subscription.\n:type resource_group_name:\
@@ -153,7 +153,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 898
   summary: "Checks the quota and usage of geo filters and custom domains under the\n\
     given endpoint.\n\n:param resource_group_name: Name of the Resource group within\
@@ -178,7 +178,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 730
   summary: "Pre-loads a content to CDN. Available for Verizon Profiles.\n\n:param\
     \ resource_group_name: Name of the Resource group within the\n Azure subscription.\n\
@@ -205,7 +205,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 639
   summary: "Removes a content from CDN.\n\n:param resource_group_name: Name of the\
     \ Resource group within the\n Azure subscription.\n:type resource_group_name:\
@@ -232,7 +232,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 459
   summary: "Starts an existing CDN endpoint that is on a stopped state.\n\n:param\
     \ resource_group_name: Name of the Resource group within the\n Azure subscription.\n\
@@ -258,7 +258,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 549
   summary: "Stops an existing running CDN endpoint.\n\n:param resource_group_name:\
     \ Name of the Resource group within the\n Azure subscription.\n:type resource_group_name:\
@@ -284,7 +284,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 273
   summary: "Updates an existing CDN endpoint with the specified endpoint name under\n\
     the specified subscription, resource group and profile. Only tags and\nOrigin\
@@ -315,7 +315,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/operations/endpoints_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 821
   summary: "Validates the custom domain mapping to ensure it maps to the correct\n\
     CDN endpoint in DNS.\n\n:param resource_group_name: Name of the Resource group\

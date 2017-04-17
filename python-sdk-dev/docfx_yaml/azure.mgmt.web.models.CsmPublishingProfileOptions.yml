@@ -15,10 +15,11 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/csm_publishing_profile_options.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Publishing options for requested profile.\n\n:param format: Name of the\
-    \ format. Valid values are:\n FileZilla3\n WebDeploy -- default\n Ftp\n:type format:\
-    \ str"
+    \ format. Valid values are:\n FileZilla3\n WebDeploy -- default\n Ftp. Possible\
+    \ values include: 'FileZilla3', 'WebDeploy', 'Ftp'\n:type format: str or :class:`PublishingProfileFormat\n\
+    \ <azure.mgmt.web.models.PublishingProfileFormat>`"
   type: Class
   uid: azure.mgmt.web.models.CsmPublishingProfileOptions

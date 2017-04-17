@@ -15,16 +15,16 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/virtual_directory.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: 'VirtualDirectory.
+  summary: 'Directory for virtual application.
 
 
-    :param virtual_path:
+    :param virtual_path: Path to virtual application.
 
     :type virtual_path: str
 
-    :param physical_path:
+    :param physical_path: Physical path.
 
     :type physical_path: str'
   type: Class

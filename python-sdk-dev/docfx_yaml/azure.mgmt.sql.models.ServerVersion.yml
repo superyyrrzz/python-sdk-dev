@@ -15,8 +15,8 @@ items:
     remote:
       branch: master
       path: azure-mgmt-sql/azure/mgmt/sql/models/sql_management_client_enums.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
-    startLine: 133
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
+    startLine: 154
   summary: An enumeration.
   type: Class
   uid: azure.mgmt.sql.models.ServerVersion

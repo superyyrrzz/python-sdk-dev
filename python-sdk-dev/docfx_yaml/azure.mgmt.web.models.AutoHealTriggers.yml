@@ -15,15 +15,14 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/auto_heal_triggers.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "AutoHealTriggers - describes the triggers for auto-heal.\n\n:param requests:\
-    \ Requests - Defines a rule based on total requests\n:type requests: :class:`RequestsBasedTrigger\n\
-    \ <azure.mgmt.web.models.RequestsBasedTrigger>`\n:param private_bytes_in_kb: PrivateBytesInKB\
-    \ - Defines a rule based on\n private bytes\n:type private_bytes_in_kb: int\n\
-    :param status_codes: StatusCodes - Defines a rule based on status codes\n:type\
-    \ status_codes: list of :class:`StatusCodesBasedTrigger\n <azure.mgmt.web.models.StatusCodesBasedTrigger>`\n\
-    :param slow_requests: SlowRequests - Defines a rule based on request\n execution\
-    \ time\n:type slow_requests: :class:`SlowRequestsBasedTrigger\n <azure.mgmt.web.models.SlowRequestsBasedTrigger>`"
+  summary: "Triggers for auto-heal.\n\n:param requests: A rule based on total requests.\n\
+    :type requests: :class:`RequestsBasedTrigger\n <azure.mgmt.web.models.RequestsBasedTrigger>`\n\
+    :param private_bytes_in_kb: A rule based on private bytes.\n:type private_bytes_in_kb:\
+    \ int\n:param status_codes: A rule based on status codes.\n:type status_codes:\
+    \ list of :class:`StatusCodesBasedTrigger\n <azure.mgmt.web.models.StatusCodesBasedTrigger>`\n\
+    :param slow_requests: A rule based on request execution time.\n:type slow_requests:\
+    \ :class:`SlowRequestsBasedTrigger\n <azure.mgmt.web.models.SlowRequestsBasedTrigger>`"
   type: Class
   uid: azure.mgmt.web.models.AutoHealTriggers

@@ -15,32 +15,29 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/ramp_up_rule.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Routing rules for ramp up testing. This rule allows to redirect static\n\
     traffic % to a slot or to gradually change routing % based on performance.\n\n\
     :param action_host_name: Hostname of a slot to which the traffic will be\n redirected\
-    \ if decided to. E.g. mysite-stage.azurewebsites.net\n:type action_host_name:\
+    \ if decided to. E.g. myapp-stage.azurewebsites.net.\n:type action_host_name:\
     \ str\n:param reroute_percentage: Percentage of the traffic which will be\n redirected\
-    \ to\n {Microsoft.Web.Hosting.Administration.RampUpRule.ActionHostName}\n:type\
-    \ reroute_percentage: float\n:param change_step: [Optional] In auto ramp up scenario\
-    \ this is the step\n to to add/remove from\n {Microsoft.Web.Hosting.Administration.RampUpRule.ReroutePercentage}\n\
-    \ until it reaches\n {Microsoft.Web.Hosting.Administration.RampUpRule.MinReroutePercentage}\n\
-    \ or\n {Microsoft.Web.Hosting.Administration.RampUpRule.MaxReroutePercentage}.\n\
-    \ Site metrics are checked every N minutes specificed in\n {Microsoft.Web.Hosting.Administration.RampUpRule.ChangeIntervalInMinutes}.\n\
-    \ Custom decision algorithm can be provided in TiPCallback site\n extension which\
-    \ Url can be specified in\n {Microsoft.Web.Hosting.Administration.RampUpRule.ChangeDecisionCallbackUrl}\n\
-    :type change_step: float\n:param change_interval_in_minutes: [Optional] Specifies\
-    \ interval in\n mimuntes to reevaluate ReroutePercentage\n:type change_interval_in_minutes:\
-    \ int\n:param min_reroute_percentage: [Optional] Specifies lower boundary above\n\
-    \ which ReroutePercentage will stay.\n:type min_reroute_percentage: float\n:param\
-    \ max_reroute_percentage: [Optional] Specifies upper boundary below\n which ReroutePercentage\
-    \ will stay.\n:type max_reroute_percentage: float\n:param change_decision_callback_url:\
-    \ Custom decision algorithm can be\n provided in TiPCallback site extension which\
-    \ Url can be specified. See\n TiPCallback site extension for the scaffold and\
-    \ contracts.\n https://www.siteextensions.net/packages/TiPCallback/\n:type change_decision_callback_url:\
-    \ str\n:param name: Name of the routing rule. The recommended name would be to\n\
-    \ point to the slot which will receive the traffic in the experiment.\n:type name:\
-    \ str"
+    \ to <code>ActionHostName</code>.\n:type reroute_percentage: float\n:param change_step:\
+    \ In auto ramp up scenario this is the step to to\n add/remove from <code>ReroutePercentage</code>\
+    \ until it reaches\n <code>MinReroutePercentage</code> or <code>MaxReroutePercentage</code>.\n\
+    \ Site metrics are checked every N minutes specificed in\n <code>ChangeIntervalInMinutes</code>.\n\
+    \ Custom decision algorithm can be provided in TiPCallback site extension\n which\
+    \ URL can be specified in <code>ChangeDecisionCallbackUrl</code>.\n:type change_step:\
+    \ float\n:param change_interval_in_minutes: Specifies interval in mimuntes to\n\
+    \ reevaluate ReroutePercentage.\n:type change_interval_in_minutes: int\n:param\
+    \ min_reroute_percentage: Specifies lower boundary above which\n ReroutePercentage\
+    \ will stay.\n:type min_reroute_percentage: float\n:param max_reroute_percentage:\
+    \ Specifies upper boundary below which\n ReroutePercentage will stay.\n:type max_reroute_percentage:\
+    \ float\n:param change_decision_callback_url: Custom decision algorithm can be\n\
+    \ provided in TiPCallback site extension which URL can be specified. See\n TiPCallback\
+    \ site extension for the scaffold and contracts.\n https://www.siteextensions.net/packages/TiPCallback/\n\
+    :type change_decision_callback_url: str\n:param name: Name of the routing rule.\
+    \ The recommended name would be to\n point to the slot which will receive the\
+    \ traffic in the experiment.\n:type name: str"
   type: Class
   uid: azure.mgmt.web.models.RampUpRule

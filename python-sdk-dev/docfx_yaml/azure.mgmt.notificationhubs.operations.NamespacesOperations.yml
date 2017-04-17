@@ -27,7 +27,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/namespaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 20
   summary: 'NamespacesOperations operations.
 
@@ -52,7 +52,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/namespaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 37
   summary: "Checks the availability of the given service namespace across all\nAzure\
     \ subscriptions. This is useful because the domain name is\ncreated based on the\
@@ -76,7 +76,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/namespaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 101
   summary: "Creates/Updates a service namespace. Once created, this namespace's\n\
     resource manifest is immutable. This operation is idempotent.\n\n:param resource_group_name:\
@@ -102,7 +102,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/namespaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 381
   summary: "Creates an authorization rule for a namespace.\n\n:param resource_group_name:\
     \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
@@ -128,7 +128,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/namespaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 243
   summary: "Deletes an existing namespace. This operation also removes all\nassociated\
     \ notificationHubs under the namespace.\n\n:param resource_group_name: The name\
@@ -151,7 +151,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/namespaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 453
   summary: "Deletes a namespace authorization rule.\n\n:param resource_group_name:\
     \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
@@ -174,7 +174,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/namespaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 320
   summary: "Returns the description for the specified namespace.\n\n:param resource_group_name:\
     \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
@@ -197,7 +197,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/namespaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 509
   summary: "Gets an authorization rule for a namespace by name.\n\n:param resource_group_name:\
     \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
@@ -221,7 +221,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/namespaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 573
   summary: "Lists the available namespaces within a resourceGroup.\n\n:param resource_group_name:\
     \ The name of the resource group. If\n resourceGroupName value is null the method\
@@ -243,7 +243,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/namespaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 640
   summary: "Lists all the available namespaces within the subscription\nirrespective\
     \ of the resourceGroups.\n\n:param dict custom_headers: headers that will be added\
@@ -264,7 +264,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/namespaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 703
   summary: "Gets the authorization rules for a namespace.\n\n:param resource_group_name:\
     \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
@@ -286,7 +286,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/namespaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 771
   summary: "Gets the Primary and Secondary ConnectionStrings to the namespace .\n\n\
     :param resource_group_name: The name of the resource group.\n:type resource_group_name:\
@@ -311,7 +311,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/namespaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 172
   summary: "Patches the existing namespace.\n\n:param resource_group_name: The name\
     \ of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
@@ -336,7 +336,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/namespaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 836
   summary: "Regenerates the Primary/Secondary Keys to the Namespace Authorization\n\
     Rule.\n\n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\

@@ -28,7 +28,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 20
   summary: 'VirtualMachineScaleSetsOperations operations.
 
@@ -55,7 +55,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 39
   summary: "Allows you to create or update a virtual machine scale set by\nproviding\
     \ parameters or a path to pre-configured parameter file.\n\n:param resource_group_name:\
@@ -81,7 +81,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 135
   summary: "Allows you to deallocate virtual machines in a virtual machine scale\n\
     set. Shuts down the virtual machines and releases the compute\nresources. You\
@@ -108,7 +108,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 227
   summary: "Allows you to delete a virtual machine scale set.\n\n:param resource_group_name:\
     \ The name of the resource group.\n:type resource_group_name: str\n:param vm_scale_set_name:\
@@ -131,7 +131,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 364
   summary: "Allows you to delete virtual machines in a virtual machine scale set.\n\
     \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
@@ -155,7 +155,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 303
   summary: "Display information about a virtual machine scale set.\n\n:param resource_group_name:\
     \ The name of the resource group.\n:type resource_group_name: str\n:param vm_scale_set_name:\
@@ -178,7 +178,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 448
   summary: "Displays status of a virtual machine scale set instance.\n\n:param resource_group_name:\
     \ The name of the resource group.\n:type resource_group_name: str\n:param vm_scale_set_name:\
@@ -201,7 +201,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 509
   summary: "Lists all virtual machine scale sets under a resource group.\n\n:param\
     \ resource_group_name: The name of the resource group.\n:type resource_group_name:\
@@ -222,7 +222,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 574
   summary: "Lists all Virtual Machine Scale Sets in the subscription. Use nextLink\n\
     property in the response to get the next page of Virtual Machine\nScale Sets.\
@@ -244,7 +244,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 639
   summary: "Displays available skus for your virtual machine scale set including\n\
     the minimum and maximum vm instances allowed for a particular sku.\n\n:param resource_group_name:\
@@ -267,7 +267,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 708
   summary: "Allows you to power off (stop) virtual machines in a virtual machine\n\
     scale set. Note that resources are still attached and you are getting\ncharged\
@@ -293,7 +293,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1062
   summary: "Allows you to re-image(update the version of the installed operating\n\
     system) virtual machines in a virtual machine scale set.\n\n:param resource_group_name:\
@@ -317,7 +317,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 799
   summary: "Allows you to restart virtual machines in a virtual machine scale set.\n\
     \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
@@ -341,7 +341,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 888
   summary: "Allows you to start virtual machines in a virtual machine scale set.\n\
     \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
@@ -365,7 +365,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/operations/virtual_machine_scale_sets_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 977
   summary: "Allows you to manually upgrade virtual machines in a virtual machine\n\
     scale set.\n\n:param resource_group_name: The name of the resource group.\n:type\

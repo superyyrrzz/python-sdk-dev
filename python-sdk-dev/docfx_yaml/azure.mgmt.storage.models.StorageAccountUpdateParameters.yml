@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/storage/models/storage_account_update_parameters.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "The parameters to provide for the account.\n\n:param sku: Gets or sets\
     \ the sku type. Note that sku cannot be updated to\n StandardZRS or ProvisionedLRS,\

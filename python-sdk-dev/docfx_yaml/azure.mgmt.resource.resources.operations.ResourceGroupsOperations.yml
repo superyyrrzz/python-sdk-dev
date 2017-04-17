@@ -22,7 +22,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resource_groups_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 20
   summary: 'ResourceGroupsOperations operations.
 
@@ -47,7 +47,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resource_groups_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 116
   summary: "Checks whether resource group exists.\n\n:param resource_group_name: The\
     \ name of the resource group to check.\n The name is case insensitive.\n:type\
@@ -69,7 +69,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resource_groups_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 169
   summary: "Create a resource group.\n\n:param resource_group_name: The name of the\
     \ resource group to be\n created or updated.\n:type resource_group_name: str\n\
@@ -93,7 +93,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resource_groups_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 238
   summary: "Delete resource group.\n\n:param resource_group_name: The name of the\
     \ resource group to be\n deleted. The name is case insensitive.\n:type resource_group_name:\
@@ -115,7 +115,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resource_groups_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 441
   summary: "Captures the specified resource group as a template.\n\n:param resource_group_name:\
     \ The name of the resource group to be\n created or updated.\n:type resource_group_name:\
@@ -142,7 +142,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resource_groups_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 312
   summary: "Get a resource group.\n\n:param resource_group_name: The name of the resource\
     \ group to get.\n The name is case insensitive.\n:type resource_group_name: str\n\
@@ -164,7 +164,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resource_groups_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 514
   summary: "Gets a collection of resource groups.\n\n:param filter: The filter to\
     \ apply on the operation.\n:type filter: str\n:param top: Query parameters. If\
@@ -186,7 +186,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resource_groups_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 37
   summary: "Get all of the resources under a subscription.\n\n:param resource_group_name:\
     \ Query parameters. If null is passed\n returns all resource groups.\n:type resource_group_name:\
@@ -210,7 +210,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/operations/resource_groups_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 371
   summary: "Resource groups can be updated through a simple PATCH operation to a\n\
     group address. The format of the request is the same as that for\ncreating a resource\

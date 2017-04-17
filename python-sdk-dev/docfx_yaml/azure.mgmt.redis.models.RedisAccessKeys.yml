@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/redis/models/redis_access_keys.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Redis cache access keys.\n\n:param primary_key: The current primary key\
     \ that clients can use to\n authenticate with redis cache.\n:type primary_key:\

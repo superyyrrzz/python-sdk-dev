@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-authorization/azure/mgmt/authorization/models/resource_type.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Resource Type.\n\n:param name: The resource type name.\n:type name: str\n\
     :param display_name: The resource type display name.\n:type display_name: str\n\

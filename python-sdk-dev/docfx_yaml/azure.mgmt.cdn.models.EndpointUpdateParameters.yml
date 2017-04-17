@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/models/endpoint_update_parameters.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Properties required to create a new endpoint.\n\n:param tags: Endpoint\
     \ tags.\n:type tags: dict\n:param origin_host_header: The host header CDN sends\

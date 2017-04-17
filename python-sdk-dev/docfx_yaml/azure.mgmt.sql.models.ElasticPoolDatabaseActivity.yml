@@ -16,31 +16,31 @@ items:
     remote:
       branch: master
       path: azure-mgmt-sql/azure/mgmt/sql/models/elastic_pool_database_activity.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "Represents the activity on an Azure SQL Elastic Pool.\n\nVariables are\
-    \ only populated by the server, and will be ignored when\nsending a request.\n\
-    \n:ivar name: Resource name\n:vartype name: str\n:ivar id: Resource ID\n:vartype\
-    \ id: str\n:ivar type: Resource type\n:vartype type: str\n:param location: Resource\
-    \ location\n:type location: str\n:param tags: Resource tags\n:type tags: dict\n\
-    :ivar database_name: The database name.\n:vartype database_name: str\n:ivar end_time:\
-    \ The time the operation finished (ISO8601 format).\n:vartype end_time: datetime\n\
-    :ivar error_code: The error code if available.\n:vartype error_code: int\n:ivar\
-    \ error_message: The error message if available.\n:vartype error_message: str\n\
-    :ivar error_severity: The error severity if available.\n:vartype error_severity:\
-    \ int\n:ivar operation: The operation name.\n:vartype operation: str\n:ivar operation_id:\
-    \ The unique operation ID.\n:vartype operation_id: str\n:ivar percent_complete:\
-    \ The percentage complete if available.\n:vartype percent_complete: int\n:ivar\
-    \ requested_elastic_pool_name: The name for the Elastic Pool the\n database is\
-    \ moving into if available.\n:vartype requested_elastic_pool_name: str\n:ivar\
-    \ current_elastic_pool_name: The name of the current Elastic Pool the\n database\
-    \ is in if available.\n:vartype current_elastic_pool_name: str\n:ivar current_service_objective:\
-    \ The name of the current service objective\n if available.\n:vartype current_service_objective:\
+  summary: "Represents the activity on an elastic pool.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar name: Resource\
+    \ name\n:vartype name: str\n:ivar id: Resource ID\n:vartype id: str\n:ivar type:\
+    \ Resource type\n:vartype type: str\n:param location: Resource location\n:type\
+    \ location: str\n:param tags: Resource tags\n:type tags: dict\n:ivar database_name:\
+    \ The database name.\n:vartype database_name: str\n:ivar end_time: The time the\
+    \ operation finished (ISO8601 format).\n:vartype end_time: datetime\n:ivar error_code:\
+    \ The error code if available.\n:vartype error_code: int\n:ivar error_message:\
+    \ The error message if available.\n:vartype error_message: str\n:ivar error_severity:\
+    \ The error severity if available.\n:vartype error_severity: int\n:ivar operation:\
+    \ The operation name.\n:vartype operation: str\n:ivar operation_id: The unique\
+    \ operation ID.\n:vartype operation_id: str\n:ivar percent_complete: The percentage\
+    \ complete if available.\n:vartype percent_complete: int\n:ivar requested_elastic_pool_name:\
+    \ The name for the elastic pool the\n database is moving into if available.\n\
+    :vartype requested_elastic_pool_name: str\n:ivar current_elastic_pool_name: The\
+    \ name of the current elastic pool the\n database is in if available.\n:vartype\
+    \ current_elastic_pool_name: str\n:ivar current_service_objective: The name of\
+    \ the current service objective\n if available.\n:vartype current_service_objective:\
     \ str\n:ivar requested_service_objective: The name of the requested service\n\
     \ objective if available.\n:vartype requested_service_objective: str\n:ivar server_name:\
-    \ The name of the Azure SQL server the Elastic Pool is\n in.\n:vartype server_name:\
-    \ str\n:ivar start_time: The time the operation started (ISO8601 format).\n:vartype\
-    \ start_time: datetime\n:ivar state: The current state of the operation.\n:vartype\
-    \ state: str"
+    \ The name of the server the elastic pool is in.\n:vartype server_name: str\n\
+    :ivar start_time: The time the operation started (ISO8601 format).\n:vartype start_time:\
+    \ datetime\n:ivar state: The current state of the operation.\n:vartype state:\
+    \ str"
   type: Class
   uid: azure.mgmt.sql.models.ElasticPoolDatabaseActivity

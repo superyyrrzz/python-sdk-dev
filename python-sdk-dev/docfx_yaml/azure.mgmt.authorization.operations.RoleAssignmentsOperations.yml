@@ -24,7 +24,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-authorization/azure/mgmt/authorization/operations/role_assignments_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'RoleAssignmentsOperations operations.
 
@@ -49,7 +49,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-authorization/azure/mgmt/authorization/operations/role_assignments_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 258
   summary: "Creates a role assignment.\n\n:param scope: The scope of the role assignment\
     \ to create. The scope\n can be any REST resource instance. For example, use\n\
@@ -77,7 +77,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-authorization/azure/mgmt/authorization/operations/role_assignments_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 454
   summary: "Creates a role assignment by ID.\n\n:param role_assignment_id: The ID\
     \ of the role assignment to create.\n:type role_assignment_id: str\n:param properties:\
@@ -101,7 +101,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-authorization/azure/mgmt/authorization/operations/role_assignments_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 196
   summary: "Deletes a role assignment.\n\n:param scope: The scope of the role assignment\
     \ to delete.\n:type scope: str\n:param role_assignment_name: The name of the role\
@@ -124,7 +124,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-authorization/azure/mgmt/authorization/operations/role_assignments_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 396
   summary: "Deletes a role assignment.\n\n:param role_assignment_id: The ID of the\
     \ role assignment to delete.\n:type role_assignment_id: str\n:param dict custom_headers:\
@@ -146,7 +146,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-authorization/azure/mgmt/authorization/operations/role_assignments_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 335
   summary: "Get the specified role assignment.\n\n:param scope: The scope of the role\
     \ assignment.\n:type scope: str\n:param role_assignment_name: The name of the\
@@ -169,7 +169,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-authorization/azure/mgmt/authorization/operations/role_assignments_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 521
   summary: "Gets a role assignment by ID.\n\n:param role_assignment_id: The ID of\
     \ the role assignment to get.\n:type role_assignment_id: str\n:param dict custom_headers:\
@@ -191,7 +191,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-authorization/azure/mgmt/authorization/operations/role_assignments_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 579
   summary: "Gets all role assignments for the subscription.\n\n:param filter: The\
     \ filter to apply on the operation. Use\n $filter=atScope() to return all role\
@@ -215,7 +215,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-authorization/azure/mgmt/authorization/operations/role_assignments_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 36
   summary: "Gets role assignments for a resource.\n\n:param resource_group_name: The\
     \ name of the resource group.\n:type resource_group_name: str\n:param resource_provider_namespace:\
@@ -245,7 +245,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-authorization/azure/mgmt/authorization/operations/role_assignments_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 123
   summary: "Gets role assignments for a resource group.\n\n:param resource_group_name:\
     \ The name of the resource group.\n:type resource_group_name: str\n:param filter:\
@@ -270,7 +270,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-authorization/azure/mgmt/authorization/operations/role_assignments_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 649
   summary: "Gets role assignments for a scope.\n\n:param scope: The scope of the role\
     \ assignments.\n:type scope: str\n:param filter: The filter to apply on the operation.\

@@ -27,18 +27,8 @@ items:
     remote:
       branch: master
       path: azure-mgmt-search/azure/mgmt/search/models/__init__.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 0
   summary: ''
   type: Namespace
   uid: azure.mgmt.search.models
-- _type: class
-  children: []
-  fullName: azure.mgmt.search.models
-  langs:
-  - python
-  module: azure.mgmt.search.models
-  name: models.Global
-  summary: Proxy object to hold module level functions
-  type: Class
-  uid: azure.mgmt.search.models.Global

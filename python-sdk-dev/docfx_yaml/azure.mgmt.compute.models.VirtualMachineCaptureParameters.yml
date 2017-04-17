@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_capture_parameters.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Capture Virtual Machine parameters.\n\n:param vhd_prefix: the captured\
     \ VirtualHardDisk's name prefix.\n:type vhd_prefix: str\n:param destination_container_name:\

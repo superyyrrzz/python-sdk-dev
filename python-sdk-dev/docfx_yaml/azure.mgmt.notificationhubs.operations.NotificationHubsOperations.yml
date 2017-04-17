@@ -26,7 +26,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'NotificationHubsOperations operations.
 
@@ -51,7 +51,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 36
   summary: "Checks the availability of the given notificationHub in a namespace.\n\
     \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
@@ -76,7 +76,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 104
   summary: "Creates/Update a NotificationHub in a namespace.\n\n:param resource_group_name:\
     \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
@@ -102,7 +102,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 298
   summary: "Creates/Updates an authorization rule for a NotificationHub.\n\n:param\
     \ resource_group_name: The name of the resource group.\n:type resource_group_name:\
@@ -129,7 +129,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 178
   summary: "Deletes a notification hub associated with a namespace.\n\n:param resource_group_name:\
     \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
@@ -152,7 +152,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 373
   summary: "Deletes a notificationHub authorization rule.\n\n:param resource_group_name:\
     \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
@@ -176,7 +176,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 234
   summary: "Lists the notification hubs associated with a namespace.\n\n:param resource_group_name:\
     \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
@@ -200,7 +200,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 432
   summary: "Gets an authorization rule for a NotificationHub by name.\n\n:param resource_group_name:\
     \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
@@ -225,7 +225,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 786
   summary: "Lists the PNS Credentials associated with a notification hub .\n\n:param\
     \ resource_group_name: The name of the resource group.\n:type resource_group_name:\
@@ -249,7 +249,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 499
   summary: "Lists the notification hubs associated with a namespace.\n\n:param resource_group_name:\
     \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
@@ -271,7 +271,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 567
   summary: "Gets the authorization rules for a NotificationHub.\n\n:param resource_group_name:\
     \ The name of the resource group.\n:type resource_group_name: str\n:param namespace_name:\
@@ -294,7 +294,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 638
   summary: "Gets the Primary and Secondary ConnectionStrings to the\nNotificationHub\
     \ .\n\n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
@@ -320,7 +320,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/operations/notification_hubs_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 707
   summary: "Regenerates the Primary/Secondary Keys to the NotificationHub\nAuthorization\
     \ Rule.\n\n:param resource_group_name: The name of the resource group.\n:type\

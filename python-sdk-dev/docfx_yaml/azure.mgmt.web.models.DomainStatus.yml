@@ -15,8 +15,8 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/web_site_management_client_enums.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
-    startLine: 71
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
+    startLine: 214
   summary: An enumeration.
   type: Class
   uid: azure.mgmt.web.models.DomainStatus

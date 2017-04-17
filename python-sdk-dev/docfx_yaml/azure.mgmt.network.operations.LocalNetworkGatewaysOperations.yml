@@ -18,7 +18,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/local_network_gateways_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 20
   summary: 'LocalNetworkGatewaysOperations operations.
 
@@ -43,7 +43,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/local_network_gateways_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 37
   summary: "The Put LocalNetworkGateway operation creates/updates a local network\n\
     gateway in the specified resource group through Network resource\nprovider.\n\n\
@@ -70,7 +70,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/local_network_gateways_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 197
   summary: "The Delete LocalNetworkGateway operation deletes the specified local\n\
     network Gateway through Network resource provider.\n\n:param resource_group_name:\
@@ -94,7 +94,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/local_network_gateways_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 134
   summary: "The Get LocalNetworkGateway operation retrieves information about the\n\
     specified local network gateway through Network resource provider.\n\n:param resource_group_name:\
@@ -118,7 +118,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/local_network_gateways_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 275
   summary: "The List LocalNetworkGateways operation retrieves all the local\nnetwork\
     \ gateways stored.\n\n:param resource_group_name: The name of the resource group.\n\

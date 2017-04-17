@@ -1,7 +1,18 @@
 api_name: []
 items:
 - _type: class
-  children: []
+  children:
+  - azure.mgmt.web.WebSiteManagementClient.check_name_availability
+  - azure.mgmt.web.WebSiteManagementClient.get_publishing_user
+  - azure.mgmt.web.WebSiteManagementClient.list_geo_regions
+  - azure.mgmt.web.WebSiteManagementClient.list_premier_add_on_offers
+  - azure.mgmt.web.WebSiteManagementClient.list_skus
+  - azure.mgmt.web.WebSiteManagementClient.list_source_controls
+  - azure.mgmt.web.WebSiteManagementClient.move
+  - azure.mgmt.web.WebSiteManagementClient.update_publishing_user
+  - azure.mgmt.web.WebSiteManagementClient.update_source_control
+  - azure.mgmt.web.WebSiteManagementClient.validate
+  - azure.mgmt.web.WebSiteManagementClient.validate_move
   class: azure.mgmt.web.WebSiteManagementClient
   fullName: azure.mgmt.web.WebSiteManagementClient
   inheritance:
@@ -14,43 +25,279 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/web_site_management_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
-    startLine: 90
-  summary: "Use these APIs to manage Azure Websites resources through the Azure Resource\
-    \ Manager. All task operations conform to the HTTP/1.1 protocol specification\
-    \ and each operation returns an x-ms-request-id header that can be used to obtain\
-    \ information about the request. You must make sure that requests made to these\
-    \ resources are secure. For more information, see https://msdn.microsoft.com/en-us/library/azure/dn790557.aspx.\n\
-    \n:ivar config: Configuration for client.\n:vartype config: WebSiteManagementClientConfiguration\n\
-    \n:ivar certificate_orders: CertificateOrders operations\n:vartype certificate_orders:\
-    \ .operations.CertificateOrdersOperations\n:ivar certificates: Certificates operations\n\
-    :vartype certificates: .operations.CertificatesOperations\n:ivar classic_mobile_services:\
-    \ ClassicMobileServices operations\n:vartype classic_mobile_services: .operations.ClassicMobileServicesOperations\n\
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
+    startLine: 67
+  summary: "Composite Swagger for WebSite Management Client\n\n:ivar config: Configuration\
+    \ for client.\n:vartype config: WebSiteManagementClientConfiguration\n\n:ivar\
+    \ app_service_certificate_orders: AppServiceCertificateOrders operations\n:vartype\
+    \ app_service_certificate_orders: .operations.AppServiceCertificateOrdersOperations\n\
+    :ivar app_service_environments: AppServiceEnvironments operations\n:vartype app_service_environments:\
+    \ .operations.AppServiceEnvironmentsOperations\n:ivar app_service_plans: AppServicePlans\
+    \ operations\n:vartype app_service_plans: .operations.AppServicePlansOperations\n\
+    :ivar certificates: Certificates operations\n:vartype certificates: .operations.CertificatesOperations\n\
     :ivar domains: Domains operations\n:vartype domains: .operations.DomainsOperations\n\
-    :ivar global_model: GlobalModel operations\n:vartype global_model: .operations.GlobalModelOperations\n\
-    :ivar global_certificate_order: GlobalCertificateOrder operations\n:vartype global_certificate_order:\
-    \ .operations.GlobalCertificateOrderOperations\n:ivar global_domain_registration:\
-    \ GlobalDomainRegistration operations\n:vartype global_domain_registration: .operations.GlobalDomainRegistrationOperations\n\
-    :ivar global_resource_groups: GlobalResourceGroups operations\n:vartype global_resource_groups:\
-    \ .operations.GlobalResourceGroupsOperations\n:ivar hosting_environments: HostingEnvironments\
-    \ operations\n:vartype hosting_environments: .operations.HostingEnvironmentsOperations\n\
-    :ivar managed_hosting_environments: ManagedHostingEnvironments operations\n:vartype\
-    \ managed_hosting_environments: .operations.ManagedHostingEnvironmentsOperations\n\
-    :ivar provider: Provider operations\n:vartype provider: .operations.ProviderOperations\n\
     :ivar recommendations: Recommendations operations\n:vartype recommendations: .operations.RecommendationsOperations\n\
-    :ivar server_farms: ServerFarms operations\n:vartype server_farms: .operations.ServerFarmsOperations\n\
-    :ivar sites: Sites operations\n:vartype sites: .operations.SitesOperations\n:ivar\
-    \ top_level_domains: TopLevelDomains operations\n:vartype top_level_domains: .operations.TopLevelDomainsOperations\n\
-    :ivar usage: Usage operations\n:vartype usage: .operations.UsageOperations\n\n\
-    :param credentials: Credentials needed for the client to connect to Azure.\n:type\
-    \ credentials: :mod:`A msrestazure Credentials\n object<msrestazure.azure_active_directory>`\n\
-    :param subscription_id: Subscription Id\n:type subscription_id: str\n:param api_version:\
-    \ API Version\n:type api_version: str\n:param accept_language: Gets or sets the\
-    \ preferred language for the\n response.\n:type accept_language: str\n:param long_running_operation_retry_timeout:\
-    \ Gets or sets the retry\n timeout in seconds for Long Running Operations. Default\
-    \ value is 30.\n:type long_running_operation_retry_timeout: int\n:param generate_client_request_id:\
-    \ When set to true a unique\n x-ms-client-request-id value is generated and included\
-    \ in each request.\n Default is true.\n:type generate_client_request_id: bool\n\
-    :param str base_url: Service URL\n:param str filepath: Existing config"
+    :ivar top_level_domains: TopLevelDomains operations\n:vartype top_level_domains:\
+    \ .operations.TopLevelDomainsOperations\n:ivar web_apps: WebApps operations\n\
+    :vartype web_apps: .operations.WebAppsOperations\n:ivar deleted_web_apps: DeletedWebApps\
+    \ operations\n:vartype deleted_web_apps: .operations.DeletedWebAppsOperations\n\
+    \n:param credentials: Credentials needed for the client to connect to Azure.\n\
+    :type credentials: :mod:`A msrestazure Credentials\n object<msrestazure.azure_active_directory>`\n\
+    :param subscription_id: Your Azure subscription ID. This is a\n GUID-formatted\
+    \ string (e.g. 00000000-0000-0000-0000-000000000000).\n:type subscription_id:\
+    \ str\n:param str base_url: Service URL"
   type: Class
   uid: azure.mgmt.web.WebSiteManagementClient
+- _type: method
+  class: azure.mgmt.web.WebSiteManagementClient
+  fullName: azure.mgmt.web.WebSiteManagementClient.check_name_availability
+  module: azure.mgmt.web
+  name: check_name_availability
+  source:
+    id: check_name_availability
+    path: azure-mgmt-web/azure/mgmt/web/web_site_management_client.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/web_site_management_client.py
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
+    startLine: 377
+  summary: "Check if a resource name is available.\n\nCheck if a resource name is\
+    \ available.\n\n:param name: Resource name to verify.\n:type name: str\n:param\
+    \ type: Resource type used for verification. Possible values\n include: 'Site',\
+    \ 'Slot', 'HostingEnvironment'\n:type type: str or :class:`CheckNameResourceTypes\n\
+    \ <azure.mgmt.web.models.CheckNameResourceTypes>`\n:param is_fqdn: Is fully qualified\
+    \ domain name.\n:type is_fqdn: bool\n:param dict custom_headers: headers that\
+    \ will be added to the request\n:param bool raw: returns the direct response alongside\
+    \ the\n deserialized response\n:param operation_config: :ref:`Operation configuration\n\
+    \ overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ResourceNameAvailability\n\
+    \ <azure.mgmt.web.models.ResourceNameAvailability>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.WebSiteManagementClient.check_name_availability
+- _type: method
+  class: azure.mgmt.web.WebSiteManagementClient
+  fullName: azure.mgmt.web.WebSiteManagementClient.get_publishing_user
+  module: azure.mgmt.web
+  name: get_publishing_user
+  source:
+    id: get_publishing_user
+    path: azure-mgmt-web/azure/mgmt/web/web_site_management_client.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/web_site_management_client.py
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
+    startLine: 130
+  summary: "Gets publishing user.\n\nGets publishing user.\n\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`User\
+    \ <azure.mgmt.web.models.User>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.WebSiteManagementClient.get_publishing_user
+- _type: method
+  class: azure.mgmt.web.WebSiteManagementClient
+  fullName: azure.mgmt.web.WebSiteManagementClient.list_geo_regions
+  module: azure.mgmt.web
+  name: list_geo_regions
+  source:
+    id: list_geo_regions
+    path: azure-mgmt-web/azure/mgmt/web/web_site_management_client.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/web_site_management_client.py
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
+    startLine: 451
+  summary: "Get a list of available geographical regions.\n\nGet a list of available\
+    \ geographical regions.\n\n:param sku: Name of SKU used to filter the regions.\
+    \ Possible values\n include: 'Free', 'Shared', 'Basic', 'Standard', 'Premium',\
+    \ 'Dynamic'\n:type sku: str or :class:`SkuName <azure.mgmt.web.models.SkuName>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`GeoRegionPaged <azure.mgmt.web.models.GeoRegionPaged>`\n:raises:\
+    \ :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.WebSiteManagementClient.list_geo_regions
+- _type: method
+  class: azure.mgmt.web.WebSiteManagementClient
+  fullName: azure.mgmt.web.WebSiteManagementClient.list_premier_add_on_offers
+  module: azure.mgmt.web
+  name: list_premier_add_on_offers
+  source:
+    id: list_premier_add_on_offers
+    path: azure-mgmt-web/azure/mgmt/web/web_site_management_client.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/web_site_management_client.py
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
+    startLine: 522
+  summary: "List all premier add-on offers.\n\nList all premier add-on offers.\n\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`PremierAddOnOfferPaged\n <azure.mgmt.web.models.PremierAddOnOfferPaged>`\n\
+    :raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.WebSiteManagementClient.list_premier_add_on_offers
+- _type: method
+  class: azure.mgmt.web.WebSiteManagementClient
+  fullName: azure.mgmt.web.WebSiteManagementClient.list_skus
+  module: azure.mgmt.web
+  name: list_skus
+  source:
+    id: list_skus
+    path: azure-mgmt-web/azure/mgmt/web/web_site_management_client.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/web_site_management_client.py
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
+    startLine: 589
+  summary: "List all SKUs.\n\nList all SKUs.\n\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`SkuInfos\
+    \ <azure.mgmt.web.models.SkuInfos>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.WebSiteManagementClient.list_skus
+- _type: method
+  class: azure.mgmt.web.WebSiteManagementClient
+  fullName: azure.mgmt.web.WebSiteManagementClient.list_source_controls
+  module: azure.mgmt.web
+  name: list_source_controls
+  source:
+    id: list_source_controls
+    path: azure-mgmt-web/azure/mgmt/web/web_site_management_client.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/web_site_management_client.py
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
+    startLine: 246
+  summary: "Gets the source controls available for Azure websites.\n\nGets the source\
+    \ controls available for Azure websites.\n\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`SourceControlPaged\n\
+    \ <azure.mgmt.web.models.SourceControlPaged>`\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.WebSiteManagementClient.list_source_controls
+- _type: method
+  class: azure.mgmt.web.WebSiteManagementClient
+  fullName: azure.mgmt.web.WebSiteManagementClient.move
+  module: azure.mgmt.web
+  name: move
+  source:
+    id: move
+    path: azure-mgmt-web/azure/mgmt/web/web_site_management_client.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/web_site_management_client.py
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
+    startLine: 648
+  summary: "Move resources between resource groups.\n\nMove resources between resource\
+    \ groups.\n\n:param resource_group_name: Name of the resource group to which the\n\
+    \ resource belongs.\n:type resource_group_name: str\n:param target_resource_group:\n\
+    :type target_resource_group: str\n:param resources:\n:type resources: list of\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.WebSiteManagementClient.move
+- _type: method
+  class: azure.mgmt.web.WebSiteManagementClient
+  fullName: azure.mgmt.web.WebSiteManagementClient.update_publishing_user
+  module: azure.mgmt.web
+  name: update_publishing_user
+  source:
+    id: update_publishing_user
+    path: azure-mgmt-web/azure/mgmt/web/web_site_management_client.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/web_site_management_client.py
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
+    startLine: 185
+  summary: "Updates publishing user.\n\nUpdates publishing user.\n\n:param user_details:\
+    \ Details of publishing user\n:type user_details: :class:`User <azure.mgmt.web.models.User>`\n\
+    :param dict custom_headers: headers that will be added to the request\n:param\
+    \ bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: :class:`User <azure.mgmt.web.models.User>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.WebSiteManagementClient.update_publishing_user
+- _type: method
+  class: azure.mgmt.web.WebSiteManagementClient
+  fullName: azure.mgmt.web.WebSiteManagementClient.update_source_control
+  module: azure.mgmt.web
+  name: update_source_control
+  source:
+    id: update_source_control
+    path: azure-mgmt-web/azure/mgmt/web/web_site_management_client.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/web_site_management_client.py
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
+    startLine: 309
+  summary: "Updates source control token.\n\nUpdates source control token.\n\n:param\
+    \ source_control_type: Type of source control\n:type source_control_type: str\n\
+    :param request_message: Source control token information\n:type request_message:\
+    \ :class:`SourceControl\n <azure.mgmt.web.models.SourceControl>`\n:param dict\
+    \ custom_headers: headers that will be added to the request\n:param bool raw:\
+    \ returns the direct response alongside the\n deserialized response\n:param operation_config:\
+    \ :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n:rtype:\
+    \ :class:`SourceControl <azure.mgmt.web.models.SourceControl>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.WebSiteManagementClient.update_source_control
+- _type: method
+  class: azure.mgmt.web.WebSiteManagementClient
+  fullName: azure.mgmt.web.WebSiteManagementClient.validate
+  module: azure.mgmt.web
+  name: validate
+  source:
+    id: validate
+    path: azure-mgmt-web/azure/mgmt/web/web_site_management_client.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/web_site_management_client.py
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
+    startLine: 714
+  summary: "Validate if a resource can be created.\n\nValidate if a resource can be\
+    \ created.\n\n:param resource_group_name: Name of the resource group to which\
+    \ the\n resource belongs.\n:type resource_group_name: str\n:param validate_request:\
+    \ Request with the resources to validate.\n:type validate_request: :class:`ValidateRequest\n\
+    \ <azure.mgmt.web.models.ValidateRequest>`\n:param dict custom_headers: headers\
+    \ that will be added to the request\n:param bool raw: returns the direct response\
+    \ alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`ValidateResponse\n\
+    \ <azure.mgmt.web.models.ValidateResponse>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.WebSiteManagementClient.validate
+- _type: method
+  class: azure.mgmt.web.WebSiteManagementClient
+  fullName: azure.mgmt.web.WebSiteManagementClient.validate_move
+  module: azure.mgmt.web
+  name: validate_move
+  source:
+    id: validate_move
+    path: azure-mgmt-web/azure/mgmt/web/web_site_management_client.py
+    remote:
+      branch: master
+      path: azure-mgmt-web/azure/mgmt/web/web_site_management_client.py
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
+    startLine: 785
+  summary: "Validate whether a resource can be moved.\n\nValidate whether a resource\
+    \ can be moved.\n\n:param resource_group_name: Name of the resource group to which\
+    \ the\n resource belongs.\n:type resource_group_name: str\n:param target_resource_group:\n\
+    :type target_resource_group: str\n:param resources:\n:type resources: list of\
+    \ str\n:param dict custom_headers: headers that will be added to the request\n\
+    :param bool raw: returns the direct response alongside the\n deserialized response\n\
+    :param operation_config: :ref:`Operation configuration\n overrides<msrest:optionsforoperations>`.\n\
+    :rtype: None\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.web.WebSiteManagementClient.validate_move

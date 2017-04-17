@@ -15,10 +15,10 @@ items:
     remote:
       branch: master
       path: azure-mgmt-monitor/azure/mgmt/monitor/models/recurrent_schedule.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "The scheduling constraints for when the profile begins.\n\n:param time_zone:\
-    \ the time zone for the hours of the profile. See examples\n of valid timezone\
+    \ the timezone for the hours of the profile. Some examples\n of valid timezones\
     \ are: Dateline Standard Time, UTC-11, Hawaiian Standard\n Time, Alaskan Standard\
     \ Time, Pacific Standard Time (Mexico), Pacific\n Standard Time, US Mountain Standard\
     \ Time, Mountain Standard Time (Mexico),\n Mountain Standard Time, Central America\

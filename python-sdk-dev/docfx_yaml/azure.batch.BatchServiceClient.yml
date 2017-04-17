@@ -14,7 +14,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/batch_service_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 76
   summary: "A client for issuing REST requests to the Azure Batch service.\n\n:ivar\
     \ config: Configuration for client.\n:vartype config: BatchServiceClientConfiguration\n\

@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/evaluate_policies_request.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Request body for evaluating a policy set.\n\n:param policies: Policies\
     \ to evaluate.\n:type policies: list of :class:`EvaluatePoliciesProperties\n <azure.mgmt.devtestlabs.models.EvaluatePoliciesProperties>`"

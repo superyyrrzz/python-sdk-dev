@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/job/models/job_resource.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "The Data Lake Analytics job resources.\n\n:param name: the name of the\
     \ resource.\n:type name: str\n:param resource_path: the path to the resource.\n\

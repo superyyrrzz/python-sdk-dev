@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-monitor/azure/monitor/operations/metric_definitions_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'MetricDefinitionsOperations operations.
 
@@ -42,7 +42,7 @@ items:
     remote:
       branch: master
       path: azure-monitor/azure/monitor/operations/metric_definitions_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 38
   summary: "Lists the metric definitions for the resource. The **$filter**\nparameter\
     \ is optional, and can be used to only retrieve certain metric\ndefinitions. For\

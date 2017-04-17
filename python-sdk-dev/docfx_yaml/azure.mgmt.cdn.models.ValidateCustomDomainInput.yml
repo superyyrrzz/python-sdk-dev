@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/models/validate_custom_domain_input.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Input of the custom domain to be validated for DNS mapping.\n\n:param\
     \ host_name: The host name of the custom domain. Must be a domain\n name.\n:type\

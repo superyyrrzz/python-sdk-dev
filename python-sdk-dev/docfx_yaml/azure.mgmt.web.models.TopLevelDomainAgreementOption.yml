@@ -15,10 +15,11 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/top_level_domain_agreement_option.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Options for retrieving the list of top level domain legal agreements.\n\
-    \n:param include_privacy: If true then the list of agreements will inclue\n agreements\
-    \ for domain privacy as well.\n:type include_privacy: bool"
+    \n:param include_privacy: If <code>true</code>, then the list of agreements\n\
+    \ will include agreements for domain privacy as well; otherwise,\n <code>false</code>.\n\
+    :type include_privacy: bool"
   type: Class
   uid: azure.mgmt.web.models.TopLevelDomainAgreementOption

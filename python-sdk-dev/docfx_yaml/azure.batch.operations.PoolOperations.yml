@@ -30,7 +30,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 18
   summary: 'PoolOperations operations.
 
@@ -55,7 +55,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 225
   summary: "Adds a pool to the specified account.\n\n:param pool: The pool to be added.\n\
     :type pool: :class:`PoolAddParameter\n <azure.batch.models.PoolAddParameter>`\n\
@@ -78,7 +78,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 403
   summary: "Deletes a pool from the specified account.\n\n:param pool_id: The id of\
     \ the pool to delete.\n:type pool_id: str\n:param pool_delete_options: Additional\
@@ -101,7 +101,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 818
   summary: "Disables automatic scaling for a pool.\n\n:param pool_id: The id of the\
     \ pool on which to disable automatic\n scaling.\n:type pool_id: str\n:param pool_disable_auto_scale_options:\
@@ -125,7 +125,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 899
   summary: "Enables automatic scaling for a pool.\n\n:param pool_id: The id of the\
     \ pool on which to enable automatic\n scaling.\n:type pool_id: str\n:param pool_enable_auto_scale_options:\
@@ -152,7 +152,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1011
   summary: "Gets the result of evaluating an automatic scaling formula on the pool.\n\
     \n:param pool_id: The id of the pool on which to evaluate the automatic\n scaling\
@@ -179,7 +179,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 498
   summary: "Gets basic properties of a pool.\n\n:param pool_id: The id of the pool\
     \ to get.\n:type pool_id: str\n:param pool_exists_options: Additional parameters\
@@ -202,7 +202,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 597
   summary: "Gets information about the specified pool.\n\n:param pool_id: The id of\
     \ the pool to get.\n:type pool_id: str\n:param pool_get_options: Additional parameters\
@@ -225,7 +225,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 138
   summary: "Gets lifetime summary statistics for all of the pools in the specified\n\
     account.\n\nStatistics are aggregated across all pools that have ever existed\
@@ -251,7 +251,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 304
   summary: "Lists all of the pools in the specified account.\n\n:param pool_list_options:\
     \ Additional parameters for the operation\n:type pool_list_options: :class:`PoolListOptions\n\
@@ -272,7 +272,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 35
   summary: "Lists the usage metrics, aggregated by pool across individual time\nintervals,\
     \ for the specified account.\n\n:param pool_list_pool_usage_metrics_options: Additional\
@@ -295,7 +295,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 713
   summary: "Updates the properties of a pool.\n\n:param pool_id: The id of the pool\
     \ to update.\n:type pool_id: str\n:param pool_patch_parameter: The parameters\
@@ -320,7 +320,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1513
   summary: "Removes compute nodes from the specified pool.\n\n:param pool_id: The\
     \ id of the pool from which you want to remove\n nodes.\n:type pool_id: str\n\
@@ -346,7 +346,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1109
   summary: "Changes the number of compute nodes that are assigned to a pool.\n\n:param\
     \ pool_id: The id of the pool to resize.\n:type pool_id: str\n:param pool_resize_parameter:\
@@ -371,7 +371,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1214
   summary: "Stops an ongoing resize operation on the pool.\n\nThis does not restore\
     \ the pool to its previous state before the resize\noperation: it only stops any\
@@ -397,7 +397,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1317
   summary: "Updates the properties of a pool.\n\n:param pool_id: The id of the pool\
     \ to update.\n:type pool_id: str\n:param pool_update_properties_parameter: The\
@@ -423,7 +423,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/pool_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1406
   summary: "Upgrades the operating system of the specified pool.\n\n:param pool_id:\
     \ The id of the pool to upgrade.\n:type pool_id: str\n:param target_os_version:\

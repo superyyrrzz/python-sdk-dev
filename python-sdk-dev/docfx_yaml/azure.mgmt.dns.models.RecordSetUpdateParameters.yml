@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-dns/azure/mgmt/dns/models/record_set_update_parameters.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Parameters supplied to update a record set.\n\n:param record_set: Specifies\
     \ information about the record set being\n updated.\n:type record_set: :class:`RecordSet\

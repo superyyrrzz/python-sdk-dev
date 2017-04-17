@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/integration_account_content_link.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "IntegrationAccountContentLink.\n\n:param uri: The content link URI.\n\
     :type uri: str\n:param content_version: The content version.\n:type content_version:\

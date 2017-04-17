@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/x12_envelope_settings.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "X12EnvelopeSettings.\n\n:param control_standards_id: The controls standards\
     \ id.\n:type control_standards_id: int\n:param use_control_standards_id_as_repetition_character:\

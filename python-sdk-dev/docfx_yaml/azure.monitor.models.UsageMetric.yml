@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-monitor/azure/monitor/models/usage_metric.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Usage Metric data.\n\n:param name: the usage metric name and display name.\n\
     :type name: :class:`LocalizableString\n <azure.monitor.models.LocalizableString>`\n\

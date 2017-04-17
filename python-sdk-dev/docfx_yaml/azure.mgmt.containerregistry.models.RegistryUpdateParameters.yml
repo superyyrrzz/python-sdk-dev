@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-containerregistry/azure/mgmt/containerregistry/models/registry_update_parameters.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "The parameters for updating a container registry.\n\n:param tags: The\
     \ resource tags for the container registry.\n:type tags: dict\n:param admin_user_enabled:\

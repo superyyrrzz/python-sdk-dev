@@ -21,7 +21,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/application_gateways_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 20
   summary: 'ApplicationGatewaysOperations operations.
 
@@ -46,7 +46,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/application_gateways_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 176
   summary: "The Put ApplicationGateway operation creates/updates a\nApplicationGateway.\n\
     \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
@@ -71,7 +71,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/application_gateways_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 37
   summary: "The delete ApplicationGateway operation deletes the specified\napplication\
     \ gateway.\n\n:param resource_group_name: The name of the resource group.\n:type\
@@ -94,7 +94,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/application_gateways_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 114
   summary: "The Get ApplicationGateway operation retrieves information about the\n\
     specified application gateway.\n\n:param resource_group_name: The name of the\
@@ -118,7 +118,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/application_gateways_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 271
   summary: "The List ApplicationGateway operation retrieves all the application\n\
     gateways in a resource group.\n\n:param resource_group_name: The name of the resource\
@@ -140,7 +140,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/application_gateways_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 337
   summary: "The List ApplicationGateway operation retrieves all the application\n\
     gateways in a subscription.\n\n:param dict custom_headers: headers that will be\
@@ -161,7 +161,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/application_gateways_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 400
   summary: "The Start ApplicationGateway operation starts application gateway in\n\
     the specified resource group through Network resource provider.\n\n:param resource_group_name:\
@@ -185,7 +185,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/application_gateways_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 477
   summary: "The STOP ApplicationGateway operation stops application gateway in the\n\
     specified resource group through Network resource provider.\n\n:param resource_group_name:\

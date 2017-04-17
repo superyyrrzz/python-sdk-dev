@@ -14,7 +14,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/dev_test_labs_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 86
   summary: "Azure DevTest Labs REST API.\n\n:ivar config: Configuration for client.\n\
     :vartype config: DevTestLabsClientConfiguration\n\n:ivar lab: Lab operations\n\

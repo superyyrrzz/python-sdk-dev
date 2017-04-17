@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/public_ip_address_dns_settings.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Contains FQDN of the DNS record associated with the public IP address.\n\
     \n:param domain_name_label: Gets or sets the Domain name label.The\n concatenation\

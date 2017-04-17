@@ -14,7 +14,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/policy/policy_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 78
   summary: ":ivar config: Configuration for client.\n:vartype config: PolicyClientConfiguration\n\
     \n:ivar policy_assignments: PolicyAssignments operations\n:vartype policy_assignments:\

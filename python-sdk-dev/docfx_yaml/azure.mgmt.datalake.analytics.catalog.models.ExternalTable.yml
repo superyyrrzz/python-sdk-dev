@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/models/external_table.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "A Data Lake Analytics catalog external table item.\n\n:param table_name:\
     \ the name of the table associated with this database and\n schema.\n:type table_name:\

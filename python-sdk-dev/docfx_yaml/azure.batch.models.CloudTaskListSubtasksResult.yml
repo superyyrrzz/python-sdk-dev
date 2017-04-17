@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/cloud_task_list_subtasks_result.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Response to a CloudTaskOperations.ListSubtasks request.\n\n:param value:\
     \ The list of information of subtasks.\n:type value: list of :class:`SubtaskInformation\n\

@@ -21,7 +21,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/power_shell_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'PowerShellOperations operations.
 
@@ -46,7 +46,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/power_shell_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 456
   summary: "Cancels a PowerShell command.\n\n:param resource_group_name: The resource\
     \ group name uniquely\n identifies the resource group within the user subscriptionId.\n\
@@ -72,7 +72,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/power_shell_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 101
   summary: "Creates a PowerShell session.\n\n:param resource_group_name: The resource\
     \ group name uniquely\n identifies the resource group within the user subscriptionId.\n\
@@ -98,7 +98,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/power_shell_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 192
   summary: "Gets the status of a command.\n\n:param resource_group_name: The resource\
     \ group name uniquely\n identifies the resource group within the user subscriptionId.\n\
@@ -126,7 +126,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/power_shell_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 357
   summary: "Creates a PowerShell script and invokes it.\n\n:param resource_group_name:\
     \ The resource group name uniquely\n identifies the resource group within the\
@@ -153,7 +153,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/power_shell_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 36
   summary: "Gets a list of the active sessions.\n\n:param resource_group_name: The\
     \ resource group name uniquely\n identifies the resource group within the user\
@@ -178,7 +178,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/power_shell_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 547
   summary: "Gets tab completion values for a command.\n\n:param resource_group_name:\
     \ The resource group name uniquely\n identifies the resource group within the\
@@ -205,7 +205,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/operations/power_shell_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 266
   summary: "Updates a running PowerShell command with more data.\n\n:param resource_group_name:\
     \ The resource group name uniquely\n identifies the resource group within the\

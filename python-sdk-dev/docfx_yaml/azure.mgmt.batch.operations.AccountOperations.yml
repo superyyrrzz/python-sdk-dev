@@ -23,7 +23,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/account_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 20
   summary: 'AccountOperations operations.
 
@@ -48,7 +48,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/account_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 37
   summary: "Creates a new Batch account with the specified parameters. Existing\n\
     accounts cannot be updated with this API and should instead be\nupdated with the\
@@ -79,7 +79,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/account_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 209
   summary: "Deletes the specified Batch account.\n\n:param resource_group_name: The\
     \ name of the resource group that\n contains the Batch account to be deleted.\n\
@@ -102,7 +102,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/account_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 286
   summary: "Gets information about the specified Batch account.\n\n:param resource_group_name:\
     \ The name of the resource group that\n contains the Batch account.\n:type resource_group_name:\
@@ -125,7 +125,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/account_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 348
   summary: "Gets information about the Batch accounts associated with the\nsubscription.\n\
     \n:param dict custom_headers: headers that will be added to the request\n:param\
@@ -145,7 +145,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/account_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 411
   summary: "Gets information about the Batch accounts associated within the\nspecified\
     \ resource group.\n\n:param resource_group_name: The name of the resource group\
@@ -167,7 +167,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/account_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 605
   summary: "Lists the account keys for the specified Batch account.\n\n:param resource_group_name:\
     \ The name of the resource group that\n contains the Batch account.\n:type resource_group_name:\
@@ -190,7 +190,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/account_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 533
   summary: "Regenerates the specified account key for the specified Batch account.\n\
     \n:param resource_group_name: The name of the resource group that\n contains the\
@@ -216,7 +216,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/account_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 478
   summary: "Synchronizes access keys for the auto storage account configured for\n\
     the specified Batch account.\n\n:param resource_group_name: The name of the resource\
@@ -240,7 +240,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/batch/operations/account_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 136
   summary: "Updates the properties of an existing Batch account.\n\n:param resource_group_name:\
     \ The name of the resource group that\n contains the Batch account.\n:type resource_group_name:\

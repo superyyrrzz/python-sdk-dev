@@ -16,15 +16,19 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/reissue_certificate_order_request.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "Class representing certificate reissue request.\n\n:param id: Resource\
-    \ Id\n:type id: str\n:param name: Resource Name\n:type name: str\n:param kind:\
-    \ Kind of resource\n:type kind: str\n:param location: Resource Location\n:type\
-    \ location: str\n:param type: Resource type\n:type type: str\n:param tags: Resource\
-    \ tags\n:type tags: dict\n:param key_size: Certificate Key Size\n:type key_size:\
-    \ int\n:param delay_existing_revoke_in_hours: Delay in hours to revoke existing\n\
-    \ certificate after the new certificate is issued\n:type delay_existing_revoke_in_hours:\
-    \ int"
+  summary: "Class representing certificate reissue request.\n\nVariables are only\
+    \ populated by the server, and will be ignored when\nsending a request.\n\n:ivar\
+    \ id: Resource Id.\n:vartype id: str\n:param name: Resource Name.\n:type name:\
+    \ str\n:param kind: Kind of resource.\n:type kind: str\n:param location: Resource\
+    \ Location.\n:type location: str\n:param type: Resource type.\n:type type: str\n\
+    :param tags: Resource tags.\n:type tags: dict\n:param key_size: Certificate Key\
+    \ Size.\n:type key_size: int\n:param delay_existing_revoke_in_hours: Delay in\
+    \ hours to revoke existing\n certificate after the new certificate is issued.\n\
+    :type delay_existing_revoke_in_hours: int\n:param csr: Csr to be used for re-key\
+    \ operation.\n:type csr: str\n:param is_private_key_external: Should we change\
+    \ the ASC type (from\n managed private key to external private key and vice versa).\n\
+    :type is_private_key_external: bool"
   type: Class
   uid: azure.mgmt.web.models.ReissueCertificateOrderRequest

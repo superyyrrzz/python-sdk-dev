@@ -15,29 +15,17 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/sku_description.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: 'Describes a sku for a scalable resource.
-
-
-    :param name: Name of the resource sku
-
-    :type name: str
-
-    :param tier: Service Tier of the resource sku
-
-    :type tier: str
-
-    :param size: Size specifier of the resource sku
-
-    :type size: str
-
-    :param family: Family code of the resource sku
-
-    :type family: str
-
-    :param capacity: Current number of instances assigned to the resource
-
-    :type capacity: int'
+  summary: "Description of a SKU for a scalable resource.\n\n:param name: Name of\
+    \ the resource SKU.\n:type name: str\n:param tier: Service tier of the resource\
+    \ SKU.\n:type tier: str\n:param size: Size specifier of the resource SKU.\n:type\
+    \ size: str\n:param family: Family code of the resource SKU.\n:type family: str\n\
+    :param capacity: Current number of instances assigned to the resource.\n:type\
+    \ capacity: int\n:param sku_capacity: Min, max, and default scale values of the\
+    \ SKU.\n:type sku_capacity: :class:`SkuCapacity\n <azure.mgmt.web.models.SkuCapacity>`\n\
+    :param locations: Locations of the SKU.\n:type locations: list of str\n:param\
+    \ capabilities: Capabilities of the SKU, e.g., is traffic manager\n enabled?\n\
+    :type capabilities: list of :class:`Capability\n <azure.mgmt.web.models.Capability>`"
   type: Class
   uid: azure.mgmt.web.models.SkuDescription

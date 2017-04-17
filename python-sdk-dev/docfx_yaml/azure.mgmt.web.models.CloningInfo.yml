@@ -15,28 +15,30 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/cloning_info.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "Represents information needed for cloning operation.\n\n:param correlation_id:\
-    \ Correlation Id of cloning operation. This id ties\n multiple cloning operations\n\
-    \ together to use the same snapshot\n:type correlation_id: str\n:param overwrite:\
-    \ Overwrite destination web app\n:type overwrite: bool\n:param clone_custom_host_names:\
-    \ If true, clone custom hostnames from\n source web app\n:type clone_custom_host_names:\
-    \ bool\n:param clone_source_control: Clone source control from source web app\n\
-    :type clone_source_control: bool\n:param source_web_app_id: ARM resource id of\
-    \ the source web app. Web app\n resource id is of the form\n /subscriptions/{subId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Web/sites/{siteName}\n\
+  summary: "Information needed for cloning operation.\n\n:param correlation_id: Correlation\
+    \ ID of cloning operation. This ID ties\n multiple cloning operations\n together\
+    \ to use the same snapshot.\n:type correlation_id: str\n:param overwrite: <code>true</code>\
+    \ to overwrite destination app;\n otherwise, <code>false</code>.\n:type overwrite:\
+    \ bool\n:param clone_custom_host_names: <code>true</code> to clone custom\n hostnames\
+    \ from source app; otherwise, <code>false</code>.\n:type clone_custom_host_names:\
+    \ bool\n:param clone_source_control: <code>true</code> to clone source control\n\
+    \ from source app; otherwise, <code>false</code>.\n:type clone_source_control:\
+    \ bool\n:param source_web_app_id: ARM resource ID of the source app. App resource\n\
+    \ ID is of the form\n /subscriptions/{subId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Web/sites/{siteName}\n\
     \ for production slots and\n /subscriptions/{subId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Web/sites/{siteName}/slots/{slotName}\n\
-    \ for other slots\n:type source_web_app_id: str\n:param hosting_environment: Hosting\
-    \ environment\n:type hosting_environment: str\n:param app_settings_overrides:\
-    \ Application settings overrides for cloned\n web app. If specified these settings\
-    \ will override the settings cloned\n from source web app. If not specified, application\
-    \ settings\n from source web app are retained.\n:type app_settings_overrides:\
-    \ dict\n:param configure_load_balancing: If specified configure load balancing\n\
-    \ for source and clone site\n:type configure_load_balancing: bool\n:param traffic_manager_profile_id:\
-    \ ARM resource id of the traffic manager\n profile to use if it exists. Traffic\
-    \ manager resource id is of the form\n /subscriptions/{subId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficManagerProfiles/{profileName}\n\
+    \ for other slots.\n:type source_web_app_id: str\n:param hosting_environment:\
+    \ App Service Environment.\n:type hosting_environment: str\n:param app_settings_overrides:\
+    \ Application setting overrides for cloned\n app. If specified, these settings\
+    \ override the settings cloned\n from source app. Otherwise, application settings\
+    \ from source app are\n retained.\n:type app_settings_overrides: dict\n:param\
+    \ configure_load_balancing: <code>true</code> to configure load\n balancing for\
+    \ source and destination app.\n:type configure_load_balancing: bool\n:param traffic_manager_profile_id:\
+    \ ARM resource ID of the Traffic Manager\n profile to use, if it exists. Traffic\
+    \ Manager resource ID is of the form\n /subscriptions/{subId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficManagerProfiles/{profileName}.\n\
     :type traffic_manager_profile_id: str\n:param traffic_manager_profile_name: Name\
-    \ of traffic manager profile to\n create. This is only needed if traffic manager\
-    \ profile does not already\n exist\n:type traffic_manager_profile_name: str"
+    \ of Traffic Manager profile to\n create. This is only needed if Traffic Manager\
+    \ profile does not already\n exist.\n:type traffic_manager_profile_name: str"
   type: Class
   uid: azure.mgmt.web.models.CloningInfo

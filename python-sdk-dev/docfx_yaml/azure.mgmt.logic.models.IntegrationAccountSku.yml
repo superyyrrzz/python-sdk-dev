@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/integration_account_sku.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "IntegrationAccountSku.\n\n:param name: The sku name. Possible values include:\
     \ 'NotSpecified',\n 'Free', 'Shared', 'Basic', 'Standard', 'Premium'\n:type name:\

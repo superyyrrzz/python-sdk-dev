@@ -20,7 +20,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-dns/azure/mgmt/dns/operations/record_sets_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'RecordSetsOperations operations.
 
@@ -45,7 +45,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-dns/azure/mgmt/dns/operations/record_sets_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 120
   summary: "Creates or updates a record set within a DNS zone.\n\n:param resource_group_name:\
     \ The name of the resource group.\n:type resource_group_name: str\n:param zone_name:\
@@ -81,7 +81,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-dns/azure/mgmt/dns/operations/record_sets_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 214
   summary: "Deletes a record set from a DNS zone. This operation cannot be undone.\n\
     \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
@@ -113,7 +113,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-dns/azure/mgmt/dns/operations/record_sets_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 286
   summary: "Gets a record set.\n\n:param resource_group_name: The name of the resource\
     \ group.\n:type resource_group_name: str\n:param zone_name: The name of the DNS\
@@ -140,7 +140,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-dns/azure/mgmt/dns/operations/record_sets_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 438
   summary: "Lists all record sets in a DNS zone.\n\n:param resource_group_name: The\
     \ name of the resource group.\n:type resource_group_name: str\n:param zone_name:\
@@ -164,7 +164,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-dns/azure/mgmt/dns/operations/record_sets_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 358
   summary: "Lists the record sets of a specified type in a DNS zone.\n\n:param resource_group_name:\
     \ The name of the resource group.\n:type resource_group_name: str\n:param zone_name:\
@@ -191,7 +191,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-dns/azure/mgmt/dns/operations/record_sets_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 36
   summary: "Updates a record set within a DNS zone.\n\n:param resource_group_name:\
     \ The name of the resource group.\n:type resource_group_name: str\n:param zone_name:\

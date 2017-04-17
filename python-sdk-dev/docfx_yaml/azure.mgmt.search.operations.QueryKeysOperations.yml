@@ -17,7 +17,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-search/azure/mgmt/search/operations/query_keys_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'QueryKeysOperations operations.
 
@@ -42,7 +42,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-search/azure/mgmt/search/operations/query_keys_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 36
   summary: "Generates a new query key for the specified Search service. You can\n\
     create up to 50 query keys per service.\n\n:param resource_group_name: The name\
@@ -71,7 +71,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-search/azure/mgmt/search/operations/query_keys_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 198
   summary: "Deletes the specified query key. Unlike admin keys, query keys are not\n\
     regenerated. The process for regenerating a query key is to delete and\nthen recreate\
@@ -101,7 +101,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-search/azure/mgmt/search/operations/query_keys_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 115
   summary: "Returns the list of query API keys for the given Azure Search service.\n\
     \n:param resource_group_name: The name of the resource group within the\n current\

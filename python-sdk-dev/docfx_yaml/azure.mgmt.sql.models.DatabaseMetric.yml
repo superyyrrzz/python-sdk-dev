@@ -5,6 +5,7 @@ items:
   class: azure.mgmt.sql.models.DatabaseMetric
   fullName: azure.mgmt.sql.models.DatabaseMetric
   inheritance:
+  - azure.mgmt.sql.models.sql_sub_resource.SqlSubResource
   - msrest.serialization.Model
   - builtins.object
   module: azure.mgmt.sql.models
@@ -15,10 +16,11 @@ items:
     remote:
       branch: master
       path: azure-mgmt-sql/azure/mgmt/sql/models/database_metric.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "Represents Azure SQL Database metrics.\n\nVariables are only populated\
-    \ by the server, and will be ignored when\nsending a request.\n\n:ivar resource_name:\
+  summary: "Represents database metrics.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:ivar name: Resource name\n\
+    :vartype name: str\n:ivar id: The resource ID.\n:vartype id: str\n:ivar resource_name:\
     \ The name of the resource.\n:vartype resource_name: str\n:ivar display_name:\
     \ The metric display name.\n:vartype display_name: str\n:ivar current_value: The\
     \ current value of the metric.\n:vartype current_value: float\n:ivar limit: The\

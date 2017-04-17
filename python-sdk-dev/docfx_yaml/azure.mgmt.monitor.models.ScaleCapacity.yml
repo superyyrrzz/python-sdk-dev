@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-monitor/azure/mgmt/monitor/models/scale_capacity.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "The number of instances that can be used during this profile.\n\n:param\
     \ minimum: the minimum number of instances for the resource.\n:type minimum: str\n\

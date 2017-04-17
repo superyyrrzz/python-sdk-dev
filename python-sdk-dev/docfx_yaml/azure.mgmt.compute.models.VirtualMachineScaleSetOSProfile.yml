@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/virtual_machine_scale_set_os_profile.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Describes a virtual machine scale set OS profile.\n\n:param computer_name_prefix:\
     \ the computer name prefix.\n:type computer_name_prefix: str\n:param admin_username:\

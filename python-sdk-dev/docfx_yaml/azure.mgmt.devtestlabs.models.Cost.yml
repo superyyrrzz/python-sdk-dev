@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/cost.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "A cost item.\n\n:param currency_code: The currency code of the cost.\n\
     :type currency_code: str\n:param costs: The lab cost component of the cost data.\n\

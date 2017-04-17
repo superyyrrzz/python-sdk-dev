@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/as2_protocol_settings.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "AS2ProtocolSettings.\n\n:param message_connection_settings: The message\
     \ connection settings.\n:type message_connection_settings: :class:`AS2MessageConnectionSettings\n\

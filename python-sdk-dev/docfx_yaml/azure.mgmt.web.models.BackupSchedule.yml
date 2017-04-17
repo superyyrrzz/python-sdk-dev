@@ -15,21 +15,24 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/backup_schedule.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Description of a backup schedule. Describes how often should be the backup\n\
-    performed and what should be the retention policy.\n\n:param frequency_interval:\
+    performed and what should be the retention policy.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:param frequency_interval:\
     \ How often should be the backup executed (e.g.\n for weekly backup, this should\
-    \ be set to 7 and FrequencyUnit should be\n set to Day)\n:type frequency_interval:\
-    \ int\n:param frequency_unit: How often should be the backup executed (e.g. for\n\
-    \ weekly backup, this should be set to Day and FrequencyInterval should be\n set\
-    \ to 7). Possible values include: 'Day', 'Hour'\n:type frequency_unit: str or\
-    \ :class:`FrequencyUnit\n <azure.mgmt.web.models.FrequencyUnit>`\n:param keep_at_least_one_backup:\
-    \ True if the retention policy should\n always keep at least one backup in the\
-    \ storage account, regardless how\n old it is; false otherwise.\n:type keep_at_least_one_backup:\
-    \ bool\n:param retention_period_in_days: After how many days backups should be\n\
-    \ deleted\n:type retention_period_in_days: int\n:param start_time: When the schedule\
-    \ should start working\n:type start_time: datetime\n:param last_execution_time:\
-    \ The last time when this schedule was triggered\n:type last_execution_time: datetime"
+    \ be set to 7 and FrequencyUnit should be set\n to Day). Default value: 7 .\n\
+    :type frequency_interval: int\n:param frequency_unit: The unit of time for how\
+    \ often should be the backup\n executed (e.g. for weekly backup, this should be\
+    \ set to Day and\n FrequencyInterval should be set to 7). Possible values include:\
+    \ 'Day',\n 'Hour'. Default value: \"Day\" .\n:type frequency_unit: str or :class:`FrequencyUnit\n\
+    \ <azure.mgmt.web.models.FrequencyUnit>`\n:param keep_at_least_one_backup: True\
+    \ if the retention policy should\n always keep at least one backup in the storage\
+    \ account, regardless how old\n it is; false otherwise. Default value: True .\n\
+    :type keep_at_least_one_backup: bool\n:param retention_period_in_days: After how\
+    \ many days backups should be\n deleted. Default value: 90 .\n:type retention_period_in_days:\
+    \ int\n:param start_time: When the schedule should start working.\n:type start_time:\
+    \ datetime\n:ivar last_execution_time: Last time when this schedule was triggered.\n\
+    :vartype last_execution_time: datetime"
   type: Class
   uid: azure.mgmt.web.models.BackupSchedule

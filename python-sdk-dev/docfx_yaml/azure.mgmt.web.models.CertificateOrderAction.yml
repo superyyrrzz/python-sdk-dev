@@ -16,18 +16,20 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/certificate_order_action.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "Represents a certificate action.\n\n:param id: Resource Id\n:type id:\
-    \ str\n:param name: Resource Name\n:type name: str\n:param kind: Kind of resource\n\
-    :type kind: str\n:param location: Resource Location\n:type location: str\n:param\
-    \ type: Resource type\n:type type: str\n:param tags: Resource tags\n:type tags:\
-    \ dict\n:param certificate_order_action_type: Type. Possible values include:\n\
-    \ 'CertificateIssued', 'CertificateOrderCanceled',\n 'CertificateOrderCreated',\
+  summary: "Certificate order action.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:ivar id: Resource Id.\n:vartype\
+    \ id: str\n:param name: Resource Name.\n:type name: str\n:param kind: Kind of\
+    \ resource.\n:type kind: str\n:param location: Resource Location.\n:type location:\
+    \ str\n:param type: Resource type.\n:type type: str\n:param tags: Resource tags.\n\
+    :type tags: dict\n:param certificate_order_action_type: Action type. Possible\
+    \ values\n include: 'CertificateIssued', 'CertificateOrderCanceled',\n 'CertificateOrderCreated',\
     \ 'CertificateRevoked',\n 'DomainValidationComplete', 'FraudDetected', 'OrgNameChange',\n\
-    \ 'OrgValidationComplete', 'SanDrop'\n:type certificate_order_action_type: str\
-    \ or\n :class:`CertificateOrderActionType\n <azure.mgmt.web.models.CertificateOrderActionType>`\n\
-    :param created_at: Time at which the certificate action was performed\n:type created_at:\
-    \ datetime"
+    \ 'OrgValidationComplete', 'SanDrop', 'FraudCleared', 'CertificateExpired',\n\
+    \ 'CertificateExpirationWarning', 'FraudDocumentationRequired', 'Unknown'\n:type\
+    \ certificate_order_action_type: str or\n :class:`CertificateOrderActionType\n\
+    \ <azure.mgmt.web.models.CertificateOrderActionType>`\n:param created_at: Time\
+    \ at which the certificate action was performed.\n:type created_at: datetime"
   type: Class
   uid: azure.mgmt.web.models.CertificateOrderAction

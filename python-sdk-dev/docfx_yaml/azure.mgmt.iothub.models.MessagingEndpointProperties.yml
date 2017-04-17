@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-iothub/azure/mgmt/iothub/models/messaging_endpoint_properties.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "The properties of the messaging endpoints used by this IoT hub.\n\n:param\
     \ lock_duration_as_iso8601: The lock duration. See:\n https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-file-upload.\n\

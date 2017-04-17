@@ -30,7 +30,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/sqldatabasemanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 38
   summary: 'Note that this class is a preliminary work on SQL Database
 
@@ -69,7 +69,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/sqldatabasemanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 38
   summary: "Initializes the sql database management service.\n\nsubscription_id:\n\
     \    Subscription to manage.\ncert_file:\n    Path to .pem certificate file (httplib),\
@@ -99,7 +99,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/sqldatabasemanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 289
   summary: "Creates a new Azure SQL Database.\n\nserver_name:\n    Name of the server\
     \ to contain the new database.\nname:\n    Required. The name for the new database.\
@@ -134,7 +134,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/sqldatabasemanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 188
   summary: "Creates an Azure SQL Database server firewall rule.\n\nserver_name:\n\
     \    Name of the server to set the firewall rule on. \nname:\n    The name of\
@@ -160,7 +160,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/sqldatabasemanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 77
   summary: "Create a new Azure SQL Database server.\n\nadmin_login:\n    The administrator\
     \ login name for the new server.\nadmin_password:\n    The administrator login\
@@ -180,7 +180,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/sqldatabasemanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 370
   summary: "Deletes an Azure SQL Database.\n\nserver_name:\n    Name of the server\
     \ where the database is located.\nname:\n    Name of the database to delete."
@@ -199,7 +199,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/sqldatabasemanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 248
   summary: "Deletes an Azure SQL Database server firewall rule.\n\nserver_name:\n\
     \    Name of the server with the firewall rule you want to delete.\nname:\n  \
@@ -219,7 +219,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/sqldatabasemanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 121
   summary: "Deletes an Azure SQL Database server (including all its databases).\n\n\
     server_name:\n    Name of the server you want to delete."
@@ -238,7 +238,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/sqldatabasemanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 152
   summary: "Gets the event logs for an Azure SQL Database Server.\n\nserver_name:\n\
     \    Name of the server to retrieve the event logs from.\nstart_date:\n    The\
@@ -265,7 +265,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/sqldatabasemanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 381
   summary: List the SQL databases defined on the specified server name
   type: Method
@@ -283,7 +283,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/sqldatabasemanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 262
   summary: "Retrieves the set of firewall rules for an Azure SQL Database Server.\n\
     \nserver_name:\n    Name of the server."
@@ -302,7 +302,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/sqldatabasemanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 139
   summary: "Gets quotas for an Azure SQL Database Server.\n\nserver_name:\n    Name\
     \ of the server."
@@ -321,7 +321,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/sqldatabasemanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 132
   summary: List the SQL servers defined on the account.
   type: Method
@@ -339,7 +339,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/sqldatabasemanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 275
   summary: "Gets the service level objectives for an Azure SQL Database server.\n\n\
     server_name:\n    Name of the server."
@@ -358,7 +358,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/sqldatabasemanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 103
   summary: "Reset the administrator password for a server.\n\nserver_name:\n    Name\
     \ of the server to change the password.\nadmin_password:\n    The new administrator\
@@ -378,7 +378,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/sqldatabasemanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 334
   summary: "Updates existing database details.\n\nserver_name:\n    Name of the server\
     \ to contain the new database.\nname:\n    Required. The name for the new database.\
@@ -407,7 +407,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/sqldatabasemanagementservice.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 218
   summary: "Update a firewall rule for an Azure SQL Database server.\n\nserver_name:\n\
     \    Name of the server to set the firewall rule on. \nname:\n    The name of\

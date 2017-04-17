@@ -22,7 +22,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/operations/profiles_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'ProfilesOperations operations.
 
@@ -47,7 +47,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/operations/profiles_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 225
   summary: "Creates a new CDN profile with a profile name under the specified\nsubscription\
     \ and resource group.\n\n:param resource_group_name: Name of the Resource group\
@@ -74,7 +74,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/operations/profiles_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 417
   summary: "Deletes an existing CDN profile with the specified parameters. Deleting\n\
     a profile will result in the deletion of all of the sub-resources\nincluding endpoints,\
@@ -99,7 +99,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/operations/profiles_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 497
   summary: "Generates a dynamic SSO URI used to sign in to the CDN supplemental\n\
     portal. Supplemnetal portal is used to configure advanced feature\ncapabilities\
@@ -127,7 +127,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/operations/profiles_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 162
   summary: "Gets a CDN profile with the specified profile name under the specified\n\
     subscription and resource group.\n\n:param resource_group_name: Name of the Resource\
@@ -152,7 +152,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/operations/profiles_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 36
   summary: "Lists all of the CDN profiles within an Azure subscription.\n\n:param\
     \ dict custom_headers: headers that will be added to the request\n:param bool\
@@ -173,7 +173,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/operations/profiles_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 97
   summary: "Lists all of the CDN profiles within a resource group.\n\n:param resource_group_name:\
     \ Name of the Resource group within the\n Azure subscription.\n:type resource_group_name:\
@@ -195,7 +195,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/operations/profiles_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 564
   summary: "Checks the quota and actual usage of endpoints under the given CDN\nprofile.\n\
     \n:param resource_group_name: Name of the Resource group within the\n Azure subscription.\n\
@@ -219,7 +219,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/operations/profiles_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 321
   summary: "Updates an existing CDN profile with the specified profile name under\n\
     the specified subscription and resource group.\n\n:param resource_group_name:\

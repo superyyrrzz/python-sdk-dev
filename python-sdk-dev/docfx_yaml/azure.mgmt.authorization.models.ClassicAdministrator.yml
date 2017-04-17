@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-authorization/azure/mgmt/authorization/models/classic_administrator.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Classic Administrators.\n\n:param id: The ID of the administrator.\n:type\
     \ id: str\n:param name: The name of the administrator.\n:type name: str\n:param\

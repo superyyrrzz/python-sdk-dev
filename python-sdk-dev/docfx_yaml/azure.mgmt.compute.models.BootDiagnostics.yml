@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/boot_diagnostics.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Describes Boot Diagnostics.\n\n:param enabled: whether boot diagnostics\
     \ should be enabled on the Virtual\n Machine.\n:type enabled: bool\n:param storage_uri:\

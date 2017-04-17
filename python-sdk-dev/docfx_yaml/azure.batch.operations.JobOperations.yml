@@ -26,7 +26,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 18
   summary: 'JobOperations operations.
 
@@ -51,7 +51,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 859
   summary: "Adds a job to the specified account.\n\n:param job: The job to be added.\n\
     :type job: :class:`JobAddParameter\n <azure.batch.models.JobAddParameter>`\n:param\
@@ -74,7 +74,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 122
   summary: "Deletes a job.\n\n:param job_id: The id of the job to delete.\n:type job_id:\
     \ str\n:param job_delete_options: Additional parameters for the operation\n:type\
@@ -97,7 +97,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 543
   summary: "Disables the specified job, preventing new tasks from running.\n\n:param\
     \ job_id: The id of the job to disable.\n:type job_id: str\n:param disable_tasks:\
@@ -123,7 +123,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 650
   summary: "Enables the specified job, allowing new tasks to run.\n\n:param job_id:\
     \ The id of the job to enable.\n:type job_id: str\n:param job_enable_options:\
@@ -146,7 +146,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 217
   summary: "Gets information about the specified job.\n\n:param job_id: The id of\
     \ the job.\n:type job_id: str\n:param job_get_options: Additional parameters for\
@@ -169,7 +169,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 35
   summary: "Gets lifetime summary statistics for all of the jobs in the specified\n\
     account.\n\nStatistics are aggregated across all jobs that have ever existed in\n\
@@ -195,7 +195,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 938
   summary: "Lists all of the jobs in the specified account.\n\n:param job_list_options:\
     \ Additional parameters for the operation\n:type job_list_options: :class:`JobListOptions\n\
@@ -216,7 +216,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1037
   summary: "Lists the jobs that have been created under the specified job schedule.\n\
     \n:param job_schedule_id: The id of the job schedule from which you\n want to\
@@ -240,7 +240,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1145
   summary: "Lists the execution status of the Job Preparation and Job Release task\n\
     for the specified job across the compute nodes where the job has run.\n\n:param\
@@ -264,7 +264,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 333
   summary: "Updates the properties of a job.\n\n:param job_id: The id of the job whose\
     \ properties you want to update.\n:type job_id: str\n:param job_patch_parameter:\
@@ -289,7 +289,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 748
   summary: "Terminates the specified job, marking it as completed.\n\n:param job_id:\
     \ The id of the job to terminate.\n:type job_id: str\n:param job_terminate_options:\
@@ -314,7 +314,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 438
   summary: "Updates the properties of a job.\n\n:param job_id: The id of the job whose\
     \ properties you want to update.\n:type job_id: str\n:param job_update_parameter:\

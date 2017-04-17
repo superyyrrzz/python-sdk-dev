@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/job/models/job_properties.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "The common Data Lake Analytics job properties.\n\n:param runtime_version:\
     \ the runtime version of the Data Lake Analytics\n engine to use for the specific\

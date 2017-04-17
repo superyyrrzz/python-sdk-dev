@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/models/application.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Active Directory application information.\n\n:param object_id: The object\
     \ ID.\n:type object_id: str\n:param object_type: The object type.\n:type object_type:\

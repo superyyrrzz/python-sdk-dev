@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/models/trigger.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "A condition to be satisfied for an action to be executed.\n\n:param lifetime_percentage:\
     \ Percentage of lifetime at which to trigger.\n Value should be between 1 and\

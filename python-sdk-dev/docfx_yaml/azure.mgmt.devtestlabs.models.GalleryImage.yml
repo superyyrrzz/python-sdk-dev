@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/models/gallery_image.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "A gallery image.\n\n:param author: The author of the gallery image.\n\
     :type author: str\n:param created_date: The creation date of the gallery image.\n\

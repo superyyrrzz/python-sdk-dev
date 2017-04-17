@@ -23,7 +23,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-containerregistry/azure/mgmt/containerregistry/operations/registries_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'RegistriesOperations operations.
 
@@ -48,7 +48,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-containerregistry/azure/mgmt/containerregistry/operations/registries_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 36
   summary: "Checks whether the container registry name is available for use. The\n\
     name must contain only alphanumeric characters, be globally unique, and\nbetween\
@@ -72,7 +72,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-containerregistry/azure/mgmt/containerregistry/operations/registries_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 165
   summary: "Creates or updates a container registry with the specified parameters.\n\
     \n:param resource_group_name: The name of the resource group to which\n the container\
@@ -99,7 +99,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-containerregistry/azure/mgmt/containerregistry/operations/registries_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 236
   summary: "Deletes a container registry.\n\n:param resource_group_name: The name\
     \ of the resource group to which\n the container registry belongs.\n:type resource_group_name:\
@@ -122,7 +122,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-containerregistry/azure/mgmt/containerregistry/operations/registries_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 494
   summary: "Gets the administrator login credentials for the specified container\n\
     registry.\n\n:param resource_group_name: The name of the resource group to which\n\
@@ -146,7 +146,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-containerregistry/azure/mgmt/containerregistry/operations/registries_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 102
   summary: "Gets the properties of the specified container registry.\n\n:param resource_group_name:\
     \ The name of the resource group to which\n the container registry belongs.\n\
@@ -170,7 +170,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-containerregistry/azure/mgmt/containerregistry/operations/registries_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 430
   summary: "Lists all the available container registries under the specified\nsubscription.\n\
     \n:param dict custom_headers: headers that will be added to the request\n:param\
@@ -191,7 +191,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-containerregistry/azure/mgmt/containerregistry/operations/registries_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 362
   summary: "Lists all the available container registries under the specified\nresource\
     \ group.\n\n:param resource_group_name: The name of the resource group to which\n\
@@ -214,7 +214,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-containerregistry/azure/mgmt/containerregistry/operations/registries_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 558
   summary: "Regenerates the administrator login credentials for the specified\ncontainer\
     \ registry.\n\n:param resource_group_name: The name of the resource group to which\n\
@@ -238,7 +238,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-containerregistry/azure/mgmt/containerregistry/operations/registries_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 291
   summary: "Updates a container registry with the specified parameters.\n\n:param\
     \ resource_group_name: The name of the resource group to which\n the container\

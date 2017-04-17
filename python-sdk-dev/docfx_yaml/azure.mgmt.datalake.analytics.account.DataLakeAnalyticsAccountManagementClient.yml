@@ -14,11 +14,12 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/data_lake_analytics_account_management_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
-    startLine: 79
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
+    startLine: 64
   summary: "Creates an Azure Data Lake Analytics account management client.\n\n:ivar\
     \ config: Configuration for client.\n:vartype config: DataLakeAnalyticsAccountManagementClientConfiguration\n\
-    \n:ivar storage_accounts: StorageAccounts operations\n:vartype storage_accounts:\
+    \n:ivar firewall_rules: FirewallRules operations\n:vartype firewall_rules: .operations.FirewallRulesOperations\n\
+    :ivar storage_accounts: StorageAccounts operations\n:vartype storage_accounts:\
     \ .operations.StorageAccountsOperations\n:ivar data_lake_store_accounts: DataLakeStoreAccounts\
     \ operations\n:vartype data_lake_store_accounts: .operations.DataLakeStoreAccountsOperations\n\
     :ivar account: Account operations\n:vartype account: .operations.AccountOperations\n\
@@ -27,12 +28,6 @@ items:
     :param subscription_id: Get subscription credentials which uniquely\n identify\
     \ Microsoft Azure subscription. The subscription ID forms part of\n the URI for\
     \ every service call.\n:type subscription_id: str\n:param api_version: Client\
-    \ Api Version.\n:type api_version: str\n:param accept_language: Gets or sets the\
-    \ preferred language for the\n response.\n:type accept_language: str\n:param long_running_operation_retry_timeout:\
-    \ Gets or sets the retry\n timeout in seconds for Long Running Operations. Default\
-    \ value is 30.\n:type long_running_operation_retry_timeout: int\n:param generate_client_request_id:\
-    \ When set to true a unique\n x-ms-client-request-id value is generated and included\
-    \ in each request.\n Default is true.\n:type generate_client_request_id: bool\n\
-    :param str base_url: Service URL\n:param str filepath: Existing config"
+    \ Api Version.\n:type api_version: str\n:param str base_url: Service URL"
   type: Class
   uid: azure.mgmt.datalake.analytics.account.DataLakeAnalyticsAccountManagementClient

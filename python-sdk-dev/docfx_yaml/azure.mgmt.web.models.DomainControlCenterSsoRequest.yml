@@ -15,12 +15,13 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/domain_control_center_sso_request.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "Single sign on request information for domain management.\n\n:param url:\
-    \ Url where the single sign on request is to be made\n:type url: str\n:param post_parameter_key:\
-    \ Post parameter key\n:type post_parameter_key: str\n:param post_parameter_value:\
-    \ Post parameter value. Client should use\n 'application/x-www-form-urlencoded'\
-    \ encoding for this value.\n:type post_parameter_value: str"
+  summary: "Single sign-on request information for domain management.\n\nVariables\
+    \ are only populated by the server, and will be ignored when\nsending a request.\n\
+    \n:ivar url: URL where the single sign-on request is to be made.\n:vartype url:\
+    \ str\n:ivar post_parameter_key: Post parameter key.\n:vartype post_parameter_key:\
+    \ str\n:ivar post_parameter_value: Post parameter value. Client should use\n 'application/x-www-form-urlencoded'\
+    \ encoding for this value.\n:vartype post_parameter_value: str"
   type: Class
   uid: azure.mgmt.web.models.DomainControlCenterSsoRequest

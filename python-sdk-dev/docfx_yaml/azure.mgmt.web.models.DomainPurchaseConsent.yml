@@ -15,13 +15,13 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/domain_purchase_consent.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "Domain purchase consent object representing acceptance of applicable legal\n\
-    agreements.\n\n:param agreement_keys: List of applicable legal agreement keys.\
-    \ This list\n can be retrieved using ListLegalAgreements Api under TopLevelDomain\n\
-    \ resource\n:type agreement_keys: list of str\n:param agreed_by: Client IP address\n\
-    :type agreed_by: str\n:param agreed_at: Timestamp when the agreements were accepted\n\
+  summary: "Domain purchase consent object, representing acceptance of applicable\
+    \ legal\nagreements.\n\n:param agreement_keys: List of applicable legal agreement\
+    \ keys. This list\n can be retrieved using ListLegalAgreements API under\n <code>TopLevelDomain</code>\
+    \ resource.\n:type agreement_keys: list of str\n:param agreed_by: Client IP address.\n\
+    :type agreed_by: str\n:param agreed_at: Timestamp when the agreements were accepted.\n\
     :type agreed_at: datetime"
   type: Class
   uid: azure.mgmt.web.models.DomainPurchaseConsent

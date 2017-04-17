@@ -1,7 +1,8 @@
 api_name: []
 items:
 - _type: class
-  children: []
+  children:
+  - azure.mgmt.sql.SqlManagementClient.list_operations
   class: azure.mgmt.sql.SqlManagementClient
   fullName: azure.mgmt.sql.SqlManagementClient
   inheritance:
@@ -14,26 +15,42 @@ items:
     remote:
       branch: master
       path: azure-mgmt-sql/azure/mgmt/sql/sql_management_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
-    startLine: 74
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
+    startLine: 63
   summary: "The Azure SQL Database management API provides a RESTful set of web services\
     \ that interact with Azure SQL Database services to manage your databases. The\
     \ API enables you to create, retrieve, update, and delete databases.\n\n:ivar\
     \ config: Configuration for client.\n:vartype config: SqlManagementClientConfiguration\n\
     \n:ivar servers: Servers operations\n:vartype servers: .operations.ServersOperations\n\
     :ivar databases: Databases operations\n:vartype databases: .operations.DatabasesOperations\n\
-    :ivar elastic_pools: ElasticPools operations\n:vartype elastic_pools: .operations.ElasticPoolsOperations\n\
-    :ivar recommended_elastic_pools: RecommendedElasticPools operations\n:vartype\
-    \ recommended_elastic_pools: .operations.RecommendedElasticPoolsOperations\n\n\
-    :param credentials: Credentials needed for the client to connect to Azure.\n:type\
-    \ credentials: :mod:`A msrestazure Credentials\n object<msrestazure.azure_active_directory>`\n\
+    :ivar import_export_operations: ImportExportOperations operations\n:vartype import_export_operations:\
+    \ .operations.ImportExportOperations\n:ivar elastic_pools: ElasticPools operations\n\
+    :vartype elastic_pools: .operations.ElasticPoolsOperations\n:ivar recommended_elastic_pools:\
+    \ RecommendedElasticPools operations\n:vartype recommended_elastic_pools: .operations.RecommendedElasticPoolsOperations\n\
+    \n:param credentials: Credentials needed for the client to connect to Azure.\n\
+    :type credentials: :mod:`A msrestazure Credentials\n object<msrestazure.azure_active_directory>`\n\
     :param subscription_id: The subscription ID that identifies an Azure\n subscription.\n\
-    :type subscription_id: str\n:param accept_language: Gets or sets the preferred\
-    \ language for the\n response.\n:type accept_language: str\n:param long_running_operation_retry_timeout:\
-    \ Gets or sets the retry\n timeout in seconds for Long Running Operations. Default\
-    \ value is 30.\n:type long_running_operation_retry_timeout: int\n:param generate_client_request_id:\
-    \ When set to true a unique\n x-ms-client-request-id value is generated and included\
-    \ in each request.\n Default is true.\n:type generate_client_request_id: bool\n\
-    :param str base_url: Service URL\n:param str filepath: Existing config"
+    :type subscription_id: str\n:param str base_url: Service URL"
   type: Class
   uid: azure.mgmt.sql.SqlManagementClient
+- _type: method
+  class: azure.mgmt.sql.SqlManagementClient
+  fullName: azure.mgmt.sql.SqlManagementClient.list_operations
+  module: azure.mgmt.sql
+  name: list_operations
+  source:
+    id: list_operations
+    path: azure-mgmt-sql/azure/mgmt/sql/sql_management_client.py
+    remote:
+      branch: master
+      path: azure-mgmt-sql/azure/mgmt/sql/sql_management_client.py
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
+    startLine: 110
+  summary: "Lists all of the available SQL Rest API operations.\n\n:param dict custom_headers:\
+    \ headers that will be added to the request\n:param bool raw: returns the direct\
+    \ response alongside the\n deserialized response\n:param operation_config: :ref:`Operation\
+    \ configuration\n overrides<msrest:optionsforoperations>`.\n:rtype: :class:`OperationListResult\n\
+    \ <azure.mgmt.sql.models.OperationListResult>`\n:rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`\n\
+    \ if raw=true\n:raises: :class:`CloudError<msrestazure.azure_exceptions.CloudError>`"
+  type: Method
+  uid: azure.mgmt.sql.SqlManagementClient.list_operations

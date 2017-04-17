@@ -22,7 +22,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/service_principals_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 18
   summary: 'ServicePrincipalsOperations operations.
 
@@ -49,7 +49,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/service_principals_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 37
   summary: "Creates a service principal in the directory.\n\n:param parameters: Parameters\
     \ to create a service principal.\n:type parameters: :class:`ServicePrincipalCreateParameters\n\
@@ -72,7 +72,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/service_principals_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 171
   summary: "Deletes a service principal from the directory.\n\n:param object_id: The\
     \ object ID of the service principal to delete.\n:type object_id: str\n:param\
@@ -94,7 +94,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/service_principals_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 221
   summary: "Gets service principal information from the directory.\n\n:param object_id:\
     \ The object ID of the service principal to get.\n:type object_id: str\n:param\
@@ -117,7 +117,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/service_principals_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 99
   summary: "Gets a list of service principals from the current tenant.\n\n:param filter:\
     \ The filter to apply to the operation.\n:type filter: str\n:param dict custom_headers:\
@@ -138,7 +138,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/service_principals_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 279
   summary: "Get the keyCredentials associated with the specified service principal.\n\
     \n:param object_id: The object ID of the service principal for which to\n get\
@@ -160,7 +160,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/service_principals_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 405
   summary: "Gets the passwordCredentials associated with a service principal.\n\n\
     :param object_id: The object ID of the service principal.\n:type object_id: str\n\
@@ -182,7 +182,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/service_principals_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 345
   summary: "Update the keyCredentials associated with a service principal.\n\n:param\
     \ object_id: The object ID for which to get service principal\n information.\n\
@@ -206,7 +206,7 @@ items:
     remote:
       branch: master
       path: azure-graphrbac/azure/graphrbac/operations/service_principals_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 470
   summary: "Updates the passwordCredentials associated with a service principal.\n\
     \n:param object_id: The object ID of the service principal.\n:type object_id:\

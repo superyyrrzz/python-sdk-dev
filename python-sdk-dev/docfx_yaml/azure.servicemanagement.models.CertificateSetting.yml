@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/servicemanagement/models.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1251
   summary: "Initializes a certificate setting.\n\nthumbprint:\n    Specifies the thumbprint\
     \ of the certificate to be provisioned. The\n    thumbprint must specify an existing\

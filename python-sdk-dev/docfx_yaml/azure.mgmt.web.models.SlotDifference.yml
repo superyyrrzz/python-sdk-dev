@@ -16,21 +16,22 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/slot_difference.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "An object describing the difference in setting values between two web\
-    \ app\nslots.\n\n:param id: Resource Id\n:type id: str\n:param name: Resource\
-    \ Name\n:type name: str\n:param kind: Kind of resource\n:type kind: str\n:param\
-    \ location: Resource Location\n:type location: str\n:param type: Resource type\n\
-    :type type: str\n:param tags: Resource tags\n:type tags: dict\n:param slot_difference_type:\
-    \ Indicates the type of the difference:\n Information, Warning or Error.\n:type\
-    \ slot_difference_type: str\n:param setting_type: The type of the settings: General,\
-    \ AppSetting or\n ConnectionString\n:type setting_type: str\n:param diff_rule:\
-    \ Rule that describes how to process the difference in\n settings during web app\
-    \ slot swap.\n:type diff_rule: str\n:param setting_name: Name of the setting\n\
-    :type setting_name: str\n:param value_in_current_slot: Value of the setting in\
-    \ the current web app\n slot\n:type value_in_current_slot: str\n:param value_in_target_slot:\
-    \ Value of the setting in the target web app\n slot\n:type value_in_target_slot:\
-    \ str\n:param description: Description of the difference\n:type description: str"
+  summary: "A setting difference between two deployment slots of an app.\n\nVariables\
+    \ are only populated by the server, and will be ignored when\nsending a request.\n\
+    \n:ivar id: Resource Id.\n:vartype id: str\n:param name: Resource Name.\n:type\
+    \ name: str\n:param kind: Kind of resource.\n:type kind: str\n:param location:\
+    \ Resource Location.\n:type location: str\n:param type: Resource type.\n:type\
+    \ type: str\n:param tags: Resource tags.\n:type tags: dict\n:ivar slot_difference_type:\
+    \ Type of the difference: Information, Warning\n or Error.\n:vartype slot_difference_type:\
+    \ str\n:ivar setting_type: The type of the setting: General, AppSetting or\n ConnectionString.\n\
+    :vartype setting_type: str\n:ivar diff_rule: Rule that describes how to process\
+    \ the setting difference\n during a slot swap.\n:vartype diff_rule: str\n:ivar\
+    \ setting_name: Name of the setting.\n:vartype setting_name: str\n:ivar value_in_current_slot:\
+    \ Value of the setting in the current slot.\n:vartype value_in_current_slot: str\n\
+    :ivar value_in_target_slot: Value of the setting in the target slot.\n:vartype\
+    \ value_in_target_slot: str\n:ivar description: Description of the setting difference.\n\
+    :vartype description: str"
   type: Class
   uid: azure.mgmt.web.models.SlotDifference

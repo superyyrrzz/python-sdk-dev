@@ -16,7 +16,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflow_versions_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'WorkflowVersionsOperations operations.
 
@@ -43,7 +43,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflow_versions_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 110
   summary: "Gets a workflow version.\n\n:param resource_group_name: The resource group\
     \ name.\n:type resource_group_name: str\n:param workflow_name: The workflow name.\n\
@@ -66,7 +66,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/operations/workflow_versions_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 38
   summary: "Gets a list of workflow versions.\n\n:param resource_group_name: The resource\
     \ group name.\n:type resource_group_name: str\n:param workflow_name: The workflow\

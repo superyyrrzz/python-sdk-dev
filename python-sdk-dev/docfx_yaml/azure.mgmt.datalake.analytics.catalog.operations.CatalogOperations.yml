@@ -47,7 +47,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'CatalogOperations operations.
 
@@ -72,7 +72,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 364
   summary: "Creates the specified credential for use with external data sources in\n\
     the specified database.\n\n:param account_name: The Azure Data Lake Analytics\
@@ -100,7 +100,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 36
   summary: "Creates the specified secret for use with external data sources in the\n\
     specified database. This is deprecated and will be removed in the next\nrelease.\
@@ -128,7 +128,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 307
   summary: "Deletes all secrets in the specified database. This is deprecated and\n\
     will be removed in the next release. In the future, please only drop\nindividual\
@@ -153,7 +153,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 569
   summary: "Deletes the specified credential in the specified database.\n\n:param\
     \ account_name: The Azure Data Lake Analytics account upon which\n to execute\
@@ -184,7 +184,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 247
   summary: "Deletes the specified secret in the specified database. This is\ndeprecated\
     \ and will be removed in the next release. Please use\nDeleteCredential instead.\n\
@@ -210,7 +210,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 2281
   summary: "Retrieves the specified assembly from the Data Lake Analytics catalog.\n\
     \n:param account_name: The Azure Data Lake Analytics account upon which\n to execute\
@@ -236,7 +236,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 502
   summary: "Retrieves the specified credential from the Data Lake Analytics\ncatalog.\n\
     \n:param account_name: The Azure Data Lake Analytics account upon which\n to execute\
@@ -261,7 +261,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 2619
   summary: "Retrieves the specified database from the Data Lake Analytics catalog.\n\
     \n:param account_name: The Azure Data Lake Analytics account upon which\n to execute\
@@ -285,7 +285,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 752
   summary: "Retrieves the specified external data source from the Data Lake\nAnalytics\
     \ catalog.\n\n:param account_name: The Azure Data Lake Analytics account upon\
@@ -312,7 +312,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 925
   summary: "Retrieves the specified procedure from the Data Lake Analytics catalog.\n\
     \n:param account_name: The Azure Data Lake Analytics account upon which\n to execute\
@@ -339,7 +339,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 2451
   summary: "Retrieves the specified schema from the Data Lake Analytics catalog.\n\
     \n:param account_name: The Azure Data Lake Analytics account upon which\n to execute\
@@ -364,7 +364,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 179
   summary: "Gets the specified secret in the specified database. This is deprecated\n\
     and will be removed in the next release. Please use GetCredential\ninstead.\n\n\
@@ -390,7 +390,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1101
   summary: "Retrieves the specified table from the Data Lake Analytics catalog.\n\n\
     :param account_name: The Azure Data Lake Analytics account upon which\n to execute\
@@ -416,7 +416,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1810
   summary: "Retrieves the specified table partition from the Data Lake Analytics\n\
     catalog.\n\n:param account_name: The Azure Data Lake Analytics account upon which\n\
@@ -445,7 +445,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1626
   summary: "Retrieves the specified table statistics from the Data Lake Analytics\n\
     catalog.\n\n:param account_name: The Azure Data Lake Analytics account upon which\n\
@@ -474,7 +474,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1275
   summary: "Retrieves the specified table type from the Data Lake Analytics\ncatalog.\n\
     \n:param account_name: The Azure Data Lake Analytics account upon which\n to execute\
@@ -501,7 +501,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 2100
   summary: "Retrieves the specified table valued function from the Data Lake\nAnalytics\
     \ catalog.\n\n:param account_name: The Azure Data Lake Analytics account upon\
@@ -529,7 +529,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1452
   summary: "Retrieves the specified view from the Data Lake Analytics catalog.\n\n\
     :param account_name: The Azure Data Lake Analytics account upon which\n to execute\
@@ -555,7 +555,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 2348
   summary: "Retrieves the list of assemblies from the Data Lake Analytics catalog.\n\
     \n:param account_name: The Azure Data Lake Analytics account upon which\n to execute\
@@ -590,7 +590,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 650
   summary: "Retrieves the list of credentials from the Data Lake Analytics catalog.\n\
     \n:param account_name: The Azure Data Lake Analytics account upon which\n to execute\
@@ -625,7 +625,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 2682
   summary: "Retrieves the list of databases from the Data Lake Analytics catalog.\n\
     \n:param account_name: The Azure Data Lake Analytics account upon which\n to execute\
@@ -658,7 +658,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 821
   summary: "Retrieves the list of external data sources from the Data Lake\nAnalytics\
     \ catalog.\n\n:param account_name: The Azure Data Lake Analytics account upon\
@@ -693,7 +693,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 995
   summary: "Retrieves the list of procedures from the Data Lake Analytics catalog.\n\
     \n:param account_name: The Azure Data Lake Analytics account upon which\n to execute\
@@ -729,7 +729,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 2517
   summary: "Retrieves the list of schemas from the Data Lake Analytics catalog.\n\n\
     :param account_name: The Azure Data Lake Analytics account upon which\n to execute\
@@ -764,7 +764,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1884
   summary: "Retrieves the list of table partitions from the Data Lake Analytics\n\
     catalog.\n\n:param account_name: The Azure Data Lake Analytics account upon which\n\
@@ -801,7 +801,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1700
   summary: "Retrieves the list of table statistics from the Data Lake Analytics\n\
     catalog.\n\n:param account_name: The Azure Data Lake Analytics account upon which\n\
@@ -838,7 +838,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1346
   summary: "Retrieves the list of table types from the Data Lake Analytics catalog.\n\
     \n:param account_name: The Azure Data Lake Analytics account upon which\n to execute\
@@ -874,7 +874,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 2173
   summary: "Retrieves the list of table valued functions from the Data Lake\nAnalytics\
     \ catalog.\n\n:param account_name: The Azure Data Lake Analytics account upon\
@@ -910,7 +910,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1170
   summary: "Retrieves the list of tables from the Data Lake Analytics catalog.\n\n\
     :param account_name: The Azure Data Lake Analytics account upon which\n to execute\
@@ -946,7 +946,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1994
   summary: "Retrieves the list of types within the specified database and schema\n\
     from the Data Lake Analytics catalog.\n\n:param account_name: The Azure Data Lake\
@@ -982,7 +982,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1521
   summary: "Retrieves the list of views from the Data Lake Analytics catalog.\n\n\
     :param account_name: The Azure Data Lake Analytics account upon which\n to execute\
@@ -1018,7 +1018,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 433
   summary: "Modifies the specified credential for use with external data sources in\n\
     the specified database.\n\n:param account_name: The Azure Data Lake Analytics\
@@ -1046,7 +1046,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/catalog/operations/catalog_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 108
   summary: "Modifies the specified secret for use with external data sources in the\n\
     specified database. This is deprecated and will be removed in the next\nrelease.\

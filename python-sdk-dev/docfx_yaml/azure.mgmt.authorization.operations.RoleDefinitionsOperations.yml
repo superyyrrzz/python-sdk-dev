@@ -19,7 +19,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-authorization/azure/mgmt/authorization/operations/role_definitions_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'RoleDefinitionsOperations operations.
 
@@ -44,7 +44,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-authorization/azure/mgmt/authorization/operations/role_definitions_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 158
   summary: "Creates or updates a role definition.\n\n:param scope: The scope of the\
     \ role definition.\n:type scope: str\n:param role_definition_id: The ID of the\
@@ -69,7 +69,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-authorization/azure/mgmt/authorization/operations/role_definitions_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 36
   summary: "Deletes a role definition.\n\n:param scope: The scope of the role definition.\n\
     :type scope: str\n:param role_definition_id: The ID of the role definition to\
@@ -92,7 +92,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-authorization/azure/mgmt/authorization/operations/role_definitions_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 97
   summary: "Get role definition by name (GUID).\n\n:param scope: The scope of the\
     \ role definition.\n:type scope: str\n:param role_definition_id: The ID of the\
@@ -115,7 +115,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-authorization/azure/mgmt/authorization/operations/role_definitions_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 226
   summary: "Gets a role definition by ID.\n\n:param role_definition_id: The fully\
     \ qualified role definition ID to\n get.\n:type role_definition_id: str\n:param\
@@ -138,7 +138,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-authorization/azure/mgmt/authorization/operations/role_definitions_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 285
   summary: "Get all role definitions that are applicable at scope and above.\n\n:param\
     \ scope: The scope of the role definition.\n:type scope: str\n:param filter: The\

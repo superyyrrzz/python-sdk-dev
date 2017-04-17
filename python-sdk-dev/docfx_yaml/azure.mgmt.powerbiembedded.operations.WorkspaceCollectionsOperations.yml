@@ -24,7 +24,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'WorkspaceCollectionsOperations operations.
 
@@ -49,7 +49,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 321
   summary: "Verify the specified Power BI Workspace Collection name is valid and\n\
     not already in use.\n\n:param location: Azure location\n:type location: str\n\
@@ -73,7 +73,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 98
   summary: "Creates a new Power BI Workspace Collection with the specified\nproperties.\
     \ A Power BI Workspace Collection contains one or more\nworkspaces, and can be\
@@ -100,7 +100,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 244
   summary: "Delete a Power BI Workspace Collection.\n\n:param resource_group_name:\
     \ Azure resource group\n:type resource_group_name: str\n:param workspace_collection_name:\
@@ -123,7 +123,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 519
   summary: "Retrieves the primary and secondary access keys for the specified\nPower\
     \ BI Workspace Collection.\n\n:param resource_group_name: Azure resource group\n\
@@ -148,7 +148,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 36
   summary: "Retrieves an existing Power BI Workspace Collection.\n\n:param resource_group_name:\
     \ Azure resource group\n:type resource_group_name: str\n:param workspace_collection_name:\
@@ -172,7 +172,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 390
   summary: "Retrieves all existing Power BI workspace collections in the specified\n\
     resource group.\n\n:param resource_group_name: Azure resource group\n:type resource_group_name:\
@@ -194,7 +194,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 456
   summary: "Retrieves all existing Power BI workspace collections in the specified\n\
     subscription.\n\n:param dict custom_headers: headers that will be added to the\
@@ -215,7 +215,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 654
   summary: "Migrates an existing Power BI Workspace Collection to a different\nresource\
     \ group and/or subscription.\n\n:param resource_group_name: Azure resource group\n\
@@ -240,7 +240,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 582
   summary: "Regenerates the primary or secondary access key for the specified\nPower\
     \ BI Workspace Collection.\n\n:param resource_group_name: Azure resource group\n\
@@ -267,7 +267,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspace_collections_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 173
   summary: "Update an existing Power BI Workspace Collection with the specified\n\
     properties.\n\n:param resource_group_name: Azure resource group\n:type resource_group_name:\

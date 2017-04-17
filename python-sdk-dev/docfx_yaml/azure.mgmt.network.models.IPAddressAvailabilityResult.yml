@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/ip_address_availability_result.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Response for CheckIPAddressAvailability Api service call.\n\n:param available:\
     \ Private IP address availability\n:type available: bool\n:param available_ip_addresses:\

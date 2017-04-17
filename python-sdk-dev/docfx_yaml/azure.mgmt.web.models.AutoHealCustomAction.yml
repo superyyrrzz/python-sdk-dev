@@ -15,18 +15,18 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/auto_heal_custom_action.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: 'AutoHealCustomAction - Describes the custom action to be executed
+  summary: 'Custom action to be executed
 
     when an auto heal rule is triggered.
 
 
-    :param exe: Executable to be run
+    :param exe: Executable to be run.
 
     :type exe: str
 
-    :param parameters: Parameters for the executable
+    :param parameters: Parameters for the executable.
 
     :type parameters: str'
   type: Class

@@ -21,7 +21,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_network_gateway_connections_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 20
   summary: 'VirtualNetworkGatewayConnectionsOperations operations.
 
@@ -46,7 +46,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_network_gateway_connections_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 37
   summary: "The Put VirtualNetworkGatewayConnection operation creates/updates a\n\
     virtual network gateway connection in the specified resource group\nthrough Network\
@@ -74,7 +74,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_network_gateway_connections_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 199
   summary: "The Delete VirtualNetworkGatewayConnection operation deletes the\nspecified\
     \ virtual network Gateway connection through Network resource\nprovider.\n\n:param\
@@ -99,7 +99,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_network_gateway_connections_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 135
   summary: "The Get VirtualNetworkGatewayConnection operation retrieves\ninformation\
     \ about the specified virtual network gateway connection\nthrough Network resource\
@@ -124,7 +124,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_network_gateway_connections_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 278
   summary: "The Get VirtualNetworkGatewayConnectionSharedKey operation retrieves\n\
     information about the specified virtual network gateway connection\nshared key\
@@ -149,7 +149,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_network_gateway_connections_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 342
   summary: "The List VirtualNetworkGatewayConnections operation retrieves all the\n\
     virtual network gateways connections created.\n\n:param resource_group_name: The\
@@ -171,7 +171,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_network_gateway_connections_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 408
   summary: "The VirtualNetworkGatewayConnectionResetSharedKey operation resets the\n\
     virtual network gateway connection shared key for passed virtual\nnetwork gateway\
@@ -198,7 +198,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/virtual_network_gateway_connections_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 505
   summary: "The Put VirtualNetworkGatewayConnectionSharedKey operation sets the\n\
     virtual network gateway connection shared key for passed virtual\nnetwork gateway\

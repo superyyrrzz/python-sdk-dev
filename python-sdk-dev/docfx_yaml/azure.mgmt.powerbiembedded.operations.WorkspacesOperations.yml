@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 18
   summary: 'WorkspacesOperations operations.
 
@@ -40,7 +40,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/operations/workspaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 35
   summary: "Retrieves all existing Power BI workspaces in the specified workspace\n\
     collection.\n\n:param resource_group_name: Azure resource group\n:type resource_group_name:\

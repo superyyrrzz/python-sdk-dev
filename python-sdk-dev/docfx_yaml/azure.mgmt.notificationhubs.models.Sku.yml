@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-notificationhubs/azure/mgmt/notificationhubs/models/sku.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "The Sku description for a namespace.\n\n:param name: Name of the notification\
     \ hub sku. Possible values include:\n 'Free', 'Basic', 'Standard'\n:type name:\

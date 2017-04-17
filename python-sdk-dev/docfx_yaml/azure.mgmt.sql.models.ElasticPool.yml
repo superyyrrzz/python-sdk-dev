@@ -16,24 +16,25 @@ items:
     remote:
       branch: master
       path: azure-mgmt-sql/azure/mgmt/sql/models/elastic_pool.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "Represents an Azure SQL Database elastic pool.\n\nVariables are only populated\
-    \ by the server, and will be ignored when\nsending a request.\n\n:ivar name: Resource\
+  summary: "Represents a database elastic pool.\n\nVariables are only populated by\
+    \ the server, and will be ignored when\nsending a request.\n\n:ivar name: Resource\
     \ name\n:vartype name: str\n:ivar id: Resource ID\n:vartype id: str\n:ivar type:\
     \ Resource type\n:vartype type: str\n:param location: Resource location\n:type\
     \ location: str\n:param tags: Resource tags\n:type tags: dict\n:ivar creation_date:\
-    \ The creation date of the Azure SQL Elastic Pool\n (ISO8601 format).\n:vartype\
-    \ creation_date: datetime\n:ivar state: The state of the Azure SQL Elastic Pool.\
-    \ Possible values\n include: 'Creating', 'Ready', 'Disabled'\n:vartype state:\
-    \ str or :class:`ElasticPoolState\n <azure.mgmt.sql.models.ElasticPoolState>`\n\
-    :param edition: The edition of the Azure SQL Elastic Pool. Possible values\n include:\
-    \ 'Basic', 'Standard', 'Premium'\n:type edition: str or :class:`ElasticPoolEditions\n\
-    \ <azure.mgmt.sql.models.ElasticPoolEditions>`\n:param dtu: The total shared DTU\
-    \ for the SQL Azure Database Elastic Pool.\n:type dtu: int\n:param database_dtu_max:\
-    \ The maximum DTU any one SQL Azure Database can\n consume.\n:type database_dtu_max:\
-    \ int\n:param database_dtu_min: The minimum DTU all SQL Azure Databases are\n\
-    \ guaranteed.\n:type database_dtu_min: int\n:param storage_mb: Gets storage limit\
-    \ for the SQL Azure Database Elastic\n Pool in MB.\n:type storage_mb: int"
+    \ The creation date of the elastic pool (ISO8601\n format).\n:vartype creation_date:\
+    \ datetime\n:ivar state: The state of the elastic pool. Possible values include:\n\
+    \ 'Creating', 'Ready', 'Disabled'\n:vartype state: str or :class:`ElasticPoolState\n\
+    \ <azure.mgmt.sql.models.ElasticPoolState>`\n:param edition: The edition of the\
+    \ elastic pool. Possible values include:\n 'Basic', 'Standard', 'Premium'\n:type\
+    \ edition: str or :class:`ElasticPoolEditions\n <azure.mgmt.sql.models.ElasticPoolEditions>`\n\
+    :param dtu: The total shared DTU for the database elastic pool.\n:type dtu: int\n\
+    :param database_dtu_max: The maximum DTU any one database can consume.\n:type\
+    \ database_dtu_max: int\n:param database_dtu_min: The minimum DTU all databases\
+    \ are guaranteed.\n:type database_dtu_min: int\n:param storage_mb: Gets storage\
+    \ limit for the database elastic pool in MB.\n:type storage_mb: int\n:ivar kind:\
+    \ Kind of elastic pool.  This is metadata used for the Azure\n portal experience.\n\
+    :vartype kind: str"
   type: Class
   uid: azure.mgmt.sql.models.ElasticPool

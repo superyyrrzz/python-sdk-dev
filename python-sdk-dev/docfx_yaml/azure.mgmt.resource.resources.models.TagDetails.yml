@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/tag_details.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Tag details.\n\n:param id: The tag ID.\n:type id: str\n:param tag_name:\
     \ The tag name.\n:type tag_name: str\n:param count: The tag count.\n:type count:\

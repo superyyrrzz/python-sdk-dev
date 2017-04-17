@@ -19,7 +19,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/load_balancers_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 20
   summary: 'LoadBalancersOperations operations.
 
@@ -44,7 +44,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/load_balancers_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 178
   summary: "The Put LoadBalancer operation creates/updates a LoadBalancer.\n\n:param\
     \ resource_group_name: The name of the resource group.\n:type resource_group_name:\
@@ -69,7 +69,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/load_balancers_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 37
   summary: "The delete LoadBalancer operation deletes the specified load balancer.\n\
     \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
@@ -92,7 +92,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/load_balancers_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 113
   summary: "The Get LoadBalancer operation retrieves information about the\nspecified\
     \ LoadBalancer.\n\n:param resource_group_name: The name of the resource group.\n\
@@ -116,7 +116,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/load_balancers_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 335
   summary: "The List loadBalancer operation retrieves all the load balancers in a\n\
     resource group.\n\n:param resource_group_name: The name of the resource group.\n\
@@ -138,7 +138,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/operations/load_balancers_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 272
   summary: "The List loadBalancer operation retrieves all the load balancers in a\n\
     subscription.\n\n:param dict custom_headers: headers that will be added to the\

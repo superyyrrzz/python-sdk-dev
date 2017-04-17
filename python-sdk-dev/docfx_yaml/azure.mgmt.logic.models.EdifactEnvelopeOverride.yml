@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/edifact_envelope_override.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "EdifactEnvelopeOverride.\n\n:param message_id: The message id on which\
     \ this envelope settings has to\n be applied.\n:type message_id: str\n:param message_version:\

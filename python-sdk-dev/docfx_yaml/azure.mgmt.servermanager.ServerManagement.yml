@@ -14,7 +14,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/server_management.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 80
   summary: "REST API for Azure Server Management Service.\n\n:ivar config: Configuration\
     \ for client.\n:vartype config: ServerManagementConfiguration\n\n:ivar gateway:\

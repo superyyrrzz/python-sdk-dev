@@ -15,13 +15,26 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/hosting_environment_profile.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "Specification for a hostingEnvironment (App Service Environment) to use\n\
-    for this resource.\n\n:param id: Resource id of the hostingEnvironment (App Service\
-    \ Environment)\n:type id: str\n:param name: Name of the hostingEnvironment (App\
-    \ Service Environment)\n (read only)\n:type name: str\n:param type: Resource type\
-    \ of the hostingEnvironment (App Service\n Environment) (read only)\n:type type:\
-    \ str"
+  summary: 'Specification for an App Service Environment to use for this resource.
+
+
+    Variables are only populated by the server, and will be ignored when
+
+    sending a request.
+
+
+    :param id: Resource ID of the App Service Environment.
+
+    :type id: str
+
+    :ivar name: Name of the App Service Environment.
+
+    :vartype name: str
+
+    :ivar type: Resource type of the App Service Environment.
+
+    :vartype type: str'
   type: Class
   uid: azure.mgmt.web.models.HostingEnvironmentProfile

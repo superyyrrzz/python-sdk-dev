@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/models/validate_custom_domain_output.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Output of custom domain validation.\n\n:param custom_domain_validated:\
     \ Indicates whether the custom domain is\n validated or not.\n:type custom_domain_validated:\

@@ -15,19 +15,19 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/host_name.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Details of a hostname derived from a domain.\n\n:param name: Name of the\
-    \ hostname\n:type name: str\n:param site_names: List of sites the hostname is\
-    \ assigned to. This list\n will have more than one site only if the hostname is\
-    \ pointing to a\n Traffic Manager\n:type site_names: list of str\n:param azure_resource_name:\
+    \ hostname.\n:type name: str\n:param site_names: List of apps the hostname is\
+    \ assigned to. This list\n will have more than one app only if the hostname is\
+    \ pointing to a Traffic\n Manager.\n:type site_names: list of str\n:param azure_resource_name:\
     \ Name of the Azure resource the hostname is\n assigned to. If it is assigned\
-    \ to a traffic manager then it will be the\n traffic manager name otherwise it\
-    \ will be the website name\n:type azure_resource_name: str\n:param azure_resource_type:\
+    \ to a Traffic Manager then it will be the\n Traffic Manager name otherwise it\
+    \ will be the app name.\n:type azure_resource_name: str\n:param azure_resource_type:\
     \ Type of the Azure resource the hostname is\n assigned to. Possible values include:\
     \ 'Website', 'TrafficManager'\n:type azure_resource_type: str or :class:`AzureResourceType\n\
     \ <azure.mgmt.web.models.AzureResourceType>`\n:param custom_host_name_dns_record_type:\
-    \ Type of the Dns record. Possible\n values include: 'CName', 'A'\n:type custom_host_name_dns_record_type:\
+    \ Type of the DNS record. Possible\n values include: 'CName', 'A'\n:type custom_host_name_dns_record_type:\
     \ str or\n :class:`CustomHostNameDnsRecordType\n <azure.mgmt.web.models.CustomHostNameDnsRecordType>`\n\
     :param host_name_type: Type of the hostname. Possible values include:\n 'Verified',\
     \ 'Managed'\n:type host_name_type: str or :class:`HostNameType\n <azure.mgmt.web.models.HostNameType>`"

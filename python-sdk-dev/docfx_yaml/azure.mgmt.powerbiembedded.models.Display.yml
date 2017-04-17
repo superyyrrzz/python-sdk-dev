@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-powerbiembedded/azure/mgmt/powerbiembedded/models/display.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Display.\n\n:param provider: The localized friendly form of the resource\
     \ provider\n name. This form is also expected to include the publisher/company\n\

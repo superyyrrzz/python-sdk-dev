@@ -16,17 +16,17 @@ items:
     remote:
       branch: master
       path: azure-mgmt-sql/azure/mgmt/sql/models/service_objective.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "Represents an Azure SQL Database Service Objective.\n\nVariables are only\
-    \ populated by the server, and will be ignored when\nsending a request.\n\n:ivar\
-    \ name: Resource name\n:vartype name: str\n:ivar id: The resource ID.\n:vartype\
-    \ id: str\n:ivar service_objective_name: The name for the service objective.\n\
-    :vartype service_objective_name: str\n:ivar is_default: Gets whether the service\
-    \ level objective is the default\n service objective.\n:vartype is_default: bool\n\
-    :ivar is_system: Gets whether the service level objective is a system\n service\
-    \ objective.\n:vartype is_system: bool\n:ivar description: The description for\
-    \ the service level objective.\n:vartype description: str\n:ivar enabled: Gets\
-    \ whether the service level objective is enabled.\n:vartype enabled: bool"
+  summary: "Represents a database service objective.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar name: Resource\
+    \ name\n:vartype name: str\n:ivar id: The resource ID.\n:vartype id: str\n:ivar\
+    \ service_objective_name: The name for the service objective.\n:vartype service_objective_name:\
+    \ str\n:ivar is_default: Gets whether the service level objective is the default\n\
+    \ service objective.\n:vartype is_default: bool\n:ivar is_system: Gets whether\
+    \ the service level objective is a system\n service objective.\n:vartype is_system:\
+    \ bool\n:ivar description: The description for the service level objective.\n\
+    :vartype description: str\n:ivar enabled: Gets whether the service level objective\
+    \ is enabled.\n:vartype enabled: bool"
   type: Class
   uid: azure.mgmt.sql.models.ServiceObjective

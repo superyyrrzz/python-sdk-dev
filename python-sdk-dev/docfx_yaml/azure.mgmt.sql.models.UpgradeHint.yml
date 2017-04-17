@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-sql/azure/mgmt/sql/models/upgrade_hint.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Represents a Upgrade Hint.\n\n:param target_service_level_objective: TargetServiceLevelObjective\
     \ for\n upgrade hint.\n:type target_service_level_objective: str\n:param target_service_level_objective_id:\

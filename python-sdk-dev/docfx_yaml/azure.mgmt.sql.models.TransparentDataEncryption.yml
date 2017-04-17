@@ -16,13 +16,13 @@ items:
     remote:
       branch: master
       path: azure-mgmt-sql/azure/mgmt/sql/models/transparent_data_encryption.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "Represents an Azure SQL Database Transparent Data Encryption .\n\nVariables\
-    \ are only populated by the server, and will be ignored when\nsending a request.\n\
-    \n:ivar name: Resource name\n:vartype name: str\n:ivar id: The resource ID.\n\
-    :vartype id: str\n:param status: The status of the Azure SQL Database Transparent\
-    \ Data\n Encryption. Possible values include: 'Enabled', 'Disabled'\n:type status:\
-    \ str or :class:`TransparentDataEncryptionStates\n <azure.mgmt.sql.models.TransparentDataEncryptionStates>`"
+  summary: "Represents a database transparent data encryption .\n\nVariables are only\
+    \ populated by the server, and will be ignored when\nsending a request.\n\n:ivar\
+    \ name: Resource name\n:vartype name: str\n:ivar id: The resource ID.\n:vartype\
+    \ id: str\n:param status: The status of the database transparent data encryption.\n\
+    \ Possible values include: 'Enabled', 'Disabled'\n:type status: str or :class:`TransparentDataEncryptionStates\n\
+    \ <azure.mgmt.sql.models.TransparentDataEncryptionStates>`"
   type: Class
   uid: azure.mgmt.sql.models.TransparentDataEncryption

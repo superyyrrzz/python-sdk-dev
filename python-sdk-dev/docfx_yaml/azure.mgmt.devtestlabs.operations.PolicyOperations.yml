@@ -19,7 +19,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/policy_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'PolicyOperations operations.
 
@@ -44,7 +44,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/policy_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 189
   summary: "Create or replace an existing policy.\n\n:param resource_group_name: The\
     \ name of the resource group.\n:type resource_group_name: str\n:param lab_name:\
@@ -69,7 +69,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/policy_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 264
   summary: "Delete policy.\n\n:param resource_group_name: The name of the resource\
     \ group.\n:type resource_group_name: str\n:param lab_name: The name of the lab.\n\
@@ -93,7 +93,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/policy_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 122
   summary: "Get policy.\n\n:param resource_group_name: The name of the resource group.\n\
     :type resource_group_name: str\n:param lab_name: The name of the lab.\n:type lab_name:\
@@ -117,7 +117,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/policy_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 36
   summary: "List policies in a given policy set.\n\n:param resource_group_name: The\
     \ name of the resource group.\n:type resource_group_name: str\n:param lab_name:\
@@ -144,7 +144,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/policy_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 324
   summary: "Modify properties of policies.\n\n:param resource_group_name: The name\
     \ of the resource group.\n:type resource_group_name: str\n:param lab_name: The\

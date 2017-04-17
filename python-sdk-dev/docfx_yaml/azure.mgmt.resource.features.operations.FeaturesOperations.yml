@@ -18,7 +18,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/features/operations/features_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'FeaturesOperations operations.
 
@@ -43,7 +43,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/features/operations/features_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 165
   summary: "Get all features under the subscription.\n\n:param resource_provider_namespace:\
     \ Namespace of the resource\n provider.\n:type resource_provider_namespace: str\n\
@@ -66,7 +66,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/features/operations/features_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 99
   summary: "Gets a list of previewed features of a resource provider.\n\n:param resource_provider_namespace:\
     \ The namespace of the resource\n provider.\n:type resource_provider_namespace:\
@@ -87,7 +87,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/features/operations/features_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 36
   summary: "Gets a list of previewed features for all the providers in the current\n\
     subscription.\n\n:param dict custom_headers: headers that will be added to the\
@@ -107,7 +107,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/features/operations/features_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 227
   summary: "Registers for a previewed feature of a resource provider.\n\n:param resource_provider_namespace:\
     \ Namespace of the resource\n provider.\n:type resource_provider_namespace: str\n\

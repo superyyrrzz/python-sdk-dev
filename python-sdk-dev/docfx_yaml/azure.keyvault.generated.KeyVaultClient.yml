@@ -56,7 +56,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 67
   summary: "The key vault client performs cryptographic key operations and vault operations\
     \ against the Key Vault service.\n\n:ivar config: Configuration for client.\n\
@@ -83,7 +83,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 631
   summary: "Requests that a backup of the specified key be downloaded to the\nclient.\n\
     \n:param vault_base_url: The vault name, for example\n https://myvault.vault.azure.net.\n\
@@ -107,7 +107,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 2308
   summary: "Creates a new certificate. If this is the first version, the\ncertificate\
     \ resource is created.\n\n:param vault_base_url: The vault name, for example\n\
@@ -137,7 +137,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 102
   summary: "Creates a new key, stores it, then returns key parameters and\nattributes\
     \ to the client. The create key operation can be used to\ncreate any key type\
@@ -173,7 +173,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 836
   summary: "Decrypts a single block of encrypted data.\n\n:param vault_base_url: The\
     \ vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
@@ -200,7 +200,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1717
   summary: "Deletes a certificate from a specified key vault.\n\n:param vault_base_url:\
     \ The vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
@@ -224,7 +224,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1901
   summary: "Deletes the certificate contacts for a specified key vault.\n\n:param\
     \ vault_base_url: The vault name, for example\n https://myvault.vault.azure.net.\n\
@@ -247,7 +247,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 2247
   summary: "Deletes the specified certificate issuer.\n\n:param vault_base_url: The\
     \ vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
@@ -271,7 +271,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 2952
   summary: "Deletes the operation for a specified certificate.\n\n:param vault_base_url:\
     \ The vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
@@ -295,7 +295,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 271
   summary: "Deletes a key of any type from storage in Azure Key Vault. The delete\n\
     key operation cannot be used to remove individual versions of a key.\nThis operation\
@@ -323,7 +323,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1300
   summary: "Deletes a secret from a specified key vault.\n\n:param vault_base_url:\
     \ The vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
@@ -347,7 +347,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 759
   summary: "Encrypts an arbitrary sequence of bytes using an encryption key that is\n\
     stored in a key vault.\n\n:param vault_base_url: The vault name, for example\n\
@@ -375,7 +375,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 2756
   summary: "Gets information about a specified certificate.\n\n:param vault_base_url:\
     \ The vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
@@ -400,7 +400,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1844
   summary: "Lists the certificate contacts for a specified key vault.\n\n:param vault_base_url:\
     \ The vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
@@ -423,7 +423,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 2186
   summary: "Lists the specified certificate issuer.\n\n:param vault_base_url: The\
     \ vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
@@ -447,7 +447,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1958
   summary: "List certificate issuers for a specified key vault.\n\n:param vault_base_url:\
     \ The vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
@@ -471,7 +471,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 2891
   summary: "Gets the operation associated with a specified certificate.\n\n:param\
     \ vault_base_url: The vault name, for example\n https://myvault.vault.azure.net.\n\
@@ -495,7 +495,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 2543
   summary: "Lists the policy for a certificate.\n\n:param vault_base_url: The vault\
     \ name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
@@ -519,7 +519,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 2470
   summary: "List the versions of a certificate.\n\n:param vault_base_url: The vault\
     \ name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
@@ -544,7 +544,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1647
   summary: "List certificates in a specified key vault.\n\n:param vault_base_url:\
     \ The vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
@@ -568,7 +568,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 419
   summary: "Gets the public part of a stored key. The get key operation is\napplicable\
     \ to all key types. If the requested key is symmetric, then no\nkey material is\
@@ -595,7 +595,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 486
   summary: "Retrieves a list of individual key versions with the same key name. The\n\
     full key identifier, attributes, and tags are provided in the response.\nAuthorization:\
@@ -621,7 +621,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 561
   summary: "List keys in the specified vault.\n\n:param vault_base_url: The vault\
     \ name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
@@ -645,7 +645,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1440
   summary: "Get a specified secret from a given key vault.\n\n:param vault_base_url:\
     \ The vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
@@ -670,7 +670,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1574
   summary: "List the versions of the specified secret.\n\n:param vault_base_url: The\
     \ vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
@@ -695,7 +695,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1504
   summary: "List secrets in a specified key vault.\n\n:param vault_base_url: The vault\
     \ name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
@@ -719,7 +719,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 2386
   summary: "Imports a certificate into a specified key vault.\n\n:param vault_base_url:\
     \ The vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
@@ -752,7 +752,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 190
   summary: "Imports an externally created key, stores it, and returns key\nparameters\
     \ and attributes to the client. The import key operation may\nbe used to import\
@@ -784,7 +784,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 3013
   summary: "Merges a certificate or a certificate chain with a key pair existing on\n\
     the server.\n\n:param vault_base_url: The vault name, for example\n https://myvault.vault.azure.net.\n\
@@ -813,7 +813,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 693
   summary: "Restores a backed up key to a vault.\n\n:param vault_base_url: The vault\
     \ name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
@@ -837,7 +837,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1778
   summary: "Sets the certificate contacts for the specified key vault.\n\n:param vault_base_url:\
     \ The vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
@@ -862,7 +862,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 2028
   summary: "Sets the specified certificate issuer.\n\n:param vault_base_url: The vault\
     \ name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
@@ -892,7 +892,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1223
   summary: "Sets a secret in a specified key vault.\n\n:param vault_base_url: The\
     \ vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
@@ -921,7 +921,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 912
   summary: "Creates a signature from a digest using the specified key.\n\n:param vault_base_url:\
     \ The vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
@@ -949,7 +949,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1146
   summary: "Unwraps a symmetric key using the specified key that was initially used\n\
     for wrapping that key.\n\n:param vault_base_url: The vault name, for example\n\
@@ -977,7 +977,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 2675
   summary: "Updates the specified attributes associated with the given certificate.\n\
     \n:param vault_base_url: The vault name, for example\n https://myvault.vault.azure.net.\n\
@@ -1008,7 +1008,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 2107
   summary: "Updates the specified certificate issuer.\n\n:param vault_base_url: The\
     \ vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
@@ -1038,7 +1038,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 2821
   summary: "Updates a certificate operation.\n\n:param vault_base_url: The vault name,\
     \ for example\n https://myvault.vault.azure.net.\n:type vault_base_url: str\n\
@@ -1064,7 +1064,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 2605
   summary: "Updates the policy for a certificate. Set specified members in the\ncertificate\
     \ policy. Leave others as null.\n\n:param vault_base_url: The vault name, for\
@@ -1091,7 +1091,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 336
   summary: "The update key operation changes specified attributes of a stored key\n\
     and can be applied to any key type and key version stored in Azure Key\nVault.\
@@ -1124,7 +1124,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1361
   summary: "Updates the attributes associated with a specified secret in a given\n\
     key vault.\n\n:param vault_base_url: The vault name, for example\n https://myvault.vault.azure.net.\n\
@@ -1153,7 +1153,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 990
   summary: "Verifies a signature using a specified key.\n\n:param vault_base_url:\
     \ The vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\
@@ -1182,7 +1182,7 @@ items:
     remote:
       branch: master
       path: azure-keyvault/azure/keyvault/generated/key_vault_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 1070
   summary: "Wraps a symmetric key using a specified key.\n\n:param vault_base_url:\
     \ The vault name, for example\n https://myvault.vault.azure.net.\n:type vault_base_url:\

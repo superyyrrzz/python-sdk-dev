@@ -14,7 +14,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-eventhub/azure/mgmt/eventhub/event_hub_management_client.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 79
   summary: "Azure Event Hubs client\n\n:ivar config: Configuration for client.\n:vartype\
     \ config: EventHubManagementClientConfiguration\n\n:ivar namespaces: Namespaces\

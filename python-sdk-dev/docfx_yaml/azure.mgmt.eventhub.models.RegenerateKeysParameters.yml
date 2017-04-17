@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-eventhub/azure/mgmt/eventhub/models/regenerate_keys_parameters.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Parameters supplied to the Regenerate Authorization Rule operation.\n\n\
     :param policykey: Key that needs to be regenerated. Possible values\n include:\

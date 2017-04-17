@@ -16,27 +16,31 @@ items:
     remote:
       branch: master
       path: azure-mgmt-sql/azure/mgmt/sql/models/replication_link.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "Represents an Azure SQL database replication link.\n\nVariables are only\
-    \ populated by the server, and will be ignored when\nsending a request.\n\n:ivar\
-    \ name: Resource name\n:vartype name: str\n:ivar id: The resource ID.\n:vartype\
-    \ id: str\n:ivar partner_server: The name of the Azure SQL server hosting the\
-    \ partner\n Azure SQL Database.\n:vartype partner_server: str\n:ivar partner_database:\
-    \ The name of the partner Azure SQL Database.\n:vartype partner_database: str\n\
-    :ivar partner_location: The Azure Region of the partner Azure SQL\n Database.\n\
-    :vartype partner_location: str\n:ivar role: The role of the Azure SQL database\
-    \ in the replication link.\n Possible values include: 'Primary', 'Secondary',\
-    \ 'NonReadableSecondary',\n 'Source', 'Copy'\n:vartype role: str or :class:`ReplicationRole\n\
-    \ <azure.mgmt.sql.models.ReplicationRole>`\n:ivar partner_role: The role of the\
-    \ partner Azure SQL Database in the\n replication link. Possible values include:\
-    \ 'Primary', 'Secondary',\n 'NonReadableSecondary', 'Source', 'Copy'\n:vartype\
-    \ partner_role: str or :class:`ReplicationRole\n <azure.mgmt.sql.models.ReplicationRole>`\n\
-    :ivar start_time: The start time for the replication link (ISO8601\n format).\n\
-    :vartype start_time: datetime\n:ivar percent_complete: The percentage of seeding\
-    \ complete for the\n replication link.\n:vartype percent_complete: int\n:ivar\
-    \ replication_state: The replication state for the replication link.\n Possible\
-    \ values include: 'PENDING', 'SEEDING', 'CATCH_UP', 'SUSPENDED'\n:vartype replication_state:\
-    \ str or :class:`ReplicationState\n <azure.mgmt.sql.models.ReplicationState>`"
+  summary: "Represents a database replication link.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar name: Resource\
+    \ name\n:vartype name: str\n:ivar id: The resource ID.\n:vartype id: str\n:ivar\
+    \ location: Location of the server that contains this firewall rule.\n:vartype\
+    \ location: str\n:ivar type: Type of resource this is.\n:vartype type: str\n:ivar\
+    \ is_termination_allowed: Legacy value indicating whether termination\n is allowed.\
+    \  Currently always returns true.\n:vartype is_termination_allowed: bool\n:ivar\
+    \ replication_mode: Replication mode of this replication link.\n:vartype replication_mode:\
+    \ str\n:ivar partner_server: The name of the server hosting the partner database.\n\
+    :vartype partner_server: str\n:ivar partner_database: The name of the partner\
+    \ database.\n:vartype partner_database: str\n:ivar partner_location: The Azure\
+    \ Region of the partner database.\n:vartype partner_location: str\n:ivar role:\
+    \ The role of the database in the replication link. Possible\n values include:\
+    \ 'Primary', 'Secondary', 'NonReadableSecondary', 'Source',\n 'Copy'\n:vartype\
+    \ role: str or :class:`ReplicationRole\n <azure.mgmt.sql.models.ReplicationRole>`\n\
+    :ivar partner_role: The role of the partner database in the replication\n link.\
+    \ Possible values include: 'Primary', 'Secondary',\n 'NonReadableSecondary', 'Source',\
+    \ 'Copy'\n:vartype partner_role: str or :class:`ReplicationRole\n <azure.mgmt.sql.models.ReplicationRole>`\n\
+    :ivar start_time: The start time for the replication link.\n:vartype start_time:\
+    \ datetime\n:ivar percent_complete: The percentage of seeding complete for the\n\
+    \ replication link.\n:vartype percent_complete: int\n:ivar replication_state:\
+    \ The replication state for the replication link.\n Possible values include: 'PENDING',\
+    \ 'SEEDING', 'CATCH_UP', 'SUSPENDED'\n:vartype replication_state: str or :class:`ReplicationState\n\
+    \ <azure.mgmt.sql.models.ReplicationState>`"
   type: Class
   uid: azure.mgmt.sql.models.ReplicationLink

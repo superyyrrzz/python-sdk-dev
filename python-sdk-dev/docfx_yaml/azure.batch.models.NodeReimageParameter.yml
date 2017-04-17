@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/models/node_reimage_parameter.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Parameters for a ComputeNodeOperations.Reimage request.\n\n:param node_reimage_option:\
     \ When to reimage the compute node and what to\n do with currently running tasks.\

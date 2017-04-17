@@ -19,7 +19,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_network_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 20
   summary: 'VirtualNetworkOperations operations.
 
@@ -44,7 +44,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_network_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 185
   summary: "Create or replace an existing virtual network. This operation can take\n\
     a while to complete.\n\n:param resource_group_name: The name of the resource group.\n\
@@ -70,7 +70,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_network_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 283
   summary: "Delete virtual network. This operation can take a while to complete.\n\
     \n:param resource_group_name: The name of the resource group.\n:type resource_group_name:\
@@ -93,7 +93,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_network_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 120
   summary: "Get virtual network.\n\n:param resource_group_name: The name of the resource\
     \ group.\n:type resource_group_name: str\n:param lab_name: The name of the lab.\n\
@@ -117,7 +117,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_network_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 37
   summary: "List virtual networks in a given lab.\n\n:param resource_group_name: The\
     \ name of the resource group.\n:type resource_group_name: str\n:param lab_name:\
@@ -143,7 +143,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-devtestlabs/azure/mgmt/devtestlabs/operations/virtual_network_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 363
   summary: "Modify properties of virtual networks.\n\n:param resource_group_name:\
     \ The name of the resource group.\n:type resource_group_name: str\n:param lab_name:\

@@ -15,15 +15,13 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/csm_site_recovery_entity.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "Class containting details about site recovery operation.\n\n:param snapshot_time:\
-    \ Point in time in which the site recover should be\n attempted.\n:type snapshot_time:\
-    \ datetime\n:param recover_config: If true, then the website's configuration will\
-    \ be\n reverted to its state at SnapshotTime\n:type recover_config: bool\n:param\
-    \ site_name: [Optional] Destination web app name into which web app\n should be\
-    \ recovered. This is case when new web app should be created\n instead.\n:type\
-    \ site_name: str\n:param slot_name: [Optional] Destination web app slot name into\
-    \ which web\n app should be recovered\n:type slot_name: str"
+  summary: "Details about app recovery operation.\n\n:param snapshot_time: Point in\
+    \ time in which the app recovery should be\n attempted.\n:type snapshot_time:\
+    \ datetime\n:param site_name: [Optional] Destination app name into which app should\
+    \ be\n recovered. This is case when new app should be created instead.\n:type\
+    \ site_name: str\n:param slot_name: [Optional] Destination app slot name into\
+    \ which app\n should be recovered.\n:type slot_name: str"
   type: Class
   uid: azure.mgmt.web.models.CsmSiteRecoveryEntity

@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/ssh_configuration.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "SSH configuration for Linux based VMs running on Azure.\n\n:param public_keys:\
     \ the list of SSH public keys used to authenticate with\n linux based VMs\n:type\

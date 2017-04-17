@@ -24,7 +24,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_schedule_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 18
   summary: 'JobScheduleOperations operations.
 
@@ -49,7 +49,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_schedule_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 861
   summary: "Adds a job schedule to the specified account.\n\n:param cloud_job_schedule:\
     \ The job schedule to be added.\n:type cloud_job_schedule: :class:`JobScheduleAddParameter\n\
@@ -73,7 +73,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_schedule_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 136
   summary: "Deletes a job schedule from the specified account.\n\n:param job_schedule_id:\
     \ The id of the job schedule to delete.\n:type job_schedule_id: str\n:param job_schedule_delete_options:\
@@ -97,7 +97,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_schedule_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 563
   summary: "Disables a job schedule.\n\n:param job_schedule_id: The id of the job\
     \ schedule to disable.\n:type job_schedule_id: str\n:param job_schedule_disable_options:\
@@ -121,7 +121,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_schedule_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 662
   summary: "Enables a job schedule.\n\n:param job_schedule_id: The id of the job schedule\
     \ to enable.\n:type job_schedule_id: str\n:param job_schedule_enable_options:\
@@ -145,7 +145,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_schedule_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 35
   summary: "Checks the specified job schedule exists.\n\n:param job_schedule_id: The\
     \ id of the job schedule which you want to\n check.\n:type job_schedule_id: str\n\
@@ -169,7 +169,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_schedule_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 232
   summary: "Gets information about the specified job schedule.\n\n:param job_schedule_id:\
     \ The id of the job schedule to get.\n:type job_schedule_id: str\n:param job_schedule_get_options:\
@@ -193,7 +193,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_schedule_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 941
   summary: "Lists all of the job schedules in the specified account.\n\n:param job_schedule_list_options:\
     \ Additional parameters for the\n operation\n:type job_schedule_list_options:\
@@ -215,7 +215,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_schedule_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 350
   summary: "Updates the properties of the specified job schedule.\n\n:param job_schedule_id:\
     \ The id of the job schedule to update.\n:type job_schedule_id: str\n:param job_schedule_patch_parameter:\
@@ -241,7 +241,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_schedule_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 761
   summary: "Terminates a job schedule.\n\n:param job_schedule_id: The id of the job\
     \ schedule to terminates.\n:type job_schedule_id: str\n:param job_schedule_terminate_options:\
@@ -265,7 +265,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/batch/operations/job_schedule_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 456
   summary: "Updates the properties of the specified job schedule.\n\n:param job_schedule_id:\
     \ The id of the job schedule to update.\n:type job_schedule_id: str\n:param job_schedule_update_parameter:\

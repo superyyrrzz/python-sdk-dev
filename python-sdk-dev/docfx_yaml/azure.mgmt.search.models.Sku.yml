@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-search/azure/mgmt/search/models/sku.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Defines the SKU of an Azure Search Service, which determines price tier\
     \ and\ncapacity limits.\n\n:param name: The SKU of the Search service. Valid values\

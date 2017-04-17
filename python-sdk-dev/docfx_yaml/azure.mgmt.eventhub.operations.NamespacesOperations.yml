@@ -25,7 +25,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/namespaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 20
   summary: 'NamespacesOperations operations.
 
@@ -50,7 +50,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/namespaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 167
   summary: "Creates or updates a namespace. Once created, this namespace's resource\n\
     manifest is immutable. This operation is idempotent.\n\n:param resource_group_name:\
@@ -77,7 +77,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/namespaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 474
   summary: "Creates or updates an authorization rule for a namespace.\n\n:param resource_group_name:\
     \ The name of the resource group in which\n the namespace lives.\n:type resource_group_name:\
@@ -104,7 +104,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/namespaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 262
   summary: "Deletes an existing namespace. This operation also removes all\nassociated\
     \ resources under the namespace.\n\n:param resource_group_name: The name of the\
@@ -128,7 +128,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/namespaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 548
   summary: "Deletes an authorization rule for a namespace.\n\n:param resource_group_name:\
     \ The name of the resource group in which\n the namespace lives.\n:type resource_group_name:\
@@ -152,7 +152,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/namespaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 341
   summary: "Gets the description of the specified namespace.\n\n:param resource_group_name:\
     \ The name of the resource group in which\n the namespace lives.\n:type resource_group_name:\
@@ -176,7 +176,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/namespaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 606
   summary: "Gets an authorization rule for a namespace by rule name.\n\n:param resource_group_name:\
     \ The name of the resource group in which\n the namespace lives.\n:type resource_group_name:\
@@ -201,7 +201,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/namespaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 404
   summary: "Gets a list of authorization rules for a namespace.\n\n:param resource_group_name:\
     \ The name of the resource group in which\n the namespace lives.\n:type resource_group_name:\
@@ -224,7 +224,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/namespaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 101
   summary: "Lists the available namespaces within a resource group.\n\n:param resource_group_name:\
     \ The name of the resource group.\n:type resource_group_name: str\n:param dict\
@@ -246,7 +246,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/namespaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 37
   summary: "Lists all the available namespaces within a subscription, irrespective\n\
     of the resource groups.\n\n:param dict custom_headers: headers that will be added\
@@ -267,7 +267,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/namespaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 672
   summary: "Gets the primary and secondary connection strings for the namespace.\n\
     \n:param resource_group_name: The name of the resource group in which\n the namespace\
@@ -292,7 +292,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-eventhub/azure/mgmt/eventhub/operations/namespaces_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 738
   summary: "Regenerates the primary or secondary connection strings for the\nspecified\
     \ namespace.\n\n:param resource_group_name: The name of the resource group in\

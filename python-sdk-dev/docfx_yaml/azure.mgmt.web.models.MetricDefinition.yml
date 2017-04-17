@@ -16,17 +16,19 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/metric_definition.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "Class repesenting metadata for the metrics.\n\n:param id: Resource Id\n\
-    :type id: str\n:param name: Resource Name\n:type name: str\n:param kind: Kind\
-    \ of resource\n:type kind: str\n:param location: Resource Location\n:type location:\
-    \ str\n:param type: Resource type\n:type type: str\n:param tags: Resource tags\n\
-    :type tags: dict\n:param metric_definition_name: Name of the metric\n:type metric_definition_name:\
-    \ str\n:param unit: Unit of the metric\n:type unit: str\n:param primary_aggregation_type:\
-    \ Primary aggregation type\n:type primary_aggregation_type: str\n:param metric_availabilities:\
-    \ List of time grains supported for the\n metric together with retention period\n\
-    :type metric_availabilities: list of :class:`MetricAvailabilily\n <azure.mgmt.web.models.MetricAvailabilily>`\n\
-    :param display_name: Friendly name shown in the UI\n:type display_name: str"
+  summary: "Metadata for a metric.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:ivar id: Resource Id.\n:vartype\
+    \ id: str\n:param name: Resource Name.\n:type name: str\n:param kind: Kind of\
+    \ resource.\n:type kind: str\n:param location: Resource Location.\n:type location:\
+    \ str\n:param type: Resource type.\n:type type: str\n:param tags: Resource tags.\n\
+    :type tags: dict\n:ivar metric_definition_name: Name of the metric.\n:vartype\
+    \ metric_definition_name: str\n:ivar unit: Unit of the metric.\n:vartype unit:\
+    \ str\n:ivar primary_aggregation_type: Primary aggregation type.\n:vartype primary_aggregation_type:\
+    \ str\n:ivar metric_availabilities: List of time grains supported for the metric\n\
+    \ together with retention period.\n:vartype metric_availabilities: list of :class:`MetricAvailabilily\n\
+    \ <azure.mgmt.web.models.MetricAvailabilily>`\n:ivar display_name: Friendly name\
+    \ shown in the UI.\n:vartype display_name: str"
   type: Class
   uid: azure.mgmt.web.models.MetricDefinition

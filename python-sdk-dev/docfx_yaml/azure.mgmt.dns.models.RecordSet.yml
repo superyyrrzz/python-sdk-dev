@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-dns/azure/mgmt/dns/models/record_set.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Describes a DNS record set (a collection of DNS records with the same\
     \ name\nand type).\n\n:param id: The ID of the record set.\n:type id: str\n:param\

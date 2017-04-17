@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/resource/resources/models/dependency.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Deployment dependency information.\n\n:param depends_on: The list of dependencies.\n\
     :type depends_on: list of :class:`BasicDependency\n <azure.mgmt.resource.resources.models.BasicDependency>`\n\

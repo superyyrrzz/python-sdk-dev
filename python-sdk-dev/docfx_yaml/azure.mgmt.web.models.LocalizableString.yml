@@ -15,16 +15,16 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/localizable_string.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: 'LocalizableString object containing the name and a localized value.
+  summary: 'Localizable string object containing the name and a localized value.
 
 
-    :param value: Non localized name
+    :param value: Non-localized name.
 
     :type value: str
 
-    :param localized_value: Localized name
+    :param localized_value: Localized name.
 
     :type localized_value: str'
   type: Class

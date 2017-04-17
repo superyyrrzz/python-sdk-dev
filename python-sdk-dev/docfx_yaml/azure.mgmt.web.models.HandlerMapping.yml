@@ -15,11 +15,11 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/handler_mapping.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "The IIS handler mappings used to define which handler processes HTTP\n\
-    requests with certain extension.\nFor example it is used to configure php-cgi.exe\
-    \ process to\nhandle all HTTP requests with *.php extension.\n\n:param extension:\
+    requests with certain extension.\nFor example, it is used to configure php-cgi.exe\
+    \ process to handle all HTTP\nrequests with *.php extension.\n\n:param extension:\
     \ Requests with this extension will be handled using the\n specified FastCGI application.\n\
     :type extension: str\n:param script_processor: The absolute path to the FastCGI\
     \ application.\n:type script_processor: str\n:param arguments: Command-line arguments\

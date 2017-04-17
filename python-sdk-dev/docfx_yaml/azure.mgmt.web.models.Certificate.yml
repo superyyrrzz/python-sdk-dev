@@ -16,26 +16,37 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/certificate.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "App certificate.\n\n:param id: Resource Id\n:type id: str\n:param name:\
-    \ Resource Name\n:type name: str\n:param kind: Kind of resource\n:type kind: str\n\
-    :param location: Resource Location\n:type location: str\n:param type: Resource\
-    \ type\n:type type: str\n:param tags: Resource tags\n:type tags: dict\n:param\
-    \ friendly_name: Friendly name of the certificate\n:type friendly_name: str\n\
-    :param subject_name: Subject name of the certificate\n:type subject_name: str\n\
-    :param host_names: Host names the certificate applies to\n:type host_names: list\
-    \ of str\n:param pfx_blob: Pfx blob\n:type pfx_blob: str\n:param site_name: App\
-    \ name\n:type site_name: str\n:param self_link: Self link\n:type self_link: str\n\
-    :param issuer: Certificate issuer\n:type issuer: str\n:param issue_date: Certificate\
-    \ issue Date\n:type issue_date: datetime\n:param expiration_date: Certificate\
-    \ expriration date\n:type expiration_date: datetime\n:param password: Certificate\
-    \ password\n:type password: str\n:param thumbprint: Certificate thumbprint\n:type\
-    \ thumbprint: str\n:param valid: Is the certificate valid?\n:type valid: bool\n\
-    :param cer_blob: Raw bytes of .cer file\n:type cer_blob: str\n:param public_key_hash:\
-    \ Public key hash\n:type public_key_hash: str\n:param hosting_environment_profile:\
-    \ Specification for the hosting\n environment (App Service Environment) to use\
-    \ for the certificate\n:type hosting_environment_profile: :class:`HostingEnvironmentProfile\n\
-    \ <azure.mgmt.web.models.HostingEnvironmentProfile>`"
+  summary: "SSL certificate for an app.\n\nVariables are only populated by the server,\
+    \ and will be ignored when\nsending a request.\n\n:ivar id: Resource Id.\n:vartype\
+    \ id: str\n:param name: Resource Name.\n:type name: str\n:param kind: Kind of\
+    \ resource.\n:type kind: str\n:param location: Resource Location.\n:type location:\
+    \ str\n:param type: Resource type.\n:type type: str\n:param tags: Resource tags.\n\
+    :type tags: dict\n:ivar friendly_name: Friendly name of the certificate.\n:vartype\
+    \ friendly_name: str\n:ivar subject_name: Subject name of the certificate.\n:vartype\
+    \ subject_name: str\n:param host_names: Host names the certificate applies to.\n\
+    :type host_names: list of str\n:param pfx_blob: Pfx blob.\n:type pfx_blob: bytearray\n\
+    :ivar site_name: App name.\n:vartype site_name: str\n:ivar self_link: Self link.\n\
+    :vartype self_link: str\n:ivar issuer: Certificate issuer.\n:vartype issuer: str\n\
+    :ivar issue_date: Certificate issue Date.\n:vartype issue_date: datetime\n:ivar\
+    \ expiration_date: Certificate expriration date.\n:vartype expiration_date: datetime\n\
+    :param password: Certificate password.\n:type password: str\n:ivar thumbprint:\
+    \ Certificate thumbprint.\n:vartype thumbprint: str\n:ivar valid: Is the certificate\
+    \ valid?.\n:vartype valid: bool\n:param cer_blob: Raw bytes of .cer file\n:type\
+    \ cer_blob: str\n:ivar public_key_hash: Public key hash.\n:vartype public_key_hash:\
+    \ str\n:ivar hosting_environment_profile: Specification for the App Service\n\
+    \ Environment to use for the certificate.\n:vartype hosting_environment_profile:\
+    \ :class:`HostingEnvironmentProfile\n <azure.mgmt.web.models.HostingEnvironmentProfile>`\n\
+    :param key_vault_id: Key Vault Csm resource Id.\n:type key_vault_id: str\n:param\
+    \ key_vault_secret_name: Key Vault secret name.\n:type key_vault_secret_name:\
+    \ str\n:ivar key_vault_secret_status: Status of the Key Vault secret. Possible\n\
+    \ values include: 'Initialized', 'WaitingOnCertificateOrder', 'Succeeded',\n 'CertificateOrderFailed',\
+    \ 'OperationNotPermittedOnKeyVault',\n 'AzureServiceUnauthorizedToAccessKeyVault',\
+    \ 'KeyVaultDoesNotExist',\n 'KeyVaultSecretDoesNotExist', 'UnknownError', 'ExternalPrivateKey',\n\
+    \ 'Unknown'\n:vartype key_vault_secret_status: str or :class:`KeyVaultSecretStatus\n\
+    \ <azure.mgmt.web.models.KeyVaultSecretStatus>`\n:param server_farm_id: Resource\
+    \ ID of the associated App Service plan,\n formatted as:\n \"/subscriptions/{subscriptionID}/resourceGroups/{groupName}/providers/Microsoft.Web/serverfarms/{appServicePlanName}\"\
+    .\n:type server_farm_id: str"
   type: Class
   uid: azure.mgmt.web.models.Certificate

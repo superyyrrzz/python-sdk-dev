@@ -18,7 +18,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/data_lake_store_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'DataLakeStoreAccountsOperations operations.
 
@@ -43,7 +43,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/data_lake_store_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 166
   summary: "Updates the specified Data Lake Analytics account to include the\nadditional\
     \ Data Lake Store account.\n\n:param resource_group_name: The name of the Azure\
@@ -70,7 +70,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/data_lake_store_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 105
   summary: "Updates the Data Lake Analytics account specified to remove the\nspecified\
     \ Data Lake Store account.\n\n:param resource_group_name: The name of the Azure\
@@ -96,7 +96,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/data_lake_store_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 36
   summary: "Gets the specified Data Lake Store account details in the specified\n\
     Data Lake Analytics account.\n\n:param resource_group_name: The name of the Azure\
@@ -124,7 +124,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-analytics/azure/mgmt/datalake/analytics/account/operations/data_lake_store_accounts_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 240
   summary: "Gets the first page of Data Lake Store accounts linked to the specified\n\
     Data Lake Analytics account. The response includes a link to the next\npage, if\

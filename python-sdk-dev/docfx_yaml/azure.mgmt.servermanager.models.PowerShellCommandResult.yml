@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-servermanager/azure/mgmt/servermanager/models/power_shell_command_result.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Results from invoking a PowerShell command.\n\n:param message_type: The\
     \ type of message.\n:type message_type: int\n:param foreground_color: The HTML\

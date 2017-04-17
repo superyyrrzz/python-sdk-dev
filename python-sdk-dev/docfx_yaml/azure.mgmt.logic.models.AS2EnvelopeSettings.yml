@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/logic/models/as2_envelope_settings.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "AS2EnvelopeSettings.\n\n:param message_content_type: The message content\
     \ type.\n:type message_content_type: str\n:param transmit_file_name_in_mime_header:\

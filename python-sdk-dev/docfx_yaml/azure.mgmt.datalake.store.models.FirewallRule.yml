@@ -16,34 +16,15 @@ items:
     remote:
       branch: master
       path: azure-mgmt-datalake-store/azure/mgmt/datalake/store/models/firewall_rule.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: 'Data Lake Store firewall rule information.
-
-
-    Variables are only populated by the server, and will be ignored when
-
-    sending a request.
-
-
-    :ivar id: Resource Id
-
-    :vartype id: str
-
-    :param name: Resource name
-
-    :type name: str
-
-    :ivar type: Resource type
-
-    :vartype type: str
-
-    :param start_ip_address: the start IP address for the firewall rule.
-
-    :type start_ip_address: str
-
-    :param end_ip_address: the end IP address for the firewall rule.
-
-    :type end_ip_address: str'
+  summary: "Data Lake Store firewall rule information.\n\nVariables are only populated\
+    \ by the server, and will be ignored when\nsending a request.\n\n:ivar id: Resource\
+    \ Id\n:vartype id: str\n:param name: Resource name\n:type name: str\n:ivar type:\
+    \ Resource type\n:vartype type: str\n:param start_ip_address: the start IP address\
+    \ for the firewall rule. This\n can be either ipv4 or ipv6. Start and End should\
+    \ be in the same protocol.\n:type start_ip_address: str\n:param end_ip_address:\
+    \ the end IP address for the firewall rule. This can\n be either ipv4 or ipv6.\
+    \ Start and End should be in the same protocol.\n:type end_ip_address: str"
   type: Class
   uid: azure.mgmt.datalake.store.models.FirewallRule

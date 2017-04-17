@@ -15,16 +15,16 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/hosting_environment_diagnostics.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: 'Diagnostics for a hosting environment (App Service Environment).
+  summary: 'Diagnostics for an App Service Environment.
 
 
-    :param name: Name/identifier of the diagnostics
+    :param name: Name/identifier of the diagnostics.
 
     :type name: str
 
-    :param diagnosics_output: Diagnostics output
+    :param diagnosics_output: Diagnostics output.
 
     :type diagnosics_output: str'
   type: Class

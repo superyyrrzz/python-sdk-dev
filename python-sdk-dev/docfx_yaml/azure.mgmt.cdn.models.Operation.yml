@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-cdn/azure/mgmt/cdn/models/operation.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "CDN REST API operation.\n\n:param name: Operation name: {provider}/{resource}/{operation}\n\
     :type name: str\n:param display: The object that represents the operation.\n:type\

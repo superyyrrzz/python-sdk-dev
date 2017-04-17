@@ -15,17 +15,22 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/resource_metric_name.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: 'Name of a metric for any resource.
+  summary: 'Name of a metric for any resource .
 
 
-    :param value: metric name value
+    Variables are only populated by the server, and will be ignored when
 
-    :type value: str
+    sending a request.
 
-    :param localized_value: Localized metric name value
 
-    :type localized_value: str'
+    :ivar value: metric name value.
+
+    :vartype value: str
+
+    :ivar localized_value: Localized metric name value.
+
+    :vartype localized_value: str'
   type: Class
   uid: azure.mgmt.web.models.ResourceMetricName

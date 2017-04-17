@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/network/models/vpn_client_configuration.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "VpnClientConfiguration for P2S client.\n\n:param vpn_client_address_pool:\
     \ Gets or sets the reference of the Address\n space resource which represents\

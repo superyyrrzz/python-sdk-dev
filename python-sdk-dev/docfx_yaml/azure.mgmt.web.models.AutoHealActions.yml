@@ -15,16 +15,14 @@ items:
     remote:
       branch: master
       path: azure-mgmt-web/azure/mgmt/web/models/auto_heal_actions.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
-  summary: "AutoHealActions - Describes the actions which can be\ntaken by the auto-heal\
-    \ module when a rule is triggered.\n\n:param action_type: ActionType - predefined\
-    \ action to be taken. Possible\n values include: 'Recycle', 'LogEvent', 'CustomAction'\n\
-    :type action_type: str or :class:`AutoHealActionType\n <azure.mgmt.web.models.AutoHealActionType>`\n\
-    :param custom_action: CustomAction - custom action to be taken\n:type custom_action:\
-    \ :class:`AutoHealCustomAction\n <azure.mgmt.web.models.AutoHealCustomAction>`\n\
-    :param min_process_execution_time: MinProcessExecutionTime - minimum time\n the\
-    \ process must execute\n before taking the action\n:type min_process_execution_time:\
-    \ str"
+  summary: "Actions which to take by the auto-heal module when a rule is triggered.\n\
+    \n:param action_type: Predefined action to be taken. Possible values\n include:\
+    \ 'Recycle', 'LogEvent', 'CustomAction'\n:type action_type: str or :class:`AutoHealActionType\n\
+    \ <azure.mgmt.web.models.AutoHealActionType>`\n:param custom_action: Custom action\
+    \ to be taken.\n:type custom_action: :class:`AutoHealCustomAction\n <azure.mgmt.web.models.AutoHealCustomAction>`\n\
+    :param min_process_execution_time: Minimum time the process must execute\n before\
+    \ taking the action\n:type min_process_execution_time: str"
   type: Class
   uid: azure.mgmt.web.models.AutoHealActions

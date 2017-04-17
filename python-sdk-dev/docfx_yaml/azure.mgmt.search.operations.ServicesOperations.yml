@@ -19,7 +19,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-search/azure/mgmt/search/operations/services_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 19
   summary: 'ServicesOperations operations.
 
@@ -44,7 +44,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-search/azure/mgmt/search/operations/services_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 355
   summary: "Checks whether or not the given Search service name is available for\n\
     use. Search service names must be globally unique since they are part\nof the\
@@ -73,7 +73,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-search/azure/mgmt/search/operations/services_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 36
   summary: "Creates or updates a Search service in the given resource group. If the\n\
     Search service already exists, all properties will be updated with the\ngiven\
@@ -109,7 +109,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-search/azure/mgmt/search/operations/services_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 207
   summary: "Deletes a Search service in the given resource group, along with its\n\
     associated resources.\n\n:param resource_group_name: The name of the resource\
@@ -137,7 +137,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-search/azure/mgmt/search/operations/services_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 130
   summary: "Gets the Search service with the given name in the given resource\ngroup.\n\
     \n:param resource_group_name: The name of the resource group within the\n current\
@@ -166,7 +166,7 @@ items:
     remote:
       branch: master
       path: azure-mgmt-search/azure/mgmt/search/operations/services_operations.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 276
   summary: "Gets a list of all Search services in the given resource group.\n\n:param\
     \ resource_group_name: The name of the resource group within the\n current subscription.\

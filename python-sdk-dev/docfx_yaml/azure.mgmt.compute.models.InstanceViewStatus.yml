@@ -15,7 +15,7 @@ items:
     remote:
       branch: master
       path: Users/eric/.virtualenvs/sphinx-docfx-yaml/lib/python3.5/site-packages/azure/mgmt/compute/models/instance_view_status.py
-      repo: https://github.com/Azure/azure-sdk-for-python/
+      repo: git@github.com:ericholscher/azure-sdk-for-python.git
     startLine: 15
   summary: "Instance view status.\n\n:param code: the status Code.\n:type code: str\n\
     :param level: the level Code. Possible values include: 'Info', 'Warning',\n 'Error'\n\
