@@ -18,3 +18,9 @@ items:
   summary: ''
   type: Namespace
   uid: azure.keyvault.key_vault_id
+references:
+  - uid: azure.keyvault.key_vault_id.KeyVaultId
+    parent: azure.keyvault.key_vault_id
+    isExternal: false
+    name: KeyVaultId
+    fullName: azure.keyvault.key_vault_id.KeyVaultId
